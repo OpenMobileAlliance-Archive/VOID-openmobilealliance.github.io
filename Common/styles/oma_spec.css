@@ -3,3 +3,11 @@
   right: 2em;
   top: 4em;
 }
+
+table > thead > tr > td {
+  font-weight: bold;
+}
+
+td {
+	min-width: 200px;
+}
