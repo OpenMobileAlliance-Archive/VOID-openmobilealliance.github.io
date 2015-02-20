@@ -1,11 +1,12 @@
 [
 	{
-		repository: "",
-		technical_specifications: "",
-		developer_toolkit: "",
-		omna_info: "",
-		profile_data: "",
-		events: "",
-		reference_material: ""
+		"repository": "https://github.com/OpenMobileAlliance/OMA-LwM2M",
+		"logo": "https://openmobilealliance.github.io/Common/images/oma_logo.jpg",
+		"technical_specifications": "",
+		"developer_toolkit": "",
+		"omna_info": "",
+		"profile_data": "",
+		"events": "",
+		"reference_material": ""
 	}
 ]
