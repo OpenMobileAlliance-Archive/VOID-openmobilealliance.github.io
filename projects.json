@@ -43,5 +43,16 @@
 		"profile_data": "",
 		"events": "",
 		"reference_material": ""
+	},
+	{
+		"name": "Mobile Codes",
+		"repository": "#",
+		"logo": "https://openmobilealliance.github.io/Common/images/oma_logo.jpg",
+		"technical_specifications": "",
+		"developer_toolkit": "",
+		"omna_info": "",
+		"profile_data": "",
+		"events": "",
+		"reference_material": ""
 	}
 ]
