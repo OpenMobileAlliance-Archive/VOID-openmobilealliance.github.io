@@ -2,7 +2,7 @@
 	{
 		"name": "LwM2M",
 		"repository": "https://github.com/OpenMobileAlliance/OMA-LwM2M",
-		"logo": "https://openmobilealliance.github.io/Common/images/oma_logo.jpg",
+		"logo": "https://raw.githubusercontent.com/OpenMobileAlliance/OMA-LwM2M-Public-Review/master/images/admin/lwm2m_logo_v6.jpg",
 		"technical_specifications": [
 			{
 				"label": "HTML",
