@@ -13,7 +13,7 @@
 				"key": "#"
 			}
 		],
-		"developer_toolkit": [{"label": "OpenMobileAlliance/OMA-LWM2M-DevKit", "key":"https://github.com/OpenMobileAlliance/OMA-LWM2M-DevKit"}],
+		"developer_toolkit": [{"label": "OMA LwM2M Developer Toolkit", "key":"https://github.com/OpenMobileAlliance/OMA-LwM2M-Public-Review/wiki"}],
 		"omna_info": "",
 		"profile_data": "",
 		"events": [
