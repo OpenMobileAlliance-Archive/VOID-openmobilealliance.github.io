@@ -23,9 +23,9 @@
 		"reference_material": ""
 	},
 	{
-		"name": "eCommerce",
+		"name": "eCommerce Test",
 		"repository": "https://github.com/OpenMobileAlliance/OMA-LwM2M",
-		"logo": "",
+		"logo": "https://openmobilealliance.github.io/Common/images/oma_logo.jpg",
 		"technical_specifications": "",
 		"developer_toolkit": "",
 		"omna_info": "",
