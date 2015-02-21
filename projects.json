@@ -1,7 +1,42 @@
 [
 	{
+		"name": "LwM2M",
 		"repository": "https://github.com/OpenMobileAlliance/OMA-LwM2M",
 		"logo": "https://openmobilealliance.github.io/Common/images/oma_logo.jpg",
+		"technical_specifications": [
+			{
+				"label": "HTML",
+				"key": "#"
+			},
+			{
+				"label": "PDF",
+				"key": "#"
+			}
+		],
+		"developer_toolkit": [{"label": "OpenMobileAlliance/OMA-LWM2M-DevKit", "key":"https://github.com/OpenMobileAlliance/OMA-LWM2M-DevKit"}],
+		"omna_info": "",
+		"profile_data": "",
+		"events": [
+			{"label":"Test Fest", "key": "#"},
+			{"label": "Workshops", "key": "#"}
+		],
+		"reference_material": ""
+	},
+	{
+		"name": "eCommerce",
+		"repository": "https://github.com/OpenMobileAlliance/OMA-LwM2M",
+		"logo": "",
+		"technical_specifications": "",
+		"developer_toolkit": "",
+		"omna_info": "",
+		"profile_data": "",
+		"events": "",
+		"reference_material": ""
+	},
+	{
+		"name": "GotAPI",
+		"repository": "https://github.com/OpenMobileAlliance/GotAPI",
+		"logo": "",
 		"technical_specifications": "",
 		"developer_toolkit": "",
 		"omna_info": "",
