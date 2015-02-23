@@ -1,11 +1,7 @@
 [
-	//
-	// TEMPLATE
-	//
-
 	{
 		"enabler": "enabler name",
-		"release type": ["release type"], // options are "Enabler Release" or "Reference Release"
+		"release type": ["release type"],
 		"phase_1": [
 			{
 				"version": "",
@@ -21,10 +17,6 @@
 			}
 		]
 	},
-
-	//
-	// EXAMPLE
-	//
 	{
 		"enabler": "OMA Condition Based URIs Selection",
 		"release_type": ["Reference Release", "Enabler Release"],
