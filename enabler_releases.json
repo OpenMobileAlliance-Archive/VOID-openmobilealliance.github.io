@@ -1,7 +1,7 @@
 [
 	{
 		"enabler": "enabler name",
-		"release type": ["release type"],
+		"release_type": ["release type"],
 		"phase_1": [
 			{
 				"version": "",

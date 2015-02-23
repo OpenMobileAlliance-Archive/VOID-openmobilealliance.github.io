@@ -107,37 +107,24 @@
 	</div>
 </div>
 
-<script>
-	var omapi = angular.module('omaProjectIndex', []);
-
-	omapi.controller('IndexController', ['$scope', '$http', function($scope, $http) {
-		$http.get('projects.json').then(function(resp) {
-			$scope.projects = resp.data;
-		});
-	}]);
-</script>
-
-
 <!--
 	Legacy Enabler Releases
 -->
-<div class="row">
+<div class="row" ng-controller="EnablerController">
 	<div class="col-md-12">
 		<h2>
 			OMA Enabler Releases
 			(<a href="http://technical.openmobilealliance.org/Technical/technical-information/release-program/current-releases">View Release Page</a>)
 		</h2>
-
-
     <table class="table-bordered" style="width:100%">
-    	<thead>
-    		<tr>
-    			<td>List of Enablers</td>
-    			<td>Release Type</td>
-    			<td>OMA Phase 1: Candidate Release</td>
-    			<td>OMA Phase 2: Approved Release</td>
-			</tr>
-    	</thead>
+        <thead>
+            <tr>
+                <td>List of Enablers</td>
+                <td>Release Type</td>
+                <td>OMA Phase 1: Candidate Release</td>
+                <td>OMA Phase 2: Approved Release</td>
+            </tr>
+        </thead>
         <tbody>
             <tr class="row-3">
                 <td class="column-1">OMA Application Layer Security Common Functions</td>
@@ -2249,8 +2236,48 @@
 
 
 
+<!--
+        <table ng-controller="EnablerController" class="table-bordered" style="width:100%">
+            <thead>
+                <tr>
+                    <td>List of Enablers</td>
+                    <td>Release</td>
+                    <td>OMA Phase 1: Candidate Release</td>
+                    <td>OMA Phase 2: Approved Release</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr ng-repeat="enabler in enablers">
+                    <td>{{ enabler.enabler }}</td>
+                    <td>
+                        <span ng-repeat="release in enabler.release_type">
+                            {{ release }}<br>
+                        </span>
+                    </td>
+                    <td>{{ enabler.phase_1 }}</td>
+                    <td>{{ enabler.phase_2 }}</td>
+                </tr>
+            </tbody>
+        </table>
+-->
 	</div>
 </div>
+
+<script>
+    var omapi = angular.module('omaProjectIndex', []);
+
+    omapi.controller('IndexController', ['$scope', '$http', function($scope, $http) {
+        $http.get('projects.json').then(function(resp) {
+            $scope.projects = resp.data;
+        });
+    }]);
+
+    omapi.controller('EnablerController', ['$scope', '$http', function($scope, $http) {
+        $http.get('enabler_releases.json').then(function(resp) {
+            $scope.enablers = resp.data;
+        });
+    }]);
+</script>
 
 </body>
 </html>
