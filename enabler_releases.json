@@ -1,0 +1,40 @@
+[
+	//
+	// TEMPLATE
+	//
+
+	{
+		"enabler": "enabler name",
+		"release type": ["release type"], // options are "Enabler Release" or "Reference Release"
+		"phase_1": [
+			{
+				"version": "",
+				"note": "",
+				"link": ""
+			}
+		],
+		"phase_2": [
+			{
+				"version": "",
+				"note": "",
+				"link": ""
+			}
+		]
+	},
+
+	//
+	// EXAMPLE
+	//
+	{
+		"enabler": "OMA Condition Based URIs Selection",
+		"release_type": ["Reference Release", "Enabler Release"],
+		"phase_1": [],
+		"phase_2": [
+			{
+				"version": "1.0",
+				"note": "RRP",
+				"link": "http://technical.openmobilealliance.org/Technical/technical-information/release-program/current-releases/cbus-rrp-v1-0"
+			}
+		]
+	}
+]
