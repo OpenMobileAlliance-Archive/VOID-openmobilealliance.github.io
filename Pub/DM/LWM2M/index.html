@@ -3,10 +3,70 @@
 <head><meta lang="" property="dc:language" content="en"><meta charset="utf-8">
 <title>OMA TS LightweightM2M v1.0</title>
 
+<style>
+nav {  }
+header + nav {  }
 
+#head nav {
+
+}
+#head nav > div {
+  display: inline-block;
+}
+#head nav > div > a {
+  display: inline-block;
+  white-space: nowrap;
+  font: 1em/1 Helvetica Neue, sans-serif, Droid Sans Fallback;
+  text-decoration: none;
+  width: auto;
+  margin: 0.5em;
+  color: #F3F3F3;
+  text-align: center;
+}
+#head nav > div > a { box-shadow: 0 0 0px #3C790A; background: #3C790A; }
+#head nav > div > a.community { box-shadow: 0 0 0px #165FCC; background: #165FCC; } /* #165FCC #43679D #0B2F66 */
+#head nav > div > a.feedback { box-shadow: 0 0 0px #FF3E3A; background: #FF3E3A; } /* #FF3E3A #CD6B6A #990300 */
+#head nav > div > a.changes { box-shadow: 0 0 0px #54B29A; background: #54B29A; } /* #54B29A #6A9A8E #28584C */
+#head nav > div > a.misc { box-shadow: 0 0 0px #FFA32D; background: #FFA32D; } /* #FFA32D #CB9D62 #945400 */
+#head nav > div > a > * > * {
+  display: block;
+  padding: 0.1em 1em 0.1em;
+  background: rgba(255,255,255,0.9);
+  color: black;
+  font: inherit;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+#head nav > div > a > * > *:first-child {
+  padding-top: 0.5em;
+}
+#head nav > div > a > * > *:last-child {
+  padding-bottom: 1em;
+}
+#head nav > div > a > * > strong {
+  color: blue;
+  text-decoration: underline;
+  padding-bottom: 0.5em;
+}
+#head nav > div > a > * > code {
+  font-size: 0.8em;
+}
+</style>
+
+<header id=head class="head with-buttons">
+   <nav>
+    <div>
+     <a href=# class=community><span><strong>Discussion</strong> <code>stackoverflow / LWM2M</code></span></a>
+     <a href=# class=feedback><span><strong>Bug Tracker</strong> <code>github issues</code></span></a>
+     <a href=# class=misc><span><strong>Developer Toolkit</strong> <code>wiki</code></span></a>
+    </div>
+   </nav>
+  </header>
 
 
 <style>/* HIGHLIGHTS */
+
+
 code.prettyprint {
     color:  inherit;
 }
@@ -21,7 +81,7 @@ code.prettyprint {
  *****************************************************************/
 
 /* --- INLINES --- */
-em.rfc2119 { 
+em.rfc2119 {
     text-transform:     lowercase;
     font-variant:       small-caps;
     font-style:         normal;
@@ -132,55 +192,55 @@ table.simple {
 }
 </style><link rel="stylesheet" href="https://www.w3.org/StyleSheets/TR/w3c-unofficial"><!--[if lt IE 9]><script src='https://www.w3.org/2008/site/js/html5shiv.js'></script><![endif]--></head><body class="h-entry" role="document" id="respecDocument"><div class="head" role="contentinfo" id="respecHeader">
   <p>
-      
+
         </p><p><span id="speclogo"><img src="https://openmobilealliance.github.io/Common/images/oma_logo.jpg" alt="openmobilealliance.org"></span></p>
-      
+
   <p></p>
   <h1 class="title p-name" id="title" property="dcterms:title">OMA TS LightweightM2M v1.0</h1>
-  
+
     <h2 property="bibo:subtitle" id="subtitle">Pilot doc, based on baseline dated on 11 Nov 2014</h2>
-  
+
   <h2 id="unofficial-draft-07-april-2015">Unofficial Draft <time property="dcterms:issued" class="dt-published" datetime="2015-04-07">07 April 2015</time></h2>
   <dl>
-    
-    
-    
-    
-    
-    
-    
-    
+
+
+
+
+
+
+
+
     <dt>Editor:</dt>
     <dd class="p-author h-card vcard" property="bibo:editor" resource="_:editor0"><span property="rdf:first" typeof="foaf:Person"><span property="foaf:name" class="p-name fn">Editor Name</span>, <a property="foaf:workplaceHomepage" class="p-org org h-org h-card" href="http://openmobilealliance.org/">Open Mobile Alliance</a></span>
 <span property="rdf:rest" resource="rdf:nil"></span>
 </dd>
 
-    
+
       <dt>Author:</dt>
       <dd class="p-author h-card vcard"><span property="dc:contributor" typeof="foaf:Person"><span property="foaf:name" class="p-name fn">Author Name</span>, <a property="foaf:workplaceHomepage" class="p-org org h-org h-card" href="http:openmobilealliance.org/">Open Mobile Alliance</a></span>
 </dd>
 
-    
-    
+
+
   </dl>
-  
-  
-  
-  
-    
+
+
+
+
+
       <p class="copyright">Copyright © 2014 <a href="https://openmobilealliance.org/">OMA</a>. <a href="http://technical.openmobilealliance.org/use_agreement.aspx">Use Agreement</a> and <a href="https://openmobilealliance.github.io/Legal/Agreement.html">Legal Agreements</a> apply.</p>
-    
-  
+
+
   <hr>
 </div><h2 id="abstract" class="introductory" property="dc:abstract"><h2 id="abstract-1">Abstract</h2><p>Abstract</p></h2><section id="sotd" class="introductory"><h2 id="h-sotd" resource="#h-sotd"><span property="xhv:role" resource="xhv:heading">Status of This Document</span></h2>
-  
+
     <p>
       This document is merely a public working draft of a potential specification. It has
       no official standing of any kind and does not represent the support or consensus of any
       standards organisation.
     </p>
-    
-  
+
+
 </section><section id="toc"><h2 class="introductory" id="h-toc" resource="#h-toc"><span property="xhv:role" resource="xhv:heading">Table of Contents</span></h2><ul class="toc" role="directory" id="respecContents"><li class="tocline"><a href="#terminology-and-conventions" class="tocxref"><span class="secno">1. </span>Terminology and Conventions</a><ul class="toc"><li class="tocline"><a href="#conventions" class="tocxref"><span class="secno">1.1 </span>Conventions</a><ul class="toc"><li class="tocline"><a href="#definitions" class="tocxref"><span class="secno">1.1.1 </span>Definitions</a></li><li class="tocline"><a href="#abbreviations" class="tocxref"><span class="secno">1.1.2 </span>Abbreviations</a></li></ul></li></ul></li><li class="tocline"><a href="#introduction" class="tocxref"><span class="secno">2. </span>Introduction</a><ul class="toc"><li class="tocline"><a href="#version-1.0" class="tocxref"><span class="secno">2.1 </span>Version 1.0</a></li></ul></li><li class="tocline"><a href="#interfaces" class="tocxref"><span class="secno">3. </span>Interfaces</a><ul class="toc"><li class="tocline"><a href="#bootstrap-interface" class="tocxref"><span class="secno">3.1 </span>Bootstrap Interface</a><ul class="toc"><li class="tocline"><a href="#bootstrap-information" class="tocxref"><span class="secno">3.1.1 </span>Bootstrap Information</a></li><li class="tocline"><a href="#bootstrap-modes" class="tocxref"><span class="secno">3.1.2 </span>Bootstrap Modes</a><ul class="toc"><li class="tocline"><a href="#factory-bootstrap" class="tocxref"><span class="secno">3.1.2.1 </span>Factory Bootstrap</a></li><li class="tocline"><a href="#bootstrap-from-smartcard" class="tocxref"><span class="secno">3.1.2.2 </span>Bootstrap from Smartcard</a></li><li class="tocline"><a href="#client-initiated-bootstrap" class="tocxref"><span class="secno">3.1.2.3 </span>Client Initiated Bootstrap</a></li><li class="tocline"><a href="#server-initiated-bootstrap" class="tocxref"><span class="secno">3.1.2.4 </span>Server Initiated Bootstrap</a></li></ul></li><li class="tocline"><a href="#bootstrap-sequence" class="tocxref"><span class="secno">3.1.3 </span>Bootstrap Sequence</a></li><li class="tocline"><a href="#bootstrap-security" class="tocxref"><span class="secno">3.1.4 </span>Bootstrap Security</a></li></ul></li><li class="tocline"><a href="#client-registration-interface" class="tocxref"><span class="secno">3.2 </span>Client Registration Interface</a><ul class="toc"><li class="tocline"><a href="#register" class="tocxref"><span class="secno">3.2.1 </span>Register</a><ul class="toc"><li class="tocline"><a href="#behavior-with-current-transport-binding-and-mode" class="tocxref"><span class="secno">3.2.1.1 </span>Behavior with Current Transport Binding and Mode</a></li></ul></li><li class="tocline"><a href="#update" class="tocxref"><span class="secno">3.2.2 </span>Update</a></li><li class="tocline"><a href="#de-register" class="tocxref"><span class="secno">3.2.3 </span>De-register</a></li></ul></li><li class="tocline"><a href="#device-management-service-enablement-interface" class="tocxref"><span class="secno">3.3 </span>Device Management &amp; Service Enablement Interface</a><ul class="toc"><li class="tocline"><a href="#read" class="tocxref"><span class="secno">3.3.1 </span>Read</a></li><li class="tocline"><a href="#discover" class="tocxref"><span class="secno">3.3.2 </span>Discover</a></li><li class="tocline"><a href="#write" class="tocxref"><span class="secno">3.3.3 </span>
                 Write
             </a></li><li class="tocline"><a href="#write-attributes" class="tocxref"><span class="secno">3.3.4 </span>Write Attributes</a></li><li class="tocline"><a href="#execute" class="tocxref"><span class="secno">3.3.5 </span>Execute</a></li><li class="tocline"><a href="#create" class="tocxref"><span class="secno">3.3.6 </span>Create</a></li><li class="tocline"><a href="#delete" class="tocxref"><span class="secno">3.3.7 </span>Delete</a></li></ul></li><li class="tocline"><a href="#information-reporting-interface" class="tocxref"><span class="secno">3.4 </span>Information Reporting Interface</a><ul class="toc"><li class="tocline"><a href="#observe" class="tocxref"><span class="secno">3.4.1 </span>Observe</a></li><li class="tocline"><a href="#notify" class="tocxref"><span class="secno">3.4.2 </span>Notify</a></li><li class="tocline"><a href="#cancel-observation" class="tocxref"><span class="secno">3.4.3 </span>Cancel Observation</a></li></ul></li></ul></li><li class="tocline"><a href="#identifiers-and-resources" class="tocxref"><span class="secno">4. </span>Identifiers and Resources</a><ul class="toc"><li class="tocline"><a href="#resource-model" class="tocxref"><span class="secno">4.1 </span>Resource Model</a></li><li class="tocline"><a href="#identifiers" class="tocxref"><span class="secno">4.2 </span>Identifiers</a><ul class="toc"><li class="tocline"><a href="#endpoint-client-name" class="tocxref"><span class="secno">4.2.1 </span>Endpoint Client Name</a></li><li class="tocline"><a href="#reusable-resources" class="tocxref"><span class="secno">4.2.2 </span>Reusable Resources</a></li></ul></li><li class="tocline"><a href="#data-formats-for-transferring-resource-information" class="tocxref"><span class="secno">4.3 </span>Data Formats for Transferring Resource Information</a><ul class="toc"><li class="tocline"><a href="#plain-text" class="tocxref"><span class="secno">4.3.1 </span>Plain Text</a></li><li class="tocline"><a href="#opaque" class="tocxref"><span class="secno">4.3.2 </span>Opaque</a></li><li class="tocline"><a href="#tlv" class="tocxref"><span class="secno">4.3.3 </span>TLV</a></li><li class="tocline"><a href="#json" class="tocxref"><span class="secno">4.3.4 </span>JSON</a></li></ul></li></ul></li><li class="tocline"><a href="#security" class="tocxref"><span class="secno">5. </span>Security</a><ul class="toc"><li class="tocline"><a href="#udp-channel-security" class="tocxref"><span class="secno">5.1 </span>UDP Channel Security</a><ul class="toc"><li class="tocline"><a href="#pre-shared-keys" class="tocxref"><span class="secno">5.1.1 </span>Pre Shared Keys</a></li><li class="tocline"><a href="#raw-public-key-certificates" class="tocxref"><span class="secno">5.1.2 </span>Raw Public Key Certificates</a></li><li class="tocline"><a href="#x.509-certificates" class="tocxref"><span class="secno">5.1.3 </span>X.509 Certificates</a></li><li class="tocline"><a href="#nosec-mode" class="tocxref"><span class="secno">5.1.4 </span>"NoSec" Mode</a></li></ul></li><li class="tocline"><a href="#sms-channel-security" class="tocxref"><span class="secno">5.2 </span>SMS Channel Security</a><ul class="toc"><li class="tocline"><a href="#sms-nosec-mode" class="tocxref"><span class="secno">5.2.1 </span>SMS "NoSec" mode</a></li><li class="tocline"><a href="#sms-secured-mode" class="tocxref"><span class="secno">5.2.2 </span>SMS Secured mode</a></li></ul></li><li class="tocline"><a href="#access-control" class="tocxref"><span class="secno">5.3 </span>Access Control</a><ul class="toc"><li class="tocline"><a href="#access-control-object" class="tocxref"><span class="secno">5.3.1 </span>Access Control Object</a></li><li class="tocline"><a href="#authorization" class="tocxref"><span class="secno">5.3.2 </span>Authorization</a></li></ul></li></ul></li><li class="tocline"><a href="#tof" class="tocxref"><span class="secno">6. </span>Table of Figures</a></li><li class="tocline"><a href="#references" class="tocxref"><span class="secno">A. </span>References</a><ul class="toc"><li class="tocline"><a href="#informative-references" class="tocxref"><span class="secno">A.1 </span>Informative references</a></li></ul></li></ul></section>
