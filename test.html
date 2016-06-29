@@ -2,7 +2,7 @@
 <html ng-app="omaProjectIndex">
 <head>
 	
-      <title>OMA Release Program</title>
+    <title>OMA Release Program</title>
     <meta charset="utf-8">
 
     <script src="https://openmobilealliance.github.io/Tools/builds/respec-oma-common-0.2.0-alpha.js" </script>
@@ -35,6 +35,64 @@
     }
 
     </style>
+    
+    
+    <style>
+nav {  }
+header + nav {  }
+
+#head nav {
+
+}
+#head nav > div {
+  display: inline-block;
+}
+#head nav > div > a {
+  display: inline-block;
+  white-space: nowrap;
+  font: 1em/1 Helvetica Neue, sans-serif, Droid Sans Fallback;
+  text-decoration: none;
+  width: auto;
+  margin: 0.5em;
+  color: #F3F3F3;
+  text-align: center;
+}
+#head nav > div > a { box-shadow: 0 0 0px #3C790A; background: #3C790A; }
+#head nav > div > a.community { box-shadow: 0 0 0px #165FCC; background: #165FCC; } /* #165FCC #43679D #0B2F66 */
+#head nav > div > a.feedback { box-shadow: 0 0 0px #FF3E3A; background: #FF3E3A; } /* #FF3E3A #CD6B6A #990300 */
+#head nav > div > a.changes { box-shadow: 0 0 0px #54B29A; background: #54B29A; } /* #54B29A #6A9A8E #28584C */
+#head nav > div > a.misc { box-shadow: 0 0 0px #FFA32D; background: #FFA32D; } /* #FFA32D #CB9D62 #945400 */
+#head nav > div > a > * > * {
+  display: block;
+  padding: 0.1em 1em 0.1em;
+  background: rgba(255,255,255,0.9);
+  color: black;
+  font: inherit;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+#head nav > div > a > * > *:first-child {
+  padding-top: 0.5em;
+}
+#head nav > div > a > * > *:last-child {
+  padding-bottom: 1em;
+}
+#head nav > div > a > * > strong {
+  color: blue;
+  text-decoration: underline;
+  padding-bottom: 0.5em;
+}
+#head nav > div > a > * > code {
+  font-size: 0.8em;
+}
+</style>
+    
+    
+    
+    
+    
+    
+    
 
 </head>
 
