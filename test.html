@@ -44,68 +44,8 @@
 	<h1>
 		<img src="Common/images/oma_logo.jpg">
 		Open Mobile Alliance Developer Page
-		(<a href="http://github.com/OpenMobileAlliance">GitHub</a>)
 	</h1>
 </header>
-
-<div class="row">
-	<div class="col-md-12">
-
-		<h2>
-			Current Releases
-			<div class="form-group pull-right">
-				<input type="text" class="form-control" placeholder="Filter Projects" ng-model="search.name">
-			</div>
-		</h2>
-
-
-		<table ng-controller="IndexController" class="table-bordered" style="width:100%">
-			<thead>
-				<tr>
-					<td>Repository</td>
-					<td>Technical Specifications</td>
-					<td>OMA Developer Toolkit</td>
-					<td>OMNA Info</td>
-					<td>Profile Data</td>
-					<td>Events</td>
-					<td>Reference Material</td>
-				</tr>
-			</thead>
-			<tbody>
-				<tr ng-repeat="project in projects | filter:search">
-					<td>
-						<a href="{{ project.repository }}">
-							{{ project.name }}
-							<img ng-src="{{ project.logo }}">
-						</a>
-						<div>
-							<span class="label label-warning"><i class="fa fa-star"></i> Stars</span>
-							<span class="label label-primary"><i class="fa fa-code-fork"></i> Forks </span>
-						</div>
-					</td>
-					<td>
-						<ul ng-repeat="link in project.technical_specifications">
-							<li><a href="{{ link.key }}">{{ link.label }}</a></li>
-						</ul>
-					</td>
-					<td>
-						<ul ng-repeat="link in project.developer_toolkit">
-							<li><a href="{{ link.key }}">{{ link.label }}</a></li>
-						</ul>
-					</td>
-					<td>{{ project.omna_info }}</td>
-					<td>{{ project.profile_data }}</td>
-					<td>
-						<ul ng-repeat="link in project.events">
-							<li><a href="{{ link.key }}">{{ link.label }}</a></li>
-						</ul>
-					</td>
-					<td>{{ project.reference_material }}</td>
-				</tr>
-			</tbody>
-		</table>
-	</div>
-</div>
 
 <!--
 	Legacy Enabler Releases
