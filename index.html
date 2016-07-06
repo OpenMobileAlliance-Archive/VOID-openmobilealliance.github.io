@@ -1,0 +1,2301 @@
+<!doctype html>
+<html ng-app="omaProjectIndex">
+<head>
+	
+    <title>OMA Release Program</title>
+    <meta charset="utf-8">
+
+    
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
+
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+
+	<!-- Font Awesome -->
+	<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.6/angular.min.js"></script>
+
+    <style type="text/css">
+
+    td {
+    	padding: 8px;
+    }
+
+    thead > tr > td {
+    	background: #00b7c1;
+    	font-weight: bold;
+    	color: #fff;
+    }
+
+    </style>
+    
+    
+    <style>
+nav {  }
+header + nav {  }
+
+#head nav {
+
+}
+#head nav > div {
+  display: inline-block;
+}
+#head nav > div > a {
+  display: inline-block;
+  white-space: nowrap;
+  font: 1em/1 Helvetica Neue, sans-serif, Droid Sans Fallback;
+  text-decoration: none;
+  width: auto;
+  margin: 0.5em;
+  color: #F3F3F3;
+  text-align: center;
+}
+#head nav > div > a { box-shadow: 0 0 0px #3C790A; background: #3C790A; }
+#head nav > div > a.community { box-shadow: 0 0 0px #165FCC; background: #165FCC; } /* #165FCC #43679D #0B2F66 */
+#head nav > div > a.feedback { box-shadow: 0 0 0px #FF3E3A; background: #FF3E3A; } /* #FF3E3A #CD6B6A #990300 */
+#head nav > div > a.changes { box-shadow: 0 0 0px #54B29A; background: #54B29A; } /* #54B29A #6A9A8E #28584C */
+#head nav > div > a.misc { box-shadow: 0 0 0px #FFA32D; background: #FFA32D; } /* #FFA32D #CB9D62 #945400 */
+#head nav > div > a > * > * {
+  display: block;
+  padding: 0.1em 1em 0.1em;
+  background: rgba(255,255,255,0.9);
+  color: black;
+  font: inherit;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+#head nav > div > a > * > *:first-child {
+  padding-top: 0.5em;
+}
+#head nav > div > a > * > *:last-child {
+  padding-bottom: 1em;
+}
+#head nav > div > a > * > strong {
+  color: blue;
+  text-decoration: underline;
+  padding-bottom: 0.5em;
+}
+#head nav > div > a > * > code {
+  font-size: 0.8em;
+}
+</style>
+<p><a target=_blank href="http://openmobilealliance.org/"><img src="Common/images/oma_logo.jpg"></a></p>
+    
+<header id=head class="head with-buttons">
+   <nav>
+    <div>
+     <a target=_blank class=community href="https://openmobilealliance.github.io/index.html"><span><strong>Release Program</strong> <code>Technical Documents</code></span></a>
+     <a target=_blank class=feedback href="https://openmobilealliance.github.io/register.html"><span><strong>Registry</strong> <code>Unique ID</code></span></a>
+     <a target=_blank class=misc href="https://openmobilealliance.github.io/supporting_data.html"><span><strong>Supporting Data</strong> <code>Machine Readable</code></span></a>
+     <a target=_blank class=community href=" http://member.openmobilealliance.org/ftp/Public_documents/"><span><strong>Public Documents</strong> <code>ftp</code></span></a>
+	 
+     <a target=_blank class=misc href="https://github.com/OpenMobileAlliance/OMA_LwM2M_for_Developers/wiki"><span><strong>Developers</strong> <code>Wiki</code></span></a>
+     <a target=_blank class=feedback href=" http://member.openmobilealliance.org/ftp/testfests/"><span><strong>TestFests</strong> <code>Testing</code></span></a>
+     <a target=_blank class=misc href=" http://member.openmobilealliance.org/ftp/incubators/"><span><strong>Incubators</strong> <code>Working with Others</code></span></a>
+     <a target=_blank class=community href=" http://member.openmobilealliance.org/ftp/collaboration/"><span><strong>Collaboration</strong> <code>External Liaisons</code></span></a>	 
+     <a target=_blank class=feedback href="https://openmobilealliance.github.io/comment.html"><span><strong>Comment</strong> <code>Public</code></span></a>
+     <a target=_blank class=misc href="https://openmobilealliance.github.io/affiliates.html"><span><strong>Affiliates</strong> <code>Archive</code></span></a>
+    </div>
+   </nav>
+</header>    
+    
+    
+    
+    
+    
+
+</head>
+
+
+<body>
+<div class="container">
+
+
+<!--
+	Legacy Enabler Releases
+-->
+<div class="row" ng-controller="EnablerController">
+	<div class="col-md-12">
+		<h1>
+			OMA Release Program
+		</h1>
+	<p>OMA Releases are made up of different types of Specifications which are publicly available from this portal. The table below describe the Specifications that OMA publishes.</p>	
+    <table class="table-bordered" style="width:100%">
+        <thead>
+            <tr>
+                <td>List of Releases</td>
+                <td>Support </td>
+                <td>OMA Phase 1: </br>Candidate Release</td>
+                <td>OMA Phase 2: </br>Approved Release</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr class="row-3">
+                <td class="column-1">OMA Application Layer Security Common Functions</td>
+
+                <td class="column-2">
+				  <a href="https://openmobilealliance.github.io/comment.html" target="_blank" shape="rect"><em>Comment</em></a><br>
+				</td>
+
+                <td class="column-3">-</td>
+
+                <td class="column-4">
+                    <a href="ftp://technicalftp.openmobilealliance.org/Technical/Release_Program/docs/SEC_CF" target="_blank" shape="rect">V1.1</a><br>
+                    <a href="ftp://technicalftp.openmobilealliance.org/Technical/Release_Program/docs/SEC_CF" shape="rect">V1.0</a>
+                </td>
+            </tr>
+
+            <tr class="row-4">
+                <td class="column-1">OMA Authorisation Framework for Network APIs<br></td>
+
+                <td class="column-2">
+				   <a href="https://openmobilealliance.github.io/comment.html" shape="rect"><em>Comment</em></a><br>
+				</td>
+
+                <td class="column-3">-</td>
+
+                <td class="column-4">
+                    <a href=
+                    "http://technical.openmobilealliance.org/Technical/technical-information/release-program/current-releases/oma-authorization-framework-for-network-apis-v1-0"><strong>V1.0</strong></a>
+                </td>
+            </tr>
+
+            <tr class="row-5">
+                <td class="column-1">OMA Browsing<br></td>
+
+                <td class="column-2">
+				    <a href="https://openmobilealliance.github.io/comment.html" shape="rect"><em>Comment</em></a><br>
+				</td>
+
+                <td class="column-3">-</td>
+
+                <td class="column-4">
+                    <b><a href="ftp://technicalftp.openmobilealliance.org/Technical/Release_Program/docs/Browsing" shape="rect">V2.4</a></b><br>
+                    <a href="ftp://technicalftp.openmobilealliance.org/Technical/Release_Program/docs/Browsing" shape="rect"><span style=
+                    "text-decoration: underline;">V2.3</span></a><br>
+                    <a href="ftp://technicalftp.openmobilealliance.org/Technical/Release_Program/docs/Browsing" shape="rect">V2.2</a><br>
+                    <a href="ftp://technicalftp.openmobilealliance.org/Technical/Release_Program/docs/Browsing" shape="rect">V2.1</a>
+                </td>
+            </tr>
+
+            <tr class="row-6">
+                <td class="column-1">OMA Browser Management Object</td>
+
+                <td class="column-2"></td>
+
+                <td class="column-3">-</td>
+
+                <td class="column-4">
+                    <a href="http://technical.openmobilealliance.org/Technical/technical-information/release-program/current-releases/bmo-v1-0" shape="rect">V1.0</a>
+                </td>
+            </tr>
+
+            <tr class="row-7">
+                <td class="column-1">OMA Browser Protocol Stack</td>
+
+                <td class="column-2"></td>
+
+                <td class="column-3">-</td>
+
+                <td class="column-4">
+                    <a href="http://technical.openmobilealliance.org/Technical/technical-information/release-program/current-releases/browser-protocol-v-2-1" shape="rect">V2.1</a>
+                </td>
+            </tr>
+
+            <tr class="row-8">
+                <td class="column-1">OMA Categorization Based Content Screening Framework</td>
+
+                <td class="column-2"></td>
+
+                <td class="column-3">-</td>
+
+                <td class="column-4">
+                    <a href="http://technical.openmobilealliance.org/Technical/technical-information/release-program/current-releases/cbcs-v1-0" shape="rect">V1.0</a>
+                </td>
+            </tr>
+
+            <tr class="row-9">
+                <td class="column-1">OMA Charging</td>
+
+                <td class="column-2"></td>
+
+                <td class="column-3">-</td>
+
+                <td class="column-4">
+                    <a href="http://technical.openmobilealliance.org/Technical/technical-information/release-program/current-releases/charging-v1-1" shape="rect">V1.1</a><a href=
+                    "http://technical.openmobilealliance.org/Technical/technical-information/release-program/current-releases/charging-v1-0" shape="rect"><br>
+                    V1.0</a>
+                </td>
+            </tr>
+
+            <tr class="row-10">
+                <td class="column-1">OMA Charging Data</td>
+
+                <td class="column-2"></td>
+
+                <td class="column-3">-</td>
+
+                <td class="column-4">
+                    <a href="http://technical.openmobilealliance.org/Technical/technical-information/release-program/current-releases/charging-data-v1-0" shape="rect">V1.0</a>
+                </td>
+            </tr>
+
+            <tr class="row-11">
+                <td class="column-1">OMA Client Provisioning</td>
+
+                <td class="column-2"></td>
+
+                <td class="column-3">-</td>
+
+                <td class="column-4">
+                    <a href="http://technical.openmobilealliance.org/Technical/technical-information/release-program/current-releases/client-provisioning-v1-1" shape="rect">V1.1</a>
+                </td>
+            </tr>
+
+            <tr class="row-12">
+                <td class="column-1">OMA Client Side Content Screening Framework</td>
+
+                <td class="column-2"></td>
+
+                <td class="column-3">-</td>
+
+                <td class="column-4">
+                    <a href="http://technical.openmobilealliance.org/Technical/technical-information/release-program/current-releases/client-side-cs-fw-v1-0" shape="rect">V1.0</a>
+                </td>
+            </tr>
+
+            <tr class="row-13">
+                <td class="column-1">OMA Client Side Enabler API</td>
+
+                <td class="column-2"></td>
+
+                <td class="column-3">-</td>
+
+                <td class="column-4">
+                    <a href="http://technical.openmobilealliance.org/Technical/technical-information/release-program/current-releases/csea-v1-0" shape="rect">V1.0</a>
+                </td>
+            </tr>
+
+            <tr class="row-14">
+                <td class="column-1">OMA Condition Based URIs Selection</td>
+
+                <td class="column-2"><br></td>
+
+                <td class="column-3">-</td>
+
+                <td class="column-4">
+                    <a href="http://technical.openmobilealliance.org/Technical/technical-information/release-program/current-releases/cbus-rrp-v1-0">V1.0</a> (RRP)
+                </td>
+            </tr>
+
+            <tr class="row-15">
+                <td class="column-1">OMA Content Management Interface</td>
+
+                <td class="column-2"></td>
+
+                <td class="column-3">-</td>
+
+                <td class="column-4">
+                    <a href="http://technical.openmobilealliance.org/Technical/technical-information/release-program/current-releases/cmi-v1-0" shape="rect">V1.0</a>
+                </td>
+            </tr>
+
+            <tr class="row-16">
+                <td class="column-1">OMA Converged Address Book</td>
+
+                <td class="column-2"></td>
+
+                <td class="column-3">
+                    <a href="http://technical.openmobilealliance.org/Technical/technical-information/release-program/current-releases/cab-v1-1">V1.1</a>
+                </td>
+
+                <td class="column-4"><span style="text-decoration: underline;"><a href=
+                "http://technical.openmobilealliance.org/Technical/technical-information/release-program/current-releases/cab-v1-0">V1.0</a></span></td>
+            </tr>
+
+            <tr class="row-17">
+                <td class="column-1">OMA Converged IP Messaging<br>
+                <strong><span style="color: #a52a2a;">Updated 2015-01-13</span></strong></td>
+
+                <td class="column-2"></td>
+
+                <td class="column-3">
+                    <a href="http://technical.openmobilealliance.org/Technical/technical-information/release-program/current-releases/cpm-v2-0">V2.0</a>
+                </td>
+
+                <td class="column-4">-</td>
+            </tr>
+
+            <tr class="row-18">
+                <td class="column-1">OMA Converged Personal Network Service</td>
+
+                <td class="column-2"></td>
+
+                <td class="column-3">
+                    <a href="http://technical.openmobilealliance.org/Technical/technical-information/release-program/current-releases/cpns-v1-1">V1.1</a>
+                </td>
+
+                <td class="column-4">
+                    <a href="http://technical.openmobilealliance.org/Technical/technical-information/release-program/current-releases/cpns-v1-0">V1.0.1</a>
+                </td>
+            </tr>
+
+            <tr class="row-19">
+                <td class="column-1">OMA Customized Multimedia Ringing</td>
+
+                <td class="column-2"></td>
+
+                <td class="column-3">-</td>
+
+                <td class="column-4">
+                    <a href="http://technical.openmobilealliance.org/Technical/technical-information/release-program/current-releases/cmr-v1-0" shape="rect">V1.0</a>
+                </td>
+            </tr>
+
+            <tr class="row-20">
+                <td class="column-1">OMA Device Apps Network Efficiency (DANE)<br>
+                <strong><span style="color: #a52a2a;">New 2015-01-13</span></strong></td>
+
+                <td class="column-2"></td>
+
+                <td class="column-3">
+                    <a href="http://technical.openmobilealliance.org/Technical/technical-information/release-program/current-releases/oma-device-apps-network-efficiency-dane-v1-0" title=
+                    "OMA Device Apps Network Efficiency (DANE)">V1.0</a>
+                </td>
+
+                <td class="column-4">-</td>
+            </tr>
+
+            <tr class="row-21">
+                <td class="column-1">OMA Data Objects</td>
+
+                <td class="column-2"></td>
+
+                <td class="column-3">-</td>
+
+                <td class="column-4">
+                    <a href="http://technical.openmobilealliance.org/Technical/technical-information/release-program/current-releases/data-objects-v1-0" shape="rect">V1.0</a>
+                </td>
+            </tr>
+
+            <tr class="row-22">
+                <td class="column-1">OMA Data Synchronization</td>
+
+                <td class="column-2"></td>
+
+                <td class="column-3">-</td>
+
+                <td class="column-4">
+                    <a href="http://technical.openmobilealliance.org/Technical/technical-information/release-program/current-releases/ds-v2-0" shape="rect">V2.0</a><br>
+                    <a href="http://technical.openmobilealliance.org/Technical/technical-information/release-program/current-releases/ds-v1-2-2" shape="rect">V1.2.2<br></a> <a href=
+                    "http://technical.openmobilealliance.org/Technical/technical-information/release-program/current-releases/ds-v1-2-1">V1.2.1<br></a> <a href=
+                    "http://technical.openmobilealliance.org/Technical/technical-information/release-program/current-releases/ds-v1-1-2">V1.1.2</a>
+                </td>
+            </tr>
+
+            <tr class="row-23">
+                <td class="column-1">OMA Delta Record Management Object</td>
+
+                <td class="column-2"></td>
+
+                <td class="column-3">-</td>
+
+                <td class="column-4">
+                    <a href="http://technical.openmobilealliance.org/Technical/technical-information/release-program/current-releases/delta-rmo-v1-0"><br>
+                    V1.0</a>
+                </td>
+            </tr>
+
+            <tr class="row-24">
+                <td class="column-1">OMA Device Capability Management Object</td>
+
+                <td class="column-2"></td>
+
+                <td class="column-3">-</td>
+
+                <td class="column-4">
+                    <a href="http://technical.openmobilealliance.org/Technical/technical-information/release-program/current-releases/dcmo-v1-0" shape="rect">V1.0</a>
+                </td>
+            </tr>
+
+            <tr class="row-25">
+                <td class="column-1">OMA Device Management<br></td>
+
+                <td class="column-2">
+				    <a href="https://openmobilealliance.github.io/registry.html" target="_blank" shape="rect"><em>Registry</em></a><br>
+					<a href="https://openmobilealliance.github.io/supporting_data.html" target="_blank" shape="rect"><em>Supporting Data</em></a><br>
+					<a href="https://github.com/OpenMobileAlliance/OMA_LwM2M_for_Developers/wiki" target="_blank" shape="rect"><em>Developer's</em></a><br>
+					<a href="https://openmobilealliance.github.io/comment.html" target="_blank" shape="rect"><em>Comment</em></a><br>
+				</td>
+
+                <td class="column-3">
+                    <a href="ftp://technicalftp.openmobilealliance.org/Technical/Release_Program/docs/DM" shape="rect">V2.0<br>V1.3<br></a> 
+                </td>
+
+                <td class="column-4">
+                    <a href="http://technical.openmobilealliance.org/Technical/technical-information/release-program/current-releases/dm-v1-2" shape="rect">V1.2.1<br>V1.1.2</a><br>
+                </td>
+            </tr>
+
+            <tr class="row-26">
+                <td class="column-1">Device Management Client Side API framework</td>
+
+                <td class="column-2">Enabler Release</td>
+
+                <td class="column-3">-</td>
+
+                <td class="column-4">
+                    <a href="http://technical.openmobilealliance.org/Technical/technical-information/release-program/current-releases/dmclientapifw-v1-0">V1.0</a>
+                </td>
+            </tr>
+
+            <tr class="row-27">
+                <td class="column-1">OMA Device Management Connectivity Management Objects (ConnMO)</td>
+
+                <td class="column-2">Reference Release</td>
+
+                <td class="column-3">-</td>
+
+                <td class="column-4">
+                    <a href="http://technical.openmobilealliance.org/Technical/technical-information/release-program/current-releases/connmo-v1-0" shape="rect">V1.0</a>
+                </td>
+            </tr>
+
+            <tr class="row-28">
+                <td class="column-1">OMA Device Management Scheduling</td>
+
+                <td class="column-2">Enabler Release</td>
+
+                <td class="column-3">-</td>
+
+                <td class="column-4">
+                    <a href="http://technical.openmobilealliance.org/Technical/technical-information/release-program/current-releases/dm-scheduling-v1-0" shape="rect">V1.0</a>
+                </td>
+            </tr>
+
+            <tr class="row-29">
+                <td class="column-1">OMA Device Management Smart Card</td>
+
+                <td class="column-2">Enabler Release</td>
+
+                <td class="column-3">-</td>
+
+                <td class="column-4">
+                    <a href="http://technical.openmobilealliance.org/Technical/technical-information/release-program/current-releases/dm-sc-v1-0" shape="rect">V1.0</a>
+                </td>
+            </tr>
+
+            <tr class="row-30">
+                <td class="column-1">OMA Device Profile Evolution</td>
+
+                <td class="column-2">Enabler Release</td>
+
+                <td class="column-3">-</td>
+
+                <td class="column-4">
+                    <a href="http://technical.openmobilealliance.org/Technical/technical-information/release-program/current-releases/dpe-v1-0" shape="rect">V1.0</a>
+                </td>
+            </tr>
+
+            <tr class="row-31">
+                <td class="column-1">OMA Diagnostics and Monitoring</td>
+
+                <td class="column-2">Enabler Release</td>
+
+                <td class="column-3">-</td>
+
+                <td class="column-4">
+                    <a href="http://technical.openmobilealliance.org/Technical/technical-information/release-program/current-releases/diagmon-mo-v1-2">V1.2</a><br>
+                    <a href="http://technical.openmobilealliance.org/Technical/technical-information/release-program/current-releases/diagmon-mo-v1-0" shape="rect">V1.0</a><br>
+                    <a href="http://technical.openmobilealliance.org/Technical/technical-information/release-program/current-releases/diagmon-mo-v1-1" shape="rect">V1.1<br></a>
+                </td>
+            </tr>
+
+            <tr class="row-32">
+                <td class="column-1">OMA Digital Rights Management</td>
+
+                <td class="column-2">Enabler Release</td>
+
+                <td class="column-3">
+                    <a href="http://technical.openmobilealliance.org/Technical/technical-information/release-program/current-releases/drm-v2-2" shape="rect">V2.2</a>
+                </td>
+
+                <td class="column-4">
+                    <a href="http://technical.openmobilealliance.org/Technical/technical-information/release-program/current-releases/drm-v2-0" shape="rect">V2.0.2</a><br>
+                    <a href="http://technical.openmobilealliance.org/Technical/technical-information/release-program/current-releases/drm-v1-0" shape="rect">V1.0</a><br>
+                    <br>
+                    <a href="http://technical.openmobilealliance.org/Technical/technical-information/release-program/current-releases/drm-v2-1-2" shape="rect">V2.1.2</a>
+                </td>
+            </tr>
+
+            <tr class="row-33">
+                <td class="column-1">OMA DiagMon VoLTE Function<br>
+                <strong><span style="color: #a52a2a;">New 2014-11-25</span></strong></td>
+
+                <td class="column-2">Reference Release</td>
+
+                <td class="column-3">
+                    <a href="http://technical.openmobilealliance.org/Technical/technical-information/release-program/current-releases/diagmonvoltefunction-v1-0" shape="rect">V1.0</a>
+                </td>
+
+                <td class="column-4">-</td>
+            </tr>
+
+            <tr class="row-34">
+                <td class="column-1">OMA Domain Name System</td>
+
+                <td class="column-2">Enabler Release</td>
+
+                <td class="column-3">-</td>
+
+                <td class="column-4">
+                    <a href="http://technical.openmobilealliance.org/Technical/technical-information/release-program/current-releases/dns-v1-0" shape="rect">V1.0</a>
+                </td>
+            </tr>
+
+            <tr class="row-35">
+                <td class="column-1">OMA Download over the Air</td>
+
+                <td class="column-2">Enabler Release</td>
+
+                <td class="column-3"><strong>-</strong></td>
+
+                <td class="column-4">
+                    <a href="http://technical.openmobilealliance.org/Technical/technical-information/release-program/current-releases/download-ota-v2-0" shape="rect">V2.0</a><br>
+                    <br>
+                    <a href="http://technical.openmobilealliance.org/Technical/technical-information/release-program/current-releases/download-v1-0" shape="rect">V1.0</a>
+                </td>
+            </tr>
+
+            <tr class="row-36">
+                <td class="column-1">OMA Dynamic Content Delivery</td>
+
+                <td class="column-2">Enabler Release</td>
+
+                <td class="column-3">-</td>
+
+                <td class="column-4">
+                    <a href="http://technical.openmobilealliance.org/Technical/technical-information/release-program/current-releases/dcd-v1-0" shape="rect">V1.0</a>
+                </td>
+            </tr>
+
+            <tr class="row-37">
+                <td class="column-1">OMA Dynamic Navigation<br></td>
+
+                <td class="column-2">Enabler Release</td>
+
+                <td class="column-3">
+                    <a href="http://technical.openmobilealliance.org/Technical/technical-information/release-program/current-releases/oma-dynamic-navigation-dynnav-v1-1">v1.1</a>
+                </td>
+
+                <td class="column-4">
+                    <a href="http://technical.openmobilealliance.org/Technical/technical-information/release-program/current-releases/oma-dynamic-navigation-dynnav-v1_0">v1.0</a>
+                </td>
+            </tr>
+
+            <tr class="row-38">
+                <td class="column-1">OMA Email Notification</td>
+
+                <td class="column-2">Enabler Release</td>
+
+                <td class="column-3">-</td>
+
+                <td class="column-4">
+                    <a href="http://technical.openmobilealliance.org/Technical/technical-information/release-program/current-releases/emn-v1-0" shape="rect">V1.0</a>
+                </td>
+            </tr>
+
+            <tr class="row-39">
+                <td class="column-1">OMA Enhanced Visual Voice Mail</td>
+
+                <td class="column-2">Enabler Release</td>
+
+                <td class="column-3">
+                    <a href="http://technical.openmobilealliance.org/Technical/technical-information/release-program/current-releases/evvm-v1-0">V1.0</a>
+                </td>
+
+                <td class="column-4">-</td>
+            </tr>
+
+            <tr class="row-40">
+                <td class="column-1">OMA External Functionality Interface</td>
+
+                <td class="column-2">Enabler Release</td>
+
+                <td class="column-3"><strong>-</strong></td>
+
+                <td class="column-4">
+                    <a href="http://technical.openmobilealliance.org/Technical/technical-information/release-program/current-releases/efi-v1-1" shape="rect">V1.1</a>
+                </td>
+            </tr>
+
+            <tr class="row-41">
+                <td class="column-1">OMA Firmware Update Management Object</td>
+
+                <td class="column-2">Enabler Release</td>
+
+                <td class="column-3">-</td>
+
+                <td class="column-4">
+                    <a href="http://technical.openmobilealliance.org/Technical/technical-information/release-program/current-releases/fumo-v1-0" shape="rect">V1.0.4</a>
+                </td>
+            </tr>
+
+            <tr class="row-42">
+                <td class="column-1">OMA Games Services API</td>
+
+                <td class="column-2">Reference Release</td>
+
+                <td class="column-3">-</td>
+
+                <td class="column-4">
+                    <a href="http://technical.openmobilealliance.org/Technical/technical-information/release-program/current-releases/gs-api-v1-0">V1.0</a>
+                </td>
+            </tr>
+
+            <tr class="row-43">
+                <td class="column-1">OMA Games Services Client Server Interface</td>
+
+                <td class="column-2">Enabler Release</td>
+
+                <td class="column-3">-</td>
+
+                <td class="column-4">
+                    <a href="http://technical.openmobilealliance.org/Technical/technical-information/release-program/current-releases/gs-csi-v1-0" shape="rect">V1.0</a>
+                </td>
+            </tr>
+
+            <tr class="row-44">
+                <td class="column-1">OMA DM Gateway Management Object (GwMO)<br></td>
+
+                <td class="column-2">Enabler Release</td>
+
+                <td class="column-3" style="font-weight: bold">
+                    <a href="http://technical.openmobilealliance.org/Technical/technical-information/release-program/current-releases/oma-gateway-management-object-gwmo-v1-1">V1.1</a>
+                </td>
+
+                <td class="column-4">
+                    <a href="http://technical.openmobilealliance.org/Technical/technical-information/release-program/current-releases/gwmo-v1-0">V1.0</a>
+                </td>
+            </tr>
+
+            <tr class="row-45">
+                <td class="column-1">OMA General Service Subscription Management</td>
+
+                <td class="column-2">Enabler Release</td>
+
+                <td class="column-3">-</td>
+
+                <td class="column-4">
+                    <a href="http://technical.openmobilealliance.org/Technical/technical-information/release-program/current-releases/gssm-v1-0" shape="rect">V1.0</a>
+                </td>
+            </tr>
+
+            <tr class="row-46">
+                <td class="column-1">OMA Global Service Architecture</td>
+
+                <td class="column-2">Reference Release</td>
+
+                <td class="column-3">-</td>
+
+                <td class="column-4">
+                    <a href="http://technical.openmobilealliance.org/Technical/technical-information/release-program/current-releases/ogsa-v1-1" shape="rect">V1.1</a><br>
+                    <br>
+                    <a href="http://technical.openmobilealliance.org/Technical/technical-information/release-program/current-releases/ogsa-v1-0" shape="rect">V1.0</a>
+                </td>
+            </tr>
+
+            <tr class="row-47">
+                <td class="column-1">OMA Global Permissions Management</td>
+
+                <td class="column-2">Enabler Release</td>
+
+                <td class="column-3">-</td>
+
+                <td class="column-4">
+                    <a href="http://technical.openmobilealliance.org/Technical/technical-information/release-program/current-releases/gpm-v1-0" shape="rect">V1.0</a>
+                </td>
+            </tr>
+
+            <tr class="row-48">
+                <td class="column-1">Generic Open Terminal API Framework<br>
+                <strong><span style="color: #a52a2a;">Updated 2015-02-10</span></strong></td>
+
+                <td class="column-2">Enabler Release</td>
+
+                <td class="column-3"><strong><br>
+                <a href="http://technical.openmobilealliance.org/Technical/technical-information/release-program/current-releases/generic-open-terminal-api-framework-1-0">V1.0</a><br>
+                <strong></strong></strong></td>
+
+                <td class="column-4">-</td>
+            </tr>
+
+            <tr class="row-49">
+                <td class="column-1">OMA Immersive Social Centre (ISC)<br></td>
+
+                <td class="column-2">Enabler Release</td>
+
+                <td class="column-3"><strong><br>
+                <a href="http://technical.openmobilealliance.org/Technical/technical-information/release-program/current-releases/isc-v1-0">V1.0</a><br>
+                <strong></strong></strong></td>
+
+                <td class="column-4">-</td>
+            </tr>
+
+            <tr class="row-50">
+                <td class="column-1">OMA Instant Messaging and Presence Service</td>
+
+                <td class="column-2">Enabler Release</td>
+
+                <td class="column-3">-</td>
+
+                <td class="column-4">
+                    <a href="http://technical.openmobilealliance.org/Technical/technical-information/release-program/current-releases/imps-v1-3" shape="rect">V1.3</a><br>
+                    <a href="http://technical.openmobilealliance.org/Technical/technical-information/release-program/current-releases/imps-v1-2-1" shape="rect">V1.2.1</a><br>
+                    <a href="http://technical.openmobilealliance.org/Technical/technical-information/release-program/current-releases/imps-v1-1" shape="rect">V1.1</a>
+                </td>
+            </tr>
+
+            <tr class="row-51">
+                <td class="column-1">OMA IMPS V1.3 Implementation Guidelines</td>
+
+                <td class="column-2">Reference Release</td>
+
+                <td class="column-3">-</td>
+
+                <td class="column-4">
+                    <a href="http://technical.openmobilealliance.org/Technical/technical-information/release-program/current-releases/imps-impl-v1-0" shape="rect">V1.0</a>
+                </td>
+            </tr>
+
+            <tr class="row-52">
+                <td class="column-1">OMA Identity Management Framework</td>
+
+                <td class="column-2">Requirements Document</td>
+
+                <td class="column-3">
+                    <a href=
+                    "http://technical.openmobilealliance.org/Technical/technical-information/release-program/release-program-copyright-notice?rp=1023&amp;r_type=technical&amp;fp=Technical/Release_Program/docs/RD/OMA-RD-Identity_Management_Framework-V1_0-20050202-C.pdf"
+                    shape="rect">V1.0</a>
+                </td>
+
+                <td class="column-4">-</td>
+            </tr>
+
+            <tr class="row-53">
+                <td class="column-1">OMA In-Game Communications</td>
+
+                <td class="column-2">Requirements Document</td>
+
+                <td class="column-3">
+                    <a href=
+                    "http://technical.openmobilealliance.org/Technical/technical-information/release-program/release-program-copyright-notice?rp=1023&amp;r_type=technical&amp;fp=Technical/Release_Program/docs/RD/OMA-RD-In-Game-Communications-V1_0-20040316-C.pdf"
+                    shape="rect">V1.0</a>
+                </td>
+
+                <td class="column-4">-</td>
+            </tr>
+
+            <tr class="row-54">
+                <td class="column-1">OMA In-Game Advertising</td>
+
+                <td class="column-2">Reference Release</td>
+
+                <td class="column-3">-</td>
+
+                <td class="column-4">
+                    <a href="http://technical.openmobilealliance.org/Technical/technical-information/release-program/current-releases/iga-v1-0" shape="rect">V1.0</a>
+                </td>
+            </tr>
+
+            <tr class="row-55">
+                <td class="column-1">OMA IP Multimedia Subsystem</td>
+
+                <td class="column-2">Enabler Release</td>
+
+                <td class="column-3">-</td>
+
+                <td class="column-4">
+                    <a href="http://technical.openmobilealliance.org/Technical/technical-information/release-program/current-releases/ims-v1-0" shape="rect">V1.0</a>
+                </td>
+            </tr>
+
+            <tr class="row-56">
+                <td class="column-1">OMA Key Performance Indicators in OMA</td>
+
+                <td class="column-2">Enabler Release</td>
+
+                <td class="column-3">-</td>
+
+                <td class="column-4">
+                    <a href="http://technical.openmobilealliance.org/Technical/technical-information/release-program/current-releases/kpiinoma-v1-0" shape="rect">V1.0</a>
+                </td>
+            </tr>
+
+            <tr class="row-57">
+                <td class="column-1">OMA DM List of supported Management Object (ListMO)</td>
+
+                <td class="column-2">Enabler Release</td>
+
+                <td class="column-3">-</td>
+
+                <td class="column-4">
+                    <a href="http://technical.openmobilealliance.org/Technical/technical-information/release-program/current-releases/listmo-v1-0">V1.0</a>
+                </td>
+            </tr>
+
+            <tr class="row-58">
+                <td class="column-1">OMA LWM2M Object Device Capability Management<br>
+                <strong><span style="color: #a52a2a;">New 2015-01-20</span></strong></td>
+
+                <td class="column-2">Reference Release</td>
+
+                <td class="column-3">
+                    <a href="http://technical.openmobilealliance.org/Technical/technical-information/release-program/current-releases/oma-lwm2m-object-device-capability-management-v1-0">V1.0</a>
+                </td>
+
+                <td class="column-4"></td>
+            </tr>
+
+            <tr class="row-59">
+                <td class="column-1">OMA LWM2M Object Connectivity Management<br>
+                <strong><span style="color: #a52a2a;">New 2015-01-13</span></strong></td>
+
+                <td class="column-2">Reference Release</td>
+
+                <td class="column-3">
+                    <a href="http://technical.openmobilealliance.org/Technical/technical-information/release-program/oma-lwm2m-object-connectivity-management-v-1">V1.0</a>
+                </td>
+
+                <td class="column-4"></td>
+            </tr>
+
+            <tr class="row-60">
+                <td class="column-1">OMA LightweightM2M (LWM2M)<br>
+                <strong><span style="color: #a52a2a;">Updated 2014-11-26</span></strong></td>
+
+                <td class="column-2">Enabler Release</td>
+
+                <td class="column-3">
+                    <a href="http://technical.openmobilealliance.org/Technical/technical-information/release-program/current-releases/oma-lightweightm2m-v1-0">V1.0</a>
+                </td>
+
+                <td class="column-4">-</td>
+            </tr>
+
+            <tr class="row-61">
+                <td class="column-1">OMA Lock And Wipe Management Object (LAWMO)</td>
+
+                <td class="column-2">Enabler Release</td>
+
+                <td class="column-3">-</td>
+
+                <td class="column-4">
+                    <a href="http://technical.openmobilealliance.org/Technical/technical-information/release-program/current-releases/law-mo-v1-0">V1.0</a>
+                </td>
+            </tr>
+
+            <tr class="row-62">
+                <td class="column-1">OMA Location Enabler Release</td>
+
+                <td class="column-2">Requirements Document</td>
+
+                <td class="column-3">
+                    <a href=
+                    "http://technical.openmobilealliance.org/Technical/technical-information/release-program/release-program-copyright-notice?rp=1023&amp;r_type=technical&amp;fp=Technical/Release_Program/docs/RD/OMA-RD-LER-V1_0-20041118-C.pdf"
+                    shape="rect">V1.0</a>
+                </td>
+
+                <td class="column-4">-</td>
+            </tr>
+
+            <tr class="row-63">
+                <td class="column-1">OMA Location in SIP/IP core</td>
+
+                <td class="column-2">Enabler Release</td>
+
+                <td class="column-3">-</td>
+
+                <td class="column-4">
+                    <a href="http://technical.openmobilealliance.org/Technical/technical-information/release-program/current-releases/locsip-v1-0" shape="rect">V1.0</a>
+                </td>
+            </tr>
+
+            <tr class="row-64">
+                <td class="column-1">OMA Look and Feel Customization</td>
+
+                <td class="column-2">Enabler Release</td>
+
+                <td class="column-3">-</td>
+
+                <td class="column-4">
+                    <a href="http://technical.openmobilealliance.org/Technical/technical-information/release-program/current-releases/lfc-v1-0" shape="rect">V1.0</a>
+                </td>
+            </tr>
+
+            <tr class="row-65">
+                <td class="column-1">OMA LPP Extensions (LPPe)<br>
+                <strong><span style="color: #a52a2a;">New 2014-14-02</span></strong></td>
+
+                <td class="column-2">Enabler Release</td>
+
+                <td class="column-3">
+                    <a href="http://technical.openmobilealliance.org/Technical/technical-information/release-program/current-releases/lppe-v2-0">V2.0</a><br>
+                    <a href="http://technical.openmobilealliance.org/Technical/technical-information/release-program/current-releases/lppe-v1-1">V1.1</a><br>
+                    <a href="http://technical.openmobilealliance.org/Technical/technical-information/release-program/current-releases/lppe-v1-0">V1.0</a>
+                </td>
+
+                <td class="column-4">-</td>
+            </tr>
+
+            <tr class="row-66">
+                <td class="column-1">OMA M2M Device Classification</td>
+
+                <td class="column-2">Reference Release</td>
+
+                <td class="column-3">-</td>
+
+                <td class="column-4">
+                    <a href="http://technical.openmobilealliance.org/Technical/technical-information/release-program/current-releases/m2m-device-classification-v1-0">V1.0</a>
+                </td>
+            </tr>
+
+            <tr class="row-67">
+                <td class="column-1">OMA Management Interface for M2M<br>
+                <strong><span style="color: #a52a2a;">New 2014-11-25</span></strong></td>
+
+                <td class="column-2">Reference Release</td>
+
+                <td class="column-3">
+                    <a href="http://technical.openmobilealliance.org/Technical/technical-information/release-program/current-releases/oma-m2minterface-v1-0">V1.0</a>
+                </td>
+
+                <td class="column-4">-</td>
+            </tr>
+
+            <tr class="row-68">
+                <td class="column-1">OMA Maintenance of Requirements for Privacy for Mobile Services</td>
+
+                <td class="column-2">Reference Release</td>
+
+                <td class="column-3">-</td>
+
+                <td class="column-4">
+                    <a href="http://technical.openmobilealliance.org/Technical/technical-information/release-program/current-releases/privacy-v1-0" shape="rect">V1.0</a>
+                </td>
+            </tr>
+
+            <tr class="row-69">
+                <td class="column-1">OMA Management Object Design Guidelines</td>
+
+                <td class="column-2">Reference Release</td>
+
+                <td class="column-3">-</td>
+
+                <td class="column-4">
+                    <a href="http://technical.openmobilealliance.org/Technical/technical-information/release-program/current-releases/management-object-design-guidelines-v1-0">V1.0</a>
+                </td>
+            </tr>
+
+            <tr class="row-70">
+                <td class="column-1">OMA Management Policy MO<br></td>
+
+                <td class="column-2">Enabler Release</td>
+
+                <td class="column-3">
+                    <a href="http://technical.openmobilealliance.org/Technical/technical-information/release-program/current-releases/management-policy-mo-v1-0">V1.0</a>
+                </td>
+
+                <td class="column-4">-</td>
+            </tr>
+
+            <tr class="row-71">
+                <td class="column-1">OMA Messaging Services Interworking</td>
+
+                <td class="column-2">Reference Release</td>
+
+                <td class="column-3">-</td>
+
+                <td class="column-4">
+                    <a href="http://technical.openmobilealliance.org/Technical/technical-information/release-program/current-releases/messaging-services-interworking-v1-0" shape="rect">V1.0</a>
+                </td>
+            </tr>
+
+            <tr class="row-72">
+                <td class="column-1">OMA Mobile Advertising</td>
+
+                <td class="column-2">Enabler Release</td>
+
+                <td class="column-3">-</td>
+
+                <td class="column-4">
+                    <a href="http://technical.openmobilealliance.org/Technical/technical-information/release-program/current-releases/mobile-advertising-v1-0" shape="rect">V1.0</a>
+                </td>
+            </tr>
+
+            <tr class="row-73">
+                <td class="column-1">OMA Mobile Broadcast Services</td>
+
+                <td class="column-2">Enabler Release</td>
+
+                <td class="column-3">
+                    <a href="http://technical.openmobilealliance.org/Technical/technical-information/release-program/current-releases/mobile-broadcast-services-v1-2" shape="rect">V1.2</a><br>
+                    <a href="http://technical.openmobilealliance.org/Technical/technical-information/release-program/current-releases/oma-mobile-broadcast-services-v1-3" shape="rect">V1.3</a><br>
+                </td>
+
+                <td class="column-4">
+                    <a href="http://technical.openmobilealliance.org/Technical/technical-information/release-program/current-releases/broadcast-services-v1-1-2" shape="rect">V1.1</a><br>
+                    <a href="http://technical.openmobilealliance.org/Technical/technical-information/release-program/current-releases/broadcast-services-v1-0" shape="rect">V1.0</a>
+                </td>
+            </tr>
+
+            <tr class="row-74">
+                <td class="column-1">OMA Mobile Augmented Reality (MobAr)</td>
+
+                <td class="column-2">Enabler Release</td>
+
+                <td class="column-3">
+                    <a href="http://technical.openmobilealliance.org/Technical/technical-information/release-program/current-releases/mobile-augmented-reality-v1-0">V1.0</a>
+                </td>
+
+                <td class="column-4">-</td>
+            </tr>
+
+            <tr class="row-75">
+                <td class="column-1">OMA Mobile Codes</td>
+
+                <td class="column-2">Enabler Release</td>
+
+                <td class="column-3">-</td>
+
+                <td class="column-4">
+                    <a href="http://technical.openmobilealliance.org/Technical/technical-information/release-program/current-releases/mobile-codes-v1-0" shape="rect">V1.0</a><a href=
+                    "http://technical.openmobilealliance.org/Technical/technical-information/release-program/current-releases/mc-v1-0" shape="rect"><br>
+                    V1.0</a> (RRP)
+                </td>
+            </tr>
+
+            <tr class="row-76">
+                <td class="column-1">OMA Mobile Domain SMIL</td>
+
+                <td class="column-2">Reference Release</td>
+
+                <td class="column-3">-</td>
+
+                <td class="column-4">
+                    <a href="http://technical.openmobilealliance.org/Technical/technical-information/release-program/current-releases/mobile-domain-smil-v1-0">V1.0</a><br>
+                    -
+                </td>
+            </tr>
+
+            <tr class="row-77">
+                <td class="column-1">OMA Mobile Email</td>
+
+                <td class="column-2">Enabler Release</td>
+
+                <td class="column-3">-</td>
+
+                <td class="column-4">
+                    <a href="http://technical.openmobilealliance.org/Technical/technical-information/release-program/current-releases/mem-v1-0" shape="rect">V1.0</a>
+                </td>
+            </tr>
+
+            <tr class="row-78">
+                <td class="column-1">OMA Mobile Gaming Evolution</td>
+
+                <td class="column-2">Reference Release</td>
+
+                <td class="column-3">-</td>
+
+                <td class="column-4">
+                    <a href="http://technical.openmobilealliance.org/Technical/technical-information/release-program/current-releases/mgpc-v1-0" shape="rect"><span style=
+                    "text-decoration: underline;">V1.0</span></a>
+                </td>
+            </tr>
+
+            <tr class="row-79">
+                <td class="column-1">OMA Mobile Location Protocol</td>
+
+                <td class="column-2">Enabler Release</td>
+
+                <td class="column-3">-</td>
+
+                <td class="column-4">
+                    <a href="http://technical.openmobilealliance.org/Technical/technical-information/release-program/current-releases/mlp-v3-1" shape="rect">V3.1</a>
+                </td>
+            </tr>
+
+            <tr class="row-80">
+                <td class="column-1">OMA Mobile Location Service</td>
+
+                <td class="column-2">Enabler Release</td>
+
+                <td class="column-3">
+                    <a href="http://technical.openmobilealliance.org/Technical/technical-information/release-program/current-releases/mls-v1-3">V1.3</a>
+                </td>
+
+                <td class="column-4">
+                    <a href="http://technical.openmobilealliance.org/Technical/technical-information/release-program/current-releases/mls-v1-2" shape="rect">V1.2</a><br>
+                    <a href="http://technical.openmobilealliance.org/Technical/technical-information/release-program/current-releases/mls-v1-1" shape="rect">V1.1</a><br>
+                    <a href="http://technical.openmobilealliance.org/Technical/technical-information/release-program/current-releases/mls-v1-0" shape="rect">V1.0</a>
+                </td>
+            </tr>
+
+            <tr class="row-81">
+                <td class="column-1">OMA Mobile Search Framework</td>
+
+                <td class="column-2">Enabler Release</td>
+
+                <td class="column-3">-</td>
+
+                <td class="column-4">
+                    <a href="http://technical.openmobilealliance.org/Technical/technical-information/release-program/current-releases/msrch-framework-v1-0" shape="rect">V1.0</a>
+                </td>
+            </tr>
+
+            <tr class="row-82">
+                <td class="column-1">OMA Mobile Spam Reporting</td>
+
+                <td class="column-2">Enabler Release</td>
+
+                <td class="column-3">-</td>
+
+                <td class="column-4">
+                    <a href="http://technical.openmobilealliance.org/Technical/technical-information/release-program/current-releases/spamrep-v1-0" shape="rect">V1.0</a>
+                </td>
+            </tr>
+
+            <tr class="row-83">
+                <td class="column-1">OMA Multimodal and Multi-device</td>
+
+                <td class="column-2">Reference Release</td>
+
+                <td class="column-3">-</td>
+
+                <td class="column-4">
+                    <a href="http://technical.openmobilealliance.org/Technical/technical-information/release-program/current-releases/mmmd-v1-0" shape="rect">V1.0</a>
+                </td>
+            </tr>
+
+            <tr class="row-84">
+                <td class="column-1">OMA Multimedia Messaging Service</td>
+
+                <td class="column-2">Enabler Release</td>
+
+                <td class="column-3">-</td>
+
+                <td class="column-4">
+                    <a href="http://technical.openmobilealliance.org/Technical/technical-information/release-program/current-releases/mms-v1-3" shape="rect">V1.3</a><br>
+                    <a href="http://technical.openmobilealliance.org/Technical/technical-information/release-program/current-releases/mms-v1-2" shape="rect">V1.2</a><br>
+                    <a href="http://technical.openmobilealliance.org/Technical/technical-information/release-program/current-releases/mms-v1-1" shape="rect">V1.1</a>
+                </td>
+            </tr>
+
+            <tr class="row-85">
+                <td class="column-1">OMA Next Generation Services Interface</td>
+
+                <td class="column-2">Enabler Release</td>
+
+                <td class="column-3">-</td>
+
+                <td class="column-4">
+                    <a href="http://technical.openmobilealliance.org/Technical/technical-information/release-program/current-releases/ngsi-v1-0" shape="rect">V1.0</a>
+                </td>
+            </tr>
+
+            <tr class="row-86">
+                <td class="column-1">OMA Next Generation Services Interface- SOAP (NGSI-S)</td>
+
+                <td class="column-2">Enabler Release</td>
+
+                <td class="column-3">-</td>
+
+                <td class="column-4">
+                    <a href="http://technical.openmobilealliance.org/Technical/technical-information/release-program/current-releases/ngsi-s-v1-0" shape="rect">V1.0</a>
+                </td>
+            </tr>
+
+            <tr class="row-87">
+                <td class="column-1">OMA On-Board Key Generation</td>
+
+                <td class="column-2">Enabler Release</td>
+
+                <td class="column-3">-</td>
+
+                <td class="column-4">
+                    <a href="http://technical.openmobilealliance.org/Technical/technical-information/release-program/current-releases/obkg-v1-0" shape="rect">V1.0</a>
+                </td>
+            </tr>
+
+            <tr class="row-88">
+                <td class="column-1">OMA OneAPI Profile of the Parlay X SOAP Web Services</td>
+
+                <td class="column-2">Reference Release</td>
+
+                <td class="column-3">-</td>
+
+                <td class="column-4">
+                    <a href="http://technical.openmobilealliance.org/Technical/technical-information/release-program/current-releases/pxprof-v1-0" shape="rect">V1.0</a>
+                </td>
+            </tr>
+
+            <tr class="row-89">
+                <td class="column-1">OMA Online Certificate Status Protocol Mobile Profile</td>
+
+                <td class="column-2">Enabler Release</td>
+
+                <td class="column-3">-</td>
+
+                <td class="column-4">
+                    <a href="http://technical.openmobilealliance.org/Technical/technical-information/release-program/current-releases/ocsp-v1-0" shape="rect">V1.0</a>
+                </td>
+            </tr>
+
+            <tr class="row-90">
+                <td class="column-1">OMA Open Connection Manager API (OpenCMAPI)</td>
+
+                <td class="column-2">Enabler Release</td>
+
+                <td class="column-3">
+                    <a href="http://technical.openmobilealliance.org/Technical/technical-information/release-program/current-releases/opencmapi-v1-1">V1.1</a><a href=
+                    "http://technical.openmobilealliance.org/Technical/technical-information/release-program/current-releases/opencmapi-v1-0"><br>
+                    V1.0</a>
+                </td>
+
+                <td class="column-4">-</td>
+            </tr>
+
+            <tr class="row-91">
+                <td class="column-1">OMA Parlay/OSA in OSE (PIOSE)</td>
+
+                <td class="column-2">Reference Release</td>
+
+                <td class="column-3">-</td>
+
+                <td class="column-4">
+                    <a href="http://technical.openmobilealliance.org/Technical/technical-information/release-program/current-releases/piose-v1-0" shape="rect"><span style=
+                    "text-decoration: underline;">V1.0</span></a>
+                </td>
+            </tr>
+
+            <tr class="row-92">
+                <td class="column-1">OMA Parlay Service Access (PSA)</td>
+
+                <td class="column-2">Reference Release</td>
+
+                <td class="column-3">-</td>
+
+                <td class="column-4">
+                    <a href="http://technical.openmobilealliance.org/Technical/technical-information/release-program/current-releases/psa-v1-0" shape="rect">V1.0</a>
+                </td>
+            </tr>
+
+            <tr class="row-93">
+                <td class="column-1">OMA Policy Evaluation, Enforcement and Management Architecture</td>
+
+                <td class="column-2">Enabler Release</td>
+
+                <td class="column-3">-</td>
+
+                <td class="column-4">
+                    <a href="http://technical.openmobilealliance.org/Technical/technical-information/release-program/current-releases/peem-v1-0" shape="rect">V1.0</a>
+                </td>
+            </tr>
+
+            <tr class="row-94">
+                <td class="column-1">OMA Presence SIMPLE</td>
+
+                <td class="column-2">Enabler Release</td>
+
+                <td class="column-3">-</td>
+
+                <td class="column-4">
+                    <a href="http://technical.openmobilealliance.org/Technical/technical-information/release-program/historic-releases/presence-simple-v2-0" shape="rect">V2.0</a><br>
+                    <a href="http://technical.openmobilealliance.org/Technical/technical-information/release-program/historic-releases/presence-simple-v1-1" shape="rect">V1.1</a>
+                </td>
+            </tr>
+
+            <tr class="row-95">
+                <td class="column-1">OMA Presence SIMPLE Data Extensions</td>
+
+                <td class="column-2">Reference Release</td>
+
+                <td class="column-3">-</td>
+
+                <td class="column-4">
+                    <a href="http://technical.openmobilealliance.org/Technical/technical-information/release-program/current-releases/pde-v1-3">V1.3</a><br>
+                    <a href="http://technical.openmobilealliance.org/Technical/technical-information/release-program/current-releases/pde-v1-2" shape="rect">V1.2</a><br>
+                    <a href="http://technical.openmobilealliance.org/Technical/technical-information/release-program/current-releases/pde-v1-1" shape="rect">V1.1</a><a href=
+                    "http://technical.openmobilealliance.org/Technical/technical-information/release-program/current-releases/pde-v1-0" shape="rect"><br>
+                    V1.0</a>
+                </td>
+            </tr>
+
+            <tr class="row-96">
+                <td class="column-1">OMA Presence Access Layer</td>
+
+                <td class="column-2">Enabler Release</td>
+
+                <td class="column-3">-</td>
+
+                <td class="column-4">
+                    <a href="http://technical.openmobilealliance.org/Technical/technical-information/release-program/current-releases/pal-v1-0" shape="rect">V1.0</a>
+                </td>
+            </tr>
+
+            <tr class="row-97">
+                <td class="column-1">OMA Provisioning Objects - Device Management Application Characteristics Management Object (AC_MO)</td>
+
+                <td class="column-2">Reference Release</td>
+
+                <td class="column-3">-</td>
+
+                <td class="column-4">
+                    <a href="http://technical.openmobilealliance.org/Technical/technical-information/release-program/current-releases/ac-mo-v1-0-1" shape="rect">V1.0.1</a>
+                </td>
+            </tr>
+
+            <tr class="row-98">
+                <td class="column-1">OMA Push to Communicate for Public Safety<br></td>
+
+                <td class="column-2">Enabler Release</td>
+
+                <td class="column-3">
+                    <a href="http://technical.openmobilealliance.org/Technical/technical-information/release-program/current-releases/push-to-communicate-for-public-safety-v1-0" shape=
+                    "rect">V1.0.</a>
+                </td>
+
+                <td class="column-4"></td>
+            </tr>
+
+            <tr class="row-99">
+                <td class="column-1">OMA Push</td>
+
+                <td class="column-2">Enabler Release</td>
+
+                <td class="column-3">-</td>
+
+                <td class="column-4">
+                    <a href="http://technical.openmobilealliance.org/Technical/technical-information/release-program/current-releases/push-v2-3" shape="rect">V2.3</a><br>
+                    <a href="http://technical.openmobilealliance.org/Technical/technical-information/release-program/current-releases/push-v2-2" shape="rect">V2.2</a><br>
+                    <a href="http://technical.openmobilealliance.org/Technical/technical-information/release-program/current-releases/push-v2-1" shape="rect">V2.1</a>
+                </td>
+            </tr>
+
+            <tr class="row-100">
+                <td class="column-1">OMA Push to talk over Cellular</td>
+
+                <td class="column-2">Enabler Release</td>
+
+                <td class="column-3">-</td>
+
+                <td class="column-4">
+                    <a href="http://technical.openmobilealliance.org/Technical/technical-information/release-program/current-releases/poc-v2-0" shape="rect">V2.0</a><br>
+                    <a href="http://technical.openmobilealliance.org/Technical/technical-information/release-program/current-releases/poc-v2-1" shape="rect">V2.1</a><br>
+                    <a href="http://technical.openmobilealliance.org/Technical/technical-information/release-program/current-releases/poc-v1-0-4" shape="rect">V1.0.4</a>
+                </td>
+            </tr>
+
+            <tr class="row-101">
+                <td class="column-1">OMA RCS1.2 Deployment Suite<br>
+                <strong><span style="color: #a52a2a;">Updated 2014-11-07</span></strong></td>
+
+                <td class="column-2">Enabler Test Specification</td>
+
+                <td class="column-3">
+                    <a href="http://technical.openmobilealliance.org/Technical/technical-information/release-program/rcs1-2-deployment-suite-v1-0">V1.0</a>
+                </td>
+
+                <td class="column-4">-</td>
+            </tr>
+
+            <tr class="row-102">
+                <td class="column-1">OMA RCS Profile of RESTful Network APIs</td>
+
+                <td class="column-2">Enabler Release</td>
+
+                <td class="column-3">
+                    <a href="http://technical.openmobilealliance.org/Technical/technical-information/release-program/current-releases/rest-netapi-rcsprofile-2-0">V2.0</a>
+                </td>
+
+                <td class="column-4">-</td>
+            </tr>
+
+            <tr class="row-103">
+                <td class="column-1">OMA RCS-e Profile of RESTful Network APIs</td>
+
+                <td class="column-2">Enabler Release</td>
+
+                <td class="column-3">
+                    <a href="http://technical.openmobilealliance.org/Technical/technical-information/release-program/current-releases/rest-netapi-rcse-profile-v1-0">V1.0</a>
+                </td>
+
+                <td class="column-4">-</td>
+            </tr>
+
+            <tr class="row-104">
+                <td class="column-1">OMA RESTful Bindings for Parlay X Web Services</td>
+
+                <td class="column-2">Enabler Release</td>
+
+                <td class="column-3">-</td>
+
+                <td class="column-4">
+                    <a href="http://technical.openmobilealliance.org/Technical/technical-information/release-program/current-releases/parlayrest-v2-0">V2.0</a>
+                </td>
+            </tr>
+
+            <tr class="row-105">
+                <td class="column-1">OMA RESTful Network API for Address Book</td>
+
+                <td class="column-2">Enabler Release</td>
+
+                <td class="column-3">
+                    <a href="http://technical.openmobilealliance.org/Technical/technical-information/release-program/current-releases/addressbookrest-v1-0">V1.0</a>
+                </td>
+
+                <td class="column-4">-</td>
+            </tr>
+
+            <tr class="row-106">
+                <td class="column-1">OMA RESTful Network API for Anonymous Customer Reference Management<br>
+                <strong><span style="color: #a52a2a;">Updated 2014-12-03</span></strong></td>
+
+                <td class="column-2">Enabler Release</td>
+
+                <td class="column-3">
+                    <a href="http://technical.openmobilealliance.org/Technical/technical-information/release-program/current-releases/rest-netapi-acr-v1-0">V1.0</a>
+                </td>
+
+                <td class="column-4">-</td>
+            </tr>
+
+            <tr class="row-107">
+                <td class="column-1">OMA RESTful Network API for Audio Call</td>
+
+                <td class="column-2">Enabler Release</td>
+
+                <td class="column-3">
+                    <a href="http://technical.openmobilealliance.org/Technical/technical-information/release-program/current-releases/audiocallrest-v1-0">V1.0</a>
+                </td>
+
+                <td class="column-4">-</td>
+            </tr>
+
+            <tr class="row-108">
+                <td class="column-1">OMA RESTful Network API for Call Notification</td>
+
+                <td class="column-2">Enabler Release</td>
+
+                <td class="column-3">
+                    <a href="http://technical.openmobilealliance.org/Technical/technical-information/release-program/current-releases/callnotifrest-v1-0">V1.0</a>
+                </td>
+
+                <td class="column-4">-</td>
+            </tr>
+
+            <tr class="row-109">
+                <td class="column-1">OMA RESTful Network API Capability Discovery</td>
+
+                <td class="column-2">Enabler Release</td>
+
+                <td class="column-3">
+                    <a href="http://technical.openmobilealliance.org/Technical/technical-information/release-program/current-releases/rest-netapi-capabilitydiscovery-v1-0">V1.0</a>
+                </td>
+
+                <td class="column-4">-</td>
+            </tr>
+
+            <tr class="row-110">
+                <td class="column-1">OMA RESTful Network API Chat</td>
+
+                <td class="column-2">Enabler Release</td>
+
+                <td class="column-3">
+                    <a href="http://technical.openmobilealliance.org/Technical/technical-information/release-program/current-releases/restfulnetworkapi-chat-v1-0">V1.0</a>
+                </td>
+
+                <td class="column-4">-</td>
+            </tr>
+
+            <tr class="row-111">
+                <td class="column-1">OMA RESTful Network API Common</td>
+
+                <td class="column-2">Reference Release</td>
+
+                <td class="column-3">
+                    <a href="http://technical.openmobilealliance.org/Technical/technical-information/release-program/current-releases/restnetapicommon-v1-0">V1.0</a>
+                </td>
+
+                <td class="column-4">-</td>
+            </tr>
+
+            <tr class="row-112">
+                <td class="column-1">OMA RESTful Network API for Converged Address Book</td>
+
+                <td class="column-2">Enabler Release</td>
+
+                <td class="column-3">-</td>
+
+                <td class="column-4">
+                    <a href="http://technical.openmobilealliance.org/Technical/technical-information/release-program/current-releases/rest-netapi-cab-v1-0">V1.0</a><br>
+                    -
+                </td>
+            </tr>
+
+            <tr class="row-113">
+                <td class="column-1">OMA RESTful Network API for Customer Profile</td>
+
+                <td class="column-2">Enabler Release</td>
+
+                <td class="column-3">
+                    <a href="http://technical.openmobilealliance.org/Technical/technical-information/release-program/current-releases/rest-netapi-customerprofile">V1.0</a>
+                </td>
+
+                <td class="column-4">-</td>
+            </tr>
+
+            <tr class="row-114">
+                <td class="column-1">OMA RESTful Network API for Device Capabilities</td>
+
+                <td class="column-2">Enabler Release</td>
+
+                <td class="column-3">-</td>
+
+                <td class="column-4">
+                    <a href="http://technical.openmobilealliance.org/Technical/technical-information/release-program/current-releases/devcaprest-v1-0">V1.0</a>
+                </td>
+            </tr>
+
+            <tr class="row-115">
+                <td class="column-1">OMA RESTful Network API File Transfer</td>
+
+                <td class="column-2">Enabler Release</td>
+
+                <td class="column-3">
+                    <a href="http://technical.openmobilealliance.org/Technical/technical-information/release-program/current-releases/restnetapi-filetransfer-v1-0">V1.0</a>
+                </td>
+
+                <td class="column-4">-</td>
+            </tr>
+
+            <tr class="row-116">
+                <td class="column-1">OMA RESTful Network API for Image Share</td>
+
+                <td class="column-2">Enabler Release</td>
+
+                <td class="column-3">
+                    <a href="http://technical.openmobilealliance.org/Technical/technical-information/release-program/current-releases/imagesharerest">v1.0</a>
+                </td>
+
+                <td class="column-4">-</td>
+            </tr>
+
+            <tr class="row-117">
+                <td class="column-1">OMA RESTful Network API for Messaging</td>
+
+                <td class="column-2">Enabler Release</td>
+
+                <td class="column-3">
+                    <a href="http://technical.openmobilealliance.org/Technical/technical-information/release-program/current-releases/messagingrest-v1-0"><span style="color: #003180;">V1.0</span></a>
+                </td>
+
+                <td class="column-4">-</td>
+            </tr>
+
+            <tr class="row-118">
+                <td class="column-1">OMA Guidelines for RESTful Network</td>
+
+                <td class="column-2">Reference Release</td>
+
+                <td class="column-3">-</td>
+
+                <td class="column-4">
+                    <a href="http://technical.openmobilealliance.org/Technical/technical-information/release-program/current-releases/guidelinesrest"><span style="color: #003180;">V1.0.1</span></a>
+                </td>
+            </tr>
+
+            <tr class="row-119">
+                <td class="column-1">OMA RESTful Network API for Network Message Storage<br>
+                <strong><span style="color: #a52a2a;">Updated 2014-12-16</span></strong><br></td>
+
+                <td class="column-2">Enabler Release</td>
+
+                <td class="column-3"><strong><a href=
+                "http://technical.openmobilealliance.org/Technical/technical-information/release-program/current-releases/oma-restful-network-api-for-network-message-storeage-v1-0">V1.0</a><strong></strong></strong></td>
+
+                <td class="column-4">-</td>
+            </tr>
+
+            <tr class="row-120">
+                <td class="column-1">OMA RESTful Network API for Notification Channel</td>
+
+                <td class="column-2">Enabler Release</td>
+
+                <td class="column-3">
+                    <a href="http://technical.openmobilealliance.org/Technical/technical-information/release-program/current-releases/notifchanrest-v1-0">V1.0</a>
+                </td>
+
+                <td class="column-4">-</td>
+            </tr>
+
+            <tr class="row-121">
+                <td class="column-1">OMA RESTful Network API for OMA Push</td>
+
+                <td class="column-2">Enabler Release</td>
+
+                <td class="column-3">-</td>
+
+                <td class="column-4">
+                    <a href="http://technical.openmobilealliance.org/Technical/technical-information/release-program/current-releases/restful-network-api-for-oma-push-v1-0" shape="rect">V1.0</a>
+                </td>
+            </tr>
+
+            <tr class="row-122">
+                <td class="column-1">OMA OneAPI Profile of RESTful Network APIs</td>
+
+                <td class="column-2">Enabler Release</td>
+
+                <td class="column-3">
+                    <a href="http://technical.openmobilealliance.org/Technical/technical-information/release-program/current-releases/oneapiprofilerest-v4-0">V4.0</a>
+                </td>
+
+                <td class="column-4">
+                    <a href="http://technical.openmobilealliance.org/Technical/technical-information/release-program/current-releases/oneapiprofilerest-v3-0">V3.0</a>
+                </td>
+            </tr>
+
+            <tr class="row-123">
+                <td class="column-1">OMA RESTful Network API for Payment</td>
+
+                <td class="column-2">Enabler Release</td>
+
+                <td class="column-3">-</td>
+
+                <td class="column-4">
+                    <a href="http://technical.openmobilealliance.org/Technical/technical-information/release-program/current-releases/paymentrest-v1-0">V1.0</a>
+                </td>
+            </tr>
+
+            <tr class="row-124">
+                <td class="column-1">OMA RESTful Network API for Quality of Service<br>
+                <strong><span style="color: #a52a2a;">Updated 2014-11-25</span></strong></td>
+
+                <td class="column-2">Enabler Release</td>
+
+                <td class="column-3">
+                    <a href="http://technical.openmobilealliance.org/Technical/technical-information/release-program/current-releases/oma-restful-network-api-for-quality-of-service-v1-0">V1.0</a>
+                </td>
+
+                <td class="column-4">-</td>
+            </tr>
+
+            <tr class="row-125">
+                <td class="column-1">OMA RESTful Network API for Presence</td>
+
+                <td class="column-2">Enabler Release</td>
+
+                <td class="column-3">
+                    <a href="http://technical.openmobilealliance.org/Technical/technical-information/release-program/current-releases/presencerest-v1-0">V1.0</a>
+                </td>
+
+                <td class="column-4">-</td>
+            </tr>
+
+            <tr class="row-126">
+                <td class="column-1">OMA RESTful Network API for Roaming<br></td>
+
+                <td class="column-2">Enabler Release</td>
+
+                <td class="column-3">
+                    <a href="http://technical.openmobilealliance.org/Technical/technical-information/release-program/current-releases/oma-restful-network-api-for-roaming-provisioning-v1-0">V1.0</a>
+                </td>
+
+                <td class="column-4">-</td>
+            </tr>
+
+            <tr class="row-127">
+                <td class="column-1">OMA RESTful Network API for Short Messaging</td>
+
+                <td class="column-2">Enabler Release</td>
+
+                <td class="column-3">
+                    <a href="http://technical.openmobilealliance.org/Technical/technical-information/release-program/current-releases/shortmessrest-v1-0"><span style="color: #003180;">V1.0</span></a>
+                </td>
+
+                <td class="column-4">-</td>
+            </tr>
+
+            <tr class="row-128">
+                <td class="column-1">OMA RESTful Network API for Terminal Location</td>
+
+                <td class="column-2">Enabler Release</td>
+
+                <td class="column-3">-</td>
+
+                <td class="column-4">
+                    <a href="http://technical.openmobilealliance.org/Technical/technical-information/release-program/current-releases/terminallocationrest-v1-0">V1.0</a>
+                </td>
+            </tr>
+
+            <tr class="row-129">
+                <td class="column-1">OMA RESTful Network API for Terminal Status</td>
+
+                <td class="column-2">Enabler Release</td>
+
+                <td class="column-3">
+                    <a href="http://technical.openmobilealliance.org/Technical/technical-information/release-program/current-releases/terminalstatusrest-v1-0"><span style=
+                    "color: #003180;">V1.0</span></a>
+                </td>
+
+                <td class="column-4">-</td>
+            </tr>
+
+            <tr class="row-130">
+                <td class="column-1">OMA RESTful Network API for Third Party Call</td>
+
+                <td class="column-2">Enabler Release</td>
+
+                <td class="column-3">
+                    <a href="http://technical.openmobilealliance.org/Technical/technical-information/release-program/current-releases/thirdpartycallrest-v1-0">V1.0</a>
+                </td>
+
+                <td class="column-4">-</td>
+            </tr>
+
+            <tr class="row-131">
+                <td class="column-1">OMA RESTful Network API for Video Share</td>
+
+                <td class="column-2">Enabler Release</td>
+
+                <td class="column-3">
+                    <a href="http://technical.openmobilealliance.org/Technical/technical-information/release-program/current-releases/videosharerestv1-0">V1.0</a>
+                </td>
+
+                <td class="column-4">-</td>
+            </tr>
+
+            <tr class="row-132">
+                <td class="column-1">OMA RESTful Network API for WebRTC Signaling<br></td>
+
+                <td class="column-2">Enabler Release</td>
+
+                <td class="column-3">
+                    <a href="http://technical.openmobilealliance.org/Technical/technical-information/release-program/current-releases/rest_netapi_webrtcsignaling_v1_0">V1.0</a>
+                </td>
+
+                <td class="column-4">-</td>
+            </tr>
+
+            <tr class="row-133">
+                <td class="column-1">OMA Rich Communication Centre (RCC)<br></td>
+
+                <td class="column-2">Enabler Release</td>
+
+                <td class="column-3">
+                    <a href="http://technical.openmobilealliance.org/Technical/technical-information/release-program/current-releases/oma-rich-communication-centre-v1-0">V1.0</a>
+                </td>
+
+                <td class="column-4">-</td>
+            </tr>
+
+            <tr class="row-134">
+                <td class="column-1">OMA Rich Media Environment</td>
+
+                <td class="column-2">Enabler Release</td>
+
+                <td class="column-3">-</td>
+
+                <td class="column-4">
+                    <a href="http://technical.openmobilealliance.org/Technical/technical-information/release-program/current-releases/rme-v1-0">V1.0</a>
+                </td>
+            </tr>
+
+            <tr class="row-135">
+                <td class="column-1">OMA Rights Issuer Common Domain</td>
+
+                <td class="column-2">Reference Release</td>
+
+                <td class="column-3">-</td>
+
+                <td class="column-4">
+                    <a href="http://technical.openmobilealliance.org/Technical/technical-information/release-program/current-releases/ricd-v1-0">V1.0</a>
+                </td>
+            </tr>
+
+            <tr class="row-136">
+                <td class="column-1">OMA SOAP Network API Roaming Provisioning;<br></td>
+
+                <td class="column-2">Enabler Release</td>
+
+                <td class="column-3">
+                    <a href="http://technical.openmobilealliance.org/Technical/technical-information/release-program/current-releases/oma-soap-network-api-for-roaming-provisioning-v1-0">V1.0</a>
+                </td>
+
+                <td class="column-4">-</td>
+            </tr>
+
+            <tr class="row-137">
+                <td class="column-1">OMA Scalable Vector Graphics (SVG) Mobile Domain</td>
+
+                <td class="column-2">Enabler Release</td>
+
+                <td class="column-3">-</td>
+
+                <td class="column-4">
+                    <a href="http://technical.openmobilealliance.org/Technical/technical-information/release-program/current-releases/svg-mobile-domain-v1-0" shape="rect" target="_blank">V1.0</a>
+                </td>
+            </tr>
+
+            <tr class="row-138">
+                <td class="column-1">OMA Secure Content Exchange</td>
+
+                <td class="column-2">Enabler Release</td>
+
+                <td class="column-3">-</td>
+
+                <td class="column-4">
+                    <a href="http://technical.openmobilealliance.org/Technical/technical-information/release-program/current-releases/secure-content-exchange-v1-0" shape="rect">V1.0</a>
+                </td>
+            </tr>
+
+            <tr class="row-139">
+                <td class="column-1">OMA Secure Content Identification Mechanism</td>
+
+                <td class="column-2">Enabler Release</td>
+
+                <td class="column-3">-</td>
+
+                <td class="column-4">
+                    <a href="http://technical.openmobilealliance.org/Technical/technical-information/release-program/current-releases/scidm-v1-0" shape="rect">V1.0</a>
+                </td>
+            </tr>
+
+            <tr class="row-140">
+                <td class="column-1">OMA Secure Removable Media</td>
+
+                <td class="column-2">Enabler Release</td>
+
+                <td class="column-3">-</td>
+
+                <td class="column-4">
+                    <a href="http://technical.openmobilealliance.org/Technical/technical-information/release-program/current-releases/secure-removable-media-v1-1" shape="rect">V1.1</a><br>
+                    <a href="http://technical.openmobilealliance.org/Technical/technical-information/release-program/current-releases/secure-removable-media-v1-0" shape="rect">V1.0</a>
+                </td>
+            </tr>
+
+            <tr class="row-141">
+                <td class="column-1">OMA Secure User Plane Location<br>
+                <strong><span style="color: #a52a2a;">Updated 2014-11-05</span></strong></td>
+
+                <td class="column-2">Enabler Release</td>
+
+                <td class="column-3">
+                    <a href="http://technical.openmobilealliance.org/Technical/technical-information/release-program/current-releases/secure-user-plane-location-v3-0" shape="rect">V3.0</a><br>
+                    <a href="http://technical.openmobilealliance.org/Technical/technical-information/release-program/current-releases/secure-user-plane-location-v2-1">V2.1</a>
+                </td>
+
+                <td class="column-4">
+                    <a href="http://technical.openmobilealliance.org/Technical/technical-information/release-program/current-releases/secure-user-plane-location-v1-0" shape="rect">V1.0</a><br>
+                    <a href="http://technical.openmobilealliance.org/Technical/technical-information/release-program/current-releases/secure-user-plane-location-v2-0-2"><strong>V2.0.2</strong></a>
+                </td>
+            </tr>
+
+            <tr class="row-142">
+                <td class="column-1">OMA SUPL Configuration Services</td>
+
+                <td class="column-2">Reference Release</td>
+
+                <td class="column-3">-</td>
+
+                <td class="column-4">
+                    <a href="http://technical.openmobilealliance.org/Technical/technical-information/release-program/current-releases/suplcs-v1-0">V1.0</a>
+                </td>
+            </tr>
+
+            <tr class="row-143">
+                <td class="column-1">OMA Service Environment</td>
+
+                <td class="column-2">Reference Release</td>
+
+                <td class="column-3">-</td>
+
+                <td class="column-4">
+                    <a href="http://technical.openmobilealliance.org/Technical/technical-information/release-program/current-releases/service-environment-v1-0" shape="rect">V1.0</a>
+                </td>
+            </tr>
+
+            <tr class="row-144">
+                <td class="column-1" rowspan="2">OMA Service Provider Environment (OSPE)</td>
+
+                <td class="column-2">Requirements Document</td>
+
+                <td class="column-3">
+                    <a href=
+                    "http://technical.openmobilealliance.org/Technical/technical-information/release-program/release-program-copyright-notice?rp=1023&amp;r_type=technical&amp;fp=Technical/Release_Program/docs/RD/OMA-RD-OSPE-V1_0-20050614-C.pdf"
+                    shape="rect">V1.0</a>
+                </td>
+
+                <td class="column-4">-</td>
+            </tr>
+
+            <tr class="row-145">
+                <td class="column-2">Reference Release</td>
+
+                <td class="column-3">-</td>
+
+                <td class="column-4">
+                    <a href="http://technical.openmobilealliance.org/Technical/technical-information/release-program/current-releases/ospe-v1-0" shape="rect">V1.0</a>
+                </td>
+            </tr>
+
+            <tr class="row-146">
+                <td class="column-1">OMA Service User Profile Management</td>
+
+                <td class="column-2">Enabler Release</td>
+
+                <td class="column-3">-</td>
+
+                <td class="column-4">
+                    <a href="http://technical.openmobilealliance.org/Technical/technical-information/release-program/current-releases/servuserprof-v1-0" shape="rect">V1.0</a>
+                </td>
+            </tr>
+
+            <tr class="row-147">
+                <td class="column-1">OMA Simplified Converged Address Book (S-CAB)</td>
+
+                <td class="column-2">Enabler Release</td>
+
+                <td class="column-3">
+                    <a href="http://technical.openmobilealliance.org/Technical/technical-information/release-program/current-releases/s-cab-v1-0">V1.0</a>
+                </td>
+
+                <td class="column-4">-</td>
+            </tr>
+
+            <tr class="row-148">
+                <td class="column-1">OMA SIMPLE IM<br></td>
+
+                <td class="column-2">Enabler Release</td>
+
+                <td class="column-3">
+                    <a href="http://technical.openmobilealliance.org/Technical/technical-information/release-program/current-releases/simple-im-v2-0">V2.0</a>
+                </td>
+
+                <td class="column-4">
+                    <a href="http://technical.openmobilealliance.org/Technical/technical-information/release-program/current-releases/simple-im-v1-0" shape="rect">V1.0</a>
+                </td>
+            </tr>
+
+            <tr class="row-149">
+                <td class="column-1">OMA SIP Push</td>
+
+                <td class="column-2">Enabler Release</td>
+
+                <td class="column-3">-</td>
+
+                <td class="column-4">
+                    <a href="http://technical.openmobilealliance.org/Technical/technical-information/release-program/current-releases/sip-push-v1-0" shape="rect">V1.0</a>
+                </td>
+            </tr>
+
+            <tr class="row-150">
+                <td class="column-1">OMA Small Cells Capabilities Exposure</td>
+
+                <td class="column-2">Enabler Release</td>
+
+                <td class="column-3">
+                    <a href="http://technical.openmobilealliance.org/Technical/technical-information/release-program/current-releases/small-cells-capabilities-exposure-v1-0">V1.0</a>
+                </td>
+
+                <td class="column-4">
+                    <a href="http://technical.openmobilealliance.org/Technical/technical-information/release-program/current-releases/small-cells-capabilities-exposure-reference-release-v1-0">V1.0
+                    RRP</a>
+                </td>
+            </tr>
+
+            <tr class="row-151">
+                <td class="column-1">OMA Smartcard Web Server</td>
+
+                <td class="column-2">Enabler Release</td>
+
+                <td class="column-3">-</td>
+
+                <td class="column-4">
+                    <a href="http://technical.openmobilealliance.org/Technical/technical-information/release-program/current-releases/smartcard-web-server-v1-2">V1.2</a><br>
+                    <a href="http://technical.openmobilealliance.org/Technical/technical-information/release-program/current-releases/smartcard-web-server-v1-1-3">V1.1</a><br>
+                    <a href="http://technical.openmobilealliance.org/Technical/technical-information/release-program/current-releases/smartcard-web-server-v1-0">V1.0</a>
+                </td>
+            </tr>
+
+            <tr class="row-152">
+                <td class="column-1">OMA Social Network Web</td>
+
+                <td class="column-2">Enabler Release</td>
+
+                <td class="column-3">
+                    <a href="http://technical.openmobilealliance.org/Technical/technical-information/release-program/current-releases/snew-v1-0"><strong>V1.0</strong></a>
+                </td>
+
+                <td class="column-4">-</td>
+            </tr>
+
+            <tr class="row-153">
+                <td class="column-1">OMA Software Component Management Object</td>
+
+                <td class="column-2">Enabler Release</td>
+
+                <td class="column-3">-</td>
+
+                <td class="column-4">
+                    <a href=
+                    "http://technical.openmobilealliance.org/Technical/technical-information/release-program/current-releases/software-component-management-object-v1-1"><strong>V1.1</strong></a><br>
+                    <a href="http://technical.openmobilealliance.org/Technical/technical-information/release-program/current-releases/software-component-management-object-v1-0" shape="rect">V1.0</a>
+                </td>
+            </tr>
+
+            <tr class="row-154">
+                <td class="column-1">OMA Software and Application Control Management Object<br></td>
+
+                <td class="column-2">Enabler Release</td>
+
+                <td class="column-3">-</td>
+
+                <td class="column-4">
+                    <a href="http://technical.openmobilealliance.org/Technical/technical-information/release-program/current-releases/sacmo-v1-0" shape="rect">V1.0</a>
+                </td>
+            </tr>
+
+            <tr class="row-155">
+                <td class="column-1">OMA SyncML Common Specification</td>
+
+                <td class="column-2">Enabler Release</td>
+
+                <td class="column-3">-</td>
+
+                <td class="column-4">
+                    <a href="http://technical.openmobilealliance.org/Technical/technical-information/release-program/current-releases/syncml-v1-2-2" shape="rect">V1.2.2</a><br>
+                    <a href="http://technical.openmobilealliance.org/Technical/technical-information/release-program/current-releases/syncml-v1-1-2" shape="rect">V1.1.2</a>
+                </td>
+            </tr>
+
+            <tr class="row-156">
+                <td class="column-1">OMA SyncML Primer</td>
+
+                <td class="column-2">Reference Release</td>
+
+                <td class="column-3">-</td>
+
+                <td class="column-4">
+                    <a href="http://technical.openmobilealliance.org/Technical/technical-information/release-program/current-releases/syncml-primer-v1-0" shape="rect"><span style=
+                    "text-decoration: underline;">V1.0</span></a>
+                </td>
+            </tr>
+
+            <tr class="row-157">
+                <td class="column-1">OMA RRP Template NetAPI<br>
+                <strong><span style="color: #a52a2a;">Updated 2015-01-27</span></strong></td>
+
+                <td class="column-2">Reference Release</td>
+
+                <td class="column-3">
+                    <a href="http://technical.openmobilealliance.org/Technical/technical-information/release-program/current-releases/oma-template-netapi-v1-0"><strong>V1.0</strong></a>
+                </td>
+
+                <td class="column-4"></td>
+            </tr>
+
+            <tr class="row-158">
+                <td class="column-1">OMA Telecom Application Store (TAS)</td>
+
+                <td class="column-2">Enabler Release</td>
+
+                <td class="column-3">
+                    <a href="http://technical.openmobilealliance.org/Technical/technical-information/release-program/current-releases/tas-v1-0">V1.0</a>
+                </td>
+
+                <td class="column-4">-</td>
+            </tr>
+
+            <tr class="row-159">
+                <td class="column-1">Unified Cloud Disk<br>
+                <strong><span style="color: #a52a2a;">Updated 2014-12-16</span></strong></td>
+
+                <td class="column-2">Enabler Release</td>
+
+                <td class="column-3">
+                    <a href="http://technical.openmobilealliance.org/Technical/technical-information/release-program-2/unified-cloud-disk-v1-0">V1.0</a>
+                </td>
+
+                <td class="column-4">-</td>
+            </tr>
+
+            <tr class="row-160">
+                <td class="column-1">OMA Unified Virtual Experience</td>
+
+                <td class="column-2">Enabler Release</td>
+
+                <td class="column-3">
+                    <a href="http://technical.openmobilealliance.org/Technical/technical-information/release-program/current-releases/uve-v1-0">V1.0</a>
+                </td>
+
+                <td class="column-4">-</td>
+            </tr>
+
+            <tr class="row-161">
+                <td class="column-1">OMA URI Schemes</td>
+
+                <td class="column-2">Enabler Release</td>
+
+                <td class="column-3">-</td>
+
+                <td class="column-4">
+                    <a href="http://technical.openmobilealliance.org/Technical/technical-information/release-program/current-releases/uri-schemes-v1-0" shape="rect">V1.0</a>
+                </td>
+            </tr>
+
+            <tr class="row-162">
+                <td class="column-1">OMA User Agent Profile</td>
+
+                <td class="column-2">Enabler Release</td>
+
+                <td class="column-3">-</td>
+
+                <td class="column-4">
+                    <a href="http://technical.openmobilealliance.org/Technical/technical-information/release-program/current-releases/user-agent-profile-v2-0" shape="rect">V2.0.1</a><br>
+                    <a href="http://technical.openmobilealliance.org/Technical/technical-information/release-program/current-releases/user-agent-profile-v1-1" shape="rect">V1.1</a>
+                </td>
+            </tr>
+
+            <tr class="row-163">
+                <td class="column-1">OMA UAProf Best Practices Guide</td>
+
+                <td class="column-2">Reference Release</td>
+
+                <td class="column-3">-</td>
+
+                <td class="column-4">
+                    <a href="http://technical.openmobilealliance.org/Technical/technical-information/release-program/current-releases/uaprof-best-practices-guide-v1-0" shape="rect"><span style=
+                    "text-decoration: underline;">V1.0</span></a>
+                </td>
+            </tr>
+
+            <tr class="row-164">
+                <td class="column-1">OMA Virtualisation</td>
+
+                <td class="column-2">Enabler Release</td>
+
+                <td class="column-3">-</td>
+
+                <td class="column-4">
+                    <a href="http://technical.openmobilealliance.org/Technical/technical-information/release-program/current-releases/virtualisation-mo-v1-0">V1.0</a>
+                </td>
+            </tr>
+
+            <tr class="row-165">
+                <td class="column-1">OMA vObject Minimum Interoperability Profile</td>
+
+                <td class="column-2">Enabler Release</td>
+
+                <td class="column-3">-</td>
+
+                <td class="column-4">
+                    <a href="http://technical.openmobilealliance.org/Technical/technical-information/release-program/current-releases/vobject-v1-0" shape="rect">V1.0</a>
+                </td>
+            </tr>
+
+            <tr class="row-166">
+                <td class="column-1">OMA WAP Proxy-based Redirect</td>
+
+                <td class="column-2">Enabler Release</td>
+
+                <td class="column-3">
+                    <a href=
+                    "http://technical.openmobilealliance.org/Technical/technical-information/release-program/release-program-copyright-notice?rp=1023&amp;r_type=technical&amp;fp=Technical/Release_Program/docs/RD/OMA-RD_WAPproxyBasedRedirect-V1_0-20030603-C.pdf"
+                    shape="rect">V1.0</a>
+                </td>
+
+                <td class="column-4">-</td>
+            </tr>
+
+            <tr class="row-167">
+                <td class="column-1">OMA Web Runtime API (WRAPI)<br></td>
+
+                <td class="column-2">Enabler Release</td>
+
+                <td class="column-3"></td>
+
+                <td class="column-4">
+                    <a href="http://technical.openmobilealliance.org/Technical/technical-information/release-program/current-releases/wrapi-v1-0">V1.0</a>
+                </td>
+            </tr>
+
+            <tr class="row-168">
+                <td class="column-1">OMA Web Services</td>
+
+                <td class="column-2">Enabler Release</td>
+
+                <td class="column-3">-</td>
+
+                <td class="column-4">
+                    <a href="http://technical.openmobilealliance.org/Technical/technical-information/release-program/current-releases/owser-v1-1" shape="rect">V1.1</a><a href=
+                    "http://technical.openmobilealliance.org/Technical/technical-information/release-program/current-releases/owser-v1-0" shape="rect"><br>
+                    V1.0</a>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+
+
+<!--
+        <table ng-controller="EnablerController" class="table-bordered" style="width:100%">
+            <thead>
+                <tr>
+                    <td>List of Enablers</td>
+                    <td>Release</td>
+                    <td>OMA Phase 1: Candidate Release</td>
+                    <td>OMA Phase 2: Approved Release</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr ng-repeat="enabler in enablers">
+                    <td>{{ enabler.enabler }}</td>
+                    <td>
+                        <span ng-repeat="release in enabler.release_type">
+                            {{ release }}<br>
+                        </span>
+                    </td>
+                    <td>{{ enabler.phase_1 }}</td>
+                    <td>{{ enabler.phase_2 }}</td>
+                </tr>
+            </tbody>
+        </table>
+-->
+	</div>
+</div>
+
+<script>
+    var omapi = angular.module('omaProjectIndex', []);
+
+    omapi.controller('IndexController', ['$scope', '$http', function($scope, $http) {
+        $http.get('projects.json').then(function(resp) {
+            $scope.projects = resp.data;
+        });
+    }]);
+
+    omapi.controller('EnablerController', ['$scope', '$http', function($scope, $http) {
+        $http.get('enabler_releases.json').then(function(resp) {
+            $scope.enablers = resp.data;
+        });
+    }]);
+</script>
+
+</body>
+</html>
