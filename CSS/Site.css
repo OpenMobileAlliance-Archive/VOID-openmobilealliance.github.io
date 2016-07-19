@@ -1,0 +1,95 @@
+﻿table {
+    width: 100%;
+}
+
+    table > thead > tr > td, th {
+        background: #00b7c1;
+        font-weight: bold;
+        color: #fff;
+    }
+
+tr:nth-child(even) {
+    background: #CBE5E5;
+}
+
+td {
+    padding: 8px;
+}
+
+#releases > tbody > tr > td:nth-child(2) {
+    font-style: italic;
+}
+
+
+header > nav > div {
+    display: inline-block;
+}
+
+    header > nav > div > a {
+        display: inline-block;
+        white-space: nowrap;
+        font: 1em/1 Helvetica Neue, sans-serif, Droid Sans Fallback;
+        text-decoration: none;
+        width: auto;
+        margin: 0.5em;
+        color: #F3F3F3;
+        text-align: center;
+    }
+
+    header > nav > div > a {
+        box-shadow: 0 0 0px #3C790A;
+        background: #3C790A;
+    }
+
+        header > nav > div > a.community {
+            box-shadow: 0 0 0px #165FCC;
+            background: #165FCC;
+        }
+        /* #165FCC #43679D #0B2F66 */
+        header > nav > div > a.feedback {
+            box-shadow: 0 0 0px #FF3E3A;
+            background: #FF3E3A;
+        }
+        /* #FF3E3A #CD6B6A #990300 */
+        header > nav > div > a.changes {
+            box-shadow: 0 0 0px #54B29A;
+            background: #54B29A;
+        }
+        /* #54B29A #6A9A8E #28584C */
+        header > nav > div > a.misc {
+            box-shadow: 0 0 0px #FFA32D;
+            background: #FFA32D;
+        }
+        /* #FFA32D #CB9D62 #945400 */
+
+        header > nav > div > a > * > * {
+            display: block;
+            padding: 0.1em 1em 0.1em;
+            background: rgba(255,255,255,0.9);
+            color: black;
+            font: inherit;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+
+            header > nav > div > a > * > *:first-child {
+                padding-top: 0.5em;
+            }
+
+            header > nav > div > a > * > *:last-child {
+                padding-bottom: 1em;
+            }
+
+        header > nav > div > a > * > strong {
+            color: blue;
+            text-decoration: underline;
+            padding-bottom: 0.5em;
+        }
+
+        header > nav > div > a > * > code {
+            font-size: 0.8em;
+        }
+
+.release-note {
+    color: #a52a2a;
+}

@@ -1,0 +1,83 @@
+﻿<!DOCTYPE html>
+<html ng-app="omaProjectIndex">
+<head>
+    <title></title>
+    <meta charset="utf-8" />
+    <script src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <link rel="stylesheet" href="/CSS/Site.css">
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular.min.js"></script>
+    <script src="/Scripts/enablerController.js"></script>
+
+    <script>
+        $(function () {
+            $('#header').load("header.html");
+        });
+    </script>
+</head>
+<body>
+    <!-- This gets populated with the header.html using Javascript -->
+    <div id="header"></div>
+
+    <div class="container" ng-controller="ReleaseController as release">
+        <div>
+            {{ errorMessage }}
+        </div>
+        <table id="releases" class="table-bordered">
+            <colgroup>
+                <col />
+                <col style="font-style: italic" />
+                <col />
+                <col />
+            </colgroup>
+            <thead>
+                <tr>
+                    <td>List of Releases</td>
+                    <td>Support</td>
+                    <td>
+                        OMA Phase 1:<br />
+                        Candidate Release
+                    </td>
+                    <td>
+                        OMA Phase 2:<br />
+                        Approved Release
+                    </td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr ng-repeat="release in releaseList">
+                    <td>
+                        {{ release.release }}<br/>
+                        <strong><span class="release-note">{{ release.note }}</span></strong>
+                    </td>
+                    <td>
+                        <div ng-repeat="supportItem in release.supportItems">
+                            <a href="{{supportItem.url}}">{{ supportItem.text }}</a>
+                        </div>
+                    </td>
+                    <td>
+                        <div ng-repeat="phase1Item in release.phase_1">
+                            <a href="{{phase1Item.url}}">V{{phase1Item.version}}</a> {{ phase1Item.note }}
+                        </div>
+                    </td>
+                    <td>
+                        <div ng-repeat="phase2Item in release.phase_2">
+                            <a href="{{phase2Item.url}}">V{{phase2Item.version}}</a> {{ phase2Item.note }}
+                        </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>
+
+
+
+
