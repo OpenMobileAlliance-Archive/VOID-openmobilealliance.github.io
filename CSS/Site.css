@@ -24,11 +24,6 @@ td {
     padding: 8px;
 }
 
-#releases > tbody > tr > td:nth-child(2) {
-    font-style: italic;
-}
-
-
 header > nav > div {
     display: inline-block;
     font: 1em/1 Helvetica Neue, sans-serif, Droid Sans Fallback;
@@ -76,37 +71,4 @@ header > nav .misc-item {
 header > nav .feedback-item {
     box-shadow: 0 0 0px #FFA32D;
     background: #f5e3e2;
-}
-
-
-/*header > nav > div > a > * > * {
-    display: block;
-    padding: 0.1em 1em 0.1em;
-    background: rgba(255,255,255,0.9);
-    color: black;
-    font: inherit;
-    overflow: hidden;
-    text-overflow: ellipsis;
-}
-
-    header > nav > div > a > * > *:first-child {
-        padding-top: 0.5em;
-    }
-
-    header > nav > div > a > * > *:last-child {
-        padding-bottom: 1em;
-    }*/
-
-strong {
-    color: blue;
-    text-decoration: underline;
-    padding-bottom: 0.5em;
-}
-
-header > nav > div > a > * > code {
-    font-size: 0.8em;
-}
-
-.release-note {
-    color: #a52a2a;
 }
