@@ -1,0 +1,75 @@
+﻿<!doctype html>
+<html>
+<head>
+
+    <title>Open Mobile Alliance - Provide Comments</title>
+    <meta charset="utf-8">
+    <script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
+
+    <!-- Normalize CSS -->
+    <link rel="stylesheet" href="CSS/Normalize.css" />
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
+
+    <link rel="stylesheet" href="CSS/Site.css">
+    <link rel="stylesheet" href="CSS/comments.css">
+
+    <script>
+        $(function () {
+            $('#header').load("header.html");
+        });
+    </script>
+</head>
+
+
+<body>
+    <!-- This gets populated with the header.html using Javascript -->
+    <div id="header"></div>
+
+    <div class="container">
+        <div>
+            <h1>
+                Provide Comments
+            </h1>
+        </div>
+        <div>
+            <p>Introduction text</p>
+        </div>
+        <!-- Start of releses table -->
+        <table id="comments-table" class="table-bordered">
+            <thead>
+                <tr>
+                    <th>Provide Comments Via</th>
+                    <th>Description</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>
+                        <a href="">LightweightM2M Bugs/Issues</a>
+                    </td>
+                    <td></td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <a href="">Bugs in other Enablers</a>
+                    </td>
+                    <td></td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <a href="">Helpdesk/Jira/Email</a>
+                    </td>
+                    <td></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>
