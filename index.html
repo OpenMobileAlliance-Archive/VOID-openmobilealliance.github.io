@@ -1,23 +1,23 @@
 ﻿<!doctype html>
 <html ng-app="omaProjectIndex">
 <head>
-	
-    <title>OMA Release Program</title>
+
+    <title>OMA Specifications</title>
     <meta charset="utf-8">
     <script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
     <script src="Scripts/specifications.js"></script>
-    
-    <link rel="stylesheet" href="CSS/Site.css">
-    <link rel="stylesheet" href="CSS/Specifications.css">
-    
+
     <!-- Normalize CSS -->
     <link rel="stylesheet" href="CSS/Normalize.css" />
 
-	<!-- Latest compiled and minified CSS -->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
 
-	<!-- Optional theme -->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
+
+    <link rel="stylesheet" href="CSS/Site.css">
+    <link rel="stylesheet" href="CSS/index.css">
 
     <script>
         $(function () {
@@ -32,9 +32,6 @@
     <div id="header"></div>
 
     <div class="container">
-        <!--
-	        Legacy Enabler Releases
-        -->
         <div>
             <h1>
                 OMA Specifications
@@ -44,46 +41,105 @@
             <p>OMA Releases are made up of different types of Specifications which are publicly available from this portal. The table below describe the Specifications that OMA publishes.</p>
         </div>
         <div>
+            <!-- Start of releses table -->
             <table id="releases-table" class="table-bordered">
                 <thead>
                     <tr>
                         <th>List of Releases</th>
                         <th>Support </th>
                         <th>
-                            OMA Phase 1: <br/>
+                            OMA Phase 1: <br />
                             Candidate Release
                         </th>
                         <th>
-                            OMA Phase 2: <br/>
+                            OMA Phase 2: <br />
                             Approved Release
                         </th>
                     </tr>
                 </thead>
                 <tbody>
                     <tr>
-                        <td>OMA Application Layer Security Common Functions</td>
-
                         <td>
-				            <a href="https://openmobilealliance.github.io/comment.html">Comment</a>    
-				        </td>
-
-                        <td>
-                            <div>
-                                -
-                            </div>
+                            <!-- To create a note in this column, a span or something similar can be used with the class "release-note" -->
+                            Release Name<br />
+                            <strong><span class="release-note">Release note</span></strong>
                         </td>
 
                         <td>
-                            <div>
-                                <a href="ftp://technicalftp.openmobilealliance.org/Technical/Release_Program/docs/SEC_CF">V1.1</a>
-                                <div class="release-note-phase">
-                                    <strong>Historic</strong><br />
-                                    2014-Jan
-                                </div>
-                            </div>
-                            <div>
-                                <a href="ftp://technicalftp.openmobilealliance.org/Technical/Release_Program/docs/SEC_CF">V1.0</a>
-                            </div>
+                            <a href="https://" class="orange">Readme</a><br />
+                            <a href="https://" class="orange">Register</a><br />
+                            <a href="https://" class="blue">Supporting Data</a><br />
+                            <a href="https://" class="green">Developer</a><br />
+                            <a href="https://" class="red">Comment</a><br />
+                            <a href="https://" class="red">Watch/Unwatch</a><br />
+                        </td>
+
+                        <td>
+                            <!-- This div is necessary for the centering of text and to have a note div that floats to the right -->
+                            <ul>
+                                <li>
+                                    -
+                                    <!-- This div is for the right floating notes that all the column to stay centred -->
+                                    <div class="release-note-phase">
+                                        <strong>Historic</strong><br />
+                                        2012-Jun<br />
+                                        More info
+                                    </div>
+                                </li>
+                            </ul>
+                        </td>
+
+                        <td>
+                            <ul>
+                                <li>
+                                    <a href="ftp://technicalftp.openmobilealliance.org/Technical/Release_Program/docs/Browsing">Version 1</a>
+                                    <div class="release-note-phase">
+                                        Note line 1<br />
+                                        Note line 2<br />
+                                        Note line 3<br />
+                                    </div>
+                                </li>
+                                <li>
+                                    <a href="ftp://technicalftp.openmobilealliance.org/Technical/Release_Program/docs/Browsing">Version 2</a>
+                                    <div class="release-note-phase">
+                                        Note line 1<br />
+                                        Note line 2<br />
+                                        Note line 3<br />
+                                    </div>
+                                </li>
+                            </ul>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            OMA Application Layer Security Common Functions
+                        </td>
+
+                        <td>
+                            <a href="https://openmobilealliance.github.io/comment.html">Comment</a>
+                        </td>
+
+                        <td>
+                            <ul>
+                                <li>
+                                    -
+                                </li>
+                            </ul>
+                        </td>
+
+                        <td>
+                            <ul>
+                                <li>
+                                    <a href="ftp://technicalftp.openmobilealliance.org/Technical/Release_Program/docs/SEC_CF">V1.1</a>
+                                    <div class="release-note-phase">
+                                        <strong>Historic</strong><br />
+                                        2014-Jan
+                                    </div>
+                                </li>
+                                <li>
+
+                                    <a href="ftp://technicalftp.openmobilealliance.org/Technical/Release_Program/docs/SEC_CF">V1.0</a>
+                                </li>
                         </td>
                     </tr>
 
@@ -91,15 +147,23 @@
                         <td>OMA Authorisation Framework for Network APIs</td>
 
                         <td>
-				            <a href="https://openmobilealliance.github.io/comment.html">Comment</a>
-				        </td>
-
-                        <td><div>-</div></td>
+                            <a href="https://openmobilealliance.github.io/comment.html">Comment</a>
+                        </td>
 
                         <td>
-                            <div>
-                                <a href="http://technical.openmobilealliance.org/Technical/technical-information/release-program/current-releases/oma-authorization-framework-for-network-apis-v1-0"><strong>V1.0</strong></a>
-                            </div>
+                            <ul>
+                                <li>
+                                    -
+                                </li>
+                            </ul>
+                        </td>
+
+                        <td>
+                            <ul>
+                                <li>
+                                    <a href="http://technical.openmobilealliance.org/Technical/technical-information/release-program/current-releases/oma-authorization-framework-for-network-apis-v1-0"><strong>V1.0</strong></a>
+                                </li>
+                            </ul>
                         </td>
                     </tr>
 
@@ -110,62 +174,37 @@
                         </td>
 
                         <td>
-				            <a href="https://openmobilealliance.github.io/comment.html">Comment</a>
-				        </td>
-
-                        <td><div>-</div></td>
-
-                        <td>
-                            <div><b><a href="ftp://technicalftp.openmobilealliance.org/Technical/Release_Program/docs/Browsing">V2.4</a></b></div>
-                            <div><a href="ftp://technicalftp.openmobilealliance.org/Technical/Release_Program/docs/Browsing"><u>V2.3</u></a></div>
-                            <div><a href="ftp://technicalftp.openmobilealliance.org/Technical/Release_Program/docs/Browsing">V2.2</a></div>
-                            <div><a href="ftp://technicalftp.openmobilealliance.org/Technical/Release_Program/docs/Browsing">V2.1</a></div>
-                        </td>
-                    </tr>
-
-                    <tr>
-                        <td>
-                            Release Name<br />
-                            <strong><span class="release-note">Release note</span></strong>
+                            <a href="https://openmobilealliance.github.io/comment.html">Comment</a>
                         </td>
 
                         <td>
-                            <a href="https://Comment URL">Comment URL text</a>
+                            <ul>
+                                <li>
+                                    -
+                                </li>
+                            </ul>
                         </td>
 
                         <td>
-                            <div>
-                                -
-                                <div class="release-note-phase">
-                                    <strong>Historic</strong><br />
-                                    2012-Jun<br />
-                                    More info
-                                </div>
-                            </div>
-                        </td>
-
-                        <td>
-                            <div>
-                                <a href="ftp://technicalftp.openmobilealliance.org/Technical/Release_Program/docs/Browsing">Version 1</a>
-                                <div class="release-note-phase">
-                                    Note line 1<br/>
-                                    Note line 2<br/>
-                                    Note line 3<br/>
-                                </div>
-                            </div>
-                            <div>
-                                <a href="ftp://technicalftp.openmobilealliance.org/Technical/Release_Program/docs/Browsing">Version 2</a>
-                                <div class="release-note-phase">
-                                    Note line 1<br />
-                                    Note line 2<br />
-                                    Note line 3<br />
-                                </div>
-                            </div>
+                            <ul>
+                                <li>
+                                    <b><a href="ftp://technicalftp.openmobilealliance.org/Technical/Release_Program/docs/Browsing">V2.4</a></b>
+                                </li>
+                                <li>
+                                    <a href="ftp://technicalftp.openmobilealliance.org/Technical/Release_Program/docs/Browsing"><u>V2.3</u></a>
+                                </li>
+                                <li>
+                                    <a href="ftp://technicalftp.openmobilealliance.org/Technical/Release_Program/docs/Browsing">V2.2</a>
+                                </li>
+                                <li>
+                                    <a href="ftp://technicalftp.openmobilealliance.org/Technical/Release_Program/docs/Browsing">V2.1</a>
+                                </li>
+                            </ul>
                         </td>
                     </tr>
                 </tbody>
             </table>
-            </div>
         </div>
-    </body>
+    </div>
+</body>
 </html>

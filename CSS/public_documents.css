@@ -1,0 +1,5 @@
+﻿#publicdocuments-table > tbody > tr > td ul {    
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+}

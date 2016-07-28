@@ -1,0 +1,110 @@
+﻿<!doctype html>
+<html ng-app="omaProjectIndex">
+<head>
+
+    <title>OMA Public Documents</title>
+    <meta charset="utf-8">
+    <script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
+
+    <!-- Normalize CSS -->
+    <link rel="stylesheet" href="CSS/Normalize.css" />
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
+
+    <link rel="stylesheet" href="CSS/Site.css">
+    <link rel="stylesheet" href="CSS/public_documents.css">
+
+    <script>
+        $(function () {
+            $('#header').load("header.html");
+        });
+    </script>
+</head>
+
+
+<body>
+    <!-- This gets populated with the header.html using Javascript -->
+    <div id="header"></div>
+
+    <div class="container">
+        <div>
+            <h1>
+                OMA Specifications
+            </h1>
+        </div>
+        <div>
+            <p>Introduction text</p>
+        </div>
+        <!-- Start of releses table -->
+        <table id="publicdocuments-table" class="table-bordered">
+            <thead>
+                <tr>
+                    <th>Public Available Documents</th>
+                    <th>Links</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>
+                        Working Groups Public Documents
+                    </td>
+                    <td>
+                        <ul>
+                            <li>
+                                <a href="">Architecture (ARC)</a>
+                            </li>
+                            <li>
+                                <a href="#">Content Delivery (CD)</a>
+                            </li>
+                            <li>
+                                <a href="#">Communications (COM)</a>
+                            </li>
+                            <li>
+                                <a href="#">Device Management (DM)</a>
+                            </li>
+                            <li>
+                                <a href="#">Interoperability (IOP)</a>
+                            </li>
+                            <li>
+                                <a href="#">Location (LOC)</a>
+                            </li>
+                            <li>
+                                <a href="#">Release Planning (REL)</a>
+                            </li>
+                            <li>
+                                <a href="#">Requirements</a>
+                            </li>
+                            <li>
+                                <a href="#">Technical Plenary</a>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        White Papers
+                    </td>
+                    <td>
+                        <ul>
+                            <li>
+                                <a href="#">OMA-WP-Mobile_Social_Network-20110516-A</a>
+                            </li>
+                            <li>
+                                <a href="">OMA-WP-UAProf_Best_Practices_Guide-20060718-A.pdf</a>
+                            </li>
+                            <li>
+                                <a href="">OMA-WP-McommerceLandscape-20051221-A.pdf</a>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>

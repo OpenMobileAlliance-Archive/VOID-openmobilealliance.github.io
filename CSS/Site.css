@@ -11,17 +11,33 @@ table {
 }
 
     table > thead > tr > td, th {
-        background: #00b7c1;
+        background: #568ed3;
         font-weight: bold;
         color: #fff;
     }
 
 tr:nth-child(even) {
-    background: #CBE5E5;
+    background: #dbeef3;
 }
 
 td {
-    padding: 8px;
+    padding: 1em;
+}
+
+.orange {
+    color: #f5964f;
+}
+
+.blue {
+    color: #8066a0;
+}
+
+.green {
+    color: #9cba67;
+}
+
+.red {
+    color: #d99699;
 }
 
 /* Header Styling */
