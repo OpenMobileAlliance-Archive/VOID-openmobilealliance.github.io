@@ -3,10 +3,12 @@
 
 # User-specific files
 *.suo
-*.suo.exlude
+*.suo.exclude
 *.user
 *.userosscache
 *.sln.docstates
+*.sln
+*.sln.exclude
 CNAME
 
 # User-specific files (MonoDevelop/Xamarin Studio)
