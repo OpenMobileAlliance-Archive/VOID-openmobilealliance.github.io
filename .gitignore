@@ -9,6 +9,7 @@
 *.sln.docstates
 *.sln
 *.sln.exclude
+web.config
 CNAME
 
 # User-specific files (MonoDevelop/Xamarin Studio)
