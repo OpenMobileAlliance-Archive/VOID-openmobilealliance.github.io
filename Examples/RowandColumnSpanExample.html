@@ -1,0 +1,92 @@
+﻿<!doctype html>
+<html>
+<head>
+
+    <title>Open Mobile Alliance - code exmamples</title>
+    <meta charset="utf-8">
+    <script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
+
+    <!-- Normalize CSS -->
+    <link rel="stylesheet" href="CSS/Normalize.css" />
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
+
+    <link rel="stylesheet" href="CSS/Site.css">
+
+    <script>
+        $(function () {
+            $('#header').load("header.html");
+        });
+    </script>
+</head>
+
+
+<body>
+    <!-- This gets populated with the header.html using Javascript -->
+    <div id="header"></div>
+
+    <div class="container">
+        <div>
+            <h1>
+                Rowspan and Colspan examples
+            </h1>
+        </div>
+        <div>
+            <!-- Start of releses table -->
+            <table id="releases-table" class="table-bordered">
+                <thead>
+                    <tr>
+                        <th colspan="4">
+                            BCAST Parental Rating System Registry
+                        </th>
+                    </tr>
+                    <tr>
+                        <th>
+                            rating_type
+                        </th>
+                        <th>
+                            System Description
+                        </th>
+                        <th>
+                            rating_value(s)
+                        </th>
+                        <th>
+                            Rating Label
+                        </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td rowspan="3">
+                            0
+                        </td>
+                        <td rowspan="3">
+                            <h4>Digital Video Broadcasting (DVB)</h4>
+                            <p>Labels and Values based on ETSI EN 300-468</p>
+                            <p>OMNA will not be assigning values in this set</p>
+                        </td>
+                        <td>
+                            0
+                        </td>
+                        <td>
+                            undefined
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>1-15</td>
+                        <td>minimum age minus 3 years</td>
+                    </tr>
+                    <tr>
+                        <td>16-255</td>
+                        <td>defined by the broadcaster</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</body>
+</html>
