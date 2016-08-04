@@ -1,0 +1,99 @@
+<!doctype html>
+<html>
+<head>
+
+    <title>Open Mobile Alliance - Supporting Data</title>
+    <meta charset="utf-8">
+    <script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
+
+    <!-- Normalize CSS -->
+    <link rel="stylesheet" href="CSS/Normalize.css" />
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
+
+    <link rel="stylesheet" href="CSS/Site.css">
+
+    <script>
+        $(function () {
+            $('#header').load("header.html");
+        });
+    </script>
+</head>
+
+
+<body>
+    <!-- This gets populated with the header.html using Javascript -->
+    <div id="header"></div>
+
+    <div class="container">
+        <div>
+            <h1>
+                Supporting Data
+            </h1>
+        </div>
+        <div>
+            <p>The supporting data consists of non-specification materials needed to support the releases. The supporting data includes DTDs, XML schemas, WSDL packages, JSD and WebIDL files.</p>
+        </div>
+        <!-- Start of releses table -->
+        <table id="publicdocuments-table" class="table-bordered">
+            <thead>
+                <tr>
+                    <th>Supporting Data</th>
+                    <th>Description</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>
+                        <a href="http://devwww.openmobilealliance.org/tech/dtd">DTDs</a>
+                    </td>
+                    <td>
+                        Provides the storage area for the Document Type Definitions (DTDs).
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                         <a href="http://devwww.openmobilealliance.org/tech/profiles">Profile Data (Schemas, UAProf)</a>
+                    </td>
+                    <td>
+                         Provides access to specified schema (and other related files).
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                         <a href="http://devwww.openmobilealliance.org/tech/wsdl">WSDL Packages</a>
+                    </td>
+                    <td>
+                         Provides access to the available Web Services Description Language (WSDL) Packages.
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                         <a href="http://devwww.openmobilealliance.org/tech/profiles/JSD">JSD Files</a>
+                    </td>
+                    <td>
+                         Provides access to the available JSON Schema Definition (JSD) packages.
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                         <a href="http://devwww.openmobilealliance.org/tech/profiles/widl">Web IDL Files</a>
+                    </td>
+                    <td>
+                         Provides access to the available Web IDL Packages.
+                    </td>
+                </tr>
+                
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>
