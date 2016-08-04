@@ -23,27 +23,27 @@ table {
     width: 100%;
 }
 
-table > caption {
-    caption-side: bottom;
-}
+    table > caption {
+        caption-side: bottom;
+    }
 
-table > thead > tr > td, th {
-    background: #568ed3;
-    font-weight: bold;
-    color: #fff;
-}
+    table > thead > tr > td, th {
+        background: #568ed3;
+        font-weight: bold;
+        color: #fff;
+    }
 
-table > tbody > tr:nth-child(even) {
-    background: #dbeef3;
-}
+    table > tbody > tr:nth-child(even) {
+        background: #dbeef3;
+    }
 
-table > thead > tr > th { 
-    padding: 1em;
-}
+    table > thead > tr > th {
+        padding: 1em;
+    }
 
-table > tbody > tr > td {
-    padding: 1em;
-}
+    table > tbody > tr > td {
+        padding: 1em;
+    }
 
 .orange {
     color: #f5964f;
