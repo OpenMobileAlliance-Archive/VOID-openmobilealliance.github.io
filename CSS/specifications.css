@@ -1,4 +1,8 @@
-﻿#releases-table > tbody > tr > td {
+﻿#releases-table > thead > tr > th {
+    text-align: center;
+}
+
+#releases-table > tbody > tr > td {
     vertical-align: top;
 }
 
