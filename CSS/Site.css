@@ -1,4 +1,13 @@
-﻿.clearfix:after {
+﻿html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.clearfix:after {
     content: " "; /* Older browser do not support empty content */
     visibility: hidden;
     display: block;
@@ -6,9 +15,17 @@
     clear: both;
 }
 
+.align-left {
+    text-align: left;
+}
+
 table {
     width: 100%;
 }
+
+    table > caption {
+        caption-side: bottom;
+    }
 
     table > thead > tr > td, th {
         background: #568ed3;
@@ -16,13 +33,17 @@ table {
         color: #fff;
     }
 
-tr:nth-child(even) {
-    background: #dbeef3;
-}
+    table > tbody > tr:nth-child(even) {
+        background: #dbeef3;
+    }
 
-td {
-    padding: 1em;
-}
+    table > thead > tr > th {
+        padding: 1em;
+    }
+
+    table > tbody > tr > td {
+        padding: 1em;
+    }
 
 .orange {
     color: #f5964f;
@@ -46,7 +67,6 @@ header > nav > div {
     font: 1em/1 Helvetica Neue, sans-serif, Droid Sans Fallback;
     text-align: center;
     padding: 0.5em;
-
 }
 
     header > nav > div > div:first-child {

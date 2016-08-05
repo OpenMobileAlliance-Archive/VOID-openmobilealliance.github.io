@@ -1,0 +1,426 @@
+﻿<!doctype html>
+<html>
+<head>
+
+    <title>Open Mobile Alliance - LwM2M Registry</title>
+    <meta charset="utf-8">
+    <script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
+    <script src="/Scripts/LwM2MRegistry.js"></script>
+
+    <!-- Font awesome for arrows -->
+    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+
+    <!-- Normalize CSS -->
+    <link rel="stylesheet" href="/CSS/Normalize.css" />
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
+
+    <link rel="stylesheet" href="/CSS/Site.css">
+    <link rel="stylesheet" href="/CSS/LwM2MRegistry.css">
+
+    <script>
+        $(function () {
+            $('#header').load("/header.html");
+        });
+    </script>
+</head>
+
+
+<body>
+    <!-- This gets populated with the header.html using Javascript -->
+    <div id="header"></div>
+
+    <div class="container">
+        <div>
+            <h1>
+                OMA LightweightM2M (LwM2M) Object and Resource Registry
+            </h1>
+        </div>
+        <div>
+            <p>Introduction text</p>
+            <p>for registration please check the bottom of the corresponding page)</p>
+        </div>
+        <div>
+            <h2>
+                ObjectID Classes
+            </h2>
+            <table id="lwm2mregistry-table" class="table-bordered">
+                <thead>
+                    <tr>
+                        <th>Category</th>
+                        <th>URN </th>
+                        <th>Object ID range</th>
+                        <th>Description</th>
+                        <th colspan="2">Operations</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>
+                            <a href="">oma-label</a>
+                        </td>
+                        <td>
+                            urn:oma:lwm2m:oma:&lt;id&gt;
+                        </td>
+                        <td>
+                            0 - 1023
+                        </td>
+                        <td>
+                            Objects Produced by OMA
+                        </td>
+                        <td>
+                            <a href="">View</a>
+                        </td>
+                        <td>
+                            <a href="">Register</a>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <a href="">reserved</a>
+                        </td>
+                        <td></td>
+                        <td>
+                            1024 - 20147
+                        </td>
+                        <td>
+                            Reserved for future use
+                        </td>
+                        <td>
+                            --
+                        </td>
+                        <td>
+                            --
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <a href="">ext-label</a>
+                        </td>
+                        <td>
+                            urn:oma:lwm2m:ext:&lt;id&gt;
+                        </td>
+                        <td>
+                            2048 - 10240
+                        </td>
+                        <td>
+                            Objcet Produced by 3rd SDOs
+                        </td>
+                        <td>
+                            <a href="">View</a>
+                        </td>
+                        <td>
+                            <a href="">Register</a>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <a href="">x-label</a>
+                        </td>
+                        <td>
+                            urn:oma:lwm2m:x:&lt;id&gt;
+                        </td>
+                        <td>
+                            10241 - 32768
+                        </td>
+                        <td>
+                            Objects Produced by Vendors
+                        </td>
+                        <td>
+                            <a href="">View</a>
+                        </td>
+                        <td>
+                            <a href="">Register</a>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div>
+            <h2>ResourceID Classes</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Category</th>
+                        <th>Resource ID Range</th>
+                        <th>Description</th>
+                        <th colspan="2">Operations</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>
+                            <a href="">Common Resources</a>
+                        </td>
+                        <td>
+                            0 - 2047
+                        </td>
+                        <td>
+                            Common resource defined inside  Objects. Inside of an Object the resourceIDs must be unique but it can be reused in different Objects.
+                        </td>
+                        <td>
+                            --
+                        </td>
+                        <td>
+                            --
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <a href="">Reusable Resources</a>
+                        </td>
+                        <td>
+                            2048 - 32768
+                        </td>
+                        <td>
+                            Registered by an Object Specification, with the Resource ID assigned by OMNA. Defined in any Object specification. Resources from this Resource ID range can be re-used in any Object
+                        </td>
+                        <td>
+                            View
+                        </td>
+                        <td>
+                            Register
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div>
+            <h2>LwM2M Objects</h2>
+            <h3>oma-label Objects Produced by OMA</h3>
+            <code>URN: urn:oma:lwm2m:oma:ObjectID | range (0 - 1,023)</code>
+            <table class="descriptive-table">
+                <thead>
+                    <tr>
+                        <th>ObjectID</th>
+                        <th>Object Name</th>
+                        <th>Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>
+                            <a href="">0</a>
+                        </td>
+                        <td>
+                            <a href="">LwM2M Security</a>
+                        </td>
+                        <td>
+                            <p>This is the description</p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque commodo ut turpis sed elementum. Nunc auctor ultrices lorem. Sed vulputate, urna eu pulvinar scelerisque, erat magna ullamcorper ex, at feugiat ex leo eget lacus. Nam pulvinar, leo at ornare sollicitudin, ipsum nibh ullamcorper erat, eu mollis enim mauris id massa. Etiam ullamcorper id turpis et faucibus. Curabitur nisi nibh, vestibulum eget blandit quis, pretium eu quam. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec odio quam, suscipit et dolor a, ultricies viverra lacus. Quisque nec quam eget turpis commodo tempor. Cras non neque mi. Vivamus quis sem quis lorem lobortis iaculis nec id lorem. Suspendisse consequat placerat enim, vitae cursus diam placerat nec. Mauris pellentesque volutpat dolor et semper. Ut laoreet eros vel risus porta, pulvinar sagittis neque gravida. Suspendisse sit amet convallis augue, vel laoreet dolor.</p>
+                            <p>Integer ut nisi massa. Vivamus quis sagittis nisi. Sed auctor elit in enim ornare finibus ut quis nulla. Sed non magna urna. Aliquam erat volutpat. Donec in rutrum augue. Suspendisse pellentesque auctor elementum. In porta, leo rutrum sollicitudin accumsan, ipsum libero scelerisque ligula, sit amet elementum dui ex eget risus. Integer odio massa, sagittis luctus rhoncus ac, pulvinar ut quam. Integer sapien dui, iaculis sed facilisis vel, consequat ac sapien. Pellentesque in mauris aliquam, lacinia elit eu, auctor est. Ut in maximus massa.</p>
+
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <a href="">1</a>
+                        </td>
+                        <td>
+                            <a href=""></a>
+                        </td>
+                        <td>
+                            <p>This is a description that doesn't overflow</p>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <a href="">2</a>
+                        </td>
+                        <td>
+                            <a href=""></a>
+                        </td>
+                        <td>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque commodo ut turpis sed elementum. Nunc auctor ultrices lorem. Sed vulputate, urna eu pulvinar scelerisque, erat magna ullamcorper ex, at feugiat ex leo eget lacus. Nam pulvinar, leo at ornare sollicitudin, ipsum nibh ullamcorper erat, eu mollis enim mauris id massa. Etiam ullamcorper id turpis et faucibus. Curabitur nisi nibh, vestibulum eget blandit quis, pretium eu quam. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec odio quam, suscipit et dolor a, ultricies viverra lacus. Quisque nec quam eget turpis commodo tempor. Cras non neque mi. Vivamus quis sem quis lorem lobortis iaculis nec id lorem. Suspendisse consequat placerat enim, vitae cursus diam placerat nec. Mauris pellentesque volutpat dolor et semper. Ut laoreet eros vel risus porta, pulvinar sagittis neque gravida. Suspendisse sit amet convallis augue, vel laoreet dolor.</p>
+                            <p>Integer ut nisi massa. Vivamus quis sagittis nisi. Sed auctor elit in enim ornare finibus ut quis nulla. Sed non magna urna. Aliquam erat volutpat. Donec in rutrum augue. Suspendisse pellentesque auctor elementum. In porta, leo rutrum sollicitudin accumsan, ipsum libero scelerisque ligula, sit amet elementum dui ex eget risus. Integer odio massa, sagittis luctus rhoncus ac, pulvinar ut quam. Integer sapien dui, iaculis sed facilisis vel, consequat ac sapien. Pellentesque in mauris aliquam, lacinia elit eu, auctor est. Ut in maximus massa.</p>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <a href="">3</a>
+                        </td>
+                        <td>
+                            <a href=""></a>
+                        </td>
+                        <td>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque commodo ut turpis sed elementum. Nunc auctor ultrices lorem. Sed vulputate, urna eu pulvinar scelerisque, erat magna ullamcorper ex, at feugiat ex leo eget lacus. Nam pulvinar, leo at ornare sollicitudin, ipsum nibh ullamcorper erat, eu mollis enim mauris id massa. Etiam ullamcorper id turpis et faucibus. Curabitur nisi nibh, vestibulum eget blandit quis, pretium eu quam. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec odio quam, suscipit et dolor a, ultricies viverra lacus. Quisque nec quam eget turpis commodo tempor. Cras non neque mi. Vivamus quis sem quis lorem lobortis iaculis nec id lorem. Suspendisse consequat placerat enim, vitae cursus diam placerat nec. Mauris pellentesque volutpat dolor et semper. Ut laoreet eros vel risus porta, pulvinar sagittis neque gravida. Suspendisse sit amet convallis augue, vel laoreet dolor.</p>
+                            <p>Integer ut nisi massa. Vivamus quis sagittis nisi. Sed auctor elit in enim ornare finibus ut quis nulla. Sed non magna urna. Aliquam erat volutpat. Donec in rutrum augue. Suspendisse pellentesque auctor elementum. In porta, leo rutrum sollicitudin accumsan, ipsum libero scelerisque ligula, sit amet elementum dui ex eget risus. Integer odio massa, sagittis luctus rhoncus ac, pulvinar ut quam. Integer sapien dui, iaculis sed facilisis vel, consequat ac sapien. Pellentesque in mauris aliquam, lacinia elit eu, auctor est. Ut in maximus massa.</p>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div>
+            <h3>ext-label Objects Produced by 3rd party Standards Development Organizations</h3>
+            <code>URN: urn:oma:lwm2m:ext:ObjectID | range (2,048 - 10,240)</code>
+            <table class="descriptive-table">
+                <thead>
+                    <tr>
+                        <th>ObjectID</th>
+                        <th>Object Name</th>
+                        <th>Owner</th>
+                        <th>Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>
+                            <a href="">2048</a>
+                        </td>
+                        <td>
+                            <a href="">CmdhPolicy</a>
+                        </td>
+                        <td>
+                            OneM2M
+                        </td>
+                        <td>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque commodo ut turpis sed elementum. Nunc auctor ultrices lorem. Sed vulputate, urna eu pulvinar scelerisque, erat magna ullamcorper ex, at feugiat ex leo eget lacus. Nam pulvinar, leo at ornare sollicitudin, ipsum nibh ullamcorper erat, eu mollis enim mauris id massa. Etiam ullamcorper id turpis et faucibus. Curabitur nisi nibh, vestibulum eget blandit quis, pretium eu quam. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec odio quam, suscipit et dolor a, ultricies viverra lacus. Quisque nec quam eget turpis commodo tempor. Cras non neque mi. Vivamus quis sem quis lorem lobortis iaculis nec id lorem. Suspendisse consequat placerat enim, vitae cursus diam placerat nec. Mauris pellentesque volutpat dolor et semper. Ut laoreet eros vel risus porta, pulvinar sagittis neque gravida. Suspendisse sit amet convallis augue, vel laoreet dolor.</p>
+                            <p>Integer ut nisi massa. Vivamus quis sagittis nisi. Sed auctor elit in enim ornare finibus ut quis nulla. Sed non magna urna. Aliquam erat volutpat. Donec in rutrum augue. Suspendisse pellentesque auctor elementum. In porta, leo rutrum sollicitudin accumsan, ipsum libero scelerisque ligula, sit amet elementum dui ex eget risus. Integer odio massa, sagittis luctus rhoncus ac, pulvinar ut quam. Integer sapien dui, iaculis sed facilisis vel, consequat ac sapien. Pellentesque in mauris aliquam, lacinia elit eu, auctor est. Ut in maximus massa.</p>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <a href="">2049</a>
+                        </td>
+                        <td>
+                            <a href="">ActiveCmdhPolicy</a>
+                        </td>
+                        <td>
+                            OneM2M
+                        </td>
+                        <td>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque commodo ut turpis sed elementum. Nunc auctor ultrices lorem. Sed vulputate, urna eu pulvinar scelerisque, erat magna ullamcorper ex, at feugiat ex leo eget lacus. Nam pulvinar, leo at ornare sollicitudin, ipsum nibh ullamcorper erat, eu mollis enim mauris id massa. Etiam ullamcorper id turpis et faucibus. Curabitur nisi nibh, vestibulum eget blandit quis, pretium eu quam. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec odio quam, suscipit et dolor a, ultricies viverra lacus. Quisque nec quam eget turpis commodo tempor. Cras non neque mi. Vivamus quis sem quis lorem lobortis iaculis nec id lorem. Suspendisse consequat placerat enim, vitae cursus diam placerat nec. Mauris pellentesque volutpat dolor et semper. Ut laoreet eros vel risus porta, pulvinar sagittis neque gravida. Suspendisse sit amet convallis augue, vel laoreet dolor.</p>
+                            <p>Integer ut nisi massa. Vivamus quis sagittis nisi. Sed auctor elit in enim ornare finibus ut quis nulla. Sed non magna urna. Aliquam erat volutpat. Donec in rutrum augue. Suspendisse pellentesque auctor elementum. In porta, leo rutrum sollicitudin accumsan, ipsum libero scelerisque ligula, sit amet elementum dui ex eget risus. Integer odio massa, sagittis luctus rhoncus ac, pulvinar ut quam. Integer sapien dui, iaculis sed facilisis vel, consequat ac sapien. Pellentesque in mauris aliquam, lacinia elit eu, auctor est. Ut in maximus massa.</p>
+                        </td>
+                    </tr>
+                </tbody>
+
+                <caption>
+                    Register a new object produced by a 3rd party SDO (Standards Development Organization)
+                </caption>
+            </table>
+        </div>
+
+        <div>
+            <h3>x-label Objects Produced by vendors or individuals</h3>
+            <code>URN: urn:oma:lwm2m:x:ObjectID | range (10,241 - 32,768)</code>
+            <table class="descriptive-table">
+                <thead>
+                    <tr>
+                        <th>ObjectID</th>
+                        <th>Object Name</th>
+                        <th>Owner</th>
+                        <th>Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>
+                            <a href="">10241</a>
+                        </td>
+                        <td>
+                            <a href="">HostDeviceInfo</a>
+                        </td>
+                        <td>
+                            AT&amp;T
+                        </td>
+                        <td>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque commodo ut turpis sed elementum. Nunc auctor ultrices lorem. Sed vulputate, urna eu pulvinar scelerisque, erat magna ullamcorper ex, at feugiat ex leo eget lacus. Nam pulvinar, leo at ornare sollicitudin, ipsum nibh ullamcorper erat, eu mollis enim mauris id massa. Etiam ullamcorper id turpis et faucibus. Curabitur nisi nibh, vestibulum eget blandit quis, pretium eu quam. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec odio quam, suscipit et dolor a, ultricies viverra lacus. Quisque nec quam eget turpis commodo tempor. Cras non neque mi. Vivamus quis sem quis lorem lobortis iaculis nec id lorem. Suspendisse consequat placerat enim, vitae cursus diam placerat nec. Mauris pellentesque volutpat dolor et semper. Ut laoreet eros vel risus porta, pulvinar sagittis neque gravida. Suspendisse sit amet convallis augue, vel laoreet dolor.</p>
+                            <p>Integer ut nisi massa. Vivamus quis sagittis nisi. Sed auctor elit in enim ornare finibus ut quis nulla. Sed non magna urna. Aliquam erat volutpat. Donec in rutrum augue. Suspendisse pellentesque auctor elementum. In porta, leo rutrum sollicitudin accumsan, ipsum libero scelerisque ligula, sit amet elementum dui ex eget risus. Integer odio massa, sagittis luctus rhoncus ac, pulvinar ut quam. Integer sapien dui, iaculis sed facilisis vel, consequat ac sapien. Pellentesque in mauris aliquam, lacinia elit eu, auctor est. Ut in maximus massa.</p>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <a href="">10242</a>
+                        </td>
+                        <td>
+                            <a href="">3-PhasePM</a>
+                        </td>
+                        <td>
+                            Odins
+                        </td>
+                        <td>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque commodo ut turpis sed elementum. Nunc auctor ultrices lorem. Sed vulputate, urna eu pulvinar scelerisque, erat magna ullamcorper ex, at feugiat ex leo eget lacus. Nam pulvinar, leo at ornare sollicitudin, ipsum nibh ullamcorper erat, eu mollis enim mauris id massa. Etiam ullamcorper id turpis et faucibus. Curabitur nisi nibh, vestibulum eget blandit quis, pretium eu quam. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec odio quam, suscipit et dolor a, ultricies viverra lacus. Quisque nec quam eget turpis commodo tempor. Cras non neque mi. Vivamus quis sem quis lorem lobortis iaculis nec id lorem. Suspendisse consequat placerat enim, vitae cursus diam placerat nec. Mauris pellentesque volutpat dolor et semper. Ut laoreet eros vel risus porta, pulvinar sagittis neque gravida. Suspendisse sit amet convallis augue, vel laoreet dolor.</p>
+                            <p>Integer ut nisi massa. Vivamus quis sagittis nisi. Sed auctor elit in enim ornare finibus ut quis nulla. Sed non magna urna. Aliquam erat volutpat. Donec in rutrum augue. Suspendisse pellentesque auctor elementum. In porta, leo rutrum sollicitudin accumsan, ipsum libero scelerisque ligula, sit amet elementum dui ex eget risus. Integer odio massa, sagittis luctus rhoncus ac, pulvinar ut quam. Integer sapien dui, iaculis sed facilisis vel, consequat ac sapien. Pellentesque in mauris aliquam, lacinia elit eu, auctor est. Ut in maximus massa.</p>
+                        </td>
+                    </tr>
+                </tbody>
+
+                <caption>
+                    Register a new object produced by a vendor or individual
+                </caption>
+            </table>
+        </div>
+
+        <div>
+            <h2>LwM2M Resources</h2>
+            <h3>Reusable Resources</h3>
+            <code>range: (2048 - 32,768)</code>
+            <table class="descriptive-table">
+                <thead>
+                    <tr>
+                        <th>ResourceID</th>
+                        <th>Resource Name / DDF</th>
+                        <th>Owner / TS</th>
+                        <th>Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>
+                            <a href="">4000</a>
+                        </td>
+                        <td>
+                            <a href="">ObjectInstanceHandle</a>
+                        </td>
+                        <td>
+                            IPSO Alliance
+                        </td>
+                        <td>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque commodo ut turpis sed elementum. Nunc auctor ultrices lorem. Sed vulputate, urna eu pulvinar scelerisque, erat magna ullamcorper ex, at feugiat ex leo eget lacus. Nam pulvinar, leo at ornare sollicitudin, ipsum nibh ullamcorper erat, eu mollis enim mauris id massa. Etiam ullamcorper id turpis et faucibus. Curabitur nisi nibh, vestibulum eget blandit quis, pretium eu quam. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec odio quam, suscipit et dolor a, ultricies viverra lacus. Quisque nec quam eget turpis commodo tempor. Cras non neque mi. Vivamus quis sem quis lorem lobortis iaculis nec id lorem. Suspendisse consequat placerat enim, vitae cursus diam placerat nec. Mauris pellentesque volutpat dolor et semper. Ut laoreet eros vel risus porta, pulvinar sagittis neque gravida. Suspendisse sit amet convallis augue, vel laoreet dolor.</p>
+                            <p>Integer ut nisi massa. Vivamus quis sagittis nisi. Sed auctor elit in enim ornare finibus ut quis nulla. Sed non magna urna. Aliquam erat volutpat. Donec in rutrum augue. Suspendisse pellentesque auctor elementum. In porta, leo rutrum sollicitudin accumsan, ipsum libero scelerisque ligula, sit amet elementum dui ex eget risus. Integer odio massa, sagittis luctus rhoncus ac, pulvinar ut quam. Integer sapien dui, iaculis sed facilisis vel, consequat ac sapien. Pellentesque in mauris aliquam, lacinia elit eu, auctor est. Ut in maximus massa.</p>
+                        </td>
+                    </tr>
+
+
+                    <tr>
+                        <td>
+                            <a href="">4001</a>
+                        </td>
+                        <td>
+                            <a href="">ObjectVersion</a>
+                        </td>
+                        <td>
+                            IPSO Alliance
+                        </td>
+                        <td>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque commodo ut turpis sed elementum. Nunc auctor ultrices lorem. Sed vulputate, urna eu pulvinar scelerisque, erat magna ullamcorper ex, at feugiat ex leo eget lacus. Nam pulvinar, leo at ornare sollicitudin, ipsum nibh ullamcorper erat, eu mollis enim mauris id massa. Etiam ullamcorper id turpis et faucibus. Curabitur nisi nibh, vestibulum eget blandit quis, pretium eu quam. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec odio quam, suscipit et dolor a, ultricies viverra lacus. Quisque nec quam eget turpis commodo tempor. Cras non neque mi. Vivamus quis sem quis lorem lobortis iaculis nec id lorem. Suspendisse consequat placerat enim, vitae cursus diam placerat nec. Mauris pellentesque volutpat dolor et semper. Ut laoreet eros vel risus porta, pulvinar sagittis neque gravida. Suspendisse sit amet convallis augue, vel laoreet dolor.</p>
+                            <p>Integer ut nisi massa. Vivamus quis sagittis nisi. Sed auctor elit in enim ornare finibus ut quis nulla. Sed non magna urna. Aliquam erat volutpat. Donec in rutrum augue. Suspendisse pellentesque auctor elementum. In porta, leo rutrum sollicitudin accumsan, ipsum libero scelerisque ligula, sit amet elementum dui ex eget risus. Integer odio massa, sagittis luctus rhoncus ac, pulvinar ut quam. Integer sapien dui, iaculis sed facilisis vel, consequat ac sapien. Pellentesque in mauris aliquam, lacinia elit eu, auctor est. Ut in maximus massa.</p>
+                        </td>
+                    </tr>
+                </tbody>
+
+                <caption>
+                    Register a new resource produced by 3rd parties
+                </caption>
+            </table>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,47 @@
+﻿#releases-table > thead > tr > th {
+    text-align: center;
+}
+
+#releases-table > tbody > tr > td {
+    vertical-align: top;
+}
+
+    /* Italisise the 2 column of the table */
+    #releases-table > tbody > tr > td:nth-child(2) {
+        padding-left: 1em;
+        font-style: italic;
+    }
+
+    #releases-table > tbody > tr > td ul {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+    }
+
+        #releases-table > tbody > tr > td ul > li {
+            position: relative;
+            text-align: center;
+        }
+
+            #releases-table > tbody > tr > td ul > li > a {
+                vertical-align: middle;
+            }
+
+            /* The margin is used to allow vertical-align: center to happen in the Javascript */
+            #releases-table > tbody > tr > td ul > li > div.release-note-phase {
+                font-size: x-small;
+                position: absolute;
+                margin: auto;
+                top: 0;
+                right: 0;
+                text-align: right;
+            }
+
+.release-note {
+    font-size: smaller;
+    color: #a52a2a;
+}
+
+.release-note-phase {
+    color: #a52a2a;
+}

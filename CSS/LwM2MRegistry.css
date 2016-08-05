@@ -1,0 +1,65 @@
+﻿#lwm2mregistry-table > tbody > tr > td ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+#lwm2mregistry-table > tbody > tr > td:nth-child(5), #lwm2mregistry-table > tbody > tr > td:nth-child(6) {
+    text-align: center;
+}
+
+
+.descriptive-table > tbody > tr > td:last-child {;
+    padding: 0;
+    margin: 0;
+    width: 50%;
+}
+
+/* Styling for the last column in case of overflow (fixed height, etc) */
+div.expandable {
+    height: 48px;
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+    position: relative;
+}
+
+/* Styling for the ---more--- link */
+a.expander {
+    color: darkgrey;
+    text-decoration: none;
+}
+
+/* Styling for the ---less--- link */
+a.collapser {
+    color: darkgrey;
+    text-decoration: none;
+    cursor: zoom-out;
+}
+
+div.expanderOverlay {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    pointer-events: none;
+    cursor: zoom-in;
+}
+
+.descriptive-table > tbody > tr:nth-child(odd) .expanderOverlay {
+    background: linear-gradient(rgba(255,255,255,0) 20px, white);
+}
+
+.descriptive-table > tbody > tr:nth-child(even) .expanderOverlay {
+    background: linear-gradient(rgba(255,255,255,0) 20px, rgba(219,238,243,255));
+}
+
+
+td.expander {
+    cursor: zoom-in;
+}
+
+td.collapser {
+    cursor: zoom-out;
+}
