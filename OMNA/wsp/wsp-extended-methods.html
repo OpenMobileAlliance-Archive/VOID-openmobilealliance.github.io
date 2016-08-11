@@ -1,0 +1,55 @@
+﻿<!doctype html>
+<html>
+<head>
+
+    <title>Open Mobile Alliance - LwM2M Registry</title>
+    <meta charset="utf-8">
+    <script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
+    <script src="/Scripts/LwM2MRegistry.js"></script>
+
+    <!-- Font awesome for arrows -->
+    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+
+    <!-- Normalize CSS -->
+    <link rel="stylesheet" href="/CSS/Normalize.css" />
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
+
+    <link rel="stylesheet" href="/CSS/Site.css">
+    <link rel="stylesheet" href="/CSS/LwM2MRegistry.css">
+
+    <script>
+        $(function () {
+            $('#header').load("/header.html");
+        });
+    </script>
+</head>
+
+
+<body>
+    <!-- This gets populated with the header.html using Javascript -->
+    <div id="header"></div>
+
+    <div class="fl size99of100 mid-cont-ttl mbm">OMNA WSP Extended Methods </div>
+    <div class="fl size100of100">
+        <p>OMNA registers extended method names of the form 'v-CompanyToken-' (reserved)or 'x-CompanyToken-' (experimental) where CompanyToken is a short abbreviation that identifies an organization (e.g., a stock ticker symbol). The CompanyToken must be at least two characters in length.</p>
+        <p>Experimental users do not need to register, but the extended method name must start with 'x-CompanyToken-'.</p>
+        <p>A form for submitting a request may be found <a href="?p=827" class="reg-txt-2 textHover">here</a>. </p>
+        <p>See the WAP WSP specification for more information on code page negotiation.</p>
+    </div>
+
+    <div class="fl size97of100 mtm mid-hd-bg">Well Known Values</div>
+    <div class="fl size97of100 mtm">Well-known methods are specified managed as part of the WSP specification, and include all names that do not begin with 'x-' or 'v-'. There are currently no WSP-specified extended methods defined.  </div>
+    <div class="fl size97of100 mtm mid-hd-bg">Registered Values</div>
+    <div class="fl size97of100 mtm">None Registered.</div>
+    <div class="fl size97of100 mtm mid-hd-bg">Private or Experimental Values</div>
+    <div class="fl size97of100 mtm">None Registered.</div>
+
+
+
+</body>
+</html>
