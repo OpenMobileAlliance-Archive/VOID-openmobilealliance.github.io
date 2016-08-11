@@ -1,0 +1,181 @@
+﻿<!doctype html>
+<html>
+<head>
+
+    <title>Open Mobile Alliance - LwM2M Registry</title>
+    <meta charset="utf-8">
+    <script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
+    <script src="/Scripts/LwM2MRegistry.js"></script>
+
+    <!-- Font awesome for arrows -->
+    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+
+    <!-- Normalize CSS -->
+    <link rel="stylesheet" href="/CSS/Normalize.css" />
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
+
+    <link rel="stylesheet" href="/CSS/Site.css">
+    <link rel="stylesheet" href="/CSS/LwM2MRegistry.css">
+
+    <script>
+        $(function () {
+            $('#header').load("/header.html");
+        });
+    </script>
+</head>
+
+
+<body>
+    <!-- This gets populated with the header.html using Javascript -->
+    <div id="header"></div>
+
+
+    <div class="fl size99of100 mid-cont-ttl mbm">OMNA WSP Header Parameters</div>
+    <div class="fl size99of100 justify">
+        The Parameter codes are numeric identifiers for a WSP header parameter. The numbering space is divided into three sections:
+    </div>
+
+    <!--Location Interoperability Forum list starts-->
+    <div class="fl size99of100 mtl mid-hd-bg">
+        Number Space Sections
+    </div>
+
+    <!--Title-1 row starts-->
+    <div class="fl size100of100">
+        <div class="fl size47of100 reg-ttl fh-30 mrvs">Range </div>
+        <div class="fl size50of100 reg-ttl fh-30 prvs">Description </div>
+    </div>
+    <!--Title-1 row ends-->
+
+    <div class="fl size100of100 reg-brd">
+        <div class="fl size47of100 reg-txt-2 pts mrvs">0x00 to 0xFF </div>
+        <div class="fl size50of100 desc reg-txt-2 pts prvs">Well-Known values, named in the WSP specification. </div>
+    </div>
+    <div class="fl size100of100 reg-brd">
+        <div class="fl size47of100 reg-txt-2 pts mrvs">0x0100 to 0xFFFF </div>
+        <div class="fl size50of100 desc reg-txt-2 pts prvs">Registered values, listed below. Must be IANA-registered before assigning a number </div>
+    </div>
+    <div class="fl size100of100 reg-brd">
+        <div class="fl size47of100 reg-txt-2 pts mrvs">0x010000 to 0xFFFFFF </div>
+        <div class="fl size50of100 desc reg-txt-2 pts prvs">Experimental values, may be used at will. Registered by OMNA only for advisory purposes </div>
+    </div>
+    <!--Location Interoperability Forum list ends-->
+    <!--DTDs starts-->
+
+    <div class="fl size99of100 mtm mbs">
+        <p>A form for submitting a request may be found <a class="reg-txt-2" href="?p=810">here</a>.</p>
+        See WAP WSP specification for more information.
+    </div>
+    <!--DTDs ends-->
+    <!--DTDs list starts-->
+    <div class="fl size99of100 mtl mid-hd-bg">
+        Well-Known Values
+    </div>
+
+    <!--Title-1 row starts-->
+    <div class="fl size100of100">
+        <div class="fl size20of100 reg-ttl mrvs">Assigned Number </div>
+        <div class="fl size18of100 reg-ttl mrvs">Parameter Name</div>
+        <div class="fl size58of100 reg-ttl tac">Reference </div>
+    </div>
+    <!--Title-1 row ends-->
+
+    <div class="fl size100of100 reg-brd">
+        <div class="fl size20of100 reg-txt-2 mrvs">0x00 </div>
+        <div class="fl size18of100 desc reg-txt-2 mrvs">Q </div>
+        <div class="fl size58of100 reg-txt-2 desc tac">Q-Value - [WSP:8.4.2.3] </div>
+    </div>
+
+    <div class="fl size100of100 reg-brd">
+        <div class="fl size20of100 reg-txt-2 mrvs">0x01 </div>
+        <div class="fl size18of100 desc reg-txt-2 mrvs">charset </div>
+        <div class="fl size58of100 reg-txt-2 desc tac">Well-known charset [WSP:8.2.4.8] </div>
+    </div>
+
+    <div class="fl size100of100 reg-brd">
+        <div class="fl size20of100 reg-txt-2 mrvs">0x02 </div>
+        <div class="fl size18of100 desc reg-txt-2 mrvs">    level </div>
+        <div class="fl size58of100 reg-txt-2 desc tac">Version-value [WSP:8.4.2.3] </div>
+    </div>
+
+    <div class="fl size100of100 reg-brd">
+        <div class="fl size20of100 reg-txt-2 mrvs">0x03 </div>
+        <div class="fl size18of100 desc reg-txt-2 mrvs">    type </div>
+        <div class="fl size58of100 reg-txt-2 desc tac">Integer-value [WSP:8.4.2.3] </div>
+    </div>
+
+    <div class="fl size100of100 reg-brd">
+        <div class="fl size20of100 reg-txt-2 mrvs">0x04 </div>
+        <div class="fl size18of100 desc reg-txt-2 mrvs">        uaprof </div>
+        <div class="fl size58of100 reg-txt-2 desc tac">Untyped-value [WSP:8.4.2.4] </div>
+    </div>
+    <div class="fl size100of100 reg-brd">
+        <div class="fl size20of100 reg-txt-2 mrvs">0x05 </div>
+        <div class="fl size18of100 desc reg-txt-2 mrvs">        name </div>
+        <div class="fl size58of100 reg-txt-2 desc tac">Text-string [WSP:8.4.2.1] </div>
+    </div>
+    <div class="fl size100of100 reg-brd">
+        <div class="fl size20of100 reg-txt-2 mrvs">0x06 </div>
+        <div class="fl size18of100 desc reg-txt-2 mrvs">filename </div>
+        <div class="fl size58of100 reg-txt-2 desc tac">Text-string [WSP:8.4.2.1] </div>
+    </div>
+    <div class="fl size100of100 reg-brd">
+        <div class="fl size20of100 reg-txt-2 mrvs">0x07 </div>
+        <div class="fl size18of100 desc reg-txt-2 mrvs">    differences </div>
+        <div class="fl size58of100 reg-txt-2 desc tac">Field-name [WSP:8.2.4.6] </div>
+    </div>
+    <div class="fl size100of100 reg-brd">
+        <div class="fl size20of100 reg-txt-2 mrvs">0x08 </div>
+        <div class="fl size18of100 desc reg-txt-2 mrvs">    padding </div>
+        <div class="fl size58of100 reg-txt-2 desc tac">Short-integer [WSP:8.4.2.1] </div>
+    </div>
+
+    <div class="fl size99of100 mtl mid-hd-bg">
+        Registered Values
+    </div>
+
+    <!--Title-1 row starts-->
+    <div class="fl size100of100">
+        <div class="fl size13of100 reg-ttl fh-1 mrvs">Assigned Number </div>
+        <div class="fl size58of100 reg-ttl fh-2 ptm mrvs">     Content Type </div>
+        <div class="fl size12of100 reg-ttl fh-2 ptm mrvs tac">Registrant </div>
+        <div class="fl size11of100 reg-ttl fh-2 ptm prs tac">Other Information </div>
+    </div>
+    <!--Title-1 row ends-->
+
+    <div class="fl size100of100 reg-brd">
+        <div class="fl size13of100 reg-txt-2 pts mrvs">&lt;none&gt;</div>
+        <div class="fl size58of100 desc reg-txt-2 pts mrvs">_</div>
+        <div class="fl size12of100 reg-txt-2 pts mrvs tac">_</div>
+        <div class="fl size11of100 desc reg-txt-2 pts prs tac">_</div>
+    </div>
+
+    <div class="fl size99of100 mtl mid-hd-bg">
+        Private or Experimental Values
+    </div>
+
+    <!--Title-1 row starts-->
+    <div class="fl size100of100">
+        <div class="fl size13of100 reg-ttl fh-1 mrvs">Assigned Number </div>
+        <div class="fl size58of100 reg-ttl fh-2 ptm mrvs">     Content Type </div>
+        <div class="fl size12of100 reg-ttl fh-2 ptm mrvs tac">Registrant </div>
+        <div class="fl size11of100 reg-ttl fh-2 ptm prs tac">Other Information </div>
+    </div>
+    <!--Title-1 row ends-->
+
+    <div class="fl size100of100 reg-brd">
+        <div class="fl size13of100 reg-txt-2 pts mrvs">&lt;none&gt;</div>
+        <div class="fl size58of100 desc reg-txt-2 pts mrvs">_</div>
+        <div class="fl size12of100 reg-txt-2 pts mrvs tac">_</div>
+        <div class="fl size11of100 desc reg-txt-2 pts prs tac">_</div>
+    </div>
+    <!--DTDs list ends-->
+
+
+</body>
+</html>
