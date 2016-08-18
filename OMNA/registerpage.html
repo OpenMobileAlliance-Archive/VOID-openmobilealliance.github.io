@@ -1,0 +1,162 @@
+﻿<!doctype html>
+<html>
+<head>
+
+    <title>Open Mobile Alliance - LwM2M Registry</title>
+    <meta charset="utf-8">
+    <script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
+    <script src="/Scripts/LwM2MRegistry.js"></script>
+
+    <!-- Font awesome for arrows -->
+    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+
+    <!-- Normalize CSS -->
+    <link rel="stylesheet" href="/CSS/Normalize.css" />
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
+
+    <link rel="stylesheet" href="/CSS/Site.css">
+    <link rel="stylesheet" href="/CSS/LwM2MRegistry.css">
+
+    <script>
+        $(function () {
+            $('#header').load("/header.html");
+        });
+    </script>
+</head>
+
+
+<body>
+    <!-- This gets populated with the header.html using Javascript -->
+    <div id="header"></div>
+
+    <div class="container">
+        <div>
+            <h1>
+                OMA Registry Form for OMNA Registries 
+            </h1>
+        </div>
+
+        <div>
+             <p></p>
+        </div>
+
+        <div>
+            <h2>WAP WSP</h2>
+            <table id="registries-table" class="table-bordered">
+                <thead>
+                    <tr>
+                        <th>Registry Type</th>
+                        <th>Information Requested</th>
+                        <th>Action</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td id="wsp-content-type-codes">
+                            <p>WSP Content Type Codes</p>
+                        </td>
+                        <td>
+                            <ul>
+                                <li>Your name.</li>
+                                <li>IANA Registered Content Type Name.</li>
+                                <li>Provide a short description of how this content type will be used.</li>
+                                <li>Any other comment. </li>
+                            </ul>
+                        </td>
+                        <td>
+                            <a href="mailto:helpdesk@omaorg.org?Subject=OMNA%20Registration%20WSP%20Content%20Type%20Codes." >Submit</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td id="wsp-header-code-page-names">
+                            <p>WSP Header Code Page Names</p>
+                        </td>
+                        <td>
+                            <ul>
+                                <li>Your name.</li>
+                                <li>Requested Header Code Page Name.</li>
+                                <li>Provide a short description of how this header page will be used.</li>
+                                <li>Any other comment. </li>
+                            </ul>
+                        </td>
+                        <td>
+                            <a href="mailto:helpdesk@omaorg.org?Subject=OMNA%20Registration%20WSP%20Header%20Code%20Page&20Names.">Submit</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td id="wsp-header-parameters">
+                            <p>WSP Header Parameters</p>
+                        </td>
+                        <td>
+                            <ul>
+                                <li>Your name.</li>
+                                <li>Requested Header Parameter Name.</li>
+                                <li>Provide a short description of how this header parameter will be used, what WSP Header this parameter is used with, and what the parameter means.</li>
+                                <li>Any other comment. </li>
+                            </ul>
+                        </td>
+                        <td>
+                            <a href="mailto:helpdesk@omaorg.org?Subject=OMNA%20Registration%20WSP%20Header%20Parmeters.">Submit</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td id="wsp-extended-methods">
+                            <p>WSP Extended Methods</p>
+                        </td>
+                        <td>
+                            <ul>
+                                <li>Your name.</li>
+                                <li>Requested Extended Method Name.</li>
+                                <li>Provide a short description of how this Extended Method will be used.</li>
+                                <li>Any other comment. </li>
+                            </ul>
+                        </td>
+                        <td>
+                            <a href="mailto:helpdesk@omaorg.org?Subject=OMNA%20Registration%20WSP%20Extended%20Method.">Submit</a>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div>
+            <h2>WAP WTP</h2>
+            <table id="registries-table" class="table-bordered">
+                <thead>
+                    <tr>
+                        <th>Registry Type</th>
+                        <th>Information Requested</th>
+                        <th>Action</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td id="wtp-option-tip">
+                            <p>WTP Option Tip</p>
+                        </td>
+                        <td>
+                            <ul>
+                                <li>Your name.</li>
+                                <li>Provide a short description of how this Option TPI will be used.</li>
+                                <li>Any other comment. </li>
+                            </ul>
+                        </td>
+                        <td>
+                            <a href="mailto:helpdesk@omaorg.org?Subject=OMNA%20Registration%20WTP%20Options%20TPI%20Numbers.">Submit</a>
+                        </td>
+                    </tr>
+                 </tbody>
+            </table>
+        </div>
+
+        <div><p><a href="#wsp-extended-methods">test 1</a></p><p><a href="#wsp-content-type-codes">test 2</a></p></div>
+
+    </div>
+</body>
+</html>
+
