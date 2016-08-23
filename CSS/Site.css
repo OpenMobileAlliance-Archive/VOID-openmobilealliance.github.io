@@ -15,6 +15,15 @@
     clear: both;
 }
 
+#footer {
+    background-color: #626262;
+    font-weight: bold;
+    text-align: center;
+    color: #FFF;
+    margin-top: 5em;
+    margin-bottom: 2em;
+}
+
 .align-left {
     text-align: left;
 }
