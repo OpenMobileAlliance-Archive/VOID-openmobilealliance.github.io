@@ -76,11 +76,11 @@ function createExpanderClickEvent(item) {
             $this.css('pointer-events', 'auto');
             $this.find('a.collapser').show();
 
-            $this.find('div.expanderOverlay').hide();
-
             $this.find('a.expander').hide();
 
             $this.toggleClass('expander');
         });
+
+        $this.find('div.expanderOverlay').hide();
     });
 }
