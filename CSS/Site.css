@@ -48,6 +48,7 @@ table {
 
     table > thead > tr > th {
         padding: 1em;
+        text-align: center;
     }
 
     table > tbody > tr > td {
