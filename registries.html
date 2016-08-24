@@ -21,6 +21,7 @@
     <script>
         $(function () {
             $('#header').load("header.html");
+            $('#footer').load("footer.html");
         });
     </script>
 </head>
@@ -319,7 +320,7 @@
                         <td>
                             <ul>
                                 <li>
-                                    <a href="https://openmobilealliance.github.io/OMNA/LwM2M/LwM2MRegistry.html">OMNA Lightweight M2M (LWM2M) Object &amp; Resource Registry</a>
+                                    <a href="OMNA/LwM2M/LwM2MRegistry.html">OMNA Lightweight M2M (LWM2M) Object &amp; Resource Registry</a>
                                 </li>
                             </ul>
                         </td>
@@ -578,6 +579,9 @@
                 </tbody>
             </table>
         </div>
-    </div>
+    </div>    
+    
+    <!-- This gets populated with the footer.html using Javascript -->
+    <div id="footer"></div>
 </body>
 </html>
