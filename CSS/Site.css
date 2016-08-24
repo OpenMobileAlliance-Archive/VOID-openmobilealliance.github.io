@@ -24,6 +24,11 @@
     margin-bottom: 2em;
 }
 
+#footer a {
+    text-decoration: none;
+    color: #FFF;
+}
+
 .align-left {
     text-align: left;
 }
