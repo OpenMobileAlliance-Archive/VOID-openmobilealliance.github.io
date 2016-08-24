@@ -1,6 +1,5 @@
-﻿#registries-table > tbody > tr > td ul {
+﻿table > tbody > tr > td ul {
         list-style-type: none;
         padding: 0;
         margin: 0;
-
 }
