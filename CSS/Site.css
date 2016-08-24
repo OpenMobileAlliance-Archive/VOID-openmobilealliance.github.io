@@ -77,19 +77,19 @@ table {
 }
 
 /* Header Styling */
-header > nav > div {
-    margin: 0 auto;
-    width: 50%;
+header {
+    text-align: center;
+    white-space: nowrap;
 }
 
-header > nav > div > div {
+header > nav > div {
     display: inline-block;
     font: 1em/1 Helvetica Neue, sans-serif, Droid Sans Fallback;
     text-align: center;
     padding: 0.5em;
 }
 
-    header > nav > div > div > div:first-child {
+    header > nav > div > div:first-child {
         padding-bottom: 0.5em;
     }
 
