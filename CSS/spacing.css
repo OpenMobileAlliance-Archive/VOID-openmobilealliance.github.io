@@ -1,0 +1,211 @@
+@charset "utf-8";
+
+
+
+/*
+
+Description: spacing buttons css comes here
+
+Author: Tanishka Raut
+
+Version: 1.0
+
+--------------------
+
+h - horizon
+
+s - space
+
+p, m - padding, margin
+
+t, r, b, l - top, right, bottom, left
+
+h,v - all,top,right,bottom,left,horizontal,vertical
+
+s,m,l,n = small(5px),medium(10px),large(20px),none(0px)
+
+
+
+*/
+
+
+
+.hS5, .hS10, .hS15, .hS20, .hS30, .hS40, .hS50 {
+
+	font-size:0px;
+
+	clear:both;
+
+}
+
+.hS5 {
+
+	height:5px;
+
+}
+
+.hS10 {
+
+	height:10px;
+
+}
+
+.hS15 {
+
+	height:15px;
+
+}
+
+.hS20 {
+
+	height:20px;
+
+}
+
+.hS30 {
+
+	height:30px;
+
+}
+
+.hS40 {
+
+	height:40px;
+
+}
+
+.hS50 {
+
+	height:50px;
+
+}
+
+.mpZero {
+
+	margin:0;
+
+	padding:0;
+
+}
+
+.mAuto {
+
+	margin:0 auto;
+
+}
+
+.mtop{
+    margin-top:133px;
+}
+
+.ptn,.pvn,.pan{padding-top: 0}
+
+.pts,.pvs,.pas{padding-top:5px}
+
+.ptm,.pvm,.pam{padding-top:10px}
+
+.ptl,.pvl,.pal{padding-top:20px}
+
+.prn,.phn,.pan{padding-right: 0}
+
+.prs,.phs,.pas{padding-right:5px}
+
+.prm,.phm,.pam{padding-right:10px}
+
+.prl,.phl,.pal{padding-right:20px}
+
+.pbn,.pvn,.pan{padding-bottom: 0}
+
+.pbs,.pvs,.pas{padding-bottom:5px}
+
+.pbm,.pvm,.pam{padding-bottom:10px}
+
+.pbl,.pvl,.pal{padding-bottom:20px}
+
+.pln,.phn,.pan{padding-left: 0}
+
+.pls,.phs,.pas{padding-left:5px}
+
+.plm,.phm,.pam{padding-left:10px}
+
+.pll,.phl,.pal{padding-left:20px}
+
+.mtn,.mvn,.man{margin-top: 0}
+
+.mts,.mvs,.mas{margin-top:5px}
+
+.mtm,.mvm,.mam{margin-top:10px}
+
+.mtl,.mvl,.mal{margin-top:20px}
+.mtvs {margin-top:1px}
+
+.mrn,.mhn,.man{margin-right: 0}
+
+.mrs,.mhs,.mas{margin-right:5px}
+
+.mrm,.mhm,.mam{margin-right:10px}
+
+.mrl,.mhl,.mal{margin-right:20px}
+
+.mbn,.mvn,.man{margin-bottom: 0}
+
+.mbs,.mvs,.mas{margin-bottom:5px}
+
+.mbm,.mvm,.mam{margin-bottom:10px}
+
+.mbl,.mvl,.mal{margin-bottom:20px}
+
+.mln,.mhn,.man{margin-left: 0}
+
+.mls,.mhs,.mas{margin-left:5px}
+
+.mlm,.mhm,.mam{margin-left:10px}
+
+.mll,.mhl,.mal{margin-left:20px}
+
+
+
+.mha{margin-right: auto;margin-left: auto;}
+
+
+
+.dn { display: none; }
+
+.db { display: block; }
+
+.di { display: inline; }
+
+.dib { display: inline-block; }
+
+
+
+.vat { vertical-align: top; }
+
+.vam { vertical-align: middle; }
+
+.vab { vertical-align: bottom; }
+
+.lineHeight30{
+    line-height: 30px;
+}
+.lineHeight80{
+    line-height: 80px !important;
+}
+.lineHeight60{
+    line-height: 60px !important;
+}
+.lineHeight85{
+    line-height: 85px;
+}
+.lineHeight20{
+    line-height: 20px;
+}
+.lineHeight15{
+    line-height: 15px;
+}
+.lineHeight163{
+    line-height: 163px;
+}
+.textHoverBrwn:hover{
+    color:#AE1D29;
+}
