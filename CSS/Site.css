@@ -80,6 +80,7 @@ table {
 header {
     text-align: center;
     white-space: nowrap;
+    margin-bottom: 2em;
 }
 
 header > nav > div {
