@@ -1,0 +1,1036 @@
+<!doctype html>
+<html>
+<head>
+
+    <title>Open Mobile Alliance - PUSH Application ID</title>
+    <meta charset="utf-8">
+    <script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
+    <script src="/Scripts/LwM2MRegistry.js"></script>
+
+    <!-- Font awesome for arrows -->
+    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+
+    <!-- Normalize CSS -->
+    <link rel="stylesheet" href="/CSS/Normalize.css" />
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
+
+    <link rel="stylesheet" href="/CSS/Site.css">
+    <link rel="stylesheet" href="/CSS/registries.css">
+    <link rel="stylesheet" href="/CSS/grid_oocss.css">
+    <link rel="stylesheet" href="/CSS/spacing.css">
+
+    <script>
+        $(function () {
+            $('#header').load("/header.html");
+            $('#footer').load("/footer.html");
+        });
+    </script>
+</head>
+
+
+<body>
+    <!-- This gets populated with the header.html using Javascript -->
+    <div id="header"></div>
+
+    <div class="container">
+        <div class="fl size100of100 mid-cont-ttl mbm">OMA PUSH Application ID</div>
+        <div class="fl size100of100 justify">
+        <div class="size100of100">OMNA assigns numbers for registered PUSH Application IDs. The number space is divided into three segments:</div>
+        </div>
+        <table class="mtl" style="width: 100%;" border="0" cellspacing="0" cellpadding="0">
+        <tbody>
+        <tr>
+        <td class="TableTitre1" colspan="2">Number Space Segments</td>
+        </tr>
+        <tr>
+        <td class="TableTitre2" style="width: 30%;" align="left" valign="middle">Range</td>
+        <td class="TableTitre2" style="width: 30%;" align="left" valign="middle">Description</td>
+        </tr>
+        <tr>
+        <td class="TableP1big" align="left" valign="middle">0x0000 to 0x7FFF</td>
+        <td class="TableP1little" style="height: 69px;" align="left" valign="middle">Well-Known values are set as specified by the OMA working group processes. The application as represented by the URI must be defined in an associated OMA specification. URNs are required for URI and NID in URN [ rfc2141 ] MUST be 'x-oma-application'.</td>
+        </tr>
+        <tr>
+        <td class="TableP1big" align="left" valign="middle">0x8000 to 0xFF000000</td>
+        <td class="TableP1little" style="height: 46px;" align="left" valign="middle">Reserved values, registered and managed by OMNA. URN with NID 'x-wap-application' cannot be used.</td>
+        </tr>
+        <tr>
+        <td class="TableP1big" align="left" valign="middle">0x4000 to 0x1FFFFF</td>
+        <td class="TableP1little" style="height: 46px;" align="left" valign="middle">Experimental values, registered by OMNA only for advisory purposes. URIs in the Well-Known and Reserved categories SHOULD NOT be used.</td>
+        </tr>
+        </tbody>
+        </table>
+        <div class="fl size100of100  justify">
+        <div class="size100of100 mtm">
+
+        In order to register a PUSH Application identifier, a short description of its use must be provided. The information to be included in a request may be found <a href="/OMNA/registerpage.html#push-application">here</a>. See WAP-189 PUSH OTA Specification for more information on PUSH Application identifiers.
+
+        </div>
+        </div>
+        <table style="width: 100%;" border="0" cellspacing="0" cellpadding="0">
+        <tbody>
+        <tr>
+        <td class="TableTitre1" colspan="3">Well-Known Values</td>
+        </tr>
+        <tr>
+        <td class="TableTitre2" width="7%">Number</td>
+        <td class="TableTitre2" width="20%">URN</td>
+        <td class="TableTitre2" width="50%">Description</td>
+        </tr>
+        <tr>
+        <td class="TableP1big" style="height: 46px;" width="7%">0x00</td>
+        <td class="TableP1little" style="height: 46px;" width="20%">x-wap-application:*</td>
+        <td class="TableP1big" style="height: 46px;" width="50%">Any Application</td>
+        </tr>
+        <tr>
+        <td class="TableP1big" style="height: 46px;" width="7%">0x01</td>
+        <td class="TableP1little" style="height: 46px;" width="20%">x-wap-application:push.sia</td>
+        <td class="TableP1big" style="height: 46px;" width="50%">WAP Push SIA</td>
+        </tr>
+        <tr>
+        <td class="TableP1big" style="height: 46px;" width="7%">0x02</td>
+        <td class="TableP1little" style="height: 46px;" width="20%">x-wap-application:wml.ua</td>
+        <td class="TableP1big" style="height: 46px;" width="50%">WML User Agent</td>
+        </tr>
+        <tr>
+        <td class="TableP1big" style="height: 46px;" width="7%">0x03</td>
+        <td class="TableP1little" style="height: 46px;" width="20%">x-wap-application:wta.ua</td>
+        <td class="TableP1big" style="height: 46px;" width="50%">WTA User Agent</td>
+        </tr>
+        <tr>
+        <td class="TableP1big" style="height: 46px;" width="7%">0x04</td>
+        <td class="TableP1little" style="height: 46px;" width="20%">x-wap-application:mms.ua</td>
+        <td class="TableP1big" style="height: 46px;" width="50%">This ID will used for application dispatching to MMS User Agent in the handling of MMS notfication using WAP Push. See WAP-206-MMSCTR for more detail.</td>
+        </tr>
+        <tr>
+        <td class="TableP1big" style="height: 46px;" width="7%" height="48">0x05</td>
+        <td class="TableP1little" style="height: 46px;" width="20%" height="48">x-wap-application:push.syncml</td>
+        <td class="TableP1big" style="height: 69px;" width="50%">SyncML PUSH Application ID: used to push a SyncML Alert from a SyncML server side. The SyncML Alert is an indication for starting a SyncML session e.g., for data synchronization. Requested by the <a href="mailto:rob.lockhart@motorola.com" shape="rect">WAP WAG Synchronisation Drafting Committee</a>.</td>
+        </tr>
+        <tr>
+        <td class="TableP1big" style="height: 46px;" width="7%">0x06</td>
+        <td class="TableP1little" style="height: 46px;" width="20%">x-wap-application:loc.ua</td>
+        <td class="TableP1big" style="height: 69px;" width="50%">This ID is used for application dispatching to Location User Agent in the handling of Location Invocation document. See WAP-257-LOCPROT for details. Requested by the <a href="mailto:mika.ovaskainen@nokia.com" shape="rect">WAP WAG Location Drafting Committee</a>.</td>
+        </tr>
+        <tr>
+        <td class="TableP1big" style="height: 46px;" width="7%">0x07</td>
+        <td class="TableP1little" style="height: 46px;" width="20%">x-wap-application:syncml.dm</td>
+        <td class="TableP1big" style="height: 46px;" width="50%">This ID is used for SyncML Device Management. Requested by the <a href="mailto:tomas.herlestam@ausystem.com" shape="rect">SyncML Device Management Expert Group</a>.</td>
+        </tr>
+        <tr>
+        <td class="TableP1big" style="height: 46px;" width="7%">0x08</td>
+        <td class="TableP1little" style="height: 46px;" width="20%">x-wap-application:drm.ua</td>
+        <td class="TableP1big" style="height: 46px;" width="50%">This ID is used for DRM User Agent. Requested by the <a href="mailto:kevin.mowry@motorola.com" shape="rect">WAP WAG Download DC</a>.</td>
+        </tr>
+        <tr>
+        <td class="TableP1big" style="height: 46px;" width="7%">0x09</td>
+        <td class="TableP1little" style="height: 46px;" width="20%">x-wap-application:emn.ua</td>
+        <td class="TableP1big" style="height: 46px;" width="50%">This ID is used for Email Notification (EMN) User Agent. Requested by the <a href="mailto:d.groten@planet.nl" shape="rect">WAP WAG PUSH DC</a>.</td>
+        </tr>
+        <tr>
+        <td class="TableP1big" style="height: 46px;" width="7%">0x0A</td>
+        <td class="TableP1little" style="height: 46px;" width="20%">x-wap-application:wv.ua</td>
+        <td class="TableP1big" style="height: 46px;" width="50%">This ID is used for Wireless Village (WV) User Agent. Requested by <a href="mailto:matti.salmi@nokia.com" shape="rect">Wireless Village</a>.</td>
+        </tr>
+        <tr>
+        <td class="TableP1big" style="height: 52px;" width="7%">0x0B - 0x0F</td>
+        <td class="TableP1little" style="height: 52px;" width="20%">Reserved</td>
+        <td class="TableP1big" style="height: 52px;" width="50%">-</td>
+        </tr>
+        <tr>
+        <td class="TableP1big" style="height: 46px;" width="7%">0x10</td>
+        <td class="TableP1little" style="height: 46px;" width="20%">x-oma-application:ulp.ua</td>
+        <td class="TableP1big" style="height: 46px;" width="50%">This ID is used for messages to the Secure User Plane Location (SUPL) User Agent (UA). Requested by OMA Location WG and documented in OMA-TS-ULP-V1_0</td>
+        </tr>
+        <tr>
+        <td class="TableP1big" style="height: 46px;" width="7%">0x11</td>
+        <td class="TableP1little" style="height: 46px;" width="20%">x-oma-application:dlota.ua</td>
+        <td class="TableP1big" style="height: 46px;" width="50%">This push application id is used for download Media Objects by using Server Initiated Automatic Download as specified in Download OTA version 2.0 specification.</td>
+        </tr>
+        <tr>
+        <td class="TableP1big" style="height: 46px;" width="7%">0x12</td>
+        <td class="TableP1little" style="height: 46px;" width="20%">x-oma-application:java-ams</td>
+        <td class="TableP1big" style="height: 69px;" width="50%">Id for Java Application Management System (AMS). Used in XHTML MP to invoke a local application by the &lt;object&gt; element and the classid attribute identifies an AMS. Requested by the OMA BAC MAE working group.</td>
+        </tr>
+        <tr>
+        <td class="TableP1big" style="height: 46px;" width="7%">0x13</td>
+        <td class="TableP1little" style="height: 46px;" width="20%">x-oma-application:bcast.ua</td>
+        <td class="TableP1big" style="height: 46px;" width="50%">This ID is used for BCAST Push Client. Further description of BCAST Push Client can be found in section 9 of OMA-TS-BCAST_Distribution-V1_0.</td>
+        </tr>
+        <tr>
+        <td class="TableP1big" style="height: 46px;" width="7%">0x14</td>
+        <td class="TableP1little" style="width: 25%; height: 46px;">x-oma-application:dpe.ua</td>
+        <td class="TableP1big" style="height: 46px;" width="50%">OMA DPE 1.0, per OMA-ERELD-DPE-V1_0-20090128-D</td>
+        </tr>
+        <tr>
+        <td class="TableP1big" style="height: 46px;" width="7%">0x15</td>
+        <td class="TableP1little" style="width: 25%; height: 46px;">x-oma-application:cpm:ua</td>
+        <td class="TableP1big" style="height: 46px;" width="50%">This ID is used for OMA Converged IP Messaging messages. Requested by OMA CPM WA and documented in OMA-ERELD-cpm-V1_0-2010mmyy-x</td>
+        </tr>
+        <tr>
+        <td class="TableP1big" style="height: 46px;" width="7%">0x16</td>
+        <td class="TableP1little" style="width: 25%; height: 46px;">x-oma-application:evvm.ua</td>
+        <td class="TableP1big" style="height: 46px;" width="50%">This PUSH Application ID is used while dispatching and receiving various OMA EVVM event notifications from the EVVM Server to the OMA EVVM Client, using the OMA Push Enabler. Requested by OMA EVVM WG and documented in the OMA EVVM 1.0 Enabler release.td&gt;</td>
+        </tr>
+        <tr>
+        <td class="TableP1big" style="height: 46px;" width="7%">0x17</td>
+        <td class="TableP1little" style="width: 25%; height: 46px;">x-oma-application:twinning.ua</td>
+        <td class="TableP1big" style="height: 46px;" width="50%">This ID is used for messages to Twinning clients as defined in the OMA RESTful Network API for Twinning Devices.</td>
+        </tr>
+            <tr>
+        <td class="TableP1big" style="height: 46px;" width="7%">0x18</td>
+        <td class="TableP1little" style="width: 25%; height: 46px;">x-oma-application:mobar.ua </td>
+        <td class="TableP1big" style="height: 46px;" width="50%">This ID is used for messages to Mobile Augmented Reality Enabler (MobAR). 
+        Requested by OMA CD&nbsp;Working Group and documented in OMA-TS-MobAR- V1_0</td>
+            </tr>
+            <tr>
+        <td class="TableP1big" style="height: 46px;" width="7%">0x19</td>
+        <td class="TableP1little" style="width: 25%; height: 46px;">x-oma-application:snew.ua</td>
+        <td class="TableP1big" style="height: 46px;" width="50%">This ID is used for messages to Social Network Web Enabler
+        (SNeW). 
+        Requested by OMA CD&nbsp;Working Group and documented in OMA-ERELD-SNeW-V1_0-20160329-A</td>
+            </tr>
+        </tbody>
+        </table>
+        <!--Title-1 row starts-->
+        <table class="mtl" style="width: 98%;" border="0" cellspacing="0" cellpadding="0">
+        <tbody>
+        <tr>
+        <td class="TableTitre1" colspan="4">Registered Values</td>
+        </tr>
+        <tr>
+        <td class="TableTitre2" width="7%">Number</td>
+        <td class="TableTitre2" style="width: 30%;">URN</td>
+        <td class="TableTitre2" style="width: 15%;" align="center">Registrant</td>
+        <td class="TableTitre2" width="44%">Description</td>
+        </tr>
+        <tr>
+        <td class="TableP1big" width="7%">0x8000</td>
+        <td class="TableP1little" width="17%">x-wap-microsoft:localcontent.ua</td>
+        <td class="TableP1bigCenter" width="25%"><a href="mailto:davidhit@microsoft.com" shape="rect">David Hitchman</a></td>
+        <td class="TableP1little" style="height: 69px;" width="44%">is an application to receive pages to be stored and access locally. These are not wta channels. Usually the pages will be downloaded as multi-part mime.</td>
+        </tr>
+        <tr>
+        <td class="TableP1big" width="7%">0x8001</td>
+        <td class="TableP1little" width="17%">x-wap-microsoft:IMclient.ua</td>
+        <td class="TableP1bigCenter" width="25%"><a href="mailto:davidhit@microsoft.com" shape="rect">David Hitchman</a></td>
+        <td class="TableP1little" style="height: 46px;" width="44%">is an application which will act as an instant messaging client on a phone.</td>
+        </tr>
+        <tr>
+        <td class="TableP1big" width="7%">0x8002</td>
+        <td class="TableP1little" width="17%">x-wap-docomo:imode.mail.ua</td>
+        <td class="TableP1bigCenter" width="25%"><a href="mailto:uenohi@nttdocomo.co.jp" shape="rect">Hidetoshi Ueno</a></td>
+        <td class="TableP1little" style="height: 46px;" width="44%">is used to identify the i-mode mail application user agent on a mobile device.</td>
+        </tr>
+        <tr>
+        <td class="TableP1big" width="7%">0x8003</td>
+        <td class="TableP1little" width="17%">x-wap-docomo:imode.mr.ua</td>
+        <td class="TableP1bigCenter" width="25%"><a href="mailto:uenohi@nttdocomo.co.jp" shape="rect">Hidetoshi Ueno</a></td>
+        <td class="TableP1little" style="height: 46px;" width="44%">is used to identify the i-mode message request application user agent on a mobile device.</td>
+        </tr>
+        <tr>
+        <td class="TableP1big" width="7%">0x8004</td>
+        <td class="TableP1little" width="17%">x-wap-docomo:imode.mf.ua</td>
+        <td class="TableP1bigCenter" width="25%"><a href="mailto:uenohi@nttdocomo.co.jp" shape="rect">Hidetoshi Ueno</a></td>
+        <td class="TableP1little" style="height: 46px;" width="44%">is used to identify the i-mode message free application user agent on a mobile device.</td>
+        </tr>
+        <tr>
+        <td class="TableP1big" width="7%">0x8005</td>
+        <td class="TableP1little" width="17%">x-motorola:location.ua</td>
+        <td class="TableP1bigCenter" width="25%"><a href="mailto:joby.james@motorola.com" shape="rect">Joby James</a></td>
+        <td class="TableP1little" style="height: 46px;" width="44%">is an application that receives message notifications from the location server.</td>
+        </tr>
+        <tr>
+        <td class="TableP1big" width="7%">0x8006</td>
+        <td class="TableP1little" width="17%">x-motorola:now.ua</td>
+        <td class="TableP1bigCenter" width="25%"><a href="mailto:joby.james@motorola.com" shape="rect">Joby James</a></td>
+        <td class="TableP1little" style="height: 46px;" width="44%">is an application that presents personalized information to the user.</td>
+        </tr>
+        <tr>
+        <td class="TableP1big" width="7%">0x8007</td>
+        <td class="TableP1little" width="17%">x-motorola:otaprov.ua</td>
+        <td class="TableP1bigCenter" width="25%"><a href="mailto:joby.james@motorola.com" shape="rect">Joby James</a></td>
+        <td class="TableP1little" style="height: 46px;" width="44%">is an application that receives provisioning messages from the server.</td>
+        </tr>
+        <tr>
+        <td class="TableP1big" width="7%">0x8008</td>
+        <td class="TableP1little" width="17%">x-motorola:browser.ua</td>
+        <td class="TableP1bigCenter" width="25%"><a href="mailto:joby.james@motorola.com" shape="rect">Joby James</a></td>
+        <td class="TableP1little" style="height: 46px;" width="44%">is a web browsing application.</td>
+        </tr>
+        <tr>
+        <td class="TableP1big" width="7%">0x8009</td>
+        <td class="TableP1little" width="17%">x-motorola:splash.ua</td>
+        <td class="TableP1bigCenter" width="25%"><a href="mailto:randi.faris@motorola.com" shape="rect">Randi Faris</a></td>
+        <td class="TableP1little" style="height: 46px;" width="44%">is an application that receives splash screen content from the server.</td>
+        </tr>
+        <tr>
+        <td class="TableP1big" width="7%" height="24">0x800A</td>
+        <td class="TableP1little" width="17%" height="24">unused</td>
+        <td class="TableP1bigCenter" width="25%" height="24">-</td>
+        <td class="TableP1little" style="height: 46px;" width="44%">-</td>
+        </tr>
+        <tr>
+        <td class="TableP1big" width="7%" height="22">0x800B</td>
+        <td class="TableP1little" width="17%" height="22">x-wap-nai:mvsw.command</td>
+        <td class="TableP1bigCenter" width="25%" height="22"><a href="mailto:mfallens@nai.com" shape="rect">Martin Fallenstedt</a></td>
+        <td class="TableP1little" style="height: 46px;" width="44%">is used by administrators to issue commands to individual devices</td>
+        </tr>
+        <tr>
+        <td class="TableP1big" width="7%">0x800C
+        through
+        0x800F</td>
+        <td class="TableP1little" width="17%">unused</td>
+        <td class="TableP1bigCenter" width="25%">-</td>
+        <td class="TableP1little" style="height: 46px;" width="44%">-</td>
+        </tr>
+        <tr>
+        <td class="TableP1big" width="7%">0x8010</td>
+        <td class="TableP1little" width="17%">x-wap-openwave:iota.ua</td>
+        <td class="TableP1bigCenter" width="25%"><a href="mailto:philp.ryan@openwave.com" shape="rect">Philip Ryan</a></td>
+        <td class="TableP1little" style="height: 69px;" width="44%">is used for application dispatching to the IP-based OTA Provisioning Service Agent in the handling of IOTA notfications using WAP Push.</td>
+        </tr>
+        <tr>
+        <td class="TableP1big" width="7%">0x9000</td>
+        <td class="TableP1little" width="17%">x-wap-docomo:imode.mail2.ua</td>
+        <td class="TableP1bigCenter" width="25%"><a href="mailto:hueno@mml.yrp.nttdocomo.co.jp" shape="rect">Hidetoshi Ueno</a></td>
+        <td class="TableP1little" style="height: 46px;" width="44%">is used to identify the secondary i-mode mail application user agent on a mobile device.</td>
+        </tr>
+        <tr>
+        <td class="TableP1big" width="7%">0x9001</td>
+        <td class="TableP1little" width="17%">x-oma-nec:otaprov.ua</td>
+        <td class="TableP1bigCenter" width="25%"><a href="mailto:h-miyake@pd.jp.nec.com" shape="rect">Hirofumi Miyake</a></td>
+        <td class="TableP1little" style="height: 69px;" width="44%">is used for application dispatching to the SMS/IP-based OTA Provisioning Service Agent in the handling of using WAP Push.</td>
+        </tr>
+        <tr>
+        <td class="TableP1big" width="7%">0x9002</td>
+        <td class="TableP1little" width="17%">x-oma-nokia:call.ua</td>
+        <td class="TableP1bigCenter" width="25%"><a href="mailto:dm.forum@nokia.com" shape="rect">Nokia DM Forum </a></td>
+        <td class="TableP1little" style="height: 46px;" width="44%">is an identifier for service that enables direct-call over a mobile network.</td>
+        </tr>
+        <tr>
+        <td class="TableP1big" width="7%">0x9003</td>
+        <td class="TableP1little" width="17%">x-oma-coremobility:sqa.ua</td>
+        <td class="TableP1bigCenter" width="25%"><a href="mailto:yish@coremobility.com" shape="rect">Yishai Lerner</a></td>
+        <td class="TableP1little" style="height: 46px;" width="44%">is an application for collecting and submitting usage and performance data.</td>
+        </tr>
+        <tr>
+        <td class="TableP1big" width="7%">0x9004</td>
+        <td class="TableP1little" width="17%">x-oma-docomo:doja.jam.ua</td>
+        <td class="TableP1bigCenter" width="25%"><a href="mailto:ueno@mml.yrp.nttdocomo.co.jp" shape="rect">Hidetochi Ueno</a></td>
+        <td class="TableP1little" style="height: 46px;" width="44%">is used to identify the java application user agent on a mobile device.</td>
+        </tr>
+        <tr>
+        <td class="TableP1big" width="7%">0x9010</td>
+        <td class="TableP1little" width="17%">x-oma-nokia:sip.ua</td>
+        <td class="TableP1bigCenter" width="25%"><a href="mailto:dm.forum@nokia.com" shape="rect">Nokia DM Forum </a></td>
+        <td class="TableP1little" style="height: 46px;" width="44%">is an identifier for Sip settings provisionning.</td>
+        </tr>
+        <tr>
+        <td class="TableP1big" width="7%">0x9011</td>
+        <td class="TableP1little" width="17%">x-oma-vodafone:otaprov.ua</td>
+        <td class="TableP1bigCenter" width="25%"><a href="mailto:Mark.Spavin@gb.vodafone.co.uk" shape="rect">Mark Spavin</a></td>
+        <td class="TableP1little" style="height: 69px;" width="44%">Vodafone applications/handsets may be provisioned via this interface in a manufacturer agnostic way, until such provisioning is standardised</td>
+        </tr>
+        <tr>
+        <td class="TableP1big" width="7%">0x9012</td>
+        <td class="TableP1little" width="17%">x-hutchison:ad.ua</td>
+        <td class="TableP1bigCenter" width="25%"><a href="mailto:richard.taylor@three.co.uk" shape="rect">Richard Taylor</a></td>
+        <td class="TableP1little" style="height: 46px;" width="44%">An application that presents personalized information to the user</td>
+        </tr>
+        <tr>
+        <td class="TableP1big" width="7%">0x9013</td>
+        <td class="TableP1little" width="17%">x-oma-nokia:voip.ua</td>
+        <td class="TableP1bigCenter" width="25%"><a href="mailto:dm.forum@nokia.com" shape="rect">Nokia DM Forum </a></td>
+        <td class="TableP1little" style="height: 46px;" width="44%">Voice-over-IP (VoIP) application settings</td>
+        </tr>
+        <tr>
+        <td class="TableP1big" width="7%">0x9014</td>
+        <td class="TableP1little" width="17%">x-oma-docomo:voice.ua</td>
+        <td class="TableP1bigCenter" width="25%"><a href="mailto:uenohi@nttdocomo.co.jp" shape="rect">Hidetoshi Ueno</a></td>
+        <td class="TableP1little" style="height: 46px;" width="44%">This ID is used to identify the voice service application user agent on a mobile device</td>
+        </tr>
+        <tr>
+        <td class="TableP1big" width="7%">0x9015</td>
+        <td class="TableP1little" width="17%">x-oma-docomo:browser.ctl</td>
+        <td class="TableP1bigCenter" width="25%"><a href="mailto:uenohi@nttdocomo.co.jp" shape="rect">Hidetoshi Ueno</a></td>
+        <td class="TableP1little" style="height: 46px;" width="44%">This ID is an identifier for controlling web browsing applications</td>
+        </tr>
+        <tr>
+        <td class="TableP1big" width="7%">0x9016</td>
+        <td class="TableP1little" width="17%">x-oma-docomo:dan.ua</td>
+        <td class="TableP1bigCenter" width="25%"><a href="mailto:uenohi@nttdocomo.co.jp" shape="rect">Hidetoshi Ueno</a></td>
+        <td class="TableP1little" style="height: 69px;" width="44%">This is used to identify data availability notifications from the server which distributes software for a mobile phone</td>
+        </tr>
+        <tr>
+        <td class="TableP1big" width="7%">0x9017</td>
+        <td class="TableP1little" width="17%">x-oma-nokia:vs.ua</td>
+        <td class="TableP1bigCenter" width="25%"><a href="mailto:dm.forum@nokia.com" shape="rect">Nokia DM Forum </a></td>
+        <td class="TableP1little" style="height: 46px;" width="44%">Video Sharing application settings</td>
+        </tr>
+        <tr>
+        <td class="TableP1big" width="7%">0x9018</td>
+        <td class="TableP1little" width="17%">x-oma-nokia:voip.ext1.ua</td>
+        <td class="TableP1bigCenter" width="25%"><a href="mailto:dm.forum@nokia.com" shape="rect">Nokia DM Forum </a></td>
+        <td class="TableP1little" style="height: 46px;" width="44%">Voice-over-IP (VoIP) extension</td>
+        </tr>
+        <tr>
+        <td class="TableP1big" width="7%">0x9019</td>
+        <td class="TableP1little" width="17%">x-wap-vodafone:casting.ua</td>
+        <td class="TableP1bigCenter" width="25%"><a href="mailto:masanori.murai@mb.softbank.co.jp" target="_blank" shape="rect">Masanori Murai</a></td>
+        <td class="TableP1little" style="height: 46px;" width="44%">This ID is an identifier for broadcast applications at web contents</td>
+        </tr>
+        <tr>
+        <td class="TableP1big" width="7%">0x901A</td>
+        <td class="TableP1little" width="17%">x-oma-docomo:imode.data.ua</td>
+        <td class="TableP1bigCenter" width="25%"><a href="mailto:uenohi@nttdocomo.co.jp" shape="rect">Hidetoshi Ueno</a></td>
+        <td class="TableP1little" style="height: 46px;" width="44%">This ID is an identifier for data controlling application.</td>
+        </tr>
+        <tr>
+        <td class="TableP1big" width="7%">0x901B</td>
+        <td class="TableP1little" width="17%">x-oma-snapin:otaprov.ctl</td>
+        <td class="TableP1bigCenter" width="25%"><a href="mailto:brian@snapin.com" shape="rect">Brian Roundtree</a></td>
+        <td class="TableP1little" style="height: 46px;" width="44%">Used by administrators to issue commands and configure individual devices.</td>
+        </tr>
+        <tr>
+        <td class="TableP1big" width="7%">0x901C</td>
+        <td class="TableP1little" width="17%">x-oma-nokia:vrs.ua</td>
+        <td class="TableP1bigCenter" width="25%"><a href="mailto:dm.forum@nokia.com" shape="rect">Nokia DM Forum </a></td>
+        <td class="TableP1little" style="height: 46px;" width="44%">Used to configure Service Settings for Visual Radio Application (VRA).</td>
+        </tr>
+        <tr>
+        <td class="TableP1big" width="7%">0x901D</td>
+        <td class="TableP1little" width="17%">x-oma-nokia:vrpg.ua</td>
+        <td class="TableP1bigCenter" width="25%"><a href="mailto:dm.forum@nokia.com" shape="rect">Nokia DM Forum </a></td>
+        <td class="TableP1little" style="height: 69px;" width="44%">Used to send a group of radio station presets to the Visual Radio Application (VRA). Preset group may have a link to Visual Radio Service Settings Application.</td>
+        </tr>
+        <tr>
+        <td class="TableP1big" width="7%">0x901E</td>
+        <td class="TableP1little" width="17%">x-oma-motorola:screen3.ua</td>
+        <td class="TableP1bigCenter" width="25%"><a href="mailto:bhu@motorola.com" target="_blank" shape="rect">Bin Hu</a></td>
+        <td class="TableP1little" style="height: 46px;" width="44%">Used by SCREEN3 Client that provides dynamic content in idle screen</td>
+        </tr>
+        <tr>
+        <td class="TableP1big" width="7%">0x901F</td>
+        <td class="TableP1little" width="17%">x-oma-docomo:device.ctl</td>
+        <td class="TableP1bigCenter" width="25%"><a href="mailto:uenohi@nttdocomo.co.jp" target="_blank" shape="rect">Hidetoshi Ueno</a></td>
+        <td class="TableP1little" style="height: 46px;" width="44%">Application for controlling mobile device</td>
+        </tr>
+        <tr>
+        <td class="TableP1big" width="7%">0x9020</td>
+        <td class="TableP1little" width="17%">x-oma-nokia:msc.ua</td>
+        <td class="TableP1bigCenter" width="25%"><a href="mailto:dm.forum@nokia.com" shape="rect">Nokia DM Forum </a></td>
+        <td class="TableP1little" style="height: 46px;" width="44%">used to provision a client Music Shop to be able to access an online Music Service.</td>
+        </tr>
+        <tr>
+        <td class="TableP1big" width="7%">0x9021</td>
+        <td class="TableP1little" width="17%">x-3gpp2:lcs.ua</td>
+        <td class="TableP1bigCenter" width="25%"><a href="mailto:tsgx_chair@3gpp2.org" shape="rect">Betsy Covell </a></td>
+        <td class="TableP1little" style="height: 92px;" width="44%">3GPP2 X.S0024 specifies a protocol for obtaining the position of cdma2000 terminals. Network-initiated positioning specifies the use of WAP push to initiate communication with the mobile, and for certain disconnect scenarios.</td>
+        </tr>
+        <tr>
+        <td class="TableP1big" width="7%">0x9022</td>
+        <td class="TableP1little" width="17%">x-wap-vodafone:dcd.ua</td>
+        <td class="TableP1bigCenter" width="25%"><a href="mailto:akiho.shibata@vodafone.com" target="_blank" shape="rect">Akiho Shibata</a></td>
+        <td class="TableP1little" style="height: 69px;" width="44%">Used to identify the pushed contents as Vodafone proprietary specific contents which are called 'Dynamic Content Discovery'.</td>
+        </tr>
+        <tr>
+        <td class="TableP1big" width="7%">0x9023</td>
+        <td class="TableP1little" width="17%">x-3gpp:mbms.service.announcement.ua</td>
+        <td class="TableP1bigCenter" width="25%"><a href="mailto:edward.hall@vodafone.com" target="_blank" shape="rect">Edward Hall</a></td>
+        <td class="TableP1little" style="height: 69px;" width="44%">Used to route MBMS user service announcement messages from the BMSC to the MBMS user service announcement application on the terminal (see TS 26.346).</td>
+        </tr>
+        <tr>
+        <td class="TableP1big" width="7%">0x9024</td>
+        <td class="TableP1little" width="17%">x-oma-vodafone:dltmtbl.ua</td>
+        <td class="TableP1bigCenter" width="25%"><a href="mailto:masanori.murai@mb.softbank.co.jp" target="_blank" shape="rect">Masanori Murai</a></td>
+        <td class="TableP1little" style="height: 46px;" width="44%">This ID is an identifier for timetable at web download.</td>
+        </tr>
+        <tr>
+        <td class="TableP1big" width="7%">0x9025</td>
+        <td class="TableP1little" width="17%">x-oma-vodafone:dvcctl.ua</td>
+        <td class="TableP1bigCenter" width="25%"><a href="mailto:masanori.murai@mb.softbank.co.jp" target="_blank" shape="rect">Masanori Murai</a></td>
+        <td class="TableP1little" style="height: 46px;" width="44%">This ID is an identifier for controlling mobile device.</td>
+        </tr>
+        <tr>
+        <td class="TableP1big" width="7%">0x9026</td>
+        <td class="TableP1little" width="17%">x-oma-cmcc:mail.ua</td>
+        <td class="TableP1bigCenter" width="25%"><a href="mailto:fanxiaohui@chinamobile.com" shape="rect">Fan Xiaohui </a></td>
+        <td class="TableP1little" style="height: 46px;" width="44%">Used by push mail client that can be provisioned automatically and protect the mail data on the client.</td>
+        </tr>
+        <tr>
+        <td class="TableP1big" width="7%">0x9027</td>
+        <td class="TableP1little" width="17%">x-oma-nokia:vmb.ua</td>
+        <td class="TableP1bigCenter" width="25%"><a href="mailto:dm.forum@nokia.com" shape="rect">Nokia DM Forum </a></td>
+        <td class="TableP1little" style="height: 46px;" width="44%">Used to configure Voice and Video mailbox settings.</td>
+        </tr>
+        <tr>
+        <td class="TableP1big" width="7%">0x9028</td>
+        <td class="TableP1little" width="17%">x-oma-nokia:ldapss.ua</td>
+        <td class="TableP1bigCenter" width="25%"><a href="mailto:dm.forum@nokia.com" shape="rect">Nokia DM Forum </a></td>
+        <td class="TableP1little" style="height: 46px;" width="44%">Used to configure LDAP storage settings</td>
+        </tr>
+        <tr>
+        <td class="TableP1big" width="7%" height="102">0x9029</td>
+        <td class="TableP1little" width="17%" height="102">x-hutchison:al.ua</td>
+        <td class="TableP1bigCenter" width="25%" height="102"><a href="mailto:vincenzo.verrillo@h3g.it" shape="rect">Vincenzo Verrillo</a></td>
+        <td class="TableP1little" style="height: 115px;" width="44%">We need an application id for a specific Push message that trigger on the handset the sending of a specific activity log to the network
+        <strong>Comment: </strong>This registration shall substitutes a previous request of registration because the previous one was wrong: we asked for registering x-hutchinson:al.ua instead of x-hutchison:al.ua.</td>
+        </tr>
+        <tr>
+        <td class="TableP1big" width="7%" height="19">0x902A</td>
+        <td class="TableP1little" width="17%" height="19">x-oma-nokia:uma.ua</td>
+        <td class="TableP1bigCenter" width="25%" height="19"><a href="mailto:dm.forum@nokia.com" shape="rect">Nokia DM Forum</a></td>
+        <td class="TableP1little" style="height: 46px;" width="44%" height="19">Used to configure UMA application.</td>
+        </tr>
+        <tr>
+        <td class="TableP1big" width="7%">0x902B</td>
+        <td class="TableP1little" width="17%">x-oma-nokia:news.ua</td>
+        <td class="TableP1bigCenter" width="25%"><a href="mailto:dm.forum@nokia.com" shape="rect">Nokia DM Forum </a></td>
+        <td class="TableP1little" style="height: 46px;" width="44%">On-line news update notify.</td>
+        </tr>
+        <tr>
+        <td class="TableP1big" width="7%" height="19">0x902C</td>
+        <td class="TableP1little" width="17%" height="19">x-oma-docomo:pf</td>
+        <td class="TableP1bigCenter" width="25%" height="19"><a href="mailto:uenohi@nttdocomo.co.jp" shape="rect">Hidetoshi Ueno </a></td>
+        <td class="TableP1little" style="height: 46px;" width="44%" height="19">This ID identifies the applications for DoCoMo PF.</td>
+        </tr>
+        <tr>
+        <td class="TableP1big" width="7%">0x902D</td>
+        <td class="TableP1little" width="17%">x-oma-docomo:ub&gt;</td>
+        <td class="TableP1bigCenter" width="25%"><a href="mailto:uenohi@nttdocomo.co.jp" shape="rect">Hidetoshi Ueno</a></td>
+        <td class="TableP1little" style="height: 46px;" width="44%">This ID identifies the applications for DoCoMo UB</td>
+        </tr>
+        <tr>
+        <td class="TableP1big" width="7%">0x902E</td>
+        <td class="TableP1little" width="17%">x-oma-nokia:nat.traversal.ua</td>
+        <td class="TableP1bigCenter" width="25%"><a href="mailto:dm.forum@nokia.com" shape="rect">Nokia DM Forum </a></td>
+        <td class="TableP1little" style="height: 46px;" width="44%">Used to configure network side firewall and NAT travelsal settings on UA.</td>
+        </tr>
+        <tr>
+        <td class="TableP1big" width="7%">0x902F</td>
+        <td class="TableP1little" width="17%">x-oma-intromobile:intropad.ua</td>
+        <td class="TableP1bigCenter" width="25%"><a href="mailto:angus@intromobile.com" shape="rect">Angus Bromley</a></td>
+        <td class="TableP1little" style="height: 46px;" width="44%">Used by mobile device client to display multi-channel content on the idle mode</td>
+        </tr>
+        <tr>
+        <td class="TableP1big" width="7%">0x9030</td>
+        <td class="TableP1little" width="17%">x-oma-docomo:uin.ua</td>
+        <td class="TableP1bigCenter" width="25%"><a href="mailto:uenohi@nttdocomo.co.jp" shape="rect">Hidetoshi Ueno</a></td>
+        <td class="TableP1little" style="height: 69px;" width="44%">This is used to identify user interface notifications from the server which distributes software for a mobile phone.</td>
+        </tr>
+        <tr>
+        <td class="TableP1big" width="7%">0x9031</td>
+        <td class="TableP1little" width="17%">x-oma-nokia:iptv.ua</td>
+        <td class="TableP1bigCenter" width="25%"><a href="mailto:dm.forum@nokia.com" shape="rect">Nokia DM Forum </a></td>
+        <td class="TableP1little" style="height: 69px;" width="44%">IPTV application for downloaded and streamed video content discovery, delivery and management.</td>
+        </tr>
+        <tr>
+        <td class="TableP1big" width="7%">0x9032</td>
+        <td class="TableP1little" width="17%">x-hutchison:il.ua</td>
+        <td class="TableP1bigCenter" width="25%"><a href="mailto:richard.taylor@three.co.uk" shape="rect">Richard Taylor</a></td>
+        <td class="TableP1little" style="height: 46px;" width="44%">An application that presents personalized information to the user</td>
+        </tr>
+        <tr>
+        <td class="TableP1big" width="7%">0x9033</td>
+        <td class="TableP1little" width="17%">x-oma-nokia:voip.general.ua</td>
+        <td class="TableP1bigCenter" width="25%"><a href="mailto:dm.forum@nokia.com" shape="rect">Nokia DM Forum </a></td>
+        <td class="TableP1little" style="height: 46px;" width="44%">Teminal specific voice-over-IP (VoIP) settings.</td>
+        </tr>
+        <tr>
+        <td class="TableP1big" width="7%">0x9034</td>
+        <td class="TableP1little" width="17%">x-microsoft:drm.meter</td>
+        <td class="TableP1bigCenter" width="25%"><a href="mailto:kevinlau@microsoft.com" shape="rect">Kevin Lau </a></td>
+        <td class="TableP1little" style="height: 46px;" width="44%">This is used as a trigger to collect metering information.</td>
+        </tr>
+        <tr>
+        <td class="TableP1big" width="7%">0x9035</td>
+        <td class="TableP1little" width="17%">x-microsoft:drm.license</td>
+        <td class="TableP1bigCenter" width="25%"><a href="mailto:kevinlau@microsoft.com" shape="rect">Kevin Lau</a></td>
+        <td class="TableP1little" style="height: 46px;" width="44%">This is used as a trigger for license delivery.</td>
+        </tr>
+        <tr>
+        <td class="TableP1big" width="7%">0x9036</td>
+        <td class="TableP1little" width="17%">x-oma-docomo:ic.ctl</td>
+        <td class="TableP1bigCenter" width="25%"><a href="mailto:uenohi@nttdocomo.co.jp" shape="rect">Hidetoshi Ueno</a></td>
+        <td class="TableP1little" style="height: 46px;" width="44%">Application for controlling IC conditions.</td>
+        </tr>
+        <tr>
+        <td class="TableP1big" width="7%">0x9037</td>
+        <td class="TableP1little" width="17%">x-oma-slingmedia:SPM.ua</td>
+        <td class="TableP1bigCenter" width="25%"><a href="mailto:chrisp@slingmedia.com" shape="rect">Christopher Pandolfo</a></td>
+        <td class="TableP1little" style="height: 46px;" width="44%">Used to identify the SPM application.</td>
+        </tr>
+        <tr>
+        <td class="TableP1big" width="7%">0x9038</td>
+        <td class="TableP1little" width="17%">x-cibenix:odp.ua</td>
+        <td class="TableP1bigCenter" width="25%"><a href="mailto:owen.sullivan@cibenix.com" shape="rect">Owen Sullivan</a></td>
+        <td class="TableP1little" style="height: 46px;" width="44%">On device portal application that receives updates pushed to it over-the-air.</td>
+        </tr>
+        <tr>
+        <td class="TableP1big" width="7%">0x9039</td>
+        <td class="TableP1little" width="17%">x-oma-motorola:voip.ua</td>
+        <td class="TableP1bigCenter" width="25%"><a href="mailto:Jerome@motorola.com" shape="rect">Jerome Vogedes</a></td>
+        <td class="TableP1little" style="height: 46px;" width="44%">Motorola VoIP UA provisioning</td>
+        </tr>
+        <tr>
+        <td class="TableP1big" width="7%">0x903A</td>
+        <td class="TableP1little" width="17%">x-oma-motorola:ims</td>
+        <td class="TableP1bigCenter" width="25%"><a href="mailto:Jerome@motorola.com" shape="rect">Jerome Vogedes</a></td>
+        <td class="TableP1little" style="height: 46px;" width="44%">Used for settings for SIP/IMS</td>
+        </tr>
+        <tr>
+        <td class="TableP1big" width="7%">0x903B</td>
+        <td class="TableP1little" width="17%">x-oma-docomo:imode.remote.ctl</td>
+        <td class="TableP1bigCenter" width="25%"><a href="mailto:uenohi@nttdocomo.co.jp" target="_blank" shape="rect">Hidetoshi Ueno</a></td>
+        <td class="TableP1little" style="height: 46px;" width="44%">This is used to control the application remotely</td>
+        </tr>
+        <tr>
+        <td class="TableP1big" width="7%">0x903C</td>
+        <td class="TableP1little" width="17%">x-oma-docomo:device.ctl.um</td>
+        <td class="TableP1bigCenter" width="25%"><a href="mailto:uenohi@nttdocomo.co.jp" shape="rect">Hidetoshi Ueno</a></td>
+        <td class="TableP1little" style="height: 46px;" width="44%">This ID identifies the applications for DoCoMo UM.</td>
+        </tr>
+        <tr>
+        <td class="TableP1big" width="7%">0x903D</td>
+        <td class="TableP1little" width="17%">x-microsoft:playready.drm.initiator</td>
+        <td class="TableP1bigCenter" width="25%"><a href="mailto:danielsc@microsoft.com" shape="rect">Daniel Schneider</a></td>
+        <td class="TableP1little" style="height: 69px;" width="44%">This is used as a trigger to a microsoft PlayReady(TM) DRM action. Contains an application/vnd.ms-playready-drm.initiator</td>
+        </tr>
+        <tr>
+        <td class="TableP1big" width="7%">0x903E</td>
+        <td class="TableP1little" width="17%">x-microsoft:playready.drm</td>
+        <td class="TableP1bigCenter" width="25%"><a href="mailto:danielsc@microsoft.com" shape="rect">Daniel Schneider</a></td>
+        <td class="TableP1little" style="height: 69px;" width="44%">This is used as a trigger to a microsoft PlayReady(TM) DRM action. Refers to an application/vnd.ms-playready-drm.initiator</td>
+        </tr>
+        <tr>
+        <td class="TableP1big" width="7%">0x903F</td>
+        <td class="TableP1little" width="17%">x-oma-sbm:ms.mexa.ua</td>
+        <td class="TableP1bigCenter" width="25%"><a href="mailto:masanori.murai@mb.softbank.co.jp" shape="rect">masanori murai</a></td>
+        <td class="TableP1little" style="height: 46px;" width="44%">Used to identify the MEXA application.</td>
+        </tr>
+        <tr>
+        <td class="TableP1big" width="7%">0x9040</td>
+        <td class="TableP1little" width="17%">urn:oma:drms:org-LGE:L650V</td>
+        <td class="TableP1bigCenter" width="25%"><a href="mailto:yorong@lge.com" shape="rect">Yongsuk, Lee</a></td>
+        <td class="TableP1little" style="height: 46px;" width="44%">LG DRM which supports OMA DRM 2.0 for nautilus</td>
+        </tr>
+        <tr>
+        <td class="TableP1big" width="7%">0x9041</td>
+        <td class="TableP1little" width="17%">x-oma-docomo:um</td>
+        <td class="TableP1bigCenter" width="25%"><a href="mailto:uenohi@nttdocomo.co.jp" shape="rect">Hidetoshi Ueno</a></td>
+        <td class="TableP1little" style="height: 46px;" width="44%">This ID identifies the applications for DoCoMo UM.</td>
+        </tr>
+        <tr>
+        <td class="TableP1big" width="7%">0x9042</td>
+        <td class="TableP1little" width="17%">x-oma-docomo:uin.um</td>
+        <td class="TableP1bigCenter" width="25%"><a href="mailto:uenohi@nttdocomo.co.jp" shape="rect">Hidetoshi Ueno</a></td>
+        <td class="TableP1little" style="height: 46px;" width="44%">This is used to identify user interface notifications from the server which distributes software for a DoCoMo UM.</td>
+        </tr>
+        <tr>
+        <td class="TableP1big" width="7%">0x9043</td>
+        <td class="TableP1little" width="17%">urn:oma:drms:org-LGE:KU450</td>
+        <td class="TableP1bigCenter" width="25%"><a href="mailto:yorong@lge.com" shape="rect">Yongsuk Lee</a></td>
+        <td class="TableP1little" style="height: 46px;" width="44%">-</td>
+        </tr>
+        <tr>
+        <td class="TableP1big" width="7%" height="20">0x9044</td>
+        <td class="TableP1little" width="17%" height="20">x-wap-microsoft:cfgmgr.ua</td>
+        <td class="TableP1bigCenter" width="25%" height="20"><a href="mailto:yuhangz@microsoft.com" shape="rect">Yuhang Zhu</a></td>
+        <td class="TableP1little" style="height: 46px;" width="44%" height="20">This ID identifies the application that receives the over the air client provisioning messages.</td>
+        </tr>
+        <tr bgcolor="#ffffff">
+        <td class="TableP1big" width="7%" height="27">0x9045</td>
+        <td class="TableP1little" width="17%" height="27">x-3gpp:mbms.download.delivery.ua</td>
+        <td class="TableP1bigCenter" width="25%" height="27"><a href="mailto:Thorsten.Lohmar@ericsson.com" shape="rect">Thorsten Lohmar</a></td>
+        <td class="TableP1little" style="height: 69px;" width="44%">This is used to transfer file download delivery sessions (using FLUTE) on OMA Push. See TS 26.346 section 7.4)</td>
+        </tr>
+        <tr>
+        <td class="TableP1big" width="7%">0x9046</td>
+        <td class="TableP1little" width="17%">x-oma-docomo:star.ctl</td>
+        <td class="TableP1bigCenter" width="25%"><a href="mailto:uenohi@nttdocomo.co.jp" shape="rect">Hidetoshi Ueno</a></td>
+        <td class="TableP1little" style="height: 46px;" width="44%">This is used to control a star application remotely</td>
+        </tr>
+        <tr>
+        <td class="TableP1big" width="7%">0x9047</td>
+        <td class="TableP1little" width="17%">urn:oma:drms:org-LGE:KU380</td>
+        <td class="TableP1bigCenter" width="25%"><a href="mailto:tenheat@lge.com" shape="rect">J.Y.Im</a></td>
+        <td class="TableP1little" style="height: 46px;" width="44%">-</td>
+        </tr>
+        <tr>
+        <td class="TableP1big" width="7%">0x9048</td>
+        <td class="TableP1little" width="17%">x-oma-docomo:pf2</td>
+        <td class="TableP1bigCenter" width="25%"><a href="mailto:uenohi@nttdocomo.co.jp" shape="rect">Hidetoshi Ueno</a></td>
+        <td class="TableP1little" style="height: 46px;" width="44%">This ID identifies the applications for DoCoMo PF version 2.</td>
+        </tr>
+        <tr>
+        <td class="TableP1big" width="7%">0x9049</td>
+        <td class="TableP1little" width="17%">x-oma-motorola:blogcentral.ua</td>
+        <td class="TableP1bigCenter" width="25%"><a href="mailto:asif.rao@motorola.com" shape="rect">Asif Rao</a></td>
+        <td class="TableP1little" style="height: 92px;" width="44%">This Motorola Application provides Blog Posting functionality to different blog services like YouTube, mySpace etc. APP ID will be used to configure user account over the air.</td>
+        </tr>
+        <tr>
+        <td class="TableP1big" width="7%" height="19">0x904A</td>
+        <td class="TableP1little" width="17%" height="19">x-oma-docomo:imode.agent.ua</td>
+        <td class="TableP1bigCenter" width="25%" height="19"><a href="mailto:uenohi@nttdocomo.co.jp" shape="rect">Hidetoshi Ueno</a></td>
+        <td class="TableP1little" style="height: 46px;" width="44%" height="19">This application ID is used for identifying the imode agent application.</td>
+        </tr>
+        <tr>
+        <td class="TableP1big" width="7%">0x904B</td>
+        <td class="TableP1little" width="17%">x-wap-application:push.sia</td>
+        <td class="TableP1bigCenter" width="25%"><a href="mailto:omostafa@linkintme.com" shape="rect">Osama Mostafa</a></td>
+        <td class="TableP1little" style="height: 46px;" width="44%">WAPPush application is used for downloading resources andÂ? to confirm the delivery of the resource.</td>
+        </tr>
+        <tr>
+        <td class="TableP1big" width="7%">0x904C</td>
+        <td class="TableP1little" width="17%">x-oma-nokia:destination.network.ua</td>
+        <td class="TableP1bigCenter" width="25%"><a href="mailto:dm.forum@nokia.com" shape="rect">Nokia DM Forum</a></td>
+        <td class="TableP1little" style="height: 46px;" width="44%">Destination network settings</td>
+        </tr>
+        <tr>
+        <td class="TableP1big" width="7%">0x904D</td>
+        <td class="TableP1little" width="17%">x-oma-sbm:mid2.ua</td>
+        <td class="TableP1bigCenter" width="25%"><a href="mailto:masanori.murai@mb.softbank.co.jp" shape="rect">Masanori Murai</a></td>
+        <td class="TableP1little" style="height: 46px;" width="44%">This Application-ID is used for Notification to 2nd Mail address.</td>
+        </tr>
+        <tr>
+        <td class="TableP1big" width="7%">0x904E</td>
+        <td class="TableP1little" width="17%">x-carrieriq:avm.ctl</td>
+        <td class="TableP1bigCenter" width="25%"><a href="mailto:sjohnson@carrieriq.com" target="_blank" shape="rect">Scott Johnson</a></td>
+        <td class="TableP1little" style="height: 46px;" width="44%">AVM is an diagnostic application controlled via WAP Push</td>
+        </tr>
+        <tr>
+        <td class="TableP1big" width="7%">0x904F</td>
+        <td class="TableP1little" width="17%">x-oma-sbm:ms.xml.ua</td>
+        <td class="TableP1bigCenter" width="25%"><a href="mailto:akiho.shibata@mb.softbank.co.jp" target="_blank" shape="rect">Akito Shibata</a></td>
+        <td class="TableP1little" style="height: 46px;" width="44%">Web server data update notify</td>
+        </tr>
+        <tr>
+        <td class="TableP1big" align="left" valign="top" width="7%">0x9050</td>
+        <td class="TableP1little" align="left" valign="top" width="17%">urn:dvb:ipdc:notification:2008</td>
+        <td class="TableP1bigCenter" align="left" valign="top" width="25%"><a href="mailto:imed.bouazizi@nokia.com" target="_blank" shape="rect">Imed Bouazizi</a></td>
+        <td class="TableP1little" style="height: 46px;" width="44%">DVB IPDC defines a notification framework to deliver notification messages about forthcoming and unpredictable events. Besides the broadcast channel delivery, a PUSH type delivery using OMA PUSH is also defined. The notification service provider may push notification messages to a registered device.This application is maintained by the DVB CBMS working group.</td>
+        </tr>
+        <tr>
+        <td class="TableP1big" align="left" valign="middle" width="7%">0x9051</td>
+        <td class="TableP1little" align="left" valign="middle" width="17%">x-oma-docomo:imode.mvch.ua</td>
+        <td class="TableP1bigCenter" align="left" valign="middle" width="25%"><a href="mailto:uenohi(a)tnttdocomo.co.jp" target="_blank" shape="rect">Hidetoshi Ueno</a></td>
+        <td class="TableP1little" style="height: 46px;" align="left" valign="middle" width="44%">This ID is used for identifying the music and video channel application.</td>
+        </tr>
+        <tr>
+        <td class="TableP1big" align="left" valign="middle" width="7%">0x9052</td>
+        <td class="TableP1little" align="left" valign="middle" width="17%">x-oma-motorola:webui.ua</td>
+        <td class="TableP1bigCenter" align="left" valign="middle" width="25%"><a href="mailto:redadehy@motorola.com" target="_blank" shape="rect">Reda Dehy</a></td>
+        <td class="TableP1little" style="height: 46px;" align="left" valign="middle" width="44%">This is used to start a WebUI application on a mobile device</td>
+        </tr>
+        <tr>
+        <td class="TableP1big" align="left" valign="middle" width="7%">0x9053</td>
+        <td class="TableP1little" align="left" valign="middle" width="17%">x-oma-sbm:cid.ua</td>
+        <td class="TableP1bigCenter" align="left" valign="middle" width="25%"><a href="mailto:shinji.kusakari@mb.softbank.co.jp" target="_blank" shape="rect">Shinji Kusakari</a></td>
+        <td class="TableP1little" style="height: 46px;" align="left" valign="middle" width="44%">This application ID is used for identifying the cell information application.</td>
+        </tr>
+        <tr>
+        <td class="TableP1big" align="left" valign="middle" width="7%">0x9054</td>
+        <td class="TableP1little" align="left" valign="middle" width="17%">x-oma-nokia:vcc.v1.ua</td>
+        <td class="TableP1bigCenter" align="left" valign="middle" width="25%"><a href="mailto:dm.forum@nokia.com" target="_blank" shape="rect">Nokia DM Forum</a></td>
+        <td class="TableP1little" style="height: 46px;" align="left" valign="middle" width="44%">Nokia specific voice call continuity settings.</td>
+        </tr>
+        <tr>
+        <td class="TableP1big" align="left" valign="middle" width="7%">0x9055</td>
+        <td class="TableP1little" align="left" valign="middle" width="17%">x-oma-docomo:open.ctl</td>
+        <td class="TableP1bigCenter" align="left" valign="middle" width="25%"><a href="mailto:uenohi@tnttdocomo.co.jp" target="_blank" shape="rect"><span style="text-decoration: underline;">Hidetoshi Ueno</span></a></td>
+        <td class="TableP1little" style="height: 46px;" align="left" valign="middle" width="44%">Application for controlling device conditions.</td>
+        </tr>
+        <tr>
+        <td class="TableP1big" align="left" valign="middle" width="7%">0x9056</td>
+        <td class="TableP1little" align="left" valign="middle" width="17%">x-oma-docomo:sp.mail.ua</td>
+        <td class="TableP1bigCenter" align="left" valign="middle" width="25%"><a href="mailto:uenohi@tnttdocomo.co.jp" target="_blank" shape="rect"><span style="text-decoration: underline;">Hidetoshi Ueno</span></a></td>
+        <td class="TableP1little" style="height: 46px;" align="left" valign="middle" width="44%">It is used to identify an email application on a smart phone.</td>
+        </tr>
+        <tr>
+        <td class="TableP1big" align="left" valign="middle" width="7%">0x9057</td>
+        <td class="TableP1little" align="left" valign="middle" width="17%">x-essoy-application:push.erace</td>
+        <td class="TableP1bigCenter" align="left" valign="middle" width="25%"><a href="mailto:pasi.kytola@essoy.fi" shape="rect">erAce Security Solutions Oy Ltd</a></td>
+        <td class="TableP1little" style="height: 46px;" align="left" valign="middle" width="44%">This ID identifies the applications for erAce Security</td>
+        </tr>
+        <tr>
+        <td class="TableP1big" align="left" valign="middle" width="7%">0x9058</td>
+        <td class="TableP1little" align="left" valign="middle" width="17%">x-oma-docomo:open.fu</td>
+        <td class="TableP1bigCenter" align="left" valign="middle" width="25%"><a href="mailto:uenohi@nttdocomo.co.jp" shape="rect">Hidetoshi Ueno</a></td>
+        <td class="TableP1little" style="height: 46px;" align="left" valign="middle" width="44%">This ID is used for device firmware update.</td>
+        </tr>
+        <tr>
+        <td class="TableP1big" align="left" valign="middle" width="7%">0x9059</td>
+        <td class="TableP1little" align="left" valign="middle" width="17%">x-samsung:osp.ua</td>
+        <td class="TableP1bigCenter" align="left" valign="middle" width="25%"><a href="mailto:j.m.ahn@samsung.com" shape="rect">Jaemin Ahn</a></td>
+        <td class="TableP1little" style="height: 46px;" align="left" valign="middle" width="44%">This ID is used for delivering an event to the application on a mobile device.</td>
+        </tr>
+        <tr>
+        <td class="TableP1big" align="left" valign="middle" width="7%">0x905A</td>
+        <td class="TableP1little" align="left" valign="middle" width="17%">x-oma-docomo:imode.mchara.ua</td>
+        <td class="TableP1bigCenter" align="left" valign="middle" width="25%"><a href="mailto:dcm-smspush-ml@nttdocomo.com" shape="rect"><span style="font-family: Consolas;"> </span>Toshiyasu Yabe</a></td>
+        <td class="TableP1little" style="height: 46px;" align="left" valign="middle" width="44%">This ID is used for MachiChara application.</td>
+        </tr>
+        <tr>
+        <td class="TableP1big" align="left" valign="middle" width="7%">0x905B</td>
+        <td class="TableP1little" align="left" valign="middle" width="17%">X-Wap-Application-Id:x-oma-application: scidm.ua</td>
+        <td class="TableP1bigCenter" align="left" valign="middle" width="25%"><a href="mailto:zengw@huawei.com" shape="rect">Wenjun (Kevin) Zeng</a></td>
+        <td class="TableP1little" style="height: 46px;" align="left" valign="middle" width="44%">-</td>
+        </tr>
+        <tr>
+        <td class="TableP1big" align="left" valign="middle" width="7%">0x905C</td>
+        <td class="TableP1little" align="left" valign="middle" width="17%">x-oma-docomo:xmd.mail.ua</td>
+        <td class="TableP1bigCenter" align="left" valign="middle" width="25%"><a href="mailto:uenohi@nttdocomo.co.jp" shape="rect">Hidetoshi Ueno</a></td>
+        <td class="TableP1little" style="height: 46px;" align="left" valign="middle" width="44%">This is used to identify an email application.</td>
+        </tr>
+        <tr>
+        <td class="TableP1big" align="left" valign="middle" width="7%">0x905D</td>
+        <td class="TableP1little" align="left" valign="middle" width="17%">x-oma-application:pal.ua</td>
+        <td class="TableP1bigCenter" align="left" valign="middle" width="25%"><a href="mailto:bmccolgan@rim.com" shape="rect">Brian McColgan</a></td>
+        <td class="TableP1little" style="height: 46px;" align="left" valign="middle" width="44%">The PAL Enabler makes use of this application ID to identify actions to be received by a PAL Client as a result of a predefined action corresponding to a Presence Trigger (e.g. an asynchrnous notification sent to a Push Client, via the OMA Push Enabler, and destined for a PAL 'push enabled' application).</td>
+        </tr>
+        <tr>
+        <td class="TableP1big" align="left" valign="middle" width="7%">0x905E</td>
+        <td class="TableP1little" align="left" valign="middle" width="17%">x-oma-docomo:imode.relation.ua</td>
+        <td class="TableP1bigCenter" align="left" valign="middle" width="25%"><a href="mailto:dcm-smspush-ml@nttdocomo.com" shape="rect">Toshiyasu Yabe</a></td>
+        <td class="TableP1little" style="height: 46px;" align="left" valign="middle" width="44%">This ID is used for relation supporting application.</td>
+        </tr>
+        <tr>
+        <td class="TableP1big" align="left" valign="middle" width="7%">0x905F</td>
+        <td class="TableP1little" align="left" valign="middle" width="17%">x-oma-docomo:xmd.storage.ua</td>
+        <td class="TableP1bigCenter" align="left" valign="middle" width="25%"><a href="mailto:dcm-smspush-ml@nttdocomo.com" shape="rect">Toshiyasu Yabe</a></td>
+        <td class="TableP1little" style="height: 46px;" align="left" valign="middle" width="44%">This application ID is used for identifying the storage application</td>
+        </tr>
+        <tr>
+        <td class="TableP1big" align="left" valign="middle" width="7%">0x9060</td>
+        <td class="TableP1little" align="left" valign="middle" width="17%">x-oma-docomo:xmd.lcsapp.ua</td>
+        <td class="TableP1bigCenter" align="left" valign="middle" width="25%"><a href="mailto:dcm-smspush-ml@nttdocomo.com" shape="rect">Toshiyasu Yabe</a></td>
+        <td class="TableP1little" style="height: 46px;" align="left" valign="middle" width="44%">This application ID is used for Location information Service</td>
+        </tr>
+        <tr>
+        <td class="TableP1big" align="left" valign="middle" width="7%">0x9061</td>
+        <td class="TableP1little" align="left" valign="middle" width="17%">x-oma-docomo:xmd.info.ua</td>
+        <td class="TableP1bigCenter" align="left" valign="middle" width="25%"><a href="mailto:dcm-smspush-ml@nttdocomo.com">Junichi Ninomiya</a></td>
+        <td class="TableP1little" style="height: 46px;" align="left" valign="middle" width="44%">This application ID is used for identifying the information service application.</td>
+        </tr>
+        <tr>
+        <td class="TableP1big" align="left" valign="middle" width="7%">0x9062</td>
+        <td class="TableP1little" align="left" valign="middle" width="17%">x-oma-docomo:xmd.agent.ua</td>
+        <td class="TableP1bigCenter" align="left" valign="middle" width="25%"><a href="mailto:dcm-smspush-ml@nttdocomo.com"><span style="color: #979080;">Junichi Ninomiya</span></a></td>
+        <td class="TableP1little" style="height: 46px;" align="left" valign="middle" width="44%">This application ID is used for identifying the agent application.</td>
+        </tr>
+        <tr>
+        <td class="TableP1big" align="left" valign="middle" width="7%">0x9063</td>
+        <td class="TableP1little" align="left" valign="middle" width="17%">x-oma-docomo:xmd.sab.ua</td>
+        <td class="TableP1bigCenter" align="left" valign="middle" width="25%"><a href="mailto:dcm-smspush-ml@nttdocomo.com"><span style="color: #979080;">Junichi Ninomiya</span></a></td>
+        <td class="TableP1little" style="height: 46px;" align="left" valign="middle" width="44%">This application ID is used for identifying the SNS application.</td>
+        </tr>
+        <tr>
+        <td class="TableP1big" align="left" valign="middle" width="7%">0x9064</td>
+        <td class="TableP1little" align="left" valign="middle" width="17%">x-oma-docomo:xmd.am.ua</td>
+        <td class="TableP1bigCenter" align="left" valign="middle" width="25%"><a href="mailto:dcm-smspush-ml@nttdocomo.com"><span style="color: #979080;">Junichi Ninomiya</span></a></td>
+        <td class="TableP1little" style="height: 46px;" align="left" valign="middle" width="44%">This application ID is used for identifying the management application.</td>
+        </tr>
+        <tr>
+        <td class="TableP1big" align="left" valign="middle" width="7%">0x9065</td>
+        <td class="TableP1little" align="left" valign="middle" width="17%">x-oma-application:push.scws</td>
+        <td class="TableP1bigCenter" align="left" valign="middle" width="25%"><a href="laurence.bringer@gemalto.com">Laurence Bringer</a></td>
+        <td class="TableP1little" style="height: 46px;" align="left" valign="middle" width="44%">Identifier of the OMA SCWS Push Gateway to receive OMA SIP Push messages to trigger an OMA Smart Card Web Server (SCWS) Remote Administration session. The usage of the OMA SCWS Push Gateway is defined in the OMA SCWS v1.2 Enabler.</td>
+        </tr>
+        <tr>
+        <td class="TableP1big" align="left" valign="middle" width="7%">0x9066</td>
+        <td class="TableP1little" align="left" valign="middle" width="17%">x-oma-docomo:xmd.disastermessageapp.ua</td>
+        <td class="TableP1bigCenter" align="left" valign="middle" width="25%"><a href="mailto:dcm-smspush-ml@nttdocomo.com" shape="rect"><span style="color: #979080;">Toshiyasu Yabe</span></a></td>
+        <td class="TableP1little" style="height: 46px;" align="left" valign="middle" width="44%">This application ID is used for Message Board application.</td>
+        </tr>
+        <tr>
+        <td class="TableP1big" align="left" valign="middle" width="7%">0x9067</td>
+        <td class="TableP1little" align="left" valign="middle" width="17%">x-innopath:wamp.notification</td>
+        <td class="TableP1bigCenter" align="left" valign="middle" width="25%"><a href="mailto:tsudo@innopath.com">Takanori Sudo</a></td>
+        <td class="TableP1little" style="height: 46px;" align="left" valign="middle" width="44%">This ID is used to identify the notification message of InnoPath DeltaUpgrade OTA Server. The message initiates the client devices' FOTA processing.
+        InnoPath DeltaUpgrade OTA Server is InnoPath Software, Inc.'s old/proprietary product. Now the users of this product use their own SMS system that is not OMA Push compliant.
+        The purpose of this registration is leading to replace those proprietary systems with OMA compliant one</td>
+        </tr>
+        <tr>
+        <td class="TableP1big" align="left" valign="middle" width="7%">0x9068</td>
+        <td class="TableP1little" align="left" valign="middle" width="17%">x-wap-docomo:interp.ctl</td>
+        <td class="TableP1bigCenter" align="left" valign="middle" width="25%"><a href="mailto:dcm-smspush-ml@nttdocomo.com">Masahiro Oota</a></td>
+        <td class="TableP1little" style="height: 46px;" align="left" valign="middle" width="44%">This ID is an identifier for controlling interp applications</td>
+        </tr>
+        <tr>
+        <td class="TableP1big" align="left" valign="middle" width="7%">0x9069</td>
+        <td class="TableP1little" align="left" valign="middle" width="17%">x-oma-kddi:apps.ua</td>
+        <td class="TableP1bigCenter" align="left" valign="middle" width="25%"><a href="mailto:to-shiratori@kddi.com">Toru Shiratori</a></td>
+        <td class="TableP1little" style="height: 46px;" align="left" valign="middle" width="44%">This ID is used in order to start the application of a mobile phone</td>
+        </tr>
+        <tr>
+        <td class="TableP1big" align="left" valign="middle" width="7%">0x906A</td>
+        <td class="TableP1little" align="left" valign="middle" width="17%">x-oma-kddi:push.ua</td>
+        <td class="TableP1bigCenter" align="left" valign="middle" width="25%"><a href="mailto:to-shiratori@kddi.com">Toru Shiratori</a></td>
+        <td class="TableP1little" style="height: 46px;" align="left" valign="middle" width="44%">This ID is used for the starting demand of a device.</td>
+        </tr>
+        <tr>
+        <td class="TableP1big" align="left" valign="middle" width="7%">0x906B</td>
+        <td class="TableP1little" align="left" valign="middle" width="17%">x-oma-docomo:xmd.emdm.ua</td>
+        <td class="TableP1bigCenter" align="left" valign="middle" width="25%"><a href="mailto:dcm-smspush-ml@nttdocomo.com">Junichi Ninomiya</a></td>
+        <td class="TableP1little" style="height: 46px;" align="left" valign="middle" width="44%">This application ID is used for identifying the group device control application.</td>
+        </tr>
+        <tr>
+        <td class="TableP1big" align="left" valign="middle" width="7%">0x906C</td>
+        <td class="TableP1little" align="left" valign="middle" width="17%">x-oma-docomo:xmd.lac.ua</td>
+        <td class="TableP1bigCenter" align="left" valign="middle" width="25%"><a href="mailto:dcm-smspush-ml@nttdocomo.com">Yasunori AGO</a></td>
+        <td class="TableP1little" style="height: 46px;" align="left" valign="middle" width="44%">This application ID is used for identifying the log application</td>
+        </tr>
+        <tr>
+        <td class="TableP1big" align="left" valign="middle" width="7%">0x906D</td>
+        <td class="TableP1little" align="left" valign="middle" width="17%">x-oma-docomo:xmd.osv.ua</td>
+        <td class="TableP1bigCenter" align="left" valign="middle" width="25%"><a href="mailto:dcm-smspush-ml@nttdocomo.com">Yasunori AGO</a></td>
+        <td class="TableP1little" style="height: 46px;" align="left" valign="middle" width="44%">This application ID is used for identifying the osv application</td>
+        </tr>
+        <tr>
+        <td class="TableP1big" align="left" valign="middle" width="7%">0x906E</td>
+        <td class="TableP1little" align="left" valign="middle" width="17%">x-oma-docomo:xmd.dcs.ua</td>
+        <td class="TableP1bigCenter" align="left" valign="middle" width="25%"><a href="mailto:dcm-smspush-ml@nttdocomo.com"><span style="color: #979080;">Yasunori AGO</span></a></td>
+        <td class="TableP1little" style="height: 46px;" align="left" valign="middle" width="44%">This application ID is used for identifying the cloud settings</td>
+        </tr>
+        <tr>
+        <td class="TableP1big" align="left" valign="middle" width="7%">0x906F</td>
+        <td class="TableP1little" align="left" valign="middle" width="17%">x-oma-docomo:xmd.wipe.ua</td>
+        <td class="TableP1bigCenter" align="left" valign="middle" width="25%"><a href="mailto:dcm-smspush-ml@nttdocomo.com"><span style="color: #979080;">Yasunori AGO</span></a></td>
+        <td class="TableP1little" style="height: 46px;" align="left" valign="middle" width="44%">This application ID is used for identifying the wipe application</td>
+        </tr>
+        <tr>
+        <td class="TableP1big" align="left" valign="middle" width="7%">0x9070</td>
+        <td class="TableP1little" align="left" valign="middle" width="17%">x-oma-docomo:xmd.vdapp.ua</td>
+        <td class="TableP1bigCenter" align="left" valign="middle" width="25%"><a href="mailto:dcm-smspush-ml@nttdocomo.com">Yasunori AGO</a></td>
+        <td class="TableP1little" style="height: 46px;" align="left" valign="middle" width="44%">This application ID is used for identifying the voice delivery application.</td>
+        </tr>
+        <tr>
+        <td class="TableP1big" align="left" valign="middle" width="7%">0x9071</td>
+        <td class="TableP1little" align="left" valign="middle" width="17%">x-3gpp.gba.andsf.ua</td>
+        <td class="TableP1bigCenter" align="left" valign="middle" width="25%"><a href="mailto:frederic.firmin@etsi.org">Frederic Firmin</a></td>
+        <td class="TableP1little" style="height: 46px;" align="left" valign="middle" width="44%">The application identity indicates ANDSF.see subclause 8.1.3 of 3GPP TS 24.302 11.5.0 (available at <a href="http://www.3gpp.org/ftp/Specs/html-info/24302.htm">http://www.3gpp.org/ftp/Specs/html-info/24302.htm</a><span style="font-family: Consolas;">)</span></td>
+        </tr>
+        <tr>
+        <td class="TableP1big" align="left" valign="middle" width="7%">0x9072</td>
+        <td class="TableP1little" align="left" valign="middle" width="17%">x-oma-docomo:xmd.concier.ua</td>
+        <td class="TableP1bigCenter" align="left" valign="middle" width="25%"><a href="mailto:dcm-smspush-ml@nttdocomo.com">Koichi ASANO</a></td>
+        <td class="TableP1little" style="height: 46px;" align="left" valign="middle" width="44%">This application ID is used for identifying the concier application.</td>
+        </tr>
+        <tr>
+        <td class="TableP1big" align="left" valign="middle" width="7%">0x9073</td>
+        <td class="TableP1little" align="left" valign="middle" width="17%">x-oma-docomo:xmd.mobacas.push.ua</td>
+        <td class="TableP1bigCenter" align="left" valign="middle" width="25%"><a href="mailto:dcm-smspush-ml@nttdocomo.com"><span style="color: #979080;">Koichi ASANO</span></a></td>
+        <td class="TableP1little" style="height: 46px;" align="left" valign="middle" width="44%">This application ID is used for identifying the mobacas  application.</td>
+        </tr>
+        <tr>
+        <td class="TableP1big" align="left" valign="middle" width="7%">0x9074</td>
+        <td class="TableP1little" align="left" valign="middle" width="17%">x-oma-docomo:xmd.id.ua</td>
+        <td class="TableP1bigCenter" align="left" valign="middle" width="25%"><a href="mailto:dcm-smspush-ml@nttdocomo.com"><span style="color: #979080;">Koichi ASANO</span></a></td>
+        <td class="TableP1little" style="height: 46px;" align="left" valign="middle" width="44%">This application ID is used for identifying the ID application</td>
+        </tr>
+        <tr>
+        <td class="TableP1big" align="left" valign="middle" width="7%">0x9075</td>
+        <td class="TableP1little" align="left" valign="middle" width="17%">x-oma-kddi:auth.us</td>
+        <td class="TableP1bigCenter" align="left" valign="middle" width="25%"><a href="mailto:ju-nakajima@kddi.com"><span style="color: #979080;">Jun Nakajima</span></a></td>
+        <td class="TableP1little" style="height: 46px;" align="left" valign="middle" width="44%"> This application ID is used for identifying the authentication application.</td>
+        </tr>
+        <tr>
+        <td class="TableP1big" align="left" valign="middle" width="7%">0x9076</td>
+        <td class="TableP1little" align="left" valign="middle" width="17%">x-oma-docomo:xmd. kidswatch.ua</td>
+        <td class="TableP1bigCenter" align="left" valign="middle" width="25%"><a href="mailto:dcm-smspush-ml@nttdocomo.com"><span style="color: #979080;">Yasunori Agou</span></a></td>
+        <td class="TableP1little" style="height: 46px;" align="left" valign="middle" width="44%"> This application ID is used for identifying the kidswatch application.</td>
+        </tr>
+        <tr>
+        <td class="TableP1big" align="left" valign="middle" width="7%">0x9077</td>
+        <td class="TableP1little" align="left" valign="middle" width="17%">x-oma-docomo:xmd.vm.ua</td>
+        <td class="TableP1bigCenter" align="left" valign="middle" width="25%"><a href="mailto:shiyunsuke.fukuda.zd@nttdocomo.com"><span style="color: #979080;">Shunsuke Fukuda</span></a></td>
+        <td class="TableP1little" style="height: 46px;" align="left" valign="middle" width="44%"> This application ID is used for identifying the message application.</td>
+        </tr>
+        <tr>
+        <td class="TableP1big" align="left" valign="middle" width="7%">0x9078</td>
+        <td class="TableP1little" align="left" valign="middle" width="17%">x-oma-docomo:ctl.um</td>
+        <td class="TableP1bigCenter" align="left" valign="middle" width="25%"><a href="mailto:module_support@nttdocomo.com"><span style="color: #979080;">Yusuke Fukuda</span></a></td>
+        <td class="TableP1little" style="height: 46px;" align="left" valign="middle" width="44%"> This application ID is used for identifying DoCoMo UM application.</td>
+        </tr>
+        <tr>
+        <td class="TableP1big" align="left" valign="middle" width="7%">0x9079</td>
+        <td class="TableP1little" align="left" valign="middle" width="17%">x-oma-docomo:ctl.smspush</td>
+        <td class="TableP1bigCenter" align="left" valign="middle" width="25%"><a href="mailto:us-sms-push-ml@nttdocomo.com"><span style="color: #979080;">Toshiaki Tanabe</span></a></td>
+        <td class="TableP1little" style="height: 46px;" align="left" valign="middle" width="44%"> This application ID is used for the activation regarding SMS center push service.</td>
+        </tr>
+        <tr>
+        <td class="TableP1big" align="left" valign="middle" width="7%">0x907A</td>
+        <td class="TableP1little" align="left" valign="middle" width="17%">x-wap-application:ota-server</td>
+        <td class="TableP1bigCenter" align="left" valign="middle" width="25%"><a href="mailto:Adrian.2.milner@sprint.com"><span style="color: #979080;">Adrian Milner</span></a></td>
+        <td class="TableP1little" style="height: 46px;" align="left" valign="middle" width="44%"> This application ID will be used to identify a message coming from a OTA server.</td>
+        </tr>
+        <tr>
+        <td class="TableP1big" align="left" valign="middle" width="7%">0x907B</td>
+        <td class="TableP1little" align="left" valign="middle" width="17%">x-wap-application:subman-server</td>
+        <td class="TableP1bigCenter" align="left" valign="middle" width="25%"><a href="mailto:Adrian.2.milner@sprint.com"><span style="color: #979080;">Adrian Milner</span></a></td>
+        <td class="TableP1little" style="height: 46px;" align="left" valign="middle" width="44%">This application ID will be used to identify a message coming from a subscription management server.</td>
+        </tr>
+        <tr>
+        <td class="TableP1big" align="left" valign="middle" width="7%">0x907C</td>
+        <td class="TableP1little" align="left" valign="middle" width="17%">x-oma-docomo:xmd.emdm2.ua</td>
+        <td class="TableP1bigCenter" align="left" valign="middle" width="25%"><a href="mailto:dcm-smspush-ml@nttdocomo.com"><span style="color: #979080;">Yasunori AGO</span></a></td>
+        <td class="TableP1little" style="height: 46px;" align="left" valign="middle" width="44%">This application ID is used for identifying the group device control application</td>
+        </tr>
+        <tr>
+        <td class="TableP1big" align="left" valign="middle" width="7%">0x907D</td>
+        <td class="TableP1little" align="left" valign="middle" width="17%">x-oma-docomo:xmd.haa.ua</td>
+        <td class="TableP1bigCenter" align="left" valign="middle" width="25%"><a href="mailto:dcm-smspush-ml@nttdocomo.com"><span style="color: #979080;">Yasunori AGO</span></a></td>
+        <td class="TableP1little" style="height: 46px;" align="left" valign="middle" width="44%">This application ID is used for identifying the home agent application</td>
+        </tr>
+            <tr>
+        <td class="TableP1big" align="left" valign="middle" width="7%" style="height: 46px">0x907E</td>
+        <td class="TableP1little" align="left" valign="middle" width="17%" style="height: 46px">x-oma-docomo:xmd.help.ua</td>
+        <td class="TableP1bigCenter" align="left" valign="middle" width="25%" style="height: 46px"><a href="mailto:dcm-smspush-ml@nttdocomo.com"><span style="color: #979080;">Yasunori AGO</span></a></td>
+        <td class="TableP1little" style="height: 46px;" align="left" valign="middle" width="44%">
+        This application ID is used for identifying the home help application</td>
+            </tr>
+            <tr>
+        <td class="TableP1big" align="left" valign="middle" width="7%">0x907F</td>
+        <td class="TableP1little" align="left" valign="middle" width="17%">x-oma-docomo:xmd.credit_id.ua</td>
+        <td class="TableP1bigCenter" align="left" valign="middle" width="25%"><a href="mailto:dcm-smspush-ml@nttdocomo.com"><span style="color: #979080;">Tetsuya Hamada</span></a></td>
+        <td class="TableP1little" style="height: 46px;" align="left" valign="middle" width="44%">
+        This application ID is used for identifying the credit cards setting application</td>
+            </tr>
+            <tr>
+        <td class="TableP1big" align="left" valign="middle" width="7%">0x9080</td>
+        <td class="TableP1little" align="left" valign="middle" width="17%">x-oma-att:adtm.ua</td>
+        <td class="TableP1bigCenter" align="left" valign="middle" width="25%"><a href="mailto:sm7084@att.com"><span style="color: #979080;">Shahram Mohajeri</span></a></td>
+        <td class="TableP1little" style="height: 46px;" align="left" valign="middle" width="44%">
+        This application ID is used for identifying the ADTM application</td>
+            </tr>
+        </tbody>
+        </table>
+        <table class="fl mtl" style="width: 100%;" border="0" cellspacing="0" cellpadding="0">
+        <tbody>
+        <tr>
+        <td class="TableTitre1" colspan="4">Private or Experimental Values</td>
+        </tr>
+        <tr>
+        <td class="TableTitre2" width="8%" style="height: 19px">Number</td>
+        <td class="TableTitre2" width="17%" style="height: 19px">URN</td>
+        <td class="TableTitre2" width="26%" style="height: 19px">Registrant</td>
+        <td class="TableTitre2" width="48%" style="height: 19px">Description</td>
+        </tr>
+        <tr>
+        <td class="TableP1big" colspan="4">&lt;none&gt;</td>
+        </tr>
+        </tbody>
+        </table>
+    </div>
+
+
+    <!-- This gets populated with the footer.html using Javascript -->
+    <div id="footer"></div>
+</body>
+</html>
