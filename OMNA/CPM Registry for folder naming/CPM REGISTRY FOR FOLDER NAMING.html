@@ -1,3 +1,43 @@
++<!doctype html>
++<html>
++<head>
++
++    <title>Open Mobile Alliance - CPM REGISTRY FOR FOLDER NAMING</title>
++    <meta charset="utf-8">
++    <script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
++    <script src="/Scripts/LwM2MRegistry.js"></script>
++
++    <!-- Font awesome for arrows -->
++    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
++
++    <!-- Normalize CSS -->
++    <link rel="stylesheet" href="/CSS/Normalize.css" />
++
++    <!-- Latest compiled and minified CSS -->
++    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
++
++    <!-- Optional theme -->
++    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
++
++    <link rel="stylesheet" href="/CSS/Site.css">
++    <link rel="stylesheet" href="/CSS/registries.css">
++    <link rel="stylesheet" href="/CSS/grid_oocss.css">
++    <link rel="stylesheet" href="/CSS/spacing.css">
++
++    <script>
++        $(function () {
++            $('#header').load("/header.html");
++            $('#footer').load("/footer.html");
++        });
++    </script>
++</head>
++
++
++<body>
++    <!-- This gets populated with the header.html using Javascript -->
++    <div id="header"></div>
++
++    <div class="container">
 <div class="fl size99of100 mid-cont-ttl mbl">CPM REGISTRY FOR FOLDER NAMING</div>
 The non-CPM folders are allowed to be specified inside the CPM Mesage Store [defined in OMA-TS-CPM_Message_Store-V2_1], by any external enabler, service or applications .These top-level folders must have unique names in order to avoid any conflicts.
 New entries to be added to this table must be reviewed with the OMA COM WG. They will assure that the required data is correctly structured and does not conflict with existing folder names and definitions.
