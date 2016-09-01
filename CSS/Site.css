@@ -33,6 +33,14 @@
     text-align: left;
 }
 
+.alternate-columns tr td:nth-child(even) {
+    background: #dbeef3;
+}
+
+.alternate-columns tr:nth-child(even) {
+    background: none;
+}
+
 table {
     width: 100%;
 }

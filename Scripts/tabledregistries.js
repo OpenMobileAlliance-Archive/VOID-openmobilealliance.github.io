@@ -24,6 +24,16 @@
 
         $this.hide();
     });
+    
+
+
+    // *********************//
+    // ** Styling changes **//
+    // *********************//
+    var $tableWithRowspan = $('table').find('tbody').find('td[rowspan]').closest('table');
+    if ($tableWithRowspan) {
+        $tableWithRowspan.addClass('alternate-columns');
+    };
 });
 
 // Create all the elements for the expandable <div> elements
