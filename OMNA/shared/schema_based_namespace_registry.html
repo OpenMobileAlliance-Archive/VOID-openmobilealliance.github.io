@@ -1,0 +1,1306 @@
+<!doctype html>
+<html>
+<head>
+
+    <title>Open Mobile Alliance - Schema-based Namespace Registry</title>
+    <meta charset="utf-8">
+    <script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
+    <script src="/Scripts/LwM2MRegistry.js"></script>
+
+    <!-- Font awesome for arrows -->
+    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+
+    <!-- Normalize CSS -->
+    <link rel="stylesheet" href="/CSS/Normalize.css" />
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
+
+    <link rel="stylesheet" href="/CSS/Site.css">
+    <link rel="stylesheet" href="/CSS/registries.css">
+    <link rel="stylesheet" href="/CSS/grid_oocss.css">
+    <link rel="stylesheet" href="/CSS/spacing.css">
+
+    <script>
+        $(function () {
+            $('#header').load("/header.html");
+            $('#footer').load("/footer.html");
+        });
+    </script>
+</head>
+
+
+<body>
+    <!-- This gets populated with the header.html using Javascript -->
+    <div id="header"></div>
+
+    <div class="container">
+        <div class="fl size100of100 mid-cont-ttl mbm">OMA Schema-based Namespace Registry</div>
+        <div class="fl size100of100  justify mbl">
+            <div class="size100of100"></div>
+            The OMNA namespace registry includes schema-based URNs. These all use the OMAresource tag of oma as presented on the <a href="schema_based_namespace_registry.html">OMNA Namespace Main Page.</a>
+            
+            The Schema-based namespace is further sub-divided into domains that are nominally associated to enablers.
+            
+            The allocation of URNs within the xml resource set is bpased upon a naming model that uses domain segregation of the namespace. The model follows the following grammar:
+            
+            <b>urn:oma:xml:</b>{SchemaDomain}:<i>{SchemaSpecificTag}</i>
+            
+            For each listed URN there is an associated <a href="http://devwww.openmobilealliance.org/tech/profiles/">OMA Schema</a>. The following table links to the current schema-based URN allocations.
+            
+        </div>
+        <table id="sbnr-table"  class="table-bordered">
+            <tbody>
+                <tr>
+                    <td class="TableTitre1" colspan="4">Schemas-based URN Allocations</td>
+                </tr>
+                <tr>
+                    <td class="TableTitre2">Domain</td>
+                    <td class="TableTitre2">Description</td>
+                    <td class="TableTitre2">Registered URN</td>
+                    <td class="TableTitre2">Schema Links</td>
+                </tr>
+                <tr>
+                    <td class="TableP1big" align="left" valign="middle">autho4API</td>
+                    <td class="TableP1little"><span lang="FR">XML data type definitions for OMA Autho4API 'URL Prefixes for Granted Resources' resource</span></td>
+                    <td class="TableP1big"><span lang="FR">urn:oma:xml:rest:autho:redirectEndpoint:1</span></td>
+                    <td class="TableP1little"><a href="http://www.openmobilealliance.org/tech/profiles/rest_autho4api_url_prefixes_for_granted_resources-v1_0.xsd">rest_autho4api_url_prefixes_for_granted_resources-v1_0.xsd</a></td>
+                </tr>
+                <tr>
+                    <td class="TableP1big" rowspan="19" align="left" valign="middle">bcast</td>
+                    <td class="TableP1little">Associated Delivery Procedure for File Delivery</td>
+                    <td class="TableP1big">urn:oma:xml:bcast:fd:associatedprocedure:1.0</td>
+                    <td class="TableP1little"><a href="http://www.openmobilealliance.org/tech/profiles/bcast_fd_associatedprocedure-v1_0.xsd" shape="rect">bcast_fd_associatedprocedure-1_0.xsd</a></td>
+                </tr>
+                <tr>
+                    <td class="TableP1little">Backend Messages for File Delivery</td>
+                    <td class="TableP1big">urn:oma:xml:bcast:fd:backend:1.0</td>
+                    <td class="TableP1little"><a href="http://www.openmobilealliance.org/tech/profiles/bcast_fd_backend-v1_0.xsd" shape="rect"><ins cite="mailto:NSN" datetime="2009-02-10T04:22">bcast_fd_backend-</ins><ins cite="mailto:NSN" datetime="2009-02-10T04:23">v</ins><ins cite="mailto:NSN" datetime="2009-02-10T04:22">1_0-.xsd</ins></a></td>
+                </tr>
+                <tr>
+                    <td class="TableP1little">File Description Table (FDT)</td>
+                    <td class="TableP1big">urn:oma:xml:bcast:fd:fdt:1.0</td>
+                    <td class="TableP1little"><a href="http://www.openmobilealliance.org/tech/profiles/bcast_fd_fdt-v1_0.xsd" shape="rect">bcast_fd_fdt-v1_0.xsd</a></td>
+                </tr>
+                <tr>
+                    <td class="TableP1little">Reception Report</td>
+                    <td class="TableP1big">urn:oma:xml:bcast:fd:receptionreport:1.0</td>
+                    <td class="TableP1little"><a href="http://www.openmobilealliance.org/tech/profiles/bcast_fd_receptionreport-v1_0.xsd" shape="rect">bcast_fd_receptionreport-v1_0.xsd</a></td>
+                </tr>
+                <tr>
+                    <td class="TableP1little">Notification Backend Messages</td>
+                    <td class="TableP1big">urn:oma:xml:bcast:nt:backend:1.0</td>
+                    <td class="TableP1little"><a href="http://www.openmobilealliance.org/tech/profiles/bcast_nt_message-v1_0.xsd" shape="rect">bcast_nt_backend-v1_0.xsd</a></td>
+                </tr>
+                <tr>
+                    <td class="TableP1little">Notification Message</td>
+                    <td class="TableP1big">urn:oma:xml:bcast:nt:message:1.0</td>
+                    <td class="TableP1little"><a href="http://www.openmobilealliance.org/tech/profiles/bcast_nt_message-v1_0.xsd" shape="rect">bcast_nt_message-v1_0.xsd</a></td>
+                </tr>
+                <tr>
+                    <td class="TableP1little">Service Provisioning Order Queries</td>
+                    <td class="TableP1big">urn:oma:xml:bcast:pr:orderqueries:1.0</td>
+                    <td class="TableP1little"><a href="http://www.openmobilealliance.org/tech/profiles/bcast_pr_serviceordering-v1_0.xsd" shape="rect">bcast_pr_orderqueries-v1_0.xsd</a></td>
+                </tr>
+                <tr>
+                    <td class="TableP1little">End User Preferences</td>
+                    <td class="TableP1big">urn:oma:xml:bcast:pr:userpreferences:1.0</td>
+                    <td class="TableP1little"><a href="http://www.openmobilealliance.org/tech/profiles/bcast_pr_userpreference-v1_0.xsd" shape="rect">bcast_pr_userpreference-v1_0.xsd</a></td>
+                </tr>
+                <tr>
+                    <td class="TableP1little">Roaming Backend Messages</td>
+                    <td class="TableP1big">urn:oma:xml:bcast:roaming:backend1.0</td>
+                    <td class="TableP1little"><a href="http://www.openmobilealliance.org/tech/profiles/bcast_roaming-v1_0.xsd" shape="rect">bcast_roaming_backend-v1_0.xsd</a></td>
+                </tr>
+                <tr>
+                    <td class="TableP1little">Roaming Frontend Messages</td>
+                    <td class="TableP1big">urn:oma:xml:bcast:roaming:frontend1.0</td>
+                    <td class="TableP1little"><a href="http://www.openmobilealliance.org/tech/profiles/bcast_roaming-v1_0.xsd" shape="rect">bcast_roaming_frontend-v1_0.xsd</a></td>
+                </tr>
+                <tr>
+                    <td class="TableP1little">Associated Delivery Procedure for StreamDelivery</td>
+                    <td class="TableP1big">urn:oma:xml:bcast:sd:associatedprocedure:1.0</td>
+                    <td class="TableP1little"><a href="http://www.openmobilealliance.org/tech/profiles/bcast_sd_associatedprocedure-v1_0.xsd" shape="rect"><ins cite="mailto:Uwe%20Rauschenbach,%20Siemens" datetime="2006-12-14T22:25">bcast_</ins><ins cite="mailto:Uwe%20Rauschenbach,%20Siemens" datetime="2006-12-14T22:27">s</ins><ins cite="mailto:Uwe%20Rauschenbach,%20Siemens" datetime="2006-12-14T22:25">d_</ins><ins cite="mailto:Uwe%20Rauschenbach,%20Siemens,%20R01" datetime="2006-12-15T04:29">associatedprocedure</ins><del cite="mailto:Uwe%20Rauschenbach,%20Siemens,%20R01" datetime="2006-12-15T04:29"> </del>-<ins cite="mailto:Uwe%20Rauschenbach,%20Siemens" datetime="2006-12-14T22:25">v1_0.xsd</ins></a></td>
+                </tr>
+                <tr>
+                    <td class="TableP1little">Backend Messages for Stream Delivery</td>
+                    <td class="TableP1big">urn:oma:xml:bcast:sd:backend:1.0</td>
+                    <td class="TableP1little"><a href="http://www.openmobilealliance.org/tech/profiles/bcast_sd_backend-v1_0.xsd" shape="rect">bcast_sd_backend-v1_0-.xsd</a></td>
+                </tr>
+                <tr>
+                    <td class="TableP1little">Reception Report for Stream Delivery</td>
+                    <td class="TableP1big">urn:oma:xml:bcast:sd:receptionreport:1.0</td>
+                    <td class="TableP1little"><a href="http://www.openmobilealliance.org/tech/profiles/bcast_fd_receptionreport-v1_0.xsd" shape="rect">bcast_sd_receptionreport-v1_0.xsd</a></td>
+                </tr>
+                <tr>
+                    <td class="TableP1little">Service Guide Back End Messages</td>
+                    <td class="TableP1big">urn:oma:xml:bcast:sg:backend:1.0</td>
+                    <td class="TableP1little"><a href="http://www.openmobilealliance.org/tech/profiles/bcast_sg_backend-v1_0.xsd" shape="rect">bcast_sg_backend-v1_0.xsd</a></td>
+                </tr>
+                <tr>
+                    <td class="TableP1little">Service Guide Fragments</td>
+                    <td class="TableP1big">urn:oma:xml:bcast:sg:fragments:1.0</td>
+                    <td class="TableP1little"><a href="http://www.openmobilealliance.org/tech/profiles/bcast_sg_fragments-v1_0.xsd" shape="rect">bcast_sg_fragments-v1_0.xsd</a></td>
+                </tr>
+                <tr>
+                    <td class="TableP1little">Service Guide Delivery Descriptor</td>
+                    <td class="TableP1big">urn:oma:xml:bcast:sg:sgdd:1.0</td>
+                    <td class="TableP1little"><a href="http://www.openmobilealliance.org/tech/profiles/bcast_sg_sgdd-v1_0.xsd" shape="rect">bcast_sg_sgdd-v1_0.xsd</a></td>
+                </tr>
+                <tr>
+                    <td class="TableP1little">Interactivity Media Document</td>
+                    <td class="TableP1big">urn:oma:xml:bcast:si:interactivitymedia:1.0</td>
+                    <td class="TableP1little"><a href="http://www.openmobilealliance.org/tech/profiles/bcast_si_interactivitymedia-v1_0.xsd" shape="rect">bcast_si_interactivitymedia-v1_0.xsd</a></td>
+                </tr>
+                <tr>
+                    <td class="TableP1little">Service and Content Protection Back End Messages</td>
+                    <td class="TableP1big">urn:oma:xml:bcast:spcp:backend:1.0</td>
+                    <td class="TableP1little"><a href="http://www.openmobilealliance.org/tech/profiles/bcast_spcp_backend-v1_0.xsd" shape="rect">bcast_spcp_backend-v1_0.xsd</a></td>
+                </tr>
+                <tr>
+                    <td class="TableP1little">Rights Issuer Service Data</td>
+                    <td class="TableP1big">urn:oma:xml:drm:risd:1.0</td>
+                    <td class="TableP1little"><a href="http://www.openmobilealliance.org/tech/profiles/drm_risd-v1_0.xsd" shape="rect">drm_risd-v1_0.xsd</a></td>
+                </tr>
+                <tr>
+                    <td class="TableP1big" rowspan="11" align="left" valign="middle">bcast</td>
+                    <td class="TableP1little"><span lang="EN-GB">(Terminal Centric) Audience Measurement</span></td>
+                    <td class="TableP1big"><span lang="EN-GB">urn:oma:xml:bcast:am:1.1</span></td>
+                    <td class="TableP1little"><a href="http://www.openmobilealliance.org/tech/profiles/bcast_am-v1_1.xsd" shape="rect">bcast_am-v1_1.xsd</a></td>
+                </tr>
+                <tr>
+                    <td class="TableP1little"><span lang="EN-GB">Notification Backend Interface Messages</span></td>
+                    <td class="TableP1big"><span lang="EN-GB">urn:oma:xml:bcast:nt:backend:1.1</span></td>
+                    <td class="TableP1little"><a href="http://www.openmobilealliance.org/tech/profiles/bcast_nt_backend-v1_1.xsd" shape="rect">bcast_nt_backend-v1_1.xsd</a></td>
+                </tr>
+                <tr>
+                    <td class="TableP1little" align="left" valign="middle"><span lang="EN-GB">Notification Messages</span></td>
+                    <td class="TableP1big"><span lang="EN-GB">urn:oma:xml:bcast:nt:message:1.1</span></td>
+                    <td class="TableP1little"><a href="http://www.openmobilealliance.org/tech/profiles/bcast_nt_message-v1_1.xsd" shape="rect">bcast_nt_message-v1_1.xsd</a></td>
+                </tr>
+                <tr>
+                    <td class="TableP1little" align="left" valign="middle"><span lang="EN-GB">Service Provisioning Order Queries</span></td>
+                    <td class="TableP1big"><span lang="EN-GB">urn:oma:xml:bcast:pr:orderqueries:1.1</span></td>
+                    <td class="TableP1little"><a href="http://www.openmobilealliance.org/tech/profiles/bcast_pr_orderqueries-v1_1.xsd" shape="rect">bcast_pr_orderqueries-v1_1.xsd</a></td>
+                </tr>
+                <tr>
+                    <td class="TableP1little" align="left" valign="middle">Roaming Backend Interface Messages (BSM-BSM)</td>
+                    <td class="TableP1big"><span lang="EN-GB"><span lang="EN-GB">urn:oma:xml:bcast:roaming:backend:1.1</span></span></td>
+                    <td class="TableP1little"><a href="http://www.openmobilealliance.org/tech/profiles/bcast_roaming_backend-v1_1.xsd" shape="rect">bcast_roaming_backend-v1_1.xsd</a></td>
+                </tr>
+                <tr>
+                    <td class="TableP1little" align="left" valign="middle"><span lang="EN-GB">Roaming Frontend Interface Messages (Terminal-BSM)</span></td>
+                    <td class="TableP1big"><span lang="EN-GB">urn:oma:xml:bcast:roaming:frontend:1.1</span></td>
+                    <td class="TableP1little"><a href="http://www.openmobilealliance.org/tech/profiles/bcast_roaming_frontend-v1_1.xsd" shape="rect">bcast_roaming_frontend-v1_1.xsd</a></td>
+                </tr>
+                <tr>
+                    <td class="TableP1little" align="left" valign="middle">Service Guide Back End Messages</td>
+                    <td class="TableP1big"><span lang="EN-GB">urn:oma:xml:bcast:sg:backend:1.1</span></td>
+                    <td class="TableP1little"><a href="http://www.openmobilealliance.org/tech/profiles/bcast_sg_backend-v1_1.xsd" shape="rect">bcast_sg_backend-v1_1.xsd</a></td>
+                </tr>
+                <tr>
+                    <td class="TableP1little" align="left" valign="middle"><span lang="EN-GB">Service Guide Fragments</span></td>
+                    <td class="TableP1big"><span lang="EN-GB">urn:oma:xml:bcast:sg:fragments:1.1</span></td>
+                    <td class="TableP1little"><a href="http://www.openmobilealliance.org/tech/profiles/bcast_sg_fragments-v1_1.xsd" shape="rect">bcast_sg_fragments-v1_1.xsd</a></td>
+                </tr>
+                <tr>
+                    <td class="TableP1little" align="left" valign="middle"><span lang="EN-GB">Service Guide Delivery Descriptor</span></td>
+                    <td class="TableP1big"><span lang="EN-GB">urn:oma:xml:bcast:sg:sgdd:1.1</span></td>
+                    <td class="TableP1little"><a href="http://www.openmobilealliance.org/tech/profiles/bcast_sg_sgdd-v1_1.xsd" shape="rect">bcast_sg_sgdd-v1_1.xsd</a></td>
+                </tr>
+                <tr>
+                    <td class="TableP1little" style="height: 24px;"><span lang="EN-GB">InteractivityMediaDocument</span></td>
+                    <td class="TableP1big" style="height: 24px;"><span lang="EN-GB">
+                        rn:oma:xml:bcast:si:interactivitymedia:1.1</span></td>
+                    <td class="TableP1little" style="height: 24px;"><a href="http://www.openmobilealliance.org/tech/profiles/bcast_si_interactivitymedia-v1_1.xsd" shape="rect">bcast_si_interactivitymedia-v1_1.xsd</a></td>
+                </tr>
+                <tr>
+                    <td class="TableP1little">OMA DRM ROAP with extensions for BCAST (XBS)</td>
+                    <td class="TableP1big"><span lang="EN-GB">urn:oma:xml:bcast:xbs:roap:2.1</span></td>
+                    <td class="TableP1little"><a href="http://www.openmobilealliance.org/tech/profiles/drm_roap_xbs-v2_1.xsd" shape="rect">drm_roap_xbs-v2_1.xsd</a></td>
+                </tr>
+                <tr>
+                    <td class="TableP1big" align="left" valign="middle"></td>
+                    <td class="TableP1little">Service Class Registry</td>
+                    <td class="TableP1big"></td>
+                    <td class="TableP1little"></td>
+                </tr>
+                <tr>
+                    <td class="TableP1big" rowspan="2" align="left" valign="middle">cbcs</td>
+                    <td class="TableP1little">PEM-1 input template for the CBCS enabler</td>
+                    <td class="TableP1big">urn:oma:xml:cbcs:pem1-input-template:1.0</td>
+                    <td class="TableP1little"><a href="http://www.openmobilealliance.org/tech/profiles/cbcs_pem1InputTemplate-V1_0.xsd" shape="rect">cbcs_pem1InputTemplate-V1_0.xsd </a></td>
+                </tr>
+                <tr>
+                    <td class="TableP1little" align="left" valign="middle">PEM-1 output template for the CBCS enabler</td>
+                    <td class="TableP1big">urn:oma:xml:cbcs:pem1-output-template:1.0</td>
+                    <td class="TableP1little"><a href="http://www.openmobilealliance.org/tech/profiles/cbcs_pem1OutputTemplate-V1_0.xsd" shape="rect">cbcs_pem1OutputTemplate-V1_0.xsd </a></td>
+                </tr>
+                <tr>
+                    <td class="TableP1big" rowspan="9" align="left" valign="middle">cab</td>
+                    <td class="TableP1little">CAB Address Book</td>
+                    <td class="TableP1big">urn:oma:xml:cab:ab</td>
+                    <td class="TableP1little"><a href="http://www.openmobilealliance.org/tech/profiles/cab_ab-v1_0.xsd" shape="rect">cab_ab-v1_0.xsd</a></td>
+                </tr>
+                <tr>
+                    <td class="TableP1little">CAB Feature Handler</td>
+                    <td class="TableP1big">urn:oma:xml:cab:user-prefs</td>
+                    <td class="TableP1little"><a href="http://www.openmobilealliance.org/tech/profiles/cab_feature_handler-v1_0.xsd" shape="rect">cab_feature_handler-v1_0.xsd</a></td>
+                </tr>
+                <tr>
+                    <td class="TableP1little">CAB Personal Contact Card</td>
+                    <td class="TableP1big">urn:oma:xml:cab:pcc</td>
+                    <td class="TableP1little"><a href="http://www.openmobilealliance.org/tech/profiles/cab_pcc-v1_0.xsd" shape="rect">cab_pcc-v1_0.xsd</a></td>
+                </tr>
+                <tr>
+                    <td class="TableP1little"><span lang="EN-GB">CAB Search Document extension for External Directories</span></td>
+                    <td class="TableP1big">urn:oma:xml:cab:search:external</td>
+                    <td class="TableP1little"><a href="http://www.openmobilealliance.org/tech/profiles/cab_search_external_directories-v1_0.xsd" shape="rect">cab_search_external_directories-v1_0.xsd</a></td>
+                </tr>
+                <tr>
+                    <td class="TableP1little">CAB User Prefences document</td>
+                    <td class="TableP1big">urn:oma:xml:cab:user-prefs</td>
+                    <td class="TableP1little"><a href="http://www.openmobilealliance.org/tech/profiles/cab_user_preferences-v1_0.xsd" shape="rect">cab_user_preferences-v1_0.xsd</a></td>
+                </tr>
+                <tr>
+                    <td class="TableP1little"><span lang="FR">CAB Address Book document </span></td>
+                    <td class="TableP1big"><span lang="FR">urn:oma:xml:cab:ab</span></td>
+                    <td class="TableP1little"><a href="http://www.openmobilealliance.org/tech/profiles/cab_ab-v1_1.xsd" shape="rect">cab_ab-v1_1.xsd</a></td>
+                </tr>
+                <tr>
+                    <td class="TableP1little"><span lang="FR">CAB Personal Contact Card document</span></td>
+                    <td class="TableP1big"><span lang="FR">urn:oma:xml:cab:pcc</span></td>
+                    <td class="TableP1little"><span lang="FR"><a href="http://www.openmobilealliance.org/tech/profiles/cab_pcc-v1_1.xsd">cab_pcc-v1_1.xsd</a></span></td>
+                </tr>
+                <tr>
+                    <td class="TableP1little"><span lang="FR">CAB Search Document extension for External Directories</span></td>
+                    <td class="TableP1big"><span lang="FR">urn:oma:xml:cab:search:external</span></td>
+                    <td class="TableP1little"><a href="http://www.openmobilealliance.org/tech/profiles/cab_search_external_directories-v1_0.xsd">cab_search_external_directories-v1_0.xsd</a></td>
+                </tr>
+                <tr>
+                    <td class="TableP1little"><span lang="FR">CAB User Prefences document</span></td>
+                    <td class="TableP1big"><span lang="FR">urn:oma:xml:cab:user-prefs</span></td>
+                    <td class="TableP1little"><a href="http://www.openmobilealliance.org/tech/profiles/cab_user_preferences-v1_1.xsd">cab_user_preferences-v1_1.xsd</a></td>
+                </tr>
+                <tr>
+                    <td class="TableP1big" align="left" valign="middle">cmi</td>
+                    <td class="TableP1little">CMI Package</td>
+                    <td class="TableP1big">urn:oma:xml:cmi:package:1.0</td>
+                    <td class="TableP1little"><a href="http://www.openmobilealliance.org/tech/profiles/cmi_package-v1_0.xsd" shape="rect">cmi_package-v1_0.xsd</a></td>
+                </tr>
+                <tr>
+                    <td class="TableP1big" align="left" valign="middle">cmr</td>
+                    <td class="TableP1little"><span lang="FR">Customized Multimedia Ring</span></td>
+                    <td class="TableP1big"><span lang="FR">urn:oma:xml:CMR:messages:1.0</span></td>
+                    <td class="TableP1little"><a href="http://www.openmobilealliance.org/tech/profiles/CMR_messages-v1_0.xsd">CMR_messages-v1_0.xsd</a></td>
+                </tr>
+                <tr>
+                    <td class="TableP1big" align="left" valign="middle">dcd</td>
+                    <td class="TableP1little">Dynamic Content Delivery V1.0</td>
+                    <td class="TableP1big">-</td>
+                    <td class="TableP1little"><a href="http://www.openmobilealliance.org/tech/profiles/dcd_xsd-v1_0.xsd" shape="rect">dcd_xsd-v1_0.xsd </a></td>
+                </tr>
+                <tr>
+                    <td class="TableP1big" align="left" valign="middle">Deltarec</td>
+                    <td class="TableP1little">Delta Record</td>
+                    <td class="TableP1big">urn:oma:xml:dm-deltarec:deltarecord:1.0</td>
+                    <td class="TableP1little"><a href="http://www.openmobilealliance.org/tech/profiles/dm-deltarec_deltarecord-v1_0.xsd">dm-deltarec_deltarecord-v1_0.xsd</a></td>
+                </tr>
+                <tr>
+                    <td class="TableP1big" align="left" valign="middle">DMClientAPIfw - widl</td>
+                    <td class="TableP1little">DMClientAPIfw</td>
+                    <td class="TableP1big">-</td>
+                    <td class="TableP1little"><a href="http://www.openmobilealliance.org/tech/profiles/dmapi-v1_0.widl">dmapi-v1_0.widl</a></td>
+                </tr>
+                <tr>
+                    <td class="TableP1big" align="left" valign="middle">dm</td>
+                    <td class="TableP1little"><span lang="FR">Server Delegaion Protocol</span></td>
+                    <td class="TableP1big">-</td>
+                    <td class="TableP1little"><a href="http://www.openmobilealliance.org/tech/profiles/dm_dm13_delegationprotocol-v1_0.xsd">dm_dm13_delegationprotocol-v1_0.xsd</a></td>
+                </tr>
+                <tr>
+                    <td class="TableP1big" rowspan="2" align="left" valign="middle">DiagMon</td>
+                    <td class="TableP1little"><span lang="FR">NFC Function Schema </span></td>
+                    <td class="TableP1big">-</td>
+                    <td class="TableP1little"><a href="http://www.openmobilealliance.org/tech/profiles/dm_diag12_nfc-v1_1.xsd">dm_diag12_nfc-v1_1.xsd</a></td>
+                </tr>
+                <tr>
+                    <td class="TableP1little"><span lang="FR">Trap Event Logging Function Schema </span></td>
+                    <td class="TableP1big">-</td>
+                    <td class="TableP1little"><a href="http://www.openmobilealliance.org/tech/profiles/dm_diag12_trapeventlogging-v1_0.xsd">dm_diag12_trapeventlogging-v1_0.xsd</a></td>
+                </tr>
+                <tr>
+                    <td class="TableP1big" align="left" valign="middle">dpe</td>
+                    <td class="TableP1little">OMA DPE XML Schema</td>
+                    <td class="TableP1big"> urn:oma:bac:dldrm:roap-1.0</td>
+                    <td class="TableP1little"><a href="http://www.openmobilealliance.org/tech/profiles/dpe_xsd-v1_0.xsd" shape="rect">dpe_xsd-v1_0.xsd</a></td>
+                </tr>
+                <tr>
+                    <td class="TableP1big" rowspan="4" align="left" valign="middle">drm</td>
+                    <td class="TableP1little">ODRL-Mobile profile Data Dictionary XML Schema</td>
+                    <td class="TableP1big"><span lang="FR"><span lang="FR">-</span></span></td>
+                    <td class="TableP1little"><a href="http://www.openmobilealliance.org/tech/profiles/drm_rel-v2_2.xsd">drm_rel-v2_2.xsd</a></td>
+                </tr>
+                <tr>
+                    <td class="TableP1little">OMA Data Dictionary XML Schema</td>
+                    <td class="TableP1big">-</td>
+                    <td class="TableP1little"><a href="http://www.openmobilealliance.org/tech/profiles/drm_rel_odd-v2_2.xsd">drm_rel_odd-v2_2.xsd</a></td>
+                </tr>
+                <tr>
+                    <td class="TableP1little">ODRL-Mobile profile Language Expression XML Schema</td>
+                    <td class="TableP1big">-</td>
+                    <td class="TableP1little"><a href="http://www.openmobilealliance.org/tech/profiles/drm_rel_ex-v2_2.xsd">drm_rel_ex-v2_2.xsd</a></td>
+                </tr>
+                <tr>
+                    <td class="TableP1little">OMA Right Object Acquisition Protocol (ROAP) XML Schema</td>
+                    <td class="TableP1big">urn:oma:bac:dldrm:roap-1.2</td>
+                    <td class="TableP1little"><a href="http://www.openmobilealliance.org/tech/profiles/drm_roap-v2_2.xsd">drm_roap-v2_2.xsd</a></td>
+                </tr>
+                <tr>
+                    <td class="TableP1big" rowspan="4" align="left" valign="middle">drm</td>
+                    <td class="TableP1little"><span lang="FR">ODRL-Mobile profile Data Dictionary XML Schema</span></td>
+                    <td class="TableP1big">-</td>
+                    <td class="TableP1little"><a href="http://www.openmobilealliance.org/tech/profiles/drm_rel_dd-v2_1.xsd" target="_blank" shape="rect">drm_rel_dd-v2_1.xsd </a></td>
+                </tr>
+                <tr>
+                    <td class="TableP1little">ODRL-Mobile profile Language Expression</td>
+                    <td class="TableP1big">-</td>
+                    <td class="TableP1little"><a href="http://www.openmobilealliance.org/tech/profiles/drm_rel_ex-v2_1.xsd" target="_blank" shape="rect">drm_rel_ex-v2_1.xsd </a></td>
+                </tr>
+                <tr>
+                    <td class="TableP1little">OMA Data Dictionary XML Schema</td>
+                    <td class="TableP1big">-</td>
+                    <td class="TableP1little"><a href="http://www.openmobilealliance.org/tech/profiles/drm_rel_odd-v2_1.xsd" target="_blank" shape="rect">drm_rel_odd-v2_1.xsd </a></td>
+                </tr>
+                <tr>
+                    <td class="TableP1little">OMA Right Object Acquisition Protocol (ROAP) XML Schema</td>
+                    <td class="TableP1big">urn:oma:bac:dldrm:roap-1.0</td>
+                    <td class="TableP1little"><a href="http://www.openmobilealliance.org/tech/profiles/drm_roap-v1_1.xsd" shape="rect">drm_roap-v1_1.xsd </a></td>
+                </tr>
+                <tr>
+                    <td class="TableP1big" rowspan="3" align="left" valign="middle">drm</td>
+                    <td class="TableP1little">XML Schema ROAP</td>
+                    <td class="TableP1big">urn:oma:bac:dldrm:roap-1.0</td>
+                    <td class="TableP1little"><a href="http://www.openmobilealliance.org/tech/profiles/DRM_ROAP-v2_0_1.xsd" target="_blank" shape="rect">DRM_ROAP-v2_0_1.xsd</a></td>
+                </tr>
+                <tr>
+                    <td class="TableP1little">DRM 2.0 Extensions for BCAST (XBS) - ROAP</td>
+                    <td class="TableP1big">-</td>
+                    <td class="TableP1little"><span lang="EN-GB"><a href="http://www.openmobilealliance.org/tech/profiles/drm_roap_xbs-v2_0.xsd" shape="rect">drm_roap_xbs-v2_0.xsd</a></span></td>
+                </tr>
+                <tr>
+                    <td class="TableP1little">DRM 2.0 Extensions for BCAST (XBS) - Data Dictionary</td>
+                    <td class="TableP1big">-</td>
+                    <td class="TableP1little"><span lang="EN-GB"><a href="http://www.openmobilealliance.org/tech/profiles/drm_dd_xbs-v2_0.xsd" shape="rect">drm_dd_xbs-v2_0.xsd</a></span></td>
+                </tr>
+                <tr>
+                    <td class="TableP1big" rowspan="2" align="left" valign="middle">ds</td>
+                    <td class="TableP1little"><span lang="EN-GB">device information schema</span></td>
+                    <td class="TableP1big">-</td>
+                    <td class="TableP1little"><a href="http://www.openmobilealliance.org/tech/profiles/DS_DevInf_Schema-v2_0.xsd" target="_blank" shape="rect">DS_DevInf_Schema-v2_0.xsd</a></td>
+                </tr>
+                <tr>
+                    <td class="TableP1little">device information schema</td>
+                    <td class="TableP1big">-</td>
+                    <td class="TableP1little"><a href="http://www.openmobilealliance.org/tech/profiles/DS_Syntax_Schema-v2_0.xsd" target="_blank" shape="rect">DS_Syntax_Schema-v2_0.xsd</a></td>
+                </tr>
+                <tr>
+                    <td class="TableP1big" rowspan="2" valign="middle">dl</td>
+                    <td class="TableP1little">Download Descriptor</td>
+                    <td class="TableP1big">urn:oma:xml:dl:dd:2.0</td>
+                    <td class="TableP1little"><a href="http://www.openmobilealliance.org/tech/profiles/dd-V2_0.xsd" shape="rect">dd-v2_0.xsd</a></td>
+                </tr>
+                <tr>
+                    <td class="TableP1little">JAD MIDP Extension</td>
+                    <td class="TableP1big">urn:oma:xml:dl:jad:2.0</td>
+                    <td class="TableP1little"><a href="http://www.openmobilealliance.org/tech/profiles/dd_midpjad-V2_0.xsd" target="_blank" shape="rect">dd_midpjad-v2_0.xsd</a></td>
+                </tr>
+                <tr>
+                    <td class="TableP1big" rowspan="8" align="left" valign="middle">ewm</td>
+                    <td class="TableP1little"><span lang="FR">EVVM Client Preferences</span></td>
+                    <td class="TableP1big">urn:oma:xml:evvm:clientprefs</td>
+                    <td class="TableP1little"><a href="http://www.openmobilealliance.org/tech/profiles/evvm-cp-v1_0.xsd">evvm-cp-v1_0.xsd</a></td>
+                </tr>
+                <tr>
+                    <td class="TableP1little">EVVM Deactivation Notification</td>
+                    <td class="TableP1big">urn:oma:xml:evvm:notification:deactivation</td>
+                    <td class="TableP1little"><a href="http://www.openmobilealliance.org/tech/profiles/evvm-deac-v1_0.xsd">evvm-deac-v1_0.xsd</a></td>
+                </tr>
+                <tr>
+                    <td class="TableP1little">EVVM Global Service Preferences</td>
+                    <td class="TableP1big">urn:oma:xml:evvm:serviceprefs-global</td>
+                    <td class="TableP1little"><a href="http://www.openmobilealliance.org/tech/profiles/evvm-gsp-v1_0.xsd">evvm-gsp-v1_0.xsd</a></td>
+                </tr>
+                <tr>
+                    <td class="TableP1little">EVVM Preferences Notification</td>
+                    <td class="TableP1big">urn:oma:xml:evvm:notification:preferences</td>
+                    <td class="TableP1little"><a href="http://www.openmobilealliance.org/tech/profiles/evvm-pref-v1_0.xsd">evvm-pref-v1_0.xsd</a></td>
+                </tr>
+                <tr>
+                    <td class="TableP1little">EVVM Subscription-specific Service Preferences</td>
+                    <td class="TableP1big">urn:oma:xml:evvm:serviceprefs-subscription</td>
+                    <td class="TableP1little"><a href="http://www.openmobilealliance.org/tech/profiles/evvm-ssp-v1_0.xsd">evvm-ssp-v1_0.xsd</a></td>
+                </tr>
+                <tr>
+                    <td class="TableP1little">EVVM Synchronization Notification</td>
+                    <td class="TableP1big">urn:oma:xml:evvm:notification:synchronization</td>
+                    <td class="TableP1little"><a href="http://www.openmobilealliance.org/tech/profiles/evvm-sync-v1_0.xsd">evvm-sync-v1_0.xsd</a></td>
+                </tr>
+                <tr>
+                    <td class="TableP1little">EVVM Transcription Notification</td>
+                    <td class="TableP1big">urn:oma:xml:evvm:notification:transcription</td>
+                    <td class="TableP1little"><a href="http://www.openmobilealliance.org/tech/profiles/evvm-tran-v1_0.xsd">evvm-tran-v1_0.xsd</a></td>
+                </tr>
+                <tr>
+                    <td class="TableP1little">EVVM User Preferences</td>
+                    <td class="TableP1big">urn:oma:xml:evvm:userprefs</td>
+                    <td class="TableP1little"><a href="http://www.openmobilealliance.org/tech/profiles/evvm-up-v1_0.xsd">evvm-up-v1_0.xsd</a></td>
+                </tr>
+                <tr>
+                    <td class="TableP1big" rowspan="2" align="left" valign="middle">gpm</td>
+                    <td class="TableP1little">PEM-1 input template for the GPM enabler</td>
+                    <td class="TableP1big">urn:oma:xml:gpm:pem1-input-template:1.0</td>
+                    <td class="TableP1little"><a href="http://www.openmobilealliance.org/tech/profiles/GPM_PEM1InputTemplate-V1_0.xsd" shape="rect">GPM_PEM1InputTemplate-v1_0.xsd </a></td>
+                </tr>
+                <tr>
+                    <td class="TableP1little">PEM-1 output template for the GPM enabler</td>
+                    <td class="TableP1big">urn:oma:xml:gpm:pem1-output-template:1.0</td>
+                    <td class="TableP1little"><a href="http://www.openmobilealliance.org/tech/profiles/GPM_PEM1OutputTemplate-v1_0.xsd" shape="rect">GPM_PEM1OutputTemplate-v1_0.xsd </a></td>
+                </tr>
+                <tr>
+                    <td class="TableP1big" rowspan="5" align="left" valign="middle">gssm</td>
+                    <td class="TableP1little">PEM-1 input template for the GSSM enabler</td>
+                    <td class="TableP1big">urn:oma:xml:gssm:pem1-input-template:1.0</td>
+                    <td class="TableP1little"><a href="http://www.openmobilealliance.org/tech/profiles/gssm_pem1InputTemplate-v1_0.xsd" shape="rect">gssm_pem1InputTemplate-v1_0.xsd </a></td>
+                </tr>
+                <tr>
+                    <td class="TableP1little">PEM-1 output template for the GSSM enabler</td>
+                    <td class="TableP1big">urn:oma:xml:gssm:pem1-output-template:1.0</td>
+                    <td class="TableP1little"><a href="http://www.openmobilealliance.org/tech/profiles/gssm_pem1OutputTemplate-v1_0.xsd" shape="rect">gssm_pem1OutputTemplate-v1_0.xsd </a></td>
+                </tr>
+                <tr>
+                    <td class="TableP1little">Query Data Schemas</td>
+                    <td class="TableP1big">urn:oma:xml:gssm:queries:1.0</td>
+                    <td class="TableP1little"><a href="http://www.openmobilealliance.org/tech/profiles/gssm_queries-v1_0.xsd" shape="rect">gssm_queries-v1_0.xsd</a></td>
+                </tr>
+                <tr>
+                    <td class="TableP1little">GSSM-1 Data Schemas</td>
+                    <td class="TableP1big">urn:oma:xml:gssm:gssm1:1.0</td>
+                    <td class="TableP1little"><a href="http://www.openmobilealliance.org/tech/profiles/gssm_gssm1-v1_0.xsd" shape="rect">gssm_gssm1-v1_0.xsd</a></td>
+                </tr>
+                <tr>
+                    <td class="TableP1little" align="left" valign="middle">GSSM-2 Data Schemas</td>
+                    <td class="TableP1big">urn:oma:xml:gssm:gssm2:1.0</td>
+                    <td class="TableP1little"><a href="http://www.openmobilealliance.org/tech/profiles/gssm_gssm2-v1_0.xsd" shape="rect">gssm_gssm2-v1_0.xsd</a></td>
+                </tr>
+                <tr>
+                    <td class="TableP1big">KPIinOMA</td>
+                    <td class="TableP1little" align="left" valign="middle">structure and data types for Key Performance Indicators in OMA</td>
+                    <td class="TableP1big">urn:oma:xml:kpi:messages:1.0</td>
+                    <td class="TableP1little"><a href="http://www.openmobilealliance.org/tech/profiles/KPIinOMA_messages-v1_0.xsd" shape="rect">KPIinOMA_messages-v1_0.xsd</a></td>
+                </tr>
+                <tr>
+                    <td class="TableP1big" rowspan="5" valign="middle">locsip</td>
+                    <td class="TableP1little">Location QoS</td>
+                    <td class="TableP1big">urn:oma:xml:locsip:qos:1.0</td>
+                    <td class="TableP1little"><a href="http://www.openmobilealliance.org/tech/profiles/locsip_qos-v1_0.xsd" target="_blank" shape="rect">locsip_qos-v1_0.xsd</a></td>
+                </tr>
+                <tr>
+                    <td class="TableP1little">Extension of GPM PEM1 output template</td>
+                    <td class="TableP1big">urn:oma:xml:locsip:gpm-pem1-output-ext:1.0</td>
+                    <td class="TableP1little"><a href="http://www.openmobilealliance.org/tech/profiles/locsip_gpmpem1outputext-v1_0.xsd" target="_blank" shape="rect">locsip_gpmpem1outputext-v1_0.xsd</a></td>
+                </tr>
+                <tr>
+                    <td class="TableP1little">location QoS gbakeyid</td>
+                    <td class="TableP1big">urn:oma:xml:locsip:gbakey-id:1.0</td>
+                    <td class="TableP1little"><a href="http://www.openmobilealliance.org/tech/profiles/locsip_gbakeyid-v1_0.xsd" target="_blank" shape="rect">locsip_gbakeyid-v1_0.xsd</a></td>
+                </tr>
+                <tr>
+                    <td class="TableP1little">location filter</td>
+                    <td class="TableP1big">urn:oma:xml:locsip:filter:1.0</td>
+                    <td class="TableP1little"><a href="http://www.openmobilealliance.org/tech/profiles/locsip_filter-v1_0.xsd" target="_blank" shape="rect">locsip_filter-v1_0.xsd</a></td>
+                </tr>
+                <tr>
+                    <td class="TableP1little"><span lang="EN-GB">IETF geolocation policy</span></td>
+                    <td class="TableP1big">urn:ietf:params:xml:ns:geolocation-policy</td>
+                    <td class="TableP1little"><a href="http://www.openmobilealliance.org/tech/profiles/locsip_geolocation_policy_v1_0.xsd" shape="rect">locsip_geolocation_policy_v1_0.xsd</a></td>
+                </tr>
+                <tr>
+                    <td class="TableP1big" align="left" valign="middle">Look and Feel</td>
+                    <td class="TableP1little">LFC Package Metadata</td>
+                    <td class="TableP1big">urn:oma:xml:lfc:packagemetadata:1.0</td>
+                    <td class="TableP1little"><a href="http://www.openmobilealliance.org/tech/profiles/LFC_Package_Metadata_Schema-v1_0.txt" shape="rect">LFC_Package_Metadata_Schema-v1_0.txt</a></td>
+                </tr>
+                <tr>
+                    <td class="TableP1big" align="left" valign="middle">mc</td>
+                    <td class="TableP1little">XML Schema for the MC enabler</td>
+                    <td class="TableP1big">-</td>
+                    <td class="TableP1little"><span lang="EN-GB"><a href="http://www.openmobilealliance.org/tech/profiles/mc_xs-v1_0.xsd" shape="rect">mc_xs-v1_0.xsd</a></span></td>
+                </tr>
+                <tr>
+                    <td class="TableP1big" align="left" valign="middle">mobad</td>
+                    <td class="TableP1little">Structure and data types for Mobile Advertising Enabler</td>
+                    <td class="TableP1big">urn:oma:xml:mobad:messages:1.0</td>
+                    <td class="TableP1little"><a href="http://www.openmobilealliance.org/tech/profiles/mobad_messages-v1_0.xsd" shape="rect">mobad_messages-v1_0.xsd</a></td>
+                </tr>
+                <tr>
+                    <td class="TableP1big" align="left" valign="middle">mobAR</td>
+                    <td class="TableP1little">Structure and data types for Mobile Augmented Reality Enabler</td>
+                    <td class="TableP1big">urn:oma:xml:mobar:1.0 </td>
+                    <td class="TableP1little"><a href="http://technical.openmobilealliance.org/tech/profiles/XML Schema for Mobile Augmented Reality.xsd" shape="rect">XML Schema for Mobile Augmented Reality.xsd</a></td>
+                </tr>
+                <tr>
+                    <td class="TableP1big" align="left" valign="middle">spam-rep</td>
+                    <td class="TableP1little">SpamRep related messages/formats</td>
+                    <td class="TableP1big">urn:oma:xml:spam-rep:messages</td>
+                    <td class="TableP1little"><a href="http://www.openmobilealliance.org/tech/profiles/spam_rep-v1_0.xsd" shape="rect">spam_rep-v1_0.xsd</a></td>
+                </tr>
+                <tr>
+                    <td class="TableP1big" rowspan="2" align="left" valign="middle">MSrch</td>
+                    <td class="TableP1little"><span lang="FR">structure and data types for Mobile Search Framework</span></td>
+                    <td class="TableP1big"><span lang="FR">urn:oma:xml:msrch:messages:1.0</span></td>
+                    <td class="TableP1little"><a href="http://www.openmobilealliance.org/tech/profiles/MSrch_messages-v1_0.xsd" shape="rect">MSrch_messages-v1_0.xsd</a></td>
+                </tr>
+                <tr>
+                    <td class="TableP1little"><span lang="FR">structure and data types for Mobile Search Framework</span></td>
+                    <td class="TableP1big"><span lang="FR">urn:oma:xml:msrch:userinfo:1.0</span></td>
+                    <td class="TableP1little"><a href="http://www.openmobilealliance.org/tech/profiles/MSrch_userinfo-v1_0.xsd" shape="rect">MSrch_userinfo-v1_0.xsd</a></td>
+                </tr>
+                <tr>
+                    <td class="TableP1big" rowspan="3" align="left" valign="middle">mms</td>
+                    <td class="TableP1little">mms mtd</td>
+                    <td class="TableP1big">urn:oma:xml:mms:mtd:1.3
+                        -</td>
+                    <td class="TableP1little"><a href="http://www.openmobilealliance.org/tech/profiles/mms_mtd-v1_3.xsd">mms_mtd-v1_3.xsd</a>
+                        <a href="http://www.openmobilealliance.org/tech/profiles/MMS/ccppschema_mms-v1_3" target="_blank" shape="rect">ccppschema_mms-v1_3 </a></td>
+                </tr>
+                <tr>
+                    <td class="TableP1little">-</td>
+                    <td class="TableP1big">-</td>
+                    <td class="TableP1little"><a href="http://www.openmobilealliance.org/tech/profiles/MMS/ccppschema-20010111" target="_blank" shape="rect">ccppschema-20010111 </a></td>
+                </tr>
+                <tr>
+                    <td class="TableP1little">-</td>
+                    <td class="TableP1big">-</td>
+                    <td class="TableP1little"><a href="http://www.openmobilealliance.org/tech/profiles/MMS/ccppschema-20050301-MMS1.2" target="_blank" shape="rect">ccppschema-20050301-MMS1.2 </a></td>
+                </tr>
+                <tr>
+                    <td class="TableP1big" rowspan="2" align="left" valign="middle">pal</td>
+                    <td class="TableP1little"><span lang="EN-GB">message payload types </span></td>
+                    <td class="TableP1big"><span lang="EN-GB">urn:oma:xml:prs:pal:payloads:1.0</span></td>
+                    <td class="TableP1little"><a href="http://www.openmobilealliance.org/tech/profiles/pal_messagePayloads-v1_0.xsd" shape="rect">pal_messagePayloads-v1_0.xsd</a></td>
+                </tr>
+                <tr>
+                    <td class="TableP1little" align="left" valign="middle"><span lang="EN-GB">XDM PAL Profile </span></td>
+                    <td class="TableP1big">urn:oma:xml:xdm:pal-profile:1.0</td>
+                    <td class="TableP1little"><a href="http://www.openmobilealliance.org/tech/profiles/xdm_palProfile-v1_0.xsd" shape="rect">xdm_palProfile-v1_0.xsd</a></td>
+                </tr>
+                <tr>
+                    <td class="TableP1big">RESTful Network APIs Common</td>
+                    <td class="TableP1little" align="left" valign="middle">RESTful Network API Common</td>
+                    <td class="TableP1big">urn:oma:xml:rest:netapi:common:1</td>
+                    <td class="TableP1little"><a href="http://www.openmobilealliance.org/tech/profiles/rest_netapi_common-v1_0.xsd">rest_netapi_common-v1_0.xsd</a></td>
+                </tr>
+                <tr>
+                    <td class="TableP1big">RESTful Network API for Address Book</td>
+                    <td class="TableP1little" align="left" valign="middle">XML data type definitions for OMA RESTful Network API for Address Book</td>
+                    <td class="TableP1big">urn:oma:xml:rest:netapi:addressbook:1</td>
+                    <td class="TableP1little"><a href="http://www.openmobilealliance.org/tech/profiles/rest_netapi_addressbook-v1_0.xsd">rest_netapi_addressbook-v1_0.xsd</a></td>
+                </tr>
+                <tr>
+                    <td class="TableP1big">RESTful Network API for Anonymous Customer Reference Management</td>
+                    <td class="TableP1little" align="left" valign="middle">XML data type definitions for the RESTful Network API for ACR Management</td>
+                    <td class="TableP1big">urn:oma:xml:rest:netapi:acrmanagement:1</td>
+                    <td class="TableP1little"><a href="http://www.openmobilealliance.org/tech/profiles/rest_netapi_acrmanagement-v1_0.xsd">rest_netapi_acrmanagement-v1_0.xsd</a></td>
+                </tr>
+                <tr>
+                    <td class="TableP1big">RESTful Network API for Call Notification</td>
+                    <td class="TableP1little" align="left" valign="middle">XML data type definitions for the RESTful Network API for Call Notification</td>
+                    <td class="TableP1big">urn:oma:xml:rest:netapi:callnotification:1</td>
+                    <td class="TableP1little"><a href="http://www.openmobilealliance.org/tech/profiles/rest_netapi_callnotification-v1_0.xsd">rest_netapi_callnotification-v1_0.xsd</a></td>
+                </tr>
+                <tr>
+                    <td class="TableP1big">RESTful Network API for Call Notification</td>
+                    <td class="TableP1little" align="left" valign="middle">XML data type definitions for the RESTful Network API for Audio Call</td>
+                    <td class="TableP1big">urn:oma:xml:rest:netapi:audiocall:1</td>
+                    <td class="TableP1little"><a href="http://www.openmobilealliance.org/tech/profiles/rest_netapi_audiocall-v1_0.xsd">rest_netapi_audiocall-v1_0.xsd </a></td>
+                </tr>
+                <tr>
+                    <td class="TableP1big">RESTful Network API for Capability Discovery</td>
+                    <td class="TableP1little" align="left" valign="middle">XML data type definitions for the RESTful Network API for Capability Discovery</td>
+                    <td class="TableP1big">urn:oma:xml:rest:netapi:capabilitydiscovery:1</td>
+                    <td class="TableP1little"><a href="http://www.openmobilealliance.org/tech/profiles/rest_netapi_capabilitydiscovery-v1_0.xsd">rest_netapi_capabilitydiscovery-v1_0.xsd </a></td>
+                </tr>
+                <tr>
+                    <td class="TableP1big">RESTful Network API Chat</td>
+                    <td class="TableP1little" align="left" valign="middle">XML data type definitions for the RESTful Network API for Chat</td>
+                    <td class="TableP1big">urn:oma:xml:rest:netapi:chat:1</td>
+                    <td class="TableP1little"><a href="http://www.openmobilealliance.org/tech/profiles/rest_netapi_chat-v1_0.xsd">rest_netapi_chat-v1_0.xsd </a></td>
+                </tr>
+                <tr>
+                    <td class="TableP1big">RESTful Network API for Converged Address Book (CAB APIs)</td>
+                    <td class="TableP1little" align="left" valign="middle">XML data type definitions for the RESTful Network API for Converged Address Book (CAB APIs)</td>
+                    <td class="TableP1big">urn:oma:xml:rest:netapi:cab:1</td>
+                    <td class="TableP1little"><a href="http://www.openmobilealliance.org/tech/profiles/rest_netapi_convergedaddressbook-v1_0.xsd">rest_netapi_convergedaddressbook-v1_0.xsd </a></td>
+                </tr>
+                <tr>
+                    <td class="TableP1big">RESTful Network API for Customer Profile</td>
+                    <td class="TableP1little" align="left" valign="middle">XML data type definitions for OMA RESTful Network API for Customer Profile</td>
+                    <td class="TableP1big">urn:oma:xml:rest:netapi:customerprofile:1</td>
+                    <td class="TableP1little"><a href="http://www.openmobilealliance.org/tech/profiles/rest_netapi_customerprofile-v1_0.xsd">rest_netapi_customerprofile-v1_0.xsd</a></td>
+                </tr>
+                <tr>
+                    <td class="TableP1big">RESTful Network API for Communication Patterns</td>
+                    <td class="TableP1little" align="left" valign="middle">XML data type definitions for OMA RESTful Network API for Communication Patterns</td>
+                    <td class="TableP1big">urn:oma:xml:rest:netapi:communicationpatterns:1</td>
+                    <td class="TableP1little"><a href="http://technical.openmobilealliance.org/tech/profiles/rest_netapi_communicationpatterns-V1_0.xsd">rest_netapi_communicationpatterns-V1_0.xsd</a></td>
+                </tr>
+                <tr>
+                    <td class="TableP1big">RESTful Network API for Device Capabilities</td>
+                    <td class="TableP1little" align="left" valign="middle">XML data type definitions for OMA RESTful Network API for Device Capabilities</td>
+                    <td class="TableP1big">urn:oma:xml:rest:netapi:devicecapabilities:1</td>
+                    <td class="TableP1little"><a href="http://www.openmobilealliance.org/tech/profiles/rest_netapi_devicecapabilities-v1_0.xsd">rest_netapi_devicecapabilities-v1_0.xsd</a></td>
+                </tr>
+                <tr>
+                    <td class="TableP1big" rowspan="2" align="left" valign="middle">RESTful Network API for DynNav</td>
+                    <td class="TableP1little">OMA RESTful Network API for Dynamic Navigation</td>
+                    <td class="TableP1big">urn:oma:xml:rest:netapi:dynnav:1</td>
+                    <td class="TableP1little"><a href="http://www.openmobilealliance.org/tech/profiles/rest_netapi_dynnavv1_0.xsd " shape="rect">rest_netapi_dynnavv1_0.xsd</a></td>
+                </tr>
+                <tr>
+                    <td class="TableP1little">OMA RESTful Network API for Dynamic Navigation</td>
+                    <td class="TableP1big">urn:oma:xml:rest:netapi:dynnav:1.1</td>
+                    <td class="TableP1little"><a href="http://www.openmobilealliance.org/tech/profiles/rest_netapi_dynnav-v1_1.xsd" shape="rect">rest_netapi_dynnav-v1_1.xsd</a></td>
+                </tr>
+                <tr>
+                    <td class="TableP1big">RESTful Network API for File Transfer</td>
+                    <td class="TableP1little" align="left" valign="middle">XML data type definitions for the RESTful Network API for FileTransfer</td>
+                    <td class="TableP1big">urn:oma:xml:rest:netapi:filetransfer:1</td>
+                    <td class="TableP1little"><a href="http://www.openmobilealliance.org/tech/profiles/rest_netapi_filetransfer-v1_0.xsd">rest_netapi_filetransfer-v1_0.xsd</a></td>
+                </tr>
+                <tr>
+                    <td class="TableP1big"><span lang="FR">RESTful Network API for Image Share  </span></td>
+                    <td class="TableP1little" align="left" valign="middle">XML data type definitions for OMA RESTful Network API for Image Share</td>
+                    <td class="TableP1big">urn:oma:xml:rest:netapi:imageshare:1</td>
+                    <td class="TableP1little"><a href="http://www.openmobilealliance.org/tech/profiles/rest_netapi_imageshare-v1_0.xsd">rest_netapi_imageshare-v1_0.xsd</a></td>
+                </tr>
+                <tr>
+                    <td class="TableP1big">RESTful Network API for Messaging</td>
+                    <td class="TableP1little" align="left" valign="middle">XML data type definitions for OMA RESTful Network API for Messaging</td>
+                    <td class="TableP1big">urn:oma:xml:rest:netapi:messaging:1</td>
+                    <td class="TableP1little"><a href="http://www.openmobilealliance.org/tech/profiles/rest_netapi_messaging-v1_0.xsd">rest_netapi_messaging-v1_0.xsd</a></td>
+                </tr>
+                <tr>
+                    <td class="TableP1big">RESTful Network API for Network Message Store</td>
+                    <td class="TableP1little" align="left" valign="middle">XML data type definitions for the RESTful Network API for Network Message Store</td>
+                    <td class="TableP1big">urn:oma:xml:rest:netapi:nms:1</td>
+                    <td class="TableP1little"><a href="http://www.openmobilealliance.org/tech/profiles/rest_netapi_nms-v1_0.xsd">rest_netapi_nms-v1_0.xsd</a></td>
+                </tr>
+                <tr>
+                    <td class="TableP1big">RESTful Network API for Notification Channel</td>
+                    <td class="TableP1little" align="left" valign="middle">XML data type definitions for the RESTful Network API for Notification Channel</td>
+                    <td class="TableP1big">urn:oma:xml:rest:netapi:notificationchannel:1</td>
+                    <td class="TableP1little"><a href="http://www.openmobilealliance.org/tech/profiles/rest_netapi_notificationchannel-v1_0.xsd">rest_netapi_notificationchannel-v1_0.xsd</a></td>
+                </tr>
+                <tr>
+                    <td class="TableP1big">RESTful Network API for Payment</td>
+                    <td class="TableP1little" align="left" valign="middle">XML data type definitions for OMA RESTful Network API for Payment</td>
+                    <td class="TableP1big">urn:oma:xml:rest:netapi:payment:1</td>
+                    <td class="TableP1little"><a href="http://www.openmobilealliance.org/tech/profiles/rest_netapi_payment-v1_0.xsd">rest_netapi_payment-v1_0.xsd</a></td>
+                </tr>
+                <tr>
+                    <td class="TableP1big">RESTful Network API for Presence</td>
+                    <td class="TableP1little" align="left" valign="middle">XML data type definitions for OMA RESTful Network API for <span lang="FR">Presence </span></td>
+                    <td class="TableP1big">urn:oma:xml:rest:netapi:presence:1</td>
+                    <td class="TableP1little"><a href="http://www.openmobilealliance.org/tech/profiles/rest_netapi_presence-v1_0.xsd">rest_netapi_presence-v1_0.xsd </a></td>
+                </tr>
+                <tr>
+                    <td class="TableP1big">RESTful Network API for OMA Push</td>
+                    <td class="TableP1little" align="left" valign="middle">RESTful Network API for OMA Push</td>
+                    <td class="TableP1big">urn:oma:xml:rest:netapi:push:1</td>
+                    <td class="TableP1little"><a href="http://www.openmobilealliance.org/tech/profiles/rest_netapi_push-v1_0.xsd">rest_netapi_push-v1_0.xsd</a></td>
+                </tr>
+                <tr>
+                    <td class="TableP1big">RESTful Network API for Quality of Service</td>
+                    <td class="TableP1little" align="left" valign="middle">XML data type definitions for OMA RESTful Network APIfor Quality of Service</td>
+                    <td class="TableP1big">urn:oma:xml:rest:netapi:qos:1</td>
+                    <td class="TableP1little"><a href="http://www.openmobilealliance.org/tech/profiles/rest_netapi_qos-v1_0.xsd">rest_netapi_qos-v1_0.xsd</a></td>
+                </tr>
+                <tr>
+                    <td class="TableP1big">RESTful Network API for Roaming Provisioning</td>
+                    <td class="TableP1little" align="left" valign="middle">XML data type definitions for OMA RESTful Network APIfor Roaming Provisioning</td>
+                    <td class="TableP1big">urn:oma:xml:rest:netapi:roam:1</td>
+                    <td class="TableP1little"><a href="http://www.openmobilealliance.org/tech/profiles/rest_netapi_roamingprovisioning-v1_0.xsd">rest_netapi_roamingprovisioning-v1_0</a></td>
+                </tr>
+                <tr>
+                    <td class="TableP1big">RESTful Network API for Short Messaging</td>
+                    <td class="TableP1little" align="left" valign="middle">XML data type definitions for the RESTful Network API for Short Messaging</td>
+                    <td class="TableP1big">urn:oma:xml:rest:netapi:sms:1</td>
+                    <td class="TableP1little"><a href="http://www.openmobilealliance.org/tech/profiles/rest_netapi_sms-v1_0.xsd">rest_netapi_sms-v1_0.xsd</a></td>
+                </tr>
+                <tr>
+                    <td class="TableP1big">RESTful Network API for Terminal Location</td>
+                    <td class="TableP1little" align="left" valign="middle">XML data type definitions for the RESTful Network API for Terminal Location</td>
+                    <td class="TableP1big">urn:oma:xml:rest:netapi:terminallocation:1</td>
+                    <td class="TableP1little"><a href="http://www.openmobilealliance.org/tech/profiles/rest_netapi_terminallocation-v1_0.xsd">rest_netapi_terminallocation-v1_0.xsd</a></td>
+                </tr>
+                <tr>
+                    <td class="TableP1big">RESTful Network API for Twinning</td>
+                    <td class="TableP1little" align="left" valign="middle">XML data types for the RESTful Network API for Twinning</td>
+                    <td class="TableP1big">urn:oma:xml:rest:netapi:twinning:1</td>
+                    <td class="TableP1little"><a href="http://technical.openmobilealliance.org/tech/profiles/rest_netapi_twinning-v1_0.xsd" target="_blank" shape="rect">rest_netapi_twinning-v1_0.xsd</a></td>
+                </tr>
+                <tr>
+                    <td class="TableP1big">RESTful Network API for Terminal Status</td>
+                    <td class="TableP1little" align="left" valign="middle">XML data type definitions for the RESTful Network API for Terminal Status</td>
+                    <td class="TableP1big">urn:oma:xml:rest:netapi:terminalstatus:1</td>
+                    <td class="TableP1little"><a href="http://www.openmobilealliance.org/tech/profiles/rest_netapi_terminalstatus-v1_0.xsd">rest_netapi_terminalstatus-v1_0.xsd</a></td>
+                </tr>
+                <tr>
+                    <td class="TableP1big">RESTful Network API for Third Party Call</td>
+                    <td class="TableP1little" align="left" valign="middle">XML data type definitions for the RESTful Network API for Third Party Call</td>
+                    <td class="TableP1big">urn:oma:xml:rest:netapi:thirdpartycall:1</td>
+                    <td class="TableP1little"><a href="http://www.openmobilealliance.org/tech/profiles/rest_netapi_thirdpartycall-v1_0.xsd">rest_netapi_thirdpartycall-v1_0.xsd </a></td>
+                </tr>
+                <tr>
+                    <td class="TableP1big">RESTful Network API for Video Share</td>
+                    <td class="TableP1little" align="left" valign="middle">XML data type definitions for the RESTful Network API for Video Share</td>
+                    <td class="TableP1big">urn:oma:xml:rest:netapi:videoshare:1</td>
+                    <td class="TableP1little"><a href="http://www.openmobilealliance.org/tech/profiles/rest_netapi_videoshare-v1_0.xsd">rest_netapi_videoshare-v1_0.xsd</a></td>
+                </tr>
+                <tr>
+                    <td class="TableP1big">RESTful Network API for Unified Cloud Disk</td>
+                    <td class="TableP1little" align="left" valign="middle">XML data type definitions for the RESTful Network API for Unified Cloud Disk</td>
+                    <td class="TableP1big">urn:oma:xml:rest:netapi:ucd:1</td>
+                    <td class="TableP1little"><a href="http://www.openmobilealliance.org/tech/profiles/rest_netapi_ucd-v1_0.xsd">rest_netapi_ucd-v1_0.xsd</a></td>
+                </tr>
+                <tr>
+                    <td class="TableP1big">RESTful Network API for Zonal Presence</td>
+                    <td class="TableP1little" align="left" valign="middle">XML data type definitions for the RESTful Network API for Zonal Presence</td>
+                    <td class="TableP1big">urn:oma:xml:rest:netapi:zonalpresence:1</td>
+                    <td class="TableP1little">
+                        <a href="http://technical.openmobilealliance.org/tech/profiles/rest_netapi_zonalpresence-v1_0.xsd">rest_netapi_zonalpresence-v1_0.xsd</a></td>
+                </tr>
+                <tr>
+                    <td class="TableP1big" rowspan="12" align="left" valign="middle">ParlayREST 2.0</td>
+                    <td class="TableP1little" align="left" valign="middle">Common v1.1</td>
+                    <td class="TableP1big">urn:oma:xml:rest:common:1</td>
+                    <td class="TableP1little"><a href="http://www.openmobilealliance.org/tech/profiles/rest_common-v1_1.xsd">rest_common-v1_1.xsd</a></td>
+                </tr>
+                <tr>
+                    <td class="TableP1little" align="left" valign="middle">Multi Media Messaging v1.1</td>
+                    <td class="TableP1big">urn:oma:xml:rest:messaging:1</td>
+                    <td class="TableP1little"><a href="http://www.openmobilealliance.org/tech/profiles/rest_messaging-v1_1.xsd">rest_messaging-v1_1.xsd</a></td>
+                </tr>
+                <tr>
+                    <td class="TableP1little" align="left" valign="middle"><span lang="EN-GB">Payment v1.1</span></td>
+                    <td class="TableP1big">urn:oma:xml:rest:payment:1</td>
+                    <td class="TableP1little"><a href="http://www.openmobilealliance.org/tech/profiles/rest_payment-v1_1.xsd">rest_payment-v1_1.xsd</a></td>
+                </tr>
+                <tr>
+                    <td class="TableP1little" align="left" valign="middle">Short Messaging v1.1</td>
+                    <td class="TableP1big">urn:oma:xml:rest:sms:1</td>
+                    <td class="TableP1little"><a href="http://technical.openmobilealliance.org/tech/profiles/rest_sms-v1_1.xsd">rest_sms-v1_1.xsd</a></td>
+                </tr>
+                <tr>
+                    <td class="TableP1little" align="left" valign="middle">Terminal Location V1.1</td>
+                    <td class="TableP1big">urn:oma:xml:rest:terminallocation:1</td>
+                    <td class="TableP1little"><a href="http://www.openmobilealliance.org/tech/profiles/rest_terminallocation-v1_1.xsd">rest_terminallocation-v1_1.xsd</a></td>
+                </tr>
+                <tr>
+                    <td class="TableP1little" align="left" valign="middle"><span lang="EN-GB">Address List Management </span></td>
+                    <td class="TableP1big">urn:oma:xml:rest:addresslistmgt:1</td>
+                    <td class="TableP1little"><a href="http://www.openmobilealliance.org/tech/profiles/rest_addresslistmgt-v1_0.xsd">rest_addresslistmgt-v1_0.xsd</a></td>
+                </tr>
+                <tr>
+                    <td class="TableP1little" align="left" valign="middle"><span lang="EN-GB">Audio Call</span></td>
+                    <td class="TableP1big">urn:oma:xml:rest:audiocall:1</td>
+                    <td class="TableP1little"><a href="http://www.openmobilealliance.org/tech/profiles/rest_audiocall-v1_0.xsd">rest_audiocall-v1_0.xsd</a></td>
+                </tr>
+                <tr>
+                    <td class="TableP1little" align="left" valign="middle"><span lang="EN-GB">Call Notification </span></td>
+                    <td class="TableP1big">urn:oma:xml:rest:callnotification:1</td>
+                    <td class="TableP1little"><a href="http://www.openmobilealliance.org/tech/profiles/rest_callnotification-v1_0.xsd">rest_callnotification-v1_0.xsd</a></td>
+                </tr>
+                <tr>
+                    <td class="TableP1little" align="left" valign="middle">Device Capabilities</td>
+                    <td class="TableP1big">urn:oma:xml:rest:devicecapabilities:1</td>
+                    <td class="TableP1little"><a href="http://www.openmobilealliance.org/tech/profiles/rest_devicecapabilities-v1_0.xsd">rest_devicecapabilities-v1_0.xsd</a></td>
+                </tr>
+                <tr>
+                    <td class="TableP1little" align="left" valign="middle">Presence</td>
+                    <td class="TableP1big">urn:oma:xml:rest:presence:1</td>
+                    <td class="TableP1little"><a href="http://www.openmobilealliance.org/tech/profiles/rest_presence-v1_0.xsd">rest_presence-v1_0.xsd</a></td>
+                </tr>
+                <tr>
+                    <td class="TableP1little" align="left" valign="middle">Terminal Status</td>
+                    <td class="TableP1big">urn:oma:xml:rest:terminalstatus:1</td>
+                    <td class="TableP1little"><a href="http://www.openmobilealliance.org/tech/profiles/rest_terminalstatus-v1_0.xsd">rest_terminalstatus-v1_0.xsd</a></td>
+                </tr>
+                <tr>
+                    <td class="TableP1little" align="left" valign="middle">Third Party Call</td>
+                    <td class="TableP1big">urn:oma:xml:rest:thirdpartycall:1</td>
+                    <td class="TableP1little"><a href="http://www.openmobilealliance.org/tech/profiles/rest_thirdpartycall-v1_0.xsd">rest_thirdpartycall-v1_0.xsd</a></td>
+                </tr>
+                <tr>
+                    <td class="TableP1big" rowspan="5" align="left" valign="middle">ParlayREST 1.0</td>
+                    <td class="TableP1little"><span lang="EN-GB">Common </span></td>
+                    <td class="TableP1big">urn:oma:xml:rest:common:1</td>
+                    <td class="TableP1little"><a href="http://www.openmobilealliance.org/tech/profiles/rest_common-v1_0.xsd" shape="rect">rest_common-v1_0.xsd </a></td>
+                </tr>
+                <tr>
+                    <td class="TableP1little">Short Messaging</td>
+                    <td class="TableP1big">urn:oma:xml:rest:sms:1</td>
+                    <td class="TableP1little"><a href="http://www.openmobilealliance.org/tech/profiles/rest_sms-v1_0.xsd" shape="rect">rest_sms-v1_0.xsd </a></td>
+                </tr>
+                <tr>
+                    <td class="TableP1little"><span lang="EN-GB">Payment </span></td>
+                    <td class="TableP1big">urn:oma:xml:rest:payment:1</td>
+                    <td class="TableP1little"><a href="http://www.openmobilealliance.org/tech/profiles/rest_payment-v1_0.xsd" shape="rect">rest_payment-v1_0.xsd </a></td>
+                </tr>
+                <tr>
+                    <td class="TableP1little">Terminal Location</td>
+                    <td class="TableP1big">urn:oma:xml:rest:terminallocation:1</td>
+                    <td class="TableP1little"><a href="http://www.openmobilealliance.org/tech/profiles/rest_terminallocation-v1_0.xsd" shape="rect">rest_terminallocation-v1_0.xsd </a></td>
+                </tr>
+                <tr>
+                    <td class="TableP1little">Multi Media Messaging</td>
+                    <td class="TableP1big">urn:oma:xml:rest:messaging:1</td>
+                    <td class="TableP1little"><a href="http://www.openmobilealliance.org/tech/profiles/rest_messaging-v1_0.xsd" shape="rect">rest_messaging-v1_0.xsd </a></td>
+                </tr>
+                <tr>
+                    <td class="TableP1big" rowspan="5">pxprof</td>
+                    <td class="TableP1little" rowspan="5">OneAPI Profile of Parlay X (PXPROF) V1.0</td>
+                    <td class="TableP1big">urn:oma:wsdl:pxprof:sms:1</td>
+                    <td class="TableP1little"><a href="http://www.openmobilealliance.org/tech/profiles/pxprof_sms_types-v1_0.xsd" shape="rect">pxprof_sms_types-v1_0.xsd</a></td>
+                </tr>
+                <tr>
+                    <td class="TableP1big">urn:oma:wsdl:pxprof:mms:1</td>
+                    <td class="TableP1little"><a href="http://www.openmobilealliance.org/tech/profiles/pxprof_mms_types-v1_0.xsd" shape="rect">pxprof_mms_types-v1_0.xsd</a></td>
+                </tr>
+                <tr>
+                    <td class="TableP1big">urn:oma:wsdl:pxprof:payment:1</td>
+                    <td class="TableP1little"><a href="http://www.openmobilealliance.org/tech/profiles/pxprof_payment_types-v1_0.xsd" shape="rect">pxprof_payment_types-v1_0.xsd</a></td>
+                </tr>
+                <tr>
+                    <td class="TableP1big">urn:oma:wsdl:pxprof:terminallocation:1</td>
+                    <td class="TableP1little"><a href="http://www.openmobilealliance.org/tech/profiles/pxprof_terminallocation_types-v1_0.xsd" shape="rect">pxprof_terminallocation_types-v1_0.xsd</a></td>
+                </tr>
+                <tr>
+                    <td class="TableP1big">urn:oma:wsdl:pxprof:common:1</td>
+                    <td class="TableP1little"><a href="http://www.openmobilealliance.org/tech/profiles/pxprof_common_types-v1_0.xsd" shape="rect">pxprof_common_types-v1_0.xsd</a></td>
+                </tr>
+                <tr>
+                    <td class="TableP1big" rowspan="16" valign="middle">poc</td>
+                    <td class="TableP1little">PoC Settings V2.1</td>
+                    <td class="TableP1big">urn:oma:xml:poc:poc2.1-settings</td>
+                    <td class="TableP1little"><a href="http://www.openmobilealliance.org/tech/profiles/poc_poc2_1Settings-v2_1.xsd" target="_blank" shape="rect">poc_poc2_1Settings-v2_1.xsd</a></td>
+                </tr>
+                <tr>
+                    <td class="TableP1little">PoC Sessions V2.1</td>
+                    <td class="TableP1big">urn:oma:xml:poc:poc-sessions</td>
+                    <td class="TableP1little"><a href="http://www.openmobilealliance.org/tech/profiles/poc_poc_sessions-v2_1.xsd" target="_blank" shape="rect">poc_poc_sessions-v2_1.xsd</a></td>
+                </tr>
+                <tr>
+                    <td class="TableP1little">PoC Sessions Innovation Descriptor</td>
+                    <td class="TableP1big">urn:oma:xml:poc:session-invocation-descriptor</td>
+                    <td class="TableP1little"><a href="http://www.openmobilealliance.org/tech/profiles/poc_sessionInvocationDescriptor-v2_0.xsd" target="_blank" shape="rect">poc_sessionInvocationDescriptor-v2_0.xsd</a></td>
+                </tr>
+                <tr>
+                    <td class="TableP1little">Shared Group Extensions</td>
+                    <td class="TableP1big">urn:oma:xml:poc:poc2.0-shared-group-ext</td>
+                    <td class="TableP1little"><a href="http://www.openmobilealliance.org/tech/profiles/poc_poc2_0SharedGroupExt-v2_0.xsd" target="_blank" shape="rect">poc_poc2_0SharedGroupExt-v2_0.xsd</a></td>
+                </tr>
+                <tr>
+                    <td class="TableP1little">PoC - Group Advertisement Dispatch Attribute</td>
+                    <td class="TableP1big">urn:oma:xml:poc:dispatch-ind</td>
+                    <td class="TableP1little"><a href="http://www.openmobilealliance.org/tech/profiles/poc_dispatchInd-v2_0.xsd" target="_blank" shape="rect">poc_dispatchInd-v2_0.xsd </a></td>
+                </tr>
+                <tr>
+                    <td class="TableP1little">Full Duplex Call Follow On Proceed postd Element</td>
+                    <td class="TableP1big">urn:oma:xml:poc:FDCFO</td>
+                    <td class="TableP1little"><a href="http://www.openmobilealliance.org/tech/profiles/poc_FDCFO-v2_0.xsd" target="_blank" shape="rect">poc_FDCFO-v2_0.xsd </a></td>
+                </tr>
+                <tr>
+                    <td class="TableP1little">Participant Information Indications</td>
+                    <td class="TableP1big">urn:oma:xml:poc:poc2.1_participantinfoind</td>
+                    <td class="TableP1little"><a href="http://www.openmobilealliance.org/tech/profiles/poc2_1ParticipantInfoInd-v2_1.xsd" target="_blank" shape="rect">poc2_1ParticipantInfoInd-v2_1.xsd</a></td>
+                </tr>
+                <tr>
+                    <td class="TableP1little" align="left" valign="middle">Limited Participant Information Request</td>
+                    <td class="TableP1big">urn:oma:xml:poc:limited-participant-info-req</td>
+                    <td class="TableP1little"><a href="http://www.openmobilealliance.org/tech/profiles/poc_limitedParticipantInfoReq-v2_1.xsd" target="_blank" shape="rect">poc_limitedParticipantInfoReq-v2_1.xsd</a></td>
+                </tr>
+                <tr>
+                    <td class="TableP1little" align="left" valign="middle">PoCV2.0 Discrete Media Transfer Final Report</td>
+                    <td class="TableP1big">urn:oma:xml:poc:final-report</td>
+                    <td class="TableP1little"><a href="http://www.openmobilealliance.org/tech/profiles/poc_finalReport-v2_0.xsd" target="_blank" shape="rect">poc_finalReport-v2_0.xsd</a></td>
+                </tr>
+                <tr>
+                    <td class="TableP1little" align="left" valign="middle">PoCV2.0 optimized Discrete Media Transfer Progress Report</td>
+                    <td class="TableP1big">urn:oma:xml:poc:opt-progress-rep</td>
+                    <td class="TableP1little"><a href="http://www.openmobilealliance.org/tech/profiles/poc_optProgressRep-v2_0.xsd" target="_blank" shape="rect">poc_optProgressRep-v2_0.xsd</a></td>
+                </tr>
+                <tr>
+                    <td class="TableP1little" align="left" valign="middle">PoC Rules</td>
+                    <td class="TableP1big">urn:oma:xml:poc:poc2.0-rules</td>
+                    <td class="TableP1little"><a href="http://www.openmobilealliance.org/tech/profiles/poc_poc2_0Rules-v2_0.xsd" target="_blank" shape="rect">poc_poc2_0Rules-v2_0.xsd</a></td>
+                </tr>
+                <tr>
+                    <td class="TableP1little" align="left" valign="middle">PoCv2.0 Service Settings</td>
+                    <td class="TableP1big">urn:oma:xml:poc:poc2.0-settings</td>
+                    <td class="TableP1little"><a href="http://www.openmobilealliance.org/tech/profiles/poc_poc2_0Settings-v2_0.xsd" target="_blank" shape="rect">poc_poc2_0Settings-v2_0.xsd </a></td>
+                </tr>
+                <tr>
+                    <td class="TableP1little" align="left" valign="middle">Group Advertisement</td>
+                    <td class="TableP1big">urn:oma:xml:poc:group-advertisement</td>
+                    <td class="TableP1little"><a href="http://www.openmobilealliance.org/tech/profiles/poc_groupAdvertisement-v1_0.xsd" target="_blank" shape="rect">poc_groupAdvertisement-v1_0.xsd</a></td>
+                </tr>
+                <tr>
+                    <td class="TableP1little" align="left" valign="middle">PoC-specific Rules</td>
+                    <td class="TableP1big">urn:oma:xml:poc:poc-rules</td>
+                    <td class="TableP1little"><a href="http://www.openmobilealliance.org/tech/profiles/poc_pocRules-v1_0.xsd" target="_blank" shape="rect">poc_pocRules-v1_0.xsd</a></td>
+                </tr>
+                <tr>
+                    <td class="TableP1little" align="left" valign="middle">PoC Usage</td>
+                    <td class="TableP1big">urn:oma:xml:poc:oma-pocusage</td>
+                    <td class="TableP1little"><a href="http://www.openmobilealliance.org/tech/profiles/poc_pocusage-v1_0.xsd" target="_blank" shape="rect">poc_pocusage-v1_0.xsd</a></td>
+                </tr>
+                <tr>
+                    <td class="TableP1little" align="left" valign="middle">List Service</td>
+                    <td class="TableP1big">urn:oma:xml:poc:list-service</td>
+                    <td class="TableP1little"><a href="http://www.openmobilealliance.org/tech/profiles/poc_listService-v1_0.xsd" target="_blank" shape="rect">poc_listService-v1_0.xsd</a></td>
+                </tr>
+                <tr>
+                    <td class="TableP1big" rowspan="3">peem</td>
+                    <td class="TableP1little">PEM-1 Generic Input Template Schema definition</td>
+                    <td class="TableP1big">urn:oma:xml:peem:pem1-input-template:1.0</td>
+                    <td class="TableP1little"><a href="http://www.openmobilealliance.org/tech/profiles/PEM_1_GenericInputTemplateData-V1_0.xsd" shape="rect">PEM_1_GenericInputTemplateData-v1_0.xsd</a></td>
+                </tr>
+                <tr>
+                    <td class="TableP1little">PEM-1 Generic Output Template schema definition</td>
+                    <td class="TableP1big">urn:oma:xml:peem:pem1-output-template:1.0</td>
+                    <td class="TableP1little"><a href="http://www.openmobilealliance.org/tech/profiles/PEM_1_GenericOutputTemplateData-V1_0.xsd" shape="rect">PEM_1_GenericOutputTemplateData-v1_0.xsd </a></td>
+                </tr>
+                <tr>
+                    <td class="TableP1little"><span lang="FR">PEEM ruleset schema</span></td>
+                    <td class="TableP1big"><span lang="FR">urn:oma:xml:peem:ruleset:1.0</span></td>
+                    <td class="TableP1little"><a href="http://www.openmobilealliance.org/tech/profiles/peem_ruleset-v1_0.xsd">peem_ruleset-v1_0.xsd</a></td>
+                </tr>
+                <tr>
+                    <td class="TableP1big" rowspan="7">pde</td>
+                    <td class="TableP1little" rowspan="3">PDE - PIDF Extensions</td>
+                    <td class="TableP1big"> urn:oma:xml:pde:pidf:ext</td>
+                    <td class="TableP1little"><a href="[php function=4]Technical/schemas.aspx" shape="rect">pde_pidf_ext.xsd</a></td>
+                </tr>
+                <tr>
+                    <td class="TableP1big">urn:oma:xml:pde:pidf:ext:1.1</td>
+                    <td class="TableP1little"><span style="text-decoration: underline;"><a href="http://www.openmobilealliance.org/tech/profiles/pde_pidf_ext-v1_1.xsd" shape="rect"><strong>pde_pidf_ext-v1_1.xsd</strong></a><a href="http://www.openmobilealliance.org/tech/profiles/prs_pidf_omapres-v1_0.xsd" shape="rect"> </a></span></td>
+                </tr>
+                <tr>
+                    <td class="TableP1big">urn:oma:xml:prs:pidf:oma-pres</td>
+                    <td class="TableP1little"><a href="http://www.openmobilealliance.org/tech/profiles/prs_pidf_omapres-v1_0.xsd" shape="rect"><span style="text-decoration: underline;">prs_pidf_omapres-v1_0.xsd</span></a></td>
+                </tr>
+                <tr>
+                    <td class="TableP1little"><span lang="EN-GB">PDE - PAL Policy base types for use by the PAL Enabler</span></td>
+                    <td class="TableP1big"><span lang="EN-GB">urn:oma:xml:prs:pal:base-policy-type:1.0</span></td>
+                    <td class="TableP1little"><a href="http://www.openmobilealliance.org/tech/profiles/pde_palBasePolicy-v1_0.xsd" shape="rect">pde_palBasePolicy-v1_0.xsd</a></td>
+                </tr>
+                <tr>
+                    <td class="TableP1little">WS-BPEL 2.0 abstract process for a PAL Rule defined as part of the PDE enabler</td>
+                    <td class="TableP1big">oma:prs:pal:rules</td>
+                    <td class="TableP1little"><a href="http://www.openmobilealliance.org/tech/profiles/rules/pde_prIsContactable-v1_0.xml" shape="rect">pde_prIsContactable-v1_0.xml</a></td>
+                </tr>
+                <tr>
+                    <td class="TableP1little">WS-BPEL 2.0 abstract process for a PAL Rule defined as part of the PDE enabler.</td>
+                    <td class="TableP1big">oma:prs:pal:rules</td>
+                    <td class="TableP1little"><a href="http://www.openmobilealliance.org/tech/profiles/rules/pde_prIsAvailable-v1_0.xml">pde_prIsAvailable-v1_0.xml</a></td>
+                </tr>
+                <tr>
+                    <td class="TableP1little">WS-BPEL 2.0 abstract process for a PAL Rule defined as part of the PDE enabler.</td>
+                    <td class="TableP1big">oma:prs:pal:rules</td>
+                    <td class="TableP1little"><a href="http://www.openmobilealliance.org/tech/profiles/rules/pde_prHasOptedInForService-v1_0.xml">pde_prHasOptedInForService-v1_0.xml</a></td>
+                </tr>
+                <tr>
+                    <td class="TableP1big" rowspan="5">prs</td>
+                    <td class="TableP1little" align="left" valign="middle">Presence - <span lang="EN-GB">Event notification suppression filter</span></td>
+                    <td class="TableP1big">urn:ietf:params:xml:ns:simple-filter</td>
+                    <td class="TableP1little"><a href="http://www.openmobilealliance.org/tech/profiles/prs_suppnotFilter-v1_0.xsd" target="_blank" shape="rect">prs_suppnotFilter-v1_0.xsd </a></td>
+                </tr>
+                <tr>
+                    <td class="TableP1little" align="left" valign="middle"><span lang="EN-GB">Pres Pub rules</span></td>
+                    <td class="TableP1big">urn:ietf:params:xml:ns:common-policy</td>
+                    <td class="TableP1little"><a href="http://www.openmobilealliance.org/tech/profiles/prs_pub_rules-v1_0.xsd" target="_blank" shape="rect">prs_pub_rules-v1_0.xsd </a></td>
+                </tr>
+                <tr>
+                    <td class="TableP1little" align="left" valign="middle">Presence Rules</td>
+                    <td class="TableP1big">urn:oma:xml:prs:pres-rules</td>
+                    <td class="TableP1little"><a href="http://www.openmobilealliance.org/tech/profiles/prs_presrules-v1_0.xsd" target="_blank" shape="rect">prs_presrules-v1_0.xsd </a></td>
+                </tr>
+                <tr>
+                    <td class="TableP1little"><span lang="EN-GB">Presence Content Application Usage</span></td>
+                    <td class="TableP1big">urn:oma:xml:prs:pres-content</td>
+                    <td class="TableP1little"><a href="http://www.openmobilealliance.org/tech/profiles/prs_presContent-v1_0.xsd" target="_blank" shape="rect">prs_presContent-v1_0.xsd </a></td>
+                </tr>
+                <tr>
+                    <td class="TableP1little">PIDF Extensions</td>
+                    <td class="TableP1big">urn:oma:xml:prs:pidf:oma-pres</td>
+                    <td class="TableP1little"><a href="http://www.openmobilealliance.org/tech/profiles/prs_pidf_omapres-v1_0.xsd" target="_blank" shape="rect">prs_pidf_omapres-v1_0.xsd</a></td>
+                </tr>
+                <tr>
+                    <td class="TableP1big" align="left" valign="middle">push</td>
+                    <td class="TableP1little">OMA Push enabler Push Service Registration procedure</td>
+                    <td class="TableP1big">-</td>
+                    <td class="TableP1little"><a href="http://www.openmobilealliance.org/tech/profiles/push-registration-v1_0.xsd" shape="rect">push-registration-v1_0.xsd</a></td>
+                </tr>
+                <tr>
+                    <td class="TableP1big" rowspan="2" align="left" valign="middle">im</td>
+                    <td class="TableP1little"><span lang="EN-GB">im service settings</span></td>
+                    <td class="TableP1big"><span lang="EN-GB">urn:oma:xml:im:service-settings</span></td>
+                    <td class="TableP1little"><a href="http://www.openmobilealliance.org/tech/profiles/im_service_settings-v1_0.xsd" target="_blank" shape="rect">im_service_settings-v1_0.xsd </a></td>
+                </tr>
+                <tr>
+                    <td class="TableP1little">XDM - IM Conversation History and Deferred Message Metadata</td>
+                    <td class="TableP1big">urn:oma:xml:im:history-list</td>
+                    <td class="TableP1little"><a href="http://www.openmobilealliance.org/tech/profiles/im_hist_def_metadata-V1_0.xsd">im_hist_def_metadata-V1_0.xsd</a></td>
+                </tr>
+                <tr>
+                    <td class="TableP1big" align="left" valign="middle">scidm</td>
+                    <td class="TableP1little">secure Content IDentification Mechanism - Messages V1.0</td>
+                    <td class="TableP1big">oma:xml:scidm:messages:1.0</td>
+                    <td class="TableP1little"><a href="http://www.openmobilealliance.org/tech/profiles/scidm_messages-v1_0.xsd" shape="rect"><strong>scidm_messages-v1_0.xsd</strong></a></td>
+                </tr>
+                <tr>
+                    <td class="TableP1big" rowspan="4" align="left" valign="middle">s-cab</td>
+                    <td class="TableP1little"><span lang="FR">S-CAB - 1.0 Extensions</span></td>
+                    <td class="TableP1big"> urn:oma:xml:scab:1.0extensions<span style="mso-spacerun: yes;">         </span></td>
+                    <td class="TableP1little"><a href="http://www.openmobilealliance.org/tech/profiles/scab_extensions-V1_0.xsd">scab_extensions-V1_0.xsd</a></td>
+                </tr>
+                <tr>
+                    <td class="TableP1little"><span lang="FR">S-CAB User Prefences document</span></td>
+                    <td class="TableP1big"> urn:oma:xml:s-cab:user-prefs</td>
+                    <td class="TableP1little"><a href="http://www.openmobilealliance.org/tech/profiles/scab_user_preferences-v1_0.xsd">scab_user_preferences-v1_0.xsd</a></td>
+                </tr>
+                <tr>
+                    <td class="TableP1little">S-CAB Communication history document</td>
+                    <td class="TableP1big"> urn:oma:xml:scab:ch</td>
+                    <td class="TableP1little"><a href="http://www.openmobilealliance.org/tech/profiles/scab_comm_hist-v1_0.xsd">scab_comm_hist-v1_0.xsd</a></td>
+                </tr>
+                <tr>
+                    <td class="TableP1little"><span lang="FR">CAB Personal Contact Card document</span></td>
+                    <td class="TableP1big"><span lang="FR">urn:oma:xml:cab:pcc</span></td>
+                    <td class="TableP1little"><a href="http://www.openmobilealliance.org/tech/profiles/ cab_pcc-v1_0.xsd">cab_pcc-v1_0.xsd</a></td>
+                </tr>
+                <tr>
+                    <td class="TableP1big" align="left" valign="middle">seccf</td>
+                    <td class="TableP1little"><span lang="FR">XML Schema for GBA in OMA Security Common Functions (SEC_CF) </span></td>
+                    <td class="TableP1big"><span lang="FR">urn:oma:xml:seccf:gba:1</span></td>
+                    <td class="TableP1little"><a href="http://www.openmobilealliance.org/tech/profiles/seccf_gba-v1_1.xsd" shape="rect">seccf_gba-v1_1.xsd</a></td>
+                </tr>
+                <tr>
+                    <td class="TableP1big" rowspan="10" align="left" valign="middle">Secure Content Exchange</td>
+                    <td class="TableP1little"><span lang="EN-GB">SCE ROAP</span></td>
+                    <td class="TableP1big"><span lang="EN-GB">urn:oma:xml:sce:roap</span></td>
+                    <td class="TableP1little"><a href="http://www.openmobilealliance.org/tech/profiles/SCE_ROAP-v1_0.xsd" shape="rect">SCE_ROAP-v1_0.xsd </a></td>
+                </tr>
+                <tr>
+                    <td class="TableP1little"><span lang="EN-GB">OMA Data Dictionary XML Schema</span></td>
+                    <td class="TableP1big">-</td>
+                    <td class="TableP1little"><a href="http://www.openmobilealliance.org/tech/profiles/sce_rel_odd-v1_0.xsd" target="_blank" shape="rect">sce_rel_odd-v1_0.xsd </a></td>
+                </tr>
+                <tr>
+                    <td class="TableP1little"><span lang="EN-GB">OMA SCE General (GEN) XML Schema</span></td>
+                    <td class="TableP1big">urn:oma:xml:sce:gen</td>
+                    <td class="TableP1little"><a href="http://www.openmobilealliance.org/tech/profiles/OMA-SUP-XSD_SCE_GEN-20110705-A.xsd" target="_blank" shape="rect">OMA-SUP-XSD_SCE_GEN-V1_0.xsd</a></td>
+                </tr>
+                <tr>
+                    <td class="TableP1little">OMA SCE DOM XML Schema</td>
+                    <td class="TableP1big">urn:oma:xml:sce:dom</td>
+                    <td class="TableP1little"><a href="http://www.openmobilealliance.org/tech/profiles/OMA-SUP-XSD_SCE_DOM-V1_0-20110705-A.xsd" target="_blank" shape="rect">OMA-SUP-XSD_SCE_DOM-V1_0.xsd</a></td>
+                </tr>
+                <tr>
+                    <td class="TableP1little"><span lang="EN-GB">ODRL-Mobile profile Language Expression </span></td>
+                    <td class="TableP1big">-</td>
+                    <td class="TableP1little"><a href="http://www.openmobilealliance.org/tech/profiles/drm_rel_ex-v2_1.xsd" target="_blank" shape="rect">drm_rel_ex-v2_1.xsd </a></td>
+                </tr>
+                <tr>
+                    <td class="TableP1little"><span lang="EN-GB">ODRL-Mobile profile Data Dictionary </span></td>
+                    <td class="TableP1big">-</td>
+                    <td class="TableP1little"><a href="http://www.openmobilealliance.org/tech/profiles/drm_rel_dd-v2_1.xsd" target="_blank" shape="rect">drm_rel_dd-v2_1.xsd </a></td>
+                </tr>
+                <tr>
+                    <td class="TableP1little"><span lang="EN-GB">SCE LRM</span></td>
+                    <td class="TableP1big"><span lang="EN-GB"><span lang="EN-GB">urn:oma:xml:sce:lrm</span></span></td>
+                    <td class="TableP1little"><a href="http://www.openmobilealliance.org/tech/profiles/drm_lrm_v1_0.xsd" target="_blank" shape="rect">drm_lrm_v1_0.xsd </a></td>
+                </tr>
+                <tr>
+                    <td class="TableP1little">SCE LRM</td>
+                    <td class="TableP1big">urn:oma:xml:sce:lrm</td>
+                    <td class="TableP1little"><a href="http://www.openmobilealliance.org/tech/profiles/SCE_LRM_V1_0.xsd" shape="rect">SCE_LRM_V1_0.xsd</a></td>
+                </tr>
+                <tr>
+                    <td class="TableP1little"><span lang="EN-GB">Mobile profile Data Dictionary </span></td>
+                    <td class="TableP1big">-</td>
+                    <td class="TableP1little"><a href="http://www.openmobilealliance.org/tech/profiles/SCE_REL_DD-V1_0.xsd" shape="rect">SCE_REL_DD-V1_0.xsd</a></td>
+                </tr>
+                <tr>
+                    <td class="TableP1little"><span lang="EN-GB">Mobile profile Language Expression </span></td>
+                    <td class="TableP1big">-</td>
+                    <td class="TableP1little"><a href="http://www.openmobilealliance.org/tech/profiles/SCE_REL_EX-V1_0.xsd" shape="rect">SCE_REL_EX-V1_0.xsd</a></td>
+                </tr>
+                <tr>
+                    <td class="TableP1big" align="left" valign="middle">sti</td>
+                    <td class="TableP1little"><span lang="EN-GB">STI (Standard Transcoder Interface) data types and elements</span></td>
+                    <td class="TableP1big">-</td>
+                    <td class="TableP1little"><a href="http://www.openmobilealliance.org/tech/profiles/STI-v1_0.xsd" target="_blank" shape="rect">STI-v1_0.xsd</a></td>
+                </tr>
+                <tr>
+                    <td class="TableP1big" rowspan="2" align="left" valign="middle">supm</td>
+                    <td class="TableP1little">RESTful binding for Service User Profile Management SUPM-1 interface</td>
+                    <td class="TableP1big">urn:oma:xml:rest:supm:1</td>
+                    <td class="TableP1little"><a href="http://www.openmobilealliance.org/tech/profiles/rest_supm-v1_0.xsd ">rest_supm-v1_0.xsd </a></td>
+                </tr>
+                <tr>
+                    <td class="TableP1little" align="left" valign="middle">SOAP binding of Service User Profile Management SUPM-1 interface</td>
+                    <td class="TableP1big">urn:oma:xml:supm:soap:1</td>
+                    <td class="TableP1little"><a href="http://www.openmobilealliance.org/tech/profiles/supm_soap-v1_0.xsd">supm_soap-v1_0.xsd</a></td>
+                </tr>
+                <tr>
+                    <td class="TableP1big">uve</td>
+                    <td class="TableP1little" align="left" valign="middle">structure and data types for Unified Virtual Experience</td>
+                    <td class="TableP1big">urn:oma:xml:uve:messages:1.0</td>
+                    <td class="TableP1little"><a href="http://technical.openmobilealliance.org/tech/profiles/UVE_messages-v1_0.xsd" target="_blank" shape="rect">UVE_messages-v1_0.xsd</a></td>
+                </tr>
+                <tr>
+                    <td class="TableP1big">xdm</td>
+                    <td class="TableP1little" align="left" valign="middle">XDM - Common Policy</td>
+                    <td class="TableP1big">urn:oma:xml:xdm:common-policy</td>
+                    <td class="TableP1little"><a href="http://www.openmobilealliance.org/tech/profiles/xdm_commonPolicy-v1_0.xsd" shape="rect">xdm_commonPolicy-v1_0.xsd</a></td>
+                </tr>
+                <tr>
+                    <td class="TableP1big"></td>
+                    <td class="TableP1little" align="left" valign="middle">XDM - 2.2 Extensions</td>
+                    <td class="TableP1big">urn:oma:xml:xdm:2.2extensions</td>
+                    <td class="TableP1little"><a href="http://www.openmobilealliance.org/tech/profiles/xdm_2_2_extensions-V1_0.xsd">xdm_2_2_extensions-V1_0.xsd</a></td>
+                </tr>
+                <tr>
+                    <td class="TableP1big"></td>
+                    <td class="TableP1little" align="left" valign="middle">XDM - 2.1 Extensions</td>
+                    <td class="TableP1big">urn:oma:xml:xdm:2.1extensions</td>
+                    <td class="TableP1little"><a href="http://www.openmobilealliance.org/tech/profiles/xdm_2_1_extensions-V1_0.xsd" shape="rect">xdm_2_1_extensions-V1_0.xsd</a></td>
+                </tr>
+                <tr>
+                    <td class="TableP1big"></td>
+                    <td class="TableP1little" align="left" valign="middle">XDM - Access Permissions List</td>
+                    <td class="TableP1big">urn:oma:xml:xdm:ap-list</td>
+                    <td class="TableP1little"><a href="http://www.openmobilealliance.org/tech/profiles/xdm_access_permissions_list-v1_0.xsd" shape="rect">xdm_access_permissions_list-v1_0.xsd</a></td>
+                </tr>
+                <tr>
+                    <td class="TableP1big"></td>
+                    <td class="TableP1little" align="left" valign="middle">XDM - Alias Principals List</td>
+                    <td class="TableP1big">urn:oma:xml:xdm:alias-principals-list</td>
+                    <td class="TableP1little"><a href="http://www.openmobilealliance.org/tech/profiles/xdm_alias_principals_list-v1_0.xsd" shape="rect">xdm_alias_principals_list-v1_0.xsd</a></td>
+                </tr>
+                <tr>
+                    <td class="TableP1big"></td>
+                    <td class="TableP1little" align="left" valign="middle">XDM - Access Permissions</td>
+                    <td class="TableP1big">urn:oma:xml:xdm:ap</td>
+                    <td class="TableP1little"><a href="http://www.openmobilealliance.org/tech/profiles/xdm_access_permissions-v1_0.xsd" shape="rect">xdm_access_permissions-v1_0.xsd</a></td>
+                </tr>
+                <tr>
+                    <td class="TableP1big"></td>
+                    <td class="TableP1little" align="left" valign="middle">XDM - Forwarding Notification List</td>
+                    <td class="TableP1big">urn:oma:xml:xdm:forwarding-notification-list</td>
+                    <td class="TableP1little"><a href="http://www.openmobilealliance.org/tech/profiles/xdm_forwarding_notification_list-v1_0.xsd" shape="rect">xdm_forwarding_notification_list-v1_0.xsd</a></td>
+                </tr>
+                <tr>
+                    <td class="TableP1big"></td>
+                    <td class="TableP1little" align="left" valign="middle">XDM - Modification History</td>
+                    <td class="TableP1big">urn:oma:xml:xdm:hist-mod</td>
+                    <td class="TableP1little"><a href="http://www.openmobilealliance.org/tech/profiles/xdm_modification_history.xsd" shape="rect">xdm_modification_history.xsd</a></td>
+                </tr>
+                <tr>
+                    <td class="TableP1big"></td>
+                    <td class="TableP1little" align="left" valign="middle">XDM - Request History</td>
+                    <td class="TableP1big">urn:oma:xml:xdm:request-history</td>
+                    <td class="TableP1little"><a href="http://www.openmobilealliance.org/tech/profiles/xdm_request_history-v1_0.xsd" shape="rect">xdm_request_history-v1_0.xsd</a></td>
+                </tr>
+                <tr>
+                    <td class="TableP1big"></td>
+                    <td class="TableP1little" align="left" valign="middle">XDM - Search</td>
+                    <td class="TableP1big">urn:oma:xml:xdm:search</td>
+                    <td class="TableP1little"><a href="http://www.openmobilealliance.org/tech/profiles/xdm_search-v1_0.xsd" shape="rect">xdm_search-v1_0.xsd</a></td>
+                </tr>
+                <tr>
+                    <td class="TableP1big"></td>
+                    <td class="TableP1little" align="left" valign="middle">XDM - UPP Directory Schema</td>
+                    <td class="TableP1big">urn:oma:xml:xdm:upp-directory</td>
+                    <td class="TableP1little"><a href="http://www.openmobilealliance.org/tech/profiles/xdm_uppDirectory-v1_0.xsd" shape="rect">xdm_uppDirectory-v1_0.xsd</a></td>
+                </tr>
+                <tr>
+                    <td class="TableP1big"></td>
+                    <td class="TableP1little" align="left" valign="middle">XDM - User Profile Schema</td>
+                    <td class="TableP1big">urn:oma:xml:xdm:user-profile</td>
+                    <td class="TableP1little"><a href="http://www.openmobilealliance.org/tech/profiles/xdm_userProfile-v1_0.xsd" shape="rect">xdm_userProfile-v1_0.xsd</a></td>
+                </tr>
+                <tr>
+                    <td class="TableP1big"></td>
+                    <td class="TableP1little" align="left" valign="middle">XDM - XCAP Error</td>
+                    <td class="TableP1big">urn:oma:xml:xdm:xcap-error</td>
+                    <td class="TableP1little"><a href="http://www.openmobilealliance.org/tech/profiles/xdm_xcapError-v1_0.xsd" shape="rect">xdm_xcapError-v1_0.xsd</a></td>
+                </tr>
+                <tr>
+                    <td class="TableP1big"></td>
+                    <td class="TableP1little" align="left" valign="middle">XDM - XDCP Document</td>
+                    <td class="TableP1big">urn:oma:xml:xdm:xdcp</td>
+                    <td class="TableP1little"><a href="http://www.openmobilealliance.org/tech/profiles/xdm_xdcp-v1_0.xsd" shape="rect">xdm_xdcp-v1_0.xsd</a></td>
+                </tr>
+                <tr>
+                    <td class="TableP1big"></td>
+                    <td class="TableP1little" align="left" valign="middle">XDM - XDM Preferences Schema</td>
+                    <td class="TableP1big">urn:oma:xml:xdm:xdm-prefs</td>
+                    <td class="TableP1little"><a href="http://www.openmobilealliance.org/tech/profiles/xdm_xdmPreferences-v1_0.xsd" shape="rect">xdm_xdmPreferences-v1_0.xsd</a></td>
+                </tr>
+                <tr>
+                    <td class="TableP1big" rowspan="6" align="left" valign="middle">xdm</td>
+                    <td class="TableP1little"><span lang="EN-GB">XDM - XDM2 - Extensions</span></td>
+                    <td class="TableP1big"><span lang="EN-GB">urn:oma:xml:xdm:extensions</span></td>
+                    <td class="TableP1little"><a href="http://www.openmobilealliance.org/tech/profiles/xdm_extensions-v1_0.xsd" target="_blank" shape="rect">xdm_extensions-v1_0.xsd </a></td>
+                </tr>
+                <tr>
+                    <td class="TableP1little">Common Policys</td>
+                    <td class="TableP1big">urn:oma:xml:xdm:common-policy</td>
+                    <td class="TableP1little"><a href="http://www.openmobilealliance.org/tech/profiles/xdm_commonPolicy-v1_0.xsd" target="_blank" shape="rect">xdm_commonPolicy-v1_0.xsd</a></td>
+                </tr>
+                <tr>
+                    <td class="TableP1little">Resource List - URI usage</td>
+                    <td class="TableP1big">urn:oma:xml:xdm:resource-list:oma-uriusage</td>
+                    <td class="TableP1little"><a href="http://www.openmobilealliance.org/tech/profiles/xdm_rsrclst_uriusage-v1_0.xsd" target="_blank" shape="rect">xdm_rsrclst_uriusage-v1_0.xsd</a></td>
+                </tr>
+                <tr>
+                    <td class="TableP1little">XCAP Directory</td>
+                    <td class="TableP1big">urn:oma:xml:xdm:xcap-directory</td>
+                    <td class="TableP1little"><a href="http://www.openmobilealliance.org/tech/profiles/xdm_xcapDirectory-v1_0.xsd" target="_blank" shape="rect">xdm_xcapDirectory-v1_0.xsd</a></td>
+                </tr>
+                <tr>
+                    <td class="TableP1little">XCAP Error</td>
+                    <td class="TableP1big">urn:oma:xml:xdm:xcap-error</td>
+                    <td class="TableP1little"><a href="http://www.openmobilealliance.org/tech/profiles/xdm_xcapError-v1_0.xsd" target="_blank" shape="rect">xdm_xcapError-v1_0.xsd</a></td>
+                </tr>
+                <tr>
+                    <td class="TableP1little">Resource List -APP usage</td>
+                    <td class="TableP1big">urn:oma:xml:xdm:resource-list:oma-appusage</td>
+                    <td class="TableP1little"><a title="/tech/profiles/xdm_rsrclst_uriusage-v1_0.xsd" href="http://www.openmobilealliance.org/tech/profiles/xdm_rsrclst_appusage-v1_0.xsd" target="_blank" shape="rect">xdm_rsrclst_appusage-v1_0.xsd</a></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+
+    <!-- This gets populated with the footer.html using Javascript -->
+    <div id="footer"></div>
+</body>
+</html>
