@@ -1,0 +1,106 @@
+<!doctype html>
+<html>
+<head>
+
+    <title>Open Mobile Alliance - OMNA Mobile Codes Registry-IDs</title>
+    <meta charset="utf-8">
+    <script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
+    <script src="/Scripts/LwM2MRegistry.js"></script>
+
+    <!-- Font awesome for arrows -->
+    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+
+    <!-- Normalize CSS -->
+    <link rel="stylesheet" href="/CSS/Normalize.css" />
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+
+   <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
+
+    <link rel="stylesheet" href="/CSS/Site.css">
+    <link rel="stylesheet" href="/CSS/registries.css">
+    <link rel="stylesheet" href="/CSS/grid_oocss.css">
+    <link rel="stylesheet" href="/CSS/spacing.css">
+
+    <script>
+        $(function () {
+            $('#header').load("/header.html");
+            $('#footer').load("/footer.html");
+        });
+    </script>
+</head>
+
+
+<body>
+    <!-- This gets populated with the header.html using Javascript -->
+    <div id="header"></div>
+
+    <div class="container">
+  <div class="fl size100of100 mid-cont-ttl mbm">OMNA Mobile Codes Registry-IDs</div>
+  <div class="fl size100of100  justify mbl">  
+     <p>Network architectural components of the OMA MC Enabler involved in resolution of Indirect Codes and related addressing rules for such components are as follows:
+     </p>
+     <p>
+        a) Code Management Platform (CMP) and its variants where applicable (i.e., CMP-Split-Parent and CMP-Split-Child). Each CMP capable of resolving Indirect Codes is assigned with a globally unique Routing Prefix.
+     </p>
+     <p>b) A CMP is typically associated with either a Mobile Code Registry (MCR) or Multi-lateral Arrangement (MLA). A CMP can also operate on its own without any association with other CMPs.
+     </p>
+     <p>c) Within a community of CMPs associated with a MCR, the entity that operates the MCR shall apply for a 'Registry-ID' from the appropriate OMNA Registry. Within a MLA (i.e., a community of CMPs without any MCR), the designated lead CMP in the MLA shall apply for a 'Registry-ID' from the appropriate OMNA Registry.</p>
+     <p>
+        d) If associated with either a MCR or MLA, a CMP shall obtain its Routing Prefix assignment from the holder of a Registry-ID (i.e., either the MCR entity or the designated lead CMP in the MLA).
+     </p>
+     <p>e) If not associated with any MCR or MLA, a CMP shall obtain its Routing Prefix directly from the appropriate OMNA Registry.
+     </p>
+     <p>
+        Definitions and normative functional responsibilities of the above-mentioned network components of the MC Enabler, as well as the relationship between a Registry-ID and Routing Prefixes that stem from it, are specified in the OMA Mobile Codes V1.0 Enabler (Technical Specification Sections 3.2, 8.1 and 8.2).  
+        See <a href="?p=2007" class="reg-txtUnderline textHoverBrwn">OMA Mobile Codes V1.0</a>.
+     </p>
+     <div class="fl size99of100 mtl mid-hd-bg fb mbm">
+        Applications of the Mobile Codes Registry-ID
+     </div>
+     <p>An entity who is responsible for the Mobile Code Registry (MCR) role within a community of CMPs or is the lead CMP in a multi-lateral arrangement (MLA), as specified in the OMA Mobile Codes V1.0 Enabler, can apply for a Registry-ID. An applicant will receive a fixed length 3-hexadecimal-digit Registry-ID value when approved.</p>
+     <div class="LinkDetails mtl mll"><span class="textBrwn "> A form for submitting a request may be found</span> <a href="?p=943" class="textBrwnSmall">here</a></div>
+     <table cellspacing="0" cellpadding="0" border="0" style="width: 100%" class="mtl">
+        <tbody>
+           <tr>
+              <td colspan="4" class="TableTitre1">Mobile Codes Registry-IDs&nbsp;</td>
+           </tr>
+           <tr>
+              <td valign="middle" align="left" class="TableTitre2" style="width: 20%">Assigned Registry-ID Value</td>
+              <td valign="middle" align="left" class="TableTitre2" style="width: 15%">&nbsp;Applying Entity</td>
+              <td valign="middle" align="left" class="TableTitre2" style="width: 30%">Description of the applying Entity</td>
+              <td valign="middle" align="left" class="TableTitre2" style="width: 30%">Contact details</td>
+           </tr>
+           <tr>
+              <td valign="middle" align="left" class="TableP1little" style="height: 46px"><strong>Range of assignable Registry-ID values<br>%x001 to %xFFF</strong></td>
+              <td valign="middle" align="left" class="TableP1little" style="width: 15%"><strong>Recipient of the Registry-ID</strong></td>
+              <td valign="middle" align="left" class="TableP1little" style="width: 30%"><strong>Brief description&nbsp;of the applying&nbsp;entity</strong></td>
+              <td valign="middle" align="left" class="TableP1little"><strong>[email address]</strong></td>
+           </tr>
+           <tr>
+              <td valign="middle" align="left" class="TableP1big" style="height: 46px">%x000</td>
+              <td valign="middle" align="left" class="TableP1little" style="width: 15%">RESERVED</td>
+              <td valign="middle" align="left" class="TableP1little" style="width: 30%">RESERVED</td>
+              <td valign="middle" align="left" class="TableP1little">&nbsp;n/a</td>
+           </tr>
+           <tr>
+              <td valign="middle" align="left" class="TableP1big">%x001</td>
+              <td valign="middle" align="left" class="TableP1little" style="width: 15%">Open Mobile Alliance Naming Authority (OMNA)</td>
+              <td valign="middle" align="left" class="TableP1little" style="width: 30%">Naming Authority of the Open Mobile Alliance (OMA)</td>
+              <td valign="middle" align="left" class="TableP1little" style="height: 46px"><a href="mailto:OMA-OMNA@MAIL.OPENMOBILEALLIANCE.ORG">OMA-OMNA</a></td>
+           </tr>
+           <tr>
+              <td valign="middle" align="left" class="TableP1big">&nbsp;%x002 to %xFFF </td>
+              <td valign="middle" align="left" class="TableP1little" style="width: 15%">&nbsp;Available for assignment</td>
+              <td valign="middle" align="left" class="TableP1little" style="width: 30%">&nbsp;</td>
+              <td valign="middle" align="left" class="TableP1little" style="height: 46px">&nbsp;</td>
+           </tr>
+        </tbody>
+     </table>
+  </div>
+    <!-- This gets populated with the footer.html using Javascript -->
+    <div id="footer"></div>
+</body>
+</html>

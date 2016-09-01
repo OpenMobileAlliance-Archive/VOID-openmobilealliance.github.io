@@ -1,0 +1,103 @@
+<!doctype html>
+<html>
+<head>
+
+    <title>Open Mobile Alliance - OMNA Assignments from External Registries</title>
+    <meta charset="utf-8">
+    <script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
+    <script src="/Scripts/LwM2MRegistry.js"></script>
+
+    <!-- Font awesome for arrows -->
+    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+
+    <!-- Normalize CSS -->
+    <link rel="stylesheet" href="/CSS/Normalize.css" />
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
+
+    <link rel="stylesheet" href="/CSS/Site.css">
+    <link rel="stylesheet" href="/CSS/registries.css">
+    <link rel="stylesheet" href="/CSS/grid_oocss.css">
+    <link rel="stylesheet" href="/CSS/spacing.css">
+
+    <script>
+        $(function () {
+            $('#header').load("/header.html");
+            $('#footer').load("/footer.html");
+        });
+    </script>
+</head>
+
+
+<body>
+    <!-- This gets populated with the header.html using Javascript -->
+    <div id="header"></div>
+
+    <div class="container">
+    <div class="fl size100of100 mid-cont-ttl mbm">OMNA Assignments from External Registries</div>
+    <div class="fl size100of100  justify mbl">  
+        <div>This information describes values and assignments that have been recorded by external registries in support of OMA activities. The registries include: 
+        </div>
+        <div class="size95of100 grp mll mtm clearfix">
+            <ul class="size100of100">
+                <li class="mtm"><a class="reg-txtUnderline textHoverBrwn" href="http://www.iana.org/" target="_blank">Internet Assigned Numbers Authority (IANA)</a></li>           
+                <li class="mtm">Joint ISO/ITU-T </li>  
+            </ul>   
+        </div>
+        <p>This is merely intended to provide informative tracking for such assignments and should not be viewed as an exclusive or complete list of value assignments received. </p>
+        <p>References to the associated codes or tables are provided as applicable. </p>
+        <div class="fl size99of100 mtm mid-hd-bg mbl">
+            OMA Object Identifier (OID) 
+        </div>
+        <p>OMNA is continuing to utilize the assignment by the Joint ISO/ITU-T Object Identifier made to the WAP Forum. This assignment permits OMA to manage subordinate assignments. </p>
+        <p>The OMA root Object Identifier is</p>
+        <p class="quoteBlack">{joint-iso-itu-t(2) international-organizations(23) wap(43)} </p>
+        <p>Assignments associated to this object identifier can be located on the 
+        <a href="?p=612" title="OMNA ISO Object Identifiers" class="reg-txtUnderline textHoverBrwn">OMNA ISO Object Identifier</a> page. </p>
+        <div class="fl size99of100 mtm mid-hd-bg mbl">
+            OMA Uniform Resource Name (URN) 
+        </div>
+        <p>OMNA has registered a formal Uniform Resource Name (URN) with IANA. This was done using the proscribed procedures resulting in the formal registration in
+            <a href="http://www.ietf.org/rfc/rfc4358.txt" class="reg-txtUnderline textHoverBrwn" target="_blank">RFC 4358</a> and recorded on the 
+            <a href="http://www.iana.org/assignments/urn-namespaces" title="IANA Formal URN Namespace Registry" target="_blank" class="reg-txtUnderline textHoverBrwn">IANA Formal URN Namespace Registry</a>. </p>
+        <p>The OMA URN Root is </p>
+        <p class="quoteBlack">urn:oma: </p>
+        <p>Assignments utilizing the OMA URN are recorded on the <a href="?p=563" title="OMNA Namespace Registry" class="reg-txtUnderline textHoverBrwn">OMNA URN Namespace Registry</a>. </p>
+        <div class="fl size99of100 mtm mid-hd-bg mbl">
+            OMA Private Enterprise Number 
+        </div>
+        <p>OMNA has reserved a Private Enterprise Number with IANA to permit it to define private Attribute-Value Pair (AVP) codes for use in Diameter applications. </p>
+        <p>The OMA Private Enterprise number is </p>
+        <p class="quoteBlack">
+            30079 </p>
+        <p>This value has been recorded on the <a href="http://www.iana.org/assignments/enterprise-numbers" class="reg-txtUnderline textHoverBrwn" target="_blank" title="IANA Private Enterprise registration">IANA Private Enterprise registration page</a>. </p>
+        <p>The value is the basis for <a href="?p=594" title="OMNA Registry for OMA Private AVP Codes"class="reg-txtUnderline textHoverBrwn">OMNA Registry for OMA Private AVP Codes</a>.</p>
+        <div class="fl size99of100 mtm mid-hd-bg mbl">
+            Application IDs 
+        </div>
+        <p>IANA records Application Ids for use in Diameter applications. OMA applications can reserve specific values. </p>
+        <p>Application Id reserved for OMA defined use is </p>
+        <p  class="quoteBlack">Policy Processing 16777243 (0x100001B) </p>
+        <p>The registration can be located on the <a href="http://www.iana.org/assignments/aaa-parameters" class="reg-txtUnderline textHoverBrwn" target="_blank">IANA AAA Parameters Page</a>.</p>
+        <div class="fl size99of100 mtm mid-hd-bg mbl">
+           Application Provider Identifier 
+        </div>
+        <p>OMA has registered an Application Provider Identifier per the ISO/IEC 7816-5 Registration Authority. This will permit OMNA to provide Application Identifier (AID) codes for card applications by assigning Proprietary Application Identifier Extension (PIX) codes to differentiate different international IC card applications associated with OMA defined services.</p>
+        <p>The OMA Registered Application Provider Identifier (RID) is</p>
+        <p class="quoteBlack">A000000412 </p>
+        <div class="fl size99of100 mtm mid-hd-bg mbl">
+            DVB Service Information - CA System ID
+        </div>
+        <p>The Digital Video Broadcasting (DVB) Project provides a registry for values that are communicated over DVB systems. OMA has registered and received an assignment for a CA System ID value. This value is used for the CA_system_ID field of CA Descriptor of the DRM Content Format for MPEG-2 Profile OMA-TS-SCE_MDCF-V1_0.</p>
+        <p>The CA System ID registered for OMA is </p>
+        <p class="quoteBlack">0x0004</p>
+        <p>The DVB registrations can be reviewed at <a href="http://www.dvb.org/products_registration/dvb_identifiers/identifiers.xml?type=caSystemID" class="reg-txtUnderline textHoverBrwn" target="_blank">DVB Identifiers Registry for CA System ID</a>.</p>
+    </div>
+    <!-- This gets populated with the footer.html using Javascript -->
+    <div id="footer"></div>
+</body>
+</html>
