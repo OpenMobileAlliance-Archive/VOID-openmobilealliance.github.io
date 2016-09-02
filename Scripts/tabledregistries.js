@@ -1,4 +1,4 @@
-﻿$(document).ready(function () {
+﻿function SetUpExpandableTDs() {
     // Wrap the contents of the last td in a div to remove overflow
     $('.descriptive-table').find('td:last-child').wrapInner('<div class="expandable" />');
 
@@ -8,7 +8,7 @@
     });
 
     // On collapsible, collapse the item on click
-    $(document).on('click', 'a.collapser', function() {
+    $(document).on('click', 'a.collapser', function () {
         var $this = $(this);
 
         $this.siblings('div.expandable').animate({
@@ -24,7 +24,7 @@
 
         $this.hide();
     });
-    
+
 
 
     // *********************//
@@ -34,7 +34,7 @@
     if ($tableWithRowspan) {
         $tableWithRowspan.addClass('alternate-columns');
     };
-});
+};
 
 // Create all the elements for the expandable <div> elements
 function makeExpandable(item) {
