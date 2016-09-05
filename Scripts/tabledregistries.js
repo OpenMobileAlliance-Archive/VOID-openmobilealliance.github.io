@@ -1,4 +1,18 @@
-﻿function SetUpExpandableTDs() {
+﻿$(document).ready(function () {
+    TablesWithRowspanStyleChanges();
+});
+
+function TablesWithRowspanStyleChanges() {
+    // *********************//
+    // ** Styling changes **//
+    // *********************//
+    var $tableWithRowspan = $('table').find('tbody').find('td[rowspan]').closest('table');
+    if ($tableWithRowspan) {
+        $tableWithRowspan.addClass('alternate-columns');
+    };
+};
+
+function SetUpExpandableTDs() {
     // Wrap the contents of the last td in a div to remove overflow
     $('.descriptive-table').find('td:last-child').wrapInner('<div class="expandable" />');
 
@@ -24,16 +38,6 @@
 
         $this.hide();
     });
-
-
-
-    // *********************//
-    // ** Styling changes **//
-    // *********************//
-    var $tableWithRowspan = $('table').find('tbody').find('td[rowspan]').closest('table');
-    if ($tableWithRowspan) {
-        $tableWithRowspan.addClass('alternate-columns');
-    };
 };
 
 // Create all the elements for the expandable <div> elements
@@ -58,6 +62,15 @@ function makeExpandable(item) {
 
         // Create faded overlay for the expander element
         var fadeOverlay = document.createElement('div');
+
+        // Set the linear gradient colour to white if the row's background colour is transparent
+        var bgColour = $item.closest('tr').css('background-color');
+        if (bgColour == 'rgba(0, 0, 0, 0)') {
+            bgColour = 'white';
+        }
+
+        // Set the linear gradient fade colour based on the background colour of the row
+        $(fadeOverlay).css('background', 'linear-gradient(rgba(255,255,255,0) 20px, ' + bgColour + ')');
         fadeOverlay.className += ' expanderOverlay';
 
         $item.append($(fadeOverlay));
@@ -89,8 +102,9 @@ function createExpanderClickEvent(item) {
             $this.find('a.expander').hide();
 
             $this.toggleClass('expander');
+
+            $this.find('div.expanderOverlay').hide();
         });
 
-        $this.find('div.expanderOverlay').hide();
     });
 }
