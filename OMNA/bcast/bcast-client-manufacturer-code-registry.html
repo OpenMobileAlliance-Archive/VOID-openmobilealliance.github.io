@@ -5,13 +5,13 @@
     <title>Open Mobile Alliance - OMNA BCAST ClientManufacturerCode Registry</title>
     <meta charset="utf-8">
    <script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
-   <script src="/Scripts/LwM2MRegistry.js"></script>
+
 
     <!-- Font awesome for arrows -->
     <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
 
     <!-- Normalize CSS -->
-   <link rel="stylesheet" href="/CSS/Normalize.css" />
+   <link rel="stylesheet" href="/CSS/Normalize.css">
 
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
@@ -33,12 +33,15 @@
 </head>
 <body>
    <!-- This gets populated with the header.html using Javascript -->
+     <div id="header"></div>
+
+    <div class="container">
 
   <div class="fl size100of100 mid-cont-ttl mbm">OMNA BCAST ClientManufacturerCode Registry</div>
   <div class="fl size100of100  justify mbl">  
      <div>
          OMNA maintains a registry for <b class="pBoldl">ClientManufacturerCode </b>values to identify Vendors as established in section 6.11 of 
-         <a href="?p=633&rp=661&r_type=technical&fp=Technical/Release_Program/docs/BCAST/V1_0-20090212-A/OMA-TS-BCAST_SvcCntProtection-V1_0-20090212-A.pdf" class="reg-txtUnderline textHoverBrwn">OMA-TS-BCAST_SvcCntProtection-V1_0</a>. These values are used to fill in the  
+         <a href="http://devwww.openmobilealliance.org/release/BCAST/V1_0-20090212-A/OMA-TS-BCAST_SvcCntProtection-V1_0-20090212-A.pdf" class="reg-txtUnderline textHoverBrwn">OMA-TS-BCAST_SvcCntProtection-V1_0</a>. These values are used to fill in the  
          <b class="pBoldl">BCAST_Client_ID</b> identifier.  
      </div>
      </br>
@@ -70,7 +73,7 @@
         </tbody>
      </table>
      </br>
-     <p>For the normal range, the first byte of the code maps to the first letter of the Manufacturer name (e.g. A=1, B=2,...) where the second byte is assigned sequentially - based on order of request (request form available <a href="?p=936" class="reg-txtUnderline textHoverBrwn">here</a>).</p>
+     <p>For the normal range, the first byte of the code maps to the first letter of the Manufacturer name (e.g. A=1, B=2,...) where the second byte is assigned sequentially - based on order of request (request form available <a href="https://openmobilealliance.github.io/OMNA/registerpage.html#bcast-identification-authority" class="reg-txtUnderline textHoverBrwn">here</a>).</p>
      <table cellspacing="3" cellpadding="3" border="0" align="center" id="table3">
         <tbody>
            <tr>
