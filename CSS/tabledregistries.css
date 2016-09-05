@@ -9,11 +9,19 @@
 }
 
 
-.descriptive-table > tbody > tr > td:last-child {;
+.descriptive-table > tbody > tr > td:last-child {
     padding: 0;
     margin: 0;
     width: 50%;
 }
+
+/*.descriptive-table > tbody > tr:nth-child(odd) .expanderOverlay {
+    background: linear-gradient(rgba(255,255,255,0) 20px, white);
+}
+
+.descriptive-table > tbody > tr:nth-child(even) .expanderOverlay {
+    background: linear-gradient(rgba(255,255,255,0) 20px, rgba(219,238,243,255));
+}*/
 
 /* Styling for the last column in case of overflow (fixed height, etc) */
 div.expandable {
@@ -45,14 +53,6 @@ div.expanderOverlay {
     top: 0;
     pointer-events: none;
     cursor: zoom-in;
-}
-
-.descriptive-table > tbody > tr:nth-child(odd) .expanderOverlay {
-    background: linear-gradient(rgba(255,255,255,0) 20px, white);
-}
-
-.descriptive-table > tbody > tr:nth-child(even) .expanderOverlay {
-    background: linear-gradient(rgba(255,255,255,0) 20px, rgba(219,238,243,255));
 }
 
 

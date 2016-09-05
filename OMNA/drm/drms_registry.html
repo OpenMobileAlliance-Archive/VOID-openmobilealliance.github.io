@@ -1,0 +1,166 @@
+<!doctype html>
+<html>
+<head>
+
+    <title>Open Mobile Alliance - Digital Rights Management System (DRMS) Registry</title>
+    <meta charset="utf-8">
+    <script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
+
+    <!-- Font awesome for arrows -->
+    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+
+    <!-- Normalize CSS -->
+    <link rel="stylesheet" href="/CSS/Normalize.css">
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
+
+    <link rel="stylesheet" href="/CSS/Site.css">
+    <link rel="stylesheet" href="/CSS/registries.css">
+    <link rel="stylesheet" href="/CSS/grid_oocss.css">
+    <link rel="stylesheet" href="/CSS/spacing.css">
+
+    <script>
+        $(function () {
+            $('#header').load("/header.html");
+            $('#footer').load("/footer.html");
+        });
+    </script>
+</head>
+
+
+<body>
+    <!-- This gets populated with the header.html using Javascript -->
+    <div id="header"></div>
+
+    <div class="container">
+
+        <div class="fl size100of100 mid-cont-ttl mbm">OMA Digital Rights Management System (DRMS) Registry</div>
+        <div class="fl size100of100 justify mbl">
+            <p>OMNA maintains a registry of Digital Rights Management System (DRMS) URNs needed to fulfill the labelling requirements for system names. 
+            The System name element is described in the DRM Rights Expression Language (REL) specification (OMA-TS-DRM-REL-V2_1).</p>
+            <div class="fl size99of100 mid-hd-bg fb mbm">DRMS Naming Model</div>
+            <div class="size95of100 grp mll mtm clearfix">
+                <p>The DRMS Identifier registry namespace is divided into three:</p>
+                <ul class="size100of100">
+                    <li class="mtm fv">OMA-defined registrations</li>
+                    <li class="fv">External organizations registrations</li>
+                    <li class="fv">Private registrations</li>
+                </ul>
+                <p>These labels are defined in the following table:</p>
+            </div>
+            <table>
+                <tbody>
+                    <tr>
+                        <td class="TableTitre1" colspan="2">Label Description</td>
+                    </tr>
+                    <tr>
+                        <td class="TableTitre2">Name Model</td>
+                        <td class="TableTitre2">Description</td>
+                    </tr>
+                    <tr>
+                        <td class="TableP1big"><strong>oma</strong>-<em>&lt;type&gt;</em></td>
+                        <td class="TableP1little"><a href="#defined" shape="rect">OMA-defined Registrations</a></td>
+                    </tr>
+                    <tr>
+                        <td class="TableP1big"><strong>org-</strong><em>&lt;OrgLabel&gt;</em></td>
+                        <td class="TableP1little"><a href="#external" shape="rect">External Organization Registrations</a></td>
+                    </tr>
+                    <tr>
+                        <td class="TableP1big"><strong>x-</strong><em>&lt;PrivateLabel&gt;</em></td>
+                        <td class="TableP1little">Experimental or Private Uses (Not Registered)</td>
+                    </tr>
+                </tbody>
+            </table>
+            <br />
+            <div>All registration requests must follow the <a class="reg-txtUnderline textHoverBrwn" href="#">guidelines for DRMS Registrations</a>.</div>
+            <div class="fl size99of100 mtl mid-hd-bg fb mbm"><a name="defined"></a>OMA-Defined DRMS System Registry</div>
+            <p>Registration requests to this list must be approved by the DRM Working Group. The format of the OMA-defined registrations has the form:</p>
+            <p class="quote"><strong>urn:oma:drms:oma-</strong><em>&lt;Type&gt;:&lt;SystemName&gt;</em></p>
+            <p class="quote">where: &lt;Type&gt; characterizes the DRMS system form 
+                <br /> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;SystemName&gt; declares a specific system instance</p>
+            <p>Each entry provides information related to the group registering the system as well as a description of its usage.</p>
+            <table>
+                <tbody>
+                    <tr>
+                        <td class="TableTitre1" colspan="4">OMA-defined Registrations</td>
+                    </tr>
+                    <tr>
+                        <td class="TableTitre2">Type</td>
+                        <td class="TableTitre2">Registered URN</td>
+                        <td class="TableTitre2">Registrant</td>
+                        <td class="TableTitre2">Description</td>
+                    </tr>
+                    <tr>
+                        <td class="TableP1big" rowspan="2">drms</td>
+                        <td class="TableP1little">urn:oma:drms:oma-drms:srm</td>
+                        <td class="TableP1big">OMA DRM</td>
+                        <td class="TableP1little">OMA Secure Removable Media</td>
+                    </tr>
+                    <tr>
+                        <td class="TableP1little">urn:oma:drms:oma-drms:sce-a2a-move</td>
+                        <td class="TableP1big">OMA DRM</td>
+                        <td class="TableP1little">Move via A2A <br />(OMA DRM Secure Content Exchange)</td>
+                    </tr>
+                    <tr>
+                        <td class="TableP1big"> </td>
+                        <td class="TableP1little">urn:oma:drms:oma-drms:sce-ri-move</td>
+                        <td class="TableP1big">OMA DRM</td>
+                        <td class="TableP1little">Move via RI<br />(OMA DRM Secure Content Exchange)</td>
+                    </tr>
+                    <tr>
+                        <td class="TableP1big"> </td>
+                        <td class="TableP1little">urn:oma:drms:oma-drms:kms-multicast:1.0</td>
+                        <td class="TableP1big">OMA DRM</td>
+                        <td class="TableP1little">DRM 2.2 KMS extension for multicast streaming protection support</td>
+                    </tr>
+                    <tr>
+                        <td class="TableP1big" rowspan="2">appl</td>
+                        <td class="TableP1little">urn:oma:drms:oma-appl:media-player-consumption</td>
+                        <td class="TableP1big">OMA DRM</td>
+                        <td class="TableP1little">User-initiated rendering, i.e. triggered by a user interaction</td>
+                    </tr>
+                    <tr>
+                        <td class="TableP1little">urn:oma:drms:oma-appl:automated-consumption</td>
+                        <td class="TableP1big">OMA DRM</td>
+                        <td class="TableP1little">Non-user initiated rendering, i.e. triggered by an external event. It is applicable for ring-tones, video-tones, wallpapers, alarms, etc</td>
+                    </tr>
+                </tbody>
+            </table>
+            <div class="fl size99of100 mtl mid-hd-bg fb mbm">External Organization Registry</div>
+            <p>Registrations in this list are of root URNs assigned to external organizations. As roots, they may have subordinate components defined by 
+            the registering entity. OMNA does not track these items and does not make any claims as to appropriate use for the resulting values. Please 
+            examine the links to get information for the usage as defined by the specific organizations.</p>
+            <table>
+                <tbody>
+                    <tr>
+                        <td class="TableTitre1" colspan="4"><a name="external" shape="rect"></a>External Organization Registrations</td>
+                    </tr>
+                    <tr>
+                        <td class="TableTitre2">Org Label</td>
+                        <td class="TableTitre2">Registered URN root</td>
+                        <td class="TableTitre2">Registrant</td>
+                        <td class="TableTitre2">Further information</td>
+                    </tr>
+                    <tr>
+                        <td class="TableP1big">-</td>
+                        <td class="TableP1little">-</td>
+                        <td class="TableP1big">-</td>
+                        <td class="TableP1little">-</td>
+                    </tr>
+                </tbody>
+            </table>
+            <br />
+            <p>Organizations wishing to register a root URN should submit the External Organization Request <a href="/OMNA/registerpage.html#digital-rights-management-system">here</a>.</p>
+        </div>
+        
+    </div>
+
+
+    <!-- This gets populated with the footer.html using Javascript -->
+    <div id="footer"></div>
+</body>
+</html>

@@ -7,6 +7,9 @@
     <meta charset="utf-8">
     <script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
 
+
+    <script src="/Scripts/tabledregistries.js"></script>
+
     <!-- Normalize CSS -->
     <link rel="stylesheet" href="/CSS/Normalize.css" />
 
@@ -17,10 +20,12 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
 
     <link rel="stylesheet" href="/CSS/Site.css">
+    <link rel="stylesheet" href="/CSS/tabledregistries.css">
 
     <script>
         $(function () {
             $('#header').load("/header.html");
+            $('#footer').load("/footer.html");
         });
     </script>
 </head>
@@ -62,6 +67,26 @@
                 </thead>
                 <tbody>
                     <tr>
+                        <td rowspan="2">
+                            0
+                        </td>
+                        <td rowspan="2">
+                            <h4>Digital Video Broadcasting (DVB)</h4>
+                            <p>Labels and Values based on ETSI EN 300-468</p>
+                            <p>OMNA will not be assigning values in this set</p>
+                        </td>
+                        <td>
+                            0
+                        </td>
+                        <td>
+                            undefined
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>1-15</td>
+                        <td>minimum age minus 3 years</td>
+                    </tr>
+                    <tr>
                         <td rowspan="3">
                             0
                         </td>
@@ -85,9 +110,34 @@
                         <td>16-255</td>
                         <td>defined by the broadcaster</td>
                     </tr>
+                    <tr>
+                        <td>
+                            0
+                        </td>
+                        <td rowspan="2">
+                            <h4>Digital Video Broadcasting (DVB)</h4>
+                            <p>Labels and Values based on ETSI EN 300-468</p>
+                            <p>OMNA will not be assigning values in this set</p>
+                        </td>
+                        <td>
+                            0
+                        </td>
+                        <td>
+                            undefined
+                        </td>
+                    </tr>
+                    <tr>
+                        <td> - </td>
+                        <td style="display: none;"></td>
+                        <td>1-15</td>
+                        <td>minimum age minus 3 years</td>
+                    </tr>
                 </tbody>
             </table>
         </div>
     </div>
+
+    <!-- This gets populated with the footer.html using Javascript -->
+    <div id="footer"></div>
 </body>
 </html>
