@@ -1,0 +1,156 @@
+<!doctype html>
+<html>
+<head>
+
+    <title>Open Mobile Alliance - GBA Protocol Identifiers</title>
+    <meta charset="utf-8">
+    <script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
+    <script src="/Scripts/tabledregistries.js"></script>
+
+    <!-- Font awesome for arrows -->
+    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+
+    <!-- Normalize CSS -->
+    <link rel="stylesheet" href="/CSS/Normalize.css" />
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
+
+    <link rel="stylesheet" href="/CSS/Site.css">
+    <link rel="stylesheet" href="/CSS/tabledregistries.css">
+
+    <script>
+        $(function () {
+            $('#header').load("/header.html");
+            $('#footer').load("/footer.html");
+        });
+    </script>
+</head>
+
+
+<body>
+    <!-- This gets populated with the header.html using Javascript -->
+    <div id="header"></div>
+
+    <div class="container">
+        <div>
+            <h1>OMA GBA Protocol Identifiers</h1>
+        </div>
+        <div>
+            <p>The following registry records OMA-declared Protocol Identifiers in support of Generic Bootstrap Architecture (GBA). These Protocol Identifiers are defined as the Ua Security Protocol Identifier [ <a href="http://www.3gpp.org/ftp/Specs/html-info/33220.htm" target="_blank">3GPP TS33.220</a> ] as a five octet string. The first byte is the Organization Octet followed by four octets which unambiguously declare the specific protocol scheme to utilize.</p>
+            <p>OMA has received the value of<strong> 0x03</strong> for the Organization Octet to permit it to declare protocol identifiers in its domain. This registry serves to record all such assignments.</p>
+        </div>
+        <div>
+            <h2>OMA GBA Protocol Identifiers Registration Table</h2>
+            <p>The following table covers the codes allocated by OMNA. These values are assigned for protocol whose use declared in OMA Enablers and are unable to utilize a pre-existing registration (considering OMA and other Organizational assignments).</p>
+            <table id="GBA_PIR-table" class="table-bordered">
+                <thead>
+                    <tr>
+                        <td>Protocol Description</td>
+                        <td>Octet String</td>
+                        <td>Specification References</td>
+                        <td>OMA Enabler Usage</td>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td colspan="4">Non-versioned Schemes</td>
+                    </tr>
+                    <tr>
+                        <td>User Plane Location Protocol</td>
+                        <td>0x03, 0x00, 0x00, 0x00, 0x01</td>
+                        <td>OMA-TS-ULP-V2_0</td>
+                        <td><a href="http://devwww.openmobilealliance.org/release/SUPL/">SUPL V2.0</a></td>
+                    </tr>
+                    <tr>
+                        <td>LOCSIP</td>
+                        <td>0x03, 0x00, 0x00, 0x00, 0x02</td>
+                        <td>OMA-TS-LOCSIP-V1_0</td>
+                        <td><a href="http://devwww.openmobilealliance.org/release/LOCSIP/">LOCSIP V1.0</a></td>
+                    </tr>
+                    <tr>
+                        <td>SIP Digest</td>
+                        <td>0x03, 0x00, 0x00, 0x00, 0x03</td>
+                        <td>SEC CF RFC3261</td>
+                        <td><a href="http://devwww.openmobilealliance.org/release/SEC_CF/">SEC CF V1.1</a></td>
+                    </tr>
+                    <tr>
+                        <td colspan="4">Versioned Schemes</td>
+                    </tr>
+                    <tr>
+                        <td>TLS</td>
+                        <td>0x03, 0x00, 0x01, 0xYY, 0xZZ</td>
+                        <td>OMA-TS-GBA_Profile-V1_0<br />Note: in this use, 'YY ZZ' is the protection mechanism<br />CipherSuite code according to the defined values for<br /> TLS CipherSuites in<br /> - <a href="http://www.ietf.org/rfc/rfc4346.txt" target="_blank" shape="rect">RFC4346 (TLS 1.1)</a><br /> - <a href="http://www.ietf.org/rfc/rfc4279.txt" target="_blank" shape="rect">RFC4279 (PSK-TLS)</a></td>
+                        <td><a href="http://devwww.openmobilealliance.org/release/SEC_CF/">SEC CF V1.0</a></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div>
+            <h2>OMA Usage of External GBA Protocol Identifiers</h2>
+            <p>This table lists know usage of protocol schemes registered by other organizations. Such reuse is encouraged where the scheme fits the needs.</p>
+            <table id="UEGPI-table" class="table-bordered">
+                <thead>
+                    <tr>
+                        <td>Protocol Description</td>
+                        <td>Octet String</td>
+                        <td>Specification References</td>
+                        <td>OMA Enabler Usage</td>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>MBMS Security</td>
+                        <td>0x01, 0x00, 0x00, 0x00, 0x01</td>
+                        <td><a href="http://www.3gpp.org/ftp/Specs/html-info/33246.htm" target="_blank" shape="rect">3GPP TS 33.246</a></td>
+                        <td><a href="http://devwww.openmobilealliance.org/release/BCAST/">BCAST V1.0</a></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div>
+            <h2>Allocation Scheme for OMA-defined GBA Protocol Identifiers</h2>
+            <p>OMA will allocate the GBA Protocol Identifier as the five octet string 0x03,0xWW,0xXX,0xYY,0xZZ. These strings will cover different types of code schemes according to the following table:</p>
+            <table id="ASOGPI-table" class="table-bordered">
+                <tbody>
+                    <tr>
+                        <td>Allocation Type</td>
+                        <td>Pattern Rule</td>
+                        <td>Description</td>
+                    </tr>
+                    <tr>
+                        <td>Non-versioned Schemes</td>
+                        <td>WW=0x00 &amp; XX=0x00</td>
+                        <td>Schemes explicitly identified by the YY and ZZ values</td>
+                    </tr>
+                    <tr>
+                        <td>Versioned Schemes</td>
+                        <td>WW=0x00 &amp; 0x01&lt;=XX&lt;=0xFF</td>
+                        <td>Schemes where the YY and ZZ values distinguish specific options</td>
+                    </tr>
+                    <tr>
+                        <td>Reserved</td>
+                        <td>0x01&lt;=WW&lt;=0xFE</td>
+                        <td>Intended to provide for future uses</td>
+                    </tr>
+                    <tr>
+                        <td>Experimental</td>
+                        <td>WW=0xFF</td>
+                        <td>Uses will not be registered</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div>
+            <h2>Acquiring an OMNA-assigned GBA Protocol Identifier</h2>
+            <p>At present, OMNA assignments into this registry are made only for OMA Working Groups.</p>
+        </div>
+    </div>
+
+    <!-- This gets populated with the footer.html using Javascript -->
+    <div id="footer"></div>
+</body>
+</html>
