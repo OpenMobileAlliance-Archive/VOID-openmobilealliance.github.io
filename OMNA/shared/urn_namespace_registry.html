@@ -1,0 +1,108 @@
+<!doctype html>
+<html>
+<head>
+
+    <title>Open Mobile Alliance - (URN) / Namespace Registry</title>
+    <meta charset="utf-8">
+    <script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
+
+    <!-- Font awesome for arrows -->
+    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+
+    <!-- Normalize CSS -->
+    <link rel="stylesheet" href="/CSS/Normalize.css">
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
+
+    <link rel="stylesheet" href="/CSS/Site.css">
+    <link rel="stylesheet" href="/CSS/registries.css">
+    <link rel="stylesheet" href="/CSS/grid_oocss.css">
+    <link rel="stylesheet" href="/CSS/spacing.css">
+
+    <script>
+        $(function () {
+            $('#header').load("/header.html");
+            $('#footer').load("/footer.html");
+        });
+    </script>
+</head>
+
+
+<body>
+    <!-- This gets populated with the header.html using Javascript -->
+    <div id="header"></div>
+
+    <div class="container">
+
+        <table class="oma_content_panel">
+            <tbody>
+                <tr>
+                    <td id="content_main_onecol" class="tpl_oma_onecol">
+                        <div id="ctl00_Content_StaticZone543_wrapper">
+                            <div id="ctl00_Content_StaticZone543"><span class="OmaTitle1">OMA (URN) / Namespace Registry</span><br /><br /><span class="OmaP1">OMA 
+                            maintains a namespace registry based on URNs in support of the specifications produced by OMA. The OMA registry allocates these URNs based 
+                            upon a <a href="http://www.iana.org/assignments/urn-namespaces" target="_blank" shape="rect">reserved NID ('oma')</a>. See 
+                            <a href="http://www.ietf.org/rfc/rfc4358.txt" target="_blank" shape="rect">RFC 4358</a> for the document which reserved this NID. </span>
+                                <p class="OmaP1">The Namespace Specific String (NSS) of all URNs that use the 'oma' NID will have the following structure:</p>
+                                <div class=" urnText">urn:oma:{OMAresource}{ResourceSpecificString}</div>
+                                <p class="OmaP1">For each OMAresource there is room for further allocations specific to the resource. The following table links to the current 
+                                URN allocations using this mode.<br /><br /></p>
+                                <table>
+                                    <tbody>
+                                        <tr>
+                                            <td class="TableTitre1" colspan="3">OMA Resource Allocations</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="TableTitre2">OMAresource Label</td>
+                                            <td class="TableTitre2">Description</td>
+                                            <td class="TableTitre2">Further Information</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="TableP1big">ac</td>
+                                            <td class="TableP1little">
+                                                <div>Application Characteristic</div>
+                                            </td>
+                                            <td class="TableP1bigCenter"><a title="OMNA DM AC Registry" href="/OMNA/dm/dm_ac_registry.html">DM AC Page</a></td>
+                                        </tr>
+                                        <tr>
+                                            <td class="TableP1big">drms</td>
+                                            <td class="TableP1little">Digital Rights Management System</td>
+                                            <td class="TableP1bigCenter"><a title="OMNA DRMS Registry" href="/OMNA/dm/drms_registry.html">DRMS Root URNs</a></td>
+                                        </tr>
+                                        <tr>
+                                            <td class="TableP1big">mo</td>
+                                            <td class="TableP1little">Managed Object</td>
+                                            <td class="TableP1bigCenter"><a title="OMNA DM MO Registry" href="/OMNA/dm/dm_mo_registry.html">DM MO Registry</a></td>
+                                        </tr>
+                                        <tr>
+                                            <td class="TableP1big">xml</td>
+                                            <td class="TableP1little">
+                                                <div>XML Schemas</div>
+                                            </td>
+                                            <td class="TableP1bigCenter"><a title="OMNA Schema-based Namespace Registry" href="/OMNA/shared/schema_based_namespace_registry.html">Schema-based URNs</a></td>
+                                        </tr>
+                                        <tr>
+                                            <td class="TableP1big">wsdl</td>
+                                            <td class="TableP1little">WSDL Packages</td>
+                                            <td class="TableP1bigCenter"><a title="OMA WSDL Packages" href="/OMNA/WSDL-packages/WSDL-packages.html">URNs for use in WSDL</a></td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+
+    </div>
+
+
+    <!-- This gets populated with the footer.html using Javascript -->
+    <div id="footer"></div>
+</body>
+</html>
