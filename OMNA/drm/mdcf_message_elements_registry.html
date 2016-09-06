@@ -1,0 +1,275 @@
+<!doctype html>
+<html>
+<head>
+
+    <title>Open Mobile Alliance - MPEG-2 DRM Control Format (MDCF) Message Elements Registry</title>
+    <meta charset="utf-8">
+    <script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
+
+    <!-- Font awesome for arrows -->
+    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+
+    <!-- Normalize CSS -->
+    <link rel="stylesheet" href="/CSS/Normalize.css">
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
+
+    <link rel="stylesheet" href="/CSS/Site.css">
+    <link rel="stylesheet" href="/CSS/registries.css">
+    <link rel="stylesheet" href="/CSS/grid_oocss.css">
+    <link rel="stylesheet" href="/CSS/spacing.css">
+
+    <script>
+        $(function () {
+            $('#header').load("/header.html");
+            $('#footer').load("/footer.html");
+        });
+    </script>
+</head>
+
+
+<body>
+    <!-- This gets populated with the header.html using Javascript -->
+    <div id="header"></div>
+
+    <div class="container">
+
+        <div class="fl size100of100 mid-cont-ttl mbm">OMA MPEG-2 DRM Control Format (MDCF) Message Elements Registry</div>
+        <div class="fl size100of100  justify mbl">
+            <div class="size100of100">
+            </div>
+            <p>The MDCF protocol ( <a href="http://devwww.openmobilealliance.org/release/SCE/V1_0-20081209-C/OMA-TS-SCE_MDCF-V1_0-20081209-C.pdf">OMA-TS-SCE_MDCF-V1_0</a> ) 
+            includes several message elements which permit values to be assigned by registration. This OMNA registry supports the following message elements: </p>
+            <div class="size95of100 grp mll mtm clearfix">
+                <ul class="size100of100">
+                    <li><a href="#CA">CA_descriptor_message_ID </a></li>
+                    <li><a href="#CID">CID_message_ID </a></li>
+                    <li><a href="#rights">rights_URL_message_ID </a></li>
+                </ul>
+            </div>
+            <hr></hr>
+            <div class="fl size99of100 mtl mid-hd-bg fb mbm">
+                CA_descriptor_message_ID registry <a name="CA"></a>
+            </div>
+            <div>
+                This registry records assigned values for the CA_descriptor_message_ID field as described in section 5.3.1 of 
+                <a href="http://devwww.openmobilealliance.org/release/SCE/V1_0-20081209-C/OMA-TS-SCE_MDCF-V1_0-20081209-C.pdf">OMA-TS-SCE_MDCF-V1_0</a> identifies a specific message. 
+            </div>
+            <p>The CA_descriptor_message_ID field is eight bits long and the possible values have been segregated as follows: </p>
+            <table>
+                <tbody>
+                    <tr>
+                        <td class="TableTitre2">Range </td>
+                        <td class="TableTitre2">Description </td>
+                    </tr>
+                    <tr>
+                        <td class="TableP1big">0x00-0x1F </td>
+                        <td class="TableP1big">reserved for use by OMA </td>
+                    </tr>
+                    <tr>
+                        <td class="TableP1big">0x20-0xF7 </td>
+                        <td class="TableP1big">values used for MDCF applications assigned in this registry </td>
+                    </tr>
+                    <tr>
+                        <td class="TableP1big">0xF8-0xFE </td>
+                        <td class="TableP1big">available for private/experimental use - not recorded </td>
+                    </tr>
+                    <tr>
+                        <td class="TableP1big">0xFF </td>
+                        <td class="TableP1big">reserved for future use </td>
+                    </tr>
+                </tbody>
+            </table>
+            <p class="pBold">CA_descriptor_message_ID Registration Assignments </p>
+            <table class="mtl mbl">
+                <tbody>
+                    <tr>
+                        <td colspan="3" class="TableTitre1">CA_descriptor_message_ID</td>
+                    </tr>
+                    <tr>
+                        <td class="TableTitre2">Value </td>
+                        <td class="TableTitre2">Description </td>
+                        <td class="TableTitre2">Supporting Information </td>
+                    </tr>
+                    <tr>
+                        <td align="center" colspan="3" class="TableP1little">OMA defined values </td>
+                    </tr>
+                    <tr>
+                        <td class="TableP1big"><em>0x00-0x1F </em></td>
+                        <td class="TableP1big"><em>Reserved for future use by OMA </em></td>
+                        <td class="TableP1big">- </td>
+                    </tr>
+                    <tr>
+                        <td align="center" colspan="3" class="TableP1little">External MDCF Applications </td>
+                    </tr>
+                    <tr>
+                        <td class="TableP1big"><em>0x20-0xF7</em></td>
+                        <td class="TableP1big"><em>Reserved for future assignment </em></td>
+                        <td class="TableP1big">- </td>
+                    </tr>
+                </tbody>
+            </table>
+            <div class="pBold">Requesting an assignment for <b class="pDescriptor">CA_descriptor_message_ID :</b></div>
+            <p>The information to be included in a request for an assigned value may be found <a href="/OMNA/registerpage.html#mpeg-drm-control-format">here</a>.</p>
+            <hr></hr>
+            <div class="fl size99of100 mtl mid-hd-bg fb mbm">
+                CID_message_ID registry <a name="CID"></a>
+            </div>
+            <div>This registry records assigned values for the CID_message_ID field as described in section 5.4.2.1 of 
+            <a href="http://devwww.openmobilealliance.org/release/SCE/V1_0-20081209-C/OMA-TS-SCE_MDCF-V1_0-20081209-C.pdf">OMA-TS-SCE_MDCF-V1_0</a> identifies a specific CID message. </div>
+            <div>The CID_message_ID field is eight bits long and the possible values have been segregated as follows:  </div>
+            <table cellspacing="0" cellpadding="0" border="0" align="center" class="mtl">
+                <tbody>
+                    <tr>
+                        <td class="TableTitre2">Range </td>
+                        <td class="TableTitre2">Description </td>
+                    </tr>
+                    <tr>
+                        <td class="TableP1big">0x00-0x1F </td>
+                        <td class="TableP1big">reserved for use by OMA </td>
+                    </tr>
+                    <tr>
+                        <td class="TableP1big">0x20-0xF7 </td>
+                        <td class="TableP1big">values used for MDCF applications assigned in this registry </td>
+                    </tr>
+                    <tr>
+                        <td class="TableP1big">0xF8-0xFE </td>
+                        <td class="TableP1big">available for private/experimental use - not recorded </td>
+                    </tr>
+                    <tr>
+                        <td class="TableP1big">0xFF </td>
+                        <td class="TableP1big">reserved for future use </td>
+                    </tr>
+                </tbody>
+            </table>
+            <p class="pBold">CID_message_ID Registration Assignments</p>
+            <table cellspacing="0" cellpadding="0" border="0" style="width: 100%" class="mtl">
+                <tbody>
+                    <tr>
+                        <td colspan="3" class="TableTitre1">CID_message_ID </td>
+                    </tr>
+                    <tr>
+                        <td class="TableTitre2">Value </td>
+                        <td class="TableTitre2">Description </td>
+                        <td class="TableTitre2">Supporting Information </td>
+                    </tr>
+                    <tr>
+                        <td align="center" colspan="3" class="TableP1little">OMA defined values </td>
+                    </tr>
+                    <tr>
+                        <td class="TableP1big">0x00 </td>
+                        <td class="TableP1big">baseCID </td>
+                        <td class="TableP1big">Specification Not yet Available </td>
+                    </tr>
+                    <tr>
+                        <td class="TableP1big">0x01 </td>
+                        <td class="TableP1big">socID </td>
+                        <td class="TableP1big">Specification Not yet Available </td>
+                    </tr>
+                    <tr>
+                        <td class="TableP1big"><em>0x02-0x1F </em></td>
+                        <td class="TableP1big"><em>Reserved for future use by OMA </em></td>
+                        <td class="TableP1big">- </td>
+                    </tr>
+                    <tr>
+                        <td align="center" colspan="3" class="TableP1little">External MDCF Applications </td>
+                    </tr>
+                    <tr>
+                        <td class="TableP1big"><em>0x20-0xF7 </em></td>
+                        <td class="TableP1big"><em>Reserved for future assignment </em></td>
+                        <td class="TableP1big">- </td>
+                    </tr>
+                </tbody>
+            </table>
+            <p class="pBold">Requesting an assignment for CID_message_ID </p>
+            <p>The information to be included in an assigned value request may be found <a href="/OMNA/registerpage.html#mpeg-drm-control-format">here</a>.</p>
+            <hr></hr>
+            <div class="fl size99of100 mtl mid-hd-bg fb mbm">
+                rights_URL_message_ID registry <a name="rights"></a>
+            </div>
+            <div>This registry records assigned values for the rights_URL_message_ID field as described in section 5.4.3.1 of 
+                 <a href="http://devwww.openmobilealliance.org/release/SCE/V1_0-20081209-C/OMA-TS-SCE_MDCF-V1_0-20081209-C.pdf">OMA-TS-SCE_MDCF-V1_0</a> identifies a specific message. 
+            </div>
+            <div class="mtl">The rights_URL_message_ID field is eight bits long and the possible values have been segregated as follows:  </div>
+            <table cellspacing="0" cellpadding="0" border="0" align="center" class="mtl">
+                <tbody>
+                    <tr>
+                        <td class="TableTitre2">Range </td>
+                        <td class="TableTitre2">Description </td>
+                    </tr>
+                    <tr>
+                        <td class="TableP1big">0x00-0x1F </td>
+                        <td class="TableP1big">reserved for use by OMA </td>
+                    </tr>
+                    <tr>
+                        <td class="TableP1big">0x20-0xF7 </td>
+                        <td class="TableP1big">values used for MDCF applications assigned in this registry </td>
+                    </tr>
+                    <tr>
+                        <td class="TableP1big">0xF8-0xFE </td>
+                        <td class="TableP1big">available for private/experimental use - not recorded </td>
+                    </tr>
+                    <tr>
+                        <td class="TableP1big">0xFF </td>
+                        <td class="TableP1big">reserved for future use </td>
+                    </tr>
+                </tbody>
+            </table>
+            <p class="pBold">rights_URL_message_ID Registration Assignments </p>
+            <table cellspacing="0" cellpadding="0" border="0" style="width: 100%">
+                <tbody>
+                    <tr>
+                        <td colspan="3" class="TableTitre1"><strong>rights_URL_message_ID </strong></td>
+                    </tr>
+                    <tr>
+                        <td class="TableTitre2">Value </td>
+                        <td class="TableTitre2">Description </td>
+                        <td class="TableTitre2">Supporting Information </td>
+                    </tr>
+                    <tr>
+                        <td align="center" colspan="3" class="TableP1little">OMA defined values </td>
+                    </tr>
+                    <tr>
+                        <td class="TableP1big">0x00 </td>
+                        <td class="TableP1big">RightsIssuerURL </td>
+                        <td class="TableP1big">Specification Not yet Available </td>
+                    </tr>
+                    <tr>
+                        <td class="TableP1big">0x01 </td>
+                        <td class="TableP1big">SilentRightsURL </td>
+                        <td class="TableP1big">Specification Not yet Available </td>
+                    </tr>
+                    <tr>
+                        <td class="TableP1big">0x02 </td>
+                        <td class="TableP1big">PreviewRightsURL </td>
+                        <td class="TableP1big">Specification Not yet Available </td>
+                    </tr>
+                    <tr>
+                        <td class="TableP1big"><em>0x03-0x1F </em></td>
+                        <td class="TableP1big"><em>Reserved for future use by OMA </em></td>
+                        <td class="TableP1big">- </td>
+                    </tr>
+                    <tr>
+                        <td align="center" colspan="3" class="TableP1little">External MDCF Applications </td>
+                    </tr>
+                    <tr>
+                        <td class="TableP1big"><em>0x20-0xF7 </em></td>
+                        <td colspan="2" class="TableP1big"><em>Reserved for future assignment </em></td>
+                    </tr>
+                </tbody>
+            </table>
+            <p class="pBold mtl">Requesting an assignment for rights_URL_message_ID </p>
+            <p>The information to be included in an assigned value request may be found <a href="/OMNA/registerpage.html#mpeg-drm-control-format">here</a>.</p>
+        </div>
+
+    </div>
+
+
+    <!-- This gets populated with the footer.html using Javascript -->
+    <div id="footer"></div>
+</body>
+</html>
