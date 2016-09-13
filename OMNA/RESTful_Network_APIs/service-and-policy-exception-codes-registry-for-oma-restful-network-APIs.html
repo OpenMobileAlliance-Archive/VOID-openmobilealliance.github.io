@@ -1,28 +1,21 @@
 ﻿<!doctype html>
 <html>
 <head>
-
     <title>Open Mobile Alliance - OMNA Service and Policy exception codes registry for OMA RESTful Network APIs</title>
     <meta charset="utf-8">
     <script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
-
     <!-- Font awesome for arrows -->
     <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
-
     <!-- Normalize CSS -->
     <link rel="stylesheet" href="/CSS/Normalize.css">
-
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
-
     <!-- Optional theme -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
-
     <link rel="stylesheet" href="/CSS/Site.css">
     <link rel="stylesheet" href="/CSS/registries.css">
     <link rel="stylesheet" href="/CSS/grid_oocss.css">
     <link rel="stylesheet" href="/CSS/spacing.css">
-
     <script>
         $(function () {
             $('#header').load("/header.html");
@@ -31,840 +24,861 @@
     </script>
 </head>
 
-
 <body>
     <!-- This gets populated with the header.html using Javascript -->
     <div id="header"></div>
-
     <div class="container">
-<div class="fl size100of100 mid-cont-ttl mbm">OMNA Service and Policy exception codes registry for OMA RESTful Network APIs</div>
-<div class="fl size100of100 justify mbl">
-<div>This registry stores the exception codes for Service Exceptions and Policy Exceptions of the OMA RESTful Network APIs.</div>
-<p style="margin-bottom: 0;">The exception codes from 0001 to 0999 have been inherited from ParlayX [PSA1.0] and ParlayREST[ParlayREST2.0]. New exception codes defined by the individual OMA RESTful Network APIs occupy the range from 1000 to 1999.</p>
-New common exception codes are defined in the range from 2000 to 2099. The range from 2100 to 2999 is reserved for future use. The range from 3000 to 3499 can be used for experimental or private purposes; these values will not be assigned in a specification.
+        <div class="fl size100of100 mid-cont-ttl mbm">OMNA Service and Policy exception codes registry for OMA RESTful Network APIs</div>
+        <div class="fl size100of100 justify mbl">
+            <div>This registry stores the exception codes for Service Exceptions and Policy Exceptions of the OMA RESTful Network APIs.</div>
+            <p style="margin-bottom: 0;">The exception codes from 0001 to 0999 have been inherited from ParlayX [PSA1.0] and ParlayREST[ParlayREST2.0]. New exception codes defined by the individual OMA RESTful Network APIs occupy the range from 1000 to 1999.</p>
+            New common exception codes are defined in the range from 2000 to 2099. The range from 2100 to 2999 is reserved for future use. The range from 3000 to 3499 can be used for experimental or private purposes; these values will not be assigned in a specification.
 
-The following assignment policy applies to this registry:
-<div class="size95of100 grp mll mtm clearfix">
-<ul class="size100of100">
-	<li class="mtm fv">New assignments to be requested by eMail to <a class="reg-txtUnderline textHoverBrwn" href="mailto:helpdesk@omaorg.org">OMNA</a></li>
-	<li class="fv">The content for 'Meaning' and the link to the affected specification needs to be provided.</li>
-	<li class="fv">The desired code range (1000+ or 2000+) needs to be indicated.</li>
-	<li class="fv">This registry is restricted to OMA specifications only</li>
-	<li class="fv">The request will be forwarded by OMNA to the Architecture WG for review</li>
-	<li class="fv">New assignments will receive an unassigned number (usually the lowest) in the appropriate range. Only numbers from ranges open for assignment will be assigned.</li>
-</ul>
-</div>
-<div class="fl size100of100 mid-hd-bg mbl mtl">Service Exceptions</div>
-<h4>SVC0001-0999</h4>
-The codes in this range have been inherited by the OMA RESTfulNetwork APIs from the ParlayX and ParlayREST specifications. OMNA may only assign new codes for RESTful Network APIs in this range if this code is definded as a result of a change to the underlying ParlayX or ParlayREST specifications.
-<table class="mtl" style="width: 100%;" border="0" cellspacing="0" cellpadding="0">
-<tbody>
-<tr>
-<td class="TableTitre2 " valign="top" width="72">Code</td>
-<td class="TableTitre2 " valign="top" width="323">Meaning</td>
-<td class="TableTitre2 " valign="top" width="285">Reference(s)</td>
-</tr>
-<tr>
-<td class="TableP1big" style="height: 23px;" align="left" valign="middle" width="72">SVC0001</td>
-<td class="TableP1big" style="height: 23px;" align="left" valign="middle" width="323">Service error</td>
-<td class="TableP1big" style="height: 23px;" valign="top" width="285"><a href="http://www.3gpp.org/ftp/Specs/html-info/29199-01.htm">3GPP TS 29.199-01</a>,<a href="http://devwww.openmobilealliance.org/release/REST_NetAPI_Common/V1_0-20120417-C/OMA-TS-REST_NetAPI_Common-V1_0-20120417-C.pdf">OMA-TS-REST_NetAPI_Common-V1_0</a></td>
-</tr>
-<tr>
-<td class="TableP1big" align="left" valign="middle" width="72">SVC0002</td>
-<td class="TableP1big" valign="bottom" width="323">Invalid input value</td>
-<td class="TableP1big" valign="top" width="285"><a href="http://www.3gpp.org/ftp/Specs/html-info/29199-01.htm">3GPP TS 29.199-01</a>,<a href="http://devwww.openmobilealliance.org/release/REST_NetAPI_Common/V1_0-20120417-C/OMA-TS-REST_NetAPI_Common-V1_0-20120417-C.pdf">OMA-TS-REST_NetAPI_Common-V1_0</a></td>
-</tr>
-<tr>
-<td class="TableP1big" valign="bottom" width="72">SVC0003</td>
-<td class="TableP1big" valign="bottom" width="323">Invalid input value with list of valid values</td>
-<td class="TableP1big" valign="top" width="285"><a href="http://www.3gpp.org/ftp/Specs/html-info/29199-01.htm">3GPP TS 29.199-01</a>,<a href="http://devwww.openmobilealliance.org/release/REST_NetAPI_Common/V1_0-20120417-C/OMA-TS-REST_NetAPI_Common-V1_0-20120417-C.pdf">OMA-TS-REST_NetAPI_Common-V1_0</a></td>
-</tr>
-<tr>
-<td class="TableP1big" valign="bottom" width="72">SVC0004</td>
-<td class="TableP1big" valign="bottom" width="323">No valid address(es)</td>
-<td class="TableP1big" valign="top" width="285"><a href="http://www.3gpp.org/ftp/Specs/html-info/29199-01.htm">3GPP TS 29.199-01</a>,<a href="http://devwww.openmobilealliance.org/release/REST_NetAPI_Common/V1_0-20120417-C/OMA-TS-REST_NetAPI_Common-V1_0-20120417-C.pdf">OMA-TS-REST_NetAPI_Common-V1_0</a></td>
-</tr>
-<tr>
-<td class="TableP1big" valign="bottom" width="72">SVC0005</td>
-<td class="TableP1big" valign="bottom" width="323">Duplicate correlator</td>
-<td class="TableP1big" valign="top" width="285"><a href="http://www.3gpp.org/ftp/Specs/html-info/29199-01.htm">3GPP TS 29.199-01</a>,<a href="http://devwww.openmobilealliance.org/release/REST_NetAPI_Common/V1_0-20120417-C/OMA-TS-REST_NetAPI_Common-V1_0-20120417-C.pdf">OMA-TS-REST_NetAPI_Common-V1_0</a></td>
-</tr>
-<tr>
-<td class="TableP1big" valign="bottom" width="72">SVC0006</td>
-<td class="TableP1big" valign="bottom" width="323">Invalid group</td>
-<td class="TableP1big" valign="top" width="285"><a href="http://www.3gpp.org/ftp/Specs/html-info/29199-01.htm">3GPP TS 29.199-01</a><a href="http://devwww.openmobilealliance.org/release/REST_NetAPI_Common/V1_0-20120417-C/OMA-TS-REST_NetAPI_Common-V1_0-20120417-C.pdf">OMA-TS-REST_NetAPI_Common-V1_0</a></td>
-</tr>
-<tr>
-<td class="TableP1big" valign="bottom" width="72">SVC0007</td>
-<td class="TableP1big" valign="bottom" width="323">Invalid charging information</td>
-<td class="TableP1big" valign="top" width="285"><a href="http://www.3gpp.org/ftp/Specs/html-info/29199-01.htm">3GPP TS 29.199-01</a>,<a href="http://devwww.openmobilealliance.org/release/REST_NetAPI_Common/V1_0-20120417-C/OMA-TS-REST_NetAPI_Common-V1_0-20120417-C.pdf">OMA-TS-REST_NetAPI_Common-V1_0</a></td>
-</tr>
-<tr>
-<td class="TableP1big" valign="bottom" width="72">SVC0008</td>
-<td class="TableP1big" valign="bottom" width="323">Overlapping Criteria</td>
-<td class="TableP1big" valign="top" width="285"><a href="http://www.3gpp.org/ftp/Specs/html-info/29199-01.htm">3GPP TS 29.199-01</a>,<a href="http://devwww.openmobilealliance.org/release/REST_NetAPI_Common/V1_0-20120417-C/OMA-TS-REST_NetAPI_Common-V1_0-20120417-C.pdf">OMA-TS-REST_NetAPI_Common-V1_0</a></td>
-</tr>
-<tr>
-<td class="TableP1big" valign="top" width="72">SVC0200</td>
-<td class="TableP1big" valign="top" width="323">Accuracy out of limit</td>
-<td class="TableP1big" valign="top" width="285"><a href="http://www.3gpp.org/ftp/Specs/html-info/29199-09.htm">3GPP TS 29.199-09</a>,<a href="http://www.3gpp.org/ftp/Specs/html-info/29199-16.htm">3GPP TS 29.199-16</a>,<a href="http://devwww.openmobilealliance.org/release/TerminalLocationREST/V1_0_1-20151029-A/OMA-TS-REST_NetAPI_TerminalLocation-V1_0_1-20151029-A.pdf">OMA-TS-REST_NetAPI_TerminalLocation-V1_0</a></td>
-</tr>
-<tr>
-<td class="TableP1big" style="height: 19px;" valign="top" width="72">SVC0210</td>
-<td class="TableP1big" style="height: 19px;" valign="top" width="323">(reserved)</td>
-<td class="TableP1big" style="height: 19px;" valign="top" width="285"><a href="http://www.3gpp.org/ftp/Specs/html-info/29199-12.htm">3GPP TS 29.199-12</a></td>
-</tr>
-<tr>
-<td class="TableP1big" valign="top" width="72">SVC0211</td>
-<td class="TableP1big" valign="top" width="323">(reserved)</td>
-<td class="TableP1big" valign="top" width="285"><a href="http://www.3gpp.org/ftp/Specs/html-info/29199-12.htm">3GPP TS 29.199-12</a></td>
-</tr>
-<tr>
-<td class="TableP1big" valign="top" width="72">SVC0220</td>
-<td class="TableP1big" width="323">No subscription request</td>
-<td class="TableP1big" valign="top" width="285"><a href="http://www.3gpp.org/ftp/Specs/html-info/29199-14.htm">3GPP TS 29.199-14</a>,<a href="http://devwww.openmobilealliance.org/release/PresenceREST/V1_0-20151201-C/OMA-TS-REST_NetAPI_Presence-V1_0-20151201-C.pdf">OMA-TS-REST_NetAPI_Presence-V1_0</a></td>
-</tr>
-<tr>
-<td class="TableP1big" style="height: 38px;" width="72">SVC0221</td>
-<td class="TableP1big" style="height: 38px;" width="323">Not a watcher</td>
-<td class="TableP1big" style="height: 38px;" width="285"><a href="http://www.3gpp.org/ftp/Specs/html-info/29199-14.htm">3GPP TS 29.199-14</a>,<a href="http://devwww.openmobilealliance.org/release/PresenceREST/V1_0-20151201-C/OMA-TS-REST_NetAPI_Presence-V1_0-20151201-C.pdf">OMA-TS-REST_NetAPI_Presence-V1_0</a></td>
-</tr>
-<tr>
-<td class="TableP1big" valign="top" width="72">SVC0222</td>
-<td class="TableP1big" valign="top" width="323">Key property changes not allowed</td>
-<td class="TableP1big" valign="top" width="285"><a href="http://devwww.openmobilealliance.org/release/ParlayREST/V2_0-20120724-A">OMA-TS-ParlayREST_Presence-V1_0</a>,<a href="http://devwww.openmobilealliance.org/release/PresenceREST/V1_0-20151201-C/OMA-TS-REST_NetAPI_Presence-V1_0-20151201-C.pdf">OMA-TS-REST_NetAPI_Presence-V1_0</a></td>
-</tr>
-<tr>
-<td class="TableP1big" valign="top" width="72">SVC0230</td>
-<td class="TableP1big" valign="top" width="323">(reserved)</td>
-<td class="TableP1big" valign="top" width="285"><a href="http://www.3gpp.org/ftp/Specs/html-info/29199-05.htm">3GPP TS 29.199-05</a></td>
-</tr>
-<tr>
-<td class="TableP1big" valign="top" width="72">SVC0240</td>
-<td class="TableP1big" valign="top" width="323">Key property changes not allowed</td>
-<td class="TableP1big" valign="top" width="285"><a href="http://devwww.openmobilealliance.org/release/ParlayREST/V2_0-20120724-A">OMA-TS-ParlayREST_AddressListManagement-V1_0</a>,<a href="http://devwww.openmobilealliance.org/release/AddressBookREST/V1_0-20151023-C/OMA-TS-REST_NetAPI_AddressBook-V1_0-20151023-C.pdf">OMA-TS-REST_NetAPI_AddressBook-V1_0</a></td>
-</tr>
-<tr>
-<td class="TableP1big" valign="top" width="72">SVC0250</td>
-<td class="TableP1big" valign="top" width="323">End user authentication failed</td>
-<td class="TableP1big" valign="top" width="285"><a href="http://www.3gpp.org/ftp/Specs/html-info/29199-07.htm">3GPP TS 29.199-07</a></td>
-</tr>
-<tr>
-<td class="TableP1big" valign="top" width="72">SVC0251</td>
-<td class="TableP1big" valign="top" width="323">Unknown Voucher</td>
-<td class="TableP1big" valign="top" width="285"><a href="http://www.3gpp.org/ftp/Specs/html-info/29199-07.htm">3GPP TS 29.199-07</a></td>
-</tr>
-<tr>
-<td class="TableP1big" valign="top" width="72">SVC0260</td>
-<td class="TableP1big" valign="top" width="323">(reserved)</td>
-<td class="TableP1big" valign="top" width="285"><a href="http://www.3gpp.org/ftp/Specs/html-info/29199-02.htm">3GPP TS 29.199-02</a></td>
-</tr>
-<tr>
-<td class="TableP1big" valign="top" width="72">SVC0261</td>
-<td class="TableP1big" valign="top" width="323">Call Session already terminated</td>
-<td class="TableP1big" valign="top" width="285"><a href="http://www.3gpp.org/ftp/Specs/html-info/29199-02.htm">3GPP TS 29.199-02,</a><a href="http://devwww.openmobilealliance.org/release/ThirdPartyCallREST/V1_0-20130212-C/OMA-TS-REST_NetAPI_ThirdPartyCall-V1_0-20130212-C.pdf">OMA-TS-REST_NetAPI_ThirdPartyCall-V1_0</a></td>
-</tr>
-<tr>
-<td class="TableP1big" valign="top" width="72">SVC0270</td>
-<td class="TableP1big" valign="top" width="323">Charge failed</td>
-<td class="TableP1big" valign="top" width="285"><a href="http://www.3gpp.org/ftp/Specs/html-info/29199-06.htm">3GPP TS 29.199-06</a>,<a href="http://www.3gpp.org/ftp/Specs/html-info/29199-19.htm">3GPP TS 29.199-19</a>,<a href="http://devwww.openmobilealliance.org/release/PaymentREST/V1_0_1-20151023-A/OMA-TS-REST_NetAPI_Payment-V1_0_1-20151023-A.pdf">OMA-TS-REST_NetAPI_Payment-V1_0</a></td>
-</tr>
-<tr>
-<td class="TableP1big" valign="top" width="72">SVC0271</td>
-<td class="TableP1big" valign="top" width="323">Invalid sum of percentage allocations</td>
-<td class="TableP1big" valign="top" width="285"><a href="http://www.3gpp.org/ftp/Specs/html-info/29199-06.htm">3GPP TS 29.199-06,</a><a href="http://devwww.openmobilealliance.org/release/PaymentREST/V1_0_1-20151023-A/OMA-TS-REST_NetAPI_Payment-V1_0_1-20151023-A.pdf">OMA-TS-REST_NetAPI_Payment-V1_0</a></td>
-</tr>
-<tr>
-<td class="TableP1big" valign="top" width="72">SVC0280</td>
-<td class="TableP1big" valign="top" width="323">Message too long</td>
-<td class="TableP1big" valign="top" width="285"><a href="http://www.3gpp.org/ftp/Specs/html-info/29199-04.htm">3GPP TS 29.199-04</a>,<a href="http://www.3gpp.org/ftp/Specs/html-info/29199-15.htm">3GPP TS 29.199-15</a>,<a href="http://devwww.openmobilealliance.org/release/ShortMessREST/V1_0-20151023-C/OMA-TS-REST_NetAPI_ShortMessaging-V1_0-20151023-C.pdf">OMA-TS-REST_NetAPI_ShortMessaging-V1_0</a></td>
-</tr>
-<tr>
-<td class="TableP1big" valign="top" width="72">SVC0281</td>
-<td class="TableP1big" valign="top" width="323">Unrecognized data format</td>
-<td class="TableP1big" valign="top" width="285"><a href="http://www.3gpp.org/ftp/Specs/html-info/29199-04.htm">3GPP TS 29.199-04</a>,<a href="http://devwww.openmobilealliance.org/release/ShortMessREST/V1_0-20151023-C/OMA-TS-REST_NetAPI_ShortMessaging-V1_0-20151023-C.pdf">OMA-TS-REST_NetAPI_ShortMessaging-V1_0</a></td>
-</tr>
-<tr>
-<td class="TableP1big" valign="top" width="72">SVC0282</td>
-<td class="TableP1big" valign="top" width="323">(reserved)</td>
-<td class="TableP1big" valign="top" width="285"><a href="http://www.3gpp.org/ftp/Specs/html-info/29199-04.htm">3GPP TS 29.199-04</a></td>
-</tr>
-<tr>
-<td class="TableP1big" valign="top" width="72">SVC0283</td>
-<td class="TableP1big" valign="top" width="323">Delivery Receipt Notification not supported</td>
-<td class="TableP1big" valign="top" width="285"><a href="http://www.3gpp.org/ftp/Specs/html-info/29199-04.htm">3GPP TS 29.199-04</a>,<a href="http://www.3gpp.org/ftp/Specs/html-info/29199-05.htm">3GPP TS 29.199-05</a>,<a href="http://www.3gpp.org/ftp/Specs/html-info/29199-15.htm">3GPP TS 29.199-15</a>,
+            The following assignment policy applies to this registry:
+            <div class="size95of100 grp mll mtm clearfix">
+                <ul class="size100of100">
+                    <li class="mtm fv">New assignments to be requested by eMail to <a class="reg-txtUnderline textHoverBrwn" href="mailto:helpdesk@omaorg.org">OMNA</a></li>
+                    <li class="fv">The content for 'Meaning' and the link to the affected specification needs to be provided.</li>
+                    <li class="fv">The desired code range (1000+ or 2000+) needs to be indicated.</li>
+                    <li class="fv">This registry is restricted to OMA specifications only</li>
+                    <li class="fv">The request will be forwarded by OMNA to the Architecture WG for review</li>
+                    <li class="fv">New assignments will receive an unassigned number (usually the lowest) in the appropriate range. Only numbers from ranges open for assignment will be assigned.</li>
+                </ul>
+            </div>
+            <div class="fl size100of100 mid-hd-bg mbl mtl">Service Exceptions</div>
+            <h4>SVC0001-0999</h4>
+            The codes in this range have been inherited by the OMA RESTfulNetwork APIs from the ParlayX and ParlayREST specifications. OMNA may only assign new codes for RESTful Network APIs in this range if this code is definded as a result of a change to the underlying ParlayX or ParlayREST specifications.
+            <table class="mtl" style="width: 100%;" border="0" cellspacing="0" cellpadding="0">
+                <tbody>
+                    <tr>
+                        <td class="TableTitre2 " valign="top" width="72">Code</td>
+                        <td class="TableTitre2 " valign="top" width="323">Meaning</td>
+                        <td class="TableTitre2 " valign="top" width="285">Reference(s)</td>
+                    </tr>
+                    <tr>
+                        <td class="TableP1big" style="height: 23px;" align="left" valign="middle" width="72">SVC0001</td>
+                        <td class="TableP1big" style="height: 23px;" align="left" valign="middle" width="323">Service error</td>
+                        <td class="TableP1big" style="height: 23px;" valign="top" width="285"><a href="http://www.3gpp.org/ftp/Specs/html-info/29199-01.htm">3GPP TS 29.199-01</a>,<a href="http://devwww.openmobilealliance.org/release/REST_NetAPI_Common/V1_0-20120417-C/OMA-TS-REST_NetAPI_Common-V1_0-20120417-C.pdf">OMA-TS-REST_NetAPI_Common-V1_0</a></td>
+                    </tr>
+                    <tr>
+                        <td class="TableP1big" align="left" valign="middle" width="72">SVC0002</td>
+                        <td class="TableP1big" valign="bottom" width="323">Invalid input value</td>
+                        <td class="TableP1big" valign="top" width="285"><a href="http://www.3gpp.org/ftp/Specs/html-info/29199-01.htm">3GPP TS 29.199-01</a>,<a href="http://devwww.openmobilealliance.org/release/REST_NetAPI_Common/V1_0-20120417-C/OMA-TS-REST_NetAPI_Common-V1_0-20120417-C.pdf">OMA-TS-REST_NetAPI_Common-V1_0</a></td>
+                    </tr>
+                    <tr>
+                        <td class="TableP1big" valign="bottom" width="72">SVC0003</td>
+                        <td class="TableP1big" valign="bottom" width="323">Invalid input value with list of valid values</td>
+                        <td class="TableP1big" valign="top" width="285"><a href="http://www.3gpp.org/ftp/Specs/html-info/29199-01.htm">3GPP TS 29.199-01</a>,<a href="http://devwww.openmobilealliance.org/release/REST_NetAPI_Common/V1_0-20120417-C/OMA-TS-REST_NetAPI_Common-V1_0-20120417-C.pdf">OMA-TS-REST_NetAPI_Common-V1_0</a></td>
+                    </tr>
+                    <tr>
+                        <td class="TableP1big" valign="bottom" width="72">SVC0004</td>
+                        <td class="TableP1big" valign="bottom" width="323">No valid address(es)</td>
+                        <td class="TableP1big" valign="top" width="285"><a href="http://www.3gpp.org/ftp/Specs/html-info/29199-01.htm">3GPP TS 29.199-01</a>,<a href="http://devwww.openmobilealliance.org/release/REST_NetAPI_Common/V1_0-20120417-C/OMA-TS-REST_NetAPI_Common-V1_0-20120417-C.pdf">OMA-TS-REST_NetAPI_Common-V1_0</a></td>
+                    </tr>
+                    <tr>
+                        <td class="TableP1big" valign="bottom" width="72">SVC0005</td>
+                        <td class="TableP1big" valign="bottom" width="323">Duplicate correlator</td>
+                        <td class="TableP1big" valign="top" width="285"><a href="http://www.3gpp.org/ftp/Specs/html-info/29199-01.htm">3GPP TS 29.199-01</a>,<a href="http://devwww.openmobilealliance.org/release/REST_NetAPI_Common/V1_0-20120417-C/OMA-TS-REST_NetAPI_Common-V1_0-20120417-C.pdf">OMA-TS-REST_NetAPI_Common-V1_0</a></td>
+                    </tr>
+                    <tr>
+                        <td class="TableP1big" valign="bottom" width="72">SVC0006</td>
+                        <td class="TableP1big" valign="bottom" width="323">Invalid group</td>
+                        <td class="TableP1big" valign="top" width="285"><a href="http://www.3gpp.org/ftp/Specs/html-info/29199-01.htm">3GPP TS 29.199-01</a><a href="http://devwww.openmobilealliance.org/release/REST_NetAPI_Common/V1_0-20120417-C/OMA-TS-REST_NetAPI_Common-V1_0-20120417-C.pdf">OMA-TS-REST_NetAPI_Common-V1_0</a></td>
+                    </tr>
+                    <tr>
+                        <td class="TableP1big" valign="bottom" width="72">SVC0007</td>
+                        <td class="TableP1big" valign="bottom" width="323">Invalid charging information</td>
+                        <td class="TableP1big" valign="top" width="285"><a href="http://www.3gpp.org/ftp/Specs/html-info/29199-01.htm">3GPP TS 29.199-01</a>,<a href="http://devwww.openmobilealliance.org/release/REST_NetAPI_Common/V1_0-20120417-C/OMA-TS-REST_NetAPI_Common-V1_0-20120417-C.pdf">OMA-TS-REST_NetAPI_Common-V1_0</a></td>
+                    </tr>
+                    <tr>
+                        <td class="TableP1big" valign="bottom" width="72">SVC0008</td>
+                        <td class="TableP1big" valign="bottom" width="323">Overlapping Criteria</td>
+                        <td class="TableP1big" valign="top" width="285"><a href="http://www.3gpp.org/ftp/Specs/html-info/29199-01.htm">3GPP TS 29.199-01</a>,<a href="http://devwww.openmobilealliance.org/release/REST_NetAPI_Common/V1_0-20120417-C/OMA-TS-REST_NetAPI_Common-V1_0-20120417-C.pdf">OMA-TS-REST_NetAPI_Common-V1_0</a></td>
+                    </tr>
+                    <tr>
+                        <td class="TableP1big" valign="top" width="72">SVC0200</td>
+                        <td class="TableP1big" valign="top" width="323">Accuracy out of limit</td>
+                        <td class="TableP1big" valign="top" width="285"><a href="http://www.3gpp.org/ftp/Specs/html-info/29199-09.htm">3GPP TS 29.199-09</a>,<a href="http://www.3gpp.org/ftp/Specs/html-info/29199-16.htm">3GPP TS 29.199-16</a>,<a href="http://devwww.openmobilealliance.org/release/TerminalLocationREST/V1_0_1-20151029-A/OMA-TS-REST_NetAPI_TerminalLocation-V1_0_1-20151029-A.pdf">OMA-TS-REST_NetAPI_TerminalLocation-V1_0</a></td>
+                    </tr>
+                    <tr>
+                        <td class="TableP1big" style="height: 19px;" valign="top" width="72">SVC0210</td>
+                        <td class="TableP1big" style="height: 19px;" valign="top" width="323">(reserved)</td>
+                        <td class="TableP1big" style="height: 19px;" valign="top" width="285"><a href="http://www.3gpp.org/ftp/Specs/html-info/29199-12.htm">3GPP TS 29.199-12</a></td>
+                    </tr>
+                    <tr>
+                        <td class="TableP1big" valign="top" width="72">SVC0211</td>
+                        <td class="TableP1big" valign="top" width="323">(reserved)</td>
+                        <td class="TableP1big" valign="top" width="285"><a href="http://www.3gpp.org/ftp/Specs/html-info/29199-12.htm">3GPP TS 29.199-12</a></td>
+                    </tr>
+                    <tr>
+                        <td class="TableP1big" valign="top" width="72">SVC0220</td>
+                        <td class="TableP1big" width="323">No subscription request</td>
+                        <td class="TableP1big" valign="top" width="285"><a href="http://www.3gpp.org/ftp/Specs/html-info/29199-14.htm">3GPP TS 29.199-14</a>,<a href="http://devwww.openmobilealliance.org/release/PresenceREST/V1_0-20151201-C/OMA-TS-REST_NetAPI_Presence-V1_0-20151201-C.pdf">OMA-TS-REST_NetAPI_Presence-V1_0</a></td>
+                    </tr>
+                    <tr>
+                        <td class="TableP1big" style="height: 38px;" width="72">SVC0221</td>
+                        <td class="TableP1big" style="height: 38px;" width="323">Not a watcher</td>
+                        <td class="TableP1big" style="height: 38px;" width="285"><a href="http://www.3gpp.org/ftp/Specs/html-info/29199-14.htm">3GPP TS 29.199-14</a>,<a href="http://devwww.openmobilealliance.org/release/PresenceREST/V1_0-20151201-C/OMA-TS-REST_NetAPI_Presence-V1_0-20151201-C.pdf">OMA-TS-REST_NetAPI_Presence-V1_0</a></td>
+                    </tr>
+                    <tr>
+                        <td class="TableP1big" valign="top" width="72">SVC0222</td>
+                        <td class="TableP1big" valign="top" width="323">Key property changes not allowed</td>
+                        <td class="TableP1big" valign="top" width="285"><a href="http://devwww.openmobilealliance.org/release/ParlayREST/V2_0-20120724-A">OMA-TS-ParlayREST_Presence-V1_0</a>,<a href="http://devwww.openmobilealliance.org/release/PresenceREST/V1_0-20151201-C/OMA-TS-REST_NetAPI_Presence-V1_0-20151201-C.pdf">OMA-TS-REST_NetAPI_Presence-V1_0</a></td>
+                    </tr>
+                    <tr>
+                        <td class="TableP1big" valign="top" width="72">SVC0230</td>
+                        <td class="TableP1big" valign="top" width="323">(reserved)</td>
+                        <td class="TableP1big" valign="top" width="285"><a href="http://www.3gpp.org/ftp/Specs/html-info/29199-05.htm">3GPP TS 29.199-05</a></td>
+                    </tr>
+                    <tr>
+                        <td class="TableP1big" valign="top" width="72">SVC0240</td>
+                        <td class="TableP1big" valign="top" width="323">Key property changes not allowed</td>
+                        <td class="TableP1big" valign="top" width="285"><a href="http://devwww.openmobilealliance.org/release/ParlayREST/V2_0-20120724-A">OMA-TS-ParlayREST_AddressListManagement-V1_0</a>,<a href="http://devwww.openmobilealliance.org/release/AddressBookREST/V1_0-20151023-C/OMA-TS-REST_NetAPI_AddressBook-V1_0-20151023-C.pdf">OMA-TS-REST_NetAPI_AddressBook-V1_0</a></td>
+                    </tr>
+                    <tr>
+                        <td class="TableP1big" valign="top" width="72">SVC0250</td>
+                        <td class="TableP1big" valign="top" width="323">End user authentication failed</td>
+                        <td class="TableP1big" valign="top" width="285"><a href="http://www.3gpp.org/ftp/Specs/html-info/29199-07.htm">3GPP TS 29.199-07</a></td>
+                    </tr>
+                    <tr>
+                        <td class="TableP1big" valign="top" width="72">SVC0251</td>
+                        <td class="TableP1big" valign="top" width="323">Unknown Voucher</td>
+                        <td class="TableP1big" valign="top" width="285"><a href="http://www.3gpp.org/ftp/Specs/html-info/29199-07.htm">3GPP TS 29.199-07</a></td>
+                    </tr>
+                    <tr>
+                        <td class="TableP1big" valign="top" width="72">SVC0260</td>
+                        <td class="TableP1big" valign="top" width="323">(reserved)</td>
+                        <td class="TableP1big" valign="top" width="285"><a href="http://www.3gpp.org/ftp/Specs/html-info/29199-02.htm">3GPP TS 29.199-02</a></td>
+                    </tr>
+                    <tr>
+                        <td class="TableP1big" valign="top" width="72">SVC0261</td>
+                        <td class="TableP1big" valign="top" width="323">Call Session already terminated</td>
+                        <td class="TableP1big" valign="top" width="285"><a href="http://www.3gpp.org/ftp/Specs/html-info/29199-02.htm">3GPP TS 29.199-02,</a><a href="http://devwww.openmobilealliance.org/release/ThirdPartyCallREST/V1_0-20130212-C/OMA-TS-REST_NetAPI_ThirdPartyCall-V1_0-20130212-C.pdf">OMA-TS-REST_NetAPI_ThirdPartyCall-V1_0</a></td>
+                    </tr>
+                    <tr>
+                        <td class="TableP1big" valign="top" width="72">SVC0270</td>
+                        <td class="TableP1big" valign="top" width="323">Charge failed</td>
+                        <td class="TableP1big" valign="top" width="285"><a href="http://www.3gpp.org/ftp/Specs/html-info/29199-06.htm">3GPP TS 29.199-06</a>,<a href="http://www.3gpp.org/ftp/Specs/html-info/29199-19.htm">3GPP TS 29.199-19</a>,<a href="http://devwww.openmobilealliance.org/release/PaymentREST/V1_0_1-20151023-A/OMA-TS-REST_NetAPI_Payment-V1_0_1-20151023-A.pdf">OMA-TS-REST_NetAPI_Payment-V1_0</a></td>
+                    </tr>
+                    <tr>
+                        <td class="TableP1big" valign="top" width="72">SVC0271</td>
+                        <td class="TableP1big" valign="top" width="323">Invalid sum of percentage allocations</td>
+                        <td class="TableP1big" valign="top" width="285"><a href="http://www.3gpp.org/ftp/Specs/html-info/29199-06.htm">3GPP TS 29.199-06,</a><a href="http://devwww.openmobilealliance.org/release/PaymentREST/V1_0_1-20151023-A/OMA-TS-REST_NetAPI_Payment-V1_0_1-20151023-A.pdf">OMA-TS-REST_NetAPI_Payment-V1_0</a></td>
+                    </tr>
+                    <tr>
+                        <td class="TableP1big" valign="top" width="72">SVC0280</td>
+                        <td class="TableP1big" valign="top" width="323">Message too long</td>
+                        <td class="TableP1big" valign="top" width="285"><a href="http://www.3gpp.org/ftp/Specs/html-info/29199-04.htm">3GPP TS 29.199-04</a>,<a href="http://www.3gpp.org/ftp/Specs/html-info/29199-15.htm">3GPP TS 29.199-15</a>,<a href="http://devwww.openmobilealliance.org/release/ShortMessREST/V1_0-20151023-C/OMA-TS-REST_NetAPI_ShortMessaging-V1_0-20151023-C.pdf">OMA-TS-REST_NetAPI_ShortMessaging-V1_0</a></td>
+                    </tr>
+                    <tr>
+                        <td class="TableP1big" valign="top" width="72">SVC0281</td>
+                        <td class="TableP1big" valign="top" width="323">Unrecognized data format</td>
+                        <td class="TableP1big" valign="top" width="285"><a href="http://www.3gpp.org/ftp/Specs/html-info/29199-04.htm">3GPP TS 29.199-04</a>,<a href="http://devwww.openmobilealliance.org/release/ShortMessREST/V1_0-20151023-C/OMA-TS-REST_NetAPI_ShortMessaging-V1_0-20151023-C.pdf">OMA-TS-REST_NetAPI_ShortMessaging-V1_0</a></td>
+                    </tr>
+                    <tr>
+                        <td class="TableP1big" valign="top" width="72">SVC0282</td>
+                        <td class="TableP1big" valign="top" width="323">(reserved)</td>
+                        <td class="TableP1big" valign="top" width="285"><a href="http://www.3gpp.org/ftp/Specs/html-info/29199-04.htm">3GPP TS 29.199-04</a></td>
+                    </tr>
+                    <tr>
+                        <td class="TableP1big" valign="top" width="72">SVC0283</td>
+                        <td class="TableP1big" valign="top" width="323">Delivery Receipt Notification not supported</td>
+                        <td class="TableP1big" valign="top" width="285">
+                            <a href="http://www.3gpp.org/ftp/Specs/html-info/29199-04.htm">3GPP TS 29.199-04</a>,<a href="http://www.3gpp.org/ftp/Specs/html-info/29199-05.htm">3GPP TS 29.199-05</a>,<a href="http://www.3gpp.org/ftp/Specs/html-info/29199-15.htm">3GPP TS 29.199-15</a>,
 
-<a href="?p=2562">OMA-TS-REST_NetAPI_ShortMessaging-V1_0</a>,
+                            <a href="?p=2562">OMA-TS-REST_NetAPI_ShortMessaging-V1_0</a>,
 
-<a href="?p=2531">OMA-TS-REST_NetAPI_Messaging-V1_0</a></td>
-</tr>
-<tr>
-<td class="TableP1big" width="72">SVC0290</td>
-<td class="TableP1big" width="323">Duplicate media stream</td>
-<td class="TableP1big" width="285"><a href="http://www.3gpp.org/ftp/Specs/html-info/29199-11.htm">3GPP TS 29.199-11</a>,<a href="http://devwww.openmobilealliance.org/release/AudioCallREST/V1_0-20130212-C/OMA-TS-REST_NetAPI_AudioCall-V1_0-20130212-C.pdf">OMA-TS-REST_NetAPI_AudioCall-V1_0</a></td>
-</tr>
-<tr>
-<td class="TableP1big" valign="top" width="72">SVC0291</td>
-<td class="TableP1big" valign="top" width="323">Media stream does not match</td>
-<td class="TableP1big" valign="top" width="285"><a href="http://www.3gpp.org/ftp/Specs/html-info/29199-11.htm">3GPP TS 29.199-11</a>,<a href="http://devwww.openmobilealliance.org/release/AudioCallREST/V1_0-20130212-C/OMA-TS-REST_NetAPI_AudioCall-V1_0-20130212-C.pdf">OMA-TS-REST_NetAPI_AudioCall-V1_0</a></td>
-</tr>
-<tr>
-<td class="TableP1big" valign="top" width="72">SVC0300</td>
-<td class="TableP1big" valign="top" width="323">Broadcast Area not supported</td>
-<td class="TableP1big" valign="top" width="285"><a href="http://www.3gpp.org/ftp/Specs/html-info/29199-15.htm">3GPP TS 29.199-15</a></td>
-</tr>
-<tr>
-<td class="TableP1big" valign="top" width="72">SVC0301</td>
-<td class="TableP1big" valign="top" width="323">Too high load situation</td>
-<td class="TableP1big" valign="top" width="285"><a href="http://www.3gpp.org/ftp/Specs/html-info/29199-15.htm">3GPP TS 29.199-15</a></td>
-</tr>
-<tr>
-<td class="TableP1big" valign="top" width="72">SVC0340</td>
-<td class="TableP1big" valign="top" width="323">InsufficientConnectionResources</td>
-<td class="TableP1big" valign="top" width="285"><a href="http://www.3gpp.org/ftp/Specs/html-info/29199-17.htm">3GPP TS 29.199-17</a></td>
-</tr>
-<tr>
-<td class="TableP1big" valign="top" width="72">SVC0341</td>
-<td class="TableP1big" valign="top" width="323">UnknownQoSFeatureIdentifier</td>
-<td class="TableP1big" valign="top" width="285"><a href="http://www.3gpp.org/ftp/Specs/html-info/29199-17.htm">3GPP TS 29.199-17</a></td>
-</tr>
-<tr>
-<td class="TableP1big" valign="top" width="72">SVC0342</td>
-<td class="TableP1big" valign="top" width="323">EndUserIsNotOnline</td>
-<td class="TableP1big" valign="top" width="285"><a href="http://www.3gpp.org/ftp/Specs/html-info/29199-17.htm">3GPP TS 29.199-17</a></td>
-</tr>
-<tr>
-<td class="TableP1big" valign="top" width="72">SVC0343</td>
-<td class="TableP1big" valign="top" width="323">SpecifiedAndTemporaryQoSFeaturesConflict</td>
-<td class="TableP1big" valign="top" width="285"><a href="http://www.3gpp.org/ftp/Specs/html-info/29199-17.htm">3GPP TS 29.199-17</a></td>
-</tr>
-<tr>
-<td class="TableP1big" valign="top" width="72">SVC0344</td>
-<td class="TableP1big" valign="top" width="323">SpecifiedQoSFeatureNotPermittableAsDefault</td>
-<td class="TableP1big" valign="top" width="285"><a href="http://www.3gpp.org/ftp/Specs/html-info/29199-17.htm">3GPP TS 29.199-17</a></td>
-</tr>
-<tr>
-<td class="TableP1big" valign="top" width="72">SVC0370</td>
-<td class="TableP1big" valign="top" width="323">No valid terminal number(s)</td>
-<td class="TableP1big" valign="top" width="285"><a href="http://www.3gpp.org/ftp/Specs/html-info/29199-16.htm">3GPP TS 29.199-16</a></td>
-</tr>
-</tbody>
-</table>
-<h4>SVC 1000-1999</h4>
-The codes in this range are associated with Service Exceptions in the individual OMA RESTful Network APIs. This range is open for assignment by OMNA according to the assignment policy.
-<table style="width: 100%;" cellspacing="0" cellpadding="0">
-<tbody>
-<tr>
-<td class="TableTitre2 " valign="top" width="72">Code</td>
-<td class="TableTitre2" valign="top" width="323">Meaning</td>
-<td class="TableTitre2" valign="top" width="285">Reference(s)</td>
-</tr>
-<tr>
-<td class="TableP1big" align="left" valign="middle" width="72">SVC1000</td>
-<td class="TableP1big" align="left" valign="middle" width="323">(reserved)</td>
-<td class="TableP1big" valign="top" width="285"></td>
-</tr>
-<tr>
-<td class="TableP1big" align="left" valign="middle" width="72">SVC1001</td>
-<td class="TableP1big" align="left" valign="middle" width="323">(available for registration)</td>
-<td class="TableP1big" valign="top" width="285"></td>
-</tr>
-<tr>
-<td class="TableP1big" align="left" valign="middle" width="72">SVC1002</td>
-<td class="TableP1big" align="left" valign="middle" width="323">CS call not existing for Video Share.</td>
-<td class="TableP1big" valign="top" width="285"><a href="http://devwww.openmobilealliance.org/release/VideoShareREST/V1_0-20130517-C/OMA-TS-REST_NetAPI_VideoShare-V1_0-20130517-C.pdf">OMA-TS-REST_NetAPI_VideoShare-V1_0</a></td>
-</tr>
-<tr>
-<td class="TableP1big" align="left" valign="middle" width="72">SVC1003</td>
-<td class="TableP1big" align="left" valign="middle" width="323">CS call not existing for Image Share.</td>
-<td class="TableP1big" valign="top" width="285"><a href="http://devwww.openmobilealliance.org/release/ImageShareREST/V1_0-20151123-C/OMA-TS-REST_NetAPI_ImageShare-V1_0-20151123-C.pdf">OMA-TS-REST_NetAPI_ImageShare-V1_0</a></td>
-</tr>
-<tr>
-<td class="TableP1big" align="left" valign="middle" width="72">SVC1004</td>
-<td class="TableP1big" align="left" valign="middle" width="323">Capability Source does not exist</td>
-<td class="TableP1big" align="left" valign="middle" width="285"><a href="http://devwww.openmobilealliance.org/release/RESTNetAPI_Cap_Disc/V1_0-20130701-C/OMA-TS-REST_NetAPI_CapabilityDiscovery-V1_0-20130701-C.pdf">OMA-TS-REST_NetAPI_CapabilityDiscovery-V1_0</a></td>
-</tr>
-<tr>
-<td class="TableP1big" align="left" valign="middle" width="72">SVC1005</td>
-<td class="TableP1big" align="left" valign="middle" width="323">ACR creation failed. Unknown userId</td>
-<td class="TableP1big" align="left" valign="middle" width="285"><a href="http://devwww.openmobilealliance.org/release/REST_NetAPI_ACR/V1_0-20151201-C/OMA-TS-REST_NetAPI_ACR-V1_0-20151201-C.pdf">OMA-TS-REST_NetAPI_ACR-V1_0</a></td>
-</tr>
-<tr>
-<td class="TableP1big" align="left" valign="middle" width="72">SVC1006</td>
-<td class="TableP1big" align="left" valign="middle" width="323">ACR not found</td>
-<td class="TableP1big" align="left" valign="middle" width="285"><a href="http://devwww.openmobilealliance.org/release/REST_NetAPI_ACR/V1_0-20151201-C/OMA-TS-REST_NetAPI_ACR-V1_0-20151201-C.pdf">OMA-TS-REST_NetAPI_ACR-V1_0</a></td>
-</tr>
-<tr>
-<td class="TableP1big" align="left" valign="middle" width="72">SVC1007</td>
-<td class="TableP1big" align="left" valign="middle" width="323">Offer rejected due to conflict</td>
-<td class="TableP1big" align="left" valign="middle" width="285"><a href="http://devwww.openmobilealliance.org/release/REST_NetAPI_WebRTCSignaling/V1_0-20140211-C/OMA-TS-REST_NetAPI_WebRTCSignaling-V1_0-20140211-C.pdf">OMA-TS-REST_NetAPI_WebRTCSignaling-V1_0</a></td>
-</tr>
-<tr>
-<td class="TableP1big" align="left" valign="middle" width="72">SVC1008</td>
-<td class="TableP1big" align="left" valign="middle" width="323">Bad status transition</td>
-<td class="TableP1big" align="left" valign="middle" width="285"><a href="http://devwww.openmobilealliance.org/release/RoamAPI/V1_0-20131112-C/OMA-TS-REST_NetAPI_RoamingProvisioning-V1_0-20131112-C.pdf">OMA-TS-REST_NetAPI_RoamingProvisioning-V1_0</a></td>
-</tr>
-<tr>
-<td class="TableP1big" align="left" valign="middle" width="72">SVC1009</td>
-<td class="TableP1big" align="left" valign="middle" width="323">Folder's path needed</td>
-<td class="TableP1big" align="left" valign="middle" width="285">OMA-TS-REST_NetAPI_NMS-v1_0</td>
-</tr>
-<tr>
-<td class="TableP1big" style="height: 19px;" align="left" valign="middle" width="72">SVC1010</td>
-<td class="TableP1big" style="height: 19px;" align="left" valign="middle" width="323">Insufficient information to identify IP flow</td>
-<td class="TableP1big" style="height: 19px;" align="left" valign="middle" width="285"><a href="http://devwww.openmobilealliance.org/release/REST_NetAPI_QoS/V1_0-20141125-C/OMA-TS-REST_NetAPI_QoS-V1_0-20141125-C.pdf">OMA-TS-REST_NetAPI_QoS-V1_0</a></td>
-</tr>
-<tr>
-<td class="TableP1big" align="left" valign="middle" width="72">SVC1011</td>
-<td class="TableP1big" align="left" valign="middle" width="323">Specified IP flow does not exist</td>
-<td class="TableP1big" align="left" valign="middle" width="285"><a href="http://devwww.openmobilealliance.org/release/REST_NetAPI_QoS/V1_0-20141125-C/OMA-TS-REST_NetAPI_QoS-V1_0-20141125-C.pdf">OMA-TS-REST_NetAPI_QoS-V1_0</a></td>
-</tr>
-<tr>
-<td class="TableP1big" align="left" valign="middle" width="72">SVC1012</td>
-<td class="TableP1big" align="left" valign="middle" width="323">Duplicate media/flow number</td>
-<td class="TableP1big" align="left" valign="middle" width="285"><a href="http://devwww.openmobilealliance.org/release/REST_NetAPI_QoS/V1_0-20141125-C/OMA-TS-REST_NetAPI_QoS-V1_0-20141125-C.pdf">OMA-TS-REST_NetAPI_QoS-V1_0</a></td>
-</tr>
-<tr>
-<td class="TableP1big" style="height: 19px;" align="left" valign="middle" width="72">SVC1013</td>
-<td class="TableP1big" style="height: 19px;" align="left" valign="middle" width="323">Empty ad-hoc contact list</td>
-<td class="TableP1big" style="height: 19px;" align="left" valign="middle" width="285"><a href="http://devwww.openmobilealliance.org/release/RESTNetAPI_Cap_Disc/V1_0-20130701-C/OMA-TS-REST_NetAPI_CapabilityDiscovery-V1_0-20130701-C.pdf">OMA-TS-REST_NetAPI_CapabilityDiscovery-V1_0</a></td>
-</tr>
-<tr>
-<td class="TableP1big" style="height: 19px;" align="left" valign="middle" width="72">SVC1014</td>
-<td class="TableP1big" style="height: 19px;" align="left" valign="middle" width="323">Undefined twinning role</td>
-<td class="TableP1big" style="height: 19px;" align="left" valign="middle" width="285"><a href="http://devwww.openmobilealliance.org/release/REST_NETAPI_Twinning/V1_0-20160527-C/OMA-TS-REST_NetAPI_Twinning-V1_0-20151215-C.pdf">OMA-TS-REST_NetAPI_Twinning-V1_0</a></td>
-</tr>
-</tbody>
-</table>
-<h4>SVC2000-2099</h4>
-The codes in this range are associated with common Service Exceptions in the OMA RESTful Network APIs. This range is open for assignment by OMNA according to the assignment policy.
-<table style="width: 100%;" border="0" cellspacing="0" cellpadding="0">
-<tbody>
-<tr>
-<td class="TableTitre2" valign="top" width="72">Code</td>
-<td class="TableTitre2" valign="top" width="323">Meaning</td>
-<td class="TableTitre2" valign="top" width="285">Reference(s)</td>
-</tr>
-<tr>
-<td class="TableP1big" valign="top" width="72">SVC2000</td>
-<td class="TableP1big" width="323">Service error with description</td>
-<td class="TableP1big" width="285"><a href="http://devwww.openmobilealliance.org/release/REST_NetAPI_Common/V1_0-20120417-C/OMA-TS-REST_NetAPI_Common-V1_0-20120417-C.pdf">OMA-TS-REST_NetAPI_Common-V1_0</a></td>
-</tr>
-<tr>
-<td class="TableP1big" valign="top" width="72">SVC2001</td>
-<td class="TableP1big" align="left" valign="middle" width="323">No server resources available to process the request</td>
-<td class="TableP1big" align="left" valign="middle" width="285"><a href="http://devwww.openmobilealliance.org/release/REST_NetAPI_Common/V1_0-20120417-C/OMA-TS-REST_NetAPI_Common-V1_0-20120417-C.pdf">OMA-TS-REST_NetAPI_Common-V1_0</a></td>
-</tr>
-<tr>
-<td class="TableP1big" valign="top" width="72">SVC2002</td>
-<td class="TableP1big" align="left" valign="middle" width="323">Requested information not available</td>
-<td class="TableP1big" align="left" valign="middle" width="285"><a href="http://devwww.openmobilealliance.org/release/REST_NetAPI_Common/V1_0-20120417-C/OMA-TS-REST_NetAPI_Common-V1_0-20120417-C.pdf">OMA-TS-REST_NetAPI_Common-V1_0</a></td>
-</tr>
-<tr>
-<td class="TableP1big" valign="top" width="72">SVC2003</td>
-<td class="TableP1big" valign="top" width="323">Invalid access token</td>
-<td class="TableP1big" valign="top" width="285"><a href="?http://devwww.openmobilealliance.org/release/REST_NetAPI_Common/V1_0-20120417-C/OMA-TS-REST_NetAPI_Common-V1_0-20120417-C.pdf">OMA-TS-REST_NetAPI_Common-V1_0</a></td>
-</tr>
-<tr>
-<td class="TableP1big" valign="top" width="72">SVC0204</td>
-<td class="TableP1big" valign="top" width="323">Invalid input value with details</td>
-<td class="TableP1big" valign="top" width="285"><a href="http://member.openmobilealliance.org/ftp/Public_documents/ARCH/Permanent_documents/OMA-TS-REST_NetAPI_Common-V1_0-20150108-D.zip">
-OMA-TS-REST_NetAPI_Common-V1_0</a></td>
-</tr>
-<tr>
-<td class="TableP1big" style="height: 19px;" valign="top" width="72">SVC0205</td>
-<td class="TableP1big" style="height: 19px;" valign="top" width="323">Input item not permitted in request</td>
-<td class="TableP1big" style="height: 19px;" valign="top" width="285"><a href="http://member.openmobilealliance.org/ftp/Public_documents/ARCH/Permanent_documents/OMA-TS-REST_NetAPI_Common-V1_0-20150108-D.zip">
-OMA-TS-REST_NetAPI_Common-V1_0</a></td>
-</tr>
-<tr>
-<td class="TableP1big" style="height: 18px;" valign="top" width="72">SVC0206</td>
-<td class="TableP1big" style="height: 18px;" valign="top" width="323">Mandatory input item missing from request</td>
-<td class="TableP1big" style="height: 18px;" valign="top" width="285"><a href="http://member.openmobilealliance.org/ftp/Public_documents/ARCH/Permanent_documents/OMA-TS-REST_NetAPI_Common-V1_0-20150108-D.zip">
-OMA-TS-REST_NetAPI_Common-V1_0</a></td>
-</tr>
-<tr>
-<td class="TableP1big" style="height: 19px;" valign="top" width="72">SVC0207</td>
-<td class="TableP1big" style="height: 19px;" valign="top" width="323">Simultaneous modification not supported</td>
-<td class="TableP1big" valign="top" width="285"><a href="http://member.openmobilealliance.org/ftp/Public_documents/ARCH/Permanent_documents/OMA-TS-REST_NetAPI_Common-V1_0-20150108-D.zip">
-OMA-TS-REST_NetAPI_Common-V1_0</a></td>
-</tr>
-<tr>
-<td class="TableP1big" style="height: 19px;" valign="top" width="72">SVC0208</td>
-<td class="TableP1big" style="height: 19px;" valign="top" width="323">Unknown resource</td>
-<td class="TableP1big" valign="top" width="285"><a href="http://member.openmobilealliance.org/ftp/Public_documents/ARCH/Permanent_documents/OMA-TS-REST_NetAPI_Common-V1_0-20150108-D.zip">
-OMA-TS-REST_NetAPI_Common-V1_0</a></td>
-</tr>
-</tbody>
-</table>
-<div class="fl size100of100 mid-hd-bg mbl mtl">Policy Exceptions</div>
-<h4>POL0001-0999</h4>
-The codes in this range have been inherited by the OMA RESTfulNetwork APIs from the ParlayX and ParlayREST specifications. OMNA may only assign new codes for RESTful Network APIs in this range if this code is definded as a result of a change to the underlying ParlayX or ParlayREST specifications.
-<table class="mtl" border="0" cellspacing="0" cellpadding="0">
-<tbody>
-<tr>
-<td class="TableTitre2" style="width: 72px;" valign="top">Code</td>
-<td class="TableTitre2" valign="top" width="323">Meaning</td>
-<td class="TableTitre2" valign="top" width="285">Reference(s)</td>
-</tr>
-<tr>
-<td class="TableP1big" style="width: 72px;" valign="top">POL0001</td>
-<td class="TableP1big" valign="top" width="323">Policy error</td>
-<td class="TableP1big" valign="top" width="285"><a href="http://www.3gpp.org/ftp/Specs/html-info/29199-01.htm">3GPP TS 29.199-01</a>,<a href="http://devwww.openmobilealliance.org/release/REST_NetAPI_Common/V1_0-20120417-C/OMA-TS-REST_NetAPI_Common-V1_0-20120417-C.pdf">OMA-TS-REST_NetAPI_Common-V1_0</a></td>
-</tr>
-<tr>
-<td class="TableP1big" style="width: 72px;" valign="top">POL0002</td>
-<td class="TableP1big" valign="top" width="323">Privacy error</td>
-<td class="TableP1big" valign="top" width="285"><a href="http://www.3gpp.org/ftp/Specs/html-info/29199-01.htm">3GPP TS 29.199-01,</a><a href="http://devwww.openmobilealliance.org/release/REST_NetAPI_Common/V1_0-20120417-C/OMA-TS-REST_NetAPI_Common-V1_0-20120417-C.pdf">OMA-TS-REST_NetAPI_Common-V1_0</a></td>
-</tr>
-<tr>
-<td class="TableP1big" style="width: 72px;" valign="top">POL0003</td>
-<td class="TableP1big" valign="top" width="323">Too many addresses</td>
-<td class="TableP1big" valign="top" width="285"><a href="http://www.3gpp.org/ftp/Specs/html-info/29199-01.htm">3GPP TS 29.199-01</a>,<a href="http://devwww.openmobilealliance.org/release/REST_NetAPI_Common/V1_0-20120417-C/OMA-TS-REST_NetAPI_Common-V1_0-20120417-C.pdf">OMA-TS-REST_NetAPI_Common-V1_0</a></td>
-</tr>
-<tr>
-<td class="TableP1big" style="width: 72px;" valign="top">POL0004</td>
-<td class="TableP1big" valign="top" width="323">Unlimited notifications not supported</td>
-<td class="TableP1big" valign="top" width="285"><a href="http://www.3gpp.org/ftp/Specs/html-info/29199-01.htm">3GPP TS 29.199-01</a>,<a href="http://devwww.openmobilealliance.org/release/REST_NetAPI_Common/V1_0-20120417-C/OMA-TS-REST_NetAPI_Common-V1_0-20120417-C.pdf">OMA-TS-REST_NetAPI_Common-V1_0</a></td>
-</tr>
-<tr>
-<td class="TableP1big" style="width: 72px;" valign="top">POL0005</td>
-<td class="TableP1big" valign="top" width="323">Too many notifications requested</td>
-<td class="TableP1big" valign="top" width="285"><a href="http://www.3gpp.org/ftp/Specs/html-info/29199-01.htm">3GPP TS 29.199-01</a>,<a href="http://devwww.openmobilealliance.org/release/REST_NetAPI_Common/V1_0-20120417-C/OMA-TS-REST_NetAPI_Common-V1_0-20120417-C.pdf">OMA-TS-REST_NetAPI_Common-V1_0</a></td>
-</tr>
-<tr>
-<td class="TableP1big" style="width: 72px;" valign="top">POL0006</td>
-<td class="TableP1big" valign="top" width="323">Groups not allowed</td>
-<td class="TableP1big" valign="top" width="285"><a href="http://www.3gpp.org/ftp/Specs/html-info/29199-01.htm">3GPP TS 29.199-01</a>,<a href="http://devwww.openmobilealliance.org/release/REST_NetAPI_Common/V1_0-20120417-C/OMA-TS-REST_NetAPI_Common-V1_0-20120417-C.pdf">OMA-TS-REST_NetAPI_Common-V1_0</a></td>
-</tr>
-<tr>
-<td class="TableP1big" style="width: 72px;" valign="top">POL0007</td>
-<td class="TableP1big" valign="top" width="323">Nested groups not allowed</td>
-<td class="TableP1big" valign="top" width="285"><a href="http://www.3gpp.org/ftp/Specs/html-info/29199-01.htm">3GPP TS 29.199-01</a>,<a href="http://devwww.openmobilealliance.org/release/REST_NetAPI_Common/V1_0-20120417-C/OMA-TS-REST_NetAPI_Common-V1_0-20120417-C.pdf">OMA-TS-REST_NetAPI_Common-V1_0</a></td>
-</tr>
-<tr>
-<td class="TableP1big" style="width: 72px;" valign="top">POL0008</td>
-<td class="TableP1big" valign="top" width="323">Charging not supported</td>
-<td class="TableP1big" valign="top" width="285"><a href="http://www.3gpp.org/ftp/Specs/html-info/29199-01.htm">3GPP TS 29.199-01</a>,<a href="http://devwww.openmobilealliance.org/release/REST_NetAPI_Common/V1_0-20120417-C/OMA-TS-REST_NetAPI_Common-V1_0-20120417-C.pdf">OMA-TS-REST_NetAPI_Common-V1_0</a></td>
-</tr>
-<tr>
-<td class="TableP1big" style="width: 72px;" valign="top">POL0009</td>
-<td class="TableP1big" valign="top" width="323">Invalid frequency requested</td>
-<td class="TableP1big" valign="top" width="285"><a href="http://www.3gpp.org/ftp/Specs/html-info/29199-01.htm">3GPP TS 29.199-01</a>,<a href="http://devwww.openmobilealliance.org/release/REST_NetAPI_Common/V1_0-20120417-C/OMA-TS-REST_NetAPI_Common-V1_0-20120417-C.pdf">OMA-TS-REST_NetAPI_Common-V1_0</a></td>
-</tr>
-<tr>
-<td class="TableP1big" style="width: 72px;" valign="top">POL0010</td>
-<td class="TableP1big" valign="top" width="323">Retention time interval expired</td>
-<td class="TableP1big" valign="top" width="285"><a href="http://www.3gpp.org/ftp/Specs/html-info/29199-01.htm">3GPP TS 29.199-01</a>,<a href="http://devwww.openmobilealliance.org/release/REST_NetAPI_Common/V1_0-20120417-C/OMA-TS-REST_NetAPI_Common-V1_0-20120417-C.pdf">OMA-TS-REST_NetAPI_Common-V1_0</a></td>
-</tr>
-<tr>
-<td class="TableP1big" style="width: 72px;" valign="top">POL0011</td>
-<td class="TableP1big" valign="top" width="323">Media Type not supported</td>
-<td class="TableP1big" valign="top" width="285"><a href="http://www.3gpp.org/ftp/Specs/html-info/29199-01.htm">3GPP TS 29.199-01</a>,<a href="http://devwww.openmobilealliance.org/release/REST_NetAPI_Common/V1_0-20120417-C/OMA-TS-REST_NetAPI_Common-V1_0-20120417-C.pdf">OMA-TS-REST_NetAPI_Common-V1_0</a></td>
-</tr>
-<tr>
-<td class="TableP1big" style="width: 72px;" valign="top">POL0012</td>
-<td class="TableP1big" valign="top" width="323">Too many description entries specified</td>
-<td class="TableP1big" valign="top" width="285"><a href="http://www.3gpp.org/ftp/Specs/html-info/29199-01.htm">3GPP TS 29.199-01</a>,<a href="http://devwww.openmobilealliance.org/release/REST_NetAPI_Common/V1_0-20120417-C/OMA-TS-REST_NetAPI_Common-V1_0-20120417-C.pdf">OMA-TS-REST_NetAPI_Common-V1_0</a></td>
-</tr>
-<tr>
-<td class="TableP1big" style="width: 72px;" valign="top">POL0013</td>
-<td class="TableP1big" valign="top" width="323">Addresses duplication</td>
-<td class="TableP1big" valign="top" width="285"><a href="http://www.3gpp.org/ftp/Specs/html-info/29199-01.htm">3GPP TS 29.199-01</a>,<a href="http://devwww.openmobilealliance.org/release/REST_NetAPI_Common/V1_0-20120417-C/OMA-TS-REST_NetAPI_Common-V1_0-20120417-C.pdf">OMA-TS-REST_NetAPI_Common-V1_0</a></td>
-</tr>
-<tr>
-<td class="TableP1big" style="width: 72px;" valign="top">POL0200</td>
-<td class="TableP1big" valign="top" width="325">Busy criteria not supported</td>
-<td class="TableP1big" valign="top" width="285"><a href="http://www.3gpp.org/ftp/Specs/html-info/29199-08.htm">3GPP TS 29.199-08</a>,<a href="http://devwww.openmobilealliance.org/release/TerminalStatusREST/V1_0-20131008-C/OMA-TS-REST_NetAPI_TerminalStatus-V1_0-20131008-C.pdf">OMA-TS-REST_NetAPI_TerminalStatus-V1_0</a></td>
-</tr>
-<tr>
-<td class="TableP1big" style="width: 72px;" valign="top">POL0210</td>
-<td class="TableP1big" valign="top" width="325">Too many members in group</td>
-<td class="TableP1big" valign="top" width="285"><a href="http://www.3gpp.org/ftp/Specs/html-info/29199-13.htm">3GPP TS 29.199-13</a>,<a href="http://devwww.openmobilealliance.org/release/AddressBookREST/V1_0-20151023-C/OMA-TS-REST_NetAPI_AddressBook-V1_0-20151023-C.pdf">OMA-TS-REST_NetAPI_AddressBook-V1_0</a></td>
-</tr>
-<tr>
-<td class="TableP1big" style="width: 72px;" valign="top">POL0211</td>
-<td class="TableP1big" valign="top" width="325">Subgroups not supported</td>
-<td class="TableP1big" valign="top" width="285"><a href="http://www.3gpp.org/ftp/Specs/html-info/29199-13.htm">3GPP TS 29.199-13</a><a href="http://devwww.openmobilealliance.org/release/AddressBookREST/V1_0-20151023-C/OMA-TS-REST_NetAPI_AddressBook-V1_0-20151023-C.pdf">OMA-TS-REST_NetAPI_AddressBook-V1_0</a></td>
-</tr>
-<tr>
-<td class="TableP1big" valign="top">POL0212</td>
-<td class="TableP1big" valign="top" width="323">Group name too long</td>
-<td class="TableP1big" width="284"><a href="http://www.3gpp.org/ftp/Specs/html-info/29199-13.htm">3GPP TS 29.199-13</a>,<a href="http://devwww.openmobilealliance.org/release/AddressBookREST/V1_0-20151023-C/OMA-TS-REST_NetAPI_AddressBook-V1_0-20151023-C.pdf">OMA-TS-REST_NetAPI_AddressBook-V1_0</a></td>
-</tr>
-<tr>
-<td class="TableP1big" valign="top">POL0213</td>
-<td class="TableP1big" valign="top" width="323">Group already exists</td>
-<td class="TableP1big" valign="top" width="285"><a href="http://www.3gpp.org/ftp/Specs/html-info/29199-13.htm">3GPP TS 29.199-13</a>,<a href="http://devwww.openmobilealliance.org/release/AddressBookREST/V1_0-20151023-C/OMA-TS-REST_NetAPI_AddressBook-V1_0-20151023-C.pdf">OMA-TS-REST_NetAPI_AddressBook-V1_0</a></td>
-</tr>
-<tr>
-<td class="TableP1big" valign="top">POL0214</td>
-<td class="TableP1big" valign="top" width="323">Too many resources</td>
-<td class="TableP1big" valign="top" width="285"><a href="http://devwww.openmobilealliance.org/release/ParlayREST/V2_0-20120724-A">OMA-TS-ParlayREST_AddressListManagement-V1_0</a>,<a href="http://devwww.openmobilealliance.org/release/AddressBookREST/V1_0-20151023-C/OMA-TS-REST_NetAPI_AddressBook-V1_0-20151023-C.pdf">OMA-TS-REST_NetAPI_AddressBook-V1_0</a></td>
-</tr>
-<tr>
-<td class="TableP1big" valign="top">POL0220</td>
-<td class="TableP1big" valign="top" width="323">Vouchers not accepted</td>
-<td class="TableP1big" valign="top" width="285"><a href="http://www.3gpp.org/ftp/Specs/html-info/29199-07.htm">3GPP TS 29.199-07</a></td>
-</tr>
-<tr>
-<td class="TableP1big" valign="top">POL0230</td>
-<td class="TableP1big" valign="top" width="323">Requested accuracy not supported.</td>
-<td class="TableP1big" valign="top" width="285"><a href="http://www.3gpp.org/ftp/Specs/html-info/29199-09.htm">3GPP TS 29.199-09</a>,<a href="http://www.3gpp.org/ftp/Specs/html-info/29199-16.htm">3GPP TS 29.199-16</a>,<a href="http://devwww.openmobilealliance.org/release/TerminalStatusREST/V1_0-20131008-C/OMA-TS-REST_NetAPI_TerminalStatus-V1_0-20131008-C.pdf">OMA-TS-REST_NetAPI_TerminalLocation-V1_0</a></td>
-</tr>
-<tr>
-<td class="TableP1big" valign="top">POL0231</td>
-<td class="TableP1big" valign="top" width="323">Geographic notification not available</td>
-<td class="TableP1big" valign="top" width="285"><a href="http://www.3gpp.org/ftp/Specs/html-info/29199-09.htm">3GPP TS 29.199-09</a>,<a href="http://devwww.openmobilealliance.org/release/TerminalStatusREST/V1_0-20131008-C/OMA-TS-REST_NetAPI_TerminalStatus-V1_0-20131008-C.pdf">OMA-TS-REST_NetAPI_TerminalLocation-V1_0</a></td>
-</tr>
-<tr>
-<td class="TableP1big" valign="top">POL0232</td>
-<td class="TableP1big" valign="top" width="323">Periodic notification not available</td>
-<td class="TableP1big" valign="top" width="285"><a href="http://www.3gpp.org/ftp/Specs/html-info/29199-09.htm">3GPP TS 29.199-09</a>,<a href="http://devwww.openmobilealliance.org/release/TerminalStatusREST/V1_0-20131008-C/OMA-TS-REST_NetAPI_TerminalStatus-V1_0-20131008-C.pdf">OMA-TS-REST_NetAPI_TerminalLocation-V1_0</a></td>
-</tr>
-<tr>
-<td class="TableP1big" valign="top">POL0233</td>
-<td class="TableP1big" valign="top" width="323">Distance notification not available</td>
-<td class="TableP1big" valign="top" width="285"><a href="http://www.3gpp.org/ftp/Specs/html-info/29199-09.htm">3GPP TS 29.199-09</a>,<a href="http://devwww.openmobilealliance.org/release/TerminalStatusREST/V1_0-20131008-C/OMA-TS-REST_NetAPI_TerminalStatus-V1_0-20131008-C.pdf">OMA-TS-REST_NetAPI_TerminalLocation-V1_0</a></td>
-</tr>
-<tr>
-<td class="TableP1big" valign="top">POL0240</td>
-<td class="TableP1big" valign="top" width="323">Too many participants</td>
-<td class="TableP1big" valign="top" width="285"><a href="http://www.3gpp.org/ftp/Specs/html-info/29199-12.htm">3GPP TS 29.199-12</a></td>
-</tr>
-<tr>
-<td class="TableP1big" valign="top">POL0241</td>
-<td class="TableP1big" valign="top" width="323">(reserved)</td>
-<td class="TableP1big" valign="top" width="285"><a href="http://www.3gpp.org/ftp/Specs/html-info/29199-12.htm">3GPP TS 29.199-12</a></td>
-</tr>
-<tr>
-<td class="TableP1big" valign="top">POL0242</td>
-<td class="TableP1big" valign="top" width="323">Maximum duration exceeded</td>
-<td class="TableP1big" valign="top" width="285"><a href="http://www.3gpp.org/ftp/Specs/html-info/29199-12.htm">3GPP TS 29.199-12</a></td>
-</tr>
-<tr>
-<td class="TableP1big" valign="top">POL0250</td>
-<td class="TableP1big" valign="top" width="323">Too many endUserIdentifiers</td>
-<td class="TableP1big" valign="top" width="285"><a href="http://www.3gpp.org/ftp/Specs/html-info/29199-06.htm">3GPP TS 29.199-06</a>,<a href="http://devwww.openmobilealliance.org/release/PaymentREST/V1_0_1-20151023-A/OMA-TS-REST_NetAPI_Payment-V1_0_1-20151023-A.pdf">OMA-TS-REST_NetAPI_Payment-V1_0</a></td>
-</tr>
-<tr>
-<td class="TableP1big" valign="top">POL0251</td>
-<td class="TableP1big" valign="top" width="323">Split charging not supported</td>
-<td class="TableP1big" valign="top" width="285"><a href="http://www.3gpp.org/ftp/Specs/html-info/29199-06.htm">3GPP TS 29.199-06</a>,<a href="http://devwww.openmobilealliance.org/release/PaymentREST/V1_0_1-20151023-A/OMA-TS-REST_NetAPI_Payment-V1_0_1-20151023-A.pdf">OMA-TS-REST_NetAPI_Payment-V1_0</a></td>
-</tr>
-<tr>
-<td class="TableP1big" valign="top">POL0252</td>
-<td class="TableP1big" valign="top" width="323">Refund request failed</td>
-<td class="TableP1big" valign="top" width="285"><a href="http://devwww.openmobilealliance.org/release/ParlayREST/V2_0-20120724-A/OMA-TS-ParlayREST_Payment-V1_1-20120724-A.pdf">OMA-TS-ParlayREST_Payment-V1_0</a></td>
-</tr>
-<tr>
-<td class="TableP1big" valign="top">POL0253</td>
-<td class="TableP1big" valign="top" width="323">Payment operation refused by user</td>
-<td class="TableP1big" valign="top" width="285"><a href="http://devwww.openmobilealliance.org/release/ParlayREST/V2_0-20120724-A/OMA-TS-ParlayREST_Payment-V1_1-20120724-A.pdf">OMA-TS-ParlayREST_Payment-V1_0</a>,<a href="http://devwww.openmobilealliance.org/release/PaymentREST/V1_0_1-20151023-A/OMA-TS-REST_NetAPI_Payment-V1_0_1-20151023-A.pdf">OMA-TS-REST_NetAPI_Payment-V1_0</a></td>
-</tr>
-<tr>
-<td class="TableP1big" valign="top">POL0254</td>
-<td class="TableP1big" valign="top" width="323">Chargeable amount exceeded</td>
-<td class="TableP1big" valign="top" width="285"><a href="http://devwww.openmobilealliance.org/release/ParlayREST/V2_0-20120724-A/OMA-TS-ParlayREST_Payment-V1_1-20120724-A.pdf">OMA-TS-ParlayREST_Payment-V1_0</a>,<a href="http://devwww.openmobilealliance.org/release/PaymentREST/V1_0_1-20151023-A/OMA-TS-REST_NetAPI_Payment-V1_0_1-20151023-A.pdf">OMA-TS-REST_NetAPI_Payment-V1_0</a></td>
-</tr>
-<tr>
-<td class="TableP1big" style="width: 72px;">POL0260</td>
-<td class="TableP1big" width="325">Too many resources</td>
-<td class="TableP1big" valign="top" width="285"><a href="http://devwww.openmobilealliance.org/release/ParlayREST/V2_0-20120724-A/OMA-TS-ParlayREST_Payment-V1_1-20120724-A.pdf">OMA-TS-ParlayREST_Presence-V1_0</a>,<a href="http://devwww.openmobilealliance.org/release/PresenceREST/V1_0-20151201-C/OMA-TS-REST_NetAPI_Presence-V1_0-20151201-C.pdf">OMA-TS-REST_NetAPI_Presence-V1_0</a></td>
-</tr>
-<tr>
-<td class="TableP1big" valign="top">POL0330</td>
-<td class="TableP1big" valign="top" width="323">Multiple areas not allowed</td>
-<td class="TableP1big" valign="top" width="285"><a href="http://www.3gpp.org/ftp/Specs/html-info/29199-15.htm">3GPP TS 29.199-15</a></td>
-</tr>
-<tr>
-<td class="TableP1big" valign="top">POL0331</td>
-<td class="TableP1big" valign="top" width="323">Maximum Number of Areas exceeded</td>
-<td class="TableP1big" valign="top" width="285"><a href="http://www.3gpp.org/ftp/Specs/html-info/29199-15.htm">3GPP TS 29.199-15</a></td>
-</tr>
-<tr>
-<td class="TableP1big" valign="top">POL0332</td>
-<td class="TableP1big" valign="top" width="323">Too Many Broadcasts requested</td>
-<td class="TableP1big" valign="top" width="285"><a href="http://www.3gpp.org/ftp/Specs/html-info/29199-15.htm">3GPP TS 29.199-15</a></td>
-</tr>
-<tr>
-<td class="TableP1big" valign="top">POL0333</td>
-<td class="TableP1big" valign="top" width="323">Min/Max Interval Violation</td>
-<td class="TableP1big" valign="top" width="285"><a href="http://www.3gpp.org/ftp/Specs/html-info/29199-15.htm">3GPP TS 29.199-15</a></td>
-</tr>
-<tr>
-<td class="TableP1big" valign="top">POL0350</td>
-<td class="TableP1big" valign="top" width="323">Too many terminal numbers</td>
-<td class="TableP1big" valign="top" width="285"><a href="http://www.3gpp.org/ftp/Specs/html-info/29199-16.htm">3GPP TS 29.199-16</a></td>
-</tr>
-</tbody>
-</table>
-<h4>POL1000-1999</h4>
-The codes in this range are associated with Policy Exceptions in the individual OMA RESTful Network APIs. This range is open for assignment by OMNA according to the assignment policy
-<table style="height: 952px;" border="0" cellspacing="0" cellpadding="0">
-<tbody>
-<tr>
-<td class="TableTitre2" valign="top" width="72">Code</td>
-<td class="TableTitre2" style="height: 23px; width: 322px;" valign="top">Meaning</td>
-<td class="TableTitre2" style="height: 23px;" valign="top" width="285">Reference(s)</td>
-</tr>
-<tr>
-<td class="TableP1big" align="left" valign="middle" width="72">POL1000</td>
-<td class="TableP1big" style="width: 322px;" valign="top">Insufficient credit</td>
-<td class="TableP1big" valign="top" width="285"><a href="http://devwww.openmobilealliance.org/release/PaymentREST/V1_0_1-20151023-A/OMA-TS-REST_NetAPI_Payment-V1_0_1-20151023-A.pdf">OMA-TS-REST_NetAPI_Payment-V1_0</a></td>
-</tr>
-<tr>
-<td class="TableP1big" valign="top" width="72">POL1001</td>
-<td class="TableP1big" style="width: 322px;" valign="top">Periodic charge threshold exceeded</td>
-<td class="TableP1big" valign="top" width="285"><a href="http://devwww.openmobilealliance.org/release/PaymentREST/V1_0_1-20151023-A/OMA-TS-REST_NetAPI_Payment-V1_0_1-20151023-A.pdf">OMA-TS-REST_NetAPI_Payment-V1_0</a></td>
-</tr>
-<tr>
-<td class="TableP1big" valign="top" width="72">POL1002</td>
-<td class="TableP1big" style="width: 322px;" valign="top">Charge velocity exceeded</td>
-<td class="TableP1big" valign="top" width="285"><a href="http://devwww.openmobilealliance.org/release/PaymentREST/V1_0_1-20151023-A/OMA-TS-REST_NetAPI_Payment-V1_0_1-20151023-A.pdf">OMA-TS-REST_NetAPI_Payment-V1_0</a></td>
-</tr>
-<tr>
-<td class="TableP1big" valign="top" width="72">POL1003</td>
-<td class="TableP1big" style="width: 322px;" valign="top">Refund exceeds original charge amount</td>
-<td class="TableP1big" valign="top" width="285"><a href="http://devwww.openmobilealliance.org/release/PaymentREST/V1_0_1-20151023-A/OMA-TS-REST_NetAPI_Payment-V1_0_1-20151023-A.pdf">OMA-TS-REST_NetAPI_Payment-V1_0</a></td>
-</tr>
-<tr>
-<td class="TableP1big" valign="top" width="72">POL1004</td>
-<td class="TableP1big" style="width: 322px;" valign="top">Refund below minimum refundable amount</td>
-<td class="TableP1big" valign="top" width="285"><a href="http://devwww.openmobilealliance.org/release/PaymentREST/V1_0_1-20151023-A/OMA-TS-REST_NetAPI_Payment-V1_0_1-20151023-A.pdf">OMA-TS-REST_NetAPI_Payment-V1_0</a></td>
-</tr>
-<tr>
-<td class="TableP1big" valign="top" width="72">POL1005</td>
-<td class="TableP1big" style="width: 322px;" valign="top">OriginalServerReferenceCode not provided</td>
-<td class="TableP1big" valign="top" width="285"><a href="http://devwww.openmobilealliance.org/release/PaymentREST/V1_0_1-20151023-A/OMA-TS-REST_NetAPI_Payment-V1_0_1-20151023-A.pdf">OMA-TS-REST_NetAPI_Payment-V1_0</a></td>
-</tr>
-<tr>
-<td class="TableP1big" valign="top" width="72">POL1006</td>
-<td class="TableP1big" style="width: 322px;" valign="top">OriginalServerReferenceCode not valid</td>
-<td class="TableP1big" valign="top" width="285"><a href="http://devwww.openmobilealliance.org/release/PaymentREST/V1_0_1-20151023-A/OMA-TS-REST_NetAPI_Payment-V1_0_1-20151023-A.pdf">OMA-TS-REST_NetAPI_Payment-V1_0</a></td>
-</tr>
-<tr>
-<td class="TableP1big" valign="top" width="72">POL1007</td>
-<td class="TableP1big" style="width: 322px;" valign="top">Refunds not supported</td>
-<td class="TableP1big" valign="top" width="285"><a href="http://devwww.openmobilealliance.org/release/PaymentREST/V1_0_1-20151023-A/OMA-TS-REST_NetAPI_Payment-V1_0_1-20151023-A.pdf">OMA-TS-REST_NetAPI_Payment-V1_0</a></td>
-</tr>
-<tr>
-<td class="TableP1big" valign="top" width="72">POL1008</td>
-<td class="TableP1big" style="width: 322px;" valign="top">Payment declined</td>
-<td class="TableP1big" valign="top" width="285"><a href="http://devwww.openmobilealliance.org/release/PaymentREST/V1_0_1-20151023-A/OMA-TS-REST_NetAPI_Payment-V1_0_1-20151023-A.pdf">OMA-TS-REST_NetAPI_Payment-V1_0</a></td>
-</tr>
-<tr>
-<td class="TableP1big" valign="top" width="72">POL1009</td>
-<td class="TableP1big" style="width: 322px;" valign="top">(reserved)</td>
-<td class="TableP1big" valign="top" width="285">-</td>
-</tr>
-<tr>
-<td class="TableP1big" valign="top" width="72">POL1010</td>
-<td class="TableP1big" style="width: 322px;" valign="top">Insufficient information to identify IP flow</td>
-<td class="TableP1big" valign="top" width="285">-</td>
-</tr>
-<tr>
-<td class="TableP1big" valign="top" width="72">POL1011</td>
-<td class="TableP1big" style="width: 322px;" valign="top">Specified IP flow does not exist</td>
-<td class="TableP1big" valign="top" width="285">-</td>
-</tr>
-<tr>
-<td class="TableP1big" valign="top" width="72">POL1012</td>
-<td class="TableP1big" style="width: 322px;" valign="top">Messages during session setup not supported</td>
-<td class="TableP1big" valign="top" width="285"><a href="http://devwww.openmobilealliance.org/release/REST_NetAPI_Chat/V1_0-20151201-C/OMA-TS-REST_NetAPI_Chat-V1_0-20151201-C.pdf">OMA-TS-REST_NetAPI_Chat-V1_0</a></td>
-</tr>
-<tr>
-<td class="TableP1big" valign="top" width="72">POL1013</td>
-<td class="TableP1big" style="width: 322px;" valign="top">Confirmed 1-1 chats are not supported</td>
-<td class="TableP1big" valign="top" width="285"><a href="http://devwww.openmobilealliance.org/release/REST_NetAPI_Chat/V1_0-20151201-C/OMA-TS-REST_NetAPI_Chat-V1_0-20151201-C.pdf">OMA-TS-REST_NetAPI_Chat-V1_0</a></td>
-</tr>
-<tr>
-<td class="TableP1big" valign="top" width="72">POL1014</td>
-<td class="TableP1big" style="width: 322px;" valign="top">Ad-hoc 1-1 chats are not supported</td>
-<td class="TableP1big" valign="top" width="285"><a href="http://devwww.openmobilealliance.org/release/REST_NetAPI_Chat/V1_0-20151201-C/OMA-TS-REST_NetAPI_Chat-V1_0-20151201-C.pdf">OMA-TS-REST_NetAPI_Chat-V1_0</a></td>
-</tr>
-<tr>
-<td class="TableP1big" valign="top" width="72">POL1015</td>
-<td class="TableP1big" style="width: 322px;" valign="top">Sending file operation not supported</td>
-<td class="TableP1big" valign="top" width="285"><a href="http://devwww.openmobilealliance.org/release/REST_NetAPI_Chat/V1_0-20151201-C/OMA-TS-REST_NetAPI_Chat-V1_0-20151201-C.pdf">OMA-TS-REST_NetAPI_FileTransfer-V1_0</a></td>
-</tr>
-<tr>
-<td class="TableP1big" valign="top" width="72">POL1016</td>
-<td class="TableP1big" style="width: 322px;" valign="top">(reserved)</td>
-<td class="TableP1big" valign="top" width="285">-</td>
-</tr>
-<tr>
-<td class="TableP1big" valign="top" width="72">POL1017</td>
-<td class="TableP1big" style="width: 322px;" valign="top">Too many participants</td>
-<td class="TableP1big" valign="top" width="285"><a href="http://devwww.openmobilealliance.org/release/REST_NetAPI_Chat/V1_0-20151201-C/OMA-TS-REST_NetAPI_Chat-V1_0-20151201-C.pdf">OMA-TS-REST_NetAPI_Chat-V1_0</a></td>
-</tr>
-<tr>
-<td class="TableP1big" valign="top" width="72">POL1018</td>
-<td class="TableP1big" style="width: 322px;" valign="top">Group chat termination not supported.</td>
-<td class="TableP1big" valign="top" width="285"><a href="http://devwww.openmobilealliance.org/release/REST_NetAPI_Chat/V1_0-20151201-C/OMA-TS-REST_NetAPI_Chat-V1_0-20151201-C.pdf">OMA-TS-REST_NetAPI_Chat-V1_0</a></td>
-</tr>
-<tr>
-<td class="TableP1big" valign="top" width="72">POL1019</td>
-<td class="TableP1big" style="width: 322px;" valign="top">Binary SMS not allowed</td>
-<td class="TableP1big" valign="top" width="285"><a href="http://devwww.openmobilealliance.org/release/ShortMessREST/V1_0-20151023-C/OMA-TS-REST_NetAPI_ShortMessaging-V1_0-20151023-C.pdf">OMA-TS-REST_NetAPI_ShortMessaging-V1_0</a>,<a href="http://devwww.openmobilealliance.org/release/MessagingREST/V1_0-20151201-C/OMA-TS-REST_NetAPI_Messaging-V1_0-20151201-C.pdf">OMA-TS-REST_NetAPI_Messaging-V1_0</a></td>
-</tr>
-<tr>
-<td class="TableP1big" valign="top" width="72">POL1020</td>
-<td class="TableP1big" style="width: 322px;" valign="top">MaxBatchSize exceeded</td>
-<td class="TableP1big" valign="top" width="285"><a href="http://devwww.openmobilealliance.org/release/ShortMessREST/V1_0-20151023-C/OMA-TS-REST_NetAPI_ShortMessaging-V1_0-20151023-C.pdf">OMA-TS-REST_NetAPI_ShortMessaging-V1_0</a>,<a href="http://devwww.openmobilealliance.org/release/MessagingREST/V1_0-20151201-C/OMA-TS-REST_NetAPI_Messaging-V1_0-20151201-C.pdf">OMA-TS-REST_NetAPI_Messaging-V1_0</a></td>
-</tr>
-<tr>
-<td class="TableP1big" align="left" valign="middle" width="72">POL1021</td>
-<td class="TableP1big" style="width: 322px;" align="left" valign="middle">Maximum number of Capability Sources exceeded</td>
-<td class="TableP1big" align="left" valign="middle" width="285"><a href="http://devwww.openmobilealliance.org/release/RESTNetAPI_Cap_Disc/V1_0-20130701-C/OMA-TS-REST_NetAPI_CapabilityDiscovery-V1_0-20130701-C.pdf">OMA-TS-REST_NetAPI_CapabilityDiscovery-V1_0</a></td>
-</tr>
-<tr>
-<td class="TableP1big" align="left" valign="middle" width="72">POL1022</td>
-<td class="TableP1big" style="width: 322px;" align="left" valign="middle">Service capability not supported</td>
-<td class="TableP1big" align="left" valign="middle" width="285"><a href="http://devwww.openmobilealliance.org/release/RESTNetAPI_Cap_Disc/V1_0-20130701-C/OMA-TS-REST_NetAPI_CapabilityDiscovery-V1_0-20130701-C.pdf">OMA-TS-REST_NetAPI_CapabilityDiscovery-V1_0</a></td>
-</tr>
-<tr>
-<td class="TableP1big" align="left" valign="middle" width="72">POL1023</td>
-<td class="TableP1big" style="width: 322px;" align="left" valign="middle">Notification channel type not supported</td>
-<td class="TableP1big" align="left" valign="middle" width="285"><a href="http://devwww.openmobilealliance.org/release/NotifChanREST/V1_0-20151222-C/OMA-TS-REST_NetAPI_NotificationChannel-V1_0-20151222-C.pdf">OMA-TS-REST_NetAPI_NotificationChannel-V1_0</a></td>
-</tr>
-<tr>
-<td class="TableP1big" align="left" valign="middle" width="72">POL1024</td>
-<td class="TableP1big" style="width: 322px;" align="left" valign="middle">ACR creation failed. An active ACR already exists</td>
-<td class="TableP1big" align="left" valign="middle" width="285"><a href="http://devwww.openmobilealliance.org/release/REST_NetAPI_ACR/V1_0-20151201-C/OMA-TS-REST_NetAPI_ACR-V1_0-20151201-C.pdf">OMA-TS-REST_NetAPI_ACR-V1_0</a></td>
-</tr>
-<tr>
-<td class="TableP1big" align="left" valign="middle" width="72">POL1025</td>
-<td class="TableP1big" style="width: 322px;" align="left" valign="middle">ACR creation failed. An expired ACR already exists</td>
-<td class="TableP1big" align="left" valign="middle" width="285"><a href="http://devwww.openmobilealliance.org/release/REST_NetAPI_ACR/V1_0-20151201-C/OMA-TS-REST_NetAPI_ACR-V1_0-20151201-C.pdf">OMA-TS-REST_NetAPI_ACR-V1_0</a></td>
-</tr>
-<tr>
-<td class="TableP1big" align="left" valign="middle" width="72">POL1026</td>
-<td class="TableP1big" style="width: 322px;" align="left" valign="middle">Creation of Static ACR is not supported</td>
-<td class="TableP1big" align="left" valign="middle" width="285"><a href="http://devwww.openmobilealliance.org/release/REST_NetAPI_ACR/V1_0-20151201-C/OMA-TS-REST_NetAPI_ACR-V1_0-20151201-C.pdf">OMA-TS-REST_NetAPI_ACR-V1_0</a></td>
-</tr>
-<tr>
-<td class="TableP1big" align="left" valign="middle" width="72">POL1027</td>
-<td class="TableP1big" style="width: 322px;" align="left" valign="middle">Revoked ACR can no longer be used or refreshed</td>
-<td class="TableP1big" align="left" valign="middle" width="285"><a href="http://devwww.openmobilealliance.org/release/REST_NetAPI_ACR/V1_0-20151201-C/OMA-TS-REST_NetAPI_ACR-V1_0-20151201-C.pdf">OMA-TS-REST_NetAPI_ACR-V1_0</a></td>
-</tr>
-<tr>
-<td class="TableP1big" align="left" valign="middle" width="72">POL1028</td>
-<td class="TableP1big" style="width: 322px;" align="left" valign="middle">Expired ACR may not be used unless refreshed</td>
-<td class="TableP1big" align="left" valign="middle" width="285"><a href="http://devwww.openmobilealliance.org/release/REST_NetAPI_ACR/V1_0-20151201-C/OMA-TS-REST_NetAPI_ACR-V1_0-20151201-C.pdf">OMA-TS-REST_NetAPI_ACR-V1_0</a></td>
-</tr>
-<tr>
-<td class="TableP1big" style="height: 19px;" align="left" valign="middle" width="72">POL1029</td>
-<td class="TableP1big" style="height: 19px; width: 322px;" align="left" valign="middle">Forbidden to join a closed group chat</td>
-<td class="TableP1big" style="height: 19px;" align="left" valign="middle" width="285"><a href="http://devwww.openmobilealliance.org/release/REST_NetAPI_Chat/V1_0-20151201-C/OMA-TS-REST_NetAPI_Chat-V1_0-20151201-C.pdf">OMA RESTful Network API for Chat V1.0</a></td>
-</tr>
-<tr>
-<td class="TableP1big" align="left" valign="middle" width="72">POL1030</td>
-<td class="TableP1big" style="width: 322px;" align="left" valign="middle">Folder cannot be modified, moved or deleted</td>
-<td class="TableP1big" align="left" valign="middle" width="285"><a href="http://devwww.openmobilealliance.org/release/REST_NETAPI_NMS/V1_0-20141216-C/OMA-TS-REST_NetAPI_NMS-V1_0-20141216-C.pdf">OMA-TS-REST_NetAPI_NMS-v1_0</a></td>
-</tr>
-<tr>
-<td class="TableP1big" style="height: 38px;" align="left" valign="middle" width="72">POL1031</td>
-<td class="TableP1big" style="height: 38px; width: 322px;" align="left" valign="middle">Object or folder creation under the requested folder not allowed</td>
-<td class="TableP1big" style="height: 38px;" align="left" valign="middle" width="285"><a href="http://devwww.openmobilealliance.org/release/REST_NETAPI_NMS/V1_0-20141216-C/OMA-TS-REST_NetAPI_NMS-V1_0-20141216-C.pdf">OMA-TS-REST_NetAPI_NMS-v1_0</a></td>
-</tr>
-<tr>
-<td class="TableP1big" style="height: 19px;" align="left" valign="middle" width="72">POL1032</td>
-<td class="TableP1big" style="height: 19px; width: 322px;" align="left" valign="middle">Custom QoS features not supported</td>
-<td class="TableP1big" style="height: 19px;" align="left" valign="middle" width="285"><a href="http://devwww.openmobilealliance.org/release/REST_NetAPI_QoS/V1_0-20141125-C/OMA-TS-REST_NetAPI_QoS-V1_0-20141125-C.pdf">OMA-TS-REST_NetAPI_QoS-V1_0</a></td>
-</tr>
-<tr>
-<td class="TableP1big" align="left" valign="middle" width="72">POL1033</td>
-<td class="TableP1big" style="width: 322px;" align="left" valign="middle">Specifying volume limits not supported</td>
-<td class="TableP1big" align="left" valign="middle" width="285"><a href="http://devwww.openmobilealliance.org/release/REST_NetAPI_QoS/V1_0-20141125-C/OMA-TS-REST_NetAPI_QoS-V1_0-20141125-C.pdf">OMA-TS-REST_NetAPI_QoS-V1_0</a></td>
-</tr>
-<tr>
-<td class="TableP1big" align="left" valign="middle" width="72">POL1034</td>
-<td class="TableP1big" style="width: 322px;" align="left" valign="middle">Subscriptions to predefined QoS features not supported</td>
-<td class="TableP1big" align="left" valign="middle" width="285"><a href="http://devwww.openmobilealliance.org/release/REST_NetAPI_QoS/V1_0-20141125-C/OMA-TS-REST_NetAPI_QoS-V1_0-20141125-C.pdf">OMA-TS-REST_NetAPI_QoS-V1_0</a></td>
-</tr>
-<tr>
-<td class="TableP1big" align="left" valign="middle" width="72">POL1035</td>
-<td class="TableP1big" style="width: 322px;" align="left" valign="middle">Multiple notifications for predefined QoS features not supported</td>
-<td class="TableP1big" align="left" valign="middle" width="285"><a href="http://devwww.openmobilealliance.org/release/REST_NetAPI_QoS/V1_0-20141125-C/OMA-TS-REST_NetAPI_QoS-V1_0-20141125-C.pdf">OMA-TS-REST_NetAPI_QoS-V1_0</a></td>
-</tr>
-<tr>
-<td class="TableP1big" style="height: 19px;" align="left" valign="middle" width="72">POL1036</td>
-<td class="TableP1big" style="width: 322px; height: 19px;" align="left" valign="middle">Sponsored QoS features are not supported</td>
-<td class="TableP1big" style="height: 19px;" align="left" valign="middle" width="285"><a href="http://devwww.openmobilealliance.org/release/REST_NetAPI_QoS/V1_0-20141125-C/OMA-TS-REST_NetAPI_QoS-V1_0-20141125-C.pdf">OMA-TS-REST_NetAPI_QoS-V1_0</a></td>
-</tr>
-<tr>
-<td class="TableP1big" style="height: 25px;" align="left" valign="middle" width="72">POL1037</td>
-<td class="TableP1big" style="height: 25px; width: 322px;" align="left" valign="middle">Twinning role mixture not allowed</td>
-<td class="TableP1big" style="height: 25px;" align="left" valign="middle" width="285"><a href="http://devwww.openmobilealliance.org/release/REST_NETAPI_Twinning/V1_0-20160527-C/OMA-TS-REST_NetAPI_Twinning-V1_0-20151215-C.pdf">OMA-TS-REST_NetAPI_Twinning-V1_0</a></td>
-</tr>
-<tr>
-<td class="TableP1big" style="height: 25px;" align="left" valign="middle" width="72">POL1038</td>
-<td class="TableP1big" style="height: 25px; width: 322px;" align="left" valign="middle">Twinning data update not allowed</td>
-<td class="TableP1big" style="height: 25px;" align="left" valign="middle" width="285"><a href="http://devwww.openmobilealliance.org/release/REST_NETAPI_Twinning/V1_0-20160527-C/OMA-TS-REST_NetAPI_Twinning-V1_0-20151215-C.pdf">OMA-TS-REST_NetAPI_Twinning-V1_0</a></td>
-</tr>
-</tbody>
-</table>
-<h4>POL2000-2099</h4>
-The codes in this range are associated with common Policy Exceptions in the OMA RESTful Network APIs. This range is open for assignment by OMNA according to the assignment policy
-<table border="0" cellspacing="0" cellpadding="0">
-<tbody>
-<tr>
-<td class="TableTitre2" valign="top" width="72">Code</td>
-<td class="TableTitre2" style="height: 23px;" valign="top" width="323">Meaning</td>
-<td class="TableTitre2" style="height: 23px;" valign="top" width="285">Reference(s)</td>
-</tr>
-<tr>
-<td class="TableP1big" align="left" valign="middle" width="72">POL2000</td>
-<td class="TableP1big" valign="top" width="323">Policy error with description</td>
-<td class="TableP1big" valign="top" width="285"><a href="http://devwww.openmobilealliance.org/release/REST_NetAPI_Common/V1_0-20120417-C/OMA-TS-REST_NetAPI_Common-V1_0-20120417-C.pdf">OMA-TS-REST_NetAPI_Common-V1_0</a></td>
-</tr>
-<tr>
-<td class="TableP1big" align="left" valign="middle" width="72">POL2001</td>
-<td class="TableP1big" valign="top" width="323">User not provisioned for service</td>
-<td class="TableP1big" valign="top" width="285"><a href="http://devwww.openmobilealliance.org/release/REST_NetAPI_Common/V1_0-20120417-C/OMA-TS-REST_NetAPI_Common-V1_0-20120417-C.pdf">OMA-TS-REST_NetAPI_Common-V1_0</a></td>
-</tr>
-<tr>
-<td class="TableP1big" align="left" valign="middle" width="72">POL2002</td>
-<td class="TableP1big" valign="top" width="323">User suspended from service</td>
-<td class="TableP1big" valign="top" width="285"><a href="http://devwww.openmobilealliance.org/release/REST_NetAPI_Common/V1_0-20120417-C/OMA-TS-REST_NetAPI_Common-V1_0-20120417-C.pdf">OMA-TS-REST_NetAPI_Common-V1_0</a></td>
-</tr>
-<tr>
-<td class="TableP1big" align="left" valign="middle" width="72">POL2003</td>
-<td class="TableP1big" valign="top" width="323">Access denied</td>
-<td class="TableP1big" valign="top" width="285"><a href="http://devwww.openmobilealliance.org/release/REST_NetAPI_Common/V1_0-20120417-C/OMA-TS-REST_NetAPI_Common-V1_0-20120417-C.pdf">OMA-TS-REST_NetAPI_Common-V1_0</a></td>
-</tr>
-<tr>
-<td class="TableP1big" align="left" valign="middle" width="72">POL2004</td>
-<td class="TableP1big" valign="top" width="323">File size limit exceeded</td>
-<td class="TableP1big" valign="top" width="285"><a href="http://devwww.openmobilealliance.org/release/REST_NetAPI_Common/V1_0-20120417-C/OMA-TS-REST_NetAPI_Common-V1_0-20120417-C.pdf">OMA-TS-REST_NetAPI_Common-V1_0</a></td>
-</tr>
-<tr>
-<td class="TableP1big" align="left" valign="middle" width="72">POL2005</td>
-<td class="TableP1big" valign="top" width="323">Maximum number of requests exceeded</td>
-<td class="TableP1big" valign="top" width="285"><a href="http://devwww.openmobilealliance.org/release/REST_NetAPI_Common/V1_0-20120417-C/OMA-TS-REST_NetAPI_Common-V1_0-20120417-C.pdf">OMA-TS-REST_NetAPI_Common-V1_0</a></td>
-</tr>
-<tr>
-<td class="TableP1big" style="height: 21px;" align="left" valign="middle" width="72">POL2006</td>
-<td class="TableP1big" style="height: 21px;" valign="top" width="323">Requested feature not available</td>
-<td class="TableP1big" style="height: 21px;" valign="top" width="285"><a href="http://devwww.openmobilealliance.org/release/REST_NetAPI_Common/V1_0-20120417-C/OMA-TS-REST_NetAPI_Common-V1_0-20120417-C.pdf">OMA-TS-REST_NetAPI_Common-V1_0</a></td>
-</tr>
-<tr>
-<td class="TableP1big" style="width: 72px; height: 19px;" valign="top">POL2007</td>
-<td class="TableP1big" style="height: 19px;" valign="top" width="325">Media Type not supported with details</td>
-<td class="TableP1big" style="height: 19px;" valign="top" width="285"><a href="http://member.openmobilealliance.org/ftp/Public_documents/ARCH/Permanent_documents/OMA-TS-REST_NetAPI_Common-V1_0-20150108-D.zip">
-OMA-TS-REST_NetAPI_Common-V1_0</a></td>
-</tr>
-<tr>
-<td class="TableP1big" style="width: 72px;" valign="top">POL2008</td>
-<td class="TableP1big" valign="top" width="325">Too many resources requested</td>
-<td class="TableP1big" valign="top" width="285"><a href="http://member.openmobilealliance.org/ftp/Public_documents/ARCH/Permanent_documents/OMA-TS-REST_NetAPI_Common-V1_0-20150108-D.zip">
-OMA-TS-REST_NetAPI_Common-V1_0</a></td>
-</tr>
-</tbody>
-</table>
-</div>
-</div>
+                            <a href="?p=2531">OMA-TS-REST_NetAPI_Messaging-V1_0</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="TableP1big" width="72">SVC0290</td>
+                        <td class="TableP1big" width="323">Duplicate media stream</td>
+                        <td class="TableP1big" width="285"><a href="http://www.3gpp.org/ftp/Specs/html-info/29199-11.htm">3GPP TS 29.199-11</a>,<a href="http://devwww.openmobilealliance.org/release/AudioCallREST/V1_0-20130212-C/OMA-TS-REST_NetAPI_AudioCall-V1_0-20130212-C.pdf">OMA-TS-REST_NetAPI_AudioCall-V1_0</a></td>
+                    </tr>
+                    <tr>
+                        <td class="TableP1big" valign="top" width="72">SVC0291</td>
+                        <td class="TableP1big" valign="top" width="323">Media stream does not match</td>
+                        <td class="TableP1big" valign="top" width="285"><a href="http://www.3gpp.org/ftp/Specs/html-info/29199-11.htm">3GPP TS 29.199-11</a>,<a href="http://devwww.openmobilealliance.org/release/AudioCallREST/V1_0-20130212-C/OMA-TS-REST_NetAPI_AudioCall-V1_0-20130212-C.pdf">OMA-TS-REST_NetAPI_AudioCall-V1_0</a></td>
+                    </tr>
+                    <tr>
+                        <td class="TableP1big" valign="top" width="72">SVC0300</td>
+                        <td class="TableP1big" valign="top" width="323">Broadcast Area not supported</td>
+                        <td class="TableP1big" valign="top" width="285"><a href="http://www.3gpp.org/ftp/Specs/html-info/29199-15.htm">3GPP TS 29.199-15</a></td>
+                    </tr>
+                    <tr>
+                        <td class="TableP1big" valign="top" width="72">SVC0301</td>
+                        <td class="TableP1big" valign="top" width="323">Too high load situation</td>
+                        <td class="TableP1big" valign="top" width="285"><a href="http://www.3gpp.org/ftp/Specs/html-info/29199-15.htm">3GPP TS 29.199-15</a></td>
+                    </tr>
+                    <tr>
+                        <td class="TableP1big" valign="top" width="72">SVC0340</td>
+                        <td class="TableP1big" valign="top" width="323">InsufficientConnectionResources</td>
+                        <td class="TableP1big" valign="top" width="285"><a href="http://www.3gpp.org/ftp/Specs/html-info/29199-17.htm">3GPP TS 29.199-17</a></td>
+                    </tr>
+                    <tr>
+                        <td class="TableP1big" valign="top" width="72">SVC0341</td>
+                        <td class="TableP1big" valign="top" width="323">UnknownQoSFeatureIdentifier</td>
+                        <td class="TableP1big" valign="top" width="285"><a href="http://www.3gpp.org/ftp/Specs/html-info/29199-17.htm">3GPP TS 29.199-17</a></td>
+                    </tr>
+                    <tr>
+                        <td class="TableP1big" valign="top" width="72">SVC0342</td>
+                        <td class="TableP1big" valign="top" width="323">EndUserIsNotOnline</td>
+                        <td class="TableP1big" valign="top" width="285"><a href="http://www.3gpp.org/ftp/Specs/html-info/29199-17.htm">3GPP TS 29.199-17</a></td>
+                    </tr>
+                    <tr>
+                        <td class="TableP1big" valign="top" width="72">SVC0343</td>
+                        <td class="TableP1big" valign="top" width="323">SpecifiedAndTemporaryQoSFeaturesConflict</td>
+                        <td class="TableP1big" valign="top" width="285"><a href="http://www.3gpp.org/ftp/Specs/html-info/29199-17.htm">3GPP TS 29.199-17</a></td>
+                    </tr>
+                    <tr>
+                        <td class="TableP1big" valign="top" width="72">SVC0344</td>
+                        <td class="TableP1big" valign="top" width="323">SpecifiedQoSFeatureNotPermittableAsDefault</td>
+                        <td class="TableP1big" valign="top" width="285"><a href="http://www.3gpp.org/ftp/Specs/html-info/29199-17.htm">3GPP TS 29.199-17</a></td>
+                    </tr>
+                    <tr>
+                        <td class="TableP1big" valign="top" width="72">SVC0370</td>
+                        <td class="TableP1big" valign="top" width="323">No valid terminal number(s)</td>
+                        <td class="TableP1big" valign="top" width="285"><a href="http://www.3gpp.org/ftp/Specs/html-info/29199-16.htm">3GPP TS 29.199-16</a></td>
+                    </tr>
+                </tbody>
+            </table>
+            <h4>SVC 1000-1999</h4>
+            The codes in this range are associated with Service Exceptions in the individual OMA RESTful Network APIs. This range is open for assignment by OMNA according to the assignment policy.
+            <table style="width: 100%;" cellspacing="0" cellpadding="0">
+                <tbody>
+                    <tr>
+                        <td class="TableTitre2 " valign="top" width="72">Code</td>
+                        <td class="TableTitre2" valign="top" width="323">Meaning</td>
+                        <td class="TableTitre2" valign="top" width="285">Reference(s)</td>
+                    </tr>
+                    <tr>
+                        <td class="TableP1big" align="left" valign="middle" width="72">SVC1000</td>
+                        <td class="TableP1big" align="left" valign="middle" width="323">(reserved)</td>
+                        <td class="TableP1big" valign="top" width="285"></td>
+                    </tr>
+                    <tr>
+                        <td class="TableP1big" align="left" valign="middle" width="72">SVC1001</td>
+                        <td class="TableP1big" align="left" valign="middle" width="323">(available for registration)</td>
+                        <td class="TableP1big" valign="top" width="285"></td>
+                    </tr>
+                    <tr>
+                        <td class="TableP1big" align="left" valign="middle" width="72">SVC1002</td>
+                        <td class="TableP1big" align="left" valign="middle" width="323">CS call not existing for Video Share.</td>
+                        <td class="TableP1big" valign="top" width="285"><a href="http://devwww.openmobilealliance.org/release/VideoShareREST/V1_0-20130517-C/OMA-TS-REST_NetAPI_VideoShare-V1_0-20130517-C.pdf">OMA-TS-REST_NetAPI_VideoShare-V1_0</a></td>
+                    </tr>
+                    <tr>
+                        <td class="TableP1big" align="left" valign="middle" width="72">SVC1003</td>
+                        <td class="TableP1big" align="left" valign="middle" width="323">CS call not existing for Image Share.</td>
+                        <td class="TableP1big" valign="top" width="285"><a href="http://devwww.openmobilealliance.org/release/ImageShareREST/V1_0-20151123-C/OMA-TS-REST_NetAPI_ImageShare-V1_0-20151123-C.pdf">OMA-TS-REST_NetAPI_ImageShare-V1_0</a></td>
+                    </tr>
+                    <tr>
+                        <td class="TableP1big" align="left" valign="middle" width="72">SVC1004</td>
+                        <td class="TableP1big" align="left" valign="middle" width="323">Capability Source does not exist</td>
+                        <td class="TableP1big" align="left" valign="middle" width="285"><a href="http://devwww.openmobilealliance.org/release/RESTNetAPI_Cap_Disc/V1_0-20130701-C/OMA-TS-REST_NetAPI_CapabilityDiscovery-V1_0-20130701-C.pdf">OMA-TS-REST_NetAPI_CapabilityDiscovery-V1_0</a></td>
+                    </tr>
+                    <tr>
+                        <td class="TableP1big" align="left" valign="middle" width="72">SVC1005</td>
+                        <td class="TableP1big" align="left" valign="middle" width="323">ACR creation failed. Unknown userId</td>
+                        <td class="TableP1big" align="left" valign="middle" width="285"><a href="http://devwww.openmobilealliance.org/release/REST_NetAPI_ACR/V1_0-20151201-C/OMA-TS-REST_NetAPI_ACR-V1_0-20151201-C.pdf">OMA-TS-REST_NetAPI_ACR-V1_0</a></td>
+                    </tr>
+                    <tr>
+                        <td class="TableP1big" align="left" valign="middle" width="72">SVC1006</td>
+                        <td class="TableP1big" align="left" valign="middle" width="323">ACR not found</td>
+                        <td class="TableP1big" align="left" valign="middle" width="285"><a href="http://devwww.openmobilealliance.org/release/REST_NetAPI_ACR/V1_0-20151201-C/OMA-TS-REST_NetAPI_ACR-V1_0-20151201-C.pdf">OMA-TS-REST_NetAPI_ACR-V1_0</a></td>
+                    </tr>
+                    <tr>
+                        <td class="TableP1big" align="left" valign="middle" width="72">SVC1007</td>
+                        <td class="TableP1big" align="left" valign="middle" width="323">Offer rejected due to conflict</td>
+                        <td class="TableP1big" align="left" valign="middle" width="285"><a href="http://devwww.openmobilealliance.org/release/REST_NetAPI_WebRTCSignaling/V1_0-20140211-C/OMA-TS-REST_NetAPI_WebRTCSignaling-V1_0-20140211-C.pdf">OMA-TS-REST_NetAPI_WebRTCSignaling-V1_0</a></td>
+                    </tr>
+                    <tr>
+                        <td class="TableP1big" align="left" valign="middle" width="72">SVC1008</td>
+                        <td class="TableP1big" align="left" valign="middle" width="323">Bad status transition</td>
+                        <td class="TableP1big" align="left" valign="middle" width="285"><a href="http://devwww.openmobilealliance.org/release/RoamAPI/V1_0-20131112-C/OMA-TS-REST_NetAPI_RoamingProvisioning-V1_0-20131112-C.pdf">OMA-TS-REST_NetAPI_RoamingProvisioning-V1_0</a></td>
+                    </tr>
+                    <tr>
+                        <td class="TableP1big" align="left" valign="middle" width="72">SVC1009</td>
+                        <td class="TableP1big" align="left" valign="middle" width="323">Folder's path needed</td>
+                        <td class="TableP1big" align="left" valign="middle" width="285"><a href="http://devwww.openmobilealliance.org/release/REST_NETAPI_NMS/V1_0-20160209-C/OMA-TS-REST_NetAPI_NMS-V1_0-20160209-C.pdf">OMA-TS-REST_NetAPI_NMS-v1_0</a></td>
+                    </tr>
+                    <tr>
+                        <td class="TableP1big" style="height: 19px;" align="left" valign="middle" width="72">SVC1010</td>
+                        <td class="TableP1big" style="height: 19px;" align="left" valign="middle" width="323">Insufficient information to identify IP flow</td>
+                        <td class="TableP1big" style="height: 19px;" align="left" valign="middle" width="285"><a href="http://devwww.openmobilealliance.org/release/REST_NetAPI_QoS/V1_0-20141125-C/OMA-TS-REST_NetAPI_QoS-V1_0-20141125-C.pdf">OMA-TS-REST_NetAPI_QoS-V1_0</a></td>
+                    </tr>
+                    <tr>
+                        <td class="TableP1big" align="left" valign="middle" width="72">SVC1011</td>
+                        <td class="TableP1big" align="left" valign="middle" width="323">Specified IP flow does not exist</td>
+                        <td class="TableP1big" align="left" valign="middle" width="285"><a href="http://devwww.openmobilealliance.org/release/REST_NetAPI_QoS/V1_0-20141125-C/OMA-TS-REST_NetAPI_QoS-V1_0-20141125-C.pdf">OMA-TS-REST_NetAPI_QoS-V1_0</a></td>
+                    </tr>
+                    <tr>
+                        <td class="TableP1big" align="left" valign="middle" width="72">SVC1012</td>
+                        <td class="TableP1big" align="left" valign="middle" width="323">Duplicate media/flow number</td>
+                        <td class="TableP1big" align="left" valign="middle" width="285"><a href="http://devwww.openmobilealliance.org/release/REST_NetAPI_QoS/V1_0-20141125-C/OMA-TS-REST_NetAPI_QoS-V1_0-20141125-C.pdf">OMA-TS-REST_NetAPI_QoS-V1_0</a></td>
+                    </tr>
+                    <tr>
+                        <td class="TableP1big" style="height: 19px;" align="left" valign="middle" width="72">SVC1013</td>
+                        <td class="TableP1big" style="height: 19px;" align="left" valign="middle" width="323">Empty ad-hoc contact list</td>
+                        <td class="TableP1big" style="height: 19px;" align="left" valign="middle" width="285"><a href="http://devwww.openmobilealliance.org/release/RESTNetAPI_Cap_Disc/V1_0-20130701-C/OMA-TS-REST_NetAPI_CapabilityDiscovery-V1_0-20130701-C.pdf">OMA-TS-REST_NetAPI_CapabilityDiscovery-V1_0</a></td>
+                    </tr>
+                    <tr>
+                        <td class="TableP1big" style="height: 19px;" align="left" valign="middle" width="72">SVC1014</td>
+                        <td class="TableP1big" style="height: 19px;" align="left" valign="middle" width="323">Undefined twinning role</td>
+                        <td class="TableP1big" style="height: 19px;" align="left" valign="middle" width="285"><a href="http://devwww.openmobilealliance.org/release/REST_NETAPI_Twinning/V1_0-20160527-C/OMA-TS-REST_NetAPI_Twinning-V1_0-20151215-C.pdf">OMA-TS-REST_NetAPI_Twinning-V1_0</a></td>
+                    </tr>
+                </tbody>
+            </table>
+            <h4>SVC2000-2099</h4>
+            The codes in this range are associated with common Service Exceptions in the OMA RESTful Network APIs. This range is open for assignment by OMNA according to the assignment policy.
+            <table style="width: 100%;" border="0" cellspacing="0" cellpadding="0">
+                <tbody>
+                    <tr>
+                        <td class="TableTitre2" valign="top" width="72">Code</td>
+                        <td class="TableTitre2" valign="top" width="323">Meaning</td>
+                        <td class="TableTitre2" valign="top" width="285">Reference(s)</td>
+                    </tr>
+                    <tr>
+                        <td class="TableP1big" valign="top" width="72">SVC2000</td>
+                        <td class="TableP1big" width="323">Service error with description</td>
+                        <td class="TableP1big" width="285"><a href="http://devwww.openmobilealliance.org/release/REST_NetAPI_Common/V1_0-20120417-C/OMA-TS-REST_NetAPI_Common-V1_0-20120417-C.pdf">OMA-TS-REST_NetAPI_Common-V1_0</a></td>
+                    </tr>
+                    <tr>
+                        <td class="TableP1big" valign="top" width="72">SVC2001</td>
+                        <td class="TableP1big" align="left" valign="middle" width="323">No server resources available to process the request</td>
+                        <td class="TableP1big" align="left" valign="middle" width="285"><a href="http://devwww.openmobilealliance.org/release/REST_NetAPI_Common/V1_0-20120417-C/OMA-TS-REST_NetAPI_Common-V1_0-20120417-C.pdf">OMA-TS-REST_NetAPI_Common-V1_0</a></td>
+                    </tr>
+                    <tr>
+                        <td class="TableP1big" valign="top" width="72">SVC2002</td>
+                        <td class="TableP1big" align="left" valign="middle" width="323">Requested information not available</td>
+                        <td class="TableP1big" align="left" valign="middle" width="285"><a href="http://devwww.openmobilealliance.org/release/REST_NetAPI_Common/V1_0-20120417-C/OMA-TS-REST_NetAPI_Common-V1_0-20120417-C.pdf">OMA-TS-REST_NetAPI_Common-V1_0</a></td>
+                    </tr>
+                    <tr>
+                        <td class="TableP1big" valign="top" width="72">SVC2003</td>
+                        <td class="TableP1big" valign="top" width="323">Invalid access token</td>
+                        <td class="TableP1big" valign="top" width="285"><a href="?http://devwww.openmobilealliance.org/release/REST_NetAPI_Common/V1_0-20120417-C/OMA-TS-REST_NetAPI_Common-V1_0-20120417-C.pdf">OMA-TS-REST_NetAPI_Common-V1_0</a></td>
+                    </tr>
+                    <tr>
+                        <td class="TableP1big" valign="top" width="72">SVC0204</td>
+                        <td class="TableP1big" valign="top" width="323">Invalid input value with details</td>
+                        <td class="TableP1big" valign="top" width="285">
+                            <a href="http://devwww.openmobilealliance.org/release/REST_NetAPI_Common/V1_0-20120417-C/OMA-TS-REST_NetAPI_Common-V1_0-20120417-C.pdf">
+                                OMA-TS-REST_NetAPI_Common-V1_0
+                            </a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="TableP1big" style="height: 19px;" valign="top" width="72">SVC0205</td>
+                        <td class="TableP1big" style="height: 19px;" valign="top" width="323">Input item not permitted in request</td>
+                        <td class="TableP1big" style="height: 19px;" valign="top" width="285">
+                            <a href="http://devwww.openmobilealliance.org/release/REST_NetAPI_Common/V1_0-20120417-C/OMA-TS-REST_NetAPI_Common-V1_0-20120417-C.pdf">
+                                OMA-TS-REST_NetAPI_Common-V1_0
+                            </a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="TableP1big" style="height: 18px;" valign="top" width="72">SVC0206</td>
+                        <td class="TableP1big" style="height: 18px;" valign="top" width="323">Mandatory input item missing from request</td>
+                        <td class="TableP1big" style="height: 18px;" valign="top" width="285">
+                            <a href="http://devwww.openmobilealliance.org/release/REST_NetAPI_Common/V1_0-20120417-C/OMA-TS-REST_NetAPI_Common-V1_0-20120417-C.pdf">
+                                OMA-TS-REST_NetAPI_Common-V1_0
+                            </a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="TableP1big" style="height: 19px;" valign="top" width="72">SVC0207</td>
+                        <td class="TableP1big" style="height: 19px;" valign="top" width="323">Simultaneous modification not supported</td>
+                        <td class="TableP1big" valign="top" width="285">
+                            <a href="http://devwww.openmobilealliance.org/release/REST_NetAPI_Common/V1_0-20120417-C/OMA-TS-REST_NetAPI_Common-V1_0-20120417-C.pdf">
+                                OMA-TS-REST_NetAPI_Common-V1_0
+                            </a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="TableP1big" style="height: 19px;" valign="top" width="72">SVC0208</td>
+                        <td class="TableP1big" style="height: 19px;" valign="top" width="323">Unknown resource</td>
+                        <td class="TableP1big" valign="top" width="285">
+                            <a href="http://devwww.openmobilealliance.org/release/REST_NetAPI_Common/V1_0-20120417-C/OMA-TS-REST_NetAPI_Common-V1_0-20120417-C.pdf">
+                                OMA-TS-REST_NetAPI_Common-V1_0
+                            </a>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <div class="fl size100of100 mid-hd-bg mbl mtl">Policy Exceptions</div>
+            <h4>POL0001-0999</h4>
+            The codes in this range have been inherited by the OMA RESTfulNetwork APIs from the ParlayX and ParlayREST specifications. OMNA may only assign new codes for RESTful Network APIs in this range if this code is definded as a result of a change to the underlying ParlayX or ParlayREST specifications.
+            <table class="mtl" border="0" cellspacing="0" cellpadding="0">
+                <tbody>
+                    <tr>
+                        <td class="TableTitre2" style="width: 72px;" valign="top">Code</td>
+                        <td class="TableTitre2" valign="top" width="323">Meaning</td>
+                        <td class="TableTitre2" valign="top" width="285">Reference(s)</td>
+                    </tr>
+                    <tr>
+                        <td class="TableP1big" style="width: 72px;" valign="top">POL0001</td>
+                        <td class="TableP1big" valign="top" width="323">Policy error</td>
+                        <td class="TableP1big" valign="top" width="285"><a href="http://www.3gpp.org/ftp/Specs/html-info/29199-01.htm">3GPP TS 29.199-01</a>,<a href="http://devwww.openmobilealliance.org/release/REST_NetAPI_Common/V1_0-20120417-C/OMA-TS-REST_NetAPI_Common-V1_0-20120417-C.pdf">OMA-TS-REST_NetAPI_Common-V1_0</a></td>
+                    </tr>
+                    <tr>
+                        <td class="TableP1big" style="width: 72px;" valign="top">POL0002</td>
+                        <td class="TableP1big" valign="top" width="323">Privacy error</td>
+                        <td class="TableP1big" valign="top" width="285"><a href="http://www.3gpp.org/ftp/Specs/html-info/29199-01.htm">3GPP TS 29.199-01,</a><a href="http://devwww.openmobilealliance.org/release/REST_NetAPI_Common/V1_0-20120417-C/OMA-TS-REST_NetAPI_Common-V1_0-20120417-C.pdf">OMA-TS-REST_NetAPI_Common-V1_0</a></td>
+                    </tr>
+                    <tr>
+                        <td class="TableP1big" style="width: 72px;" valign="top">POL0003</td>
+                        <td class="TableP1big" valign="top" width="323">Too many addresses</td>
+                        <td class="TableP1big" valign="top" width="285"><a href="http://www.3gpp.org/ftp/Specs/html-info/29199-01.htm">3GPP TS 29.199-01</a>,<a href="http://devwww.openmobilealliance.org/release/REST_NetAPI_Common/V1_0-20120417-C/OMA-TS-REST_NetAPI_Common-V1_0-20120417-C.pdf">OMA-TS-REST_NetAPI_Common-V1_0</a></td>
+                    </tr>
+                    <tr>
+                        <td class="TableP1big" style="width: 72px;" valign="top">POL0004</td>
+                        <td class="TableP1big" valign="top" width="323">Unlimited notifications not supported</td>
+                        <td class="TableP1big" valign="top" width="285"><a href="http://www.3gpp.org/ftp/Specs/html-info/29199-01.htm">3GPP TS 29.199-01</a>,<a href="http://devwww.openmobilealliance.org/release/REST_NetAPI_Common/V1_0-20120417-C/OMA-TS-REST_NetAPI_Common-V1_0-20120417-C.pdf">OMA-TS-REST_NetAPI_Common-V1_0</a></td>
+                    </tr>
+                    <tr>
+                        <td class="TableP1big" style="width: 72px;" valign="top">POL0005</td>
+                        <td class="TableP1big" valign="top" width="323">Too many notifications requested</td>
+                        <td class="TableP1big" valign="top" width="285"><a href="http://www.3gpp.org/ftp/Specs/html-info/29199-01.htm">3GPP TS 29.199-01</a>,<a href="http://devwww.openmobilealliance.org/release/REST_NetAPI_Common/V1_0-20120417-C/OMA-TS-REST_NetAPI_Common-V1_0-20120417-C.pdf">OMA-TS-REST_NetAPI_Common-V1_0</a></td>
+                    </tr>
+                    <tr>
+                        <td class="TableP1big" style="width: 72px;" valign="top">POL0006</td>
+                        <td class="TableP1big" valign="top" width="323">Groups not allowed</td>
+                        <td class="TableP1big" valign="top" width="285"><a href="http://www.3gpp.org/ftp/Specs/html-info/29199-01.htm">3GPP TS 29.199-01</a>,<a href="http://devwww.openmobilealliance.org/release/REST_NetAPI_Common/V1_0-20120417-C/OMA-TS-REST_NetAPI_Common-V1_0-20120417-C.pdf">OMA-TS-REST_NetAPI_Common-V1_0</a></td>
+                    </tr>
+                    <tr>
+                        <td class="TableP1big" style="width: 72px;" valign="top">POL0007</td>
+                        <td class="TableP1big" valign="top" width="323">Nested groups not allowed</td>
+                        <td class="TableP1big" valign="top" width="285"><a href="http://www.3gpp.org/ftp/Specs/html-info/29199-01.htm">3GPP TS 29.199-01</a>,<a href="http://devwww.openmobilealliance.org/release/REST_NetAPI_Common/V1_0-20120417-C/OMA-TS-REST_NetAPI_Common-V1_0-20120417-C.pdf">OMA-TS-REST_NetAPI_Common-V1_0</a></td>
+                    </tr>
+                    <tr>
+                        <td class="TableP1big" style="width: 72px;" valign="top">POL0008</td>
+                        <td class="TableP1big" valign="top" width="323">Charging not supported</td>
+                        <td class="TableP1big" valign="top" width="285"><a href="http://www.3gpp.org/ftp/Specs/html-info/29199-01.htm">3GPP TS 29.199-01</a>,<a href="http://devwww.openmobilealliance.org/release/REST_NetAPI_Common/V1_0-20120417-C/OMA-TS-REST_NetAPI_Common-V1_0-20120417-C.pdf">OMA-TS-REST_NetAPI_Common-V1_0</a></td>
+                    </tr>
+                    <tr>
+                        <td class="TableP1big" style="width: 72px;" valign="top">POL0009</td>
+                        <td class="TableP1big" valign="top" width="323">Invalid frequency requested</td>
+                        <td class="TableP1big" valign="top" width="285"><a href="http://www.3gpp.org/ftp/Specs/html-info/29199-01.htm">3GPP TS 29.199-01</a>,<a href="http://devwww.openmobilealliance.org/release/REST_NetAPI_Common/V1_0-20120417-C/OMA-TS-REST_NetAPI_Common-V1_0-20120417-C.pdf">OMA-TS-REST_NetAPI_Common-V1_0</a></td>
+                    </tr>
+                    <tr>
+                        <td class="TableP1big" style="width: 72px;" valign="top">POL0010</td>
+                        <td class="TableP1big" valign="top" width="323">Retention time interval expired</td>
+                        <td class="TableP1big" valign="top" width="285"><a href="http://www.3gpp.org/ftp/Specs/html-info/29199-01.htm">3GPP TS 29.199-01</a>,<a href="http://devwww.openmobilealliance.org/release/REST_NetAPI_Common/V1_0-20120417-C/OMA-TS-REST_NetAPI_Common-V1_0-20120417-C.pdf">OMA-TS-REST_NetAPI_Common-V1_0</a></td>
+                    </tr>
+                    <tr>
+                        <td class="TableP1big" style="width: 72px;" valign="top">POL0011</td>
+                        <td class="TableP1big" valign="top" width="323">Media Type not supported</td>
+                        <td class="TableP1big" valign="top" width="285"><a href="http://www.3gpp.org/ftp/Specs/html-info/29199-01.htm">3GPP TS 29.199-01</a>,<a href="http://devwww.openmobilealliance.org/release/REST_NetAPI_Common/V1_0-20120417-C/OMA-TS-REST_NetAPI_Common-V1_0-20120417-C.pdf">OMA-TS-REST_NetAPI_Common-V1_0</a></td>
+                    </tr>
+                    <tr>
+                        <td class="TableP1big" style="width: 72px;" valign="top">POL0012</td>
+                        <td class="TableP1big" valign="top" width="323">Too many description entries specified</td>
+                        <td class="TableP1big" valign="top" width="285"><a href="http://www.3gpp.org/ftp/Specs/html-info/29199-01.htm">3GPP TS 29.199-01</a>,<a href="http://devwww.openmobilealliance.org/release/REST_NetAPI_Common/V1_0-20120417-C/OMA-TS-REST_NetAPI_Common-V1_0-20120417-C.pdf">OMA-TS-REST_NetAPI_Common-V1_0</a></td>
+                    </tr>
+                    <tr>
+                        <td class="TableP1big" style="width: 72px;" valign="top">POL0013</td>
+                        <td class="TableP1big" valign="top" width="323">Addresses duplication</td>
+                        <td class="TableP1big" valign="top" width="285"><a href="http://www.3gpp.org/ftp/Specs/html-info/29199-01.htm">3GPP TS 29.199-01</a>,<a href="http://devwww.openmobilealliance.org/release/REST_NetAPI_Common/V1_0-20120417-C/OMA-TS-REST_NetAPI_Common-V1_0-20120417-C.pdf">OMA-TS-REST_NetAPI_Common-V1_0</a></td>
+                    </tr>
+                    <tr>
+                        <td class="TableP1big" style="width: 72px;" valign="top">POL0200</td>
+                        <td class="TableP1big" valign="top" width="325">Busy criteria not supported</td>
+                        <td class="TableP1big" valign="top" width="285"><a href="http://www.3gpp.org/ftp/Specs/html-info/29199-08.htm">3GPP TS 29.199-08</a>,<a href="http://devwww.openmobilealliance.org/release/TerminalStatusREST/V1_0-20131008-C/OMA-TS-REST_NetAPI_TerminalStatus-V1_0-20131008-C.pdf">OMA-TS-REST_NetAPI_TerminalStatus-V1_0</a></td>
+                    </tr>
+                    <tr>
+                        <td class="TableP1big" style="width: 72px;" valign="top">POL0210</td>
+                        <td class="TableP1big" valign="top" width="325">Too many members in group</td>
+                        <td class="TableP1big" valign="top" width="285"><a href="http://www.3gpp.org/ftp/Specs/html-info/29199-13.htm">3GPP TS 29.199-13</a>,<a href="http://devwww.openmobilealliance.org/release/AddressBookREST/V1_0-20151023-C/OMA-TS-REST_NetAPI_AddressBook-V1_0-20151023-C.pdf">OMA-TS-REST_NetAPI_AddressBook-V1_0</a></td>
+                    </tr>
+                    <tr>
+                        <td class="TableP1big" style="width: 72px;" valign="top">POL0211</td>
+                        <td class="TableP1big" valign="top" width="325">Subgroups not supported</td>
+                        <td class="TableP1big" valign="top" width="285"><a href="http://www.3gpp.org/ftp/Specs/html-info/29199-13.htm">3GPP TS 29.199-13</a><a href="http://devwww.openmobilealliance.org/release/AddressBookREST/V1_0-20151023-C/OMA-TS-REST_NetAPI_AddressBook-V1_0-20151023-C.pdf">OMA-TS-REST_NetAPI_AddressBook-V1_0</a></td>
+                    </tr>
+                    <tr>
+                        <td class="TableP1big" valign="top">POL0212</td>
+                        <td class="TableP1big" valign="top" width="323">Group name too long</td>
+                        <td class="TableP1big" width="284"><a href="http://www.3gpp.org/ftp/Specs/html-info/29199-13.htm">3GPP TS 29.199-13</a>,<a href="http://devwww.openmobilealliance.org/release/AddressBookREST/V1_0-20151023-C/OMA-TS-REST_NetAPI_AddressBook-V1_0-20151023-C.pdf">OMA-TS-REST_NetAPI_AddressBook-V1_0</a></td>
+                    </tr>
+                    <tr>
+                        <td class="TableP1big" valign="top">POL0213</td>
+                        <td class="TableP1big" valign="top" width="323">Group already exists</td>
+                        <td class="TableP1big" valign="top" width="285"><a href="http://www.3gpp.org/ftp/Specs/html-info/29199-13.htm">3GPP TS 29.199-13</a>,<a href="http://devwww.openmobilealliance.org/release/AddressBookREST/V1_0-20151023-C/OMA-TS-REST_NetAPI_AddressBook-V1_0-20151023-C.pdf">OMA-TS-REST_NetAPI_AddressBook-V1_0</a></td>
+                    </tr>
+                    <tr>
+                        <td class="TableP1big" valign="top">POL0214</td>
+                        <td class="TableP1big" valign="top" width="323">Too many resources</td>
+                        <td class="TableP1big" valign="top" width="285"><a href="http://devwww.openmobilealliance.org/release/ParlayREST/V2_0-20120724-A">OMA-TS-ParlayREST_AddressListManagement-V1_0</a>,<a href="http://devwww.openmobilealliance.org/release/AddressBookREST/V1_0-20151023-C/OMA-TS-REST_NetAPI_AddressBook-V1_0-20151023-C.pdf">OMA-TS-REST_NetAPI_AddressBook-V1_0</a></td>
+                    </tr>
+                    <tr>
+                        <td class="TableP1big" valign="top">POL0220</td>
+                        <td class="TableP1big" valign="top" width="323">Vouchers not accepted</td>
+                        <td class="TableP1big" valign="top" width="285"><a href="http://www.3gpp.org/ftp/Specs/html-info/29199-07.htm">3GPP TS 29.199-07</a></td>
+                    </tr>
+                    <tr>
+                        <td class="TableP1big" valign="top">POL0230</td>
+                        <td class="TableP1big" valign="top" width="323">Requested accuracy not supported.</td>
+                        <td class="TableP1big" valign="top" width="285"><a href="http://www.3gpp.org/ftp/Specs/html-info/29199-09.htm">3GPP TS 29.199-09</a>,<a href="http://www.3gpp.org/ftp/Specs/html-info/29199-16.htm">3GPP TS 29.199-16</a>,<a href="http://devwww.openmobilealliance.org/release/TerminalStatusREST/V1_0-20131008-C/OMA-TS-REST_NetAPI_TerminalStatus-V1_0-20131008-C.pdf">OMA-TS-REST_NetAPI_TerminalLocation-V1_0</a></td>
+                    </tr>
+                    <tr>
+                        <td class="TableP1big" valign="top">POL0231</td>
+                        <td class="TableP1big" valign="top" width="323">Geographic notification not available</td>
+                        <td class="TableP1big" valign="top" width="285"><a href="http://www.3gpp.org/ftp/Specs/html-info/29199-09.htm">3GPP TS 29.199-09</a>,<a href="http://devwww.openmobilealliance.org/release/TerminalStatusREST/V1_0-20131008-C/OMA-TS-REST_NetAPI_TerminalStatus-V1_0-20131008-C.pdf">OMA-TS-REST_NetAPI_TerminalLocation-V1_0</a></td>
+                    </tr>
+                    <tr>
+                        <td class="TableP1big" valign="top">POL0232</td>
+                        <td class="TableP1big" valign="top" width="323">Periodic notification not available</td>
+                        <td class="TableP1big" valign="top" width="285"><a href="http://www.3gpp.org/ftp/Specs/html-info/29199-09.htm">3GPP TS 29.199-09</a>,<a href="http://devwww.openmobilealliance.org/release/TerminalStatusREST/V1_0-20131008-C/OMA-TS-REST_NetAPI_TerminalStatus-V1_0-20131008-C.pdf">OMA-TS-REST_NetAPI_TerminalLocation-V1_0</a></td>
+                    </tr>
+                    <tr>
+                        <td class="TableP1big" valign="top">POL0233</td>
+                        <td class="TableP1big" valign="top" width="323">Distance notification not available</td>
+                        <td class="TableP1big" valign="top" width="285"><a href="http://www.3gpp.org/ftp/Specs/html-info/29199-09.htm">3GPP TS 29.199-09</a>,<a href="http://devwww.openmobilealliance.org/release/TerminalStatusREST/V1_0-20131008-C/OMA-TS-REST_NetAPI_TerminalStatus-V1_0-20131008-C.pdf">OMA-TS-REST_NetAPI_TerminalLocation-V1_0</a></td>
+                    </tr>
+                    <tr>
+                        <td class="TableP1big" valign="top">POL0240</td>
+                        <td class="TableP1big" valign="top" width="323">Too many participants</td>
+                        <td class="TableP1big" valign="top" width="285"><a href="http://www.3gpp.org/ftp/Specs/html-info/29199-12.htm">3GPP TS 29.199-12</a></td>
+                    </tr>
+                    <tr>
+                        <td class="TableP1big" valign="top">POL0241</td>
+                        <td class="TableP1big" valign="top" width="323">(reserved)</td>
+                        <td class="TableP1big" valign="top" width="285"><a href="http://www.3gpp.org/ftp/Specs/html-info/29199-12.htm">3GPP TS 29.199-12</a></td>
+                    </tr>
+                    <tr>
+                        <td class="TableP1big" valign="top">POL0242</td>
+                        <td class="TableP1big" valign="top" width="323">Maximum duration exceeded</td>
+                        <td class="TableP1big" valign="top" width="285"><a href="http://www.3gpp.org/ftp/Specs/html-info/29199-12.htm">3GPP TS 29.199-12</a></td>
+                    </tr>
+                    <tr>
+                        <td class="TableP1big" valign="top">POL0250</td>
+                        <td class="TableP1big" valign="top" width="323">Too many endUserIdentifiers</td>
+                        <td class="TableP1big" valign="top" width="285"><a href="http://www.3gpp.org/ftp/Specs/html-info/29199-06.htm">3GPP TS 29.199-06</a>,<a href="http://devwww.openmobilealliance.org/release/PaymentREST/V1_0_1-20151023-A/OMA-TS-REST_NetAPI_Payment-V1_0_1-20151023-A.pdf">OMA-TS-REST_NetAPI_Payment-V1_0</a></td>
+                    </tr>
+                    <tr>
+                        <td class="TableP1big" valign="top">POL0251</td>
+                        <td class="TableP1big" valign="top" width="323">Split charging not supported</td>
+                        <td class="TableP1big" valign="top" width="285"><a href="http://www.3gpp.org/ftp/Specs/html-info/29199-06.htm">3GPP TS 29.199-06</a>,<a href="http://devwww.openmobilealliance.org/release/PaymentREST/V1_0_1-20151023-A/OMA-TS-REST_NetAPI_Payment-V1_0_1-20151023-A.pdf">OMA-TS-REST_NetAPI_Payment-V1_0</a></td>
+                    </tr>
+                    <tr>
+                        <td class="TableP1big" valign="top">POL0252</td>
+                        <td class="TableP1big" valign="top" width="323">Refund request failed</td>
+                        <td class="TableP1big" valign="top" width="285"><a href="http://devwww.openmobilealliance.org/release/ParlayREST/V2_0-20120724-A/OMA-TS-ParlayREST_Payment-V1_1-20120724-A.pdf">OMA-TS-ParlayREST_Payment-V1_0</a></td>
+                    </tr>
+                    <tr>
+                        <td class="TableP1big" valign="top">POL0253</td>
+                        <td class="TableP1big" valign="top" width="323">Payment operation refused by user</td>
+                        <td class="TableP1big" valign="top" width="285"><a href="http://devwww.openmobilealliance.org/release/ParlayREST/V2_0-20120724-A/OMA-TS-ParlayREST_Payment-V1_1-20120724-A.pdf">OMA-TS-ParlayREST_Payment-V1_0</a>,<a href="http://devwww.openmobilealliance.org/release/PaymentREST/V1_0_1-20151023-A/OMA-TS-REST_NetAPI_Payment-V1_0_1-20151023-A.pdf">OMA-TS-REST_NetAPI_Payment-V1_0</a></td>
+                    </tr>
+                    <tr>
+                        <td class="TableP1big" valign="top">POL0254</td>
+                        <td class="TableP1big" valign="top" width="323">Chargeable amount exceeded</td>
+                        <td class="TableP1big" valign="top" width="285"><a href="http://devwww.openmobilealliance.org/release/ParlayREST/V2_0-20120724-A/OMA-TS-ParlayREST_Payment-V1_1-20120724-A.pdf">OMA-TS-ParlayREST_Payment-V1_0</a>,<a href="http://devwww.openmobilealliance.org/release/PaymentREST/V1_0_1-20151023-A/OMA-TS-REST_NetAPI_Payment-V1_0_1-20151023-A.pdf">OMA-TS-REST_NetAPI_Payment-V1_0</a></td>
+                    </tr>
+                    <tr>
+                        <td class="TableP1big" style="width: 72px;">POL0260</td>
+                        <td class="TableP1big" width="325">Too many resources</td>
+                        <td class="TableP1big" valign="top" width="285"><a href="http://devwww.openmobilealliance.org/release/ParlayREST/V2_0-20120724-A/OMA-TS-ParlayREST_Payment-V1_1-20120724-A.pdf">OMA-TS-ParlayREST_Presence-V1_0</a>,<a href="http://devwww.openmobilealliance.org/release/PresenceREST/V1_0-20151201-C/OMA-TS-REST_NetAPI_Presence-V1_0-20151201-C.pdf">OMA-TS-REST_NetAPI_Presence-V1_0</a></td>
+                    </tr>
+                    <tr>
+                        <td class="TableP1big" valign="top">POL0330</td>
+                        <td class="TableP1big" valign="top" width="323">Multiple areas not allowed</td>
+                        <td class="TableP1big" valign="top" width="285"><a href="http://www.3gpp.org/ftp/Specs/html-info/29199-15.htm">3GPP TS 29.199-15</a></td>
+                    </tr>
+                    <tr>
+                        <td class="TableP1big" valign="top">POL0331</td>
+                        <td class="TableP1big" valign="top" width="323">Maximum Number of Areas exceeded</td>
+                        <td class="TableP1big" valign="top" width="285"><a href="http://www.3gpp.org/ftp/Specs/html-info/29199-15.htm">3GPP TS 29.199-15</a></td>
+                    </tr>
+                    <tr>
+                        <td class="TableP1big" valign="top">POL0332</td>
+                        <td class="TableP1big" valign="top" width="323">Too Many Broadcasts requested</td>
+                        <td class="TableP1big" valign="top" width="285"><a href="http://www.3gpp.org/ftp/Specs/html-info/29199-15.htm">3GPP TS 29.199-15</a></td>
+                    </tr>
+                    <tr>
+                        <td class="TableP1big" valign="top">POL0333</td>
+                        <td class="TableP1big" valign="top" width="323">Min/Max Interval Violation</td>
+                        <td class="TableP1big" valign="top" width="285"><a href="http://www.3gpp.org/ftp/Specs/html-info/29199-15.htm">3GPP TS 29.199-15</a></td>
+                    </tr>
+                    <tr>
+                        <td class="TableP1big" valign="top">POL0350</td>
+                        <td class="TableP1big" valign="top" width="323">Too many terminal numbers</td>
+                        <td class="TableP1big" valign="top" width="285"><a href="http://www.3gpp.org/ftp/Specs/html-info/29199-16.htm">3GPP TS 29.199-16</a></td>
+                    </tr>
+                </tbody>
+            </table>
+            <h4>POL1000-1999</h4>
+            The codes in this range are associated with Policy Exceptions in the individual OMA RESTful Network APIs. This range is open for assignment by OMNA according to the assignment policy
+            <table style="height: 952px;" border="0" cellspacing="0" cellpadding="0">
+                <tbody>
+                    <tr>
+                        <td class="TableTitre2" valign="top" width="72">Code</td>
+                        <td class="TableTitre2" style="height: 23px; width: 322px;" valign="top">Meaning</td>
+                        <td class="TableTitre2" style="height: 23px;" valign="top" width="285">Reference(s)</td>
+                    </tr>
+                    <tr>
+                        <td class="TableP1big" align="left" valign="middle" width="72">POL1000</td>
+                        <td class="TableP1big" style="width: 322px;" valign="top">Insufficient credit</td>
+                        <td class="TableP1big" valign="top" width="285"><a href="http://devwww.openmobilealliance.org/release/PaymentREST/V1_0_1-20151023-A/OMA-TS-REST_NetAPI_Payment-V1_0_1-20151023-A.pdf">OMA-TS-REST_NetAPI_Payment-V1_0</a></td>
+                    </tr>
+                    <tr>
+                        <td class="TableP1big" valign="top" width="72">POL1001</td>
+                        <td class="TableP1big" style="width: 322px;" valign="top">Periodic charge threshold exceeded</td>
+                        <td class="TableP1big" valign="top" width="285"><a href="http://devwww.openmobilealliance.org/release/PaymentREST/V1_0_1-20151023-A/OMA-TS-REST_NetAPI_Payment-V1_0_1-20151023-A.pdf">OMA-TS-REST_NetAPI_Payment-V1_0</a></td>
+                    </tr>
+                    <tr>
+                        <td class="TableP1big" valign="top" width="72">POL1002</td>
+                        <td class="TableP1big" style="width: 322px;" valign="top">Charge velocity exceeded</td>
+                        <td class="TableP1big" valign="top" width="285"><a href="http://devwww.openmobilealliance.org/release/PaymentREST/V1_0_1-20151023-A/OMA-TS-REST_NetAPI_Payment-V1_0_1-20151023-A.pdf">OMA-TS-REST_NetAPI_Payment-V1_0</a></td>
+                    </tr>
+                    <tr>
+                        <td class="TableP1big" valign="top" width="72">POL1003</td>
+                        <td class="TableP1big" style="width: 322px;" valign="top">Refund exceeds original charge amount</td>
+                        <td class="TableP1big" valign="top" width="285"><a href="http://devwww.openmobilealliance.org/release/PaymentREST/V1_0_1-20151023-A/OMA-TS-REST_NetAPI_Payment-V1_0_1-20151023-A.pdf">OMA-TS-REST_NetAPI_Payment-V1_0</a></td>
+                    </tr>
+                    <tr>
+                        <td class="TableP1big" valign="top" width="72">POL1004</td>
+                        <td class="TableP1big" style="width: 322px;" valign="top">Refund below minimum refundable amount</td>
+                        <td class="TableP1big" valign="top" width="285"><a href="http://devwww.openmobilealliance.org/release/PaymentREST/V1_0_1-20151023-A/OMA-TS-REST_NetAPI_Payment-V1_0_1-20151023-A.pdf">OMA-TS-REST_NetAPI_Payment-V1_0</a></td>
+                    </tr>
+                    <tr>
+                        <td class="TableP1big" valign="top" width="72">POL1005</td>
+                        <td class="TableP1big" style="width: 322px;" valign="top">OriginalServerReferenceCode not provided</td>
+                        <td class="TableP1big" valign="top" width="285"><a href="http://devwww.openmobilealliance.org/release/PaymentREST/V1_0_1-20151023-A/OMA-TS-REST_NetAPI_Payment-V1_0_1-20151023-A.pdf">OMA-TS-REST_NetAPI_Payment-V1_0</a></td>
+                    </tr>
+                    <tr>
+                        <td class="TableP1big" valign="top" width="72">POL1006</td>
+                        <td class="TableP1big" style="width: 322px;" valign="top">OriginalServerReferenceCode not valid</td>
+                        <td class="TableP1big" valign="top" width="285"><a href="http://devwww.openmobilealliance.org/release/PaymentREST/V1_0_1-20151023-A/OMA-TS-REST_NetAPI_Payment-V1_0_1-20151023-A.pdf">OMA-TS-REST_NetAPI_Payment-V1_0</a></td>
+                    </tr>
+                    <tr>
+                        <td class="TableP1big" valign="top" width="72">POL1007</td>
+                        <td class="TableP1big" style="width: 322px;" valign="top">Refunds not supported</td>
+                        <td class="TableP1big" valign="top" width="285"><a href="http://devwww.openmobilealliance.org/release/PaymentREST/V1_0_1-20151023-A/OMA-TS-REST_NetAPI_Payment-V1_0_1-20151023-A.pdf">OMA-TS-REST_NetAPI_Payment-V1_0</a></td>
+                    </tr>
+                    <tr>
+                        <td class="TableP1big" valign="top" width="72">POL1008</td>
+                        <td class="TableP1big" style="width: 322px;" valign="top">Payment declined</td>
+                        <td class="TableP1big" valign="top" width="285"><a href="http://devwww.openmobilealliance.org/release/PaymentREST/V1_0_1-20151023-A/OMA-TS-REST_NetAPI_Payment-V1_0_1-20151023-A.pdf">OMA-TS-REST_NetAPI_Payment-V1_0</a></td>
+                    </tr>
+                    <tr>
+                        <td class="TableP1big" valign="top" width="72">POL1009</td>
+                        <td class="TableP1big" style="width: 322px;" valign="top">(reserved)</td>
+                        <td class="TableP1big" valign="top" width="285">-</td>
+                    </tr>
+                    <tr>
+                        <td class="TableP1big" valign="top" width="72">POL1010</td>
+                        <td class="TableP1big" style="width: 322px;" valign="top">Insufficient information to identify IP flow</td>
+                        <td class="TableP1big" valign="top" width="285">-</td>
+                    </tr>
+                    <tr>
+                        <td class="TableP1big" valign="top" width="72">POL1011</td>
+                        <td class="TableP1big" style="width: 322px;" valign="top">Specified IP flow does not exist</td>
+                        <td class="TableP1big" valign="top" width="285">-</td>
+                    </tr>
+                    <tr>
+                        <td class="TableP1big" valign="top" width="72">POL1012</td>
+                        <td class="TableP1big" style="width: 322px;" valign="top">Messages during session setup not supported</td>
+                        <td class="TableP1big" valign="top" width="285"><a href="http://devwww.openmobilealliance.org/release/REST_NetAPI_Chat/V1_0-20151201-C/OMA-TS-REST_NetAPI_Chat-V1_0-20151201-C.pdf">OMA-TS-REST_NetAPI_Chat-V1_0</a></td>
+                    </tr>
+                    <tr>
+                        <td class="TableP1big" valign="top" width="72">POL1013</td>
+                        <td class="TableP1big" style="width: 322px;" valign="top">Confirmed 1-1 chats are not supported</td>
+                        <td class="TableP1big" valign="top" width="285"><a href="http://devwww.openmobilealliance.org/release/REST_NetAPI_Chat/V1_0-20151201-C/OMA-TS-REST_NetAPI_Chat-V1_0-20151201-C.pdf">OMA-TS-REST_NetAPI_Chat-V1_0</a></td>
+                    </tr>
+                    <tr>
+                        <td class="TableP1big" valign="top" width="72">POL1014</td>
+                        <td class="TableP1big" style="width: 322px;" valign="top">Ad-hoc 1-1 chats are not supported</td>
+                        <td class="TableP1big" valign="top" width="285"><a href="http://devwww.openmobilealliance.org/release/REST_NetAPI_Chat/V1_0-20151201-C/OMA-TS-REST_NetAPI_Chat-V1_0-20151201-C.pdf">OMA-TS-REST_NetAPI_Chat-V1_0</a></td>
+                    </tr>
+                    <tr>
+                        <td class="TableP1big" valign="top" width="72">POL1015</td>
+                        <td class="TableP1big" style="width: 322px;" valign="top">Sending file operation not supported</td>
+                        <td class="TableP1big" valign="top" width="285"><a href="http://devwww.openmobilealliance.org/release/REST_NetAPI_Chat/V1_0-20151201-C/OMA-TS-REST_NetAPI_Chat-V1_0-20151201-C.pdf">OMA-TS-REST_NetAPI_FileTransfer-V1_0</a></td>
+                    </tr>
+                    <tr>
+                        <td class="TableP1big" valign="top" width="72">POL1016</td>
+                        <td class="TableP1big" style="width: 322px;" valign="top">(reserved)</td>
+                        <td class="TableP1big" valign="top" width="285">-</td>
+                    </tr>
+                    <tr>
+                        <td class="TableP1big" valign="top" width="72">POL1017</td>
+                        <td class="TableP1big" style="width: 322px;" valign="top">Too many participants</td>
+                        <td class="TableP1big" valign="top" width="285"><a href="http://devwww.openmobilealliance.org/release/REST_NetAPI_Chat/V1_0-20151201-C/OMA-TS-REST_NetAPI_Chat-V1_0-20151201-C.pdf">OMA-TS-REST_NetAPI_Chat-V1_0</a></td>
+                    </tr>
+                    <tr>
+                        <td class="TableP1big" valign="top" width="72">POL1018</td>
+                        <td class="TableP1big" style="width: 322px;" valign="top">Group chat termination not supported.</td>
+                        <td class="TableP1big" valign="top" width="285"><a href="http://devwww.openmobilealliance.org/release/REST_NetAPI_Chat/V1_0-20151201-C/OMA-TS-REST_NetAPI_Chat-V1_0-20151201-C.pdf">OMA-TS-REST_NetAPI_Chat-V1_0</a></td>
+                    </tr>
+                    <tr>
+                        <td class="TableP1big" valign="top" width="72">POL1019</td>
+                        <td class="TableP1big" style="width: 322px;" valign="top">Binary SMS not allowed</td>
+                        <td class="TableP1big" valign="top" width="285"><a href="http://devwww.openmobilealliance.org/release/ShortMessREST/V1_0-20151023-C/OMA-TS-REST_NetAPI_ShortMessaging-V1_0-20151023-C.pdf">OMA-TS-REST_NetAPI_ShortMessaging-V1_0</a>,<a href="http://devwww.openmobilealliance.org/release/MessagingREST/V1_0-20151201-C/OMA-TS-REST_NetAPI_Messaging-V1_0-20151201-C.pdf">OMA-TS-REST_NetAPI_Messaging-V1_0</a></td>
+                    </tr>
+                    <tr>
+                        <td class="TableP1big" valign="top" width="72">POL1020</td>
+                        <td class="TableP1big" style="width: 322px;" valign="top">MaxBatchSize exceeded</td>
+                        <td class="TableP1big" valign="top" width="285"><a href="http://devwww.openmobilealliance.org/release/ShortMessREST/V1_0-20151023-C/OMA-TS-REST_NetAPI_ShortMessaging-V1_0-20151023-C.pdf">OMA-TS-REST_NetAPI_ShortMessaging-V1_0</a>,<a href="http://devwww.openmobilealliance.org/release/MessagingREST/V1_0-20151201-C/OMA-TS-REST_NetAPI_Messaging-V1_0-20151201-C.pdf">OMA-TS-REST_NetAPI_Messaging-V1_0</a></td>
+                    </tr>
+                    <tr>
+                        <td class="TableP1big" align="left" valign="middle" width="72">POL1021</td>
+                        <td class="TableP1big" style="width: 322px;" align="left" valign="middle">Maximum number of Capability Sources exceeded</td>
+                        <td class="TableP1big" align="left" valign="middle" width="285"><a href="http://devwww.openmobilealliance.org/release/RESTNetAPI_Cap_Disc/V1_0-20130701-C/OMA-TS-REST_NetAPI_CapabilityDiscovery-V1_0-20130701-C.pdf">OMA-TS-REST_NetAPI_CapabilityDiscovery-V1_0</a></td>
+                    </tr>
+                    <tr>
+                        <td class="TableP1big" align="left" valign="middle" width="72">POL1022</td>
+                        <td class="TableP1big" style="width: 322px;" align="left" valign="middle">Service capability not supported</td>
+                        <td class="TableP1big" align="left" valign="middle" width="285"><a href="http://devwww.openmobilealliance.org/release/RESTNetAPI_Cap_Disc/V1_0-20130701-C/OMA-TS-REST_NetAPI_CapabilityDiscovery-V1_0-20130701-C.pdf">OMA-TS-REST_NetAPI_CapabilityDiscovery-V1_0</a></td>
+                    </tr>
+                    <tr>
+                        <td class="TableP1big" align="left" valign="middle" width="72">POL1023</td>
+                        <td class="TableP1big" style="width: 322px;" align="left" valign="middle">Notification channel type not supported</td>
+                        <td class="TableP1big" align="left" valign="middle" width="285"><a href="http://devwww.openmobilealliance.org/release/NotifChanREST/V1_0-20151222-C/OMA-TS-REST_NetAPI_NotificationChannel-V1_0-20151222-C.pdf">OMA-TS-REST_NetAPI_NotificationChannel-V1_0</a></td>
+                    </tr>
+                    <tr>
+                        <td class="TableP1big" align="left" valign="middle" width="72">POL1024</td>
+                        <td class="TableP1big" style="width: 322px;" align="left" valign="middle">ACR creation failed. An active ACR already exists</td>
+                        <td class="TableP1big" align="left" valign="middle" width="285"><a href="http://devwww.openmobilealliance.org/release/REST_NetAPI_ACR/V1_0-20151201-C/OMA-TS-REST_NetAPI_ACR-V1_0-20151201-C.pdf">OMA-TS-REST_NetAPI_ACR-V1_0</a></td>
+                    </tr>
+                    <tr>
+                        <td class="TableP1big" align="left" valign="middle" width="72">POL1025</td>
+                        <td class="TableP1big" style="width: 322px;" align="left" valign="middle">ACR creation failed. An expired ACR already exists</td>
+                        <td class="TableP1big" align="left" valign="middle" width="285"><a href="http://devwww.openmobilealliance.org/release/REST_NetAPI_ACR/V1_0-20151201-C/OMA-TS-REST_NetAPI_ACR-V1_0-20151201-C.pdf">OMA-TS-REST_NetAPI_ACR-V1_0</a></td>
+                    </tr>
+                    <tr>
+                        <td class="TableP1big" align="left" valign="middle" width="72">POL1026</td>
+                        <td class="TableP1big" style="width: 322px;" align="left" valign="middle">Creation of Static ACR is not supported</td>
+                        <td class="TableP1big" align="left" valign="middle" width="285"><a href="http://devwww.openmobilealliance.org/release/REST_NetAPI_ACR/V1_0-20151201-C/OMA-TS-REST_NetAPI_ACR-V1_0-20151201-C.pdf">OMA-TS-REST_NetAPI_ACR-V1_0</a></td>
+                    </tr>
+                    <tr>
+                        <td class="TableP1big" align="left" valign="middle" width="72">POL1027</td>
+                        <td class="TableP1big" style="width: 322px;" align="left" valign="middle">Revoked ACR can no longer be used or refreshed</td>
+                        <td class="TableP1big" align="left" valign="middle" width="285"><a href="http://devwww.openmobilealliance.org/release/REST_NetAPI_ACR/V1_0-20151201-C/OMA-TS-REST_NetAPI_ACR-V1_0-20151201-C.pdf">OMA-TS-REST_NetAPI_ACR-V1_0</a></td>
+                    </tr>
+                    <tr>
+                        <td class="TableP1big" align="left" valign="middle" width="72">POL1028</td>
+                        <td class="TableP1big" style="width: 322px;" align="left" valign="middle">Expired ACR may not be used unless refreshed</td>
+                        <td class="TableP1big" align="left" valign="middle" width="285"><a href="http://devwww.openmobilealliance.org/release/REST_NetAPI_ACR/V1_0-20151201-C/OMA-TS-REST_NetAPI_ACR-V1_0-20151201-C.pdf">OMA-TS-REST_NetAPI_ACR-V1_0</a></td>
+                    </tr>
+                    <tr>
+                        <td class="TableP1big" style="height: 19px;" align="left" valign="middle" width="72">POL1029</td>
+                        <td class="TableP1big" style="height: 19px; width: 322px;" align="left" valign="middle">Forbidden to join a closed group chat</td>
+                        <td class="TableP1big" style="height: 19px;" align="left" valign="middle" width="285"><a href="http://devwww.openmobilealliance.org/release/REST_NetAPI_Chat/V1_0-20151201-C/OMA-TS-REST_NetAPI_Chat-V1_0-20151201-C.pdf">OMA RESTful Network API for Chat V1.0</a></td>
+                    </tr>
+                    <tr>
+                        <td class="TableP1big" align="left" valign="middle" width="72">POL1030</td>
+                        <td class="TableP1big" style="width: 322px;" align="left" valign="middle">Folder cannot be modified, moved or deleted</td>
+                        <td class="TableP1big" align="left" valign="middle" width="285"><a href="http://devwww.openmobilealliance.org/release/REST_NETAPI_NMS/V1_0-20141216-C/OMA-TS-REST_NetAPI_NMS-V1_0-20141216-C.pdf">OMA-TS-REST_NetAPI_NMS-v1_0</a></td>
+                    </tr>
+                    <tr>
+                        <td class="TableP1big" style="height: 38px;" align="left" valign="middle" width="72">POL1031</td>
+                        <td class="TableP1big" style="height: 38px; width: 322px;" align="left" valign="middle">Object or folder creation under the requested folder not allowed</td>
+                        <td class="TableP1big" style="height: 38px;" align="left" valign="middle" width="285"><a href="http://devwww.openmobilealliance.org/release/REST_NETAPI_NMS/V1_0-20141216-C/OMA-TS-REST_NetAPI_NMS-V1_0-20141216-C.pdf">OMA-TS-REST_NetAPI_NMS-v1_0</a></td>
+                    </tr>
+                    <tr>
+                        <td class="TableP1big" style="height: 19px;" align="left" valign="middle" width="72">POL1032</td>
+                        <td class="TableP1big" style="height: 19px; width: 322px;" align="left" valign="middle">Custom QoS features not supported</td>
+                        <td class="TableP1big" style="height: 19px;" align="left" valign="middle" width="285"><a href="http://devwww.openmobilealliance.org/release/REST_NetAPI_QoS/V1_0-20141125-C/OMA-TS-REST_NetAPI_QoS-V1_0-20141125-C.pdf">OMA-TS-REST_NetAPI_QoS-V1_0</a></td>
+                    </tr>
+                    <tr>
+                        <td class="TableP1big" align="left" valign="middle" width="72">POL1033</td>
+                        <td class="TableP1big" style="width: 322px;" align="left" valign="middle">Specifying volume limits not supported</td>
+                        <td class="TableP1big" align="left" valign="middle" width="285"><a href="http://devwww.openmobilealliance.org/release/REST_NetAPI_QoS/V1_0-20141125-C/OMA-TS-REST_NetAPI_QoS-V1_0-20141125-C.pdf">OMA-TS-REST_NetAPI_QoS-V1_0</a></td>
+                    </tr>
+                    <tr>
+                        <td class="TableP1big" align="left" valign="middle" width="72">POL1034</td>
+                        <td class="TableP1big" style="width: 322px;" align="left" valign="middle">Subscriptions to predefined QoS features not supported</td>
+                        <td class="TableP1big" align="left" valign="middle" width="285"><a href="http://devwww.openmobilealliance.org/release/REST_NetAPI_QoS/V1_0-20141125-C/OMA-TS-REST_NetAPI_QoS-V1_0-20141125-C.pdf">OMA-TS-REST_NetAPI_QoS-V1_0</a></td>
+                    </tr>
+                    <tr>
+                        <td class="TableP1big" align="left" valign="middle" width="72">POL1035</td>
+                        <td class="TableP1big" style="width: 322px;" align="left" valign="middle">Multiple notifications for predefined QoS features not supported</td>
+                        <td class="TableP1big" align="left" valign="middle" width="285"><a href="http://devwww.openmobilealliance.org/release/REST_NetAPI_QoS/V1_0-20141125-C/OMA-TS-REST_NetAPI_QoS-V1_0-20141125-C.pdf">OMA-TS-REST_NetAPI_QoS-V1_0</a></td>
+                    </tr>
+                    <tr>
+                        <td class="TableP1big" style="height: 19px;" align="left" valign="middle" width="72">POL1036</td>
+                        <td class="TableP1big" style="width: 322px; height: 19px;" align="left" valign="middle">Sponsored QoS features are not supported</td>
+                        <td class="TableP1big" style="height: 19px;" align="left" valign="middle" width="285"><a href="http://devwww.openmobilealliance.org/release/REST_NetAPI_QoS/V1_0-20141125-C/OMA-TS-REST_NetAPI_QoS-V1_0-20141125-C.pdf">OMA-TS-REST_NetAPI_QoS-V1_0</a></td>
+                    </tr>
+                    <tr>
+                        <td class="TableP1big" style="height: 25px;" align="left" valign="middle" width="72">POL1037</td>
+                        <td class="TableP1big" style="height: 25px; width: 322px;" align="left" valign="middle">Twinning role mixture not allowed</td>
+                        <td class="TableP1big" style="height: 25px;" align="left" valign="middle" width="285"><a href="http://devwww.openmobilealliance.org/release/REST_NETAPI_Twinning/V1_0-20160527-C/OMA-TS-REST_NetAPI_Twinning-V1_0-20151215-C.pdf">OMA-TS-REST_NetAPI_Twinning-V1_0</a></td>
+                    </tr>
+                    <tr>
+                        <td class="TableP1big" style="height: 25px;" align="left" valign="middle" width="72">POL1038</td>
+                        <td class="TableP1big" style="height: 25px; width: 322px;" align="left" valign="middle">Twinning data update not allowed</td>
+                        <td class="TableP1big" style="height: 25px;" align="left" valign="middle" width="285"><a href="http://devwww.openmobilealliance.org/release/REST_NETAPI_Twinning/V1_0-20160527-C/OMA-TS-REST_NetAPI_Twinning-V1_0-20151215-C.pdf">OMA-TS-REST_NetAPI_Twinning-V1_0</a></td>
+                    </tr>
+                </tbody>
+            </table>
+            <h4>POL2000-2099</h4>
+            The codes in this range are associated with common Policy Exceptions in the OMA RESTful Network APIs. This range is open for assignment by OMNA according to the assignment policy
+            <table border="0" cellspacing="0" cellpadding="0">
+                <tbody>
+                    <tr>
+                        <td class="TableTitre2" valign="top" width="72">Code</td>
+                        <td class="TableTitre2" style="height: 23px;" valign="top" width="323">Meaning</td>
+                        <td class="TableTitre2" style="height: 23px;" valign="top" width="285">Reference(s)</td>
+                    </tr>
+                    <tr>
+                        <td class="TableP1big" align="left" valign="middle" width="72">POL2000</td>
+                        <td class="TableP1big" valign="top" width="323">Policy error with description</td>
+                        <td class="TableP1big" valign="top" width="285"><a href="http://devwww.openmobilealliance.org/release/REST_NetAPI_Common/V1_0-20120417-C/OMA-TS-REST_NetAPI_Common-V1_0-20120417-C.pdf">OMA-TS-REST_NetAPI_Common-V1_0</a></td>
+                    </tr>
+                    <tr>
+                        <td class="TableP1big" align="left" valign="middle" width="72">POL2001</td>
+                        <td class="TableP1big" valign="top" width="323">User not provisioned for service</td>
+                        <td class="TableP1big" valign="top" width="285"><a href="http://devwww.openmobilealliance.org/release/REST_NetAPI_Common/V1_0-20120417-C/OMA-TS-REST_NetAPI_Common-V1_0-20120417-C.pdf">OMA-TS-REST_NetAPI_Common-V1_0</a></td>
+                    </tr>
+                    <tr>
+                        <td class="TableP1big" align="left" valign="middle" width="72">POL2002</td>
+                        <td class="TableP1big" valign="top" width="323">User suspended from service</td>
+                        <td class="TableP1big" valign="top" width="285"><a href="http://devwww.openmobilealliance.org/release/REST_NetAPI_Common/V1_0-20120417-C/OMA-TS-REST_NetAPI_Common-V1_0-20120417-C.pdf">OMA-TS-REST_NetAPI_Common-V1_0</a></td>
+                    </tr>
+                    <tr>
+                        <td class="TableP1big" align="left" valign="middle" width="72">POL2003</td>
+                        <td class="TableP1big" valign="top" width="323">Access denied</td>
+                        <td class="TableP1big" valign="top" width="285"><a href="http://devwww.openmobilealliance.org/release/REST_NetAPI_Common/V1_0-20120417-C/OMA-TS-REST_NetAPI_Common-V1_0-20120417-C.pdf">OMA-TS-REST_NetAPI_Common-V1_0</a></td>
+                    </tr>
+                    <tr>
+                        <td class="TableP1big" align="left" valign="middle" width="72">POL2004</td>
+                        <td class="TableP1big" valign="top" width="323">File size limit exceeded</td>
+                        <td class="TableP1big" valign="top" width="285"><a href="http://devwww.openmobilealliance.org/release/REST_NetAPI_Common/V1_0-20120417-C/OMA-TS-REST_NetAPI_Common-V1_0-20120417-C.pdf">OMA-TS-REST_NetAPI_Common-V1_0</a></td>
+                    </tr>
+                    <tr>
+                        <td class="TableP1big" align="left" valign="middle" width="72">POL2005</td>
+                        <td class="TableP1big" valign="top" width="323">Maximum number of requests exceeded</td>
+                        <td class="TableP1big" valign="top" width="285"><a href="http://devwww.openmobilealliance.org/release/REST_NetAPI_Common/V1_0-20120417-C/OMA-TS-REST_NetAPI_Common-V1_0-20120417-C.pdf">OMA-TS-REST_NetAPI_Common-V1_0</a></td>
+                    </tr>
+                    <tr>
+                        <td class="TableP1big" style="height: 21px;" align="left" valign="middle" width="72">POL2006</td>
+                        <td class="TableP1big" style="height: 21px;" valign="top" width="323">Requested feature not available</td>
+                        <td class="TableP1big" style="height: 21px;" valign="top" width="285"><a href="http://devwww.openmobilealliance.org/release/REST_NetAPI_Common/V1_0-20120417-C/OMA-TS-REST_NetAPI_Common-V1_0-20120417-C.pdf">OMA-TS-REST_NetAPI_Common-V1_0</a></td>
+                    </tr>
+                    <tr>
+                        <td class="TableP1big" style="width: 72px; height: 19px;" valign="top">POL2007</td>
+                        <td class="TableP1big" style="height: 19px;" valign="top" width="325">Media Type not supported with details</td>
+                        <td class="TableP1big" style="height: 19px;" valign="top" width="285">
+                            <a href="http://member.openmobilealliance.org/ftp/Public_documents/ARCH/Permanent_documents/OMA-TS-REST_NetAPI_Common-V1_0-20150108-D.zip">
+                                OMA-TS-REST_NetAPI_Common-V1_0
+                            </a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="TableP1big" style="width: 72px;" valign="top">POL2008</td>
+                        <td class="TableP1big" valign="top" width="325">Too many resources requested</td>
+                        <td class="TableP1big" valign="top" width="285">
+                            <a href="http://member.openmobilealliance.org/ftp/Public_documents/ARCH/Permanent_documents/OMA-TS-REST_NetAPI_Common-V1_0-20150108-D.zip">
+                                OMA-TS-REST_NetAPI_Common-V1_0
+                            </a>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
     <!-- This gets populated with the footer.html using Javascript -->
     <div id="footer"></div>
 </body>
