@@ -31,7 +31,7 @@
 
         <div class="fl size99of100 justify">The Mobile Wireless Internet Forum has consolidated into the Open Mobile Alliance and no longer exists as a separate entity.Following are the archived documents from MWIF.</div>
 
-        <div><a>Click here to view <a target="_blank" href="http://openmobilealliance.org/about-oma/policies-and-terms-of-use/use-agreement/">Use Agreement</a></div>
+        <div class="fl size99of100 mtl mbm"><a target="_blank" href="http://openmobilealliance.org/about-oma/policies-and-terms-of-use/use-agreement/">Click here to view Use Agreement</a></div>
 
         <!--Location Interoperability Forum list starts-->
         <div class="fl size99of100 mtl mid-hd-bg">MWIF Archived Documents</div>
