@@ -1,28 +1,21 @@
 !doctype html>
 <html>
 <head>
-
     <title>Open Mobile Alliance - SyncML</title>
     <meta charset="utf-8">
     <script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
-
     <!-- Font awesome for arrows -->
     <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
-
     <!-- Normalize CSS -->
     <link rel="stylesheet" href="/CSS/Normalize.css">
-
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
-
     <!-- Optional theme -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
-
     <link rel="stylesheet" href="/CSS/Site.css">
     <link rel="stylesheet" href="/CSS/registries.css">
     <link rel="stylesheet" href="/CSS/grid_oocss.css">
     <link rel="stylesheet" href="/CSS/spacing.css">
-
     <script>
         $(function () {
             $('#header').load("/header.html");
@@ -30,13 +23,10 @@
         });
     </script>
 </head>
-
 <body>
     <!-- This gets populated with the header.html using Javascript -->
     <div id="header"></div>
-
     <div class="container">
-
         <div class="fl size99of100 mid-cont-ttl mbm">Material from Affiliates - SyncML</div>
         <div class="fl size99of100 justify">The SyncML initiative recently consolidated into the Open Mobile Alliance (OMA), contributing their technical work to the OMA technical Working Groups: <span class="reg-txt"><a class="link" href="?p=110" target="_blank">Device Management Working Group</a></span> and <span class="reg-txt"><a class="link" href="?p=38" target="_blank">Data Synchronization Working Group</a></span>.</div>
         <div class="fl size99of100 mtl mbm">Archive Downloads</div>
@@ -183,7 +173,7 @@
             SyncML World Congress, January 28, 2002:'<a class="link" href="?p=194&amp;fp=tech/affiliates/syncml/introducing_syncml_29jan02_douglas_heintzman.pdf&amp;rp=163" target="_blank">Keynote Speech: Introducing SyncML and Data Synchronization</a>' - Douglas Heintzman, of IBM and Chairman of the SyncML Initiative, Ltd.
         </div>
         <div class="fl size99of100 reg-txt pls pbl reg-brd">'<a class="link" href="?p=194&amp;fp=tech/affiliates/syncml/syncml_roadmap_30jan02_teemu_toroi.pdf&amp;rp=163" target="_blank">The SyncML Road Ahead - Device Management and Application Development</a>' - Teemu Toroi, of Nokia Mobile Phones, and Vice Chairman of the SyncML Initiative, Ltd.</div>
-
+        </div>
         <!-- This gets populated with the footer.html using Javascript -->
         <div id="footer">
         </div>
