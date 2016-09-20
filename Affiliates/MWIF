@@ -28,7 +28,11 @@
     <div id="header"></div>
     <div class="container">
         <div class="fl size100of100 mid-cont-ttl mbm">Material from Affiliates- Mobile Wireless Internet Forum (MWIF)</div>
+
         <div class="fl size99of100 justify">The Mobile Wireless Internet Forum has consolidated into the Open Mobile Alliance and no longer exists as a separate entity.Following are the archived documents from MWIF.</div>
+
+        <div><a>Click here to view <a target="_blank" href="http://openmobilealliance.org/about-oma/policies-and-terms-of-use/use-agreement/">Use Agreement</a></div>
+
         <!--Location Interoperability Forum list starts-->
         <div class="fl size99of100 mtl mid-hd-bg">MWIF Archived Documents</div>
         <!--Title-1 row starts-->
@@ -45,8 +49,8 @@
                 Architecture Principles
                 May 2001
             </div>
-            <div class="fl size16of100 reg-txt-2 pts mrvs fh-3"><a class="link" href="?p=194&amp;fp=tech/affiliates/mwif/mtr_001v2.pdf&amp;rp=146">Download (104K)</a></div>
-            <div class="fl size15of100 reg-txt-2 pts prs tac fh-3 desc"><a class="link" href="?p=194&amp;fp=tech/affiliates/mwif/mtr_001v2.doc&amp;rp=146">Download</a></div>
+            <div class="fl size16of100 reg-txt-2 pts mrvs fh-3"><a target="_blank" href="http://devwww.openmobilealliance.org/tech/affiliates/mwif/mtr_001v2.pdf" title="By Clicking here you accept the user agreement">Download (104K)</a></div>
+            <div class="fl size15of100 reg-txt-2 pts prs tac fh-3 desc"><a target="_blank" href="http://devwww.openmobilealliance.org/tech/affiliates/mwif/mtr_001v2.doc" title="By Clicking here you accept the user agreement">Download</a></div>
         </div>
         <div class="fl size100of100 reg-brd">
             <div class="fl size27of100 reg-txt-2 pts mrvs fh-3"><a class="link" href="?p=194&amp;pg=252&amp;rp=146">MTR.002v2 - Executive Summary</a></div>
@@ -54,8 +58,8 @@
                 Architecture Requirements
                 May 2001
             </div>
-            <div class="fl size16of100 reg-txt-2 pts mrvs fh-3"><a class="link" href="?p=194&amp;fp=tech/affiliates/mwif/mtr_002v2.pdf&amp;rp=146">Download (232K)</a></div>
-            <div class="fl size15of100 reg-txt-2 pts prs tac fh-3 desc"><a class="link" href="?p=194&amp;fp=tech/affiliates/mwif/mtr_002v2.doc&amp;rp=146">Download</a></div>
+            <div class="fl size16of100 reg-txt-2 pts mrvs fh-3"><a target="_blank" href="http://devwww.openmobilealliance.org/tech/affiliates/mwif/mtr_002v2.pdf" title="By Clicking here you accept the user agreement">Download (232K)</a></div>
+            <div class="fl size15of100 reg-txt-2 pts prs tac fh-3 desc"><a target="_blank" href="http://devwww.openmobilealliance.org/tech/affiliates/mwif/mtr_002v2.doc" title="By Clicking here you accept the user agreement">Download</a></div>
         </div>
         <div class="fl size100of100 reg-brd">
             <div class="fl size27of100 reg-txt-2 pts mrvs fh-3"><a class="link" href="?p=194&amp;pg=254&amp;rp=146">MTR.003 - Executive Summary</a></div>
@@ -63,8 +67,8 @@
                 Layered Functional Architecture
                 October 2000
             </div>
-            <div class="fl size16of100 reg-txt-2 pts mrvs fh-3"><a class="link" href="?p=194&amp;fp=tech/affiliates/mwif/mtr_003.pdf&amp;rp=146">Download (91K)</a></div>
-            <div class="fl size15of100 reg-txt-2 pts prs tac fh-3 desc"><a class="link" href="?p=194&amp;fp=tech/affiliates/mwif/mtr_003.doc&amp;rp=146">Download</a></div>
+            <div class="fl size16of100 reg-txt-2 pts mrvs fh-3"><a target="_blank" href="http://devwww.openmobilealliance.org/tech/affiliates/mwif/mtr_003.pdf" title="By Clicking here you accept the user agreement">Download (91K)</a></div>
+            <div class="fl size15of100 reg-txt-2 pts prs tac fh-3 desc"><a target="_blank" href="http://devwww.openmobilealliance.org/tech/affiliates/mwif/mtr_003.doc" title="By Clicking here you accept the user agreement">Download</a></div>
         </div>
         <div class="fl size100of100 reg-brd">
             <div class="fl size27of100 reg-txt-2 pts mrvs fh-3"><a class="link" href="?p=194&amp;pg=256&amp;rp=146">MTR.004v2 - Executive Summary</a></div>
@@ -72,8 +76,8 @@
                 Network Reference Architecture
                 May 2001
             </div>
-            <div class="fl size16of100 reg-txt-2 pts mrvs fh-3"><a class="link" href="?p=194&amp;fp=tech/affiliates/mwif/mtr_004v2.pdf&amp;rp=146">Download (1.1MB)</a></div>
-            <div class="fl size15of100 reg-txt-2 pts prs tac fh-3 desc"><a class="link" href="?p=194&amp;fp=tech/affiliates/mwif/mtr_004v2.doc&amp;rp=146">Download</a></div>
+            <div class="fl size16of100 reg-txt-2 pts mrvs fh-3"><a target="_blank" href="http://devwww.openmobilealliance.org/tech/affiliates/mwif/mtr_004v2.pdf" title="By Clicking here you accept the user agreement">Download (1.1MB)</a></div>
+            <div class="fl size15of100 reg-txt-2 pts prs tac fh-3 desc"><a target="_blank" href="http://devwww.openmobilealliance.org/tech/affiliates/mwif/mtr_004v2.doc" title="By Clicking here you accept the user agreement">Download</a></div>
         </div>
         <div class="fl size100of100 reg-brd">
             <div class="fl size27of100 reg-txt-2 pts mrvs fh-3"><a class="link" href="?p=194&amp;pg=258rp=146">MTR.006v2 - Executive Summary</a></div>
@@ -81,8 +85,8 @@
                 IP as Transport in the RAN
                 April 2001
             </div>
-            <div class="fl size16of100 reg-txt-2 pts mrvs fh-3"><a class="link" href="?p=194&amp;fp=tech/affiliates/mwif/mtr_006v2.pdf&amp;rp=146">Download (702K)</a></div>
-            <div class="fl size15of100 reg-txt-2 pts prs tac fh-3 desc"><a class="link" href="?p=194&amp;fp=tech/affiliates/mwif/mtr_006v2.doc&amp;rp=146">Download</a></div>
+            <div class="fl size16of100 reg-txt-2 pts mrvs fh-3"><a target="_blank" href="http://devwww.openmobilealliance.org/tech/affiliates/mwif/mtr_006v2.pdf" title="By Clicking here you accept the user agreement">Download (702K)</a></div>
+            <div class="fl size15of100 reg-txt-2 pts prs tac fh-3 desc"><a target="_blank" href="http://devwww.openmobilealliance.org/tech/affiliates/mwif/mtr_006v2.doc" title="By Clicking here you accept the user agreement">Download</a></div>
         </div>
         <div class="fl size100of100 reg-brd">
             <div class="fl size27of100 reg-txt-2 pts mrvs fh-3"><a class="link" href="?p=194&amp;pg=260&amp;rp=146">MTR.007 - Executive Summary</a></div>
@@ -90,8 +94,8 @@
                 OpenRAN Architecture in 3rd Generation Mobile Systems
                 September 2001
             </div>
-            <div class="fl size16of100 reg-txt-2 pts mrvs fh-3"><a class="link" href="?p=194&amp;fp=tech/affiliates/mwif/mtr_007.pdf&amp;rp=146">Download (830K)</a></div>
-            <div class="fl size15of100 reg-txt-2 pts prs tac fh-3 desc"><a class="link" href="?p=194&amp;fp=tech/affiliates/mwif/mtr_007.doc&amp;rp=146">Download</a></div>
+            <div class="fl size16of100 reg-txt-2 pts mrvs fh-3"><a target="_blank" href="http://devwww.openmobilealliance.org/tech/affiliates/mwif/mtr_007.pdf" title="By Clicking here you accept the user agreement">Download (830K)</a></div>
+            <div class="fl size15of100 reg-txt-2 pts prs tac fh-3 desc"><a target="_blank" href="http://devwww.openmobilealliance.org/tech/affiliates/mwif/mtr_007.doc" title="By Clicking here you accept the user agreement">Download</a></div>
         </div>
     </div>
     <!-- This gets populated with the footer.html using Javascript -->
@@ -99,4 +103,3 @@
     </div>
 </body>
 </html>
-
