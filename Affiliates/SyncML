@@ -28,7 +28,7 @@
     <div id="header"></div>
     <div class="container">
         <div class="fl size99of100 mid-cont-ttl mbm">Material from Affiliates - SyncML</div>
-        <div class="fl size99of100 justify">The SyncML initiative recently consolidated into the Open Mobile Alliance (OMA), contributing their technical work to the OMA technical Working Groups: <span class="reg-txt"><a class="link" href="?p=110" title="By Clicking here you accept the user agreement">Device Management Working Group</a></span> and <span class="reg-txt"><a class="link" href="?p=38" title="By Clicking here you accept the user agreement">Data Synchronization Working Group</a></span>.</div>
+        <div class="fl size99of100 justify">The SyncML initiative recently consolidated into the Open Mobile Alliance (OMA), contributing their technical work to the OMA technical Working Groups: <span class="reg-txt"><a target="_blank" href="http://openmobilealliance.github.io/public_documents.html">Public Available Documents</a></span>.</div>
         <div class="fl size99of100 mtl mbm">Archive Downloads</div>
         <div class="fl size97of100 grp-2 mlm reg-txt">
             <ul>
