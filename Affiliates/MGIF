@@ -36,6 +36,7 @@
     <div id="header"></div>
 
     <div class="container">
+
         <div class="fl size99of100 mid-cont-ttl mbm">Material from Affiliates - Mobile Games Interoperability Forum (MGIF)</div>
         <div class="fl size99of100 justify">The Mobile Games Interoperability forum recently consolidated into the Open Mobile Alliance (OMA), contributing their technical work to the OMA technical Working Groups: <a class="link" href="?p=38">Mobile Games Services</a>. Following are the archived documents from MGIF.</div>
         <div class="fl size99of100 mtl mid-hd-bg">MGIF Downloads</div>
@@ -46,6 +47,7 @@
         <div class="fl size99of100 reg-txt reg-brd pts pbs desc"><a class="link" href="?p=194&amp;fp=tech/affiliates/mgif/MGIF_Whitepaper_v1.0.pdf&amp;rp=144">MGIF_Whitepaper_v1.0</a> (PDF)</div>
     </div>
     <!-- This gets populated with the footer.html using Javascript -->
-    <div id="footer"></div>
+    <div id="footer">
+    </div>
 </body>
 </html>
