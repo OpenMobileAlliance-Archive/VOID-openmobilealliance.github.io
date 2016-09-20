@@ -1,0 +1,83 @@
+<!doctype html>
+<html>
+<head>
+
+    <title>Open Mobile Alliance - Registry for OMA Private AVP Codes</title>
+    <meta charset="utf-8">
+    <script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
+    <script src="/Scripts/tabledregistries.js"></script>
+
+    <!-- Font awesome for arrows -->
+    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+
+    <!-- Normalize CSS -->
+    <link rel="stylesheet" href="/CSS/Normalize.css" />
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
+
+    <link rel="stylesheet" href="/CSS/Site.css">
+    <link rel="stylesheet" href="/CSS/tabledregistries.css">
+
+    <script>
+        $(function () {
+            $('#header').load("/header.html");
+            $('#footer').load("/footer.html");
+        });
+    </script>
+</head>
+
+
+<body>
+    <!-- This gets populated with the header.html using Javascript -->
+    <div id="header"></div>
+
+    <div class="container">
+        <div>
+            <h1>OMA Registry for OMA Private AVP Codes</h1>
+        </div>
+        <div>
+            <p>This registry is used to record Attribute Value Pair (AVP) Codes in the OMA address space. 
+These OMNA registered AVP Codes are assigned to OMA Working Groups on a first come, first served basis. 
+Reference to the defining specification for each defined attribute is provided. The AVP Codes used on 
+this page are associated with Diameter system usage as defined in 
+<a href="http://www.ietf.org/rfc/rfc3588.txt" target="_blank">RFC3588</a>. The AVP code header must 
+include the V (Vendor-Specific) bit which flags the presence of the optional Vendor-Id field which 
+would be set to the OMA Private Enterprise Number value of 30079.</p>
+            <table id="privateavpcodes-table" class="table-bordered">
+                <thead>
+                    <tr>
+                        <th>AVP Code Value</th>
+                        <th>AVP Code Name</th>
+                        <th>Data Type</th>
+                        <th>Specification Reference</th>
+                        <th>Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>0</td>
+                        <td>unused</td>
+                        <td>-</td>
+                        <td>-</td>
+                        <td>Reserved</td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>Policy-Data</td>
+                        <td>Policy-Data</td>
+                        <td>OMA-TS-PEEM_PEM1-V1_0</td>
+                        <td>Container used to store XML formatted policy data</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <!-- This gets populated with the footer.html using Javascript -->
+    <div id="footer"></div>
+</body>
+</html>

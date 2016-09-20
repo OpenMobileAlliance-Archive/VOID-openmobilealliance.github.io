@@ -1,0 +1,231 @@
+<!doctype html>
+<html>
+<head>
+    <title>Open Mobile Alliance - OMNA XCAP Application Unique ID (AUID) Registry</title>
+    <meta charset="utf-8">
+    <script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
+    <!-- Font awesome for arrows -->
+    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+    <!-- Normalize CSS -->
+    <link rel="stylesheet" href="/CSS/Normalize.css">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="/CSS/Site.css">
+    <link rel="stylesheet" href="/CSS/registries.css">
+    <link rel="stylesheet" href="/CSS/grid_oocss.css">
+    <link rel="stylesheet" href="/CSS/spacing.css">
+    <script>
+        $(function () {
+            $('#header').load("/header.html");
+            $('#footer').load("/footer.html");
+        });
+    </script>
+</head>
+<body>
+    <!-- This gets populated with the header.html using Javascript -->
+    <div id="header"></div>
+    <div class="container">
+        <div class="fl size100of100 mid-cont-ttl mbm">OMNA XCAP Application Unique ID (AUID) Registry</div>
+        <div class="fl size100of100  justify mbl">
+            <div>OMNA maintains this registry to record Application Unique IDs (AUIDs) associated with XCAP resources defined in OMA Enablers using the OMA namespace. As such, this registry is only available to OMA groups and no support for external registrations is offered. </div>
+            <p>
+                The XCAP AUID records are developed as vendor-based IDs as referenced in
+                <a href="http://www.ietf.org/rfc/rfc4825.txt" class="reg-txtUnderline textHoverBrwn">RFC 4825</a>. The vendor domain part covered by this registry pertains to<b class="pBoldl"> 'org.openmobilealliance'</b> which is the reversed name string for the recognized OMA domain.
+            </p>
+            <p>
+                It should be noted that OMA Enablers may also utilize XCAP AUIDs which are declared in standards track RFCs. These are recorded by IANA and are available at the
+                <a href="http://www.iana.org/assignments/xcap-parameters/xcap-parameters.xhtml" class="reg-txtUnderline textHoverBrwn">IANA XCAP Parameters page</a>.
+            </p>
+
+            <table width="100%" cellspacing="0" cellpadding="0" border="0" class="mtl">
+                <tbody>
+                    <tr>
+                        <td colspan="4" class="TableTitre1">OMA Defined XCAP AUIDs</td>
+                    </tr>
+                    <tr>
+                        <td class="TableTitre2" style="width: 50%">OMA unique part of AUID</td>
+                        <td colspan="2" class="TableTitre2" style="width: 50%">Initial Reference Specification(s)</td>
+                    </tr>
+                    <tr>
+                        <td class="TableP1big">org.openmobilealliance.<strong>access-rules</strong></td>
+                        <td colspan="2" class="TableP1little"><a href="http://devwww.openmobilealliance.org/release/XDM/V2_0-20090810-C/OMA-TS-XDM_Shared_Policy-V1_0-20080916-C.pdf">OMA-TS-XDM_Shared_Policy-V1_0</a></td>
+                    </tr>
+                    <tr>
+                        <td class="TableP1big">org.openmobilealliance.<strong>conv-history</strong></td>
+                        <td colspan="2" class="TableP1little"><a href="http://devwww.openmobilealliance.org/release/SIMPLE_IM/V1_0-20070816-C/OMA-TS-IM_XDM-V1_0-20070816-C.pdf">OMA-TS-IM_XDM-V1_0</a></td>
+                    </tr>
+                    <tr>
+                        <td class="TableP1big">org.openmobilealliance.<strong>deferred-list</strong></td>
+                        <td colspan="2" class="TableP1little"><a href="http://devwww.openmobilealliance.org/release/SIMPLE_IM/V1_0-20070816-C/OMA-TS-IM_XDM-V1_0-20070816-C.pdf">OMA-TS-IM_XDM-V1_0</a></td>
+                    </tr>
+                    <tr>
+                        <td class="TableP1big">org.openmobilealliance.<strong>groups</strong></td>
+                        <td colspan="2" class="TableP1little"><a href="http://devwww.openmobilealliance.org/release//XDM/V2_0-20090810-C/OMA-TS-XDM_Shared_Group-V1_0-20090810-C.pdf">OMA-TS-XDM_Shared_Group-V1_0</a></td>
+                    </tr>
+                    <tr>
+                        <td class="TableP1big" style="height: 46px">org.openmobilealliance.<strong>group-usage-list</strong></td>
+                        <td colspan="2" class="TableP1little"><a href="http://devwww.openmobilealliance.org/release/XDM/V1_1-20080627-A/OMA-TS-XDM_Shared-V1_1-20080627-A.pdf">OMA-TS-XDM_Shared-V1_1</a><br>            <a href="http://devwww.openmobilealliance.org/release/XDM/V2_0-20090810-C/OMA-TS-XDM_Shared_List-V2_0-20090810-C.pdf">OMA-TS-XDM_Shared_List-V2_0</a></td>
+                    </tr>
+                    <tr>
+                        <td class="TableP1big">org.openmobilealliance.<strong>loc-rules</strong></td>
+                        <td colspan="2" class="TableP1little"><a href="http://devwww.openmobilealliance.org/release/LOCSIP/V1_0-20090818-C/OMA-TS-LOCSIP-V1_0-20090818-C.pdf">OMA-TS-LOCSIP-V1_0</a></td>
+                    </tr>
+                    <tr>
+                        <td class="TableP1big">org.openmobilealliance.<strong>locked-user-profile</strong></td>
+                        <td colspan="2" class="TableP1little"><a href="http://devwww.openmobilealliance.org/release/XDM/V2_0-20090810-C/OMA-TS-XDM_Shared_Profile-V1_0-20080916-C.pdf">OMA-TS-XDM_Shared_Profile-V1_0</a></td>
+                    </tr>
+                    <tr>
+                        <td class="TableP1big">org.openmobilealliance.<strong>poc-groups</strong></td>
+                        <td colspan="2" class="TableP1little"><a href="http://devwww.openmobilealliance.org/release/PoC/V1_0_3-20090922-A/OMA-TS-PoC_XDM-V1_0_3-20090922-A.pdf">OMA-TS-PoC_XDM-V1_0</a></td>
+                    </tr>
+                    <tr>
+                        <td class="TableP1big">org.openmobilealliance.<strong>poc-rules</strong></td>
+                        <td colspan="2" class="TableP1little"><a href="http://devwww.openmobilealliance.org/release/PoC/V1_0_3-20090922-A/OMA-TS-PoC_XDM-V1_0_3-20090922-A.pdf">OMA-TS-PoC_XDM-V1_0</a></td>
+                    </tr>
+                    <tr>
+                        <td class="TableP1big">org.openmobilealliance.<strong>policy-bpel</strong></td>
+                        <td colspan="2" class="TableP1little"><a href="http://devwww.openmobilealliance.org/release/PEEM/V1_0-20090715-C/OMA-TS-PEEM_PEM1-V1_0-20090715-C.pdf">OMA-TS-PEEM_PEM2-V1_0</a></td>
+                    </tr>
+                    <tr>
+                        <td class="TableP1big">org.openmobilealliance.<strong>policy-commonpol</strong></td>
+                        <td colspan="2" class="TableP1little"><a href="http://devwww.openmobilealliance.org/release/PEEM/V1_0-20090715-C/OMA-TS-PEEM_PEM2-V1_0-20081014-C.pdf">OMA-TS-PEEM_PEM2-V1_0</a></td>
+                    </tr>
+                    <tr>
+                        <td class="TableP1big">org.openmobilealliance.<strong>pres-content</strong></td>
+                        <td colspan="2" class="TableP1little"><a href="http://devwww.openmobilealliance.org/release/PresenceSIMPLE/V2_0-20090917-C/OMA-TS-Presence_SIMPLE_Content_XDM-V1_0-20081223-C.pdf">OMA-TS-Presence-SIMPLE_Content-V1_0</a></td>
+                    </tr>
+                    <tr>
+                        <td class="TableP1big">org.openmobilealliance.<strong>pres-rules</strong></td>
+                        <td colspan="2" class="TableP1little" style="height: 46px"><a href="http://devwww.openmobilealliance.org/release/PresenceSIMPLE/V1_1-20080627-A/OMA-TS-Presence_SIMPLE_XDM-V1_1-20080627-A.pdf">OMA-TS-Presence_SIMPLE_XDM-V1_1</a><br>            <a href="http://devwww.openmobilealliance.org/release/PresenceSIMPLE/V2_0-20090917-C/OMA-TS-Presence_SIMPLE_XDM-V2_0-20090917-C.pdf">OMA-TS-Presence_SIMPLE_XDM-V2_0</a>&nbsp;</td>
+                    </tr>
+                    <tr>
+                        <td class="TableP1big">org.openmobilealliance.<strong>pub-rules</strong></td>
+                        <td colspan="2" class="TableP1little"><a href="http://devwww.openmobilealliance.org/release/PresenceSIMPLE/V2_0-20090917-C/OMA-TS-Presence_SIMPLE_XDM-V2_0-20090917-C.pdf">OMA-TS-Presence_SIMPLE_XDM-V2_0</a></td>
+                    </tr>
+                    <tr>
+                        <td class="TableP1big">org.openmobilealliance.<strong>pub-rules-view</strong></td>
+                        <td colspan="2" class="TableP1little"><a href="http://devwww.openmobilealliance.org/release/PresenceSIMPLE/V2_0-20090917-C/OMA-TS-Presence_SIMPLE_XDM-V2_0-20090917-C.pdf">OMA-TS-Presence_SIMPLE_XDM-V2_0</a></td>
+                    </tr>
+                    <tr>
+                        <td class="TableP1big">org.openmobilealliance.<strong>search</strong></td>
+                        <td colspan="2" class="TableP1little"><a href="http://devwww.openmobilealliance.org/release/XDM/V2_0-20090810-C/OMA-TS-XDM_Core-V2_0-20090810-C.pdf">OMA-TS-XDM_Core-V2_0</a></td>
+                    </tr>
+                    <tr>
+                        <td class="TableP1big">org.openmobilealliance.<strong>user-profile</strong></td>
+                        <td colspan="2" class="TableP1little"><a href="http://devwww.openmobilealliance.org/release/XDM/V2_0-20090810-C/OMA-TS-XDM_Shared_Profile-V1_0-20080916-C.pdf">OMA-TS-XDM_Shared_Profile-V1_0</a></td>
+                    </tr>
+                    <tr>
+                        <td class="TableP1big">org.openmobilealliance.<strong>xcap-directory</strong></td>
+                        <td colspan="2" class="TableP1little"><a href="http://devwww.openmobilealliance.org/release/XDM/V1_1-20080627-A/OMA-TS-XDM_Core-V1_1-20080627-A.pdf">OMA-TS-XDM_Core-V1_1</a></td>
+                    </tr>
+                    <tr>
+                        <td class="TableP1big">org.openmobilealliance.forwarding-notification-list&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </td>
+                        <td colspan="2" class="TableP1little"><a href="http://devwww.openmobilealliance.org/release/XDM/V2_1-20120403-A/OMA-TS-XDM_List-V2_1-20120403-A.pdf">OMA-TS-XDM_List-V2_1</a></td>
+                    </tr>
+                    <tr>
+                        <td class="TableP1big">org.openmobilealliance.access-permissions-list</td>
+                        <td colspan="2" class="TableP1little"><a href="http://devwww.openmobilealliance.org/release/XDM/V2_1-20120403-A/OMA-TS-XDM_List-V2_1-20120403-A.pdf">OMA-TS-XDM_List-V2_1</a></td>
+                    </tr>
+                    <tr>
+                        <td class="TableP1big">org.openmobilealliance.alias-principals-list </td>
+                        <td colspan="2" class="TableP1little"><a href="http://devwww.openmobilealliance.org/release/XDM/V2_1-20120403-A/OMA-TS-XDM_List-V2_1-20120403-A.pdf">OMA-TS-XDM_List-V2_1</a></td>
+                    </tr>
+                    <tr>
+                        <td class="TableP1big">org.openmobilealliance.xdcp </td>
+                        <td colspan="2" class="TableP1little"><a href="http://devwww.openmobilealliance.org/release/XDM/V2_1-20120403-A/OMA-TS-XDM_Core-V2_1-20120403-A.pdf">OMA-TS-XDM_Core-V2_1</a></td>
+                    </tr>
+                    <tr>
+                        <td class="TableP1big">org.openmobilealliance.xdcp.sp</td>
+                        <td colspan="2" class="TableP1little"><a href="http://devwww.openmobilealliance.org/release/XDM/V2_1-20120403-A/OMA-TS-XDM_Core-V2_1-20120403-A.pdf">OMA-TS-XDM_Core-V2_1</a></td>
+                    </tr>
+                    <tr>
+                        <td class="TableP1big">org.openmobilealliance.s-cab-address-book</td>
+                        <td colspan="2" class="TableP1little"><a href="http://devwww.openmobilealliance.org/release/SCAB/V1_0-20120904-C/OMA-TS-S_CAB_XDM-V1_0-20120904-C.pdf">OMA-TS-S_CAB_XDM-V1_0</a></td>
+                    </tr>
+                    <tr>
+                        <td class="TableP1big">org.openmobilealliance.s-cab-user-prefs&nbsp; </td>
+                        <td colspan="2" class="TableP1little"><a href="http://devwww.openmobilealliance.org/release/SCAB/V1_0-20120904-C/OMA-TS-S_CAB_XDM-V1_0-20120904-C.pdf">OMA-TS-S_CAB_XDM-V1_0</a></td>
+                    </tr>
+                    <tr>
+                        <td class="TableP1big">org.openmobilealliance.cab-pcc.s-cab-iwf </td>
+                        <td colspan="2" class="TableP1little"><a href="http://devwww.openmobilealliance.org/release/SCAB/V1_0-20120904-C/OMA-TS-S_CAB_XDM-V1_0-20120904-C.pdf">OMA-TS-S_CAB_XDM-V1_0</a></td>
+                    </tr>
+                    <tr>
+                        <td class="TableP1big">org.openmobilealliance.s-cab-ab.s-cab-iwf </td>
+                        <td colspan="2" class="TableP1little"><a href="http://devwww.openmobilealliance.org/release/SCAB/V1_0-20120904-C/OMA-TS-S_CAB_XDM-V1_0-20120904-C.pdf">OMA-TS-S_CAB_XDM-V1_0</a></td>
+                    </tr>
+                    <tr>
+                        <td class="TableP1big">org.openmobilealliance.s-cab-iuo </td>
+                        <td colspan="2" class="TableP1little"><a href="http://devwww.openmobilealliance.org/release/SCAB/V1_0-20120904-C/OMA-TS-S_CAB_XDM-V1_0-20120904-C.pdf">OMA-TS-S_CAB_XDM-V1_0</a></td>
+                    </tr>
+                    <tr>
+                        <td class="TableP1big">org.openmobilealliance.s-cab-external-search </td>
+                        <td colspan="2" class="TableP1little"><a href="http://devwww.openmobilealliance.org/release/SCAB/V1_0-20120904-C/OMA-TS-S_CAB_XDM-V1_0-20120904-C.pdf">OMA-TS-S_CAB_XDM-V1_0</a></td>
+                    </tr>
+                    <tr>
+                        <td class="TableP1big">org.openmobilealliance.s-cab-comm-history </td>
+                        <td colspan="2" class="TableP1little"><a href="http://devwww.openmobilealliance.org/release/SCAB/V1_0-20120904-C/OMA-TS-S_CAB_XDM-V1_0-20120904-C.pdf">OMA-TS-S_CAB_XDM-V1_0</a></td>
+                    </tr>
+                    <tr>
+                        <td class="TableP1big">org.openmobilealliance.<strong>cab-address-book</strong></td>
+                        <td class="TableP1little"><a href="http://devwww.openmobilealliance.org/release/CAB/V1_0-20121113-A/OMA-TS-CAB_XDMS-V1_0-20121113-A.pdf">OMA-TS-CAB_XDMS-V1_0<br></a><a href="http://devwww.openmobilealliance.org/release/CAB/V1_1-20120904-C/OMA-TS-CAB_XDMS-V1_1-20120904-C.pdf">OMA-TS-CAB_XDMS-V1_1</a></td>
+                    </tr>
+                    <tr>
+                        <td class="TableP1big">org.openmobilealliance.<strong>cab-pcc</strong></td>
+                        <td class="TableP1little"><a href="http://devwww.openmobilealliance.org/release/CAB/V1_0-20121113-A/OMA-TS-CAB_XDMS-V1_0-20121113-A.pdf">OMA-TS-CAB_XDMS-V1_0<br></a><a href="http://devwww.openmobilealliance.org/release/CAB/V1_1-20120904-C/OMA-TS-CAB_XDMS-V1_1-20120904-C.pdf">OMA-TS-CAB_XDMS-V1_1</a></td>
+                    </tr>
+                    <tr>
+                        <td class="TableP1big">org.openmobilealliance.<strong>cab-user-prefs</strong></td>
+                        <td class="TableP1little"><a href="http://devwww.openmobilealliance.org/release/CAB/V1_0-20121113-A/OMA-TS-CAB_XDMS-V1_0-20121113-A.pdf">OMA-TS-CAB_XDMS-V1_0<br></a><a href="http://devwww.openmobilealliance.org/release/CAB/V1_1-20120904-C/OMA-TS-CAB_XDMS-V1_1-20120904-C.pdf">OMA-TS-CAB_XDMS-V1_1</a></td>
+                    </tr>
+                    <tr>
+                        <td class="TableP1big">org.openmobilealliance.<strong>cab-feature-handler </strong></td>
+                        <td class="TableP1little"><a href="http://devwww.openmobilealliance.org/release/CAB/V1_0-20121113-A/OMA-TS-CAB_XDMS-V1_0-20121113-A.pdf">OMA-TS-CAB_XDMS-V1_0<br></a><a href="http://devwww.openmobilealliance.org/release/CAB/V1_1-20120904-C/OMA-TS-CAB_XDMS-V1_1-20120904-C.pdf">OMA-TS-CAB_XDMS-V1_1 </a></td>
+                    </tr>
+                    <tr>
+                        <td class="TableP1big">org.openmobilealliance.cab-external-search</td>
+                        <td colspan="2" class="TableP1little"><a href="http://devwww.openmobilealliance.org/release/CAB/V1_0-20121113-A/OMA-TS-CAB-V1_0-20121113-A.pdf">OMA-TS-CAB-V1_0&nbsp;</a><br>            <a href="http://devwww.openmobilealliance.org/release/CAB/V1_1-20120904-C/OMA-TS-CAB-V1_1-20120904-C.pdf">OMA-TS-CAB-V1_1&nbsp; </a></td>
+                    </tr>
+                    <tr>
+                        <td class="TableP1big">org.openmobilealliance.<b>subscriber-defined-access-rules</b></td>
+                        <td colspan="2" class="TableP1little"><a href="http://devwww.openmobilealliance.org/release/XDM/V2_2-20160503-A/OMA-TS-XDM_Policy-V1_1-20120403-A.pdf">OMA-TS-XDM_Policy-V1_1</td>
+                    </tr>
+                    <tr>
+                        <td class="TableP1big">org.openmobilealliance.<strong>upp-directory</strong></td>
+                        <td colspan="2" class="TableP1little"><a href="http://devwww.openmobilealliance.org/release/XDM/V2_2-20160503-A/OMA-TS-XDM_UPP_Directory-V1_0-20120403-A.pdf">OMA-TS-XDM_UPP_Directory-V1_0</td>
+                    </tr>
+                    <tr>
+                        <td class="TableP1big">org.openmobilealliance.<strong>pal-profile</strong></td>
+                        <td colspan="2" class="TableP1little"><a href="http://devwww.openmobilealliance.org/release/PAL/V1_0-20120320-A/OMA-TS-PAL_XDM-V1_0-20120320-A.pdf">OMA-TS-PAL_XDM-V1_0</td>
+                    </tr>
+                </tbody>
+            </table>
+            <h4>
+                Reserved AUID Vendor Labels
+            </h4>
+            <p>These values are reserved and will be promoted to the registration table when the defining OMA enabler reaches Candidate Status.</p>
+            <table width="100%" cellspacing="0" cellpadding="0" border="0">
+                <tbody>
+                    <tr>
+                        <td colspan="4" class="TableTitre1">Reserved AUID Vendor Labels </td>
+                    </tr>
+                    <tr>
+                        <td class="TableTitre2" style="width: 50%">AUID</td>
+                        <td class="TableTitre2" style="width: 20%">Requesting Group</td>
+                        <td class="TableTitre2" style="width: 50%">Expected Reference Specification</td>
+                    </tr>
+                    <tr>
+                        <td class="TableP1big">org.openmobilealliance.<strong>poc-sessions</strong></td>
+                        <td class="TableP1little">-</td>
+                        <td class="TableP1big"><a href="http://devwww.openmobilealliance.org/release/PoC/V2_1-20110802-A/OMA-TS-PoC_Document_Management-V2_1-20110802-A.pdf">OMA-TS-PoC_Document_Management-V2_1</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <!-- This gets populated with the footer.html using Javascript -->
+    <div id="footer"></div>
+</body>
+</html>
