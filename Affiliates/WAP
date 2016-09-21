@@ -59,20 +59,20 @@
         </div>
         <!--Row-1 ends-->
         <!--Row-2 starts-->
-        <div class="fl size98of100 mid-hd-bg">WAP 2.0 Specifications</div>
+        <div class="fl size97of100 mid-hd-bg">WAP 2.0 Specifications</div>
         <!--title row starts-->
-        <div class="fl size99of100 clearfix">
+        <div class="fl size97of100 clearfix">
             <div class="fl size21of100 reg-ttl mrs">Functional area</div>
-            <div class="fl size76of100 reg-ttl">Specification</div>
+            <div class="fl size78of100 reg-ttl">Specification</div>
         </div>
         <!--title row ends-->
         <!--title row starts-->
-        <div class="fl size99of100 clearfix reg-brd">
+        <div class="fl size97of100 clearfix reg-brd">
             <div class="fl size21of100 reg-txt pts pbs mrs">Architecture</div>
             <div class="fl size45of100 reg-txt pts pbs pls mls desc-2">Wireless Application Protocol Architecture Specification</div>
             <div class="fl size30of100 reg-txt pts pbs pls"><a target="_blank" href="http://devwww.openmobilealliance.org/tech/affiliates/wap/wap-210-waparch-20010712-a.pdf" title="By Clicking here you accept the use agreement">WAP-210-WAPArch-20010712-a</a></div>
         </div>
-        <div class="fl size99of100 clearfix reg-brd">
+        <div class="fl size97of100 clearfix reg-brd">
             <div class="fl size21of100 reg-txt pts pbs mrs">Client ID</div>
             <div class="fl size45of100 reg-txt pts pbs pls mls desc-2">WAP Client ID Specification</div>
             <div class="fl size30of100 reg-txt pts pbs pls"><a target="_blank" href="http://devwww.openmobilealliance.org/tech/affiliates/wap/wap-196-clientId-20010409-a.pdf" title="By Clicking here you accept the use agreement">WAP-196-ClientID-20010409-a</a></div>
@@ -100,12 +100,12 @@
                 <div class="fl size39of100 reg-txt pts pbs pls"><a target="_blank" href="http://devwww.openmobilealliance.org/tech/affiliates/wap/wap-186-provsc-20010710-a.pdf" title="By Clicking here you accept the use agreement">WAP-186-ProvSC-20010710-a</a></div>
             </div>
         </div>
-        <div class="fl size99of100 clearfix reg-brd">
+        <div class="fl size97of100 clearfix reg-brd">
             <div class="fl size21of100 reg-txt pts pbs fh-1 mrs">External Functional Interface (EFI)</div>
             <div class="fl size45of100 reg-txt pts pbs fh-1 pls mls desc-2">External Functional Interfaces Specification</div>
             <div class="fl size30of100 reg-txt pts pbs fh-1 pls"><a target="_blank" href="http://devwww.openmobilealliance.org/tech/affiliates/wap/wap-231-efi-20011217-a.pdf" title="By Clicking here you accept the use agreement">WAP-231-EFI-20011217-a</a></div>
         </div>
-        <div class="fl size99of100 clearfix reg-brd">
+        <div class="fl size97of100 clearfix reg-brd">
             <div class="fl size21of100 reg-txt pts pbs fh-1 mrs">General formats</div>
             <div class="fl size45of100 reg-txt pts pbs fh-1 pls mls desc-2">General formats Specification</div>
             <div class="fl size30of100 reg-txt pts pbs fh-1 pls"><a target="_blank" href="http://devwww.openmobilealliance.org/tech/affiliates/wap/wap-188-wapgenformats-20010710-a.pdf" title="By Clicking here you accept the use agreement">WAP-188-WAPGenFormats-20010710-a</a></div>
@@ -135,7 +135,7 @@
                 <div class="fl size39of100 reg-txt pts pbs pls"><a target="_blank" href="http://devwww.openmobilealliance.org/tech/affiliates/wap/wap-209-mmsencapsulation-20020105-a.pdf" title="By Clicking here you accept the use agreement">WAP-209-MMSEncapsulation-20020105-a</a></div>
             </div>
         </div>
-        <div class="fl size99of100 clearfix reg-brd">
+        <div class="fl size97of100 clearfix reg-brd">
             <div class="fl size21of100 reg-txt pts pbs mrs">Persistence</div>
             <div class="fl size45of100 reg-txt pts pbs pls mls desc-2">Persistent Storage Specification</div>
             <div class="fl size30of100 reg-txt pts pbs pls"><a target="_blank" href="http://devwww.openmobilealliance.org/tech/affiliates/wap/wap-227-pstor-20011220-a.pdf" title="By Clicking here you accept the use agreement">WAP-227-PSTOR-20011220-a</a></div>
@@ -191,12 +191,12 @@
                 <div class="fl size39of100 reg-txt pts pbs pls"><a target="_blank" href="http://devwww.openmobilealliance.org/tech/affiliates/wap/wap-175_102-cacheop-20010816-a.pdf" title="By Clicking here you accept the use agreement">WAP-175_102-CacheOp-20010816-a</a></div>
             </div>
         </div>
-        <div class="fl size99of100 clearfix reg-brd">
+        <div class="fl size97of100 clearfix reg-brd">
             <div class="fl size21of100 reg-txt pts pbs mrs">Synchronisation</div>
             <div class="fl size45of100 reg-txt pts pbs pls mls desc-2">WAP Synchronisation Specification</div>
             <div class="fl size30of100 reg-txt pts pbs pls"><a target="_blank" href="http://devwww.openmobilealliance.org/tech/affiliates/wap/wap-234-sync-20010530-a.pdf" title="By Clicking here you accept the use agreement">WAP-234-SYNC-20010530-a</a></div>
         </div>
-        <div class="fl size99of100 clearfix reg-brd">
+        <div class="fl size97of100 clearfix reg-brd">
             <div class="fl size21of100 reg-txt pts pbs fh-2 mrs">use Agent Profile (UAProf)</div>
             <div class="fl size45of100 reg-txt pts pbs fh-2 pls mls desc-2">use Agent Profiling Specification</div>
             <div class="fl size30of100 reg-txt pts pbs fh-2 pls"><a target="_blank" href="http://devwww.openmobilealliance.org/tech/affiliates/wap/wap-248-uaprof-20011020-a.pdf" title="By Clicking here you accept the use agreement">WAP-248-UAProf-20011020-a</a></div>
@@ -337,7 +337,7 @@
         <div class="fl size100of100 clearfix reg-brd">
             <div class="fl size16of100 reg-ttl pts pbs mrvs">Date</div>
             <div class="fl size52of100 reg-ttl pts pbs pls ">Change</div>
-            <div class="fr size28of100 reg-ttl pts pbs pls prvs">Specification</div>
+            <div class="fr size31of100 reg-ttl pts pbs pls prvs">Specification</div>
         </div>
         <div class="fl size100of100 clearfix reg-brd">
             <div class="fl size17of100 reg-txt pts pbs mrvs">2002-11-06</div>
