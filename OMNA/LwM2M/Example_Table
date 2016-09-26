@@ -1,0 +1,1561 @@
+<h2>LwM2M Objects</h2>
+<h3 id="omalabel"><strong>oma-label</strong> Objects Produced by OMA</h3>
+<p><code>URN: urn:oma:lwm2m:oma:ObjectID | range (0 - 1,023)</code></p>
+<table class="descriptive-table">
+    <thead>
+        <tr>
+    <thead>
+        <tr>
+            <th>URN / Version</th>
+            <th>ObjectID / xml</th>
+            <th>LwM2M Editor</th>
+            <th>Vorto</th>
+            <th style="width: 136px">Object Name / Specification</th>
+            <th>Description</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>urn:oma:lwm2m:oma:0  </td>
+            <td>
+                <a href="http://www.openmobilealliance.org/tech/profiles/LWM2M_Security-v1_0.xml" title="download xml file">0</a>
+            </td>
+            <td>
+                <a href="http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2FLWM2M_Security-v1_0.xml" title="call the Editor">0</a>
+            </td>
+            <td>
+                <a href="" title="call Vorto">0</a>
+            </td>
+            <td style="width: 136px">
+                <a href="http://devwww.openmobilealliance.org/release/LightweightM2M/V1_0-20160407-C/OMA-TS-LightweightM2M-V1_0-20160407-C.pdf" title="download document">
+                    LwM2M Security
+                </a>
+            </td>
+            <td>
+                <p>It provides the keying material of a LWM2M Client appropriate to access a specified LWM2M Server. One Object Instance SHOULD address a LWM2M Bootstrap Server. These LWM2M Object Resources MUST only be changed by a LWM2M Bootstrap Server or Bootstrap from Smartcardand MUST NOT be accessible by any other LWM2M Server.</p>
+            </td>
+        </tr>
+
+        <tr>
+            <td>urn:oma:lwm2m:oma:1 </td>
+            <td>
+                <a href="http://www.openmobilealliance.org/tech/profiles/LWM2M_Server-v1_0.xml" title="download xml file">1</a>
+            </td>
+            <td>
+                <a href="http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2FLWM2M_Server-v1_0.xml" title="call the Editor">1</a>
+            </td>
+            <td>
+                <a href="" title="call Vorto">1</a>
+            </td>
+            <td style="width: 136px">
+                <a href="http://devwww.openmobilealliance.org/release/LightweightM2M/V1_0-20160407-C/OMA-TS-LightweightM2M-V1_0-20160407-C.pdf" title="download document">LwM2M Server</a>
+            </td>
+            <td>
+                <p>It provides the data related to a LWM2M Server. A Bootstrap Server has no such an Object Instance associated to it</p>
+            </td>
+        </tr>
+
+        <tr>
+            <td>urn:oma:lwm2m:oma:2 </td>
+            <td style="height: 42px">
+                <a href="http://www.openmobilealliance.org/tech/profiles/LWM2M_Access_Control-v1_0.xml" title="download xml file">2</a>
+            </td>
+            <td>
+                <a href="http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2FLWM2M_Access_Control-v1_0.xml" title="call the Editor">2</a>
+            </td>
+            <td>
+                <a href="" title="call Vorto">2</a>
+            </td>
+            <td style="height: 42px; width: 136px;">
+                <a href="http://devwww.openmobilealliance.org/release/LightweightM2M/V1_0-20160407-C/OMA-TS-LightweightM2M-V1_0-20160407-C.pdf" title="download document">Access Control</a>
+            </td>
+            <td style="height: 42px">
+                <p>It is used to check whether the LWM2M Server has access right for performing a operation.</p>
+            </td>
+        </tr>
+
+        <tr>
+            <td>urn:oma:lwm2m:oma:3 </td>
+            <td>
+                <a href="http://www.openmobilealliance.org/tech/profiles/LWM2M_Device-v1_0.xml" title="download xml file">3</a>
+            </td>
+            <td>
+                <a href="http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2FLWM2M_Device-v1_0.xml" title="call the Editor">3</a>
+            </td>
+            <td>
+                <a href="" title="call Vorto">3</a>
+            </td>
+            <td style="width: 136px">
+                <a href="http://devwww.openmobilealliance.org/release/LightweightM2M/V1_0-20160407-C/OMA-TS-LightweightM2M-V1_0-20160407-C.pdf" title="download document">Device</a>
+            </td>
+            <td>
+                It provides a range of device related information which can be queried by the LWM2M Server, and a device reboot and factory reset function.
+
+            </td>
+        </tr>
+
+        <tr>
+            <td>urn:oma:lwm2m:oma:4  </td>
+            <td>
+                <a href="http://www.openmobilealliance.org/tech/profiles/LWM2M_Connectivity_Monitoring-v1_0.xml" title="download xml file">4</a>
+            </td>
+            <td>
+                <a href="http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2FLWM2M_Connectivity_Monitoring-v1_0.xml" title="call the Editor">4</a>
+            </td>
+            <td>
+                <a href="" title="call Vorto">4</a>
+            </td>
+            <td style="width: 136px">
+                <a href="http://devwww.openmobilealliance.org/release/LightweightM2M/V1_0-20160407-C/OMA-TS-LightweightM2M-V1_0-20160407-C.pdf" title="download document">Connectivity Monitoring</a>
+            </td>
+            <td>
+                It enables monitoring of parameters related to network connectivity. In this general connectivity Object, the Resources are limited to the most general cases common to most network bearers. It is recommended to read the description, which refers to relevant standard development organizations (e.g. 3GPP, IEEE). The goal of the Connectivity Monitoring Object is to carry information reflecting the more up to date values of the current connection for monitoring purposes. Resources such as Link Quality, Radio Signal Strenght, Cell ID are retrieved during connected mode at least for cellular networks.
+            </td>
+        </tr>
+        <tr>
+            <td>urn:oma:lwm2m:oma:5 </td>
+            <td>
+                <a href="http://www.openmobilealliance.org/tech/profiles/LWM2M_Firmware_Update-v1_0.xml" title="download xml file">5</a>
+            </td>
+            <td>
+                <a href="http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2FLWM2M_Firmware_Update-v1_0.xml" title="call the Editor">5</a>
+            </td>
+            <td>
+                <a href="" title="call Vorto">5</a>
+            </td>
+            <td style="width: 136px">
+                <a href="http://devwww.openmobilealliance.org/release/LightweightM2M/V1_0-20160407-C/OMA-TS-LightweightM2M-V1_0-20160407-C.pdf" title="download document">Firmware update</a>
+            </td>
+            <td>It enables management of firmware which is to be updated. This Object includes installing firmware package, updating firmware, and performing actions after updating firmware. </td>
+        </tr>
+        <tr>
+            <td>urn:oma:lwm2m:oma:6  </td>
+            <td>
+                <a href="http://www.openmobilealliance.org/tech/profiles/LWM2M_Location-v1_0.xml" title="download xml file">6</a>
+            </td>
+            <td>
+                <a href="http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2FLWM2M_Location-v1_0.xml" title="call the Editor">6</a>
+            </td>
+            <td>
+                <a href="" title="call Vorto">6</a>
+            </td>
+            <td style="width: 136px">
+                <a href="http://devwww.openmobilealliance.org/release/LightweightM2M/V1_0-20160407-C/OMA-TS-LightweightM2M-V1_0-20160407-C.pdf" title="download document">Location</a>
+            </td>
+            <td>
+                It provides a range of device related information which can be queried by the LWM2M Server, and a device reboot and factory reset function.
+            </td>
+        </tr>
+        <tr>
+            <td>urn:oma:lwm2m:oma:7 </td>
+            <td>
+                <a href="http://www.openmobilealliance.org/tech/profiles/LWM2M_Connectivity_Statistics-v1_0.xml" title="download xml file">7</a>
+            </td>
+            <td>
+                <a href="http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2FLWM2M_Connectivity_Statistics-v1_0.xml" title="call the Editor">7</a>
+            </td>
+            <td>
+                <a href="" title="call Vorto">7</a>
+            </td>
+            <td style="width: 136px">
+                <a href="http://devwww.openmobilealliance.org/release/LightweightM2M/V1_0-20160407-C/OMA-TS-LightweightM2M-V1_0-20160407-C.pdf" title="download document">Connectivity</a>
+            </td>
+            <td>
+                This LWM2M Objects enables client to collect statistical information and enables the LWM2M Server to retrieve these information, set the collection duration and reset the statistical parameters.
+            </td>
+        </tr>
+        <tr>
+            <td>urn:oma:lwm2m:oma:8 </td>
+            <td>
+                <a title="download xml file" href="http://devwww.openmobilealliance.org/tech/profiles/">8</a>
+            </td>
+            <td>
+                <a href="http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2F" title="call the Editor">8</a>
+            </td>
+            <td>
+                <a href="" title="call Vorto">8</a>
+            </td>
+            <td style="width: 136px">
+                <a href="http://devwww.openmobilealliance.org/release/LWM2M_LOCKWIPE/V1_0-20151123-C/OMA-TS-LWM2M_LockWipe-V1_0-20151123-C.pdf" title="download document">
+                    Lock and Wipe
+                </a>
+            </td>
+            <td>
+                This LWM2M objects provides the resources needed to perform the lock and wipe operations
+            </td>
+        </tr>
+        <tr>
+            <td>urn:oma:lwm2m:oma:9</td>
+            <td>
+                <a title="download xml file" href="http://devwww.openmobilealliance.org/tech/profiles/">9</a>
+            </td>
+            <td>
+                <a href="http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2F" title="call the Editor">9</a>
+            </td>
+            <td>
+                <a href="" title="call Vorto">9</a>
+            </td>
+            <td style="width: 136px">
+                <a href="http://devwww.openmobilealliance.org/release/LWM2M_SWMGMT/V1_0-20151201-C/OMA-TS-LWM2M_SwMgmt-V1_0-20151201-C.pdf" title="download document">Software Management</a>
+            </td>
+            <td>
+                This LWM2M objects provides the resources needed to perform software management on the device. Each software component is managed via a dedicated Software Management Object instance
+            </td>
+        </tr>
+        <tr>
+            <td>urn:oma:lwm2m:oma:10</td>
+            <td>
+                <a title="download xml file" href="http://devwww.openmobilealliance.org/tech/profiles/">10</a>
+            </td>
+            <td>
+                <a href="http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2F" title="call the Editor">10</a>
+            </td>
+            <td>
+                <a href="" title="call Vorto">10</a>
+            </td>
+            <td style="width: 136px">
+                <a href="http://devwww.openmobilealliance.org/release/LWM2M_CONNMGMT/V1_0-20151201-C/OMA-TS-LWM2M_ConnMgmt-V1_0-20151201-C.pdf" title="download document">Celluar connectivity</a>
+            </td>
+            <td>
+                It specifies resources to enable a device to connect to a 3GPP or 3GPP2 bearer, including GPRS/EDGE, UMTS, LTE, SMS. For cellular connectivity, this object focuses on Packet Switched (PS) connectivity and doesn’t aim to provide comprehensive Circuit Switched (CS) connectivity management.
+                <br>
+                <br>
+            </td>
+        </tr>
+        <tr>
+            <td>urn:oma:lwm2m:oma:11 </td>
+            <td>
+                <a title="download xml file" href="http://devwww.openmobilealliance.org/tech/profiles/">11</a>
+            </td>
+            <td>
+                <a href="http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2F" title="call the Editor">11</a>
+            </td>
+            <td>
+                <a href="" title="call Vorto">11</a>
+            </td>
+            <td style="width: 136px">
+                <a href="http://devwww.openmobilealliance.org/release/LWM2M_CONNMGMT/V1_0-20151201-C/OMA-TS-LWM2M_ConnMgmt-V1_0-20151201-C.pdf" title="download document">APN connection profile</a>
+            </td>
+            <td>
+                It specifies resources to enable a device to connect to an APN.
+            </td>
+        </tr>
+        <tr>
+            <td>urn:oma:lwm2m:oma:12  </td>
+            <td>
+                <a title="download xml file" href="http://devwww.openmobilealliance.org/tech/profiles/">12</a>
+            </td>
+            <td>
+                <a href="http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2F" title="call the Editor">12</a>
+            </td>
+            <td>
+                <a href="" title="call Vorto">12</a>
+            </td>
+            <td style="width: 136px">
+                <a href="http://devwww.openmobilealliance.org/release/LWM2M_CONNMGMT/V1_0-20151201-C/OMA-TS-LWM2M_ConnMgmt-V1_0-20151201-C.pdf" title="download document">WLAN connectivity</a>
+            </td>
+            <td>
+                It specifies resources to enable a device to connect to a WLAN bearer.
+            </td>
+        </tr>
+        <tr>
+            <td>urn:oma:lwm2m:oma:13  </td>
+            <td>
+                <a title="download xml file" href="http://devwww.openmobilealliance.org/tech/profiles/">13</a>
+            </td>
+            <td>
+                <a href="http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2F" title="call the Editor">13</a>
+            </td>
+            <td>
+                <a href="" title="call Vorto">13</a>
+            </td>
+            <td style="width: 136px">
+                <a href="http://devwww.openmobilealliance.org/release/LWM2M_CONNMGMT/V1_0-20151201-C/OMA-TS-LWM2M_ConnMgmt-V1_0-20151201-C.pdf" title="download document">Bearer selection</a>
+            </td>
+            <td>
+                It specifies resources to enable a device to choose a communications bearer on which to connect.
+            </td>
+        </tr>
+
+        <tr>
+            <td>urn:oma:lwm2m:oma:14  </td>
+            <td>
+                <a title="download xml file" href="http://devwww.openmobilealliance.org/tech/profiles/">14</a>
+            </td>
+            <td>
+                <a href="http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2F" title="call the Editor">14</a>
+            </td>
+            <td>
+                <a href="" title="call Vorto">14</a>
+            </td>
+            <td style="width: 136px">
+                <a href="http://devwww.openmobilealliance.org/release/LWM2M_SWMGMT/V1_0-20151201-C/OMA-TS-LWM2M_SwMgmt-V1_0-20151201-C.pdf" title="download document">Software Component</a>
+            </td>
+            <td>
+                The LWM2M software management object enables remote software management in M2M devices
+            </td>
+        </tr>
+        <tr>
+            <td>urn:oma:lwm2m:oma:15 </td>
+            <td>
+                <a title="download xml file" href="http://devwww.openmobilealliance.org/tech/profiles/">15</a>
+            </td>
+            <td>
+                <a href="http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2F" title="call the Editor">15</a>
+            </td>
+            <td>
+                <a href="" title="call Vorto">15</a>
+            </td>
+            <td style="width: 136px">
+                <a href="http://devwww.openmobilealliance.org/release/LWM2M_DevCapMgmt/V1_0_1-20151123-A/OMA-TS-LWM2M_DevCapMgmt-V1_0_1-20151123-A.pdf" title="download document">DevCapMgmt</a>
+            </td>
+            <td>
+                It manages the device capabilities of a device e.g. sensors, communication, etc
+            </td>
+        </tr>
+        <tr>
+            <td>urn:oma:lwm2m:oma:16 </td>
+            <td>
+                <a title="download xml file" href="http://devwww.openmobilealliance.org/tech/profiles/">16</a>
+            </td>
+            <td>
+                <a href="http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2F" title="call the Editor">16</a>
+            </td>
+            <td>
+                <a href="" title="call Vorto">16</a>
+            </td>
+            <td style="width: 136px">
+                <a title="download document" href="">Portfolio</a>
+            </td>
+            <td>
+                Reserved
+            </td>
+        </tr>
+
+    </tbody>
+    <caption>Objects in the above table (oma-label) are only registered by OMA Working Groups via an internal registratin process, called OMNA.</caption>
+</table>
+    </div>
+
+<div>
+    <h3 id="extlabel"> <strong>ext-label</strong> Objects Produced by 3rd party Standards Development Organizations</h3>
+    <p><code>URN: urn:oma:lwm2m:ext:ObjectID | range (2,048 - 10,240)</code></p>
+    <table class="descriptive-table">
+        <thead>
+            <tr>
+                <th>URN / Version</th>
+                <th>ObjectID / xml</th>
+                <th>LwM2M Editor</th>
+                <th>Vorto</th>
+                <th style="width: 136px">Object Name / Specification</th>
+                <th>Owner</th>
+                <th>Description</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td style="height: 35px">urn:oma:lwm2m: ext:2048  </td>
+                <td style="height: 35px">
+                    2048
+                </td>
+                <td style="height: 35px">
+                    <a href="http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2FLWM2M_Security-v1_0.xml" title="call the Editor">0</a>
+                </td>
+                <td style="height: 35px">
+                    <a href="" title="call Vorto">0</a>
+                </td>
+                <td style="width: 136px; height: 35px;">
+                    <a href="http://devwww.openmobilealliance.org/release/LightweightM2M/V1_0-20160407-C/OMA-TS-LightweightM2M-V1_0-20160407-C.pdf" title="download document">
+                        CmdhPolicy
+                    </a>
+                </td>
+                <td style="height: 35px">
+                    <p>OneM2M</p>
+                </td>
+                <td style="height: 35px">
+                    <p>&nbsp;</p>
+                </td>
+
+            </tr>
+
+            <tr>
+                <td>urn:oma:lwm2m: ext:2049 </td>
+                <td>
+                    2049
+                </td>
+                <td>
+                    <a href="http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2FLWM2M_Server-v1_0.xml" title="call the Editor">1</a>
+                </td>
+                <td>
+                    <a href="" title="call Vorto">1</a>
+                </td>
+                <td style="width: 136px">
+                    <a href="http://devwww.openmobilealliance.org/release/LightweightM2M/V1_0-20160407-C/OMA-TS-LightweightM2M-V1_0-20160407-C.pdf" title="download document">ActiveCmdhPolicy</a>
+                </td>
+                <td>
+                    <p>OneM2M</p>
+                </td>
+                <td>
+                    <p>&nbsp;</p>
+                </td>
+
+            </tr>
+
+            <tr>
+                <td style="height: 34px">urn:oma:lwm2m: ext:2050 </td>
+                <td style="height: 34px">
+                    2050
+                </td>
+                <td style="height: 34px">
+                    <a href="http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2FLWM2M_Access_Control-v1_0.xml" title="call the Editor">2</a>
+                </td>
+                <td style="height: 34px">
+                    <a href="" title="call Vorto">2</a>
+                </td>
+                <td style="height: 34px; width: 136px;">
+                    <a href="http://devwww.openmobilealliance.org/release/LightweightM2M/V1_0-20160407-C/OMA-TS-LightweightM2M-V1_0-20160407-C.pdf" title="download document">ACmdhDefaults</a>
+                </td>
+                <td style="height: 34px">
+                    <p>OneM2M</p>
+                <td style="height: 34px">
+                    <p>&nbsp;</p>
+                </td>
+
+                </td>
+            </tr>
+
+            <tr>
+                <td style="height: 34px">urn:oma:lwm2m: ext:2051</td>
+                <td style="height: 34px">
+                    2051
+                </td>
+                <td style="height: 34px">
+                    <a href="http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2FLWM2M_Access_Control-v1_0.xml" title="call the Editor">3</a>
+                </td>
+                <td style="height: 34px">
+                    <a href="" title="call Vorto">3</a>
+                </td>
+                <td style="height: 34px; width: 136px;">
+                    <a href="http://www.onem2m.org/images/files/deliverables/TS-0005-Management_Enablement_(OMA)-V1_0_1.pdf">CmdhDefEcValues</a>
+                </td>
+                <td style="height: 34px">
+                    OneM2M
+                <td style="height: 34px">
+                    &nbsp;
+                </td>
+
+            </tr>
+
+            <tr>
+                <td style="height: 34px">urn:oma:lwm2m: ext:2052</td>
+                <td style="height: 34px">
+                    2052
+                </td>
+                <td style="height: 34px">
+                    <a href="http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2FLWM2M_Access_Control-v1_0.xml" title="call the Editor">4</a>
+                </td>
+                <td style="height: 34px">
+                    <a href="" title="call Vorto">4</a>
+                </td>
+                <td style="height: 34px; width: 136px;">
+                    <a href="http://www.onem2m.org/images/files/deliverables/TS-0005-Management_Enablement_(OMA)-V1_0_1.pdf">cmdhDefEcParamsValues</a>
+                </td>
+                <td style="height: 34px">
+                    OneM2M
+                <td style="height: 34px">
+                    &nbsp;
+                </td>
+
+            </tr>
+
+            <tr>
+                <td style="height: 34px">urn:oma:lwm2m: ext:2053</td>
+                <td style="height: 34px">
+                    2053
+                </td>
+                <td style="height: 34px">
+                    <a href="http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2FLWM2M_Access_Control-v1_0.xml" title="call the Editor">5</a>
+                </td>
+                <td style="height: 34px">
+                    <a href="" title="call Vorto">5</a>
+                </td>
+                <td style="height: 34px; width: 136px;">
+                    <a href="http://www.onem2m.org/images/files/deliverables/TS-0005-Management_Enablement_(OMA)-V1_0_1.pdf">CmdhLimits</a>
+                </td>
+                <td style="height: 34px">
+                    OneM2M
+                <td style="height: 34px">
+                    &nbsp;
+                </td>
+
+            </tr>
+
+            <tr>
+                <td style="height: 34px">urn:oma:lwm2m: ext:2054</td>
+                <td style="height: 34px">
+                    2054
+                </td>
+                <td style="height: 34px">
+                    <a href="http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2FLWM2M_Access_Control-v1_0.xml" title="call the Editor">6</a>
+                </td>
+                <td style="height: 34px">
+                    <a href="" title="call Vorto">6</a>
+                </td>
+                <td style="height: 34px; width: 136px;">
+                    <a href="http://www.onem2m.org/images/files/deliverables/TS-0005-Management_Enablement_(OMA)-V1_0_1.pdf">CmdhNetworkAccessRules</a>
+                </td>
+                <td style="height: 34px">
+                    OneM2M
+                <td style="height: 34px"></td>
+
+            </tr>
+
+            <tr>
+                <td style="height: 34px">urn:oma:lwm2m: ext:2055</td>
+                <td style="height: 34px">
+                    2055
+                </td>
+                <td style="height: 34px">
+                    <a href="http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2FLWM2M_Access_Control-v1_0.xml" title="call the Editor">7</a>
+                </td>
+                <td style="height: 34px">
+                    <a href="" title="call Vorto">7</a>
+                </td>
+                <td style="height: 34px; width: 136px;">
+                    <a href="http://www.onem2m.org/images/files/deliverables/TS-0005-Management_Enablement_(OMA)-V1_0_1.pdf">CmdhNwAccessRule</a>
+                </td>
+                <td style="height: 34px">
+                    OneM2M
+                <td style="height: 34px">
+                    &nbsp;
+                </td>
+
+            </tr>
+
+            <tr>
+                <td style="height: 34px">urn:oma:lwm2m: ext:2056</td>
+                <td style="height: 34px">
+                    2056
+                </td>
+                <td style="height: 34px">
+                    <a href="http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2FLWM2M_Access_Control-v1_0.xml" title="call the Editor">8</a>
+                </td>
+                <td style="height: 34px">
+                    <a href="" title="call Vorto">8</a>
+                </td>
+                <td style="height: 34px; width: 136px;">
+                    <a href="http://www.onem2m.org/images/files/deliverables/TS-0005-Management_Enablement_(OMA)-V1_0_1.pdf">CmdhBuffer</a>
+                </td>
+                <td style="height: 34px">
+                    OneM2M
+                <td style="height: 34px">
+                    &nbsp;
+                </td>
+
+            </tr>
+
+            <tr>
+                <td style="height: 34px">urn:oma:lwm2m: ext:3200</td>
+                <td style="height: 34px">
+                    3200
+                </td>
+                <td style="height: 34px">
+                    <a href="http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2FLWM2M_Access_Control-v1_0.xml" title="call the Editor">9</a>
+                </td>
+                <td style="height: 34px">
+                    <a href="" title="call Vorto">9</a>
+                </td>
+                <td style="height: 34px; width: 136px;">
+                    <a href="http://localhost:57754/OMNA/LwM2M/LwM2MObjects.html">Digital</a>
+                </td>
+                <td style="height: 34px">
+                    IPSO Alliance
+                <td style="height: 34px">
+                    This IPSO object is a generic object that can be used with any kind of digital input interface. Specific objects for a given range of sensors are described later in the document, enabling to identify the type of sensors directly from its Object ID. This object may be used as a generic object if a dedicated one does not exist.
+                </td>
+
+            </tr>
+
+        </tbody>
+
+        <caption>
+            <a title="click here to register a new (ext-label) Object ID" href="https://github.com/OpenMobileAlliance/LwM2M_Register/blob/master/Register_Other_SDO_Objects.md">Register a new Object produced by a 3rd party SDO (Standards Development Organization).</a>
+        </caption>
+    </table>
+</div>
+
+<div>
+    <h3 id="xlabel"><strong>x-label</strong> Objects Produced by vendors or individuals</h3>
+    <p><code>URN: urn:oma:lwm2m:x:ObjectID | range (10,241 - 32,768)</code></p>
+    <table class="descriptive-table">
+        <thead>
+            <tr>
+                <th>URN / Version</th>
+                <th>ObjectID / xml</th>
+                <th style="width: 103px">LwM2M Editor</th>
+                <th>Vorto</th>
+                <th style="width: 136px">Object Name / Specification</th>
+                <th>Company</th>
+                <th>Description</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td style="height: 51px">urn:oma:lwm2m: ext:10241</td>
+                <td style="height: 51px">
+                    10241
+                </td>
+                <td style="height: 51px; width: 103px;">
+                    <a href="http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2FLWM2M_Security-v1_0.xml" title="call the Editor">0</a>
+                </td>
+                <td style="height: 51px">
+                    <a href="" title="call Vorto">0</a>
+                </td>
+                <td style="width: 136px; height: 51px;">
+                    <a href="http://devwww.openmobilealliance.org/release/LightweightM2M/V1_0-20160407-C/OMA-TS-LightweightM2M-V1_0-20160407-C.pdf" title="download document">
+                        HostDeviceInfo
+                    </a>
+                </td>
+                <td style="height: 51px">
+                    <p>AT&T</p>
+                </td>
+                <td style="height: 51px">
+                    <p>This LWM2M Object provides a range of host device related information which can be queried by the LWM2M Server. The host device is any integrated device with an embedded cellular radio module</p>
+                </td>
+
+            </tr>
+
+            <tr>
+                <td>urn:oma:lwm2m: ext:10242</td>
+                <td>
+                    10242
+                </td>
+                <td style="width: 103px">
+                    <a href="http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2FLWM2M_Server-v1_0.xml" title="call the Editor">1</a>
+                </td>
+                <td>
+                    <a href="" title="call Vorto">1</a>
+                </td>
+                <td style="width: 136px">
+                    <a href="http://devwww.openmobilealliance.org/release/LightweightM2M/V1_0-20160407-C/OMA-TS-LightweightM2M-V1_0-20160407-C.pdf" title="download document">ActiveCmdhPolicy</a>
+                </td>
+                <td>
+                    <p>Odins</p>
+                </td>
+                <td>
+                    <p>This Object provides the information to represent a generic 3-Phase Power Meter</p>
+                </td>
+
+            </tr>
+
+            <tr>
+                <td style="height: 42px">urn:oma:lwm2m: ext:10243 </td>
+                <td style="height: 42px">
+                    10243
+                </td>
+                <td style="width: 103px; height: 42px;">
+                    <a href="http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2FLWM2M_Access_Control-v1_0.xml" title="call the Editor">2</a>
+                </td>
+                <td style="height: 42px">
+                    <a href="" title="call Vorto">2</a>
+                </td>
+                <td style="height: 42px; width: 136px;">
+                    <a href="http://devwww.openmobilealliance.org/release/LightweightM2M/V1_0-20160407-C/OMA-TS-LightweightM2M-V1_0-20160407-C.pdf" title="download document">CmdhDefaults</a>
+                </td>
+                <td style="height: 42px">
+                    <p>Odins</p>
+                <td style="height: 42px">
+                    <p>This Object provides the information to represent a generic Single-Phase Power Meter</p>
+                </td>
+
+                </td>
+            </tr>
+
+        </tbody>
+
+        <caption>
+            The registration of individual and proprietary LwM2M Objects is currently under review.
+        </caption>
+    </table>
+</div>
+
+<div>
+    <h2>LwM2M Resources</h2>
+    <h3 id="resources">Reusable Resources</h3>
+    <p><code>range: (2048 - 32,768)</code></p>
+    <table class="descriptive-table">
+        <thead>
+            <tr>
+                <th>ResourceID </th>
+                <th>Resource Name / xml</th>
+                <th>TS</th>
+                <th>Description</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>
+                    <a title="download xml file" href="">4000</a>
+                </td>
+                <td>
+                    <a title="download document" href="">ObjectInstanceHandle</a>
+                </td>
+                <td>
+                    &nbsp;
+                </td>
+                <td>
+                    <p>The object link is used to refer an Instance of a given Object. An Object link value is composed of two concatenated 16-bits unsigned integers following the Network Byte Order convention. The Most Significant Halfword is an ObjectID, the Least Significant Hafword is an ObjectInstance ID.An Object Link referencing no Object Instance will contain the concatenation of 2 MAX-ID values (null link</p>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td>
+                    <a title="download xml file" href="">4001</a>
+                </td>
+                <td>
+                    <a title="download document" href="">ObjectVersion</a>
+                </td>
+                <td>
+                    &nbsp;
+                </td>
+                <td>
+                    <p>LWM2M Object versioning label.</p>
+                </td>
+            </tr>
+            <tr>
+                <td style="height: 40px">
+                    <a title="download xml file" href="">5500</a>
+                </td>
+                <td style="height: 40px">
+                    <a title="download document" href="">Digital Input State</a>
+                </td>
+                <td style="height: 40px">
+                    &nbsp;
+                </td>
+                <td style="height: 40px">
+                    <p>The current state of a digital input.</p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <a title="download xml file" href="">5001</a>
+                </td>
+                <td>
+                    <a title="download document" href="">The cumulative value of active state detected.</a>
+                </td>
+                <td>
+                    &nbsp;
+                </td>
+                <td>
+                    <p>LWM2M Object versioning label.</p>
+                </td>
+            </tr>
+            <tr>
+                <td style="height: 30px">
+                    <a title="download xml file" href="">5002</a>
+                </td>
+                <td style="height: 30px">
+                    <a title="download document" href="">Digital Input Polarity</a>
+                </td>
+                <td style="height: 30px"></td>
+                <td style="height: 30px">
+                    <p>The polarity of a digital input as a Boolean (0 = Normal, 1= Reversed)</p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <a title="download xml file" href="">5003</a>
+                </td>
+                <td>
+                    <a title="download document" href="">Digital Input Debounce Period</a>
+                </td>
+                <td>
+                    &nbsp;
+                </td>
+                <td>
+                    <p>The debounce period in ms.</p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <a title="download xml file" href="">5504</a>
+                </td>
+                <td>
+                    <a title="download document" href="">Digital Input Edge Selection</a>
+                </td>
+                <td>
+                    &nbsp;
+                </td>
+                <td>
+                    <p>The edge selection as an integer (1 = Falling edge, 2 = Rising edge, 3 = Both Rising and Falling edge)</p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <a title="download xml file" href="">5005</a>
+                </td>
+                <td>
+                    <a title="download document" href="">Digital Input Counter Reset</a>
+                </td>
+                <td>
+                    &nbsp;
+                </td>
+                <td>
+                    <p>Reset the Counter value</p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <a title="download xml file" href="">5550</a>
+                </td>
+                <td>
+                    <a title="download document" href="">Digital Output State</a>
+                </td>
+                <td>
+                    &nbsp;
+                </td>
+                <td>
+                    <p>The current state of a digital output.</p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <a title="download xml file" href="">5551</a>
+                </td>
+                <td>
+                    <a title="download document" href="">Digital Output Polarity</a>
+                </td>
+                <td>
+                    &nbsp;
+                </td>
+                <td>
+                    <p>The polarity of a digital input as a Boolean (0 = Normal, 1= Reversed)</p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <a title="download xml file" href="">5600</a>
+                </td>
+                <td>
+                    <a title="download document" href="">Analog Input Current Value</a>
+                </td>
+                <td>
+                    &nbsp;
+                </td>
+                <td>
+                    <p>The current state of the analogue input.</p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <a title="download xml file" href="">5601</a>
+                </td>
+                <td>
+                    <a title="download document" href="">Min Measured Value	</a>
+                </td>
+                <td>
+                    &nbsp;
+                </td>
+                <td>
+                    <p>The minimum value measured by the sensor since it is ON or Reset.</p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <a title="download xml file" href="">5602</a>
+                </td>
+                <td>
+                    <a title="download document" href="">Max Measured Value</a>
+                </td>
+                <td>
+                    &nbsp;
+                </td>
+                <td>
+                    <p>The maximum value measured by the sensor since it is ON or Reset</p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <a title="download xml file" href="">5603</a>
+                </td>
+                <td>
+                    <a title="download document" href="">Min Range Value</a>
+                </td>
+                <td>
+                    &nbsp;
+                </td>
+                <td>
+                    <p>The minimum value that can be measured by the sensor</p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <a title="download xml file" href="">5604</a>
+                </td>
+                <td>
+                    <a title="download document" href="">Max Range Value</a>
+                </td>
+                <td>
+                    &nbsp;
+                </td>
+                <td>
+                    <p>The maximum value that can be measured by the sensor</p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <a title="download xml file" href="">5605</a>
+                </td>
+                <td>
+                    <a title="download document" href="">Reset Min and Max Measured Values</a>
+                </td>
+                <td>
+                    &nbsp;
+                </td>
+                <td>
+                    <p>Reset the Min and Max Measured Values to Current Value</p>
+                </td>
+            </tr>
+            <tr>
+                <td style="height: 44px">
+                    <a title="download xml file" href="">5650</a>
+                </td>
+                <td style="height: 44px">
+                    <a title="download document" href="">Analog Output Current Value</a>
+                </td>
+                <td style="height: 44px">
+                    &nbsp;
+                </td>
+                <td style="height: 44px">
+                    <p>The current state of the analogue output.</p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <a title="download xml file" href="">5650</a>
+                </td>
+                <td>
+                    <a title="download document" href="">Analog Output Current Value</a>
+                </td>
+                <td>
+                    &nbsp;
+                </td>
+                <td>
+                    <p>The current state of the analogue output.</p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <a title="download xml file" href="">5700</a>
+                </td>
+                <td>
+                    <a title="download document" href="">Sensor Value</a>
+                </td>
+                <td>
+                    &nbsp;
+                </td>
+                <td>
+                    <p>If present, the value of the sensor.</p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <a title="download xml file" href="">5701</a>
+                </td>
+                <td>
+                    <a title="download document" href="">	Sensor Units</a>
+                </td>
+                <td>
+                    &nbsp;
+                </td>
+                <td>
+                    <p>If present, the type of sensor defined as the UCUM Unit Definition e.g. “Cel” for Temperature in Celcius.</p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <a title="download xml file" href="">5702</a>
+                </td>
+                <td>
+                    <a title="download document" href="">X Value</a>
+                </td>
+                <td>
+                    &nbsp;
+                </td>
+                <td>
+                    <p>The measured value along the X axis.</p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <a title="download xml file" href="">5703</a>
+                </td>
+                <td>
+                    <a title="download document" href="">Y Value</a>
+                </td>
+                <td>
+                    &nbsp;
+                </td>
+                <td>
+                    <p>The measured value along the Y axis.</p>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td>
+                    <a title="download xml file" href="">5704</a>
+                </td>
+                <td>
+                    <a title="download document" href="">Z Value</a>
+                </td>
+                <td>
+                    &nbsp;
+                </td>
+                <td>
+                    <p>The measured value along the Z axis.</p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <a title="download xml file" href="">5705</a>
+                </td>
+                <td>
+                    <a title="download document" href="">Compass Direction</a>
+                </td>
+                <td>
+                    &nbsp;
+                </td>
+                <td>
+                    <p>The compass direction indicated by the calibrated magnetic field</p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <a title="download xml file" href="">5706</a>
+                </td>
+                <td>
+                    <a title="download document" href="">Colour</a>
+                </td>
+                <td>
+                    &nbsp;
+                </td>
+                <td>
+                    <p>A string representing a value in some color space</p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <a title="download xml file" href="">5750</a>
+                </td>
+                <td>
+                    <a title="download document" href="">Application Type</a>
+                </td>
+                <td>
+                    &nbsp;
+                </td>
+                <td>
+                    <p>The Application type of the device, for example “Motion Closure”.</p>
+                </td>
+            </tr>
+            <tr>
+                <td style="height: 30px">
+                    <a title="download xml file" href="">5751</a>
+                </td>
+                <td style="height: 30px">
+                    <a title="download document" href="">Sensor Type</a>
+                </td>
+                <td style="height: 30px"></td>
+                <td style="height: 30px">
+                    <p>The type of the sensor (for instance PIR type)</p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <a title="download xml file" href="">5800</a>
+                </td>
+                <td>
+                    <a title="download document" href="">Instantaneous active power</a>
+                </td>
+                <td>
+                    &nbsp;
+                </td>
+                <td>
+                    <p>The current active power</p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <a title="download xml file" href="">5801</a>
+                </td>
+                <td>
+                    <a title="download document" href="">Min Measured active power</a>
+                </td>
+                <td>
+                    &nbsp;
+                </td>
+                <td>
+                    <p>The minimum active power measured by the sensor since it is ON.</p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <a title="download xml file" href="">5802</a>
+                </td>
+                <td>
+                    <a title="download document" href="">Max Measured active power</a>
+                </td>
+                <td>
+                    &nbsp;
+                </td>
+                <td>
+                    <p>The maximum active power measured by the sensor since it is ON</p>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td>
+                    <a title="download xml file" href="">5803</a>
+                </td>
+                <td>
+                    <a title="download document" href="">Min Range active power</a>
+                </td>
+                <td>
+                    &nbsp;
+                </td>
+                <td>
+                    <p>The minimum active power that can be measured by the sensor</p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <a title="download xml file" href="">5804</a>
+                </td>
+                <td>
+                    <a title="download document" href="">Max Range active powe</a>
+                </td>
+                <td>
+                    &nbsp;
+                </td>
+                <td>
+                    <p>The maximum active power that can be measured by the sensor</p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <a title="download xml file" href="">5805</a>
+                </td>
+                <td>
+                    <a title="download document" href="">Cumulative active power</a>
+                </td>
+                <td>
+                    &nbsp;
+                </td>
+                <td>
+                    <p>The cumulative active power since the last cumulative energy reset or device start</p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <a title="download xml file" href="">5806</a>
+                </td>
+                <td>
+                    <a title="download document" href="">Active Power Calibration</a>
+                </td>
+                <td>
+                    &nbsp;
+                </td>
+                <td>
+                    <p>Request an active power calibration by writing the value of a calibrated load.</p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <a title="download xml file" href="">5810</a>
+                </td>
+                <td>
+                    <a title="download document" href="">Instantaneous reactive power</a>
+                </td>
+                <td>
+                    &nbsp;
+                </td>
+                <td>
+                    <p>The current reactive power</p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <a title="download xml file" href="">5811</a>
+                </td>
+                <td>
+                    <a title="download document" href="">Min Measured reactive power</a>
+                </td>
+                <td>
+                    &nbsp;
+                </td>
+                <td>
+                    <p>The minimum reactive power measured by the sensor since it is ON</p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <a title="download xml file" href="">5812</a>
+                </td>
+                <td>
+                    <a title="download document" href="">Max Measured reactive power</a>
+                </td>
+                <td>
+                    &nbsp;
+                </td>
+                <td>
+                    <p>The maximum reactive power measured by the sensor since it is ON</p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <a title="download xml file" href="">5813</a>
+                </td>
+                <td>
+                    <a title="download document" href="">Min Range reactive power</a>
+                </td>
+                <td>
+                    &nbsp;
+                </td>
+                <td>
+                    <p>The minimum active power that can be measured by the sensor</p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <a title="download xml file" href="">5814</a>
+                </td>
+                <td>
+                    <a title="download document" href="">Max Range reactive power	</a>
+                </td>
+                <td>
+                    &nbsp;
+                </td>
+                <td>
+                    <p>The maximum reactive power that can be measured by the sensor</p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <a title="download xml file" href="">5815</a>
+                </td>
+                <td>
+                    <a title="download document" href="">Cumulative reactive power</a>
+                </td>
+                <td>
+                    &nbsp;
+                </td>
+                <td>
+                    <p>The cumulative reactive power since the last cumulative energy reset or device start</p>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td>
+                    <a title="download xml file" href="">5816</a>
+                </td>
+                <td>
+                    <a title="download document" href="">Reactive Power Calibration</a>
+                </td>
+                <td>
+                    &nbsp;
+                </td>
+                <td>
+                    <p>Request a reactive power calibration by writing the value of a calibrated load.</p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <a title="download xml file" href="">5820</a>
+                </td>
+                <td>
+                    <a title="download document" href="">Power factor</a>
+                </td>
+                <td>
+                    &nbsp;
+                </td>
+                <td>
+                    <p>If applicable, the power factor of the current consumption.</p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <a title="download xml file" href="">5821</a>
+                </td>
+                <td>
+                    <a title="download document" href="">Current Calibration</a>
+                </td>
+                <td>
+                    &nbsp;
+                </td>
+                <td>
+                    <p>Read or Write the current calibration coefficient</p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <a title="download xml file" href="">5822</a>
+                </td>
+                <td>
+                    <a title="download document" href="">Reset Cumulative energy</a>
+                </td>
+                <td>
+                    &nbsp;
+                </td>
+                <td>
+                    <p>Reset both cumulative active/reactive power</p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <a title="download xml file" href="">5823</a>
+                </td>
+                <td>
+                    <a title="download document" href="">Event Identifier</a>
+                </td>
+                <td>
+                    &nbsp;
+                </td>
+                <td>
+                    <p>The event identifier as a string.</p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <a title="download xml file" href="">5824</a>
+                </td>
+                <td>
+                    <a title="download document" href="">Start Time</a>
+                </td>
+                <td>
+                    &nbsp;
+                </td>
+                <td>
+                    <p>Time when the load control event will start started.</p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <a title="download xml file" href="">5825</a>
+                </td>
+                <td>
+                    <a title="download document" href="">Duration In Min</a>
+                </td>
+                <td>
+                    &nbsp;
+                </td>
+                <td>
+                    <p>The duration of the load control event.</p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <a title="download xml file" href="">5826</a>
+                </td>
+                <td>
+                    <a title="download document" href="">Critical Level</a>
+                </td>
+                <td>
+                    &nbsp;
+                </td>
+                <td>
+                    <p>The criticality of the event. The device receiving the event will react in an appropriate fashion for the device.</p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <a title="download xml file" href="">5827</a>
+                </td>
+                <td>
+                    <a title="download document" href="">Avg Load AdjPct</a>
+                </td>
+                <td>
+                    &nbsp;
+                </td>
+                <td>
+                    <p>Defines the maximum energy usage of the receiving device, as a percentage of the device’s normal maximum energy usage.</p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <a title="download xml file" href="">5828</a>
+                </td>
+                <td>
+                    <a title="download document" href="">Duty Cycle</a>
+                </td>
+                <td>
+                    &nbsp;
+                </td>
+                <td>
+                    <p>Defines the duty cycle for the load control event, i.e, what percentage of time the receiving device is allowed to be on.</p>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td>
+                    <a title="download xml file" href="">5850</a>
+                </td>
+                <td>
+                    <a title="download document" href="">On/Off</a>
+                </td>
+                <td>
+                    &nbsp;
+                </td>
+                <td>
+                    <p>This resource represents an on/off actuator, which can be controlled, the setting of which is a Boolean value (1,0) where 1 is on and 0 is off.</p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <a title="download xml file" href="">5851</a>
+                </td>
+                <td>
+                    <a title="download document" href="">Dimmer</a>
+                </td>
+                <td>
+                    &nbsp;
+                </td>
+                <td>
+                    <p>This resource represents a dimmer setting, which has an Integer value between 0 and 100 as a percentage.</p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <a title="download xml file" href="">5852</a>
+                </td>
+                <td>
+                    <a title="download document" href="">On time</a>
+                </td>
+                <td>
+                    &nbsp;
+                </td>
+                <td>
+                    <p>The time in seconds that the device has been turned on. Writing a value of 0 resets the counter.</p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <a title="download xml file" href="">5853</a>
+                </td>
+                <td>
+                    <a title="download document" href="">Muti-state Output</a>
+                </td>
+                <td>
+                    &nbsp;
+                </td>
+                <td>
+                    <p>A string describing a state for multiple level output such as Pilot Wire</p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <a title="download xml file" href="">5900</a>
+                </td>
+                <td>
+                    <a title="download document" href="">Set Point Value</a>
+                </td>
+                <td>
+                    &nbsp;
+                </td>
+                <td>
+                    <p>The setpoint value.</p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <a title="download xml file" href="">5903</a>
+                </td>
+                <td>
+                    <a title="download document" href="">Duty Cycle</a>
+                </td>
+                <td>
+                    &nbsp;
+                </td>
+                <td>
+                    <p>Defines the duty cycle for the load control event, i.e, what percentage of time the receiving device is allowed to be on.</p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <a title="download xml file" href="">5904</a>
+                </td>
+                <td>
+                    <a title="download document" href="">Clear to Busy delay</a>
+                </td>
+                <td>
+                    &nbsp;
+                </td>
+                <td>
+                    <p>Delay from the clear state to the busy state in ms</p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <a title="download xml file" href="">5905</a>
+                </td>
+                <td>
+                    <a title="download document" href="">Host Device Manufacturer</a>
+                </td>
+                <td>
+                    &nbsp;
+                </td>
+                <td>
+                    <p>Human readable host device manufacturer name</p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <a title="download xml file" href="">5906</a>
+                </td>
+                <td>
+                    <a title="download document" href="">Host Device Model Number</a>
+                </td>
+                <td>
+                    &nbsp;
+                </td>
+                <td>
+                    <p>A host device model identifier (manufacturer specified string)</p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <a title="download xml file" href="">5907</a>
+                </td>
+                <td>
+                    <a title="download document" href="">Host Device Unique ID</a>
+                </td>
+                <td>
+                    &nbsp;
+                </td>
+                <td>
+                    <p>The host device unique ID is assigned by AT&T as the “Device ID” in the onboarding tool and will be stored in</p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <a title="download xml file" href="">5908</a>
+                </td>
+                <td>
+                    <a title="download document" href="">Host Device Software Version</a>
+                </td>
+                <td>
+                    &nbsp;
+                </td>
+                <td>
+                    <p>Current software version of the host device. (manufacturer specified string).</p>
+                </td>
+            </tr>
+        </tbody>
+
+        <caption>
+            <a title="click here to register a new (Reusable) Resource ID" href="https://github.com/OpenMobileAlliance/LwM2M_Register/blob/master/Register_Reusable_Resources.md">Register a new Resource produced by 3rd parties.</a>
+        </caption>
+    </table>
