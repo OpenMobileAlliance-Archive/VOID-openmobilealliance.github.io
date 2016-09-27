@@ -346,7 +346,7 @@
                 <th>LwM2M Editor</th>
                 <th>Vorto</th>
                 <th style="width: 136px">Object Name / Specification</th>
-                <th>Owner</th>
+                <th style="width: 74px">Owner</th>
                 <th>Description</th>
             </tr>
         </thead>
@@ -367,7 +367,7 @@
                         CmdhPolicy
                     </a>
                 </td>
-                <td style="height: 35px">
+                <td style="height: 35px; width: 74px;">
                     <p>OneM2M</p>
                 </td>
                 <td style="height: 35px">
@@ -390,7 +390,7 @@
                 <td style="width: 136px">
                     <a href="http://devwww.openmobilealliance.org/release/LightweightM2M/V1_0-20160407-C/OMA-TS-LightweightM2M-V1_0-20160407-C.pdf" title="download document">ActiveCmdhPolicy</a>
                 </td>
-                <td>
+                <td style="width: 74px">
                     <p>OneM2M</p>
                 </td>
                 <td>
@@ -413,7 +413,7 @@
                 <td style="height: 34px; width: 136px;">
                     <a href="http://devwww.openmobilealliance.org/release/LightweightM2M/V1_0-20160407-C/OMA-TS-LightweightM2M-V1_0-20160407-C.pdf" title="download document">ACmdhDefaults</a>
                 </td>
-                <td style="height: 34px">
+                <td style="height: 34px; width: 74px;">
                     <p>OneM2M</p>
                 <td style="height: 34px">
                     <p>&nbsp;</p>
@@ -436,7 +436,7 @@
                 <td style="height: 34px; width: 136px;">
                     <a href="http://www.onem2m.org/images/files/deliverables/TS-0005-Management_Enablement_(OMA)-V1_0_1.pdf">CmdhDefEcValues</a>
                 </td>
-                <td style="height: 34px">
+                <td style="height: 34px; width: 74px;">
                     OneM2M
                 <td style="height: 34px">
                     &nbsp;
@@ -458,7 +458,7 @@
                 <td style="height: 34px; width: 136px;">
                     <a href="http://www.onem2m.org/images/files/deliverables/TS-0005-Management_Enablement_(OMA)-V1_0_1.pdf">cmdhDefEcParamsValues</a>
                 </td>
-                <td style="height: 34px">
+                <td style="height: 34px; width: 74px;">
                     OneM2M
                 <td style="height: 34px">
                     &nbsp;
@@ -480,7 +480,7 @@
                 <td style="height: 34px; width: 136px;">
                     <a href="http://www.onem2m.org/images/files/deliverables/TS-0005-Management_Enablement_(OMA)-V1_0_1.pdf">CmdhLimits</a>
                 </td>
-                <td style="height: 34px">
+                <td style="height: 34px; width: 74px;">
                     OneM2M
                 <td style="height: 34px">
                     &nbsp;
@@ -502,7 +502,7 @@
                 <td style="height: 34px; width: 136px;">
                     <a href="http://www.onem2m.org/images/files/deliverables/TS-0005-Management_Enablement_(OMA)-V1_0_1.pdf">CmdhNetworkAccessRules</a>
                 </td>
-                <td style="height: 34px">
+                <td style="height: 34px; width: 74px;">
                     OneM2M
                 <td style="height: 34px"></td>
 
@@ -522,7 +522,7 @@
                 <td style="height: 34px; width: 136px;">
                     <a href="http://www.onem2m.org/images/files/deliverables/TS-0005-Management_Enablement_(OMA)-V1_0_1.pdf">CmdhNwAccessRule</a>
                 </td>
-                <td style="height: 34px">
+                <td style="height: 34px; width: 74px;">
                     OneM2M
                 <td style="height: 34px">
                     &nbsp;
@@ -544,7 +544,7 @@
                 <td style="height: 34px; width: 136px;">
                     <a href="http://www.onem2m.org/images/files/deliverables/TS-0005-Management_Enablement_(OMA)-V1_0_1.pdf">CmdhBuffer</a>
                 </td>
-                <td style="height: 34px">
+                <td style="height: 34px; width: 74px;">
                     OneM2M
                 <td style="height: 34px">
                     &nbsp;
@@ -566,7 +566,7 @@
                 <td style="height: 34px; width: 136px;">
                     <a href="http://localhost:57754/OMNA/LwM2M/LwM2MObjects.html">Digital</a>
                 </td>
-                <td style="height: 34px">
+                <td style="height: 34px; width: 74px;">
                     IPSO Alliance
                 <td style="height: 34px">
                     This IPSO object is a generic object that can be used with any kind of digital input interface. Specific objects for a given range of sensors are described later in the document, enabling to identify the type of sensors directly from its Object ID. This object may be used as a generic object if a dedicated one does not exist.
@@ -588,7 +588,7 @@
                 <td style="height: 34px; width: 136px;">
                     <a href="http://localhost:57754/OMNA/LwM2M/LwM2MObjects.html">Digital Output</a>
                 </td>
-                <td style="height: 34px">
+                <td style="height: 34px; width: 74px;">
                     IPSO Alliance
                 <td style="height: 34px">
                     This IPSO object is a generic object that can be used with any kind of digital output interface. Specific object for a given range of sensors is described later in the document, enabling to identify the type of sensors directly from its Object ID. This object may be used as a generic object if a dedicated one does not exist.</td>
@@ -608,7 +608,7 @@
                 <td style="height: 33px; width: 136px;">
                     <a href="http://localhost:57754/OMNA/LwM2M/LwM2MObjects.html">Analogue Input</a>
                 </td>
-                <td style="height: 33px">
+                <td style="height: 33px; width: 74px;">
                     IPSO Alliance
                 <td style="height: 33px">
                     This IPSO object is a generic object that can be used with any kind of analogue input interface. Specific object for a given range of sensors is described later in the document, enabling to identify the type of sensors directly from its Object ID. This object may be used as a generic object if a dedicated one does not exist.</td>
@@ -628,7 +628,7 @@
                 <td style="height: 34px; width: 136px;">
                     <a href="http://localhost:57754/OMNA/LwM2M/LwM2MObjects.html">Analogue Output</a>
                 </td>
-                <td style="height: 34px">
+                <td style="height: 34px; width: 74px;">
                     IPSO Alliance
                 <td style="height: 34px">
                     This IPSO object is a generic object that can be used with any kind of analogue input interface. Specific object for a given range of sensors is described later in the document, enabling to identify the type of sensors directly from its Object ID. This object may be used as a generic object if a dedicated one does not exist.</td>
@@ -648,7 +648,7 @@
                 <td style="height: 34px; width: 136px;">
                     <a href="http://localhost:57754/OMNA/LwM2M/LwM2MObjects.html">Generic Sensor</a>
                 </td>
-                <td style="height: 34px">
+                <td style="height: 34px; width: 74px;">
                     IPSO Alliance
                 <td style="height: 34px">
                     	This IPSO object allow the description of a generic sensor. It is based on the description of a value and a unit according to the UCUM specification. Thus, any type of value defined within this specification can be reporting using this object. Specific object for a given range of sensors is described later in the document, enabling to identify the type of sensors directly from its Object ID. This object may be used as a generic object if a dedicated one does not exist.</td>
@@ -668,7 +668,7 @@
                 <td style="height: 34px; width: 136px;">
                     <a href="http://localhost:57754/OMNA/LwM2M/LwM2MObjects.html">Illuminance Sensor</a>
                 </td>
-                <td style="height: 34px">
+                <td style="height: 34px; width: 74px;">
                     IPSO Alliance
                 <td style="height: 34px">
                     This IPSO object should be used over a luminosity sensor to report a remote luminosity measurement. It also provides resources for minimum/maximum measured values and the minimum/maximum range that can be measured by the luminosity sensor. The unit used here is Lux (ucum:lx).</td>
@@ -688,7 +688,7 @@
                 <td style="height: 34px; width: 136px;">
                     <a href="http://localhost:57754/OMNA/LwM2M/LwM2MObjects.html">Presence Sensor</a>
                 </td>
-                <td style="height: 34px">
+                <td style="height: 34px; width: 74px;">
                     IPSO Alliance
                 <td style="height: 34px">
                     This IPSO object should be used over a presence sensor to report a remote presence detection. It also provides resources to manage a counter, the type of sensor used (e.g the technology of the probe), and configuration for the delay between busy and clear detection state.</td>
@@ -708,7 +708,7 @@
                 <td style="height: 34px; width: 136px;">
                     <a href="http://localhost:57754/OMNA/LwM2M/LwM2MObjects.html">Temperature Sensor</a>
                 </td>
-                <td style="height: 34px">
+                <td style="height: 34px; width: 74px;">
                     IPSO Alliance
                 <td style="height: 34px">
                     This IPSO object should be used over a temperature sensor to report a remote temperature measurement. It also provides resources for minimum/maximum measured values and the minimum/maximum range that can be measured by the temperature sensor. The unit used here is degree Celsius (ucum:Cel).</td>
@@ -728,7 +728,7 @@
                 <td style="height: 34px; width: 136px;">
                     <a href="http://localhost:57754/OMNA/LwM2M/LwM2MObjects.html">Humidity Sensor</a>
                 </td>
-                <td style="height: 34px">
+                <td style="height: 34px; width: 74px;">
                     IPSO Alliance
                 <td style="height: 34px">
                     This IPSO object should be used over a humidity sensor to report a remote humidity measurement. It also provides resources for minimum/maximum measured values and the minimum/maximum range that can be measured by the humidity sensor. The unit used here is relative humidity as a percentage (ucum:%).</td>
@@ -747,7 +747,7 @@
                 <td style="height: 34px; width: 136px;">
                     <a href="http://localhost:57754/OMNA/LwM2M/LwM2MObjects.html">Power Measurement</a>
                 </td>
-                <td style="height: 34px">
+                <td style="height: 34px; width: 74px;">
                     IPSO Alliance
                 <td style="height: 34px">
                     This IPSO object should be used over a power measurement sensor to report a remote power measurement. It also provides resources for minimum/maximum measured values and the minimum/maximum range for both active and reactive power. Il also provides resources for cumulative energy, calibration, and the power factor.</td>
@@ -767,7 +767,7 @@
                 <td style="height: 34px; width: 136px;">
                     <a href="http://localhost:57754/OMNA/LwM2M/LwM2MObjects.html">Actuation</a>
                 </td>
-                <td style="height: 34px">
+                <td style="height: 34px; width: 74px;">
                     IPSO Alliance
                 <td style="height: 34px">
                     This IPSO object is dedicated to remote actuation such as ON/OFF action or dimming. A multistate output can also be described as a string. This is useful to send pilot wire orders for instance. It also provides a resource to reflect the time that the device has been switched on.</td>
@@ -788,7 +788,7 @@
                 <td style="height: 34px; width: 136px;">
                     <a href="http://localhost:57754/OMNA/LwM2M/LwM2MObjects.html">Set Point</a>
                 </td>
-                <td style="height: 34px">
+                <td style="height: 34px; width: 74px;">
                     IPSO Alliance
                 <td style="height: 34px">
                     This IPSO object should be used to set a desired value to a controller, such as a thermostat. This object enables a setpoint to be expressed units defined in the UCUM specification, to match an associated sensor or measurement value. A special resource is added to set the colour of an object.</td>
@@ -809,7 +809,7 @@
                 <td style="height: 34px; width: 136px;">
                     <a href="http://localhost:57754/OMNA/LwM2M/LwM2MObjects.html">Load Control</a>
                 </td>
-                <td style="height: 34px">
+                <td style="height: 34px; width: 74px;">
                     IPSO Alliance
                 <td style="height: 34px">
                     This Object is used for demand-response load control and other load control in automation application (not limited to power).</td>
@@ -817,18 +817,804 @@
             </tr>
 
             <tr>
-                <td style="height: 34px">&nbsp;</td>
+                <td style="height: 34px">uurn:oma:lwm2m: ext:3311</td>
                 <td style="height: 34px; width: 84px;">
-                    &nbsp;</td>
+                    <a href="http://devwww.openmobilealliance.org/tech/profiles/IPSO/3310.xml">
+					3311</a>
+                </td>
                 <td style="height: 34px">
-                    &nbsp;</td>
+                    <a href="http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2FLWM2M_Access_Control-v1_0.xml" title="call the Editor">22</a>
+                </td>
                 <td style="height: 34px">
-                    &nbsp;</td>
+                    <a href="" title="call Vorto">22</a>
+                </td>
                 <td style="height: 34px; width: 136px;">
-                    &nbsp;</td>
+                    <a href="http://localhost:57754/OMNA/LwM2M/LwM2MObjects.html">Light Control</a>
+                </td>
+                <td style="height: 34px; width: 74px;">
+                    IPSO Alliance
                 <td style="height: 34px">
-                    &nbsp;<td style="height: 34px">
-                    &nbsp;</td>
+                    This Object is used to control a light source, such as a LED or other light. It allows a light to be turned on or off and its dimmer setting to be control as a % between 0 and 100.</td>
+
+            </tr>
+			<tr>
+                <td style="height: 34px">uurn:oma:lwm2m: ext:3312</td>
+                <td style="height: 34px; width: 84px;">
+                    <a href="http://devwww.openmobilealliance.org/tech/profiles/IPSO/3310.xml">
+					3312</a>
+                </td>
+                <td style="height: 34px">
+                    <a href="http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2FLWM2M_Access_Control-v1_0.xml" title="call the Editor">23</a>
+                </td>
+                <td style="height: 34px">
+                    <a href="" title="call Vorto">23</a>
+                </td>
+                <td style="height: 34px; width: 136px;">
+                    <a href="http://localhost:57754/OMNA/LwM2M/LwM2MObjects.html">Power Control</a>
+                </td>
+                <td style="height: 34px; width: 74px;">
+                    IPSO Alliance
+                <td style="height: 34px">
+                    This Object is used to control a power source, such as a Smart Plug. It allows a power relay to be turned on or off and its dimmer setting to be control as a % between 0 and 100.</td>
+
+            </tr>
+			<tr>
+                <td style="height: 34px">uurn:oma:lwm2m: ext:3313</td>
+                <td style="height: 34px; width: 84px;">
+                    <a href="http://devwww.openmobilealliance.org/tech/profiles/IPSO/3313.xml">
+					3313</a>
+                </td>
+                <td style="height: 34px">
+                    <a href="http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2FLWM2M_Access_Control-v1_0.xml" title="call the Editor">24</a>
+                </td>
+                <td style="height: 34px">
+                    <a href="" title="call Vorto">24</a>
+                </td>
+                <td style="height: 34px; width: 136px;">
+                    <a href="http://localhost:57754/OMNA/LwM2M/LwM2MObjects.html">Accelerometer</a>
+                </td>
+                <td style="height: 34px; width: 74px;">
+                    IPSO Alliance
+                <td style="height: 34px">
+                    TThis IPSO object can be used to represent a 1-3 axis accelerometer.
+</td>
+
+            </tr>
+			<tr>
+                <td style="height: 34px">uurn:oma:lwm2m: ext:3314</td>
+                <td style="height: 34px; width: 84px;">
+                    <a href="http://devwww.openmobilealliance.org/tech/profiles/IPSO/3314.xml">
+					3310</a>
+                </td>
+                <td style="height: 34px">
+                    <a href="http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2FLWM2M_Access_Control-v1_0.xml" title="call the Editor">25</a>
+                </td>
+                <td style="height: 34px">
+                    <a href="" title="call Vorto">25</a>
+                </td>
+                <td style="height: 34px; width: 136px;">
+                    <a href="http://localhost:57754/OMNA/LwM2M/LwM2MObjects.html">Magnetometer</a>
+                </td>
+                <td style="height: 34px; width: 74px;">
+                    IPSO Alliance
+                <td style="height: 34px">
+                    This IPSO object can be used to represent a 1-3 axis magnetometer with optional compass direction.</td>
+
+            </tr>
+			<tr>
+                <td style="height: 34px">uurn:oma:lwm2m: ext:3315</td>
+                <td style="height: 34px; width: 84px;">
+                    <a href="http://devwww.openmobilealliance.org/tech/profiles/IPSO/3315.xml">
+					3315</a>
+                </td>
+                <td style="height: 34px">
+                    <a href="http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2FLWM2M_Access_Control-v1_0.xml" title="call the Editor">26</a>
+                </td>
+                <td style="height: 34px">
+                    <a href="" title="call Vorto">26</a>
+                </td>
+                <td style="height: 34px; width: 136px;">
+                    <a href="http://localhost:57754/OMNA/LwM2M/LwM2MObjects.html">Barometer</a>
+                </td>
+                <td style="height: 34px; width: 74px;">
+                    IPSO Alliance
+                <td style="height: 34px">
+                    This IPSO object should be used with an air pressure sensor to report a remote barometer measurement. It also provides resources for minimum/maximum measured values and the minimum/maximum range that can be measured by the barometer sensor.</td>
+
+            </tr>
+			<tr>
+                <td style="height: 34px">uurn:oma:lwm2m: ext:3316</td>
+                <td style="height: 34px; width: 84px;">
+                    <a href="http://devwww.openmobilealliance.org/tech/profiles/IPSO/3316.xml">
+					3316</a>
+                </td>
+                <td style="height: 34px">
+                    <a href="http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2FLWM2M_Access_Control-v1_0.xml" title="call the Editor">27</a>
+                </td>
+                <td style="height: 34px">
+                    <a href="" title="call Vorto">27</a>
+                </td>
+                <td style="height: 34px; width: 136px;">
+                    <a href="http://localhost:57754/OMNA/LwM2M/LwM2MObjects.html">Voltage</a>
+                </td>
+                <td style="height: 34px; width: 74px;">
+                    IPSO Alliance
+                <td style="height: 34px">
+                    	This IPSO object should be used with voltmeter sensor to report measured voltage between two points. It also provides resources for minimum and maximum measured values, as well as the minimum and maximum range that can be measured by the sensor. An example measurement unit is volts (ucum: V).</td>
+
+            </tr>
+			<tr>
+                <td style="height: 34px">uurn:oma:lwm2m: ext:3317</td>
+                <td style="height: 34px; width: 84px;">
+                    <a href="http://devwww.openmobilealliance.org/tech/profiles/IPSO/3317.xml">
+					3317</a>
+                </td>
+                <td style="height: 34px">
+                    <a href="http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2FLWM2M_Access_Control-v1_0.xml" title="call the Editor">28</a>
+                </td>
+                <td style="height: 34px">
+                    <a href="" title="call Vorto">28</a>
+                </td>
+                <td style="height: 34px; width: 136px;">
+                    <a href="http://localhost:57754/OMNA/LwM2M/LwM2MObjects.html">Current</a>
+                </td>
+                <td style="height: 34px; width: 74px;">
+                    IPSO Alliance
+                <td style="height: 34px">
+                    This IPSO object should be used with an ammeter to report measured electric current in amperes. It also provides resources for minimum and maximum measured values, as well as the minimum and maximum range that can be measured by the sensor. An example measurement unit is volts (ucum: A).</td>
+
+            </tr>
+			<tr>
+                <td style="height: 34px">uurn:oma:lwm2m: ext:3318</td>
+                <td style="height: 34px; width: 84px;">
+                    <a href="http://devwww.openmobilealliance.org/tech/profiles/IPSO/3318.xml">
+					3318</a>
+                </td>
+                <td style="height: 34px">
+                    <a href="http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2FLWM2M_Access_Control-v1_0.xml" title="call the Editor">29</a>
+                </td>
+                <td style="height: 34px">
+                    <a href="" title="call Vorto">29</a>
+                </td>
+                <td style="height: 34px; width: 136px;">
+                    <a href="http://localhost:57754/OMNA/LwM2M/LwM2MObjects.html">Frequency</a>
+                </td>
+                <td style="height: 34px; width: 74px;">
+                    IPSO Alliance
+                <td style="height: 34px">
+                    This IPSO object should be used to report frequency measurements. It also provides resources for minimum and maximum measured values, as well as the minimum and maximum range that can be measured by the sensor. An example measurement unit is volts (ucum: Hz).</td>
+
+            </tr>
+			<tr>
+                <td style="height: 34px">uurn:oma:lwm2m: ext:3319</td>
+                <td style="height: 34px; width: 84px;">
+                    <a href="http://devwww.openmobilealliance.org/tech/profiles/IPSO/3319.xml">
+					3319</a>
+                </td>
+                <td style="height: 34px">
+                    <a href="http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2FLWM2M_Access_Control-v1_0.xml" title="call the Editor">30</a>
+                </td>
+                <td style="height: 34px">
+                    <a href="" title="call Vorto">30</a>
+                </td>
+                <td style="height: 34px; width: 136px;">
+                    <a href="http://localhost:57754/OMNA/LwM2M/LwM2MObjects.html">Depth</a>
+                </td>
+                <td style="height: 34px; width: 74px;">
+                    IPSO Alliance
+                <td style="height: 34px">
+                    This IPSO object should be used to report depth measurements. It can, for example, be used to describe a generic rain gauge that measures the accumulated rainfall in millimetres (mm) or in fathoms (fth).</td>
+
+            </tr>
+			<tr>
+                <td style="height: 34px">uurn:oma:lwm2m: ext:3320</td>
+                <td style="height: 34px; width: 84px;">
+                    <a href="http://devwww.openmobilealliance.org/tech/profiles/IPSO/3320.xml">
+					3320</a>
+                </td>
+                <td style="height: 34px">
+                    <a href="http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2FLWM2M_Access_Control-v1_0.xml" title="call the Editor">31</a>
+                </td>
+                <td style="height: 34px">
+                    <a href="" title="call Vorto">31</a>
+                </td>
+                <td style="height: 34px; width: 136px;">
+                    <a href="http://localhost:57754/OMNA/LwM2M/LwM2MObjects.html">Percentage</a>
+                </td>
+                <td style="height: 34px; width: 74px;">
+                    IPSO Alliance
+                <td style="height: 34px">
+                    This IPSO object should can be used to report measurements relative to a 0-100% scale. For example it could be used to measure the level of a liquid in a vessel or container in units of %.</td>
+
+            </tr>
+			<tr>
+                <td style="height: 34px">uurn:oma:lwm2m: ext:3321</td>
+                <td style="height: 34px; width: 84px;">
+                    <a href="http://devwww.openmobilealliance.org/tech/profiles/IPSO/3321.xml">
+					3321</a>
+                </td>
+                <td style="height: 34px">
+                    <a href="http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2FLWM2M_Access_Control-v1_0.xml" title="call the Editor">32</a>
+                </td>
+                <td style="height: 34px">
+                    <a href="" title="call Vorto">32</a>
+                </td>
+                <td style="height: 34px; width: 136px;">
+                    <a href="http://localhost:57754/OMNA/LwM2M/LwM2MObjects.html">Altitude</a>
+                </td>
+                <td style="height: 34px; width: 74px;">
+                    IPSO Alliance
+                <td style="height: 34px">
+                    This IPSO object should be used with an altitude sensor to report altitude above sea level in meters. Note that Altitude can be calculated from the measured pressure given the local sea level pressure. It also provides resources for minimum and maximum measured values, as well as the minimum and maximum range that can be measured by the sensor. An example measurement unit is meters (ucum: m).</td>
+
+            </tr>
+			<tr>
+                <td style="height: 34px">uurn:oma:lwm2m: ext:3322</td>
+                <td style="height: 34px; width: 84px;">
+                    <a href="http://devwww.openmobilealliance.org/tech/profiles/IPSO/3322.xml">
+					3322</a>
+                </td>
+                <td style="height: 34px">
+                    <a href="http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2FLWM2M_Access_Control-v1_0.xml" title="call the Editor">33</a>
+                </td>
+                <td style="height: 34px">
+                    <a href="" title="call Vorto">33</a>
+                </td>
+                <td style="height: 34px; width: 136px;">
+                    <a href="http://localhost:57754/OMNA/LwM2M/LwM2MObjects.html">Load</a>
+                </td>
+                <td style="height: 34px; width: 74px;">
+                    IPSO Alliance
+                <td style="height: 34px">
+                    This IPSO object should be used with a load sensor (as in a scale) to report the applied weight or force. It also provides resources for minimum and maximum measured values, as well as the minimum and maximum range that can be measured by the sensor.</td>
+
+            </tr>
+			<tr>
+                <td style="height: 34px">uurn:oma:lwm2m: ext:3323</td>
+                <td style="height: 34px; width: 84px;">
+                    <a href="http://devwww.openmobilealliance.org/tech/profiles/IPSO/3323.xml">
+					3323</a>
+                </td>
+                <td style="height: 34px">
+                    <a href="http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2FLWM2M_Access_Control-v1_0.xml" title="call the Editor">34</a>
+                </td>
+                <td style="height: 34px">
+                    <a href="" title="call Vorto">34</a>
+                </td>
+                <td style="height: 34px; width: 136px;">
+                    <a href="http://localhost:57754/OMNA/LwM2M/LwM2MObjects.html">Pressure</a>
+                </td>
+                <td style="height: 34px; width: 74px;">
+                    IPSO Alliance
+                <td style="height: 34px">
+                    This IPSO object should be used to report pressure measurements. It also provides resources for minimum and maximum measured values, as well as the minimum and maximum range that can be measured by the sensor.</td>
+
+            </tr>
+			<tr>
+                <td style="height: 34px">uurn:oma:lwm2m: ext:3324</td>
+                <td style="height: 34px; width: 84px;">
+                    <a href="http://devwww.openmobilealliance.org/tech/profiles/IPSO/3324.xml">
+					3324</a>
+                </td>
+                <td style="height: 34px">
+                    <a href="http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2FLWM2M_Access_Control-v1_0.xml" title="call the Editor">35</a>
+                </td>
+                <td style="height: 34px">
+                    <a href="" title="call Vorto">35</a>
+                </td>
+                <td style="height: 34px; width: 136px;">
+                    <a href="http://localhost:57754/OMNA/LwM2M/LwM2MObjects.html">Loudness</a>
+                </td>
+                <td style="height: 34px; width: 74px;">
+                    IPSO Alliance
+                <td style="height: 34px">
+                    This IPSO object should be used to report loudness or noise level measurements. It also provides resources for minimum and maximum measured values, as well as the minimum and maximum range that can be measured by the sensor.</td>
+
+            </tr>
+			<tr>
+                <td style="height: 34px">uurn:oma:lwm2m: ext:3325</td>
+                <td style="height: 34px; width: 84px;">
+                    <a href="http://devwww.openmobilealliance.org/tech/profiles/IPSO/3325.xml">
+					3325</a>
+                </td>
+                <td style="height: 34px">
+                    <a href="http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2FLWM2M_Access_Control-v1_0.xml" title="call the Editor">36</a>
+                </td>
+                <td style="height: 34px">
+                    <a href="" title="call Vorto">36</a>
+                </td>
+                <td style="height: 34px; width: 136px;">
+                    <a href="http://localhost:57754/OMNA/LwM2M/LwM2MObjects.html">Concentration</a>
+                </td>
+                <td style="height: 34px; width: 74px;">
+                    IPSO Alliance
+                <td style="height: 34px">
+                    This IPSO object should be used to the particle concentration measurement of a medium. It also provides resources for minimum and maximum measured values, as well as the minimum and maximum range that can be measured by the sensor.</td>
+
+            </tr>
+			<tr>
+                <td style="height: 34px">uurn:oma:lwm2m: ext:3326</td>
+                <td style="height: 34px; width: 84px;">
+                    <a href="http://devwww.openmobilealliance.org/tech/profiles/IPSO/3326.xml">
+					3326</a>
+                </td>
+                <td style="height: 34px">
+                    <a href="http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2FLWM2M_Access_Control-v1_0.xml" title="call the Editor">37</a>
+                </td>
+                <td style="height: 34px">
+                    <a href="" title="call Vorto">37</a>
+                </td>
+                <td style="height: 34px; width: 136px;">
+                    <a href="http://localhost:57754/OMNA/LwM2M/LwM2MObjects.html">Acidity</a>
+                </td>
+                <td style="height: 34px; width: 74px;">
+                    IPSO Alliance
+                <td style="height: 34px">
+                    This IPSO object should be used to report an acidity measurement of a liquid. It also provides resources for minimum and maximum measured values, as well as the minimum and maximum range that can be measured by the sensor.</td>
+
+            </tr>
+			<tr>
+                <td style="height: 34px">uurn:oma:lwm2m: ext:3327</td>
+                <td style="height: 34px; width: 84px;">
+                    <a href="http://devwww.openmobilealliance.org/tech/profiles/IPSO/3327.xml">
+					3327</a>
+                </td>
+                <td style="height: 34px">
+                    <a href="http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2FLWM2M_Access_Control-v1_0.xml" title="call the Editor">38</a>
+                </td>
+                <td style="height: 34px">
+                    <a href="" title="call Vorto">38</a>
+                </td>
+                <td style="height: 34px; width: 136px;">
+                    <a href="http://localhost:57754/OMNA/LwM2M/LwM2MObjects.html">Conductivity</a>
+                </td>
+                <td style="height: 34px; width: 74px;">
+                    IPSO Alliance
+                <td style="height: 34px">
+                    This IPSO object should be used to report a measurement of the electric conductivity of a medium or sample. It also provides resources for minimum and maximum measured values, as well as the minimum and maximum range that can be measured by the sensor.</td>
+
+            </tr>
+
+            <tr>
+                <td style="height: 34px">uurn:oma:lwm2m: ext:3328</td>
+                <td style="height: 34px; width: 84px;">
+                    <a href="http://devwww.openmobilealliance.org/tech/profiles/IPSO/3328.xml">
+					3328</a>
+                </td>
+                <td style="height: 34px">
+                    <a href="http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2FLWM2M_Access_Control-v1_0.xml" title="call the Editor">39</a>
+                </td>
+                <td style="height: 34px">
+                    <a href="" title="call Vorto">39</a>
+                </td>
+                <td style="height: 34px; width: 136px;">
+                    <a href="http://localhost:57754/OMNA/LwM2M/LwM2MObjects.html">Power</a>
+                </td>
+                <td style="height: 34px; width: 74px;">
+                    IPSO Alliance
+                <td style="height: 34px">
+                    This IPSO object should be used to report power measurements. It also provides resources for minimum and maximum measured values, as well as the minimum and maximum range that can be measured by the sensor.</td>
+
+            </tr>
+			<tr>
+                <td style="height: 34px">uurn:oma:lwm2m: ext:3329</td>
+                <td style="height: 34px; width: 84px;">
+                    <a href="http://devwww.openmobilealliance.org/tech/profiles/IPSO/3329.xml">
+					3329</a>
+                </td>
+                <td style="height: 34px">
+                    <a href="http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2FLWM2M_Access_Control-v1_0.xml" title="call the Editor">40</a>
+                </td>
+                <td style="height: 34px">
+                    <a href="" title="call Vorto">40</a>
+                </td>
+                <td style="height: 34px; width: 136px;">
+                    <a href="http://localhost:57754/OMNA/LwM2M/LwM2MObjects.html">Power Factor</a>
+                </td>
+                <td style="height: 34px; width: 74px;">
+                    IPSO Alliance
+                <td style="height: 34px">
+                    This IPSO object should be used to report a measurement or calculation of the power factor of a reactive electrical load.</td>
+
+            </tr>
+			<tr>
+                <td style="height: 34px">uurn:oma:lwm2m: ext:3330</td>
+                <td style="height: 34px; width: 84px;">
+                    <a href="http://devwww.openmobilealliance.org/tech/profiles/IPSO/3330.xml">
+					3330</a>
+                </td>
+                <td style="height: 34px">
+                    <a href="http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2FLWM2M_Access_Control-v1_0.xml" title="call the Editor">41</a>
+                </td>
+                <td style="height: 34px">
+                    <a href="" title="call Vorto">41</a>
+                </td>
+                <td style="height: 34px; width: 136px;">
+                    <a href="http://localhost:57754/OMNA/LwM2M/LwM2MObjects.html">Distance</a>
+                </td>
+                <td style="height: 34px; width: 74px;">
+                    IPSO Alliance
+                <td style="height: 34px">
+                    This IPSO object should be used to report a distance measurement. It also provides resources for minimum and maximum measured values, as well as the minimum and maximum range that can be measured by the sensor.</td>
+
+            </tr>
+			<tr>
+                <td style="height: 34px">uurn:oma:lwm2m: ext:3331</td>
+                <td style="height: 34px; width: 84px;">
+                    <a href="http://devwww.openmobilealliance.org/tech/profiles/IPSO/3331.xml">
+					3331</a>
+                </td>
+                <td style="height: 34px">
+                    <a href="http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2FLWM2M_Access_Control-v1_0.xml" title="call the Editor">42</a>
+                </td>
+                <td style="height: 34px">
+                    <a href="" title="call Vorto">42</a>
+                </td>
+                <td style="height: 34px; width: 136px;">
+                    <a href="http://localhost:57754/OMNA/LwM2M/LwM2MObjects.html">Energy</a>
+                </td>
+                <td style="height: 34px; width: 74px;">
+                    IPSO Alliance
+                <td style="height: 34px">
+                    This IPSO object should be used to report energy consumption (Cumulative Power) of an electrical load.</td>
+
+            </tr>
+			<tr>
+                <td style="height: 34px">uurn:oma:lwm2m: ext:3332</td>
+                <td style="height: 34px; width: 84px;">
+                    <a href="http://devwww.openmobilealliance.org/tech/profiles/IPSO/3332.xml">
+					3332</a>
+                </td>
+                <td style="height: 34px">
+                    <a href="http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2FLWM2M_Access_Control-v1_0.xml" title="call the Editor">43</a>
+                </td>
+                <td style="height: 34px">
+                    <a href="" title="call Vorto">43</a>
+                </td>
+                <td style="height: 34px; width: 136px;">
+                    <a href="http://localhost:57754/OMNA/LwM2M/LwM2MObjects.html">Direction</a>
+                </td>
+                <td style="height: 34px; width: 74px;">
+                    IPSO Alliance
+                <td style="height: 34px">
+                    This IPSO object is used to report the direction indicated by a compass, wind vane, or other directional indicator. The units of measure is plane angle degrees (ucum:deg).</td>
+
+            </tr>
+			<tr>
+                <td style="height: 34px">uurn:oma:lwm2m: ext:3333</td>
+                <td style="height: 34px; width: 84px;">
+                    <a href="http://devwww.openmobilealliance.org/tech/profiles/IPSO/3333.xml">
+					3333</a>
+                </td>
+                <td style="height: 34px">
+                    <a href="http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2FLWM2M_Access_Control-v1_0.xml" title="call the Editor">44</a>
+                </td>
+                <td style="height: 34px">
+                    <a href="" title="call Vorto">44</a>
+                </td>
+                <td style="height: 34px; width: 136px;">
+                    <a href="http://localhost:57754/OMNA/LwM2M/LwM2MObjects.html">Time</a>
+                </td>
+                <td style="height: 34px; width: 74px;">
+                    IPSO Alliance
+                <td style="height: 34px">
+                    This IPSO object is used to report the current time in seconds since January 1, 1970 UTC. There is also a fractional time counter that has a range of less than one second.</td>
+
+            </tr>
+			<tr>
+                <td style="height: 34px">uurn:oma:lwm2m: ext:3334</td>
+                <td style="height: 34px; width: 84px;">
+                    <a href="http://devwww.openmobilealliance.org/tech/profiles/IPSO/3334.xml">
+					3334</a>
+                </td>
+                <td style="height: 34px">
+                    <a href="http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2FLWM2M_Access_Control-v1_0.xml" title="call the Editor">45</a>
+                </td>
+                <td style="height: 34px">
+                    <a href="" title="call Vorto">45</a>
+                </td>
+                <td style="height: 34px; width: 136px;">
+                    <a href="http://localhost:57754/OMNA/LwM2M/LwM2MObjects.html">Gyrometer</a>
+                </td>
+                <td style="height: 34px; width: 74px;">
+                    IPSO Alliance
+                <td style="height: 34px">
+                    This IPSO Object is used to report the current reading of a gyrometer sensor in 3 axes. It provides tracking of the minimum and maximum angular rate in all 3 axes.</td>
+
+            </tr>
+			<tr>
+                <td style="height: 34px">uurn:oma:lwm2m: ext:3335</td>
+                <td style="height: 34px; width: 84px;">
+                    <a href="http://devwww.openmobilealliance.org/tech/profiles/IPSO/3335.xml">
+					3335</a>
+                </td>
+                <td style="height: 34px">
+                    <a href="http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2FLWM2M_Access_Control-v1_0.xml" title="call the Editor">46</a>
+                </td>
+                <td style="height: 34px">
+                    <a href="" title="call Vorto">46</a>
+                </td>
+                <td style="height: 34px; width: 136px;">
+                    <a href="http://localhost:57754/OMNA/LwM2M/LwM2MObjects.html">Color</a>
+                </td>
+                <td style="height: 34px; width: 74px;">
+                    IPSO Alliance
+                <td style="height: 34px">
+                    This IPSO object should be used to report the measured value of a colour sensor in some colour space described by the units resource.</td>
+
+            </tr>
+			<tr>
+                <td style="height: 34px">uurn:oma:lwm2m: ext:3336</td>
+                <td style="height: 34px; width: 84px;">
+                    <a href="http://devwww.openmobilealliance.org/tech/profiles/IPSO/3336.xml">
+					3336</a>
+                </td>
+                <td style="height: 34px">
+                    <a href="http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2FLWM2M_Access_Control-v1_0.xml" title="call the Editor">47</a>
+                </td>
+                <td style="height: 34px">
+                    <a href="" title="call Vorto">47</a>
+                </td>
+                <td style="height: 34px; width: 136px;">
+                    <a href="http://localhost:57754/OMNA/LwM2M/LwM2MObjects.html">GPS Location</a>
+                </td>
+                <td style="height: 34px; width: 74px;">
+                    IPSO Alliance
+                <td style="height: 34px">
+                    This IPSO object represents GPS coordinates. This object is compatible with the LWM2M management object for location, but uses reusable resources.</td>
+
+            </tr>
+			<tr>
+                <td style="height: 34px">uurn:oma:lwm2m: ext:3337</td>
+                <td style="height: 34px; width: 84px;">
+                    <a href="http://devwww.openmobilealliance.org/tech/profiles/IPSO/3337.xml">
+					3337</a>
+                </td>
+                <td style="height: 34px">
+                    <a href="http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2FLWM2M_Access_Control-v1_0.xml" title="call the Editor">48</a>
+                </td>
+                <td style="height: 34px">
+                    <a href="" title="call Vorto">48</a>
+                </td>
+                <td style="height: 34px; width: 136px;">
+                    <a href="http://localhost:57754/OMNA/LwM2M/LwM2MObjects.html">Positioner</a>
+                </td>
+                <td style="height: 34px; width: 74px;">
+                    IPSO Alliance
+                <td style="height: 34px">
+                    This IPSO object should be used with a generic position actuator from 0 to 100%.</td>
+
+            </tr>
+			<tr>
+                <td style="height: 34px">uurn:oma:lwm2m: ext:3338</td>
+                <td style="height: 34px; width: 84px;">
+                    <a href="http://devwww.openmobilealliance.org/tech/profiles/IPSO/3338.xml">
+					3338</a>
+                </td>
+                <td style="height: 34px">
+                    <a href="http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2FLWM2M_Access_Control-v1_0.xml" title="call the Editor">49</a>
+                </td>
+                <td style="height: 34px">
+                    <a href="" title="call Vorto">49</a>
+                </td>
+                <td style="height: 34px; width: 136px;">
+                    <a href="http://localhost:57754/OMNA/LwM2M/LwM2MObjects.html">Buzzer</a>
+                </td>
+                <td style="height: 34px; width: 74px;">
+                    IPSO Alliance
+                <td style="height: 34px">
+                    This IPSO object should be used to actuate an audible alarm such as a buzzer, beeper, or vibration alarm.</td>
+
+            </tr>
+			<tr>
+                <td style="height: 34px">uurn:oma:lwm2m: ext:3339</td>
+                <td style="height: 34px; width: 84px;">
+                    <a href="http://devwww.openmobilealliance.org/tech/profiles/IPSO/3339.xml">
+					3339</a>
+                </td>
+                <td style="height: 34px">
+                    <a href="http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2FLWM2M_Access_Control-v1_0.xml" title="call the Editor">50</a>
+                </td>
+                <td style="height: 34px">
+                    <a href="" title="call Vorto">50</a>
+                </td>
+                <td style="height: 34px; width: 136px;">
+                    <a href="http://localhost:57754/OMNA/LwM2M/LwM2MObjects.html">Audio Clip</a>
+                </td>
+                <td style="height: 34px; width: 74px;">
+                    IPSO Alliance
+                <td style="height: 34px">
+                    This IPSO object should be used for a speaker that plays a pre-recorded audio clip or an audio output that is sent elsewhere.</td>
+
+            </tr>
+			<tr>
+                <td style="height: 34px">uurn:oma:lwm2m: ext:3340</td>
+                <td style="height: 34px; width: 84px;">
+                    <a href="http://devwww.openmobilealliance.org/tech/profiles/IPSO/3340.xml">
+					3340</a>
+                </td>
+                <td style="height: 34px">
+                    <a href="http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2FLWM2M_Access_Control-v1_0.xml" title="call the Editor">51</a>
+                </td>
+                <td style="height: 34px">
+                    <a href="" title="call Vorto">51</a>
+                </td>
+                <td style="height: 34px; width: 136px;">
+                    <a href="http://localhost:57754/OMNA/LwM2M/LwM2MObjects.html">Timer</a>
+                </td>
+                <td style="height: 34px; width: 74px;">
+                    IPSO Alliance
+                <td style="height: 34px">
+                    This IPSO object is used to time events and actions, using patterns common to industrial timers. A POST to the trigger resource or On/Off input state change starts the timing operation, and the timer remaining time shows zero when the operation is complete.</td>
+
+            </tr>
+			<tr>
+                <td style="height: 34px">uurn:oma:lwm2m: ext:3341</td>
+                <td style="height: 34px; width: 84px;">
+                    <a href="http://devwww.openmobilealliance.org/tech/profiles/IPSO/3341.xml">
+					3341</a>
+                </td>
+                <td style="height: 34px">
+                    <a href="http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2FLWM2M_Access_Control-v1_0.xml" title="call the Editor">52</a>
+                </td>
+                <td style="height: 34px">
+                    <a href="" title="call Vorto">52</a>
+                </td>
+                <td style="height: 34px; width: 136px;">
+                    <a href="http://localhost:57754/OMNA/LwM2M/LwM2MObjects.html">Addressable Text Display</a>
+                </td>
+                <td style="height: 34px; width: 74px;">
+                    IPSO Alliance
+                <td style="height: 34px">
+                    This IPSO object is used to send text to a text-only or text mode graphics display.</td>
+
+            </tr>
+			<tr>
+                <td style="height: 34px">uurn:oma:lwm2m: ext:3342</td>
+                <td style="height: 34px; width: 84px;">
+                    <a href="http://devwww.openmobilealliance.org/tech/profiles/IPSO/3342.xml">
+					3342</a>
+                </td>
+                <td style="height: 34px">
+                    <a href="http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2FLWM2M_Access_Control-v1_0.xml" title="call the Editor">53</a>
+                </td>
+                <td style="height: 34px">
+                    <a href="" title="call Vorto">53</a>
+                </td>
+                <td style="height: 34px; width: 136px;">
+                    <a href="http://localhost:57754/OMNA/LwM2M/LwM2MObjects.html">On/Off Switch</a>
+                </td>
+                <td style="height: 34px; width: 74px;">
+                    IPSO Alliance
+                <td style="height: 34px">
+                    This IPSO object should be used with an On/Off switch to report the state of the switch.</td>
+
+            </tr>
+			<tr>
+                <td style="height: 34px">uurn:oma:lwm2m: ext:3343</td>
+                <td style="height: 34px; width: 84px;">
+                    <a href="http://devwww.openmobilealliance.org/tech/profiles/IPSO/3343.xml">
+					3343</a>
+                </td>
+                <td style="height: 34px">
+                    <a href="http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2FLWM2M_Access_Control-v1_0.xml" title="call the Editor">54</a>
+                </td>
+                <td style="height: 34px">
+                    <a href="" title="call Vorto">54</a>
+                </td>
+                <td style="height: 34px; width: 136px;">
+                    <a href="http://localhost:57754/OMNA/LwM2M/LwM2MObjects.html">Lever Control</a>
+                </td>
+                <td style="height: 34px; width: 74px;">
+                    IPSO Alliance
+                <td style="height: 34px">
+                    This IPSO object should be used with a dimmer or level control to report the state of the control.</td>
+
+            </tr>
+			<tr>
+                <td style="height: 34px">uurn:oma:lwm2m: ext:3344</td>
+                <td style="height: 34px; width: 84px;">
+                    <a href="http://devwww.openmobilealliance.org/tech/profiles/IPSO/3344.xml">
+					3344</a>
+                </td>
+                <td style="height: 34px">
+                    <a href="http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2FLWM2M_Access_Control-v1_0.xml" title="call the Editor">55</a>
+                </td>
+                <td style="height: 34px">
+                    <a href="" title="call Vorto">55</a>
+                </td>
+                <td style="height: 34px; width: 136px;">
+                    <a href="http://localhost:57754/OMNA/LwM2M/LwM2MObjects.html">Up/Down Control</a>
+                </td>
+                <td style="height: 34px; width: 74px;">
+                    IPSO Alliance
+                <td style="height: 34px">
+                    This IPSO object is used to report the state of an up/down control element like a pair of push buttons or a rotary encoder</td>
+
+            </tr>
+			<tr>
+                <td style="height: 34px">uurn:oma:lwm2m: ext:3345</td>
+                <td style="height: 34px; width: 84px;">
+                    <a href="http://devwww.openmobilealliance.org/tech/profiles/IPSO/3345.xml">
+					3345</a>
+                </td>
+                <td style="height: 34px">
+                    <a href="http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2FLWM2M_Access_Control-v1_0.xml" title="call the Editor">56</a>
+                </td>
+                <td style="height: 34px">
+                    <a href="" title="call Vorto">56</a>
+                </td>
+                <td style="height: 34px; width: 136px;">
+                    <a href="http://localhost:57754/OMNA/LwM2M/LwM2MObjects.html">Multiple Axis Joystick</a>
+                </td>
+                <td style="height: 34px; width: 74px;">
+                    IPSO Alliance
+                <td style="height: 34px">
+                    This IPSO object can be used to report the position of a shuttle or joystick control. A digital input is provided to report the state of an associated push button.</td>
+
+            </tr>
+			<tr>
+                <td style="height: 34px">uurn:oma:lwm2m: ext:3346</td>
+                <td style="height: 34px; width: 84px;">
+                    <a href="http://devwww.openmobilealliance.org/tech/profiles/IPSO/3346.xml">
+					3346</a>
+                </td>
+                <td style="height: 34px">
+                    <a href="http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2FLWM2M_Access_Control-v1_0.xml" title="call the Editor">57</a>
+                </td>
+                <td style="height: 34px">
+                    <a href="" title="call Vorto">57</a>
+                </td>
+                <td style="height: 34px; width: 136px;">
+                    <a href="http://localhost:57754/OMNA/LwM2M/LwM2MObjects.html">Rate</a>
+                </td>
+                <td style="height: 34px; width: 74px;">
+                    IPSO Alliance
+                <td style="height: 34px">
+                    This object type should be used to report a rate measurement,</td>
+
+            </tr>
+			<tr>
+                <td style="height: 34px">uurn:oma:lwm2m: ext:3347</td>
+                <td style="height: 34px; width: 84px;">
+                    <a href="http://devwww.openmobilealliance.org/tech/profiles/IPSO/3347.xml">
+					3347</a>
+                </td>
+                <td style="height: 34px">
+                    <a href="http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2FLWM2M_Access_Control-v1_0.xml" title="call the Editor">58</a>
+                </td>
+                <td style="height: 34px">
+                    <a href="" title="call Vorto">58</a>
+                </td>
+                <td style="height: 34px; width: 136px;">
+                    <a href="http://localhost:57754/OMNA/LwM2M/LwM2MObjects.html">Push Button</a>
+                </td>
+                <td style="height: 34px; width: 74px;">
+                    IPSO Alliance
+                <td style="height: 34px">
+                    This IPSO object is used to report the state of a momentary action push button control and to count the number of times the control has been operated since the last observation.</td>
+
+            </tr>
+
+            <tr>
+                <td style="height: 34px">uurn:oma:lwm2m: ext:3348</td>
+                <td style="height: 34px; width: 84px;">
+                    <a href="http://devwww.openmobilealliance.org/tech/profiles/IPSO/3348.xml">
+					3348</a>
+                </td>
+                <td style="height: 34px">
+                    <a href="http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2FLWM2M_Access_Control-v1_0.xml" title="call the Editor">59</a>
+                </td>
+                <td style="height: 34px">
+                    <a href="" title="call Vorto">59</a>
+                </td>
+                <td style="height: 34px; width: 136px;">
+                    <a href="http://localhost:57754/OMNA/LwM2M/LwM2MObjects.html">Multistate Selector</a>
+                </td>
+                <td style="height: 34px; width: 74px;">
+                    IPSO Alliance
+                <td style="height: 34px">
+                    This IPSO object is used to represent the state of a multistate selector switch with a number of fixed positions.</td>
 
             </tr>
 
