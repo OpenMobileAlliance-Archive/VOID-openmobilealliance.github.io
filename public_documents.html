@@ -1,23 +1,17 @@
 ﻿<!doctype html>
 <html>
 <head>
-
     <title>Open Mobile Alliance - Public Documents</title>
     <meta charset="utf-8">
     <script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
-
     <!-- Normalize CSS -->
     <link rel="stylesheet" href="CSS/Normalize.css" />
-
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
-
     <!-- Optional theme -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
-
     <link rel="stylesheet" href="CSS/Site.css">
     <link rel="stylesheet" href="CSS/public_documents.css">
-
     <script>
         $(function () {
             $('#header').load("header.html");
@@ -26,11 +20,9 @@
     </script>
 </head>
 
-
 <body>
     <!-- This gets populated with the header.html using Javascript -->
     <div id="header"></div>
-
     <div class="container">
         <div>
             <h1>
@@ -85,7 +77,6 @@
                         </ul>
                     </td>
                 </tr>
-
                 <tr>
                     <td>
                         White Papers
@@ -104,7 +95,6 @@
                         </ul>
                     </td>
                 </tr>
-
                 <tr>
                     <td>
                         Bird of Feathers
@@ -129,7 +119,6 @@
                         </ul>
                     </td>
                 </tr>
-
                 <tr>
                     <td>
                         OMA Dictionary
@@ -142,7 +131,6 @@
                         </ul>
                     </td>
                 </tr>
-
                 <tr>
                     <td>
                         External References
@@ -153,18 +141,30 @@
                                 <a target="_blank" href="http://devwww.openmobilealliance.org/tech/extref/">External References</a> <br />
                             </li>
                             <li>
-                                <p>This link provides access to the latest revision of selected documents referenced from external registries, e.g. IANA. The file name of the documents listed here
-                                   do not contain date or document status.</p>
+                                <p>
+                                    This link provides access to the latest revision of selected documents referenced from external registries, e.g. IANA. The file name of the documents listed here
+                                    do not contain date or document status.
+                                </p>
                             </li>
                         </ul>
                     </td>
                 </tr>
-
             </tbody>
         </table>
     </div>
-    
+
     <!-- This gets populated with the footer.html using Javascript -->
     <div id="footer"></div>
+    <!-- Start of Async HubSpot Analytics Code -->
+    <script type="text/javascript">
+        (function (d, s, i, r) {
+            if (d.getElementById(i)) { return; }
+            var n = d.createElement(s), e = d.getElementsByTagName(s)[0];
+            n.id = i; n.src = '//js.hs-analytics.net/analytics/' + (Math.ceil(new Date() / r) * r) + '/183757.js';
+            e.parentNode.insertBefore(n, e);
+        })(document, "script", "hs-analytics", 300000);
+    </script>
+    <!-- End of Async HubSpot Analytics Code -->
+
 </body>
 </html>
