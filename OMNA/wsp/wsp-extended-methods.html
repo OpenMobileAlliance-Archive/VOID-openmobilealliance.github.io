@@ -1,29 +1,22 @@
 <!doctype html>
 <html>
 <head>
-
     <title>Open Mobile Alliance - OMA WSP Extended Methods</title>
     <meta charset="utf-8">
     <script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
     <script src="/Scripts/LwM2MRegistry.js"></script>
-
     <!-- Font awesome for arrows -->
     <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
-
     <!-- Normalize CSS -->
     <link rel="stylesheet" href="/CSS/Normalize.css" />
-
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
-
     <!-- Optional theme -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
-
     <link rel="stylesheet" href="/CSS/Site.css">
     <link rel="stylesheet" href="/CSS/registries.css">
     <link rel="stylesheet" href="/CSS/grid_oocss.css">
     <link rel="stylesheet" href="/CSS/spacing.css">
-
     <script>
         $(function () {
             $('#header').load("/header.html");
@@ -32,24 +25,25 @@
     </script>
 </head>
 
-
 <body>
     <!-- This gets populated with the header.html using Javascript -->
     <div id="header"></div>
-
     <div class="container">
         <div class="fl size99of100 mid-cont-ttl mbm">OMA WSP Extended Methods</div>
         <div class="fl size100of100">
-            <p>OMNA registers extended method names of the form 'v-CompanyToken-' (reserved)or 'x-CompanyToken-' (experimental) where CompanyToken 
-               is a short abbreviation that identifies an organization (e.g., a stock ticker symbol). The CompanyToken must be at least two characters in length.</p>
+            <p>
+                OMNA registers extended method names of the form 'v-CompanyToken-' (reserved)or 'x-CompanyToken-' (experimental) where CompanyToken
+                is a short abbreviation that identifies an organization (e.g., a stock ticker symbol). The CompanyToken must be at least two characters in length.
+            </p>
             <p>Experimental users do not need to register, but the extended method name must start with 'x-CompanyToken-'.</p>
             <p>The information to be included in a request may be found <a href="/OMNA/registerpage.html#wsp-extended-methods">here</a>.</p>
             <p>See the WAP WSP specification for more information on code page negotiation.</p>
         </div>
-
         <div class="fl size97of100 mtm mid-hd-bg">Well Known Values</div>
-        <div class="fl size97of100 mtm">Well-known methods are specified managed as part of the WSP specification, and include all names that do not begin with 'x-'
-            or 'v-'. There are currently no WSP-specified extended methods defined.  </div>
+        <div class="fl size97of100 mtm">
+            Well-known methods are specified managed as part of the WSP specification, and include all names that do not begin with 'x-'
+            or 'v-'. There are currently no WSP-specified extended methods defined.
+        </div>
         <div class="fl size97of100 mtm mid-hd-bg">Registered Values</div>
         <div class="fl size97of100 mtm">None Registered.</div>
         <div class="fl size97of100 mtm mid-hd-bg">Private or Experimental Values</div>
@@ -57,5 +51,16 @@
     </div>
     <!-- This gets populated with the footer.html using Javascript -->
     <div id="footer"></div>
+    <!-- Start of Async HubSpot Analytics Code -->
+    <script type="text/javascript">
+        (function (d, s, i, r) {
+            if (d.getElementById(i)) { return; }
+            var n = d.createElement(s), e = d.getElementsByTagName(s)[0];
+            n.id = i; n.src = '//js.hs-analytics.net/analytics/' + (Math.ceil(new Date() / r) * r) + '/183757.js';
+            e.parentNode.insertBefore(n, e);
+        })(document, "script", "hs-analytics", 300000);
+    </script>
+    <!-- End of Async HubSpot Analytics Code -->
+
 </body>
 </html>
