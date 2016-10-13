@@ -1,26 +1,19 @@
 <!doctype html>
 <html>
 <head>
-
     <title>Open Mobile Alliance - LwM2M Registry</title>
     <meta charset="utf-8">
     <script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
-
     <!-- Font awesome for arrows -->
     <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
-
     <!-- Normalize CSS -->
     <link rel="stylesheet" href="/CSS/Normalize.css" />
-
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
-
     <!-- Optional theme -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
-
     <link rel="stylesheet" href="/CSS/Site.css">
     <link rel="stylesheet" href="/CSS/tabledregistries.css">
-
     <script src="/Scripts/tabledregistries.js"></script>
     <script>
         $(document).ready(function () {
@@ -30,14 +23,11 @@
         });
     </script>
 
-    
 </head>
-
 
 <body>
     <!-- This gets populated with the header.html using Javascript -->
     <div id="header"></div>
-
     <div class="container">
         <div>
             <h1>
@@ -50,9 +40,9 @@
             <p>OMA has developed an editor for creating LwM2M Objects & Resources.</p>
             <p>
                 <ul>
-                       <li>The LwM2M Editor can be accessed here: <a target="_blank" href="http://devtoolkit.openmobilealliance.org/OEditor/">Editor.</a></li>
-                       <li>The XML schema used by the LwM2M Editor can be found here: <a target="_blank" href="http://technical.openmobilealliance.org/tech/profiles/LWM2M.xsd">Schema.</a></li>
-               </ul>
+                    <li>The LwM2M Editor can be accessed here: <a target="_blank" href="http://devtoolkit.openmobilealliance.org/OEditor/">Editor.</a></li>
+                    <li>The XML schema used by the LwM2M Editor can be found here: <a target="_blank" href="http://technical.openmobilealliance.org/tech/profiles/LWM2M.xsd">Schema.</a></li>
+                </ul>
             </p>
         </div>
         <div>
@@ -87,10 +77,9 @@
                             <a title="click here to view OMA defined Objects" href="#omalabel">View</a>
                         </td>
                         <td>
-                            <a title="these objects are only registered by OMA Working Groups"href="">--</a>
+                            <a title="these objects are only registered by OMA Working Groups" href="">--</a>
                         </td>
                     </tr>
-
                     <tr>
                         <td>
                             <p>reserved</p>
@@ -109,7 +98,6 @@
                             --
                         </td>
                     </tr>
-
                     <tr>
                         <td>
                             <p>ext-label</p>
@@ -130,7 +118,6 @@
                             <a title="click here to register an Object if you are from a Standard Organization" href="https://github.com/OpenMobileAlliance/LwM2M_Register/blob/master/Register_Other_SDO_Objects.md">Register</a>
                         </td>
                     </tr>
-
                     <tr>
                         <td>
                             <p>x-label</p>
@@ -154,7 +141,6 @@
                 </tbody>
             </table>
         </div>
-
         <div>
             <h2>ResourceID Classes</h2>
             <table>
@@ -204,12 +190,20 @@
                 </tbody>
             </table>
         </div>
-
         <div id="LwM2MObjects"></div>
     </div>
-
     <!-- This gets populated with the footer.html using Javascript -->
     <div id="footer"></div>
+    <!-- Start of Async HubSpot Analytics Code -->
+    <script type="text/javascript">
+        (function (d, s, i, r) {
+            if (d.getElementById(i)) { return; }
+            var n = d.createElement(s), e = d.getElementsByTagName(s)[0];
+            n.id = i; n.src = '//js.hs-analytics.net/analytics/' + (Math.ceil(new Date() / r) * r) + '/183757.js';
+            e.parentNode.insertBefore(n, e);
+        })(document, "script", "hs-analytics", 300000);
+    </script>
+    <!-- End of Async HubSpot Analytics Code -->
 
 </body>
 </html>
