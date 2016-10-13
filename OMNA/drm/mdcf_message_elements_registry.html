@@ -1,28 +1,21 @@
 <!doctype html>
 <html>
 <head>
-
     <title>Open Mobile Alliance - MPEG-2 DRM Control Format (MDCF) Message Elements Registry</title>
     <meta charset="utf-8">
     <script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
-
     <!-- Font awesome for arrows -->
     <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
-
     <!-- Normalize CSS -->
     <link rel="stylesheet" href="/CSS/Normalize.css">
-
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
-
     <!-- Optional theme -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
-
     <link rel="stylesheet" href="/CSS/Site.css">
     <link rel="stylesheet" href="/CSS/registries.css">
     <link rel="stylesheet" href="/CSS/grid_oocss.css">
     <link rel="stylesheet" href="/CSS/spacing.css">
-
     <script>
         $(function () {
             $('#header').load("/header.html");
@@ -31,19 +24,18 @@
     </script>
 </head>
 
-
 <body>
     <!-- This gets populated with the header.html using Javascript -->
     <div id="header"></div>
-
     <div class="container">
-
         <div class="fl size100of100 mid-cont-ttl mbm">OMA MPEG-2 DRM Control Format (MDCF) Message Elements Registry</div>
         <div class="fl size100of100  justify mbl">
             <div class="size100of100">
             </div>
-            <p>The MDCF protocol ( <a href="http://devwww.openmobilealliance.org/release/SCE/V1_0-20081209-C/OMA-TS-SCE_MDCF-V1_0-20081209-C.pdf">OMA-TS-SCE_MDCF-V1_0</a> ) 
-            includes several message elements which permit values to be assigned by registration. This OMNA registry supports the following message elements: </p>
+            <p>
+                The MDCF protocol ( <a href="http://devwww.openmobilealliance.org/release/SCE/V1_0-20081209-C/OMA-TS-SCE_MDCF-V1_0-20081209-C.pdf">OMA-TS-SCE_MDCF-V1_0</a> )
+                includes several message elements which permit values to be assigned by registration. This OMNA registry supports the following message elements:
+            </p>
             <div class="size95of100 grp mll mtm clearfix">
                 <ul class="size100of100">
                     <li><a href="#CA">CA_descriptor_message_ID</a></li>
@@ -56,8 +48,8 @@
                 CA_descriptor_message_ID registry <a name="CA"></a>
             </div>
             <div>
-                This registry records assigned values for the CA_descriptor_message_ID field as described in section 5.3.1 of 
-                <a href="http://devwww.openmobilealliance.org/release/SCE/V1_0-20081209-C/OMA-TS-SCE_MDCF-V1_0-20081209-C.pdf">OMA-TS-SCE_MDCF-V1_0</a> identifies a specific message. 
+                This registry records assigned values for the CA_descriptor_message_ID field as described in section 5.3.1 of
+                <a href="http://devwww.openmobilealliance.org/release/SCE/V1_0-20081209-C/OMA-TS-SCE_MDCF-V1_0-20081209-C.pdf">OMA-TS-SCE_MDCF-V1_0</a> identifies a specific message.
             </div>
             <p>The CA_descriptor_message_ID field is eight bits long and the possible values have been segregated as follows: </p>
             <table>
@@ -119,8 +111,10 @@
             <div class="fl size99of100 mtl mid-hd-bg fb mbm">
                 CID_message_ID registry <a name="CID"></a>
             </div>
-            <div>This registry records assigned values for the CID_message_ID field as described in section 5.4.2.1 of 
-            <a href="http://devwww.openmobilealliance.org/release/SCE/V1_0-20081209-C/OMA-TS-SCE_MDCF-V1_0-20081209-C.pdf">OMA-TS-SCE_MDCF-V1_0</a> identifies a specific CID message. </div>
+            <div>
+                This registry records assigned values for the CID_message_ID field as described in section 5.4.2.1 of
+                <a href="http://devwww.openmobilealliance.org/release/SCE/V1_0-20081209-C/OMA-TS-SCE_MDCF-V1_0-20081209-C.pdf">OMA-TS-SCE_MDCF-V1_0</a> identifies a specific CID message.
+            </div>
             <div>The CID_message_ID field is eight bits long and the possible values have been segregated as follows:  </div>
             <table cellspacing="0" cellpadding="0" border="0" align="center" class="mtl">
                 <tbody>
@@ -191,8 +185,9 @@
             <div class="fl size99of100 mtl mid-hd-bg fb mbm">
                 rights_URL_message_ID registry <a name="rights"></a>
             </div>
-            <div>This registry records assigned values for the rights_URL_message_ID field as described in section 5.4.3.1 of 
-                 <a href="http://devwww.openmobilealliance.org/release/SCE/V1_0-20081209-C/OMA-TS-SCE_MDCF-V1_0-20081209-C.pdf">OMA-TS-SCE_MDCF-V1_0</a> identifies a specific message. 
+            <div>
+                This registry records assigned values for the rights_URL_message_ID field as described in section 5.4.3.1 of
+                <a href="http://devwww.openmobilealliance.org/release/SCE/V1_0-20081209-C/OMA-TS-SCE_MDCF-V1_0-20081209-C.pdf">OMA-TS-SCE_MDCF-V1_0</a> identifies a specific message.
             </div>
             <div class="mtl">The rights_URL_message_ID field is eight bits long and the possible values have been segregated as follows:  </div>
             <table cellspacing="0" cellpadding="0" border="0" align="center" class="mtl">
@@ -265,11 +260,20 @@
             <h5>Requesting an assignment for <strong>rights_URL_message_ID</strong>:</h5>
             <p>The information to be included in an assigned value request may be found <a href="/OMNA/registerpage.html#mpeg-drm-control-format">here</a>.</p>
         </div>
-
     </div>
-
 
     <!-- This gets populated with the footer.html using Javascript -->
     <div id="footer"></div>
+    <!-- Start of Async HubSpot Analytics Code -->
+    <script type="text/javascript">
+        (function (d, s, i, r) {
+            if (d.getElementById(i)) { return; }
+            var n = d.createElement(s), e = d.getElementsByTagName(s)[0];
+            n.id = i; n.src = '//js.hs-analytics.net/analytics/' + (Math.ceil(new Date() / r) * r) + '/183757.js';
+            e.parentNode.insertBefore(n, e);
+        })(document, "script", "hs-analytics", 300000);
+    </script>
+    <!-- End of Async HubSpot Analytics Code -->
+
 </body>
 </html>

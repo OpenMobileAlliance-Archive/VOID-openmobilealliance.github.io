@@ -1,28 +1,21 @@
 <!doctype html>
 <html>
 <head>
-
     <title>Open Mobile Alliance - External Functionality Interface (EFI) Namespace</title>
     <meta charset="utf-8">
     <script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
-
     <!-- Font awesome for arrows -->
     <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
-
     <!-- Normalize CSS -->
     <link rel="stylesheet" href="/CSS/Normalize.css">
-
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
-
     <!-- Optional theme -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
-
     <link rel="stylesheet" href="/CSS/Site.css">
     <link rel="stylesheet" href="/CSS/registries.css">
     <link rel="stylesheet" href="/CSS/grid_oocss.css">
     <link rel="stylesheet" href="/CSS/spacing.css">
-
     <script>
         $(function () {
             $('#header').load("/header.html");
@@ -31,15 +24,11 @@
     </script>
 </head>
 
-
 <body>
     <!-- This gets populated with the header.html using Javascript -->
     <div id="header"></div>
-
     <div class="container">
-
         <div class="fl size100of100 mid-cont-ttl mbm">OMA External Functionality Interface (EFI) Namespace</div>
-
         <div class="fl size100of100  justify">
             <div class="size100of100">
                 <p>External Functionality (EF) is a general term for components or entities with embedded applications that execute outside of the OMA Application Environment, and conform to the EF Requirements. The External Functionality can be built-in or connected to a mobile terminal. This connection can be permanent or temporary and realized virtually with software or a real connection.</p>
@@ -48,56 +37,61 @@
                 <p>In order to register a Server, a short descriptive name and link to a description of its use should be provided. The information to be included in a request may be found <a href="/OMNA/registerpage.html#efi-names">here</a>.</p>
                 <p>To claim uniqueness of a specific class namespace, the Server name of this class is registered in this table.</p>
             </div>
-        </div> 
+        </div>
         <div class="fl size99of100 mtl mid-hd-bg">
             Well-Known - Class Namespace defined in OMA SpecificationsNumber Space Sections
         </div>
-
-        <!--Title-1 row starts-->   
+        <!--Title-1 row starts-->
         <div class="fl size100of100">
             <div class="fl size20of100 reg-ttl mrvs">Server Name </div>
             <div class="fl size36of100 reg-ttl mrvs">Description of EF Class</div>
             <div class="fl size40of100 reg-ttl tac">Specification defining Class</div>
-        </div>  
+        </div>
         <!--Title-1 row ends-->
-
         <div class="fl size100of100 reg-brd">
             <div class="fl size20of100 reg-txt-2 mrvs">Test  </div>
             <div class="fl size36of100 desc reg-txt-2 mrvs">    Conformance Test ClassServ </div>
             <div class="fl size40of100 reg-txt-2 desc tac">OMA-WAP-EFITEST-V1_1</div>
         </div>
-
         <div class="fl size100of100 reg-brd">
             <div class="fl size20of100 reg-txt-2 mrvs">ManageApp </div>
             <div class="fl size36of100 desc reg-txt-2 mrvs">Manage Application Class </div>
             <div class="fl size40of100 reg-txt-2 desc tac">OMA-WAP-EFIMAC-V1_1 </div>
         </div>
-         <div class="fl size99of100 mtl mid-hd-bg">
+        <div class="fl size99of100 mtl mid-hd-bg">
             Registered - Vendor Specified Class Namespace
         </div>
-
-        <!--Title-1 row starts-->   
+        <!--Title-1 row starts-->
         <div class="fl size100of100">
             <div class="fl size20of100 reg-ttl mrvs">Server Name </div>
             <div class="fl size36of100 reg-ttl mrvs">Description of EF Class</div>
             <div class="fl size40of100 reg-ttl tac">Specification defining Class  </div>
-        </div>  
+        </div>
         <!--Title-1 row ends-->
-
         <div class="fl size100of100 reg-brd">
             <div class="fl size20of100 reg-txt-2 mrvs">vnd.mycompany.myserver  </div>
             <div class="fl size36of100 desc reg-txt-2 mrvs">special all-purpose class name </div>
             <div class="fl size40of100 reg-txt-2 desc tac">http://host/path/desc.txt </div>
         </div>
-        
+
         <div class="fl size100of100 justify mtl">
             Note that 'vnd' and 'agent' have special meanings and are only used as specific component part in the registered class namespace. Vendor registered classes must start with 'vnd.' and EF Class Agents may only end with '.agent'. No other uses for 'vnd' and 'agent' are permitted.
-        </div> 
-    
-    </div>
+        </div>
 
+    </div>
 
     <!-- This gets populated with the footer.html using Javascript -->
     <div id="footer"></div>
+    <!-- Start of Async HubSpot Analytics Code -->
+    <script type="text/javascript">
+        (function (d, s, i, r) {
+            if (d.getElementById(i)) { return; }
+            var n = d.createElement(s), e = d.getElementsByTagName(s)[0];
+            n.id = i; n.src = '//js.hs-analytics.net/analytics/' + (Math.ceil(new Date() / r) * r) + '/183757.js';
+            e.parentNode.insertBefore(n, e);
+        })(document, "script", "hs-analytics", 300000);
+    </script>
+    <!-- End of Async HubSpot Analytics Code -->
+
 </body>
 </html>

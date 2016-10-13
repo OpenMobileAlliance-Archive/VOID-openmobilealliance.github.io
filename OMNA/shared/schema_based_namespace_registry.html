@@ -1,28 +1,21 @@
 <!doctype html>
 <html>
 <head>
-
     <title>Open Mobile Alliance - Schema-based Namespace Registry</title>
     <meta charset="utf-8">
     <script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
-
     <!-- Font awesome for arrows -->
     <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
-
     <!-- Normalize CSS -->
     <link rel="stylesheet" href="/CSS/Normalize.css">
-
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
-
     <!-- Optional theme -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
-
     <link rel="stylesheet" href="/CSS/Site.css">
     <link rel="stylesheet" href="/CSS/registries.css">
     <link rel="stylesheet" href="/CSS/grid_oocss.css">
     <link rel="stylesheet" href="/CSS/spacing.css">
-
     <script>
         $(function () {
             $('#header').load("/header.html");
@@ -31,27 +24,25 @@
     </script>
 </head>
 
-
 <body>
     <!-- This gets populated with the header.html using Javascript -->
     <div id="header"></div>
-
     <div class="container">
         <div class="fl size100of100 mid-cont-ttl mbm">OMA Schema-based Namespace Registry</div>
         <div class="fl size100of100  justify mbl">
             <div class="size100of100"></div>
             The OMNA namespace registry includes schema-based URNs. These all use the OMAresource tag of oma as presented on the <a href="schema_based_namespace_registry.html">OMNA Namespace Main Page.</a>
-            
+
             The Schema-based namespace is further sub-divided into domains that are nominally associated to enablers.
-            
+
             The allocation of URNs within the xml resource set is bpased upon a naming model that uses domain segregation of the namespace. The model follows the following grammar:
-            
+
             <b>urn:oma:xml:</b>{SchemaDomain}:<i>{SchemaSpecificTag}</i>
-            
+
             For each listed URN there is an associated <a href="http://devwww.openmobilealliance.org/tech/profiles/">OMA Schema</a>. The following table links to the current schema-based URN allocations.
-            
+
         </div>
-        <table id="sbnr-table"  class="table-bordered">
+        <table id="sbnr-table" class="table-bordered">
             <tbody>
                 <tr>
                     <td class="TableTitre1" colspan="4">Schemas-based URN Allocations</td>
@@ -212,8 +203,11 @@
                 </tr>
                 <tr>
                     <td class="TableP1little" style="height: 24px;"><span lang="EN-GB">InteractivityMediaDocument</span></td>
-                    <td class="TableP1big" style="height: 24px;"><span lang="EN-GB">
-                        rn:oma:xml:bcast:si:interactivitymedia:1.1</span></td>
+                    <td class="TableP1big" style="height: 24px;">
+                        <span lang="EN-GB">
+                            rn:oma:xml:bcast:si:interactivitymedia:1.1
+                        </span>
+                    </td>
                     <td class="TableP1little" style="height: 24px;"><a href="http://www.openmobilealliance.org/tech/profiles/bcast_si_interactivitymedia-v1_1.xsd" shape="rect">bcast_si_interactivitymedia-v1_1.xsd</a></td>
                 </tr>
                 <tr>
@@ -571,10 +565,14 @@
                 <tr>
                     <td class="TableP1big" rowspan="3" align="left" valign="middle">mms</td>
                     <td class="TableP1little">mms mtd</td>
-                    <td class="TableP1big">urn:oma:xml:mms:mtd:1.3
-                        -</td>
-                    <td class="TableP1little"><a href="http://www.openmobilealliance.org/tech/profiles/mms_mtd-v1_3.xsd">mms_mtd-v1_3.xsd</a>
-                        <a href="http://www.openmobilealliance.org/tech/profiles/MMS/ccppschema_mms-v1_3" target="_blank" shape="rect">ccppschema_mms-v1_3 </a></td>
+                    <td class="TableP1big">
+                        urn:oma:xml:mms:mtd:1.3
+                        -
+                    </td>
+                    <td class="TableP1little">
+                        <a href="http://www.openmobilealliance.org/tech/profiles/mms_mtd-v1_3.xsd">mms_mtd-v1_3.xsd</a>
+                        <a href="http://www.openmobilealliance.org/tech/profiles/MMS/ccppschema_mms-v1_3" target="_blank" shape="rect">ccppschema_mms-v1_3 </a>
+                    </td>
                 </tr>
                 <tr>
                     <td class="TableP1little">-</td>
@@ -787,7 +785,8 @@
                     <td class="TableP1little" align="left" valign="middle">XML data type definitions for the RESTful Network API for Zonal Presence</td>
                     <td class="TableP1big">urn:oma:xml:rest:netapi:zonalpresence:1</td>
                     <td class="TableP1little">
-                        <a href="http://technical.openmobilealliance.org/tech/profiles/rest_netapi_zonalpresence-v1_0.xsd">rest_netapi_zonalpresence-v1_0.xsd</a></td>
+                        <a href="http://technical.openmobilealliance.org/tech/profiles/rest_netapi_zonalpresence-v1_0.xsd">rest_netapi_zonalpresence-v1_0.xsd</a>
+                    </td>
                 </tr>
                 <tr>
                     <td class="TableP1big" rowspan="12" align="left" valign="middle">ParlayREST 2.0</td>
@@ -1304,8 +1303,18 @@
         </table>
     </div>
 
-
     <!-- This gets populated with the footer.html using Javascript -->
     <div id="footer"></div>
+    <!-- Start of Async HubSpot Analytics Code -->
+    <script type="text/javascript">
+        (function (d, s, i, r) {
+            if (d.getElementById(i)) { return; }
+            var n = d.createElement(s), e = d.getElementsByTagName(s)[0];
+            n.id = i; n.src = '//js.hs-analytics.net/analytics/' + (Math.ceil(new Date() / r) * r) + '/183757.js';
+            e.parentNode.insertBefore(n, e);
+        })(document, "script", "hs-analytics", 300000);
+    </script>
+    <!-- End of Async HubSpot Analytics Code -->
+
 </body>
 </html>

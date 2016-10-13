@@ -1,28 +1,21 @@
 <!doctype html>
 <html>
 <head>
-
     <title>Open Mobile Alliance - DM Alert Types</title>
     <meta charset="utf-8">
     <script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
-
     <!-- Font awesome for arrows -->
     <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
-
     <!-- Normalize CSS -->
     <link rel="stylesheet" href="/CSS/Normalize.css">
-
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
-
     <!-- Optional theme -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
-
     <link rel="stylesheet" href="/CSS/Site.css">
     <link rel="stylesheet" href="/CSS/registries.css">
     <link rel="stylesheet" href="/CSS/grid_oocss.css">
     <link rel="stylesheet" href="/CSS/spacing.css">
-
     <script>
         $(function () {
             $('#header').load("/header.html");
@@ -31,17 +24,16 @@
     </script>
 </head>
 
-
 <body>
     <!-- This gets populated with the header.html using Javascript -->
     <div id="header"></div>
-
     <div class="container">
-
         <div class="fl size100of100 mid-cont-ttl mbm">OMA DM Alert Types</div>
-        <div class="fl size100of100 justify mbl">OMNA maintains a registry of DM Alert Types used by service Enablers derived of OMA Device Management.<br />
+        <div class="fl size100of100 justify mbl">
+            OMNA maintains a registry of DM Alert Types used by service Enablers derived of OMA Device Management.<br />
             The information to be included in a new Alert Type request may be found <a href="/OMNA/registerpage.html#dm-alert-types" target="_blank">here</a>.<br />
-            Alert Type is specified as an element in a Generic Alert, (Alert Code = 1226).</div>
+            Alert Type is specified as an element in a Generic Alert, (Alert Code = 1226).
+        </div>
         <table class="mceItemTable">
             <tbody>
                 <tr>
@@ -227,9 +219,11 @@
                 <tr>
                     <td class="TableP1big"><strong>urn:oma:at:oma-gwmo</strong></td>
                     <td class="TableP1big">BootstrappedDMSList:1.0</td>
-                    <td class="TableP1big">The Bootstrapped DMS List Generic Alert is issued by the End Device to the DM Gateway under the following conditions:<br />
+                    <td class="TableP1big">
+                        The Bootstrapped DMS List Generic Alert is issued by the End Device to the DM Gateway under the following conditions:<br />
                         - the End Device is bootstrapped to a new DM server<br />
-                        - the End Device is unbootstrapped from an existing DM Server</td>
+                        - the End Device is unbootstrapped from an existing DM Server
+                    </td>
                     <td class="TableP1little">DM WG</td>
                     <td class="TableP1little">1.0</td>
                     <td class="TableP1little"><a href="http://devwww.openmobilealliance.org/release/GwMO/V1_0-20130618-A/OMA-TS-GwMO-V1_0-20130618-A.pdf">OMA-TS-GwMO-V1_0</a></td>
@@ -353,8 +347,18 @@
             </tbody>
         </table>
     </div>
-
     <!-- This gets populated with the footer.html using Javascript -->
     <div id="footer"></div>
+    <!-- Start of Async HubSpot Analytics Code -->
+    <script type="text/javascript">
+        (function (d, s, i, r) {
+            if (d.getElementById(i)) { return; }
+            var n = d.createElement(s), e = d.getElementsByTagName(s)[0];
+            n.id = i; n.src = '//js.hs-analytics.net/analytics/' + (Math.ceil(new Date() / r) * r) + '/183757.js';
+            e.parentNode.insertBefore(n, e);
+        })(document, "script", "hs-analytics", 300000);
+    </script>
+    <!-- End of Async HubSpot Analytics Code -->
+
 </body>
 </html>

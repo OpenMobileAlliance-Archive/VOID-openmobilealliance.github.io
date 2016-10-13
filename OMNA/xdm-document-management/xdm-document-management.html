@@ -1,28 +1,21 @@
 <!doctype html>
 <html>
 <head>
-
     <title>Open Mobile Alliance - OMNA URI-List Usage Name Registry</title>
     <meta charset="utf-8">
     <script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
-
     <!-- Font awesome for arrows -->
     <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
-
     <!-- Normalize CSS -->
     <link rel="stylesheet" href="/CSS/Normalize.css">
-
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
-
     <!-- Optional theme -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
-
     <link rel="stylesheet" href="/CSS/Site.css">
     <link rel="stylesheet" href="/CSS/registries.css">
     <link rel="stylesheet" href="/CSS/grid_oocss.css">
     <link rel="stylesheet" href="/CSS/spacing.css">
-
     <script>
         $(function () {
             $('#header').load("/header.html");
@@ -31,77 +24,90 @@
     </script>
 </head>
 
-
 <body>
     <!-- This gets populated with the header.html using Javascript -->
     <div id="header"></div>
-
     <div class="container">
-  <div class="fl size100of100 mid-cont-ttl mbm">OMNA URI-List Usage Name Registry</div>
-  <div class="fl size100of100  justify mbl">
-     <div class="size100of100">
-     </div>
-     <div>OMNA maintains a registry for Usage Names of URI-Lists associated with datasets in the XML Document repository. These values are for known top-level lists and are conveyed in the <i><b> name</b></i> attribute to the top-level<i><b> &lt;list></b></i> element.</div>
-     <p>Section<b> 5.1.8</b> of <b>OMA-TS-XDM_Shared-V1_0</b> specification defines the naming convention for OMA generated names and makes the initial reservations.</p>
-     <p>The URI-List names follow a simple naming model that permits unambiguous usage of the names for the URI-List. </p>
-     <p>The following grammar:</p>
-     <p class="reg-txt-10"><i>{ListLabel} ::= {OMAlabel} | {ExtLabel}</i></p>
-     <p class="reg-txt-10"><i>{OMAlabel} ::= oma_{OMAListItem}
-        </i>
-     </p>
-     <p class="reg-txt-10"><i>{ExtLabel} ::= ext_{EntityRevDomain}_{ExtListItem}</i></p>
-     <p>Where</p>
-     <p class="reg-txt-10"><i>- {OMAListItem} and {ExtListItem}</i> are pure alphabetic strings made up of just lowercase alpha characters</p>
-     <p class="reg-txt-10"><i>- {EntityRevDomain}</i> is a reverse domain string for any entity wishing to produce local lists: </p>
-     <div class="fl size99of100 mtm mid-hd-bg mbl">
-        OMA URI-List Registered Usage Names
-     </div>
-     <p>The following list is of values used for<i><b> name </b></i>attributes of top-level URI-Lists defined by OMA Enablers. For each registered name, a brief description and a specification reference is provided.</p>
-     <table width="100%" cellspacing="0" cellpadding="0" border="0">
-        <tbody>
-           <tr>
-              <td colspan="4" class="TableTitre1">OMA URI-List Usages</td>
-           </tr>
-           <tr>
-              <td width="15%" height="24" class="TableTitre2">Name </td>
-              <td width="62%" height="24" class="TableTitre2">Description </td>
-              <td width="23%" height="24" colspan="2" class="TableTitre2">OMA Reference Specification </td>
-           </tr>
-           <tr>
-              <td width="15%" style="height: 46px;" class="TableP1big">oma_allcontacts </td>
-              <td class="TableP1little">This name SHALL be used by an XDMC that has a need to store all users URIs, that it knows about, in one list independent of how the URIs are used. </td>
-              <td colspan="2" class="TableP1big"><a target="_blank" href="http://devwww.openmobilealliance.org/tech/omna/xdm/OMA-TS-XDM_Shared-V1_0-20060612-A.pdf" shape="rect">OMA-TS-XDM_Shared-V1_0</a> </td>
-           </tr>
-           <tr>
-              <td style="height: 46px;" class="TableP1big">oma_blockedcontacts </td>
-              <td class="TableP1little">This name SHALL be used by a XDMC that has a need to store URIs to users, that it want to block/reject in a number of application usages, in one list. </td>
-              <td colspan="2" class="TableP1big"><a target="_blank" href="http://devwww.openmobilealliance.org/tech/omna/xdm/OMA-TS-XDM_Shared-V1_0-20060612-A.pdf" shape="rect">OMA-TS-XDM_Shared-V1_0</a> </td>
-           </tr>
-           <tr>
-              <td style="height: 46px;" class="TableP1big">oma_buddylist </td>
-              <td class="TableP1little">This name SHALL be used by an XDMC that has a need to store all users URIs, that it wants to use for all types of communication, in one list. </td>
-              <td colspan="2" class="TableP1big"><a target="_blank" href="http://devwww.openmobilealliance.org/tech/omna/xdm/OMA-TS-XDM_Shared-V1_0-20060612-A.pdf" shape="rect">OMA-TS-XDM_Shared-V1_0</a> </td>
-           </tr>
-           <tr>
-              <td style="height: 46px;" class="TableP1big">oma_pocbuddylist </td>
-              <td class="TableP1little">This name SHALL be used by an XDMC that has a need to store users URIs, that it wants to use for PoC communication, in one list. </td>
-              <td class="TableP1big"><a target="_blank" href="http://devwww.openmobilealliance.org/tech/omna/xdm/OMA-TS-XDM_Shared-V1_0-20060612-A.pdf" shape="rect">OMA-TS-XDM_Shared-V1_0</a> </td>
-           </tr>
-        </tbody>
-     </table>
-     <div class="fl size99of100 mtm mid-hd-bg mbl">
-        Externally-defined URI-List Usage Names
-     </div>
-     <p>OMNA does not register externally defined list usage name labels but does put in place a scheme by which such entities should not accidentally invoke the same name value. This scheme uses the reverse domain text as a part of the label. </p>
-     <p>Examples of permitted labels include: </p>
-     <p class="reg-txt-10">ext_org.foo_barlist
-     </p>
-     <p class="reg-txt-10">ext_com.vendor_specialfunctionlist 
-     </p>
-     <p>There is no requirement to inform OMNA of such usage.</p>
-  </div>
+        <div class="fl size100of100 mid-cont-ttl mbm">OMNA URI-List Usage Name Registry</div>
+        <div class="fl size100of100  justify mbl">
+            <div class="size100of100">
+            </div>
+            <div>OMNA maintains a registry for Usage Names of URI-Lists associated with datasets in the XML Document repository. These values are for known top-level lists and are conveyed in the <i><b> name</b></i> attribute to the top-level<i><b> &lt;list></b></i> element.</div>
+            <p>Section<b> 5.1.8</b> of <b>OMA-TS-XDM_Shared-V1_0</b> specification defines the naming convention for OMA generated names and makes the initial reservations.</p>
+            <p>The URI-List names follow a simple naming model that permits unambiguous usage of the names for the URI-List. </p>
+            <p>The following grammar:</p>
+            <p class="reg-txt-10"><i>{ListLabel} ::= {OMAlabel} | {ExtLabel}</i></p>
+            <p class="reg-txt-10">
+                <i>
+                    {OMAlabel} ::= oma_{OMAListItem}
+                </i>
+            </p>
+            <p class="reg-txt-10"><i>{ExtLabel} ::= ext_{EntityRevDomain}_{ExtListItem}</i></p>
+            <p>Where</p>
+            <p class="reg-txt-10"><i>- {OMAListItem} and {ExtListItem}</i> are pure alphabetic strings made up of just lowercase alpha characters</p>
+            <p class="reg-txt-10"><i>- {EntityRevDomain}</i> is a reverse domain string for any entity wishing to produce local lists: </p>
+            <div class="fl size99of100 mtm mid-hd-bg mbl">
+                OMA URI-List Registered Usage Names
+            </div>
+            <p>The following list is of values used for<i><b> name </b></i>attributes of top-level URI-Lists defined by OMA Enablers. For each registered name, a brief description and a specification reference is provided.</p>
+            <table width="100%" cellspacing="0" cellpadding="0" border="0">
+                <tbody>
+                    <tr>
+                        <td colspan="4" class="TableTitre1">OMA URI-List Usages</td>
+                    </tr>
+                    <tr>
+                        <td width="15%" height="24" class="TableTitre2">Name </td>
+                        <td width="62%" height="24" class="TableTitre2">Description </td>
+                        <td width="23%" height="24" colspan="2" class="TableTitre2">OMA Reference Specification </td>
+                    </tr>
+                    <tr>
+                        <td width="15%" style="height: 46px;" class="TableP1big">oma_allcontacts </td>
+                        <td class="TableP1little">This name SHALL be used by an XDMC that has a need to store all users URIs, that it knows about, in one list independent of how the URIs are used. </td>
+                        <td colspan="2" class="TableP1big"><a target="_blank" href="http://devwww.openmobilealliance.org/tech/omna/xdm/OMA-TS-XDM_Shared-V1_0-20060612-A.pdf" shape="rect">OMA-TS-XDM_Shared-V1_0</a> </td>
+                    </tr>
+                    <tr>
+                        <td style="height: 46px;" class="TableP1big">oma_blockedcontacts </td>
+                        <td class="TableP1little">This name SHALL be used by a XDMC that has a need to store URIs to users, that it want to block/reject in a number of application usages, in one list. </td>
+                        <td colspan="2" class="TableP1big"><a target="_blank" href="http://devwww.openmobilealliance.org/tech/omna/xdm/OMA-TS-XDM_Shared-V1_0-20060612-A.pdf" shape="rect">OMA-TS-XDM_Shared-V1_0</a> </td>
+                    </tr>
+                    <tr>
+                        <td style="height: 46px;" class="TableP1big">oma_buddylist </td>
+                        <td class="TableP1little">This name SHALL be used by an XDMC that has a need to store all users URIs, that it wants to use for all types of communication, in one list. </td>
+                        <td colspan="2" class="TableP1big"><a target="_blank" href="http://devwww.openmobilealliance.org/tech/omna/xdm/OMA-TS-XDM_Shared-V1_0-20060612-A.pdf" shape="rect">OMA-TS-XDM_Shared-V1_0</a> </td>
+                    </tr>
+                    <tr>
+                        <td style="height: 46px;" class="TableP1big">oma_pocbuddylist </td>
+                        <td class="TableP1little">This name SHALL be used by an XDMC that has a need to store users URIs, that it wants to use for PoC communication, in one list. </td>
+                        <td class="TableP1big"><a target="_blank" href="http://devwww.openmobilealliance.org/tech/omna/xdm/OMA-TS-XDM_Shared-V1_0-20060612-A.pdf" shape="rect">OMA-TS-XDM_Shared-V1_0</a> </td>
+                    </tr>
+                </tbody>
+            </table>
+            <div class="fl size99of100 mtm mid-hd-bg mbl">
+                Externally-defined URI-List Usage Names
+            </div>
+            <p>OMNA does not register externally defined list usage name labels but does put in place a scheme by which such entities should not accidentally invoke the same name value. This scheme uses the reverse domain text as a part of the label. </p>
+            <p>Examples of permitted labels include: </p>
+            <p class="reg-txt-10">
+                ext_org.foo_barlist
+            </p>
+            <p class="reg-txt-10">
+                ext_com.vendor_specialfunctionlist
+            </p>
+            <p>There is no requirement to inform OMNA of such usage.</p>
+        </div>
     </div>
     <!-- This gets populated with the footer.html using Javascript -->
     <div id="footer"></div>
+    <!-- Start of Async HubSpot Analytics Code -->
+    <script type="text/javascript">
+        (function (d, s, i, r) {
+            if (d.getElementById(i)) { return; }
+            var n = d.createElement(s), e = d.getElementsByTagName(s)[0];
+            n.id = i; n.src = '//js.hs-analytics.net/analytics/' + (Math.ceil(new Date() / r) * r) + '/183757.js';
+            e.parentNode.insertBefore(n, e);
+        })(document, "script", "hs-analytics", 300000);
+    </script>
+    <!-- End of Async HubSpot Analytics Code -->
+
 </body>
 </html>

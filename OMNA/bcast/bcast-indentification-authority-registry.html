@@ -1,28 +1,21 @@
 <!doctype html>
 <html>
 <head>
-
     <title>Open Mobile Alliance -OMNA BCAST Identification Authority Registry</title>
     <meta charset="utf-8">
     <script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
-
     <!-- Font awesome for arrows -->
     <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
-
     <!-- Normalize CSS -->
     <link rel="stylesheet" href="/CSS/Normalize.css">
-
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
-
     <!-- Optional theme -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
-
     <link rel="stylesheet" href="/CSS/Site.css">
     <link rel="stylesheet" href="/CSS/registries.css">
     <link rel="stylesheet" href="/CSS/grid_oocss.css">
     <link rel="stylesheet" href="/CSS/spacing.css">
-
     <script>
         $(function () {
             $('#header').load("/header.html");
@@ -31,55 +24,64 @@
     </script>
 </head>
 
-
 <body>
     <!-- This gets populated with the header.html using Javascript -->
     <div id="header"></div>
-
     <div class="container">
-  
-  <div class="fl size100of100 mid-cont-ttl mbm">OMNA BCAST Identification Authority Registry</div>
-  <div class="fl size100of100  justify mbl">
-     <p>OMNA maintains this registry for Identification Authority associated with BCAST services. </p>
-     <p>
-        The Identification Authority label follow a simple naming model that permits unambiguous usage. Each Identification Authority label is structured as a URN to assure uniqueness. The model follows the following grammar: 
-     </p>
-     <p class="quote">{IdentAuthLabel} ::= urn:oma:bcast:iauth:{IAiD} </p>
-     </br>Where
-     <p class="quote">- {IAiD} is a string that is registered to a BCAST Identification Authority (see table below) </p>
-     </br>Notes:
-     <ul>
-        <li>1.<i> {IAiD}</i> patterns starting with 'x-' are for testing and need not be coordinated with OMNA as they will not be recorded </li>
-        <li>2. <em>{IAiD} </em>patterns starting with 'dns-' are an alternative to registration when the text following the 'dns-' is a legitimate domain name string. As an alternative to registration, such strings need not be requested by OMNA, nor will they be recorded. </li>
-     </ul>
-     <p>For more information, please review Appendix H of <a href="http://devwww.openmobilealliance.org/release/BCAST/V1_0-20090212-A/OMA-TS-BCAST_Service_Guide-V1_0-20090212-A.pdf" class="reg-txtUnderline textHoverBrwn">OMA-TS-BCAST_ServiceGuide-V1_0</a>.</p>
-     <div class="fl size99of100 mtl mid-hd-bg fb mbm">
-        OMA Broadcast Identification Authority Registry
-     </div>
-     <p>The following list of Broadcast Identification Authority names have been registered and recorded by OMNA (request form available 
-     <a href="?p=933" class="reg-txtUnderline textHoverBrwn">here</a>). For each item, a brief description and specification reference is provided. </p>
-     <table style="width: 100%" id="table1">
-        <tbody>
-           <tr>
-              <th colspan="3" class="TableTitre1">OMA Identification Authority Information for Broadcast Services</th>
-           </tr>
-           <tr>
-              <th width="231" class="TableTitre2">Identification Authority Name</th>
-              <th class="TableTitre2">IdentAuthLabel</th>
-              <th class="TableTitre2">Reference Information</th>
-           </tr>
-           <tr>
-              <td width="231" class="TableP1big">-</td>
-              <td class="TableP1little">-</td>
-              <td class="TableP1big">
-                 <p align="center">-</p>
-              </td>
-           </tr>
-        </tbody>
-     </table>
-  </div>
-  </div>
+        <div class="fl size100of100 mid-cont-ttl mbm">OMNA BCAST Identification Authority Registry</div>
+        <div class="fl size100of100  justify mbl">
+            <p>OMNA maintains this registry for Identification Authority associated with BCAST services. </p>
+            <p>
+                The Identification Authority label follow a simple naming model that permits unambiguous usage. Each Identification Authority label is structured as a URN to assure uniqueness. The model follows the following grammar:
+            </p>
+            <p class="quote">{IdentAuthLabel} ::= urn:oma:bcast:iauth:{IAiD} </p>
+            </br>Where
+            <p class="quote">- {IAiD} is a string that is registered to a BCAST Identification Authority (see table below) </p>
+            </br>Notes:
+            <ul>
+                <li>1.<i> {IAiD}</i> patterns starting with 'x-' are for testing and need not be coordinated with OMNA as they will not be recorded </li>
+                <li>2. <em>{IAiD} </em>patterns starting with 'dns-' are an alternative to registration when the text following the 'dns-' is a legitimate domain name string. As an alternative to registration, such strings need not be requested by OMNA, nor will they be recorded. </li>
+            </ul>
+            <p>For more information, please review Appendix H of <a href="http://devwww.openmobilealliance.org/release/BCAST/V1_0-20090212-A/OMA-TS-BCAST_Service_Guide-V1_0-20090212-A.pdf" class="reg-txtUnderline textHoverBrwn">OMA-TS-BCAST_ServiceGuide-V1_0</a>.</p>
+            <div class="fl size99of100 mtl mid-hd-bg fb mbm">
+                OMA Broadcast Identification Authority Registry
+            </div>
+            <p>
+                The following list of Broadcast Identification Authority names have been registered and recorded by OMNA (request form available
+                <a href="?p=933" class="reg-txtUnderline textHoverBrwn">here</a>). For each item, a brief description and specification reference is provided.
+            </p>
+            <table style="width: 100%" id="table1">
+                <tbody>
+                    <tr>
+                        <th colspan="3" class="TableTitre1">OMA Identification Authority Information for Broadcast Services</th>
+                    </tr>
+                    <tr>
+                        <th width="231" class="TableTitre2">Identification Authority Name</th>
+                        <th class="TableTitre2">IdentAuthLabel</th>
+                        <th class="TableTitre2">Reference Information</th>
+                    </tr>
+                    <tr>
+                        <td width="231" class="TableP1big">-</td>
+                        <td class="TableP1little">-</td>
+                        <td class="TableP1big">
+                            <p align="center">-</p>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
     <!-- This gets populated with the footer.html using Javascript -->
     <div id="footer"></div>
+    <!-- Start of Async HubSpot Analytics Code -->
+    <script type="text/javascript">
+        (function (d, s, i, r) {
+            if (d.getElementById(i)) { return; }
+            var n = d.createElement(s), e = d.getElementsByTagName(s)[0];
+            n.id = i; n.src = '//js.hs-analytics.net/analytics/' + (Math.ceil(new Date() / r) * r) + '/183757.js';
+            e.parentNode.insertBefore(n, e);
+        })(document, "script", "hs-analytics", 300000);
+    </script>
+    <!-- End of Async HubSpot Analytics Code -->
 </body>
 </html>
