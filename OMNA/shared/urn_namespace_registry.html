@@ -1,28 +1,21 @@
 <!doctype html>
 <html>
 <head>
-
     <title>Open Mobile Alliance - (URN) / Namespace Registry</title>
     <meta charset="utf-8">
     <script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
-
     <!-- Font awesome for arrows -->
     <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
-
     <!-- Normalize CSS -->
     <link rel="stylesheet" href="/CSS/Normalize.css">
-
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
-
     <!-- Optional theme -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
-
     <link rel="stylesheet" href="/CSS/Site.css">
     <link rel="stylesheet" href="/CSS/registries.css">
     <link rel="stylesheet" href="/CSS/grid_oocss.css">
     <link rel="stylesheet" href="/CSS/spacing.css">
-
     <script>
         $(function () {
             $('#header').load("/header.html");
@@ -31,26 +24,28 @@
     </script>
 </head>
 
-
 <body>
     <!-- This gets populated with the header.html using Javascript -->
     <div id="header"></div>
-
     <div class="container">
-
         <table class="oma_content_panel">
             <tbody>
                 <tr>
                     <td id="content_main_onecol" class="tpl_oma_onecol">
                         <div id="ctl00_Content_StaticZone543_wrapper">
-                            <div id="ctl00_Content_StaticZone543"><span class="OmaTitle1">OMA (URN) / Namespace Registry</span><br /><br /><span class="OmaP1">OMA 
-                            maintains a namespace registry based on URNs in support of the specifications produced by OMA. The OMA registry allocates these URNs based 
-                            upon a <a href="http://www.iana.org/assignments/urn-namespaces" target="_blank" shape="rect">reserved NID ('oma')</a>. See 
-                            <a href="http://www.ietf.org/rfc/rfc4358.txt" target="_blank" shape="rect">RFC 4358</a> for the document which reserved this NID. </span>
+                            <div id="ctl00_Content_StaticZone543">
+                                <span class="OmaTitle1">OMA (URN) / Namespace Registry</span><br /><br /><span class="OmaP1">
+                                    OMA
+                                    maintains a namespace registry based on URNs in support of the specifications produced by OMA. The OMA registry allocates these URNs based
+                                    upon a <a href="http://www.iana.org/assignments/urn-namespaces" target="_blank" shape="rect">reserved NID ('oma')</a>. See
+                                    <a href="http://www.ietf.org/rfc/rfc4358.txt" target="_blank" shape="rect">RFC 4358</a> for the document which reserved this NID.
+                                </span>
                                 <p class="OmaP1">The Namespace Specific String (NSS) of all URNs that use the 'oma' NID will have the following structure:</p>
                                 <div class=" urnText">urn:oma:{OMAresource}{ResourceSpecificString}</div>
-                                <p class="OmaP1">For each OMAresource there is room for further allocations specific to the resource. The following table links to the current 
-                                URN allocations using this mode.<br /><br /></p>
+                                <p class="OmaP1">
+                                    For each OMAresource there is room for further allocations specific to the resource. The following table links to the current
+                                    URN allocations using this mode.<br /><br />
+                                </p>
                                 <table>
                                     <tbody>
                                         <tr>
@@ -98,11 +93,20 @@
                 </tr>
             </tbody>
         </table>
-
     </div>
-
 
     <!-- This gets populated with the footer.html using Javascript -->
     <div id="footer"></div>
+    <!-- Start of Async HubSpot Analytics Code -->
+    <script type="text/javascript">
+        (function (d, s, i, r) {
+            if (d.getElementById(i)) { return; }
+            var n = d.createElement(s), e = d.getElementsByTagName(s)[0];
+            n.id = i; n.src = '//js.hs-analytics.net/analytics/' + (Math.ceil(new Date() / r) * r) + '/183757.js';
+            e.parentNode.insertBefore(n, e);
+        })(document, "script", "hs-analytics", 300000);
+    </script>
+    <!-- End of Async HubSpot Analytics Code -->
+
 </body>
 </html>

@@ -1,28 +1,21 @@
 <!doctype html>
 <html>
 <head>
-
     <title>Open Mobile Alliance - Digital Rights Management System (DRMS) Registry</title>
     <meta charset="utf-8">
     <script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
-
     <!-- Font awesome for arrows -->
     <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
-
     <!-- Normalize CSS -->
     <link rel="stylesheet" href="/CSS/Normalize.css">
-
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
-
     <!-- Optional theme -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
-
     <link rel="stylesheet" href="/CSS/Site.css">
     <link rel="stylesheet" href="/CSS/registries.css">
     <link rel="stylesheet" href="/CSS/grid_oocss.css">
     <link rel="stylesheet" href="/CSS/spacing.css">
-
     <script>
         $(function () {
             $('#header').load("/header.html");
@@ -31,17 +24,16 @@
     </script>
 </head>
 
-
 <body>
     <!-- This gets populated with the header.html using Javascript -->
     <div id="header"></div>
-
     <div class="container">
-
         <div class="fl size100of100 mid-cont-ttl mbm">OMA Digital Rights Management System (DRMS) Registry</div>
         <div class="fl size100of100 justify mbl">
-            <p>OMNA maintains a registry of Digital Rights Management System (DRMS) URNs needed to fulfill the labelling requirements for system names. 
-            The System name element is described in the DRM Rights Expression Language (REL) specification (OMA-TS-DRM-REL-V2_1).</p>
+            <p>
+                OMNA maintains a registry of Digital Rights Management System (DRMS) URNs needed to fulfill the labelling requirements for system names.
+                The System name element is described in the DRM Rights Expression Language (REL) specification (OMA-TS-DRM-REL-V2_1).
+            </p>
             <div class="fl size99of100 mid-hd-bg fb mbm">DRMS Naming Model</div>
             <div class="size95of100 grp mll mtm clearfix">
                 <p>The DRMS Identifier registry namespace is divided into three:</p>
@@ -80,8 +72,10 @@
             <div class="fl size99of100 mtl mid-hd-bg fb mbm"><a name="defined"></a>OMA-Defined DRMS System Registry</div>
             <p>Registration requests to this list must be approved by the DRM Working Group. The format of the OMA-defined registrations has the form:</p>
             <p class="quote"><strong>urn:oma:drms:oma-</strong><em>&lt;Type&gt;:&lt;SystemName&gt;</em></p>
-            <p class="quote">where: &lt;Type&gt; characterizes the DRMS system form 
-                <br /> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;SystemName&gt; declares a specific system instance</p>
+            <p class="quote">
+                where: &lt;Type&gt; characterizes the DRMS system form
+                <br /> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;SystemName&gt; declares a specific system instance
+            </p>
             <p>Each entry provides information related to the group registering the system as well as a description of its usage.</p>
             <table>
                 <tbody>
@@ -131,9 +125,11 @@
                 </tbody>
             </table>
             <div class="fl size99of100 mtl mid-hd-bg fb mbm">External Organization Registry</div>
-            <p>Registrations in this list are of root URNs assigned to external organizations. As roots, they may have subordinate components defined by 
-            the registering entity. OMNA does not track these items and does not make any claims as to appropriate use for the resulting values. Please 
-            examine the links to get information for the usage as defined by the specific organizations.</p>
+            <p>
+                Registrations in this list are of root URNs assigned to external organizations. As roots, they may have subordinate components defined by
+                the registering entity. OMNA does not track these items and does not make any claims as to appropriate use for the resulting values. Please
+                examine the links to get information for the usage as defined by the specific organizations.
+            </p>
             <table>
                 <tbody>
                     <tr>
@@ -156,11 +152,21 @@
             <br />
             <p>Organizations wishing to register a root URN should submit the External Organization Request <a href="/OMNA/registerpage.html#digital-rights-management-system">here</a>.</p>
         </div>
-        
-    </div>
 
+    </div>
 
     <!-- This gets populated with the footer.html using Javascript -->
     <div id="footer"></div>
+    <!-- Start of Async HubSpot Analytics Code -->
+    <script type="text/javascript">
+        (function (d, s, i, r) {
+            if (d.getElementById(i)) { return; }
+            var n = d.createElement(s), e = d.getElementsByTagName(s)[0];
+            n.id = i; n.src = '//js.hs-analytics.net/analytics/' + (Math.ceil(new Date() / r) * r) + '/183757.js';
+            e.parentNode.insertBefore(n, e);
+        })(document, "script", "hs-analytics", 300000);
+    </script>
+    <!-- End of Async HubSpot Analytics Code -->
+
 </body>
 </html>

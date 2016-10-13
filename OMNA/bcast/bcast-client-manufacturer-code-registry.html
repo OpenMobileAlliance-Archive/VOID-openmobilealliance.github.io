@@ -1,29 +1,22 @@
-  <!doctype html>
+<!doctype html>
 <html>
 <head>
-
     <title>Open Mobile Alliance - OMNA BCAST ClientManufacturerCode Registry</title>
     <meta charset="utf-8">
-   <script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
-
+    <script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
 
     <!-- Font awesome for arrows -->
     <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
-
     <!-- Normalize CSS -->
-   <link rel="stylesheet" href="/CSS/Normalize.css">
-
+    <link rel="stylesheet" href="/CSS/Normalize.css">
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
-
     <!-- Optional theme -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
-
     <link rel="stylesheet" href="/CSS/Site.css">
     <link rel="stylesheet" href="/CSS/registries.css">
     <link rel="stylesheet" href="/CSS/grid_oocss.css">
     <link rel="stylesheet" href="/CSS/spacing.css">
-
     <script>
         $(function () {
             $('#header').load("/header.html");
@@ -32,143 +25,152 @@
     </script>
 </head>
 <body>
-   <!-- This gets populated with the header.html using Javascript -->
-     <div id="header"></div>
-
+    <!-- This gets populated with the header.html using Javascript -->
+    <div id="header"></div>
     <div class="container">
+        <div class="fl size100of100 mid-cont-ttl mbm">OMNA BCAST ClientManufacturerCode Registry</div>
+        <div class="fl size100of100  justify mbl">
+            <div>
+                OMNA maintains a registry for <b class="pBoldl">ClientManufacturerCode </b>values to identify Vendors as established in section 6.11 of
+                <a href="http://devwww.openmobilealliance.org/release/BCAST/V1_0-20090212-A/OMA-TS-BCAST_SvcCntProtection-V1_0-20090212-A.pdf" class="reg-txtUnderline textHoverBrwn">OMA-TS-BCAST_SvcCntProtection-V1_0</a>. These values are used to fill in the
+                <b class="pBoldl">BCAST_Client_ID</b> identifier.
+            </div>
+            </br>
+            <p>
+                The<b class="pBoldl"> ClientManufacturerCode</b> values are 2 bytes long and are segregated as follows:
+            </p>
+            <table width="415" align="center" id="table2">
+                <tbody>
+                    <tr>
+                        <td class="TableTitre2">Range</td>
+                        <td class="TableTitre2">Purpose</td>
+                    </tr>
+                    <tr>
+                        <td valign="middle" align="left" class="TableP1big">0x0000-0x00FF</td>
+                        <td class="TableP1little">reserved</td>
+                    </tr>
+                    <tr>
+                        <td valign="middle" align="left" class="TableP1big">0x0100-0x1BFF</td>
+                        <td class="TableP1little">normal allocation range</td>
+                    </tr>
+                    <tr>
+                        <td valign="middle" align="left" class="TableP1big">0x1C00-0xFEFF</td>
+                        <td class="TableP1little">reserved</td>
+                    </tr>
+                    <tr>
+                        <td valign="middle" align="left" class="TableP1big">0xFF00-0xFFFF</td>
+                        <td class="TableP1little">reserved for testing</td>
+                    </tr>
+                </tbody>
+            </table>
+            </br>
+            <p>For the normal range, the first byte of the code maps to the first letter of the Manufacturer name (e.g. A=1, B=2,...) where the second byte is assigned sequentially - based on order of request (request form available <a href="https://openmobilealliance.github.io/OMNA/registerpage.html#bcast-identification-authority" class="reg-txtUnderline textHoverBrwn">here</a>).</p>
+            <table cellspacing="3" cellpadding="3" border="0" align="center" id="table3">
+                <tbody>
+                    <tr>
+                        <td colspan="2" class="TableP1big"><a href="#codeA">A</a>&nbsp;&nbsp; <a href="#codeB">B</a>&nbsp;&nbsp; <a href="#codeC">C</a>&nbsp;&nbsp; <a href="#codeD">D</a>&nbsp;&nbsp; <a href="#codeE">E</a>&nbsp;&nbsp; <a href="#codeF">F</a>&nbsp;&nbsp; <a href="#codeG">G</a>&nbsp;&nbsp; <a href="#codeH">H</a>&nbsp;&nbsp; <a href="#codeI">I</a>&nbsp;&nbsp; <a href="#codeJ">J</a>&nbsp;&nbsp; <a href="#codeK">K</a>&nbsp;&nbsp; <a href="#codeL">L</a>&nbsp;&nbsp; <a href="#codeM">M</a>&nbsp;&nbsp; <a href="#codeN">N</a>&nbsp;&nbsp; <a href="#codeO">O</a>&nbsp;&nbsp; <a href="#codeP">P</a>&nbsp;&nbsp; <a href="#codeQ">Q</a>&nbsp;&nbsp; <a href="#codeR">R</a>&nbsp;&nbsp; <a href="#codeS">S</a>&nbsp;&nbsp; <a href="#codeT">T</a>&nbsp;&nbsp; <a href="#codeU">U</a>&nbsp;&nbsp; <a href="#codeV">V</a>&nbsp;&nbsp; <a href="#codeW">W</a>&nbsp;&nbsp; <a href="#codeX">X</a>&nbsp;&nbsp; <a href="#codeY">Y</a>&nbsp;&nbsp; <a href="#codeZ">Z</a>&nbsp;&nbsp; <a href="#codeOth">Others</a> </td>
+                    </tr>
+                    <tr>
+                        <th class="TableTitre2">Manufacturer</th>
+                        <th class="TableTitre2">ClientManufacturerCode value</th>
+                    </tr>
+                    <tr>
+                        <td colspan="2" class="TableP1big"><a name="codeA">A (0x01)</a> </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" class="TableP1little"><a name="codeB">B (0x02)</a> </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" class="TableP1big"><a name="codeC">C (0x03)</a> </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" class="TableP1little"><a name="codeD">D (0x04)</a> </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" class="TableP1big"><a name="codeE">E (0x05)</a></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" class="TableP1little"><a name="codeF">F (0x06)</a></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" class="TableP1big"><a name="codeG">G (0x07)</a></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" class="TableP1little"><a name="codeH">H (0x08)</a></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" class="TableP1big"><a name="codeI">I (0x09)</a> </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" class="TableP1little"><a name="codeJ">J (0x0A)</a> </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" class="TableP1big"><a name="codeK">K (0x0B)</a> </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" class="TableP1little"><a name="codeL">L (0x0C)</a> </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" class="TableP1big"><a name="codeM">M (0x0D)</a> </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" class="TableP1little"><a name="codeN">N (0x0E)</a> </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" class="TableP1big"><a name="codeO">O (0x0F)</a> </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" class="TableP1little"><a name="codeP">P (0x10)</a> </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" class="TableP1big"><a name="codeQ">Q (0x11)</a> </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" class="TableP1little"><a name="codeR">R (0x12)</a> </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" class="TableP1big"><a name="codeS">S (0x13)</a> </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" class="TableP1little"><a name="codeT">T (0x14)</a></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" class="TableP1big"><a name="codeU">U (0x15)</a></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" class="TableP1little"><a name="codeV">V (0x16)</a></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" class="TableP1big"><a name="codeW">W (0x17)</a></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" class="TableP1little"><a name="codeX">X (0x18)</a></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" class="TableP1big"><a name="codeY">Y (0x19)</a></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" class="TableP1little"><a name="codeZ">Z (0x1A)</a></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" class="TableP1big"><a name="codeOth">Others (0x1B)</a></td>
+                    </tr>
 
-  <div class="fl size100of100 mid-cont-ttl mbm">OMNA BCAST ClientManufacturerCode Registry</div>
-  <div class="fl size100of100  justify mbl">  
-     <div>
-         OMNA maintains a registry for <b class="pBoldl">ClientManufacturerCode </b>values to identify Vendors as established in section 6.11 of 
-         <a href="http://devwww.openmobilealliance.org/release/BCAST/V1_0-20090212-A/OMA-TS-BCAST_SvcCntProtection-V1_0-20090212-A.pdf" class="reg-txtUnderline textHoverBrwn">OMA-TS-BCAST_SvcCntProtection-V1_0</a>. These values are used to fill in the  
-         <b class="pBoldl">BCAST_Client_ID</b> identifier.  
-     </div>
-     </br>
-     <p>
-        The<b class="pBoldl"> ClientManufacturerCode</b> values are 2 bytes long and are segregated as follows: 
-     </p>
-     <table width="415" align="center" id="table2">
-        <tbody>
-           <tr>
-              <td class="TableTitre2">Range</td>
-              <td class="TableTitre2">Purpose</td>
-           </tr>
-           <tr>
-              <td valign="middle" align="left" class="TableP1big">0x0000-0x00FF</td>
-              <td class="TableP1little">reserved</td>
-           </tr>
-           <tr>
-              <td valign="middle" align="left" class="TableP1big">0x0100-0x1BFF</td>
-              <td class="TableP1little">normal allocation range</td>
-           </tr>
-           <tr>
-              <td valign="middle" align="left" class="TableP1big">0x1C00-0xFEFF</td>
-              <td class="TableP1little">reserved</td>
-           </tr>
-           <tr>
-              <td valign="middle" align="left" class="TableP1big">0xFF00-0xFFFF</td>
-              <td class="TableP1little">reserved for testing</td>
-           </tr>
-        </tbody>
-     </table>
-     </br>
-     <p>For the normal range, the first byte of the code maps to the first letter of the Manufacturer name (e.g. A=1, B=2,...) where the second byte is assigned sequentially - based on order of request (request form available <a href="https://openmobilealliance.github.io/OMNA/registerpage.html#bcast-identification-authority" class="reg-txtUnderline textHoverBrwn">here</a>).</p>
-     <table cellspacing="3" cellpadding="3" border="0" align="center" id="table3">
-        <tbody>
-           <tr>
-              <td colspan="2" class="TableP1big"><a href="#codeA">A</a>&nbsp;&nbsp; <a href="#codeB">B</a>&nbsp;&nbsp; <a href="#codeC">C</a>&nbsp;&nbsp; <a href="#codeD">D</a>&nbsp;&nbsp; <a href="#codeE">E</a>&nbsp;&nbsp; <a href="#codeF">F</a>&nbsp;&nbsp; <a href="#codeG">G</a>&nbsp;&nbsp; <a href="#codeH">H</a>&nbsp;&nbsp; <a href="#codeI">I</a>&nbsp;&nbsp; <a href="#codeJ">J</a>&nbsp;&nbsp; <a href="#codeK">K</a>&nbsp;&nbsp; <a href="#codeL">L</a>&nbsp;&nbsp; <a href="#codeM">M</a>&nbsp;&nbsp; <a href="#codeN">N</a>&nbsp;&nbsp; <a href="#codeO">O</a>&nbsp;&nbsp; <a href="#codeP">P</a>&nbsp;&nbsp; <a href="#codeQ">Q</a>&nbsp;&nbsp; <a href="#codeR">R</a>&nbsp;&nbsp; <a href="#codeS">S</a>&nbsp;&nbsp; <a href="#codeT">T</a>&nbsp;&nbsp; <a href="#codeU">U</a>&nbsp;&nbsp; <a href="#codeV">V</a>&nbsp;&nbsp; <a href="#codeW">W</a>&nbsp;&nbsp; <a href="#codeX">X</a>&nbsp;&nbsp; <a href="#codeY">Y</a>&nbsp;&nbsp; <a href="#codeZ">Z</a>&nbsp;&nbsp; <a href="#codeOth">Others</a> </td>
-           </tr>
-           <tr>
-              <th class="TableTitre2">Manufacturer</th>
-              <th class="TableTitre2">ClientManufacturerCode value</th>
-           </tr>
-           <tr>
-              <td colspan="2" class="TableP1big"><a name="codeA">A (0x01)</a> </td>
-           </tr>
-           <tr>
-              <td colspan="2" class="TableP1little"><a name="codeB">B (0x02)</a> </td>
-           </tr>
-           <tr>
-              <td colspan="2" class="TableP1big"><a name="codeC">C (0x03)</a> </td>
-           </tr>
-           <tr>
-              <td colspan="2" class="TableP1little"><a name="codeD">D (0x04)</a> </td>
-           </tr>
-           <tr>
-              <td colspan="2" class="TableP1big"><a name="codeE">E (0x05)</a></td>
-           </tr>
-           <tr>
-              <td colspan="2" class="TableP1little"><a name="codeF">F (0x06)</a></td>
-           </tr>
-           <tr>
-              <td colspan="2" class="TableP1big"><a name="codeG">G (0x07)</a></td>
-           </tr>
-           <tr>
-              <td colspan="2" class="TableP1little"><a name="codeH">H (0x08)</a></td>
-           </tr>
-           <tr>
-              <td colspan="2" class="TableP1big"><a name="codeI">I (0x09)</a> </td>
-           </tr>
-           <tr>
-              <td colspan="2" class="TableP1little"><a name="codeJ">J (0x0A)</a> </td>
-           </tr>
-           <tr>
-              <td colspan="2" class="TableP1big"><a name="codeK">K (0x0B)</a> </td>
-           </tr>
-           <tr>
-              <td colspan="2" class="TableP1little"><a name="codeL">L (0x0C)</a> </td>
-           </tr>
-           <tr>
-              <td colspan="2" class="TableP1big"><a name="codeM">M (0x0D)</a> </td>
-           </tr>
-           <tr>
-              <td colspan="2" class="TableP1little"><a name="codeN">N (0x0E)</a> </td>
-           </tr>
-           <tr>
-              <td colspan="2" class="TableP1big"><a name="codeO">O (0x0F)</a> </td>
-           </tr>
-           <tr>
-              <td colspan="2" class="TableP1little"><a name="codeP">P (0x10)</a> </td>
-           </tr>
-           <tr>
-              <td colspan="2" class="TableP1big"><a name="codeQ">Q (0x11)</a> </td>
-           </tr>
-           <tr>
-              <td colspan="2" class="TableP1little"><a name="codeR">R (0x12)</a> </td>
-           </tr>
-           <tr>
-              <td colspan="2" class="TableP1big"><a name="codeS">S (0x13)</a> </td>
-           </tr>
-           <tr>
-              <td colspan="2" class="TableP1little"><a name="codeT">T (0x14)</a></td>
-           </tr>
-           <tr>
-              <td colspan="2" class="TableP1big"><a name="codeU">U (0x15)</a></td>
-           </tr>
-           <tr>
-              <td colspan="2" class="TableP1little"><a name="codeV">V (0x16)</a></td>
-           </tr>
-           <tr>
-              <td colspan="2" class="TableP1big"><a name="codeW">W (0x17)</a></td>
-           </tr>
-           <tr>
-              <td colspan="2" class="TableP1little"><a name="codeX">X (0x18)</a></td>
-           </tr>
-           <tr>
-              <td colspan="2" class="TableP1big"><a name="codeY">Y (0x19)</a></td>
-           </tr>
-           <tr>
-              <td colspan="2" class="TableP1little"><a name="codeZ">Z (0x1A)</a></td>
-           </tr>
-           <tr>
-              <td colspan="2" class="TableP1big"><a name="codeOth">Others (0x1B)</a></td>
-           </tr>
-        </tbody>
-     </table>
-  </div>
-  </div>
+                </tbody>
+            </table>
+        </div>
+    </div>
     <!-- This gets populated with the footer.html using Javascript -->
     <div id="footer"></div>
+    <!-- Start of Async HubSpot Analytics Code -->
+    <script type="text/javascript">
+        (function (d, s, i, r) {
+            if (d.getElementById(i)) { return; }
+            var n = d.createElement(s), e = d.getElementsByTagName(s)[0];
+            n.id = i; n.src = '//js.hs-analytics.net/analytics/' + (Math.ceil(new Date() / r) * r) + '/183757.js';
+            e.parentNode.insertBefore(n, e);
+        })(document, "script", "hs-analytics", 300000);
+    </script>
+    <!-- End of Async HubSpot Analytics Code -->
 </body>
 </html>

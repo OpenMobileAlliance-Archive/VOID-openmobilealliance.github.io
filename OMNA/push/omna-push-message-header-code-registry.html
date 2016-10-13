@@ -1,28 +1,21 @@
 <!doctype html>
 <html>
 <head>
-
     <title>Open Mobile Alliance - External Functionality Interface (EFI) Namespace</title>
     <meta charset="utf-8">
     <script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
-
     <!-- Font awesome for arrows -->
     <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
-
     <!-- Normalize CSS -->
     <link rel="stylesheet" href="/CSS/Normalize.css">
-
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
-
     <!-- Optional theme -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
-
     <link rel="stylesheet" href="/CSS/Site.css">
     <link rel="stylesheet" href="/CSS/registries.css">
     <link rel="stylesheet" href="/CSS/grid_oocss.css">
     <link rel="stylesheet" href="/CSS/spacing.css">
-
     <script>
         $(function () {
             $('#header').load("/header.html");
@@ -31,373 +24,382 @@
     </script>
 </head>
 
-
 <body>
     <!-- This gets populated with the header.html using Javascript -->
     <div id="header"></div>
-
     <div class="container">
-  <div class="fl size100of100 mid-cont-ttl mbm">OMNA PUSH Message Header Code Registry</div>
-  <div class="fl size100of100  justify mbl">  
-     <div>OMNA maintains a registry of field codes that are assigned to OMA Push message headers. OMA Working Groups and other SDOs (Standard-Developing Organizations) can register OMA Push message extension headers in this registry. The assignment of field codes to the OMA Push message headers is done by OMNA. </div>
-     <div class="LinkDetails mtl mll"><span class="textBrwn"> A form for submitting a request may be found</span> <a class="textBrwnSmall" href="https://openmobilealliance.github.io/OMNA/registerpage.html#push">here</a></div>
-     </br>
-     <p>Extension header names conform to the following structure:</p>
-     <div class="size90of100 greyBox">
-        <div class="mtm">FullHdrName = 'X-Oma-' [SDOName '-'] HdrName ; OMA is the default SDO name</div>
-        <p>SDOName = 1*VCHAR</p>
-        <p>HdrName = 1*VCHAR</p>
-        <p>; (RFC 5234 defines VCHAR as any visible character</p>
-        <p>; i.e. any character with ASCII value in the range</p>
-        <p>; 0x21 through 0x7E)</p>
-     </div>
-     </br>
-     <p>Header field code assignments, made by OMNA, are specified in the following table:</p>
-     <table width="100%" cellspacing="0" cellpadding="0" border="0">
-        <tbody>
-           <tr>
-              <td colspan="4" class="TableTitre1">Header field code assignments - Well Known Values</td>
-           </tr>
-           <tr>
-              <td class="TableTitre2" style="width: 10%">Header Code Range</td>
-              <td width="20%" class="TableTitre2">Header Name</td>
-              <td width="20%" class="TableTitre2">Header Field Code</td>
-              <td width="50%" class="TableTitre2">Specification Reference</td>
-           </tr>
-           <tr>
-              <td valign="top" align="left" rowspan="72" class="TableP1little" style="width: 25%"><br>            0x00 through 0x47<br>            <br>            (well-known values specified in the WSP specification)</td>
-              <td width="20%" class="TableP1little">Accept</td>
-              <td width="20%" class="TableP1little" style="height: 46px">0x00</td>
-              <td width="50%" valign="top" rowspan="72" class="TableP1little"><br>            WAP-230-WSP-20010705-a</td>
-           </tr>
-           <tr>
-              <td width="20%" class="TableP1little" style="height: 46px">Accept-Charset1</td>
-              <td width="20%" class="TableP1little">0x01</td>
-           </tr>
-           <tr>
-              <td width="20%" class="TableP1little">Accept-Encoding1</td>
-              <td width="20%" class="TableP1little" style="height: 46px">0x02</td>
-           </tr>
-           <tr>
-              <td width="20%" class="TableP1little">Accept-Language</td>
-              <td width="20%" class="TableP1little" style="height: 46px">0x03</td>
-           </tr>
-           <tr>
-              <td width="20%" class="TableP1little">Accept-Ranges</td>
-              <td width="20%" class="TableP1little" style="height: 46px">0x04</td>
-           </tr>
-           <tr>
-              <td width="20%" class="TableP1little">Age</td>
-              <td width="20%" height="48" class="TableP1little" style="height: 46px">0x05</td>
-           </tr>
-           <tr>
-              <td width="20%" class="TableP1little">Allow</td>
-              <td width="20%" class="TableP1little" style="height: 46px">0x06</td>
-           </tr>
-           <tr>
-              <td width="20%" class="TableP1little">Authorization</td>
-              <td width="20%" class="TableP1little" style="height: 46px">0x07</td>
-           </tr>
-           <tr>
-              <td width="20%" class="TableP1little">Cache-Control1</td>
-              <td width="20%" class="TableP1little" style="height: 46px">0x08</td>
-           </tr>
-           <tr>
-              <td width="20%" class="TableP1little">Connection</td>
-              <td width="20%" class="TableP1little" style="height: 46px">0x09</td>
-           </tr>
-           <tr>
-              <td width="20%" class="TableP1little">Content-Base1</td>
-              <td width="20%" class="TableP1little" style="height: 46px">0x0A</td>
-           </tr>
-           <tr>
-              <td width="20%" class="TableP1little">Content-Encoding</td>
-              <td width="20%" class="TableP1little" style="height: 46px">0x0B</td>
-           </tr>
-           <tr>
-              <td width="20%" class="TableP1little">Content-Language</td>
-              <td width="20%" class="TableP1little" style="height: 46px">0x0C</td>
-           </tr>
-           <tr>
-              <td width="20%" class="TableP1little">Content-Length</td>
-              <td width="20%" class="TableP1little" style="height: 46px">0x0D</td>
-           </tr>
-           <tr>
-              <td width="20%" class="TableP1little">Content-Location</td>
-              <td width="20%" class="TableP1little" style="height: 46px">0x0E</td>
-           </tr>
-           <tr>
-              <td width="20%" class="TableP1little">Content-MD5</td>
-              <td width="20%" class="TableP1little" style="height: 46px">0x0F</td>
-           </tr>
-           <tr>
-              <td width="20%" class="TableP1little">Content-Range1</td>
-              <td class="TableP1little" style="width: 25%; height: 46px">0x10</td>
-           </tr>
-           <tr>
-              <td width="20%" class="TableP1little">Content-Type </td>
-              <td class="TableP1little" style="width: 25%; height: 46px">0x11</td>
-           </tr>
-           <tr>
-              <td width="20%" class="TableP1little">Date </td>
-              <td class="TableP1little" style="width: 25%; height: 46px">0x12</td>
-           </tr>
-           <tr>
-              <td width="20%" class="TableP1little">Etag </td>
-              <td class="TableP1little" style="width: 25%; height: 46px">0x13</td>
-           </tr>
-           <tr>
-              <td width="20%" class="TableP1little">Expires </td>
-              <td class="TableP1little" style="width: 25%; height: 46px">0x14</td>
-           </tr>
-           <tr>
-              <td width="20%" class="TableP1little">From </td>
-              <td class="TableP1little" style="width: 25%; height: 46px">0x15</td>
-           </tr>
-           <tr>
-              <td width="20%" class="TableP1little">Host </td>
-              <td class="TableP1little" style="width: 25%; height: 46px">0x16</td>
-           </tr>
-           <tr>
-              <td width="20%" class="TableP1little">If-Modified-Since </td>
-              <td class="TableP1little" style="width: 25%; height: 46px">0x17</td>
-           </tr>
-           <tr>
-              <td width="20%" class="TableP1little">If-Match </td>
-              <td class="TableP1little" style="width: 25%; height: 46px">0x18</td>
-           </tr>
-           <tr>
-              <td width="20%" class="TableP1little">If-None-Match </td>
-              <td class="TableP1little" style="width: 25%; height: 46px">0x19</td>
-           </tr>
-           <tr>
-              <td width="20%" class="TableP1little">If-Range </td>
-              <td class="TableP1little" style="width: 25%; height: 46px">0x1A</td>
-           </tr>
-           <tr>
-              <td width="20%" class="TableP1little">If-Unmodified-Since </td>
-              <td class="TableP1little" style="width: 25%; height: 46px">0x1B</td>
-           </tr>
-           <tr>
-              <td width="20%" class="TableP1little">Location </td>
-              <td class="TableP1little" style="width: 25%; height: 46px">0x1C</td>
-           </tr>
-           <tr>
-              <td width="20%" class="TableP1little">Last-Modified </td>
-              <td class="TableP1little" style="width: 25%; height: 46px">0x1D</td>
-           </tr>
-           <tr>
-              <td width="20%" class="TableP1little">Max-Forwards </td>
-              <td class="TableP1little" style="width: 25%; height: 46px">0x1E</td>
-           </tr>
-           <tr>
-              <td width="20%" class="TableP1little">Pragma</td>
-              <td class="TableP1little" style="width: 25%; height: 46px">0x1F</td>
-           </tr>
-           <tr>
-              <td width="20%" class="TableP1little">Proxy-Authenticate </td>
-              <td class="TableP1little" style="width: 25%; height: 46px">0x20</td>
-           </tr>
-           <tr>
-              <td width="20%" class="TableP1little">Proxy-Authorization </td>
-              <td class="TableP1little" style="width: 25%; height: 46px">0x21</td>
-           </tr>
-           <tr>
-              <td width="20%" class="TableP1little">Public </td>
-              <td class="TableP1little" style="width: 25%; height: 46px">0x22</td>
-           </tr>
-           <tr>
-              <td width="20%" class="TableP1little">Range </td>
-              <td class="TableP1little" style="width: 25%; height: 46px">0x23</td>
-           </tr>
-           <tr>
-              <td width="20%" class="TableP1little">Referer </td>
-              <td class="TableP1little" style="width: 25%; height: 46px">0x24</td>
-           </tr>
-           <tr>
-              <td width="20%" class="TableP1little">Retry-After </td>
-              <td class="TableP1little" style="width: 25%; height: 46px">0x25</td>
-           </tr>
-           <tr>
-              <td width="20%" class="TableP1little">Server </td>
-              <td class="TableP1little" style="width: 25%; height: 46px">0x26</td>
-           </tr>
-           <tr>
-              <td width="20%" class="TableP1little">Transfer-Encoding </td>
-              <td class="TableP1little" style="width: 25%; height: 46px">0x27</td>
-           </tr>
-           <tr>
-              <td width="20%" class="TableP1little">Upgrade </td>
-              <td class="TableP1little" style="width: 25%; height: 46px">0x28</td>
-           </tr>
-           <tr>
-              <td width="20%" class="TableP1little">User-Agent </td>
-              <td class="TableP1little" style="width: 25%; height: 46px">0x29</td>
-           </tr>
-           <tr>
-              <td width="20%" class="TableP1little">Vary </td>
-              <td class="TableP1little" style="width: 25%; height: 46px">0x2A</td>
-           </tr>
-           <tr>
-              <td width="20%" class="TableP1little">Via </td>
-              <td class="TableP1little" style="width: 25%; height: 46px">0x2B</td>
-           </tr>
-           <tr>
-              <td width="20%" class="TableP1little">Warning </td>
-              <td class="TableP1little" style="width: 25%; height: 46px">0x2C</td>
-           </tr>
-           <tr>
-              <td width="20%" class="TableP1little">WWW-Authenticate </td>
-              <td class="TableP1little" style="width: 25%; height: 46px">0x2D</td>
-           </tr>
-           <tr>
-              <td width="20%" class="TableP1little">Content-Disposition1 </td>
-              <td class="TableP1little" style="width: 25%; height: 46px">0x2E</td>
-           </tr>
-           <tr>
-              <td width="20%" class="TableP1little">X-Wap-Application-Id </td>
-              <td class="TableP1little" style="width: 25%; height: 46px">0x2F</td>
-           </tr>
-           <tr>
-              <td width="20%" class="TableP1little">X-Wap-Content-URI </td>
-              <td class="TableP1little" style="width: 25%; height: 46px">0x30</td>
-           </tr>
-           <tr>
-              <td width="20%" class="TableP1little">X-Wap-Initiator-URI </td>
-              <td class="TableP1little" style="width: 25%; height: 46px">0x31</td>
-           </tr>
-           <tr>
-              <td width="20%" class="TableP1little">Accept-Application </td>
-              <td class="TableP1little" style="width: 25%; height: 46px">0x32</td>
-           </tr>
-           <tr>
-              <td width="20%" class="TableP1little">Bearer-Indication </td>
-              <td class="TableP1little" style="width: 25%; height: 46px">0x33</td>
-           </tr>
-           <tr>
-              <td width="20%" class="TableP1little">Push-Flag </td>
-              <td class="TableP1little" style="width: 25%; height: 46px">0x34</td>
-           </tr>
-           <tr>
-              <td width="20%" class="TableP1little">Profile </td>
-              <td class="TableP1little" style="width: 25%; height: 46px">0x35</td>
-           </tr>
-           <tr>
-              <td width="20%" class="TableP1little">Profile-Diff </td>
-              <td class="TableP1little" style="width: 25%; height: 46px">0x36</td>
-           </tr>
-           <tr>
-              <td width="20%" class="TableP1little">Profile-Warning1 </td>
-              <td class="TableP1little" style="width: 25%; height: 46px">0x37</td>
-           </tr>
-           <tr>
-              <td width="20%" class="TableP1little">Expect </td>
-              <td class="TableP1little" style="width: 25%; height: 46px">0x38</td>
-           </tr>
-           <tr>
-              <td width="20%" class="TableP1little">TE </td>
-              <td class="TableP1little" style="width: 25%; height: 46px">0x39</td>
-           </tr>
-           <tr>
-              <td width="20%" class="TableP1little">Trailer </td>
-              <td class="TableP1little" style="width: 25%; height: 46px">0x3A</td>
-           </tr>
-           <tr>
-              <td width="20%" class="TableP1little">Accept-Charset </td>
-              <td class="TableP1little" style="width: 25%; height: 46px">0x3B</td>
-           </tr>
-           <tr>
-              <td width="20%" class="TableP1little">Accept-Encoding </td>
-              <td class="TableP1little" style="width: 25%; height: 46px">0x3C</td>
-           </tr>
-           <tr>
-              <td width="20%" class="TableP1little">Cache-Control1 </td>
-              <td class="TableP1little" style="width: 25%; height: 46px">0x3D</td>
-           </tr>
-           <tr>
-              <td width="20%" class="TableP1little">Content-Range </td>
-              <td class="TableP1little" style="width: 25%; height: 46px">0x3E</td>
-           </tr>
-           <tr>
-              <td width="20%" class="TableP1little">X-Wap-Tod </td>
-              <td class="TableP1little" style="width: 25%; height: 46px">0x3F</td>
-           </tr>
-           <tr>
-              <td width="20%" class="TableP1little">Content-ID </td>
-              <td class="TableP1little" style="width: 25%; height: 46px">0x40</td>
-           </tr>
-           <tr>
-              <td width="20%" class="TableP1little">Set-Cookie </td>
-              <td class="TableP1little" style="width: 25%; height: 46px">0x41</td>
-           </tr>
-           <tr>
-              <td width="20%" class="TableP1little">Cookie </td>
-              <td class="TableP1little" style="width: 25%; height: 46px">0x42</td>
-           </tr>
-           <tr>
-              <td width="20%" class="TableP1little">Encoding-Version </td>
-              <td class="TableP1little" style="width: 25%; height: 46px">0x43</td>
-           </tr>
-           <tr>
-              <td width="20%" class="TableP1little">Profile-Warning </td>
-              <td class="TableP1little" style="width: 25%; height: 46px">0x44</td>
-           </tr>
-           <tr>
-              <td width="20%" class="TableP1little">Content-Disposition </td>
-              <td class="TableP1little" style="width: 25%; height: 46px">0x45</td>
-           </tr>
-           <tr>
-              <td width="20%" class="TableP1little">X-WAP-Security </td>
-              <td class="TableP1little" style="width: 25%; height: 46px">0x46</td>
-           </tr>
-           <tr>
-              <td width="20%" class="TableP1little">Cache-Control </td>
-              <td class="TableP1little" style="width: 25%; height: 46px">0x47</td>
-           </tr>
-           <tr>
-              <td class="TableP1little" style="width: 25%; height: 46px">0x48 through 0x4F</td>
-              <td width="20%" class="TableP1little">N/A</td>
-              <td class="TableP1little" style="width: 25%; height: 46px">0x48 through 0x4F</td>
-              <td width="50%" class="TableP1little" style="height: 46px">N/A Reserved</td>
-           </tr>
-           <tr>
-              <td class="TableP1little" style="height: 46px">0x50 throuigh 0x50</td>
-              <td width="20%" class="TableP1little">X-Oma-GwMO</td>
-              <td class="TableP1little" style="width: 25%; height: 46px">0x50</td>
-              <td width="50%" class="TableP1little" style="height: 46px">OMA-TS-GwMO-V1_0</td>
-           </tr>
-           <tr>
-              <td class="TableP1little" style="height: 46px">0x51 through 0x7F</td>
-              <td width="20%" class="TableP1little">N/A </td>
-              <td class="TableP1little" style="width: 25%; height: 46px">0x51 through 0x7F</td>
-              <td width="50%" class="TableP1little" style="height: 46px">N/A Reserved for future use</td>
-           </tr>
-        </tbody>
-     </table>
-     <table width="100%" cellspacing="0" cellpadding="0" border="0" class="mtl">
-        <tbody>
-           <tr>
-              <td colspan="5" class="TableTitre1">Header field code assignments - Registered Values</td>
-           </tr>
-           <tr>
-              <td class="TableTitre2" style="width: 10%">Header Code Range</td>
-              <td class="TableTitre2" style="width: 10%">Header Name</td>
-              <td class="TableTitre2" style="width: 10%">Header Field Code</td>
-              <td class="TableTitre2" style="width: 20%">SDO</td>
-              <td class="TableTitre2" style="width: 60%">Specification Reference</td>
-           </tr>
-           <tr>
-              <td class="TableP1little" style="width: 25%; height: 46px"></td>
-              <td width="20%" class="TableP1little"></td>
-              <td class="TableP1little" style="width: 20%; height: 46px"></td>
-              <td class="TableP1little" style="height: 46px"></td>
-              <td width="50%" class="TableP1little" style="height: 46px"></td>
-           </tr>
-        </tbody>
-     </table>
-  </div>
-  </div>
+        <div class="fl size100of100 mid-cont-ttl mbm">OMNA PUSH Message Header Code Registry</div>
+        <div class="fl size100of100  justify mbl">
+            <div>OMNA maintains a registry of field codes that are assigned to OMA Push message headers. OMA Working Groups and other SDOs (Standard-Developing Organizations) can register OMA Push message extension headers in this registry. The assignment of field codes to the OMA Push message headers is done by OMNA. </div>
+            <div class="LinkDetails mtl mll"><span class="textBrwn"> A form for submitting a request may be found</span> <a class="textBrwnSmall" href="https://openmobilealliance.github.io/OMNA/registerpage.html#push">here</a></div>
+            </br>
+            <p>Extension header names conform to the following structure:</p>
+            <div class="size90of100 greyBox">
+                <div class="mtm">FullHdrName = 'X-Oma-' [SDOName '-'] HdrName ; OMA is the default SDO name</div>
+                <p>SDOName = 1*VCHAR</p>
+                <p>HdrName = 1*VCHAR</p>
+                <p>; (RFC 5234 defines VCHAR as any visible character</p>
+                <p>; i.e. any character with ASCII value in the range</p>
+                <p>; 0x21 through 0x7E)</p>
+            </div>
+            </br>
+            <p>Header field code assignments, made by OMNA, are specified in the following table:</p>
+            <table width="100%" cellspacing="0" cellpadding="0" border="0">
+                <tbody>
+                    <tr>
+                        <td colspan="4" class="TableTitre1">Header field code assignments - Well Known Values</td>
+                    </tr>
+                    <tr>
+                        <td class="TableTitre2" style="width: 10%">Header Code Range</td>
+                        <td width="20%" class="TableTitre2">Header Name</td>
+                        <td width="20%" class="TableTitre2">Header Field Code</td>
+                        <td width="50%" class="TableTitre2">Specification Reference</td>
+                    </tr>
+                    <tr>
+                        <td valign="top" align="left" rowspan="72" class="TableP1little" style="width: 25%"><br>            0x00 through 0x47<br>            <br>            (well-known values specified in the WSP specification)</td>
+                        <td width="20%" class="TableP1little">Accept</td>
+                        <td width="20%" class="TableP1little" style="height: 46px">0x00</td>
+                        <td width="50%" valign="top" rowspan="72" class="TableP1little"><br>            WAP-230-WSP-20010705-a</td>
+                    </tr>
+                    <tr>
+                        <td width="20%" class="TableP1little" style="height: 46px">Accept-Charset1</td>
+                        <td width="20%" class="TableP1little">0x01</td>
+                    </tr>
+                    <tr>
+                        <td width="20%" class="TableP1little">Accept-Encoding1</td>
+                        <td width="20%" class="TableP1little" style="height: 46px">0x02</td>
+                    </tr>
+                    <tr>
+                        <td width="20%" class="TableP1little">Accept-Language</td>
+                        <td width="20%" class="TableP1little" style="height: 46px">0x03</td>
+                    </tr>
+                    <tr>
+                        <td width="20%" class="TableP1little">Accept-Ranges</td>
+                        <td width="20%" class="TableP1little" style="height: 46px">0x04</td>
+                    </tr>
+                    <tr>
+                        <td width="20%" class="TableP1little">Age</td>
+                        <td width="20%" height="48" class="TableP1little" style="height: 46px">0x05</td>
+                    </tr>
+                    <tr>
+                        <td width="20%" class="TableP1little">Allow</td>
+                        <td width="20%" class="TableP1little" style="height: 46px">0x06</td>
+                    </tr>
+                    <tr>
+                        <td width="20%" class="TableP1little">Authorization</td>
+                        <td width="20%" class="TableP1little" style="height: 46px">0x07</td>
+                    </tr>
+                    <tr>
+                        <td width="20%" class="TableP1little">Cache-Control1</td>
+                        <td width="20%" class="TableP1little" style="height: 46px">0x08</td>
+                    </tr>
+                    <tr>
+                        <td width="20%" class="TableP1little">Connection</td>
+                        <td width="20%" class="TableP1little" style="height: 46px">0x09</td>
+                    </tr>
+                    <tr>
+                        <td width="20%" class="TableP1little">Content-Base1</td>
+                        <td width="20%" class="TableP1little" style="height: 46px">0x0A</td>
+                    </tr>
+                    <tr>
+                        <td width="20%" class="TableP1little">Content-Encoding</td>
+                        <td width="20%" class="TableP1little" style="height: 46px">0x0B</td>
+                    </tr>
+                    <tr>
+                        <td width="20%" class="TableP1little">Content-Language</td>
+                        <td width="20%" class="TableP1little" style="height: 46px">0x0C</td>
+                    </tr>
+                    <tr>
+                        <td width="20%" class="TableP1little">Content-Length</td>
+                        <td width="20%" class="TableP1little" style="height: 46px">0x0D</td>
+                    </tr>
+                    <tr>
+                        <td width="20%" class="TableP1little">Content-Location</td>
+                        <td width="20%" class="TableP1little" style="height: 46px">0x0E</td>
+                    </tr>
+                    <tr>
+                        <td width="20%" class="TableP1little">Content-MD5</td>
+                        <td width="20%" class="TableP1little" style="height: 46px">0x0F</td>
+                    </tr>
+                    <tr>
+                        <td width="20%" class="TableP1little">Content-Range1</td>
+                        <td class="TableP1little" style="width: 25%; height: 46px">0x10</td>
+                    </tr>
+                    <tr>
+                        <td width="20%" class="TableP1little">Content-Type </td>
+                        <td class="TableP1little" style="width: 25%; height: 46px">0x11</td>
+                    </tr>
+                    <tr>
+                        <td width="20%" class="TableP1little">Date </td>
+                        <td class="TableP1little" style="width: 25%; height: 46px">0x12</td>
+                    </tr>
+                    <tr>
+                        <td width="20%" class="TableP1little">Etag </td>
+                        <td class="TableP1little" style="width: 25%; height: 46px">0x13</td>
+                    </tr>
+                    <tr>
+                        <td width="20%" class="TableP1little">Expires </td>
+                        <td class="TableP1little" style="width: 25%; height: 46px">0x14</td>
+                    </tr>
+                    <tr>
+                        <td width="20%" class="TableP1little">From </td>
+                        <td class="TableP1little" style="width: 25%; height: 46px">0x15</td>
+                    </tr>
+                    <tr>
+                        <td width="20%" class="TableP1little">Host </td>
+                        <td class="TableP1little" style="width: 25%; height: 46px">0x16</td>
+                    </tr>
+                    <tr>
+                        <td width="20%" class="TableP1little">If-Modified-Since </td>
+                        <td class="TableP1little" style="width: 25%; height: 46px">0x17</td>
+                    </tr>
+                    <tr>
+                        <td width="20%" class="TableP1little">If-Match </td>
+                        <td class="TableP1little" style="width: 25%; height: 46px">0x18</td>
+                    </tr>
+                    <tr>
+                        <td width="20%" class="TableP1little">If-None-Match </td>
+                        <td class="TableP1little" style="width: 25%; height: 46px">0x19</td>
+                    </tr>
+                    <tr>
+                        <td width="20%" class="TableP1little">If-Range </td>
+                        <td class="TableP1little" style="width: 25%; height: 46px">0x1A</td>
+                    </tr>
+                    <tr>
+                        <td width="20%" class="TableP1little">If-Unmodified-Since </td>
+                        <td class="TableP1little" style="width: 25%; height: 46px">0x1B</td>
+                    </tr>
+                    <tr>
+                        <td width="20%" class="TableP1little">Location </td>
+                        <td class="TableP1little" style="width: 25%; height: 46px">0x1C</td>
+                    </tr>
+                    <tr>
+                        <td width="20%" class="TableP1little">Last-Modified </td>
+                        <td class="TableP1little" style="width: 25%; height: 46px">0x1D</td>
+                    </tr>
+                    <tr>
+                        <td width="20%" class="TableP1little">Max-Forwards </td>
+                        <td class="TableP1little" style="width: 25%; height: 46px">0x1E</td>
+                    </tr>
+                    <tr>
+                        <td width="20%" class="TableP1little">Pragma</td>
+                        <td class="TableP1little" style="width: 25%; height: 46px">0x1F</td>
+                    </tr>
+                    <tr>
+                        <td width="20%" class="TableP1little">Proxy-Authenticate </td>
+                        <td class="TableP1little" style="width: 25%; height: 46px">0x20</td>
+                    </tr>
+                    <tr>
+                        <td width="20%" class="TableP1little">Proxy-Authorization </td>
+                        <td class="TableP1little" style="width: 25%; height: 46px">0x21</td>
+                    </tr>
+                    <tr>
+                        <td width="20%" class="TableP1little">Public </td>
+                        <td class="TableP1little" style="width: 25%; height: 46px">0x22</td>
+                    </tr>
+                    <tr>
+                        <td width="20%" class="TableP1little">Range </td>
+                        <td class="TableP1little" style="width: 25%; height: 46px">0x23</td>
+                    </tr>
+                    <tr>
+                        <td width="20%" class="TableP1little">Referer </td>
+                        <td class="TableP1little" style="width: 25%; height: 46px">0x24</td>
+                    </tr>
+                    <tr>
+                        <td width="20%" class="TableP1little">Retry-After </td>
+                        <td class="TableP1little" style="width: 25%; height: 46px">0x25</td>
+                    </tr>
+                    <tr>
+                        <td width="20%" class="TableP1little">Server </td>
+                        <td class="TableP1little" style="width: 25%; height: 46px">0x26</td>
+                    </tr>
+                    <tr>
+                        <td width="20%" class="TableP1little">Transfer-Encoding </td>
+                        <td class="TableP1little" style="width: 25%; height: 46px">0x27</td>
+                    </tr>
+                    <tr>
+                        <td width="20%" class="TableP1little">Upgrade </td>
+                        <td class="TableP1little" style="width: 25%; height: 46px">0x28</td>
+                    </tr>
+                    <tr>
+                        <td width="20%" class="TableP1little">User-Agent </td>
+                        <td class="TableP1little" style="width: 25%; height: 46px">0x29</td>
+                    </tr>
+                    <tr>
+                        <td width="20%" class="TableP1little">Vary </td>
+                        <td class="TableP1little" style="width: 25%; height: 46px">0x2A</td>
+                    </tr>
+                    <tr>
+                        <td width="20%" class="TableP1little">Via </td>
+                        <td class="TableP1little" style="width: 25%; height: 46px">0x2B</td>
+                    </tr>
+                    <tr>
+                        <td width="20%" class="TableP1little">Warning </td>
+                        <td class="TableP1little" style="width: 25%; height: 46px">0x2C</td>
+                    </tr>
+                    <tr>
+                        <td width="20%" class="TableP1little">WWW-Authenticate </td>
+                        <td class="TableP1little" style="width: 25%; height: 46px">0x2D</td>
+                    </tr>
+                    <tr>
+                        <td width="20%" class="TableP1little">Content-Disposition1 </td>
+                        <td class="TableP1little" style="width: 25%; height: 46px">0x2E</td>
+                    </tr>
+                    <tr>
+                        <td width="20%" class="TableP1little">X-Wap-Application-Id </td>
+                        <td class="TableP1little" style="width: 25%; height: 46px">0x2F</td>
+                    </tr>
+                    <tr>
+                        <td width="20%" class="TableP1little">X-Wap-Content-URI </td>
+                        <td class="TableP1little" style="width: 25%; height: 46px">0x30</td>
+                    </tr>
+                    <tr>
+                        <td width="20%" class="TableP1little">X-Wap-Initiator-URI </td>
+                        <td class="TableP1little" style="width: 25%; height: 46px">0x31</td>
+                    </tr>
+                    <tr>
+                        <td width="20%" class="TableP1little">Accept-Application </td>
+                        <td class="TableP1little" style="width: 25%; height: 46px">0x32</td>
+                    </tr>
+                    <tr>
+                        <td width="20%" class="TableP1little">Bearer-Indication </td>
+                        <td class="TableP1little" style="width: 25%; height: 46px">0x33</td>
+                    </tr>
+                    <tr>
+                        <td width="20%" class="TableP1little">Push-Flag </td>
+                        <td class="TableP1little" style="width: 25%; height: 46px">0x34</td>
+                    </tr>
+                    <tr>
+                        <td width="20%" class="TableP1little">Profile </td>
+                        <td class="TableP1little" style="width: 25%; height: 46px">0x35</td>
+                    </tr>
+                    <tr>
+                        <td width="20%" class="TableP1little">Profile-Diff </td>
+                        <td class="TableP1little" style="width: 25%; height: 46px">0x36</td>
+                    </tr>
+                    <tr>
+                        <td width="20%" class="TableP1little">Profile-Warning1 </td>
+                        <td class="TableP1little" style="width: 25%; height: 46px">0x37</td>
+                    </tr>
+                    <tr>
+                        <td width="20%" class="TableP1little">Expect </td>
+                        <td class="TableP1little" style="width: 25%; height: 46px">0x38</td>
+                    </tr>
+                    <tr>
+                        <td width="20%" class="TableP1little">TE </td>
+                        <td class="TableP1little" style="width: 25%; height: 46px">0x39</td>
+                    </tr>
+                    <tr>
+                        <td width="20%" class="TableP1little">Trailer </td>
+                        <td class="TableP1little" style="width: 25%; height: 46px">0x3A</td>
+                    </tr>
+                    <tr>
+                        <td width="20%" class="TableP1little">Accept-Charset </td>
+                        <td class="TableP1little" style="width: 25%; height: 46px">0x3B</td>
+                    </tr>
+                    <tr>
+                        <td width="20%" class="TableP1little">Accept-Encoding </td>
+                        <td class="TableP1little" style="width: 25%; height: 46px">0x3C</td>
+                    </tr>
+                    <tr>
+                        <td width="20%" class="TableP1little">Cache-Control1 </td>
+                        <td class="TableP1little" style="width: 25%; height: 46px">0x3D</td>
+                    </tr>
+                    <tr>
+                        <td width="20%" class="TableP1little">Content-Range </td>
+                        <td class="TableP1little" style="width: 25%; height: 46px">0x3E</td>
+                    </tr>
+                    <tr>
+                        <td width="20%" class="TableP1little">X-Wap-Tod </td>
+                        <td class="TableP1little" style="width: 25%; height: 46px">0x3F</td>
+                    </tr>
+                    <tr>
+                        <td width="20%" class="TableP1little">Content-ID </td>
+                        <td class="TableP1little" style="width: 25%; height: 46px">0x40</td>
+                    </tr>
+                    <tr>
+                        <td width="20%" class="TableP1little">Set-Cookie </td>
+                        <td class="TableP1little" style="width: 25%; height: 46px">0x41</td>
+                    </tr>
+                    <tr>
+                        <td width="20%" class="TableP1little">Cookie </td>
+                        <td class="TableP1little" style="width: 25%; height: 46px">0x42</td>
+                    </tr>
+                    <tr>
+                        <td width="20%" class="TableP1little">Encoding-Version </td>
+                        <td class="TableP1little" style="width: 25%; height: 46px">0x43</td>
+                    </tr>
+                    <tr>
+                        <td width="20%" class="TableP1little">Profile-Warning </td>
+                        <td class="TableP1little" style="width: 25%; height: 46px">0x44</td>
+                    </tr>
+                    <tr>
+                        <td width="20%" class="TableP1little">Content-Disposition </td>
+                        <td class="TableP1little" style="width: 25%; height: 46px">0x45</td>
+                    </tr>
+                    <tr>
+                        <td width="20%" class="TableP1little">X-WAP-Security </td>
+                        <td class="TableP1little" style="width: 25%; height: 46px">0x46</td>
+                    </tr>
+                    <tr>
+                        <td width="20%" class="TableP1little">Cache-Control </td>
+                        <td class="TableP1little" style="width: 25%; height: 46px">0x47</td>
+                    </tr>
+                    <tr>
+                        <td class="TableP1little" style="width: 25%; height: 46px">0x48 through 0x4F</td>
+                        <td width="20%" class="TableP1little">N/A</td>
+                        <td class="TableP1little" style="width: 25%; height: 46px">0x48 through 0x4F</td>
+                        <td width="50%" class="TableP1little" style="height: 46px">N/A Reserved</td>
+                    </tr>
+                    <tr>
+                        <td class="TableP1little" style="height: 46px">0x50 throuigh 0x50</td>
+                        <td width="20%" class="TableP1little">X-Oma-GwMO</td>
+                        <td class="TableP1little" style="width: 25%; height: 46px">0x50</td>
+                        <td width="50%" class="TableP1little" style="height: 46px">OMA-TS-GwMO-V1_0</td>
+                    </tr>
+                    <tr>
+                        <td class="TableP1little" style="height: 46px">0x51 through 0x7F</td>
+                        <td width="20%" class="TableP1little">N/A </td>
+                        <td class="TableP1little" style="width: 25%; height: 46px">0x51 through 0x7F</td>
+                        <td width="50%" class="TableP1little" style="height: 46px">N/A Reserved for future use</td>
+                    </tr>
+                </tbody>
+            </table>
+            <table width="100%" cellspacing="0" cellpadding="0" border="0" class="mtl">
+                <tbody>
+                    <tr>
+                        <td colspan="5" class="TableTitre1">Header field code assignments - Registered Values</td>
+                    </tr>
+                    <tr>
+                        <td class="TableTitre2" style="width: 10%">Header Code Range</td>
+                        <td class="TableTitre2" style="width: 10%">Header Name</td>
+                        <td class="TableTitre2" style="width: 10%">Header Field Code</td>
+                        <td class="TableTitre2" style="width: 20%">SDO</td>
+                        <td class="TableTitre2" style="width: 60%">Specification Reference</td>
+                    </tr>
+                    <tr>
+                        <td class="TableP1little" style="width: 25%; height: 46px"></td>
+                        <td width="20%" class="TableP1little"></td>
+                        <td class="TableP1little" style="width: 20%; height: 46px"></td>
+                        <td class="TableP1little" style="height: 46px"></td>
+                        <td width="50%" class="TableP1little" style="height: 46px"></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
     <!-- This gets populated with the footer.html using Javascript -->
     <div id="footer"></div>
+    <!-- Start of Async HubSpot Analytics Code -->
+    <script type="text/javascript">
+        (function (d, s, i, r) {
+            if (d.getElementById(i)) { return; }
+            var n = d.createElement(s), e = d.getElementsByTagName(s)[0];
+            n.id = i; n.src = '//js.hs-analytics.net/analytics/' + (Math.ceil(new Date() / r) * r) + '/183757.js';
+            e.parentNode.insertBefore(n, e);
+        })(document, "script", "hs-analytics", 300000);
+    </script>
+    <!-- End of Async HubSpot Analytics Code -->
+
 </body>
 </html>

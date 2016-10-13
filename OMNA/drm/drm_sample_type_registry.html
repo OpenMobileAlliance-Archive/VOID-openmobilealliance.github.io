@@ -1,28 +1,21 @@
 <!doctype html>
 <html>
 <head>
-
     <title>Open Mobile Alliance - DRM sample_type Registry</title>
     <meta charset="utf-8">
     <script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
-
     <!-- Font awesome for arrows -->
     <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
-
     <!-- Normalize CSS -->
     <link rel="stylesheet" href="/CSS/Normalize.css">
-
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
-
     <!-- Optional theme -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
-
     <link rel="stylesheet" href="/CSS/Site.css">
     <link rel="stylesheet" href="/CSS/registries.css">
     <link rel="stylesheet" href="/CSS/grid_oocss.css">
     <link rel="stylesheet" href="/CSS/spacing.css">
-
     <script>
         $(function () {
             $('#header').load("/header.html");
@@ -31,21 +24,22 @@
     </script>
 </head>
 
-
 <body>
     <!-- This gets populated with the header.html using Javascript -->
     <div id="header"></div>
-
     <div class="container">
-
-            <div class="fl size100of100 mid-cont-ttl mbm">OMA DRM <em>sample_type</em> Registry</div>
-            <div class="fl size100of100 justify mbl">
-            <p>OMNA maintains this registry to record values used for the <strong><em>sample_type</em></strong> field of the OMAKeySampleEntry component. 
-            The <strong><em>sample_type</em></strong> field element is defined in the 
-            <a href="http://devwww.openmobilealliance.org/release/BCAST/V1_0-20081209-C/OMA-TS-DRM_XBS-V1_0-20081209-C.pdf">OMA-TS-DRM_XBS-V1_0</a> 
-            specification. It is used to identify the particular data type of the associated content.</p>
-            <p>New entries to be added to this table must be reviewed with the OMA BCAST and DRM WGs. They will assure that the required data is correctly structured 
-            and does not conflict with existing service descriptions.</p>
+        <div class="fl size100of100 mid-cont-ttl mbm">OMA DRM <em>sample_type</em> Registry</div>
+        <div class="fl size100of100 justify mbl">
+            <p>
+                OMNA maintains this registry to record values used for the <strong><em>sample_type</em></strong> field of the OMAKeySampleEntry component.
+                The <strong><em>sample_type</em></strong> field element is defined in the
+                <a href="http://devwww.openmobilealliance.org/release/BCAST/V1_0-20081209-C/OMA-TS-DRM_XBS-V1_0-20081209-C.pdf">OMA-TS-DRM_XBS-V1_0</a>
+                specification. It is used to identify the particular data type of the associated content.
+            </p>
+            <p>
+                New entries to be added to this table must be reviewed with the OMA BCAST and DRM WGs. They will assure that the required data is correctly structured
+                and does not conflict with existing service descriptions.
+            </p>
             <p class="mbl">The <strong><em>sample_type</em></strong> field is eight bits long and the possible values have been segregated as follows:</p>
             <table class="mtl">
                 <tbody>
@@ -88,8 +82,10 @@
                     <tr>
                         <td class="TableP1big">0x00</td>
                         <td class="TableP1big">STKM for DRM profile</td>
-                        <td class="TableP1big" rowspan="3">Section 13.3.3 of 
-                            <a href="http://devwww.openmobilealliance.org/release/BCAST/V1_0-20081209-C/OMA-TS-DRM_XBS-V1_0-20081209-C.pdf">OMA-TS-DRM-XBS-V1_0</a></td>
+                        <td class="TableP1big" rowspan="3">
+                            Section 13.3.3 of
+                            <a href="http://devwww.openmobilealliance.org/release/BCAST/V1_0-20081209-C/OMA-TS-DRM_XBS-V1_0-20081209-C.pdf">OMA-TS-DRM-XBS-V1_0</a>
+                        </td>
                     </tr>
                     <tr>
                         <td class="TableP1big">0x01</td>
@@ -122,11 +118,21 @@
             <h5>Requesting an assignment for <em>sample_type</em></h5>
             <p>The information to be included in an assigned value request may be found <a href="/OMNA/registerpage.html#drm-sample">here</a>.</p>
         </div>
-        
-    </div>
 
+    </div>
 
     <!-- This gets populated with the footer.html using Javascript -->
     <div id="footer"></div>
+    <!-- Start of Async HubSpot Analytics Code -->
+    <script type="text/javascript">
+        (function (d, s, i, r) {
+            if (d.getElementById(i)) { return; }
+            var n = d.createElement(s), e = d.getElementsByTagName(s)[0];
+            n.id = i; n.src = '//js.hs-analytics.net/analytics/' + (Math.ceil(new Date() / r) * r) + '/183757.js';
+            e.parentNode.insertBefore(n, e);
+        })(document, "script", "hs-analytics", 300000);
+    </script>
+    <!-- End of Async HubSpot Analytics Code -->
+
 </body>
 </html>
