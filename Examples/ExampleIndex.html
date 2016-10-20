@@ -1,0 +1,129 @@
+<!doctype html>
+<html>
+<head>
+
+    <title>Open Mobile Alliance - Specifications</title>
+    <meta charset="utf-8">
+    <script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
+    <script src="Scripts/specifications.js"></script>
+
+    <!-- Normalize CSS -->
+    <link rel="stylesheet" href="CSS/Normalize.css" />
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
+
+    <link rel="stylesheet" href="CSS/Site.css">
+    <link rel="stylesheet" href="CSS/specifications.css">
+
+    <script>
+        $(function () {
+            //// Force no cache
+            //$.ajaxSetup({
+            //    // Disable caching of AJAX responses
+            //    cache: false
+            //});
+
+            $('#header').load("header.html");
+            $('#footer').load("footer.html");
+        });
+    </script>
+</head>
+
+
+<body>
+    <!-- This gets populated with the header.html using Javascript -->
+    <div id="header"></div>
+
+    <div class="container">
+        <div>
+            <h1>
+                OMA Specifications
+            </h1>
+        </div>
+        <div>
+            <p>OMA Releases are made up of different types of Specifications which are publicly available from this portal.</p>
+            <p>OMA Releases are published in two phases:</p>
+            <ul>
+                <li>Candidate Release (-C) – As soon as the documents making up the Release have been approved by OMA, they are published as a Candidate Release. </li>
+                <li>Approved Release (-A) – When a Candidate Release has undergone a period of public comment and completed any applicable interoperability testing then it is published as an Approved Release.</li>
+            </ul>
+            <p>The table below lists the Releases that OMA has published.</p>
+            <p>(For the original documents created in Affiliate organisations prior to integration into OMA see <a href="http://openmobilealliance.org/about-oma/affiliates/">Affiliates</a>.)</p>
+        </div>
+        <div>
+            <!-- Start of releses table -->
+            <table id="releases-table" class="table-bordered">
+                <thead>
+                    <tr>
+                        <th>List of Releases</th>
+                        <th>Support </th>
+                        <th>
+                            OMA Phase 1: <br />
+                            Candidate Release (-C)
+                        </th>
+                        <th>
+                            OMA Phase 2: <br />
+                            Approved Release (-A)
+                        </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>
+                            <!-- To create a note in this column, a span or something similar can be used with the class "release-note" -->
+                            <a href="https://">Release Name</a><br />
+                            <span class="release-note">Release note</span>
+                        </td>
+
+                        <td>
+                            <a href="https://" class="orange">Readme</a><br />
+                            <a href="https://" class="orange">Register</a><br />
+                            <a href="https://" class="blue">Supporting Data</a><br />
+                            <a href="https://" class="green">Developer</a><br />
+                            <a href="https://" class="red">Comment</a><br />
+                            <a href="https://" class="red">Watch/Unwatch</a><br />
+                        </td>
+
+                        <td>
+                            <!-- This div is necessary for the centering of text and to have a note div that floats to the right -->
+                            <ul>
+                                <li>
+                                    -
+                                    <!-- This div is for the right floating notes that all the column to stay centred -->
+                                    <div class="release-note-phase">
+                                        <strong>Historic</strong>
+                                    </div>
+                                </li>
+                            </ul>
+                        </td>
+
+                        <td>
+                            <ul>
+                                <li>
+                                    V1.0
+                                    <div class="release-note-phase">
+                                        Historic
+                                    </div>
+                                </li>
+                                <li>
+                                    V2.0
+                                    <div class="release-note-phase">
+                                        Historic
+                                    </div>
+                                </li>
+                            </ul>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    
+    <!-- This gets populated with the footer.html using Javascript -->
+    <div id="footer"></div>
+</body>
+</html>
