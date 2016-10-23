@@ -1,0 +1,281 @@
+<!doctype html>
+<html>
+<head>
+
+    <title>Open Mobile Alliance - LightweightM2M V1.0 Overview</title>
+    <meta charset="utf-8">
+    <script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
+    <script src="Scripts/specifications.js"></script>
+
+    <!-- Normalize CSS -->
+    <link rel="stylesheet" href="CSS/Normalize.css" />
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
+
+    <link rel="stylesheet" href="CSS/Site.css">
+    <link rel="stylesheet" href="CSS/specifications.css">
+
+    <script>
+        $(function () {
+            //// Force no cache
+            //$.ajaxSetup({
+            //    // Disable caching of AJAX responses
+            //    cache: false
+            //});
+
+            $('#header').load("header.html");
+            $('#footer').load("footer.html");
+        });
+    </script>
+</head>
+
+
+<body>
+    <!-- This gets populated with the header.html using Javascript -->
+    <div id="header"></div>
+
+    <div class="container">
+        <div>
+            <h1>
+                OMA LightweightM2M V1.0 Overview
+            </h1>
+        </div>
+        <div>
+            <p>The motivation of LightweightM2M is to develop a fast deployable client-server specification to provide machine to machine service.</p>
+            <p>LightweightM2M is principally a device management protocol, but it should be designed to be able to extend to meet the requirements of applications. LightweightM2M is not restricted to device management, it should be able transfer service / application data.</p>
+            <p>LightweightM2M implements the interface between M2M device and M2M Server. It provides a choice for the M2M Service Provider to deploy a M2M system to provide service to the M2M user.</p>
+            <p>The following files are included in the release package:</p>
+            <ul>
+                <li><strong>Enabler Release Definition</strong><br />Lists all the component files in the release.</li>
+                <li><strong>Requirements Document</strong><br />The Requirements Document contains use cases and requirements for the OMA DM Lightweight M2M enabler. It describes a set of functional requirements for M2M service enablement between the LWM2M Server and the LWM2M Client and the device management from the LWM2M Server to the LWM2M Clients.</li>
+                <li><strong>Architecture Document</strong><br />The Architecture Document contains an architecture diagram, protocol endpoints description, interfaces definition and detailed descriptions for OMA DM Lightweight M2M enabler. The architecture diagram shows the client and server components in this enabler as well as the interfaces between these two components. Furthermore, it gives a short description for the functions of these interfaces.</li>
+                <li><strong>Technical Specification</strong><br />This document specifies version 1.0 of the Lightweight Machine-to-Machine (LWM2M) protocol that includes a simple resource model, operations for creation, update, deletion, and retrieval of resources, asynchronous notifications of resource changes, support for several serialization formats, UDP and SMS transport support, communication security based on the DTLS and support for use of multiple LWM2M Servers.</li>
+                <li><strong>Access Control</strong><br />The Access Control Object supports the need to determine which operation on a given Object Instance is authorized for which LWM2M Server.</li>
+                <li><strong>Connectivity Monitoring</strong><br />The Connectivity Monitoring Object enables the monitoring of parameters related to network connectivity.</li>
+                <li><strong>Connectivity Statistics</strong><br />The Connectivity Statistics Object Objects enables clients to collect statistical information and enables the LWM2M Server to retrieve this information, set the collection duration and reset the statistical parameters.</li>
+                <li><strong>Device</strong><br />The Device Object provides a range of device related information which can be queried by the LWM2M Server, and a device reboot and factory reset function.</li>
+                <li><strong>Firmware Update</strong><br />The Firmware Update Object enables management of firmware which is to be updated. This Object includes installing firmware package, updating firmware and performing actions after updating firmware.</li>
+                <li><strong>Location</strong><br />The Location Object provides information on device related information including latitude, longitude, altitude and velocity.</li>
+                <li><strong>Security</strong><br />The Security Object provides the keying material of a LWM2M Client appropriate to access a specified LWM2M Server.</li>
+                <li><strong>Server</strong><br />The Server Objects provide data related to a LWM2M Server.</li>
+            </ul>
+            <p>There are the following Enabler Test Specifications and Validation Plans</p>
+            <ul>
+                <li><strong>Enabler Test Specification</strong><br />This document describes in detail available test cases for LightweightM2M as specified in OMA-TS-LightweightM2M-V1_0. The test cases are split in two categories, conformance and interoperability test cases. The conformance test cases are aimed to verify the adherence to normative requirements described in the technical specifications. The interoperability test cases are aimed to verify that implementations of the specifications work satisfactory.</li>
+                <li><strong>Enabler Validation Plan</strong><br />This document details the Validation plan for the Lightweight M2M V1.0 Enabler Release. The successful accomplishment of the validation activities will be required for the Enabler to be considered for Approved status. The validation plan for the Lightweight M2M V1.0 Enabler Release specifications is based on testing expectations in the Enabler Test Requirements (ETR). While the specific test activities to be performed are described in the Enabler Test Specification (ETS) the test environment is described in this plan. This test environment details infrastructure, operational and participation requirements identified for the needed testing activities.</li>
+            </ul>
+            <li#>
+                <strong>Customer Journey Guidance</strong> <em>From my company "Needs" to how I can "Influence" a Community</em>.
+                This table provides an overview of how OMA can improve the adoption of OMA LwM2M Protocol.
+                Companies are faced with the hard task to understand and decide how they can incorporate IoT technologies in their business. The "journey" is characterized by a series of phases. At each phase the customer is faced with different challenges.
+                Within the confines of this journey the table indicates how to remove technical and business barriers for the adoption of the OMA LwM2M Protocol.
+            </li#>
+            <div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Phase</th>
+                            <th>Customer Journey</th>
+                            <th>Material</th>
+                            <th>Description</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <p>Adopt</p>
+                            </td>
+                            <td>
+                                On-board & self-service content
+                            </td>
+                            <td>
+                                <p>Introducing customers to support resources and online communities</p>
+                                <ul>
+                                    <li>OMA LwM2M Developer Toolkit</li>
+                                </ul>
+                            </td>
+                            <td>
+                                Do-it-yourself material that introduce the customer to the solution
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p>Decide</p>
+                            </td>
+                            <td>
+                                &nbsp;
+                            </td>
+                            <td>
+                                <ul>
+                                    <li>
+                                        Customer success stories
+                                    </li>
+                                    <li>
+                                        Research reports
+                                    </li>
+                                    <li>
+                                        Product fact sheets, etc
+                                    </li>
+                                    <li>Who is implementing this technology</li>
+                                </ul>
+                            </td>
+                            <td>
+                                This material validates the proposed solution.
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p>Influence</p>
+                            </td>
+                            <td>
+                                My company is contributing to the core technology of this Community
+                            </td>
+                            <td>
+                                Benefits of influencing the core technology
+                            </td>
+                            <td>
+                                My company want to influence the core technology
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p>Need</p>
+                            </td>
+                            <td>
+                                IoT motivation
+                            </td>
+                            <td>
+                                <ul>
+                                    <li>Basic Principles</li>
+                                    <li>
+                                        &nbsp;IoT Challenges:
+                                        <ul>
+                                            <li>
+                                                Physical
+                                                <ul>
+                                                    <li>
+                                                        Constrained Devices
+                                                    </li>
+                                                    <li>
+                                                        Constrained Networks
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                            <li>
+                                                Business
+                                            </li>
+                                            <li>Technical </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </td>
+                            <td>
+                                Content validates the customer's need to solve the problem
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Recommend
+                            </td>
+                            <td>
+                                My company wants to grow this Community
+                            </td>
+                            <td>
+                                <ul>
+                                    <li>
+                                        Use Cases - How LwM2M helped me to resolve my problem
+                                    </li>
+                                    <li>
+                                        Why you should be part of this Community<ul>
+                                            <li>What does it mean and what does not mean this Community</li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </td>
+                            <td>
+                                Customer realizes that they are part of an Ecosystem in which their company can thrive by working together.
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Research
+                            </td>
+                            <td>
+                                What my company should look for?
+                                <br>What are the options?
+                            </td>
+                            <td>
+                                <ul>
+                                    <li>
+                                        IoT Global Solution
+                                    </li>
+                                    <li>
+                                        Technology Evaluation
+                                        <ul>
+                                            <li>
+                                                Protocol for Smart Objects
+                                            </li>
+                                            <li>
+                                                Application Security
+                                            </li>
+                                            <li>
+                                                Network Security
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li>Be part of an Ecosystem and a Community</li>
+                                </ul>
+                            </td>
+                            <td>
+                                Content explains the problem and provides a path forward
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Use
+                            </td>
+                            <td>
+                                Be part of a Community
+                            </td>
+                            <td>
+                                <ul>
+                                    <li>
+                                        OMA LwM2M Developer ToolKit
+                                    </li>
+                                    <li>
+                                        User conferences
+                                    </li>
+                                    <li>Product specific webinar</li>
+                                </ul>
+                            </td>
+                            <td>
+                                OMA LwM2M Developer ToolKit
+                                User conferences
+                                Product specific webinar
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <!-- This gets populated with the footer.html using Javascript -->
+        <div id="footer"></div>
+
+        <!-- Start of Async HubSpot Analytics Code -->
+        <script type="text/javascript">
+            (function (d, s, i, r) {
+                if (d.getElementById(i)) { return; }
+                var n = d.createElement(s), e = d.getElementsByTagName(s)[0];
+                n.id = i; n.src = '//js.hs-analytics.net/analytics/' + (Math.ceil(new Date() / r) * r) + '/183757.js';
+                e.parentNode.insertBefore(n, e);
+            })(document, "script", "hs-analytics", 300000);
+        </script>
+        <!-- End of Async HubSpot Analytics Code -->
+
+</body>
+</html>
