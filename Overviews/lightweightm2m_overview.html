@@ -5,39 +5,28 @@
     <title>Open Mobile Alliance - LightweightM2M V1.0 Overview</title>
     <meta charset="utf-8">
     <script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
-    <script src="Scripts/specifications.js"></script>
-
+    <!-- Font awesome for arrows -->
+    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
     <!-- Normalize CSS -->
-    <link rel="stylesheet" href="CSS/Normalize.css" />
-
+    <link rel="stylesheet" href="/CSS/Normalize.css">
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
-
     <!-- Optional theme -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
-
-    <link rel="stylesheet" href="CSS/Site.css">
-    <link rel="stylesheet" href="CSS/specifications.css">
-
+    <link rel="stylesheet" href="/CSS/Site.css">
+    <link rel="stylesheet" href="/CSS/registries.css">
+    <link rel="stylesheet" href="/CSS/grid_oocss.css">
+    <link rel="stylesheet" href="/CSS/spacing.css">
     <script>
         $(function () {
-            //// Force no cache
-            //$.ajaxSetup({
-            //    // Disable caching of AJAX responses
-            //    cache: false
-            //});
-
-            $('#header').load("header.html");
-            $('#footer').load("footer.html");
+            $('#header').load("/header.html");
+            $('#footer').load("/footer.html");
         });
     </script>
 </head>
-
-
 <body>
     <!-- This gets populated with the header.html using Javascript -->
     <div id="header"></div>
-
     <div class="container">
         <div>
             <h1>
@@ -68,12 +57,12 @@
                 <li><strong>Enabler Test Specification</strong><br />This document describes in detail available test cases for LightweightM2M as specified in OMA-TS-LightweightM2M-V1_0. The test cases are split in two categories, conformance and interoperability test cases. The conformance test cases are aimed to verify the adherence to normative requirements described in the technical specifications. The interoperability test cases are aimed to verify that implementations of the specifications work satisfactory.</li>
                 <li><strong>Enabler Validation Plan</strong><br />This document details the Validation plan for the Lightweight M2M V1.0 Enabler Release. The successful accomplishment of the validation activities will be required for the Enabler to be considered for Approved status. The validation plan for the Lightweight M2M V1.0 Enabler Release specifications is based on testing expectations in the Enabler Test Requirements (ETR). While the specific test activities to be performed are described in the Enabler Test Specification (ETS) the test environment is described in this plan. This test environment details infrastructure, operational and participation requirements identified for the needed testing activities.</li>
             </ul>
- <p>
+            <p>
                 <strong>Customer Journey Guidance</strong> <em>From my company "Needs" to how I can "Influence" a Community</em>.
                 This table provides an overview of how OMA can improve the adoption of OMA LwM2M Protocol.
                 Companies are faced with the hard task to understand and decide how they can incorporate IoT technologies in their business. The "journey" is characterized by a series of phases. At each phase the customer is faced with different challenges.
                 Within the confines of this journey the table indicates how to remove technical and business barriers for the adoption of the OMA LwM2M Protocol.
-     </p>
+            </p>
             <div>
                 <table>
                     <thead>
@@ -87,63 +76,7 @@
                     <tbody>
                         <tr>
                             <td>
-                                <p>Adopt</p>
-                            </td>
-                            <td>
-                                On-board & self-service content
-                            </td>
-                            <td>
-                                <p>Introducing customers to support resources and online communities</p>
-                                <ul>
-                                    <li>OMA LwM2M Developer Toolkit</li>
-                                </ul>
-                            </td>
-                            <td>
-                                Do-it-yourself material that introduce the customer to the solution
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <p>Decide</p>
-                            </td>
-                            <td>
-                                &nbsp;
-                            </td>
-                            <td>
-                                <ul>
-                                    <li>
-                                        Customer success stories
-                                    </li>
-                                    <li>
-                                        Research reports
-                                    </li>
-                                    <li>
-                                        Product fact sheets, etc
-                                    </li>
-                                    <li>Who is implementing this technology</li>
-                                </ul>
-                            </td>
-                            <td>
-                                This material validates the proposed solution.
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <p>Influence</p>
-                            </td>
-                            <td>
-                                My company is contributing to the core technology of this Community
-                            </td>
-                            <td>
-                                Benefits of influencing the core technology
-                            </td>
-                            <td>
-                                My company want to influence the core technology
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <p>Need</p>
+                                Need
                             </td>
                             <td>
                                 IoT motivation
@@ -152,7 +85,7 @@
                                 <ul>
                                     <li>Basic Principles</li>
                                     <li>
-                                        &nbsp;IoT Challenges:
+                                        IoT Challenges:
                                         <ul>
                                             <li>
                                                 Physical
@@ -168,36 +101,14 @@
                                             <li>
                                                 Business
                                             </li>
-                                            <li>Technical </li>
+                                            <li>Technical</li>
                                         </ul>
                                     </li>
                                 </ul>
+
                             </td>
                             <td>
                                 Content validates the customer's need to solve the problem
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                Recommend
-                            </td>
-                            <td>
-                                My company wants to grow this Community
-                            </td>
-                            <td>
-                                <ul>
-                                    <li>
-                                        Use Cases - How LwM2M helped me to resolve my problem
-                                    </li>
-                                    <li>
-                                        Why you should be part of this Community<ul>
-                                            <li>What does it mean and what does not mean this Community</li>
-                                        </ul>
-                                    </li>
-                                </ul>
-                            </td>
-                            <td>
-                                Customer realizes that they are part of an Ecosystem in which their company can thrive by working together.
                             </td>
                         </tr>
                         <tr>
@@ -236,6 +147,42 @@
                         </tr>
                         <tr>
                             <td>
+                                <p>Decide</p>
+                            </td>
+                            <td>
+                                &nbsp;
+                            </td>
+                            <td>
+                                <ul>
+                                    <li>Customer success stories</li>
+                                    <li>Research reports</li>
+                                    <li>Product fact sheets, etc </li>
+                                    <li>Who is implementing this technology</li>
+                                </ul>
+                            </td>
+                            <td>
+                                This material validates the proposed solution.
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p>Adopt</p>
+                            </td>
+                            <td>
+                                On-board & self-service content
+                            </td>
+                            <td>
+                                <p>Introducing customers to support resources and online communities</p>
+                                <ul>
+                                    <li>OMA LwM2M Developer Toolkit</li>
+                                </ul>
+                            </td>
+                            <td>
+                                Do-it-yourself material that introduce the customer to the solution
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
                                 Use
                             </td>
                             <td>
@@ -253,11 +200,47 @@
                                 </ul>
                             </td>
                             <td>
-                                OMA LwM2M Developer ToolKit
-                                User conferences
-                                Product specific webinar
+                                User matures with their use of the technology and turn to more technical resources to expand their knowledge
                             </td>
                         </tr>
+                        <tr>
+                            <td>
+                                Recommend
+                            </td>
+                            <td>
+                                My company wants to grow this Community
+                            </td>
+                            <td>
+                                <ul>
+                                    <li>
+                                        Use Cases - How LwM2M helped me to resolve my problem
+                                    </li>
+                                    <li>
+                                        Why you should be part of this Community<ul>
+                                            <li>What does it mean and what does not mean this Community</li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </td>
+                            <td>
+                                Customer realizes that they are part of an Ecosystem in which their company can thrive by working together.
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p>Influence</p>
+                            </td>
+                            <td>
+                                My company is contributing to the core technology of this Community
+                            </td>
+                            <td>
+                                Benefits of influencing the core technology
+                            </td>
+                            <td>
+                                My company want to influence the core technology
+                            </td>
+                        </tr>
+
                     </tbody>
                 </table>
             </div>
