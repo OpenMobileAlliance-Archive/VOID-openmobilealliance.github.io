@@ -45,10 +45,10 @@
         <table id="publicdocuments-table" class="table-bordered">
             <thead>
                 <tr>
-                    <th>Abstract Protocol Binding</th>
-                    <th>HTTP Protocol Binding</th>
-                    <th>SOAP Web Services Protocol Binding</th>
-                    <th>WebIDL Protocol Binding</th>
+                    <th><a href="#Abstract Protocol Binding">Abstract Protocol Binding</a></th>
+                    <th><a href="#HTTP Protocol Binding">HTTP Protocol Binding</a></th>
+                    <th><a href="#SOAP Web Services Protocol Binding">SOAP Web Services Protocol Binding</a></th>
+                    <th><a href="#WebIDL Protocol Binding">WebIDL Protocol Binding</a></th>
                 </tr>
             </thead>
         </table>
@@ -58,7 +58,7 @@
             <thead>
                 <tr>
                     <th>API Name</th>
-                    <th>Abstract Protocol Binding</th>
+                    <th><a href="#top">Abstract Protocol Binding</a><a name="Abstract Protocol Binding"></a></th>
                 </tr>
             </thead>
             <tbody>
@@ -151,7 +151,7 @@
             <thead>
                 <tr>
                     <th>API Name</th>
-                    <th>HTTP Protocol Binding</th>
+                    <th><a href="#top">HTTP Protocol Binding</a><a name="HTTP Protocol Binding"></a></th>
                 </tr>
             </thead>
             <tbody>
@@ -311,7 +311,7 @@
             <thead>
                 <tr>
                     <th>API Name</th>
-                    <th>SOAP Web Services Protocol Binding</th>
+                    <th><a href="#top">SOAP Web Services Protocol Binding</a><a name="SOAP Web Services Protocol Binding"></a></th>
                 </tr>
             </thead>
             <tbody>
@@ -470,7 +470,7 @@
             <thead>
                 <tr>
                     <th>API Name</th>
-                    <th>WebIDL Protocol Binding</th>
+                    <th><a href="#top">WebIDL Protocol Binding</a><a name="WebIDL Protocol Binding"></a></th>
                 </tr>
             </thead>
             <tbody>
