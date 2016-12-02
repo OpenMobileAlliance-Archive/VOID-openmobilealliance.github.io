@@ -157,13 +157,13 @@
             <tbody>
                 <tr>
                     <td>
-                        <a target="_blank" href="http://validator.openmobilealliance.org/VALIDATED/">WebRTC Signaling</a>
+                        <a target="_blank" href="http://devwww.openmobilealliance.org/release/REST_NetAPI_WebRTCSignaling/">WebRTC Signaling</a>
                     </td>
                     <td>
                         <ul>
                             <li>
                                 <p>
-                                    TRESTful Network API for WebRTC Signaling 1.0
+                                    RESTful Network API for WebRTC Signaling 1.0
                                 </p>
                             </li>
                         </ul>
@@ -171,7 +171,7 @@
                 </tr>
                 <tr>
                     <td>
-                        <a target="_blank" href="http://validator.openmobilealliance.org/cgi/">Address Book</a>
+                        <a target="_blank" href="http://devwww.openmobilealliance.org/release/AddressBookREST/">Address Book</a>
                     </td>
                     <td>
                         <ul>
@@ -185,7 +185,7 @@
                 </tr>
                 <tr>
                     <td>
-                        <a target="_blank" href="https://wiki.openmobilealliance.org/display/TOOL/eMO+Editor">Address List Management</a>
+                        <a target="_blank" href="http://devwww.openmobilealliance.org/release/ParlayREST/">Address List Management</a>
                     </td>
                     <td>
                         <ul>
@@ -199,7 +199,7 @@
                 </tr>
                 <tr>
                     <td>
-                        <a target="_blank" href="https://wiki.openmobilealliance.org/display/TOOL/eLwM2M+Editor">Anonymous Customer Reference Management</a>
+                        <a target="_blank" href="http://devwww.openmobilealliance.org/release/REST_NetAPI_ACR/">Anonymous Customer Reference Management</a>
                     </td>
                     <td>
                         <ul>
@@ -213,21 +213,7 @@
                 </tr>
                 <tr>
                     <td>
-                        <a target="_blank" href="https://wiki.openmobilealliance.org/display/TOOL/eLwM2M+Editor">Audio Call</a>
-                    </td>
-                    <td>
-                        <ul>
-                            <li>
-                                <p>
-                                    RESTful bindings for Parlay X Web Services 2.0
-                                </p>
-                            </li>
-                        </ul>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <a target="_blank" href="https://wiki.openmobilealliance.org/display/TOOL/eLwM2M+Editor">Audio Call</a>
+                        <a target="_blank" href="http://devwww.openmobilealliance.org/release/AudioCallREST/">Audio Call</a>
                     </td>
                     <td>
                         <ul>
@@ -241,21 +227,7 @@
                 </tr>
                 <tr>
                     <td>
-                        <a target="_blank" href="https://wiki.openmobilealliance.org/display/TOOL/eLwM2M+Editor">Authorization Framework for Network APIs</a>
-                    </td>
-                    <td>
-                        <ul>
-                            <li>
-                                <p>
-                                    Authorization Framework for Network APIs 1.0
-                                </p>
-                            </li>
-                        </ul>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <a target="_blank" href="https://wiki.openmobilealliance.org/display/TOOL/eLwM2M+Editor">Call Notification</a>
+                        <a target="_blank" href="http://devwww.openmobilealliance.org/release/ParlayREST/">Audio Call</a>
                     </td>
                     <td>
                         <ul>
@@ -269,7 +241,35 @@
                 </tr>
                 <tr>
                     <td>
-                        <a target="_blank" href="https://wiki.openmobilealliance.org/display/TOOL/eLwM2M+Editor">Call Notification</a>
+                        <a target="_blank" href="http://devwww.openmobilealliance.org/release/Autho4API/">Authorization Framework for Network APIs</a>
+                    </td>
+                    <td>
+                        <ul>
+                            <li>
+                                <p>
+                                    Authorization Framework for Network APIs 1.0
+                                </p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a target="_blank" href="http://devwww.openmobilealliance.org/release/ParlayREST/">Call Notification</a>
+                    </td>
+                    <td>
+                        <ul>
+                            <li>
+                                <p>
+                                    RESTful bindings for Parlay X Web Services 2.0
+                                </p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a target="_blank" href="http://devwww.openmobilealliance.org/release/CallNotificationREST/">Call Notification</a>
                     </td>
                     <td>
                         <ul>
@@ -283,7 +283,7 @@
                 </tr>
                 <tr>
                     <td>
-                        <a target="_blank" href="https://wiki.openmobilealliance.org/display/TOOL/eLwM2M+Editor">Capability Discovery</a>
+                        <a target="_blank" href="http://devwww.openmobilealliance.org/release/RESTNetAPI_Cap_Disc/">Capability Discovery</a>
                     </td>
                     <td>
                         <ul>
@@ -317,7 +317,7 @@
             <tbody>
                 <tr>
                     <td>
-                        <a target="_blank" href="http://validator.openmobilealliance.org/VALIDATED/">Account management</a>
+                        <a target="_blank" href="http://devwww.openmobilealliance.org/release/PSA/">Account management</a>
                     </td>
                     <td>
                         <ul>
@@ -331,7 +331,7 @@
                 </tr>
                 <tr>
                     <td>
-                        <a target="_blank" href="http://validator.openmobilealliance.org/cgi/">Address List Management	</a>
+                        <a target="_blank" href="http://devwww.openmobilealliance.org/release/PSA/">Address List Management	</a>
                     </td>
                     <td>
                         <ul>
@@ -345,7 +345,7 @@
                 </tr>
                 <tr>
                     <td>
-                        <a target="_blank" href="https://wiki.openmobilealliance.org/display/TOOL/eMO+Editor">Application driven Quality of Service (QoS)</a>
+                        <a target="_blank" href="http://devwww.openmobilealliance.org/release/PSA/">Application driven Quality of Service (QoS)</a>
                     </td>
                     <td>
                         <ul>
@@ -359,7 +359,7 @@
                 </tr>
                 <tr>
                     <td>
-                        <a target="_blank" href="https://wiki.openmobilealliance.org/display/TOOL/eLwM2M+Editor">Audio Call</a>
+                        <a target="_blank" href="http://devwww.openmobilealliance.org/release/PSA/">Audio Call</a>
                     </td>
                     <td>
                         <ul>
@@ -373,7 +373,7 @@
                 </tr>
                 <tr>
                     <td>
-                        <a target="_blank" href="https://wiki.openmobilealliance.org/display/TOOL/eLwM2M+Editor">Call Control</a>
+                        <a target="_blank" href="http://devwww.openmobilealliance.org/release/NGSI_S/">Call Control</a>
                     </td>
                     <td>
                         <ul>
@@ -387,7 +387,7 @@
                 </tr>
                 <tr>
                     <td>
-                        <a target="_blank" href="https://wiki.openmobilealliance.org/display/TOOL/eLwM2M+Editor">Call Handling</a>
+                        <a target="_blank" href="http://devwww.openmobilealliance.org/release/NGSI_S/">Call Handling</a>
                     </td>
                     <td>
                         <ul>
@@ -401,7 +401,7 @@
                 </tr>
                 <tr>
                     <td>
-                        <a target="_blank" href="https://wiki.openmobilealliance.org/display/TOOL/eLwM2M+Editor">Call Handling</a>
+                        <a target="_blank" href="http://devwww.openmobilealliance.org/release/PSA/">Call Handling</a>
                     </td>
                     <td>
                         <ul>
@@ -415,7 +415,7 @@
                 </tr>
                 <tr>
                     <td>
-                        <a target="_blank" href="https://wiki.openmobilealliance.org/display/TOOL/eLwM2M+Editor">Call Notification</a>
+                        <a target="_blank" href="http://devwww.openmobilealliance.org/release/PSA/">Call Notification</a>
                     </td>
                     <td>
                         <ul>
@@ -429,7 +429,7 @@
                 </tr>
                 <tr>
                     <td>
-                        <a target="_blank" href="https://wiki.openmobilealliance.org/display/TOOL/eLwM2M+Editor">Call Notification</a>
+                        <a target="_blank" href="http://devwww.openmobilealliance.org/release/NGSI_S/">Call Notification</a>
                     </td>
                     <td>
                         <ul>
@@ -443,7 +443,7 @@
                 </tr>
                 <tr>
                     <td>
-                        <a target="_blank" href="https://wiki.openmobilealliance.org/display/TOOL/eLwM2M+Editor">Common</a>
+                        <a target="_blank" href="http://devwww.openmobilealliance.org/release/NGSI_S/">Common</a>
                     </td>
                     <td>
                         <ul>
@@ -476,7 +476,7 @@
             <tbody>
                 <tr>
                     <td>
-                        <a target="_blank" href="https://wiki.openmobilealliance.org/display/TOOL/eLwM2M+Editor">Web Runtime API</a>
+                        <a target="_blank" href="http://devwww.openmobilealliance.org/release/WRAPI/">Web Runtime API</a>
                     </td>
                     <td>
                         <ul>
