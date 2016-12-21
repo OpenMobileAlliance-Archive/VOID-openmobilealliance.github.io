@@ -631,6 +631,7 @@ a div.btn:hover {
 }
 .fh-3 {
 	height:40px;
+	overflow: hidden;
 }
 .fh-4 {
 	height:20px;
