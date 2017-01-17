@@ -15,9 +15,13 @@ function TablesWithRowspanStyleChanges() {
 function SetUpExpandableTDs() {
     // Wrap the contents of the last td in a div to remove overflow
     $('.descriptive-table').find('td:last-child').wrapInner('<div class="expandable" />');
-
+    
     // Check that there is overflow happening and make the item expandable if it is
     $('div.expandable').each(function (index, item) {
+        // Make the expandable div the same height as its container
+        $div = $(item);
+        $div.height($div.closest('td').height());
+
         makeExpandable(item);
     });
 

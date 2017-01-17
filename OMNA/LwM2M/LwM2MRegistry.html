@@ -1,4 +1,4 @@
-<!doctype html>
+﻿<!doctype html>
 <html>
 <head>
     <title>Open Mobile Alliance - LwM2M Registry</title>
@@ -7,19 +7,23 @@
     <!-- Font awesome for arrows -->
     <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
     <!-- Normalize CSS -->
-    <link rel="stylesheet" href="CSS/Normalize.css" />
+    <link rel="stylesheet" href="../../CSS/Normalize.css" />
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
     <!-- Optional theme -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
-    <link rel="stylesheet" href="/wp/CSS/Site.css">
-    <link rel="stylesheet" href="/wp/CSS/tabledregistries.css">
-    <script src="/wp/Scripts/tabledregistries.js"></script>
+    <link rel="stylesheet" href="../../CSS/Site.css">
+    <link rel="stylesheet" href="../../CSS/tabledregistries.css">
+    <script src="../../Scripts/tabledregistries.js"></script>
+    <script src="../../Scripts/xmlregistries.js"></script>
     <script>
         $(document).ready(function () {
-            $('#header').load("/wp/header.html");
-            $('#footer').load("/wp/footer.html");
-            $('#LwM2MObjects').load("LwM2MObjects.html", function () { SetUpExpandableTDs(); TablesWithRowspanStyleChanges(); });
+            $('#header').load("../../header.html");
+            $('#footer').load("../../footer.html");
+            //$('#LwM2MObjects').load("LwM2MObjects.html", function () { SetUpExpandableTDs(); TablesWithRowspanStyleChanges(); });
+            DisplayXML('../../DDF.xml');
+            SetUpExpandableTDs();
+            TablesWithRowspanStyleChanges();
         });
     </script>
 </head>
@@ -189,7 +193,3520 @@
                 </tbody>
             </table>
         </div>
-        <div id="LwM2MObjects"></div>
+        <!-- This table gets filled in from the DDF.xml file -->
+        <div>
+            <h2>LwM2M Objects</h2>
+            <h3 id="omalabel"><strong>oma-label</strong> Objects Produced by OMA</h3>
+            <p><code>URN: urn:oma:lwm2m:oma:ObjectID | range (0 - 1,023)</code></p>
+            <table id="LwM2MObjects_tbl" class="descriptive-table">
+                <thead>
+                    <tr>
+                        <th style="width: 143px">URN / Version</th>
+                        <th>ObjectID / xml</th>
+                        <th>LwM2M Editor</th>
+                        <th>Vorto</th>
+                        <th>Object Name / Specification</th>
+                        <th>Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                </tbody>
+                <caption>
+                    Objects in the above table (oma-label) are only registered by OMA Working Groups via an internal registratin process, called OMNA.
+                    <a title="OMA Working Groups click here to register" href="http://dev_devtoolkit.openmobilealliance.org/OEditor/Register">Click to register.</a>
+                </caption>
+            </table>
+        </div>
+
+        <div>
+            <h3 id="extlabel"> <strong>ext-label</strong> Objects Produced by 3rd party Standards Development Organizations</h3>
+            <p><code>URN: urn:oma:lwm2m:ext:ObjectID | range (2,048 - 10,240)</code></p>
+            <table class="descriptive-table">
+                <thead>
+                    <tr>
+                        <th>URN / Version</th>
+                        <th>ObjectID / xml</th>
+                        <th>LwM2M Editor</th>
+                        <th>Vorto</th>
+                        <th>Object Name / Specification</th>
+                        <th>Owner</th>
+                        <th>Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>urn:oma:lwm2m:ext:2048  </td>
+                        <td>
+                            2048
+                        </td>
+                        <td>
+                            <!-- Link not available yet -->
+                            <a>2048 </a>
+                        </td>
+                        <td>
+                            <!-- Link not available yet -->
+                            <a>-</a>
+                        </td>
+                        <td>
+                            <a href="http://www.onem2m.org/images/files/deliverables/TS-0005-Management_Enablement_(OMA)-V1_0_1.pdf" title="download document">
+                                CmdhPolicy
+                            </a>
+                        </td>
+                        <td>
+                            <p>OneM2M</p>
+                        </td>
+                        <td>
+                            <p>-</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>urn:oma:lwm2m:ext:2049 </td>
+                        <td>
+                            2049
+                        </td>
+                        <td>
+                            <!-- Link not available yet -->
+                            <a>2049 </a>
+                        </td>
+                        <td>
+                            <!-- Link not available yet -->
+                            <a>-</a>
+                        </td>
+                        <td>
+                            <a href="http://www.onem2m.org/images/files/deliverables/TS-0005-Management_Enablement_(OMA)-V1_0_1.pdf" title="download document">ActiveCmdhPolicy</a>
+                        </td>
+                        <td>
+                            <p>OneM2M</p>
+                        </td>
+                        <td>
+                            <p>-</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>urn:oma:lwm2m:ext:2050 </td>
+                        <td>
+                            2050
+                        </td>
+                        <td>
+                            <!-- Link not available yet -->
+                            <a>2050</a>
+                        </td>
+                        <td>
+                            <!-- Link not available yet -->
+                            <a>-</a>
+                        </td>
+                        <td>
+                            <a href="http://www.onem2m.org/images/files/deliverables/TS-0005-Management_Enablement_(OMA)-V1_0_1.pdf" title="download document">ACmdhDefaults</a>
+                        </td>
+                        <td>
+                            <p>OneM2M</p>
+                        <td>
+                            <p>-</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>urn:oma:lwm2m:ext:2051</td>
+                        <td>
+                            2051
+                        </td>
+                        <td>
+                            <!-- Link not available yet -->
+                            <a>2051</a>
+                        </td>
+                        <td>
+                            <!-- Link not available yet -->
+                            <a>-</a>
+                        </td>
+                        <td>
+                            <a href="http://www.onem2m.org/images/files/deliverables/TS-0005-Management_Enablement_(OMA)-V1_0_1.pdf">CmdhDefEcValues</a>
+                        </td>
+                        <td>
+                            OneM2M
+                        <td>
+                            -
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>urn:oma:lwm2m:ext:2052</td>
+                        <td>
+                            2052
+                        </td>
+                        <td>
+                            <!-- Link not available yet -->
+                            <a>2052</a>
+                        </td>
+                        <td>
+                            <!-- Link not available yet --><a>-</a>
+                        </td>
+                        <td>
+                            <a href="http://www.onem2m.org/images/files/deliverables/TS-0005-Management_Enablement_(OMA)-V1_0_1.pdf">cmdhDefEcParamsValues</a>
+                        </td>
+                        <td>
+                            OneM2M
+                        <td>
+                            -
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>urn:oma:lwm2m:ext:2053</td>
+                        <td>
+                            2053
+                        </td>
+                        <td>
+                            <!-- Link not available yet -->
+                            <a>2053</a>
+                        </td>
+                        <td>
+                            <!-- Link not available yet -->
+                            <a>-</a>
+                        </td>
+                        <td>
+                            <a href="http://www.onem2m.org/images/files/deliverables/TS-0005-Management_Enablement_(OMA)-V1_0_1.pdf">CmdhLimits</a>
+                        </td>
+                        <td>
+                            OneM2M
+                        <td>
+                            -
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>urn:oma:lwm2m:ext:2054</td>
+                        <td>
+                            2054
+                        </td>
+                        <td>
+                            <!-- Link not available yet -->
+                            <a>2054</a>
+                        </td>
+                        <td>
+                            <!-- Link not available yet -->
+                            <a>-</a>
+                        </td>
+                        <td>
+                            <a href="http://www.onem2m.org/images/files/deliverables/TS-0005-Management_Enablement_(OMA)-V1_0_1.pdf">CmdhNetworkAccessRules</a>
+                        </td>
+                        <td>
+                            OneM2M
+                        <td>
+                            -
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>urn:oma:lwm2m:ext:2055</td>
+                        <td>
+                            2055
+                        </td>
+                        <td>
+                            <!-- Link not available yet -->
+                            <a>2055</a>
+                        </td>
+                        <td>
+                            <!-- Link not available yet -->
+                            <a>-</a>
+                        </td>
+                        <td>
+                            <a href="http://www.onem2m.org/images/files/deliverables/TS-0005-Management_Enablement_(OMA)-V1_0_1.pdf">CmdhNwAccessRule</a>
+                        </td>
+                        <td>
+                            OneM2M
+                        <td>
+                            -
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>urn:oma:lwm2m:ext:2056</td>
+                        <td>
+                            2056
+                        </td>
+                        <td>
+                            <!-- Link not available yet -->
+                            <a>2056</a>
+                        </td>
+                        <td>
+                            <!-- Link not available yet -->
+                            <a>-</a>
+                        </td>
+                        <td>
+                            <a href="http://www.onem2m.org/images/files/deliverables/TS-0005-Management_Enablement_(OMA)-V1_0_1.pdf">CmdhBuffer</a>
+                        </td>
+                        <td>
+                            OneM2M
+                        <td>
+                            -
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>urn:oma:lwm2m:ext:3200</td>
+                        <td>
+                            <a href="http://www.openmobilealliance.org/tech/profiles/lwm2m/3200.xml">3200</a>
+                        </td>
+                        <td>
+                            <a href="http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3a%2f%2fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3200.xml" title="call the Editor">3200</a>
+                        </td>
+                        <td>
+                            <a href="http://vorto.eclipse.org/resolve/lwm2m/3200" title="Call Vorto">3200</a>
+                        </td>
+                        <td>
+                            <a href="http://www.ipso-alliance.org/smart-object-guidelines">Digital</a>
+                        </td>
+                        <td>
+                            IPSO Alliance
+                        <td>
+                            This IPSO object is a generic object that can be used with any kind of digital input interface. Specific objects for a given range of sensors are described later in the document, enabling to identify the type of sensors directly from its Object ID. This object may be used as a generic object if a dedicated one does not exist.
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>urn:oma:lwm2m:ext:3201</td>
+                        <td>
+                            <a href="http://www.openmobilealliance.org/tech/profiles/lwm2m/3201.xml">3201</a>
+                        </td>
+                        <td>
+                            <a href="http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3201.xml" title="call the Editor">3201</a>
+                        </td>
+                        <td>
+                            <!-- Link not available yet -->
+                            <a>-</a>
+                        </td>
+                        <td>
+                            <a href="http://www.ipso-alliance.org/smart-object-guidelines">Digital Output</a>
+                        </td>
+                        <td>
+                            IPSO Alliance
+                        <td>
+                            This IPSO object is a generic object that can be used with any kind of digital output interface. Specific object for a given range of sensors is described later in the document, enabling to identify the type of sensors directly from its Object ID. This object may be used as a generic object if a dedicated one does not exist.
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>urn:oma:lwm2m:ext:3202</td>
+                        <td>
+                            <a href="http://www.openmobilealliance.org/tech/profiles/lwm2m/3202.xml">3202</a>
+                        </td>
+                        <td>
+                            <a href="http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3202.xml" title="call the Editor">3202</a>
+                        </td>
+                        <td>
+                            <!-- Link not available yet -->
+                            <a>-</a>
+                        </td>
+                        <td>
+                            <a href="http://www.ipso-alliance.org/smart-object-guidelines">Analogue Input</a>
+                        </td>
+                        <td>
+                            IPSO Alliance
+                        <td>
+                            This IPSO object is a generic object that can be used with any kind of analogue input interface. Specific object for a given range of sensors is described later in the document, enabling to identify the type of sensors directly from its Object ID. This object may be used as a generic object if a dedicated one does not exist.
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>urn:oma:lwm2m:ext:3203</td>
+                        <td>
+                            <a href="http://www.openmobilealliance.org/tech/profiles/lwm2m/3203.xml">3203</a>
+                        </td>
+                        <td>
+                            <a href="http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3203.xml" title="call the Editor">3203</a>
+                        </td>
+                        <td>
+                            <!-- Link not available yet -->
+                            <a>-</a>
+                        </td>
+                        <td>
+                            <a href="http://www.ipso-alliance.org/smart-object-guidelines">Analogue Output</a>
+                        </td>
+                        <td>
+                            IPSO Alliance
+                        <td>
+                            This IPSO object is a generic object that can be used with any kind of analogue input interface. Specific object for a given range of sensors is described later in the document, enabling to identify the type of sensors directly from its Object ID. This object may be used as a generic object if a dedicated one does not exist.
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>urn:oma:lwm2m:ext:3300</td>
+                        <td>
+                            <a href="http://www.openmobilealliance.org/tech/profiles/lwm2m/3300.xml">3300</a>
+                        </td>
+                        <td>
+                            <a href="http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3300.xml" title="call the Editor">3300</a>
+                        </td>
+                        <td>
+                            <!-- Link not available yet -->
+                            <a>-</a>
+                        </td>
+                        <td>
+                            <a href="http://www.ipso-alliance.org/smart-object-guidelines">Generic Sensor</a>
+                        </td>
+                        <td>
+                            IPSO Alliance
+                        <td>
+                            This IPSO object allow the description of a generic sensor. It is based on the description of a value and a unit according to the UCUM specification. Thus, any type of value defined within this specification can be reporting using this object. Specific object for a given range of sensors is described later in the document, enabling to identify the type of sensors directly from its Object ID. This object may be used as a generic object if a dedicated one does not exist.
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>urn:oma:lwm2m:ext:3301</td>
+                        <td>
+                            <a href="http://www.openmobilealliance.org/tech/profiles/lwm2m/3301.xml">3301</a>
+                        </td>
+                        <td>
+                            <a href="http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3a%2f%2fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3301.xml" title="call the Editor">3301</a>
+                        </td>
+                        <td>
+                            <!-- Link not available yet -->
+                            <a>-</a>
+                        </td>
+                        <td>
+                            <a href="http://www.ipso-alliance.org/smart-object-guidelines">Illuminance Sensor</a>
+                        </td>
+                        <td>
+                            IPSO Alliance
+                        <td>
+                            This IPSO object should be used over a luminosity sensor to report a remote luminosity measurement. It also provides resources for minimum/maximum measured values and the minimum/maximum range that can be measured by the luminosity sensor. The unit used here is Lux (ucum:lx).
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>urn:oma:lwm2m:ext:3302</td>
+                        <td>
+                            <a href="http://www.openmobilealliance.org/tech/profiles/lwm2m/3302.xml">3302</a>
+                        </td>
+                        <td>
+                            <a href="http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3302.xml" title="call the Editor">3302</a>
+                        </td>
+                        <td>
+                            <!-- Link not available yet -->
+                            <a>-</a>
+                        </td>
+                        <td>
+                            <a href="http://www.ipso-alliance.org/smart-object-guidelines">Presence Sensor</a>
+                        </td>
+                        <td>
+                            IPSO Alliance
+                        <td>
+                            This IPSO object should be used over a presence sensor to report a remote presence detection. It also provides resources to manage a counter, the type of sensor used (e.g the technology of the probe), and configuration for the delay between busy and clear detection state.
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>urn:oma:lwm2m:ext:3303</td>
+                        <td>
+                            <a href="http://www.openmobilealliance.org/tech/profiles/lwm2m/3303.xml">3303</a>
+                        </td>
+                        <td>
+                            <a href="http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3303.xml" title="call the Editor">3303</a>
+                        </td>
+                        <td>
+                            <!-- Link not available yet -->
+                            <a>-</a>
+                        </td>
+                        <td>
+                            <a href="http://www.ipso-alliance.org/smart-object-guidelines">Temperature Sensor</a>
+                        </td>
+                        <td>
+                            IPSO Alliance
+                        <td>
+                            This IPSO object should be used over a temperature sensor to report a remote temperature measurement. It also provides resources for minimum/maximum measured values and the minimum/maximum range that can be measured by the temperature sensor. The unit used here is degree Celsius (ucum:Cel).
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>urn:oma:lwm2m:ext:3304</td>
+                        <td>
+                            <a href="http://www.openmobilealliance.org/tech/profiles/lwm2m/3304.xml">3304</a>
+                        </td>
+                        <td>
+                            <a href="http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3304.xml" title="call the Editor">3304</a>
+                        </td>
+                        <td>
+                            <!-- Link not available yet -->
+                            <a>-</a>
+                        </td>
+                        <td>
+                            <a href="http://www.ipso-alliance.org/smart-object-guidelines">Humidity Sensor</a>
+                        </td>
+                        <td>
+                            IPSO Alliance
+                        <td>
+                            This IPSO object should be used over a humidity sensor to report a remote humidity measurement. It also provides resources for minimum/maximum measured values and the minimum/maximum range that can be measured by the humidity sensor. The unit used here is relative humidity as a percentage (ucum:%).
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>urn:oma:lwm2m:ext:3305</td>
+                        <td>
+                            <a href="http://www.openmobilealliance.org/tech/profiles/lwm2m/3305.xml">3305</a>
+                        </td>
+                        <td>
+                            <a href="http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3305.xml" title="call the Editor">3305</a>
+                        </td>
+                        <td>
+                            <!-- Link not available yet -->
+                            <a>-</a>
+                        </td>
+                        <td>
+                            <a href="http://www.ipso-alliance.org/smart-object-guidelines">Power Measurement</a>
+                        </td>
+                        <td>
+                            IPSO Alliance
+                        <td>
+                            This IPSO object should be used over a power measurement sensor to report a remote power measurement. It also provides resources for minimum/maximum measured values and the minimum/maximum range for both active and reactive power. Il also provides resources for cumulative energy, calibration, and the power factor.
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>urn:oma:lwm2m:ext:3306</td>
+                        <td>
+                            <a href="http://www.openmobilealliance.org/tech/profiles/lwm2m/3306.xml">3306</a>
+                        </td>
+                        <td>
+                            <a href="http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3306.xml" title="call the Editor">3306</a>
+                        </td>
+                        <td>
+                            <!-- Link not available yet -->
+                            <a>-</a>
+                        </td>
+                        <td>
+                            <a href="http://www.ipso-alliance.org/smart-object-guidelines">Actuation</a>
+                        </td>
+                        <td>
+                            IPSO Alliance
+                        <td>
+                            This IPSO object is dedicated to remote actuation such as ON/OFF action or dimming. A multistate output can also be described as a string. This is useful to send pilot wire orders for instance. It also provides a resource to reflect the time that the device has been switched on.
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>urn:oma:lwm2m:ext:3308</td>
+                        <td>
+                            <a href="http://www.openmobilealliance.org/tech/profiles/lwm2m/3308.xml">
+                                3308
+                            </a>
+                        </td>
+                        <td>
+                            <a href="http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3308.xml" title="call the Editor">3308</a>
+                        </td>
+                        <td>
+                            <!-- Link not available yet -->
+                            <a>-</a>
+                        </td>
+                        <td>
+                            <a href="http://www.ipso-alliance.org/smart-object-guidelines">Set Point</a>
+                        </td>
+                        <td>
+                            IPSO Alliance
+                        <td>
+                            This IPSO object should be used to set a desired value to a controller, such as a thermostat. This object enables a setpoint to be expressed units defined in the UCUM specification, to match an associated sensor or measurement value. A special resource is added to set the colour of an object.
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>urn:oma:lwm2m:ext:3310</td>
+                        <td>
+                            <a href="http://www.openmobilealliance.org/tech/profiles/lwm2m/3310.xml">
+                                3310
+                            </a>
+                        </td>
+                        <td>
+                            <a href="http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3310.xml" title="call the Editor">3310</a>
+                        </td>
+                        <td>
+                            <!-- Link not available yet -->
+                            <a>-</a>
+                        </td>
+                        <td>
+                            <a href="http://www.ipso-alliance.org/smart-object-guidelines">Load Control</a>
+                        </td>
+                        <td>
+                            IPSO Alliance
+                        <td>
+                            This Object is used for demand-response load control and other load control in automation application (not limited to power).
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>urn:oma:lwm2m:ext:3311</td>
+                        <td>
+                            <a href="http://www.openmobilealliance.org/tech/profiles/lwm2m/3311.xml">
+                                3311
+                            </a>
+                        </td>
+                        <td>
+                            <a href="http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3311.xml" title="call the Editor">3311</a>
+                        </td>
+                        <td>
+                            <!-- Link not available yet -->
+                            <a>-</a>
+                        </td>
+                        <td>
+                            <a href="http://www.ipso-alliance.org/smart-object-guidelines">Light Control</a>
+                        </td>
+                        <td>
+                            IPSO Alliance
+                        <td>
+                            This Object is used to control a light source, such as a LED or other light. It allows a light to be turned on or off and its dimmer setting to be control as a % between 0 and 100.
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>urn:oma:lwm2m:ext:3312</td>
+                        <td>
+                            <a href="http://www.openmobilealliance.org/tech/profiles/lwm2m/3312.xml">
+                                3312
+                            </a>
+                        </td>
+                        <td>
+                            <a href="http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3312.xml" title="call the Editor">3312</a>
+                        </td>
+                        <td>
+                            <!-- Link not available yet -->
+                            <a>-</a>
+                        </td>
+                        <td>
+                            <a href="http://www.ipso-alliance.org/smart-object-guidelines">Power Control</a>
+                        </td>
+                        <td>
+                            IPSO Alliance
+                        <td>
+                            This Object is used to control a power source, such as a Smart Plug. It allows a power relay to be turned on or off and its dimmer setting to be control as a % between 0 and 100.
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>urn:oma:lwm2m:ext:3313</td>
+                        <td>
+                            <a href="http://www.openmobilealliance.org/tech/profiles/lwm2m/3313.xml">
+                                3313
+                            </a>
+                        </td>
+                        <td>
+                            <a href="http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3313.xml" title="call the Editor">3313</a>
+                        </td>
+                        <td>
+                            <!-- Link not available yet -->
+                            <a>-</a>
+                        </td>
+                        <td>
+                            <a href="http://www.ipso-alliance.org/smart-object-guidelines">Accelerometer</a>
+                        </td>
+                        <td>
+                            IPSO Alliance
+                        <td>
+                            TThis IPSO object can be used to represent a 1-3 axis accelerometer.
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>urn:oma:lwm2m:ext:3314</td>
+                        <td>
+                            <a href="http://www.openmobilealliance.org/tech/profiles/lwm2m/3314.xml">
+                                3314
+                            </a>
+                        </td>
+                        <td>
+                            <a href="http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3314.xml" title="call the Editor">3314</a>
+                        </td>
+                        <td>
+                            <!-- Link not available yet -->
+                            <a>-</a>
+                        </td>
+                        <td>
+                            <a href="http://www.ipso-alliance.org/smart-object-guidelines">Magnetometer</a>
+                        </td>
+                        <td>
+                            IPSO Alliance
+                        <td>
+                            This IPSO object can be used to represent a 1-3 axis magnetometer with optional compass direction.
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>urn:oma:lwm2m:ext:3315</td>
+                        <td>
+                            <a href="http://www.openmobilealliance.org/tech/profiles/lwm2m/3315.xml">
+                                3315
+                            </a>
+                        </td>
+                        <td>
+                            <a href="http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3315.xml" title="call the Editor">3315</a>
+                        </td>
+                        <td>
+                            <!-- Link not available yet -->
+                            <a>-</a>
+                        </td>
+                        <td>
+                            <a href="http://www.ipso-alliance.org/smart-object-guidelines">Barometer</a>
+                        </td>
+                        <td>
+                            IPSO Alliance
+                        <td>
+                            This IPSO object should be used with an air pressure sensor to report a remote barometer measurement. It also provides resources for minimum/maximum measured values and the minimum/maximum range that can be measured by the barometer sensor.
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>urn:oma:lwm2m:ext:3316</td>
+                        <td>
+                            <a href="http://www.openmobilealliance.org/tech/profiles/lwm2m/3316.xml">
+                                3316
+                            </a>
+                        </td>
+                        <td>
+                            <a href="http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3316.xml" title="call the Editor">3316</a>
+                        </td>
+                        <td>
+                            <!-- Link not available yet -->
+                            <a>-</a>
+                        </td>
+                        <td>
+                            <a href="http://www.ipso-alliance.org/smart-object-guidelines">Voltage</a>
+                        </td>
+                        <td>
+                            IPSO Alliance
+                        <td>
+                            This IPSO object should be used with voltmeter sensor to report measured voltage between two points. It also provides resources for minimum and maximum measured values, as well as the minimum and maximum range that can be measured by the sensor. An example measurement unit is volts (ucum: V).
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>urn:oma:lwm2m:ext:3317</td>
+                        <td>
+                            <a href="http://www.openmobilealliance.org/tech/profiles/lwm2m/3317.xml">
+                                3317
+                            </a>
+                        </td>
+                        <td>
+                            <a href="http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3317.xml" title="call the Editor">3317</a>
+                        </td>
+                        <td>
+                            <!-- Link not available yet -->
+                            <a>-</a>
+                        </td>
+                        <td>
+                            <a href="http://www.ipso-alliance.org/smart-object-guidelines">Current</a>
+                        </td>
+                        <td>
+                            IPSO Alliance
+                        <td>
+                            This IPSO object should be used with an ammeter to report measured electric current in amperes. It also provides resources for minimum and maximum measured values, as well as the minimum and maximum range that can be measured by the sensor. An example measurement unit is volts (ucum: A).
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>urn:oma:lwm2m:ext:3318</td>
+                        <td>
+                            <a href="http://www.openmobilealliance.org/tech/profiles/lwm2m/3318.xml">
+                                3318
+                            </a>
+                        </td>
+                        <td>
+                            <a href="http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3318.xml" title="call the Editor">3318</a>
+                        </td>
+                        <td>
+                            <!-- Link not available yet -->
+                            <a>-</a>
+                        </td>
+                        <td>
+                            <a href="http://www.ipso-alliance.org/smart-object-guidelines">Frequency</a>
+                        </td>
+                        <td>
+                            IPSO Alliance
+                        <td>
+                            This IPSO object should be used to report frequency measurements. It also provides resources for minimum and maximum measured values, as well as the minimum and maximum range that can be measured by the sensor. An example measurement unit is volts (ucum: Hz).
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>urn:oma:lwm2m:ext:3319</td>
+                        <td>
+                            <a href="http://www.openmobilealliance.org/tech/profiles/lwm2m/3319.xml">
+                                3319
+                            </a>
+                        </td>
+                        <td>
+                            <a href="http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3319.xml" title="call the Editor">3319</a>
+                        </td>
+                        <td>
+                            <!-- Link not available yet -->
+                            <a>-</a>
+                        </td>
+                        <td>
+                            <a href="http://www.ipso-alliance.org/smart-object-guidelines">Depth</a>
+                        </td>
+                        <td>
+                            IPSO Alliance
+                        <td>
+                            This IPSO object should be used to report depth measurements. It can, for example, be used to describe a generic rain gauge that measures the accumulated rainfall in millimetres (mm) or in fathoms (fth).
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>urn:oma:lwm2m:ext:3320</td>
+                        <td>
+                            <a href="http://www.openmobilealliance.org/tech/profiles/lwm2m/3320.xml">
+                                3320
+                            </a>
+                        </td>
+                        <td>
+                            <a href="http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3320.xml" title="call the Editor">3320</a>
+                        </td>
+                        <td>
+                            <!-- Link not available yet -->
+                            <a>-</a>
+                        </td>
+                        <td>
+                            <a href="http://www.ipso-alliance.org/smart-object-guidelines">Percentage</a>
+                        </td>
+                        <td>
+                            IPSO Alliance
+                        <td>
+                            This IPSO object should can be used to report measurements relative to a 0-100% scale. For example it could be used to measure the level of a liquid in a vessel or container in units of %.
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>urn:oma:lwm2m:ext:3321</td>
+                        <td>
+                            <a href="http://www.openmobilealliance.org/tech/profiles/lwm2m/3321.xml">
+                                3321
+                            </a>
+                        </td>
+                        <td>
+                            <a href="http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3321.xml" title="call the Editor">3321</a>
+                        </td>
+                        <td>
+                            <!-- Link not available yet -->
+                            <a>-</a>
+                        </td>
+                        <td>
+                            <a href="http://www.ipso-alliance.org/smart-object-guidelines">Altitude</a>
+                        </td>
+                        <td>
+                            IPSO Alliance
+                        <td>
+                            This IPSO object should be used with an altitude sensor to report altitude above sea level in meters. Note that Altitude can be calculated from the measured pressure given the local sea level pressure. It also provides resources for minimum and maximum measured values, as well as the minimum and maximum range that can be measured by the sensor. An example measurement unit is meters (ucum: m).
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>urn:oma:lwm2m:ext:3322</td>
+                        <td>
+                            <a href="http://www.openmobilealliance.org/tech/profiles/lwm2m/3322.xml">
+                                3322
+                            </a>
+                        </td>
+                        <td>
+                            <a href="http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3322.xml" title="call the Editor">3322</a>
+                        </td>
+                        <td>
+                            <!-- Link not available yet -->
+                            <a>-</a>
+                        </td>
+                        <td>
+                            <a href="http://www.ipso-alliance.org/smart-object-guidelines">Load</a>
+                        </td>
+                        <td>
+                            IPSO Alliance
+                        <td>
+                            This IPSO object should be used with a load sensor (as in a scale) to report the applied weight or force. It also provides resources for minimum and maximum measured values, as well as the minimum and maximum range that can be measured by the sensor.
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>urn:oma:lwm2m:ext:3323</td>
+                        <td>
+                            <a href="http://www.openmobilealliance.org/tech/profiles/lwm2m/3323.xml">
+                                3323
+                            </a>
+                        </td>
+                        <td>
+                            <a href="http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3323.xml" title="call the Editor">3323</a>
+                        </td>
+                        <td>
+                            <!-- Link not available yet -->
+                            <a>-</a>
+                        </td>
+                        <td>
+                            <a href="http://www.ipso-alliance.org/smart-object-guidelines">Pressure</a>
+                        </td>
+                        <td>
+                            IPSO Alliance
+                        <td>
+                            This IPSO object should be used to report pressure measurements. It also provides resources for minimum and maximum measured values, as well as the minimum and maximum range that can be measured by the sensor.
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>urn:oma:lwm2m:ext:3324</td>
+                        <td>
+                            <a href="http://www.openmobilealliance.org/tech/profiles/lwm2m/3324.xml">
+                                3324
+                            </a>
+                        </td>
+                        <td>
+                            <a href="http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3324.xml" title="call the Editor">3324</a>
+                        </td>
+                        <td>
+                            <!-- Link not available yet -->
+                            <a>-</a>
+                        </td>
+                        <td>
+                            <a href="http://www.ipso-alliance.org/smart-object-guidelines">Loudness</a>
+                        </td>
+                        <td>
+                            IPSO Alliance
+                        <td>
+                            This IPSO object should be used to report loudness or noise level measurements. It also provides resources for minimum and maximum measured values, as well as the minimum and maximum range that can be measured by the sensor.
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>urn:oma:lwm2m:ext:3325</td>
+                        <td>
+                            <a href="http://www.openmobilealliance.org/tech/profiles/lwm2m/3325.xml">
+                                3325
+                            </a>
+                        </td>
+                        <td>
+                            <a href="http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3325.xml" title="call the Editor">3325</a>
+                        </td>
+                        <td>
+                            <!-- Link not available yet -->
+                            <a>-</a>
+                        </td>
+                        <td>
+                            <a href="http://www.ipso-alliance.org/smart-object-guidelines">Concentration</a>
+                        </td>
+                        <td>
+                            IPSO Alliance
+                        <td>
+                            This IPSO object should be used to the particle concentration measurement of a medium. It also provides resources for minimum and maximum measured values, as well as the minimum and maximum range that can be measured by the sensor.
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>urn:oma:lwm2m:ext:3326</td>
+                        <td>
+                            <a href="http://www.openmobilealliance.org/tech/profiles/lwm2m/3326.xml">
+                                3326
+                            </a>
+                        </td>
+                        <td>
+                            <a href="http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3326.xml" title="call the Editor">3326</a>
+                        </td>
+                        <td>
+                            <!-- Link not available yet -->
+                            <a>-</a>
+                        </td>
+                        <td>
+                            <a href="http://www.ipso-alliance.org/smart-object-guidelines">Acidity</a>
+                        </td>
+                        <td>
+                            IPSO Alliance
+                        <td>
+                            This IPSO object should be used to report an acidity measurement of a liquid. It also provides resources for minimum and maximum measured values, as well as the minimum and maximum range that can be measured by the sensor.
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>urn:oma:lwm2m:ext:3327</td>
+                        <td>
+                            <a href="http://www.openmobilealliance.org/tech/profiles/lwm2m/3327.xml">
+                                3327
+                            </a>
+                        </td>
+                        <td>
+                            <a href="http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3327.xml" title="call the Editor">3327</a>
+                        </td>
+                        <td>
+                            <!-- Link not available yet -->
+                            <a>-</a>
+                        </td>
+                        <td>
+                            <a href="http://www.ipso-alliance.org/smart-object-guidelines">Conductivity</a>
+                        </td>
+                        <td>
+                            IPSO Alliance
+                        <td>
+                            This IPSO object should be used to report a measurement of the electric conductivity of a medium or sample. It also provides resources for minimum and maximum measured values, as well as the minimum and maximum range that can be measured by the sensor.
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>urn:oma:lwm2m:ext:3328</td>
+                        <td>
+                            <a href="http://www.openmobilealliance.org/tech/profiles/lwm2m/3328.xml">
+                                3328
+                            </a>
+                        </td>
+                        <td>
+                            <a href="http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3328.xml" title="call the Editor">3328</a>
+                        </td>
+                        <td>
+                            <!-- Link not available yet -->
+                            <a>-</a>
+                        </td>
+                        <td>
+                            <a href="http://www.ipso-alliance.org/smart-object-guidelines">Power</a>
+                        </td>
+                        <td>
+                            IPSO Alliance
+                        <td>
+                            This IPSO object should be used to report power measurements. It also provides resources for minimum and maximum measured values, as well as the minimum and maximum range that can be measured by the sensor.
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>urn:oma:lwm2m:ext:3329</td>
+                        <td>
+                            <a href="http://www.openmobilealliance.org/tech/profiles/lwm2m/3329.xml">
+                                3329
+                            </a>
+                        </td>
+                        <td>
+                            <a href="http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3329.xml" title="call the Editor">3329</a>
+                        </td>
+                        <td>
+                            <!-- Link not available yet -->
+                            <a>-</a>
+                        </td>
+                        <td>
+                            <a href="http://www.ipso-alliance.org/smart-object-guidelines">Power Factor</a>
+                        </td>
+                        <td>
+                            IPSO Alliance
+                        <td>
+                            This IPSO object should be used to report a measurement or calculation of the power factor of a reactive electrical load.
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>urn:oma:lwm2m:ext:3330</td>
+                        <td>
+                            <a href="http://www.openmobilealliance.org/tech/profiles/lwm2m/3330.xml">
+                                3330
+                            </a>
+                        </td>
+                        <td>
+                            <a href="http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3330.xml" title="call the Editor">3330</a>
+                        </td>
+                        <td>
+                            <!-- Link not available yet -->
+                            <a>-</a>
+                        </td>
+                        <td>
+                            <a href="http://www.ipso-alliance.org/smart-object-guidelines">Distance</a>
+                        </td>
+                        <td>
+                            IPSO Alliance
+                        <td>
+                            This IPSO object should be used to report a distance measurement. It also provides resources for minimum and maximum measured values, as well as the minimum and maximum range that can be measured by the sensor.
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>urn:oma:lwm2m:ext:3331</td>
+                        <td>
+                            <a href="http://www.openmobilealliance.org/tech/profiles/lwm2m/3331.xml">
+                                3331
+                            </a>
+                        </td>
+                        <td>
+                            <a href="http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3331.xml" title="call the Editor">3331</a>
+                        </td>
+                        <td>
+                            <!-- Link not available yet -->
+                            <a>-</a>
+                        </td>
+                        <td>
+                            <a href="http://www.ipso-alliance.org/smart-object-guidelines">Energy</a>
+                        </td>
+                        <td>
+                            IPSO Alliance
+                        <td>
+                            This IPSO object should be used to report energy consumption (Cumulative Power) of an electrical load.
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>urn:oma:lwm2m:ext:3332</td>
+                        <td>
+                            <a href="http://www.openmobilealliance.org/tech/profiles/lwm2m/3332.xml">
+                                3332
+                            </a>
+                        </td>
+                        <td>
+                            <a href="http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3332.xml" title="call the Editor">3332</a>
+                        </td>
+                        <td>
+                            <!-- Link not available yet -->
+                            <a>-</a>
+                        </td>
+                        <td>
+                            <a href="http://www.ipso-alliance.org/smart-object-guidelines">Direction</a>
+                        </td>
+                        <td>
+                            IPSO Alliance
+                        <td>
+                            This IPSO object is used to report the direction indicated by a compass, wind vane, or other directional indicator. The units of measure is plane angle degrees (ucum:deg).
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>urn:oma:lwm2m:ext:3333</td>
+                        <td>
+                            <a href="http://www.openmobilealliance.org/tech/profiles/lwm2m/3333.xml">
+                                3333
+                            </a>
+                        </td>
+                        <td>
+                            <a href="http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3333.xml" title="call the Editor">3333</a>
+                        </td>
+                        <td>
+                            <!-- Link not available yet -->
+                            <a>-</a>
+                        </td>
+                        <td>
+                            <a href="http://www.ipso-alliance.org/smart-object-guidelines">Time</a>
+                        </td>
+                        <td>
+                            IPSO Alliance
+                        <td>
+                            This IPSO object is used to report the current time in seconds since January 1, 1970 UTC. There is also a fractional time counter that has a range of less than one second.
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>urn:oma:lwm2m:ext:3334</td>
+                        <td>
+                            <a href="http://www.openmobilealliance.org/tech/profiles/lwm2m/3334.xml">
+                                3334
+                            </a>
+                        </td>
+                        <td>
+                            <a href="http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3334.xml" title="call the Editor">3334</a>
+                        </td>
+                        <td>
+                            <!-- Link not available yet -->
+                            <a>-</a>
+                        </td>
+                        <td>
+                            <a href="http://www.ipso-alliance.org/smart-object-guidelines">Gyrometer</a>
+                        </td>
+                        <td>
+                            IPSO Alliance
+                        <td>
+                            This IPSO Object is used to report the current reading of a gyrometer sensor in 3 axes. It provides tracking of the minimum and maximum angular rate in all 3 axes.
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>urn:oma:lwm2m:ext:3335</td>
+                        <td>
+                            <a href="http://www.openmobilealliance.org/tech/profiles/lwm2m/3335.xml">
+                                3335
+                            </a>
+                        </td>
+                        <td>
+                            <a href="http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3335.xml" title="call the Editor">3335</a>
+                        </td>
+                        <td>
+                            <!-- Link not available yet -->
+                            <a>-</a>
+                        </td>
+                        <td>
+                            <a href="http://www.ipso-alliance.org/smart-object-guidelines">Color</a>
+                        </td>
+                        <td>
+                            IPSO Alliance
+                        <td>
+                            This IPSO object should be used to report the measured value of a colour sensor in some colour space described by the units resource.
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>urn:oma:lwm2m:ext:3336</td>
+                        <td>
+                            <a href="http://www.openmobilealliance.org/tech/profiles/lwm2m/3336.xml">
+                                3336
+                            </a>
+                        </td>
+                        <td>
+                            <a href="http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3336.xml" title="call the Editor">3336</a>
+                        </td>
+                        <td>
+                            <!-- Link not available yet -->
+                            <a>-</a>
+                        </td>
+                        <td>
+                            <a href="http://www.ipso-alliance.org/smart-object-guidelines">GPS Location</a>
+                        </td>
+                        <td>
+                            IPSO Alliance
+                        <td>
+                            This IPSO object represents GPS coordinates. This object is compatible with the LWM2M management object for location, but uses reusable resources.
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>urn:oma:lwm2m:ext:3337</td>
+                        <td>
+                            <a href="http://www.openmobilealliance.org/tech/profiles/lwm2m/3337.xml">
+                                3337
+                            </a>
+                        </td>
+                        <td>
+                            <a href="http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3337.xml" title="call the Editor">3337</a>
+                        </td>
+                        <td>
+                            <!-- Link not available yet -->
+                            <a>-</a>
+                        </td>
+                        <td>
+                            <a href="http://www.ipso-alliance.org/smart-object-guidelines">Positioner</a>
+                        </td>
+                        <td>
+                            IPSO Alliance
+                        <td>
+                            This IPSO object should be used with a generic position actuator from 0 to 100%.
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>urn:oma:lwm2m:ext:3338</td>
+                        <td>
+                            <a href="http://www.openmobilealliance.org/tech/profiles/lwm2m/3338.xml">
+                                3338
+                            </a>
+                        </td>
+                        <td>
+                            <a href="http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3338.xml" title="call the Editor">3338</a>
+                        </td>
+                        <td>
+                            <!-- Link not available yet -->
+                            <a>-</a>
+                        </td>
+                        <td>
+                            <a href="http://www.ipso-alliance.org/smart-object-guidelines">Buzzer</a>
+                        </td>
+                        <td>
+                            IPSO Alliance
+                        <td>
+                            This IPSO object should be used to actuate an audible alarm such as a buzzer, beeper, or vibration alarm.
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>urn:oma:lwm2m:ext:3339</td>
+                        <td>
+                            <a href="http://www.openmobilealliance.org/tech/profiles/lwm2m/3339.xml">
+                                3339
+                            </a>
+                        </td>
+                        <td>
+                            <a href="http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3339.xml" title="call the Editor">3339</a>
+                        </td>
+                        <td>
+                            <!-- Link not available yet -->
+                            <a>-</a>
+                        </td>
+                        <td>
+                            <a href="http://www.ipso-alliance.org/smart-object-guidelines">Audio Clip</a>
+                        </td>
+                        <td>
+                            IPSO Alliance
+                        <td>
+                            This IPSO object should be used for a speaker that plays a pre-recorded audio clip or an audio output that is sent elsewhere.
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>urn:oma:lwm2m:ext:3340</td>
+                        <td>
+                            <a href="http://www.openmobilealliance.org/tech/profiles/lwm2m/3340.xml">
+                                3340
+                            </a>
+                        </td>
+                        <td>
+                            <a href="http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3340.xml" title="call the Editor">3340</a>
+                        </td>
+                        <td>
+                            <!-- Link not available yet -->
+                            <a>-</a>
+                        </td>
+                        <td>
+                            <a href="http://www.ipso-alliance.org/smart-object-guidelines">Timer</a>
+                        </td>
+                        <td>
+                            IPSO Alliance
+                        <td>
+                            This IPSO object is used to time events and actions, using patterns common to industrial timers. A POST to the trigger resource or On/Off input state change starts the timing operation, and the timer remaining time shows zero when the operation is complete.
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>urn:oma:lwm2m:ext:3341</td>
+                        <td>
+                            <a href="http://www.openmobilealliance.org/tech/profiles/lwm2m/3341.xml">
+                                3341
+                            </a>
+                        </td>
+                        <td>
+                            <a href="http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3341.xml" title="call the Editor">3341</a>
+                        </td>
+                        <td>
+                            <!-- Link not available yet -->
+                            <a>-</a>
+                        </td>
+                        <td>
+                            <a href="http://www.ipso-alliance.org/smart-object-guidelines">Addressable Text Display</a>
+                        </td>
+                        <td>
+                            IPSO Alliance
+                        <td>
+                            This IPSO object is used to send text to a text-only or text mode graphics display.
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>urn:oma:lwm2m:ext:3342</td>
+                        <td>
+                            <a href="http://www.openmobilealliance.org/tech/profiles/lwm2m/3342.xml">
+                                3342
+                            </a>
+                        </td>
+                        <td>
+                            <a href="http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3342.xml" title="call the Editor">3342</a>
+                        </td>
+                        <td>
+                            <!-- Link not available yet -->
+                            <a>-</a>
+                        </td>
+                        <td>
+                            <a href="http://www.ipso-alliance.org/smart-object-guidelines">On/Off Switch</a>
+                        </td>
+                        <td>
+                            IPSO Alliance
+                        <td>
+                            This IPSO object should be used with an On/Off switch to report the state of the switch.
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>urn:oma:lwm2m:ext:3343</td>
+                        <td>
+                            <a href="http://www.openmobilealliance.org/tech/profiles/lwm2m/3343.xml">
+                                3343
+                            </a>
+                        </td>
+                        <td>
+                            <a href="http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3343.xml" title="call the Editor">3343</a>
+                        </td>
+                        <td>
+                            <!-- Link not available yet -->
+                            <a>-</a>
+                        </td>
+                        <td>
+                            <a href="http://www.ipso-alliance.org/smart-object-guidelines">Lever Control</a>
+                        </td>
+                        <td>
+                            IPSO Alliance
+                        <td>
+                            This IPSO object should be used with a dimmer or level control to report the state of the control.
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>urn:oma:lwm2m:ext:3344</td>
+                        <td>
+                            <a href="http://www.openmobilealliance.org/tech/profiles/lwm2m/3344.xml">
+                                3344
+                            </a>
+                        </td>
+                        <td>
+                            <a href="http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3344.xml" title="call the Editor">3344</a>
+                        </td>
+                        <td>
+                            <!-- Link not available yet -->
+                            <a>-</a>
+                        </td>
+                        <td>
+                            <a href="http://www.ipso-alliance.org/smart-object-guidelines">Up/Down Control</a>
+                        </td>
+                        <td>
+                            IPSO Alliance
+                        <td>
+                            This IPSO object is used to report the state of an up/down control element like a pair of push buttons or a rotary encoder
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>urn:oma:lwm2m:ext:3345</td>
+                        <td>
+                            <a href="http://www.openmobilealliance.org/tech/profiles/lwm2m/3345.xml">
+                                3345
+                            </a>
+                        </td>
+                        <td>
+                            <a href="http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3345.xml" title="call the Editor">3345</a>
+                        </td>
+                        <td>
+                            <!-- Link not available yet -->
+                            <a>-</a>
+                        </td>
+                        <td>
+                            <a href="http://www.ipso-alliance.org/smart-object-guidelines">Multiple Axis Joystick</a>
+                        </td>
+                        <td>
+                            IPSO Alliance
+                        <td>
+                            This IPSO object can be used to report the position of a shuttle or joystick control. A digital input is provided to report the state of an associated push button.
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>urn:oma:lwm2m:ext:3346</td>
+                        <td>
+                            <a href="http://www.openmobilealliance.org/tech/profiles/lwm2m/3346.xml">
+                                3346
+                            </a>
+                        </td>
+                        <td>
+                            <a href="http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3346.xml" title="call the Editor">3346</a>
+                        </td>
+                        <td>
+                            <!-- Link not available yet -->
+                            <a>-</a>
+                        </td>
+                        <td>
+                            <a href="http://www.ipso-alliance.org/smart-object-guidelines">Rate</a>
+                        </td>
+                        <td>
+                            IPSO Alliance
+                        <td>
+                            This object type should be used to report a rate measurement,
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>urn:oma:lwm2m:ext:3347</td>
+                        <td>
+                            <a href="http://www.openmobilealliance.org/tech/profiles/lwm2m/3347.xml">
+                                3347
+                            </a>
+                        </td>
+                        <td>
+                            <a href="http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3347.xml" title="call the Editor">3347</a>
+                        </td>
+                        <td>
+                            <!-- Link not available yet -->
+                            <a>-</a>
+                        </td>
+                        <td>
+                            <a href="http://www.ipso-alliance.org/smart-object-guidelines">Push Button</a>
+                        </td>
+                        <td>
+                            IPSO Alliance
+                        <td>
+                            This IPSO object is used to report the state of a momentary action push button control and to count the number of times the control has been operated since the last observation.
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>urn:oma:lwm2m:ext:3348</td>
+                        <td>
+                            <a href="http://www.openmobilealliance.org/tech/profiles/lwm2m/3348.xml">
+                                3348
+                            </a>
+                        </td>
+                        <td>
+                            <a href="http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3348.xml" title="call the Editor">3348</a>
+                        </td>
+                        <td>
+                            <!-- Link not available yet -->
+                            <a>-</a>
+                        </td>
+                        <td>
+                            <a href="http://www.ipso-alliance.org/smart-object-guidelines">Multistate Selector</a>
+                        </td>
+                        <td>
+                            IPSO Alliance
+                        <td>
+                            This IPSO object is used to represent the state of a multistate selector switch with a number of fixed positions.
+                        </td>
+                    </tr>
+                </tbody>
+                <caption>
+                    <a title="click here to register a new (ext-label) Object ID" href="http://dev_devtoolkit.openmobilealliance.org/OEditor/Register">Register a new Object produced by a 3rd party SDO (Standards Development Organization).</a>
+                </caption>
+            </table>
+        </div>
+        <div>
+            <h3 id="xlabel"><strong>x-label</strong> Objects Produced by vendors or individuals</h3>
+            <p><code>URN: urn:oma:lwm2m:x:ObjectID | ranges (10,241 - 26,240) & (26,241 - 32,768)</code></p>
+            <p>10241 - 26240 Range accepts registration</p>
+            <p>26241 - 32768 Range is privately reused and there is no need for registration</p>
+            <table class="descriptive-table">
+                <thead>
+                    <tr>
+                        <th>URN / Version</th>
+                        <th>ObjectID / xml</th>
+                        <th>LwM2M Editor</th>
+                        <th>Vorto</th>
+                        <th>Object Name / Specification</th>
+                        <th>Company</th>
+                        <th>Description - Objects Produced by Vendors</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>urn:oma:lwm2m:x:10241</td>
+                        <td>
+                            10241
+                        </td>
+                        <td>
+                            <!-- Link not available yet -->
+                            10241
+                        </td>
+                        <td>
+                            <!-- Link not available yet -->
+                            <a>-</a>
+                        </td>
+                        <td>
+                            <!-- Link not available yet -->
+                            HostDeviceInfo
+
+                        </td>
+                        <td>
+                            <p>AT&T</p>
+                        </td>
+                        <td>
+                            <p>This LWM2M Object provides a range of host device related information which can be queried by the LWM2M Server. The host device is any integrated device with an embedded cellular radio module</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>urn:oma:lwm2m:x:10242</td>
+                        <td>
+                            <a href="http://www.openmobilealliance.org/tech/profiles/3-PhasePM.xml">10242</a>
+                        </td>
+                        <td>
+                            <a href="http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2F3-PhasePM.xml" title="call the Editor">10242</a>
+                        </td>
+                        <td>
+                            <!-- Link not available yet -->
+                            <a>-</a>
+                        </td>
+                        <td>
+                            <!-- Link not available yet -->
+                            3-PhasePM
+                        </td>
+                        <td>
+                            Odins
+                        </td>
+                        <td>
+                            <p>This Object provides the information to represent a generic 3-Phase Power Meter</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>urn:oma:lwm2m:x:10243 </td>
+                        <td>
+                            <a href="http://www.openmobilealliance.org/tech/profiles/singlePhasePM.xml">10243</a>
+                        </td>
+                        <td>
+                            <a href="http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2FsinglePhasePM.xml" title="call the Editor">10243</a>
+                        </td>
+                        <td>
+                            <!-- Link not available yet -->
+                            <a>-</a>
+                        </td>
+                        <td>
+                            singlePhasePM
+                        </td>
+                        <td>
+                            <p>Odins</p>
+                        <td>
+                            <p>
+                                This Object provides the information to represent a generic Single-Phase Power Meter
+                            </p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>urn:oma:lwm2m:x:10244 </td>
+                        <td>
+                            <a href="http://www.openmobilealliance.org/tech/profiles/VehicleControlUnit.xml">10244</a>
+                        </td>
+                        <td>
+                            <a href="http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2FVehicleControlUnit.xml" title="call the Editor">10244</a>
+                        </td>
+                        <td>
+                            <!-- Link not available yet -->
+                            <a>-</a>
+                        </td>
+                        <td>
+                            <!-- Link not available yet -->
+                            VehicleControlUnit
+                        </td>
+                        <td>
+                            <p>Works System</p>
+                        <td>
+                            <p>This Object provides the information to represent a generic VCU (vehicle control unit)</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>urn:oma:lwm2m:x:10245 </td>
+                        <td>
+                            10245
+                        </td>
+                        <td>
+                            10245
+                        </td>
+                        <td>
+                            <!-- Link not available yet -->
+                            <a>-</a>
+                        </td>
+                        <td>
+                            <!-- Link not available yet -->
+                            Relay Management
+                        </td>
+                        <td>
+                            <p>Vodafone Group Services Ltd</p>
+                        <td>
+                            <p>This LWM2M Object provides a range of eNB related measurements and parameters of which several are changeable. Furthermore, it includes Resources to enable/disable the eNB.</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>urn:oma:lwm2m:x:10246 </td>
+                        <td>
+                            10246
+                        </td>
+                        <td>
+                            <!-- Link not available yet -->
+                            10246
+                        </td>
+                        <td>
+                            <!-- Link not available yet -->
+                            <a>-</a>
+                        </td>
+                        <td>
+                            <!-- Link not available yet -->
+                            CrowdBox Measurements
+                        </td>
+                        <td>
+                            <p>Vodafone Group Services Ltd</p>
+                        <td>
+                            <p>This LWM2M Object provides CrowdBox-related measurements such as serving cell parameters, backhaul timing advance, and neighbour cell reports.</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>urn:oma:lwm2m:x:10247 </td>
+                        <td>
+                            10247
+                        </td>
+                        <td>
+                            <!-- Link not available yet -->
+                            10247
+                        </td>
+                        <td>
+                            <!-- Link not available yet -->
+                            <a>-</a>
+                        </td>
+                        <td>
+                            <!-- Link not available yet -->
+                            Neighbour Cell Report
+                        </td>
+                        <td>
+                            <p>Vodafone Group Services Ltd</p>
+                        <td>
+                            <p>This LWM2M Object provides the neighbour cell report. The CrowdBox Measurements Object and the Connected UE Report Object have both Objlnk Resources pointing to this Object</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>urn:oma:lwm2m:x:10248 </td>
+                        <td>
+                            10248
+                        </td>
+                        <td>
+                            <!-- Link not available yet -->
+                            10248
+                        </td>
+                        <td>
+                            <!-- Link not available yet -->
+                            <a>-</a>
+                        </td>
+                        <td>
+                            <!-- Link not available yet -->
+                            Connected UE Measurements
+                        </td>
+                        <td>
+                            <p>Vodafone Group Services Ltd</p>
+                        <td>
+                            <p>This LWM2M Object provides a range of measurements of connected UEs and provides an Object link to the Connected UE report.</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>urn:oma:lwm2m:x:10249 </td>
+                        <td>
+                            10249
+                        </td>
+                        <td>
+                            <!-- Link not available yet -->
+                            10249
+                        </td>
+                        <td>
+                            <!-- Link not available yet -->
+                            <a>-</a>
+                        </td>
+                        <td>
+                            <!-- Link not available yet -->
+                            Connected UE Report
+                        </td>
+                        <td>
+                            <p>Vodafone Group Services Ltd</p>
+                        <td>
+                            <p>This LWM2M Object provides a range of information related to the connected UEs.</p>
+                        </td>
+                    </tr>
+                </tbody>
+                <caption>
+                    The registration of individual and proprietary LwM2M Objects is currently under review.
+                </caption>
+
+            </table>
+        </div>
+        <div>
+            <h2>LwM2M Resources</h2>
+            <h3 id="resources">Reusable Resources</h3>
+            <p><code>range: (2048 - 32,768)</code></p>
+            <table class="descriptive-table">
+                <thead>
+                    <tr>
+                        <th>ResourceID </th>
+                        <th>Resource Name / xml</th>
+                        <th>Access Type/Operation</th>
+                        <th>Multiple Instances</th>
+                        <th>Mandatory</th>
+                        <th>Type</th>
+                        <th>Range/Enumeration</th>
+                        <th>Units</th>
+                        <th>Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>
+                            <!-- Link not available yet -->
+                            <a>4000</a>
+                        </td>
+                        <td>
+                            <!-- Link not available yet -->
+                            <a>ObjectInstanceHandle</a>
+                        </td>
+                        <td>
+                            R
+                        </td>
+                        <td>
+                            -
+                        </td>
+                        <td>
+                            -
+                        </td>
+                        <td>
+                            Objlnk
+                        </td>
+                        <td>
+                            -
+                        </td>
+                        <td>
+                            -
+                        </td>
+                        <td>
+                            <p>The object link is used to refer an Instance of a given Object. An Object link value is composed of two concatenated 16-bits unsigned integers following the Network Byte Order convention. The Most Significant Halfword is an ObjectID, the Least Significant Hafword is an ObjectInstance ID.An Object Link referencing no Object Instance will contain the concatenation of 2 MAX-ID values (null link)</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <!-- Link not available yet -->
+                            <a>4001</a>
+                        </td>
+                        <td>
+                            <!-- Link not available yet -->
+                            <a>ObjectVersion</a>
+                        </td>
+                        <td>
+                            R
+                        </td>
+                        <td>
+                            Single
+                        </td>
+                        <td>
+                            Optional
+                        </td>
+                        <td>
+                            String
+                        </td>
+                        <td>
+                            -
+                        </td>
+                        <td>
+                            -
+                        </td>
+                        <td>
+                            <p>LWM2M Object versioning label.</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <!-- Link not available yet -->
+                            <a>5500</a>
+                        </td>
+                        <td>
+                            <!-- Link not available yet -->
+                            <a>Digital Input State</a>
+                        </td>
+                        <td>
+                            R
+                        </td>
+                        <td>
+                            -
+                        </td>
+                        <td>
+                            -
+                        </td>
+                        <td>
+                            Boolean
+                        </td>
+                        <td>
+                            x
+                        </td>
+                        <td>
+                            -
+                        </td>
+                        <td>
+                            <p>The current state of a digital input.</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <!-- Link not available yet -->
+                            <a>5501</a>
+                        </td>
+                        <td>
+                            <!-- Link not available yet -->
+                            <a>Digital Input Counter</a>
+                        </td>
+                        <td>
+                            R
+                        </td>
+                        <td>
+                            -
+                        </td>
+                        <td>
+                            -
+                        </td>
+                        <td>
+                            Integer
+                        </td>
+                        <td>
+                            x
+                        </td>
+                        <td>
+                            -
+                        </td>
+                        <td>
+                            <p>The cumulative value of active state detected.</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <!-- Link not available yet -->
+                            <a>5502</a>
+                        </td>
+                        <td>
+                            <!-- Link not available yet -->
+                            <a>Digital Input Polarity</a>
+                        </td>
+                        <td>
+                            R,W
+                        </td>
+                        <td>
+                            -
+                        </td>
+                        <td>
+                            -
+                        </td>
+                        <td>
+                            Boolean
+                        </td>
+                        <td>
+                            x
+                        </td>
+                        <td>
+                            -
+                        </td>
+                        <td>
+                            <p>The polarity of a digital input as a Boolean (0 = Normal, 1= Reversed)</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <!-- Link not available yet -->
+                            <a>5503</a>
+                        </td>
+                        <td>
+                            <!-- Link not available yet -->
+                            <a>Digital Input Debounce Period</a>
+                        </td>
+                        <td>
+                            R,W
+                        </td>
+                        <td>
+                            -
+                        </td>
+                        <td>
+                            -
+                        </td>
+                        <td>
+                            Boolean
+                        </td>
+                        <td>
+                            -
+                        </td>
+                        <td>
+                            ms
+                        </td>
+                        <td>
+                            <p>The debounce period in ms.</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <!-- Link not available yet -->
+                            <a>5504</a>
+                        </td>
+                        <td>
+                            <!-- Link not available yet -->
+                            <a>Digital Input Edge Selection</a>
+                        </td>
+                        <td>
+                            R,W
+                        </td>
+                        <td>
+                            -
+                        </td>
+                        <td>
+                            -
+                        </td>
+                        <td>
+                            Boolean
+                        </td>
+                        <td>
+                            -
+                        </td>
+                        <td>
+                            -
+                        </td>
+                        <td>
+                            <p>The edge selection as an integer (1 = Falling edge, 2 = Rising edge, 3 = Both Rising and Falling edge)</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <!-- Link not available yet -->
+                            <a>5505</a>
+                        </td>
+                        <td>
+                            <!-- Link not available yet -->
+                            <a>Digital Input Counter Reset</a>
+                        </td>
+                        <td>
+                            E
+                        </td>
+                        <td>
+                            -
+                        </td>
+                        <td>
+                            -
+                        </td>
+                        <td>
+                            Opaque
+                        </td>
+                        <td>
+                            -
+                        </td>
+                        <td>
+                            -
+                        </td>
+                        <td>
+                            <p>Reset the Counter value</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <!-- Link not available yet -->
+                            <a>5550</a>
+                        </td>
+                        <td>
+                            <!-- Link not available yet -->
+                            <a>Digital Output State</a>
+                        </td>
+                        <td>
+                            R,W
+                        </td>
+                        <td>
+                            -
+                        </td>
+                        <td>
+                            -
+                        </td>
+                        <td>
+                            Boolean
+                        </td>
+                        <td>
+                            -
+                        </td>
+                        <td>
+                            -
+                        </td>
+                        <td>
+                            <p>The current state of a digital output.</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <!-- Link not available yet -->
+                            <a>5551</a>
+                        </td>
+                        <td>
+                            <!-- Link not available yet -->
+                            <a>Digital Output Polarity</a>
+                        </td>
+                        <td>
+                            R,W
+                        </td>
+                        <td>
+                            -
+                        </td>
+                        <td>
+                            -
+                        </td>
+                        <td>
+                            Boolean
+                        </td>
+                        <td>
+                            -
+                        </td>
+                        <td>
+                            -
+                        </td>
+                        <td>
+                            <p>The polarity of a digital input as a Boolean (0 = Normal, 1= Reversed)</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <!-- Link not available yet -->
+                            <a>5600</a>
+                        </td>
+                        <td>
+                            <!-- Link not available yet -->
+                            <a>Analog Input Current Value</a>
+                        </td>
+                        <td>
+                            R
+                        </td>
+                        <td>
+                            -
+                        </td>
+                        <td>
+                            -
+                        </td>
+                        <td>
+                            Float
+                        </td>
+                        <td>
+                            0-5
+                        </td>
+                        <td>
+                            V
+                        </td>
+                        <td>
+                            <p>The current state of the analogue input.</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <!-- Link not available yet -->
+                            <a>5601</a>
+                        </td>
+                        <td>
+                            <!-- Link not available yet -->
+                            <a>Min Measured Value</a>
+                        </td>
+                        <td>
+                            R
+                        </td>
+                        <td>
+                            -
+                        </td>
+                        <td>
+                            -
+                        </td>
+                        <td>
+                            Float
+                        </td>
+                        <td>
+                            -
+                        </td>
+                        <td>
+                            Defined by Units resource.
+                        </td>
+                        <td>
+                            <p>The minimum value measured by the sensor since it is ON or Reset</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <!-- Link not available yet -->
+                            <a>5602</a>
+                        </td>
+                        <td>
+                            <!-- Link not available yet -->
+                            <a>Max Measured Value</a>
+                        </td>
+                        <td>
+                            R
+                        </td>
+                        <td>
+                            -
+                        </td>
+                        <td>
+                            -
+                        </td>
+                        <td>
+                            Float
+                        </td>
+                        <td>
+                            -
+                        </td>
+                        <td>
+                            Defined by Units resource.
+                        </td>
+                        <td>
+                            <p>The maximum value measured by the sensor since it is ON or Reset</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <!-- Link not available yet -->
+                            <a>5603</a>
+                        </td>
+                        <td>
+                            <!-- Link not available yet -->
+                            <a>Min Range Value</a>
+                        </td>
+                        <td>
+                            R
+                        </td>
+                        <td>
+                            -
+                        </td>
+                        <td>
+                            -
+                        </td>
+                        <td>
+                            Float
+                        </td>
+                        <td>
+                            -
+                        </td>
+                        <td>
+                            Defined by Units resource.
+                        </td>
+                        <td>
+                            <p>The minimum value that can be measured by the sensor</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <!-- Link not available yet -->
+                            <a>5604</a>
+                        </td>
+                        <td>
+                            <!-- Link not available yet -->
+                            <a>Max Range Value</a>
+                        </td>
+                        <td>
+                            R
+                        </td>
+                        <td>
+                            -
+                        </td>
+                        <td>
+                            -
+                        </td>
+                        <td>
+                            Float
+                        </td>
+                        <td>
+                            -
+                        </td>
+                        <td>
+                            Defined by “Units” resource.
+                        </td>
+                        <td>
+                            <p>The maximum value that can be measured by the sensor</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <!-- Link not available yet -->
+                            <a>5605</a>
+                        </td>
+                        <td>
+                            <!-- Link not available yet -->
+                            <a>Reset Min and Max Measured Values</a>
+                        </td>
+                        <td>
+                            E
+                        </td>
+                        <td>
+                            -
+                        </td>
+                        <td>
+                            -
+                        </td>
+                        <td>
+                            Opaque
+                        </td>
+                        <td>
+                            -
+                        </td>
+                        <td>
+                            -
+                        </td>
+                        <td>
+                            <p>Reset the Min and Max Measured Values to Current Value</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <!-- Link not available yet -->
+                            <a>5650</a>
+                        </td>
+                        <td>
+                            <!-- Link not available yet -->
+                            <a>Analog Output Current Value</a>
+                        </td>
+                        <td>
+                            R,W
+                        </td>
+                        <td>
+                            -
+                        </td>
+                        <td>
+                            -
+                        </td>
+                        <td>
+                            Float
+                        </td>
+                        <td>
+                            0-5
+                        </td>
+                        <td>
+                            V
+                        </td>
+                        <td>
+                            <p>The current state of the analogue output.</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <!-- Link not available yet -->
+                            <a>5700</a>
+                        </td>
+                        <td>
+                            <!-- Link not available yet -->
+                            <a>Sensor Value</a>
+                        </td>
+                        <td>
+                            R
+                        </td>
+                        <td>
+                            -
+                        </td>
+                        <td>
+                            -
+                        </td>
+                        <td>
+                            Float
+                        </td>
+                        <td>
+                            -
+                        </td>
+                        <td>
+                            Defined by Units resource.
+                        </td>
+                        <td>
+                            <p>If present, the value of the sensor.</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <!-- Link not available yet -->
+                            <a>5701</a>
+                        </td>
+                        <td>
+                            <!-- Link not available yet -->
+                            <a>Sensor Units</a>
+                        </td>
+                        <td>
+                            R
+                        </td>
+                        <td>
+                            -
+                        </td>
+                        <td>
+                            -
+                        </td>
+                        <td>
+                            String
+                        </td>
+                        <td>
+                            -
+                        </td>
+                        <td>
+                            Defined by Units resource.
+                        </td>
+                        <td>
+                            <p>If present, the type of sensor defined as the UCUM Unit Definition e.g. Cel for Temperature in Celcius.</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <!-- Link not available yet -->
+                            <a>5702</a>
+                        </td>
+                        <td>
+                            <!-- Link not available yet -->
+                            <a>X Value</a>
+                        </td>
+                        <td>
+                            R
+                        </td>
+                        <td>
+                            -
+                        </td>
+                        <td>
+                            -
+                        </td>
+                        <td>
+                            Float
+                        </td>
+                        <td>
+                            -
+                        </td>
+                        <td>
+                            Defined by Units resource.
+                        </td>
+                        <td>
+                            <p>The measured value along the X axis.</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <!-- Link not available yet -->
+                            <a>5703</a>
+                        </td>
+                        <td>
+                            <!-- Link not available yet -->
+                            <a>Y Value</a>
+                        </td>
+                        <td>
+                            R
+                        </td>
+                        <td>
+                            -
+                        </td>
+                        <td>
+                            -
+                        </td>
+                        <td>
+                            Float
+                        </td>
+                        <td>
+                            -
+                        </td>
+                        <td>
+                            Defined by Units resource.
+                        </td>
+                        <td>
+                            <p>The measured value along the Y axis.</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <!-- Link not available yet -->
+                            <a>5704</a>
+                        </td>
+                        <td>
+                            <!-- Link not available yet -->
+                            <a>Z Value</a>
+                        </td>
+                        <td>
+                            R
+                        </td>
+                        <td>
+                            -
+                        </td>
+                        <td>
+                            -
+                        </td>
+                        <td>
+                            Float
+                        </td>
+                        <td>
+                            -
+                        </td>
+                        <td>
+                            Defined by Units resource.
+                        </td>
+                        <td>
+                            <p>The measured value along the Z axis.</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <!-- Link not available yet -->
+                            <a>5705</a>
+                        </td>
+                        <td>
+                            <!-- Link not available yet -->
+                            <a>Compass Direction</a>
+                        </td>
+                        <td>
+                            R,W
+                        </td>
+                        <td>
+                            -
+                        </td>
+                        <td>
+                            -
+                        </td>
+                        <td>
+                            Float
+                        </td>
+                        <td>
+                            0-360
+                        </td>
+                        <td>
+                            deg.
+                        </td>
+                        <td>
+                            <p>The compass direction indicated by the calibrated magnetic field</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <!-- Link not available yet -->
+                            <a>5706</a>
+                        </td>
+                        <td>
+                            <!-- Link not available yet -->
+                            <a>Compass Direction</a>
+                        </td>
+                        <td>
+                            R
+                        </td>
+                        <td>
+                            -
+                        </td>
+                        <td>
+                            -
+                        </td>
+                        <td>
+                            String
+                        </td>
+                        <td>
+                            -
+                        </td>
+                        <td>
+                            Defined by Units resource.
+                        </td>
+                        <td>
+                            <p>A string representing a value in some color space</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <!-- Link not available yet -->
+                            <a>5750</a>
+                        </td>
+                        <td>
+                            <!-- Link not available yet -->
+                            <a>Application Type</a>
+                        </td>
+                        <td>
+                            R,W
+                        </td>
+                        <td>
+                            -
+                        </td>
+                        <td>
+                            -
+                        </td>
+                        <td>
+                            String
+                        </td>
+                        <td>
+                            -
+                        </td>
+                        <td>
+                            -
+                        </td>
+                        <td>
+                            <p>The Application type of the device, for example Motion Closure.</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <!-- Link not available yet -->
+                            <a>5751</a>
+                        </td>
+                        <td>
+                            <!-- Link not available yet -->
+                            <a>Sensor Type</a>
+                        </td>
+                        <td>
+                            R
+                        </td>
+                        <td>
+                            -
+                        </td>
+                        <td>
+                            -
+                        </td>
+                        <td>
+                            String
+                        </td>
+                        <td>
+                            -
+                        </td>
+                        <td>
+                            -
+                        </td>
+                        <td>
+                            <p>The type of the sensor (for instance PIR type)</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <!-- Link not available yet -->
+                            <a>5800</a>
+                        </td>
+                        <td>
+                            <!-- Link not available yet -->
+                            <a>Instantaneous active power</a>
+                        </td>
+                        <td>
+                            R
+                        </td>
+                        <td>
+                            -
+                        </td>
+                        <td>
+                            -
+                        </td>
+                        <td>
+                            Float
+                        </td>
+                        <td>
+                            -
+                        </td>
+                        <td>
+                            W
+                        </td>
+                        <td>
+                            <p>The current active power</p>
+                        </td>
+                    <tr>
+                        <td>
+                            <!-- Link not available yet -->
+                            <a>5801</a>
+                        </td>
+                        <td>
+                            <!-- Link not available yet -->
+                            <a>Min Measured active power</a>
+                        </td>
+                        <td>
+                            R
+                        </td>
+                        <td>
+                            -
+                        </td>
+                        <td>
+                            -
+                        </td>
+                        <td>
+                            Float
+                        </td>
+                        <td>
+                            -
+                        </td>
+                        <td>
+                            W
+                        </td>
+                        <td>
+                            <p>The minimum active power measured by the sensor since it is ON</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <!-- Link not available yet -->
+                            <a>5802</a>
+                        </td>
+                        <td>
+                            <!-- Link not available yet -->
+                            <a>Max Measured active power</a>
+                        </td>
+                        <td>
+                            R
+                        </td>
+                        <td>
+                            -
+                        </td>
+                        <td>
+                            -
+                        </td>
+                        <td>
+                            Float
+                        </td>
+                        <td>
+                            -
+                        </td>
+                        <td>
+                            W
+                        </td>
+                        <td>
+                            <p>The maximum active power measured by the sensor since it is ON</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <!-- Link not available yet -->
+                            <a>5803</a>
+                        </td>
+                        <td>
+                            <!-- Link not available yet -->
+                            <a>Min Range active power</a>
+                        </td>
+                        <td>
+                            R
+                        </td>
+                        <td>
+                            -
+                        </td>
+                        <td>
+                            -
+                        </td>
+                        <td>
+                            Float
+                        </td>
+                        <td>
+                            -
+                        </td>
+                        <td>
+                            W
+                        </td>
+                        <td>
+                            <p>The minimum active power that can be measured by the sensor</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <!-- Link not available yet -->
+                            <a>5804</a>
+                        </td>
+                        <td>
+                            <!-- Link not available yet -->
+                            <a>Max Range active power</a>
+                        </td>
+                        <td>
+                            R
+                        </td>
+                        <td>
+                            -
+                        </td>
+                        <td>
+                            -
+                        </td>
+                        <td>
+                            Float
+                        </td>
+                        <td>
+                            -
+                        </td>
+                        <td>
+                            W
+                        </td>
+                        <td>
+                            <p>The maximum active power that can be measured by the sensor</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <!-- Link not available yet -->
+                            <a>5805</a>
+                        </td>
+                        <td>
+                            <!-- Link not available yet -->
+                            <a>Cumulative active power</a>
+                        </td>
+                        <td>
+                            R
+                        </td>
+                        <td>
+                            -
+                        </td>
+                        <td>
+                            -
+                        </td>
+                        <td>
+                            Float
+                        </td>
+                        <td>
+                            -
+                        </td>
+                        <td>
+                            Wh
+                        </td>
+                        <td>
+                            <p>The cumulative active power since the last cumulative energy reset or device start</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <!-- Link not available yet -->
+                            <a>5806</a>
+                        </td>
+                        <td>
+                            <!-- Link not available yet -->
+                            <a>Active Power Calibration</a>
+                        </td>
+                        <td>
+                            W
+                        </td>
+                        <td>
+                            -
+                        </td>
+                        <td>
+                            -
+                        </td>
+                        <td>
+                            Float
+                        </td>
+                        <td>
+                            -
+                        </td>
+                        <td>
+                            W
+                        </td>
+                        <td>
+                            <p>Request an active power calibration by writing the value of a calibrated load.</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <!-- Link not available yet -->
+                            <a>5810</a>
+                        </td>
+                        <td>
+                            <!-- Link not available yet -->
+                            <a>Instantaneous reactive power</a>
+                        </td>
+                        <td>
+                            R
+                        </td>
+                        <td>
+                            -
+                        </td>
+                        <td>
+                            -
+                        </td>
+                        <td>
+                            Float
+                        </td>
+                        <td>
+                            -
+                        </td>
+                        <td>
+                            var
+                        </td>
+                        <td>
+                            <p>The current reactive power</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <!-- Link not available yet -->
+                            <a>5811</a>
+                        </td>
+                        <td>
+                            <!-- Link not available yet -->
+                            <a>Min Measured reactive power</a>
+                        </td>
+                        <td>
+                            R
+                        </td>
+                        <td>
+                            -
+                        </td>
+                        <td>
+                            -
+                        </td>
+                        <td>
+                            Float
+                        </td>
+                        <td>
+                            -
+                        </td>
+                        <td>
+                            var
+                        </td>
+                        <td>
+                            <p>The minimum reactive power measured by the sensor since it is ON</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <!-- Link not available yet -->
+                            <a>5812</a>
+                        </td>
+                        <td>
+                            <!-- Link not available yet -->
+                            <a>Max Measured reactive power</a>
+                        </td>
+                        <td>
+                            R
+                        </td>
+                        <td>
+                            -
+                        </td>
+                        <td>
+                            -
+                        </td>
+                        <td>
+                            Float
+                        </td>
+                        <td>
+                            -
+                        </td>
+                        <td>
+                            var
+                        </td>
+                        <td>
+                            <p>The maximum reactive power measured by the sensor since it is ON</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <!-- Link not available yet -->
+                            <a>5813</a>
+                        </td>
+                        <td>
+                            <!-- Link not available yet -->
+                            <a>Min Range reactive powe</a>
+                        </td>
+                        <td>
+                            R
+                        </td>
+                        <td>
+                            -
+                        </td>
+                        <td>
+                            -
+                        </td>
+                        <td>
+                            Float
+                        </td>
+                        <td>
+                            -
+                        </td>
+                        <td>
+                            var
+                        </td>
+                        <td>
+                            <p>The minimum active power that can be measured by the sensor</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <!-- Link not available yet -->
+                            <a>5814</a>
+                        </td>
+                        <td>
+                            <!-- Link not available yet -->
+                            <a>Max Range reactive power</a>
+                        </td>
+                        <td>
+                            R
+                        </td>
+                        <td>
+                            -
+                        </td>
+                        <td>
+                            -
+                        </td>
+                        <td>
+                            Float
+                        </td>
+                        <td>
+                            -
+                        </td>
+                        <td>
+                            var
+                        </td>
+                        <td>
+                            <p>The maximum reactive power that can be measured by the sensor</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <!-- Link not available yet -->
+                            <a>5815</a>
+                        </td>
+                        <td>
+                            <!-- Link not available yet -->
+                            <a>Cumulative reactive power</a>
+                        </td>
+                        <td>
+                            R
+                        </td>
+                        <td>
+                            -
+                        </td>
+                        <td>
+                            -
+                        </td>
+                        <td>
+                            Float
+                        </td>
+                        <td>
+                            -
+                        </td>
+                        <td>
+                            varh
+                        </td>
+                        <td>
+                            <p>The cumulative reactive power since the last cumulative energy reset or device start</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <!-- Link not available yet -->
+                            <a>5816</a>
+                        </td>
+                        <td>
+                            <!-- Link not available yet -->
+                            <a>Reactive Power Calibration</a>
+                        </td>
+                        <td>
+                            W
+                        </td>
+                        <td>
+                            -
+                        </td>
+                        <td>
+                            -
+                        </td>
+                        <td>
+                            Float
+                        </td>
+                        <td>
+                            -
+                        </td>
+                        <td>
+                            var
+                        </td>
+                        <td>
+                            <p>Request a reactive power calibration by writing the value of a calibrated load.</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <!-- Link not available yet -->
+                            <a>5820</a>
+                        </td>
+                        <td>
+                            <!-- Link not available yet -->
+                            <a>Power factor</a>
+                        </td>
+                        <td>
+                            R
+                        </td>
+                        <td>
+                            -
+                        </td>
+                        <td>
+                            -
+                        </td>
+                        <td>
+                            Float
+                        </td>
+                        <td>
+                            -
+                        </td>
+                        <td>
+                            -
+                        </td>
+                        <td>
+                            <p>If applicable, the power factor of the current consumption.</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <!-- Link not available yet -->
+                            <a>5821</a>
+                        </td>
+                        <td>
+                            <!-- Link not available yet -->
+                            <a>Current Calibration</a>
+                        </td>
+                        <td>
+                            R,W
+                        </td>
+                        <td>
+                            -
+                        </td>
+                        <td>
+                            -
+                        </td>
+                        <td>
+                            Float
+                        </td>
+                        <td>
+                            -
+                        </td>
+                        <td>
+                            -
+                        </td>
+                        <td>
+                            <p>Read or Write the current calibration coefficient</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <!-- Link not available yet -->
+                            <a>5822</a>
+                        </td>
+                        <td>
+                            <!-- Link not available yet -->
+                            <a>Reset Cumulative energy</a>
+                        </td>
+                        <td>
+                            E
+                        </td>
+                        <td>
+                            -
+                        </td>
+                        <td>
+                            -
+                        </td>
+                        <td>
+                            Opaque
+                        </td>
+                        <td>
+                            -
+                        </td>
+                        <td>
+                            -
+                        </td>
+                        <td>
+                            <p>Reset both cumulative active/reactive power</p>
+                        </td>
+                    <tr>
+                        <td>
+                            <!-- Link not available yet -->
+                            <a>5823</a>
+                        </td>
+                        <td>
+                            <!-- Link not available yet -->
+                            <a>Event Identifier</a>
+                        </td>
+                        <td>
+                            R,W
+                        </td>
+                        <td>
+                            -
+                        </td>
+                        <td>
+                            -
+                        </td>
+                        <td>
+                            String
+                        </td>
+                        <td>
+                            -
+                        </td>
+                        <td>
+                            -
+                        </td>
+                        <td>
+                            <p>The event identifier as a string.</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <!-- Link not available yet -->
+                            <a>5824</a>
+                        </td>
+                        <td>
+                            <!-- Link not available yet -->
+                            <a>Start Time</a>
+                        </td>
+                        <td>
+                            R,W
+                        </td>
+                        <td>
+                            -
+                        </td>
+                        <td>
+                            -
+                        </td>
+                        <td>
+                            Time
+                        </td>
+                        <td>
+                            -
+                        </td>
+                        <td>
+                            -
+                        </td>
+                        <td>
+                            <p>Time when the load control event will start started.</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <!-- Link not available yet -->
+                            <a>5825</a>
+                        </td>
+                        <td>
+                            <!-- Link not available yet -->
+                            <a>Duration In Min</a>
+                        </td>
+                        <td>
+                            R,W
+                        </td>
+                        <td>
+                            -
+                        </td>
+                        <td>
+                            -
+                        </td>
+                        <td>
+                            Integer
+                        </td>
+                        <td>
+                            -
+                        </td>
+                        <td>
+                            Min
+                        </td>
+                        <td>
+                            <p>The duration of the load control event.</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <!-- Link not available yet -->
+                            <a>5826</a>
+                        </td>
+                        <td>
+                            <!-- Link not available yet -->
+                            <a>Critical Level</a>
+                        </td>
+                        <td>
+                            R,W
+                        </td>
+                        <td>
+                            -
+                        </td>
+                        <td>
+                            -
+                        </td>
+                        <td>
+                            Integer
+                        </td>
+                        <td>
+                            0-3
+                        </td>
+                        <td>
+                            -
+                        </td>
+                        <td>
+                            <p>The criticality of the event. The device receiving the event will react in an appropriate fashion for the device.</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <!-- Link not available yet -->
+                            <a>5827</a>
+                        </td>
+                        <td>
+                            <!-- Link not available yet -->
+                            <a>Avg Load AdjPct</a>
+                        </td>
+                        <td>
+                            R,W
+                        </td>
+                        <td>
+                            -
+                        </td>
+                        <td>
+                            -
+                        </td>
+                        <td>
+                            Integer
+                        </td>
+                        <td>
+                            0-100
+                        </td>
+                        <td>
+                            %
+                        </td>
+                        <td>
+                            <p>Defines the maximum energy usage of the receiving device, as a percentage of the device’s normal maximum energy usage</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <!-- Link not available yet -->
+                            <a>5828</a>
+                        </td>
+                        <td>
+                            <!-- Link not available yet -->
+                            <a>Duty Cycle</a>
+                        </td>
+                        <td>
+                            R,W
+                        </td>
+                        <td>
+                            -
+                        </td>
+                        <td>
+                            -
+                        </td>
+                        <td>
+                            Integer
+                        </td>
+                        <td>
+                            0-100
+                        </td>
+                        <td>
+                            %
+                        </td>
+                        <td>
+                            <p>Defines the duty cycle for the load control event, i.e, what percentage of time the receiving device is allowed to be on.</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <!-- Link not available yet -->
+                            <a>5850</a>
+                        </td>
+                        <td>
+                            <!-- Link not available yet -->
+                            <a>On/Off</a>
+                        </td>
+                        <td>
+                            R,W
+                        </td>
+                        <td>
+                            -
+                        </td>
+                        <td>
+                            -
+                        </td>
+                        <td>
+                            Boolean
+                        </td>
+                        <td>
+                            -
+                        </td>
+                        <td>
+                            -
+                        </td>
+                        <td>
+                            <p>This resource represents an on/off actuator, which can be controlled, the setting of which is a Boolean value (1,0) where 1 is on and 0 is off.</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <!-- Link not available yet -->
+                            <a>5851</a>
+                        </td>
+                        <td>
+                            <!-- Link not available yet -->
+                            <a>Dimmer</a>
+                        </td>
+                        <td>
+                            R,W
+                        </td>
+                        <td>
+                            -
+                        </td>
+                        <td>
+                            -
+                        </td>
+                        <td>
+                            Integer
+                        </td>
+                        <td>
+                            0-100
+                        </td>
+                        <td>
+                            %
+                        </td>
+                        <td>
+                            <p>This resource represents a dimmer setting, which has an Integer value between 0 and 100 as a percentage.</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <!-- Link not available yet -->
+                            <a>5852</a>
+                        </td>
+                        <td>
+                            <!-- Link not available yet -->
+                            <a>On Time</a>
+                        </td>
+                        <td>
+                            R,W
+                        </td>
+                        <td>
+                            -
+                        </td>
+                        <td>
+                            -
+                        </td>
+                        <td>
+                            Integer
+                        </td>
+                        <td>
+                            -
+                        </td>
+                        <td>
+                            s
+                        </td>
+                        <td>
+                            <p>The time in seconds that the device has been turned on. Writing a value of 0 resets the counter.</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <!-- Link not available yet -->
+                            <a>5853</a>
+                        </td>
+                        <td>
+                            <!-- Link not available yet -->
+                            <a>Muti-state Output</a>
+                        </td>
+                        <td>
+                            R,W
+                        </td>
+                        <td>
+                            -
+                        </td>
+                        <td>
+                            -
+                        </td>
+                        <td>
+                            String
+                        </td>
+                        <td>
+                            -
+                        </td>
+                        <td>
+                            -
+                        </td>
+                        <td>
+                            <p>A string describing a state for multiple level output such as Pilot Wire</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <!-- Link not available yet -->
+                            <a>5900</a>
+                        </td>
+                        <td>
+                            <!-- Link not available yet -->
+                            <a>Set Point Value</a>
+                        </td>
+                        <td>
+                            R,W
+                        </td>
+                        <td>
+                            -
+                        </td>
+                        <td>
+                            -
+                        </td>
+                        <td>
+                            Float
+                        </td>
+                        <td>
+                            -
+                        </td>
+                        <td>
+                            Defined by Units resource.
+                        </td>
+                        <td>
+                            <p>The setpoint value</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <!-- Link not available yet -->
+                            <a>5903</a>
+                        </td>
+                        <td>
+                            <!-- Link not available yet -->
+                            <a>Busy to Clear delay</a>
+                        </td>
+                        <td>
+                            R,W
+                        </td>
+                        <td>
+                            -
+                        </td>
+                        <td>
+                            -
+                        </td>
+                        <td>
+                            Integer
+                        </td>
+                        <td>
+                            -
+                        </td>
+                        <td>
+                            ms
+                        </td>
+                        <td>
+                            <p>Delay from the detection state to the clear state in ms</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <!-- Link not available yet -->
+                            <a>5904</a>
+                        </td>
+                        <td>
+                            <!-- Link not available yet -->
+                            <a>Clear to Busy delay</a>
+                        </td>
+                        <td>
+                            R,W
+                        </td>
+                        <td>
+                            -
+                        </td>
+                        <td>
+                            -
+                        </td>
+                        <td>
+                            Integer
+                        </td>
+                        <td>
+                            -
+                        </td>
+                        <td>
+                            ms
+                        </td>
+                        <td>
+                            <p>Delay from the clear state to the busy state in ms</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <!-- Link not available yet -->
+                            <a>5905</a>
+                        </td>
+                        <td>
+                            <!-- Link not available yet -->
+                            <a>Host Device Manufacturer</a>
+                        </td>
+                        <td>
+                            R
+                        </td>
+                        <td>
+                            Single
+                        </td>
+                        <td>
+                            Optional
+                        </td>
+                        <td>
+                            String
+                        </td>
+                        <td>
+                            -
+                        </td>
+                        <td>
+                            -
+                        </td>
+                        <td>
+                            <p>Human readable host device manufacturer name</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <!-- Link not available yet -->
+                            <a>5906</a>
+                        </td>
+                        <td>
+                            <!-- Link not available yet -->
+                            <a>Host Device Model Number</a>
+                        </td>
+                        <td>
+                            R
+                        </td>
+                        <td>
+                            Single
+                        </td>
+                        <td>
+                            Optional
+                        </td>
+                        <td>
+                            String
+                        </td>
+                        <td>
+                            -
+                        </td>
+                        <td>
+                            -
+                        </td>
+                        <td>
+                            <p>A host device model identifier (manufacturer specified string)</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <!-- Link not available yet -->
+                            <a>5907</a>
+                        </td>
+                        <td>
+                            <!-- Link not available yet -->
+                            <a>Host Device Unique ID</a>
+                        </td>
+                        <td>
+                            R
+                        </td>
+                        <td>
+                            Single
+                        </td>
+                        <td>
+                            Optional
+                        </td>
+                        <td>
+                            String
+                        </td>
+                        <td>
+                            -
+                        </td>
+                        <td>
+                            -
+                        </td>
+                        <td>
+                            <p>The host device unique ID is assigned by AT&T as the “Device ID” in the onboarding tool and will be stored in</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <!-- Link not available yet -->
+                            <a>5908</a>
+                        </td>
+                        <td>
+                            <!-- Link not available yet -->
+                            <a>Host Device Software Version</a>
+                        </td>
+                        <td>
+                            R
+                        </td>
+                        <td>
+                            Single
+                        </td>
+                        <td>
+                            Optional
+                        </td>
+                        <td>
+                            String
+                        </td>
+                        <td>
+                            -
+                        </td>
+                        <td>
+                            -
+                        </td>
+                        <td>
+                            <p>Current software version of the host device. (manufacturer specified string).</p>
+                        </td>
+                    </tr>
+                </tbody>
+                <caption>
+                    <a title="click here to register a new (Reusable) Resource ID" href="http://dev_devtoolkit.openmobilealliance.org/OEditor/Register">Register a new Resource produced by 3rd parties.</a>
+                </caption>
+            </table>
+        </div>
+
     </div>
     <!-- This gets populated with the footer.html using Javascript -->
     <div id="footer"></div>

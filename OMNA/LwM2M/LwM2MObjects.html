@@ -1,408 +1,409 @@
-<h2>LwM2M Objects</h2>
-<h3 id="omalabel"><strong>oma-label</strong> Objects Produced by OMA</h3>
-<p><code>URN: urn:oma:lwm2m:oma:ObjectID | range (0 - 1,023)</code></p>
-<table class="descriptive-table">
-    <thead>
-        <tr>
-            <th style="width: 143px">URN / Version</th>
-            <th>ObjectID / xml</th>
-            <th>LwM2M Editor</th>
-            <th>Vorto</th>
-            <th>Object Name / Specification</th>
-            <th>Description</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-            <td style="width: 143px">urn:oma:lwm2m:oma:0</td>
-            <td>
-                <a href="http://www.openmobilealliance.org/tech/profiles/LWM2M_Security-v1_0.xml" title="download xml file">0</a>
-            </td>
-            <td>
-                <a href="http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2FLWM2M_Security-v1_0.xml" title="call the Editor">0</a>
-            </td>
-            <td>
-                <!-- Link not available yet -->
-                <a>-</a>
-            </td>
-            <td style="width: 136px">
-                <a href="http://www.openmobilealliance.org/release/LightweightM2M/V1_0-20160407-C/OMA-TS-LightweightM2M-V1_0-20160407-C.pdf" title="download document">
-                    LwM2M Security
-                </a>
-            </td>
-            <td>
-                <p>It provides the keying material of a LWM2M Client appropriate to access a specified LWM2M Server. One Object Instance SHOULD address a LWM2M Bootstrap Server. These LWM2M Object Resources MUST only be changed by a LWM2M Bootstrap Server or Bootstrap from Smartcardand MUST NOT be accessible by any other LWM2M Server.</p>
-            </td>
-        </tr>
-        <tr>
-            <td style="width: 143px">urn:oma:lwm2m:oma:1 </td>
-            <td>
-                <a href="http://www.openmobilealliance.org/tech/profiles/LWM2M_Server-v1_0.xml" title="download xml file">1</a>
-            </td>
-            <td>
-                <a href="http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2FLWM2M_Server-v1_0.xml" title="call the Editor">1</a>
-            </td>
-            <td>
-                <!-- Link not available yet -->
-                <a>-</a>
-            </td>
-            <td style="width: 136px">
-                <a href="http://www.openmobilealliance.org/release/LightweightM2M/V1_0-20160407-C/OMA-TS-LightweightM2M-V1_0-20160407-C.pdf" title="download document">LwM2M Server</a>
-            </td>
-            <td>
-                <p>It provides the data related to a LWM2M Server. A Bootstrap Server has no such an Object Instance associated to it</p>
-            </td>
-        </tr>
-        <tr>
-            <td style="width: 143px">urn:oma:lwm2m:oma:2 </td>
-            <td style="height: 42px">
-                <a href="http://www.openmobilealliance.org/tech/profiles/LWM2M_Access_Control-v1_0.xml" title="download xml file">2</a>
-            </td>
-            <td>
-                <a href="http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3a%2f%2fwww.openmobilealliance.org%2ftech%2fprofiles%2fLWM2M_Access_Control-v1_0.xml" title="call the Editor">2</a>
-            </td>
-            <td>
-                <!-- Link not available yet -->
-                <a>-</a>
-            </td>
-            <td style="height: 42px; width: 136px;">
-                <a href="http://www.openmobilealliance.org/release/LightweightM2M/V1_0-20160407-C/OMA-TS-LightweightM2M-V1_0-20160407-C.pdf" title="download document">Access Control</a>
-            </td>
-            <td style="height: 42px">
-                <p>It is used to check whether the LWM2M Server has access right for performing a operation.</p>
-            </td>
-        </tr>
-        <tr>
-            <td style="width: 143px">urn:oma:lwm2m:oma:3</td>
-            <td>
-                <a href="http://www.openmobilealliance.org/tech/profiles/LWM2M_Device-v1_0.xml" title="download xml file">3</a>
-            </td>
-            <td>
-                <a href="http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2FLWM2M_Device-v1_0.xml" title="call the Editor">3</a>
-            </td>
-            <td>
-                <!-- Link not available yet -->
-                <a>-</a>
-            </td>
-            <td style="width: 136px">
-                <a href="http://www.openmobilealliance.org/release/LightweightM2M/V1_0-20160407-C/OMA-TS-LightweightM2M-V1_0-20160407-C.pdf" title="download document">Device</a>
-            </td>
-            <td>
-                It provides a range of device related information which can be queried by the LWM2M Server, and a device reboot and factory reset function.
+<div>
+    <h2>LwM2M Objects</h2>
+    <h3 id="omalabel"><strong>oma-label</strong> Objects Produced by OMA</h3>
+    <p><code>URN: urn:oma:lwm2m:oma:ObjectID | range (0 - 1,023)</code></p>
+    <table class="descriptive-table">
+        <thead>
+            <tr>
+                <th style="width: 143px">URN / Version</th>
+                <th>ObjectID / xml</th>
+                <th>LwM2M Editor</th>
+                <th>Vorto</th>
+                <th>Object Name / Specification</th>
+                <th>Description</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td style="width: 143px">urn:oma:lwm2m:oma:0</td>
+                <td>
+                    <a href="http://www.openmobilealliance.org/tech/profiles/LWM2M_Security-v1_0.xml" title="download xml file">0</a>
+                </td>
+                <td>
+                    <a href="http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2FLWM2M_Security-v1_0.xml" title="call the Editor">0</a>
+                </td>
+                <td>
+                    <!-- Link not available yet -->
+                    <a>-</a>
+                </td>
+                <td style="width: 136px">
+                    <a href="http://www.openmobilealliance.org/release/LightweightM2M/V1_0-20160407-C/OMA-TS-LightweightM2M-V1_0-20160407-C.pdf" title="download document">
+                        LwM2M Security
+                    </a>
+                </td>
+                <td>
+                    <p>It provides the keying material of a LWM2M Client appropriate to access a specified LWM2M Server. One Object Instance SHOULD address a LWM2M Bootstrap Server. These LWM2M Object Resources MUST only be changed by a LWM2M Bootstrap Server or Bootstrap from Smartcardand MUST NOT be accessible by any other LWM2M Server.</p>
+                </td>
+            </tr>
+            <tr>
+                <td style="width: 143px">urn:oma:lwm2m:oma:1 </td>
+                <td>
+                    <a href="http://www.openmobilealliance.org/tech/profiles/LWM2M_Server-v1_0.xml" title="download xml file">1</a>
+                </td>
+                <td>
+                    <a href="http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2FLWM2M_Server-v1_0.xml" title="call the Editor">1</a>
+                </td>
+                <td>
+                    <!-- Link not available yet -->
+                    <a>-</a>
+                </td>
+                <td style="width: 136px">
+                    <a href="http://www.openmobilealliance.org/release/LightweightM2M/V1_0-20160407-C/OMA-TS-LightweightM2M-V1_0-20160407-C.pdf" title="download document">LwM2M Server</a>
+                </td>
+                <td>
+                    <p>It provides the data related to a LWM2M Server. A Bootstrap Server has no such an Object Instance associated to it</p>
+                </td>
+            </tr>
+            <tr>
+                <td style="width: 143px">urn:oma:lwm2m:oma:2 </td>
+                <td style="height: 42px">
+                    <a href="http://www.openmobilealliance.org/tech/profiles/LWM2M_Access_Control-v1_0.xml" title="download xml file">2</a>
+                </td>
+                <td>
+                    <a href="http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3a%2f%2fwww.openmobilealliance.org%2ftech%2fprofiles%2fLWM2M_Access_Control-v1_0.xml" title="call the Editor">2</a>
+                </td>
+                <td>
+                    <!-- Link not available yet -->
+                    <a>-</a>
+                </td>
+                <td style="height: 42px; width: 136px;">
+                    <a href="http://www.openmobilealliance.org/release/LightweightM2M/V1_0-20160407-C/OMA-TS-LightweightM2M-V1_0-20160407-C.pdf" title="download document">Access Control</a>
+                </td>
+                <td style="height: 42px">
+                    <p>It is used to check whether the LWM2M Server has access right for performing a operation.</p>
+                </td>
+            </tr>
+            <tr>
+                <td style="width: 143px">urn:oma:lwm2m:oma:3</td>
+                <td>
+                    <a href="http://www.openmobilealliance.org/tech/profiles/LWM2M_Device-v1_0.xml" title="download xml file">3</a>
+                </td>
+                <td>
+                    <a href="http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2FLWM2M_Device-v1_0.xml" title="call the Editor">3</a>
+                </td>
+                <td>
+                    <!-- Link not available yet -->
+                    <a>-</a>
+                </td>
+                <td style="width: 136px">
+                    <a href="http://www.openmobilealliance.org/release/LightweightM2M/V1_0-20160407-C/OMA-TS-LightweightM2M-V1_0-20160407-C.pdf" title="download document">Device</a>
+                </td>
+                <td>
+                    It provides a range of device related information which can be queried by the LWM2M Server, and a device reboot and factory reset function.
 
-            </td>
-        </tr>
-        <tr>
-            <td style="width: 143px">urn:oma:lwm2m:oma:4</td>
-            <td>
-                <a href="http://www.openmobilealliance.org/tech/profiles/LWM2M_Connectivity_Monitoring-v1_0.xml" title="download xml file">4</a>
-            </td>
-            <td>
-                <a href="http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2FLWM2M_Connectivity_Monitoring-v1_0.xml" title="call the Editor">4</a>
-            </td>
-            <td>
-                <!-- Link not available yet -->
-                <a>-</a>
-            </td>
-            <td style="width: 136px">
-                <a href="http://www.openmobilealliance.org/release/LightweightM2M/V1_0-20160407-C/OMA-TS-LightweightM2M-V1_0-20160407-C.pdf" title="download document">Connectivity Monitoring</a>
-            </td>
-            <td>
-                It enables monitoring of parameters related to network connectivity. In this general connectivity Object, the Resources are limited to the most general cases common to most network bearers. It is recommended to read the description, which refers to relevant standard development organizations (e.g. 3GPP, IEEE). The goal of the Connectivity Monitoring Object is to carry information reflecting the more up to date values of the current connection for monitoring purposes. Resources such as Link Quality, Radio Signal Strenght, Cell ID are retrieved during connected mode at least for cellular networks.
-            </td>
-        </tr>
-        <tr>
-            <td style="width: 143px">urn:oma:lwm2m:oma:5 </td>
-            <td>
-                <a href="http://www.openmobilealliance.org/tech/profiles/LWM2M_Firmware_Update-v1_0.xml" title="download xml file">5</a>
-            </td>
-            <td>
-                <a href="http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2FLWM2M_Firmware_Update-v1_0.xml" title="call the Editor">5</a>
-            </td>
-            <td>
-                <!-- Link not available yet -->
-                <a>-</a>
-            </td>
-            <td style="width: 136px">
-                <a href="http://www.openmobilealliance.org/release/LightweightM2M/V1_0-20160407-C/OMA-TS-LightweightM2M-V1_0-20160407-C.pdf" title="download document">Firmware update</a>
-            </td>
-            <td>It enables management of firmware which is to be updated. This Object includes installing firmware package, updating firmware, and performing actions after updating firmware. </td>
-        </tr>
-        <tr>
-            <td style="width: 143px">urn:oma:lwm2m:oma:6</td>
-            <td>
-                <a href="http://www.openmobilealliance.org/tech/profiles/LWM2M_Location-v1_0.xml" title="download xml file">6</a>
-            </td>
-            <td>
-                <a href="http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2FLWM2M_Location-v1_0.xml" title="call the Editor">6</a>
-            </td>
-            <td>
-                <!-- Link not available yet -->
-                <a>-</a>
-            </td>
-            <td style="width: 136px">
-                <a href="http://www.openmobilealliance.org/release/LightweightM2M/V1_0-20160407-C/OMA-TS-LightweightM2M-V1_0-20160407-C.pdf" title="download document">Location</a>
-            </td>
-            <td>
-                It provides a range of device related information which can be queried by the LWM2M Server, and a device reboot and factory reset function.
-            </td>
-        </tr>
-        <tr>
-            <td style="width: 143px">urn:oma:lwm2m:oma:7</td>
-            <td>
-                <a href="http://www.openmobilealliance.org/tech/profiles/LWM2M_Connectivity_Statistics-v1_0.xml" title="download xml file">7</a>
-            </td>
-            <td>
-                <a href="http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2FLWM2M_Connectivity_Statistics-v1_0.xml" title="call the Editor">7</a>
-            </td>
-            <td>
-                <!-- Link not available yet -->
-                <a>-</a>
-            </td>
-            <td style="width: 136px">
-                <a href="http://www.openmobilealliance.org/release/LightweightM2M/V1_0-20160407-C/OMA-TS-LightweightM2M-V1_0-20160407-C.pdf" title="download document">Connectivity</a>
-            </td>
-            <td>
-                This LWM2M Objects enables client to collect statistical information and enables the LWM2M Server to retrieve these information, set the collection duration and reset the statistical parameters.
-            </td>
-        </tr>
-        <tr>
-            <td style="width: 143px">urn:oma:lwm2m:oma:8</td>
-            <td>
-                <!-- Link not available yet -->
-                8
-            </td>
-            <td>
-                <!-- Link not available yet -->
-                8
-            </td>
-            <td>
-                <!-- Link not available yet -->
-                <a>-</a>
-            </td>
-            <td style="width: 136px">
-                <a href="http://www.openmobilealliance.org/release/LWM2M_LOCKWIPE/V1_0-20151123-C/OMA-TS-LWM2M_LockWipe-V1_0-20151123-C.pdf" title="download document">
-                    Lock and Wipe
-                </a>
-            </td>
-            <td>
-                This LWM2M objects provides the resources needed to perform the lock and wipe operations
-            </td>
-        </tr>
-        <tr>
-            <td style="width: 143px">urn:oma:lwm2m:oma:9</td>
-            <td>
-                <!-- Link not available yet -->
-                9
-            </td>
-            <td>
-                <!-- Link not available yet -->
-                9
-            </td>
-            <td>
-                <!-- Link not available yet -->
-                <a>-</a>
-            </td>
-            <td style="width: 136px">
-                <a href="http://www.openmobilealliance.org/release/LWM2M_SWMGMT/V1_0-20151201-C/OMA-TS-LWM2M_SwMgmt-V1_0-20151201-C.pdf" title="download document">Software Management</a>
-            </td>
-            <td>
-                This LWM2M objects provides the resources needed to perform software management on the device. Each software component is managed via a dedicated Software Management Object instance
-            </td>
-        </tr>
-        <tr>
-            <td style="width: 143px">urn:oma:lwm2m:oma:10</td>
-            <td>
-                <!-- Link not available yet -->
-                10
-            </td>
-            <td>
-                <!-- Link not available yet -->
-                10
-            </td>
-            <td>
-                <!-- Link not available yet -->
-                <a>-</a>
-            </td>
-            <td style="width: 136px">
-                <a href="http://www.openmobilealliance.org/release/LWM2M_CONNMGMT/V1_0-20151201-C/OMA-TS-LWM2M_ConnMgmt-V1_0-20151201-C.pdf" title="download document">Celluar connectivity</a>
-            </td>
-            <td>
-                It specifies resources to enable a device to connect to a 3GPP or 3GPP2 bearer, including GPRS/EDGE, UMTS, LTE, SMS. For cellular connectivity, this object focuses on Packet Switched (PS) connectivity and doesn’t aim to provide comprehensive Circuit Switched (CS) connectivity management.
-                <br>
-                <br>
-            </td>
-        </tr>
-        <tr>
-            <td style="width: 143px">urn:oma:lwm2m:oma:11</td>
-            <td>
-                <!-- Link not available yet -->
-                11
-            </td>
-            <td>
-                <!-- Link not available yet -->
-                11
-            </td>
-            <td>
-                <!-- Link not available yet -->
-                <a>-</a>
-            </td>
-            <td style="width: 136px">
-                <a href="http://www.openmobilealliance.org/release/LWM2M_CONNMGMT/V1_0-20151201-C/OMA-TS-LWM2M_ConnMgmt-V1_0-20151201-C.pdf" title="download document">APN connection profile</a>
-            </td>
-            <td>
-                It specifies resources to enable a device to connect to an APN.
-            </td>
-        </tr>
-        <tr>
-            <td style="width: 143px">urn:oma:lwm2m:oma:12</td>
-            <td>
-                <!-- Link not available yet -->
-                12
-            </td>
-            <td>
-                <!-- Link not available yet -->
-                12
-            </td>
-            <td>
-                <!-- Link not available yet -->
-                <a>-</a>
-            </td>
-            <td style="width: 136px">
-                <a href="http://www.openmobilealliance.org/release/LWM2M_CONNMGMT/V1_0-20151201-C/OMA-TS-LWM2M_ConnMgmt-V1_0-20151201-C.pdf" title="download document">WLAN connectivity</a>
-            </td>
-            <td>
-                It specifies resources to enable a device to connect to a WLAN bearer.
-            </td>
-        </tr>
-        <tr>
-            <td style="width: 143px">urn:oma:lwm2m:oma:13</td>
-            <td>
-                <!-- Link not available yet -->
-                13
-            </td>
-            <td>
-                <!-- Link not available yet -->
-                13
-            </td>
-            <td>
-                <!-- Link not available yet -->
-                <a>-</a>
-            </td>
-            <td style="width: 136px">
-                <a href="http://www.openmobilealliance.org/release/LWM2M_CONNMGMT/V1_0-20151201-C/OMA-TS-LWM2M_ConnMgmt-V1_0-20151201-C.pdf" title="download document">Bearer selection</a>
-            </td>
-            <td>
-                It specifies resources to enable a device to choose a communications bearer on which to connect.
-            </td>
-        </tr>
-        <tr>
-            <td style="width: 143px">urn:oma:lwm2m:oma:14</td>
-            <td>
-                <!-- Link not available yet -->
-                14
-            </td>
-            <td>
-                <!-- Link not available yet -->
-                14
-            </td>
-            <td>
-                <!-- Link not available yet -->
-                <a>-</a>
-            </td>
-            <td style="width: 136px">
-                <a href="http://www.openmobilealliance.org/release/LWM2M_SWMGMT/V1_0-20151201-C/OMA-TS-LWM2M_SwMgmt-V1_0-20151201-C.pdf" title="download document">Software Component</a>
-            </td>
-            <td>
-                The LWM2M software management object enables remote software management in M2M devices
-            </td>
-        </tr>
-        <tr>
-            <td style="width: 143px">urn:oma:lwm2m:oma:15</td>
-            <td>
-                <!-- Link not available yet -->
-                15
-            </td>
-            <td>
-                <!-- Link not available yet -->
-                15
-            </td>
-            <td>
-                <!-- Link not available yet -->
-                <a>-</a>
-            </td>
-            <td style="width: 136px">
-                <a href="http://www.openmobilealliance.org/release/LWM2M_DevCapMgmt/V1_0_1-20151123-A/OMA-TS-LWM2M_DevCapMgmt-V1_0_1-20151123-A.pdf" title="download document">LWM2M DevCapMgmt</a>
-            </td>
-            <td>
-                It manages the device capabilities of a device e.g. sensors, communication, etc
-            </td>
-        </tr>
-        <tr>
-            <td style="width: 143px">urn:oma:lwm2m:oma:16</td>
-            <td>
-                <a href="http://www.openmobilealliance.org/tech/profiles/LWM2M_Portfolio-v1_0.xml" title="download xml file">16</a>
-            </td>
-            <td>
-                <a href="http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2FLWM2M_Portfolio-v1_0.xml" title="call the Editor">16</a>
-            </td>
-            <td>
-                <!-- Link not available yet -->
-                <a>-</a>
-            </td>
-            <td style="width: 136px">
-                <a title="download document" href="http://www.openmobilealliance.org/release/LWM2M_PortfolioObj/V1_0-20160906-C/OMA-TS-LWM2M_PortfolioObj-V1_0-20160906-C.pdf">Portfolio</a>
-            </td>
-            <td>
-                Extends data storage of other LWM2M Object Instances in M2M devices, as well as to provide security services for applications associated with this data extension.
-            </td>
-        </tr>
-        <tr>
-            <td style="width: 143px">urn:oma:lwm2m:oma:17</td>
-            <td>
-                <a href="http://www.openmobilealliance.org/tech/profiles/Communication_Characteristics-V1_0.xml" title="download xml file">17</a>
-            </td>
-            <td>
-                <a href="http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3a%2f%2fwww.openmobilealliance.org%2ftech%2fprofiles%2fCommunication+Characteristics.xml" title="call the Editor">17</a>
-            </td>
-            <td>
-                <!-- Link not available yet -->
-                -
-            </td>
-            <td>
-                <!-- Link not available yet -->
-                -
-            </td>
-            <td>
-                Communication Characteristics
-            </td>
-        </tr>
-        <tr>
-            <td style="width: 143px">urn:oma:lwm2m:oma:18</td>
-            <td>
-                <a href="http://www.openmobilealliance.org/tech/profiles/Non-Access_Stratum_NAS_configuration-V1_0.xml" title="download xml file">18</a>
-            </td>
-            <td>
-                <a href="http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3a%2f%2fwww.openmobilealliance.org%2ftech%2fprofiles%2fNon-Access_Stratum_NAS_configuration-V1_0.xml" title="call the Editor">18</a>
-            </td>
-            <td>
-                <!-- Link not available yet -->
-                -
-            </td>
-            <td>
-                <!-- Link not available yet -->
-                -
-            </td>
-            <td>
-                Non-Access Stratum (NAS) configuration
-            </td>
-        </tr>
-    </tbody>
-      <caption>
-       Objects in the above table (oma-label) are only registered by OMA Working Groups via an internal registratin process, called OMNA.
-    <a title="OMA Working Groups click here to register" href="http://dev_devtoolkit.openmobilealliance.org/OEditor/Register">Click to register.</a>
-    </caption>
-</table>
+                </td>
+            </tr>
+            <tr>
+                <td style="width: 143px">urn:oma:lwm2m:oma:4</td>
+                <td>
+                    <a href="http://www.openmobilealliance.org/tech/profiles/LWM2M_Connectivity_Monitoring-v1_0.xml" title="download xml file">4</a>
+                </td>
+                <td>
+                    <a href="http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2FLWM2M_Connectivity_Monitoring-v1_0.xml" title="call the Editor">4</a>
+                </td>
+                <td>
+                    <!-- Link not available yet -->
+                    <a>-</a>
+                </td>
+                <td style="width: 136px">
+                    <a href="http://www.openmobilealliance.org/release/LightweightM2M/V1_0-20160407-C/OMA-TS-LightweightM2M-V1_0-20160407-C.pdf" title="download document">Connectivity Monitoring</a>
+                </td>
+                <td>
+                    It enables monitoring of parameters related to network connectivity. In this general connectivity Object, the Resources are limited to the most general cases common to most network bearers. It is recommended to read the description, which refers to relevant standard development organizations (e.g. 3GPP, IEEE). The goal of the Connectivity Monitoring Object is to carry information reflecting the more up to date values of the current connection for monitoring purposes. Resources such as Link Quality, Radio Signal Strenght, Cell ID are retrieved during connected mode at least for cellular networks.
+                </td>
+            </tr>
+            <tr>
+                <td style="width: 143px">urn:oma:lwm2m:oma:5 </td>
+                <td>
+                    <a href="http://www.openmobilealliance.org/tech/profiles/LWM2M_Firmware_Update-v1_0.xml" title="download xml file">5</a>
+                </td>
+                <td>
+                    <a href="http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2FLWM2M_Firmware_Update-v1_0.xml" title="call the Editor">5</a>
+                </td>
+                <td>
+                    <!-- Link not available yet -->
+                    <a>-</a>
+                </td>
+                <td style="width: 136px">
+                    <a href="http://www.openmobilealliance.org/release/LightweightM2M/V1_0-20160407-C/OMA-TS-LightweightM2M-V1_0-20160407-C.pdf" title="download document">Firmware update</a>
+                </td>
+                <td>It enables management of firmware which is to be updated. This Object includes installing firmware package, updating firmware, and performing actions after updating firmware. </td>
+            </tr>
+            <tr>
+                <td style="width: 143px">urn:oma:lwm2m:oma:6</td>
+                <td>
+                    <a href="http://www.openmobilealliance.org/tech/profiles/LWM2M_Location-v1_0.xml" title="download xml file">6</a>
+                </td>
+                <td>
+                    <a href="http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2FLWM2M_Location-v1_0.xml" title="call the Editor">6</a>
+                </td>
+                <td>
+                    <!-- Link not available yet -->
+                    <a>-</a>
+                </td>
+                <td style="width: 136px">
+                    <a href="http://www.openmobilealliance.org/release/LightweightM2M/V1_0-20160407-C/OMA-TS-LightweightM2M-V1_0-20160407-C.pdf" title="download document">Location</a>
+                </td>
+                <td>
+                    It provides a range of device related information which can be queried by the LWM2M Server, and a device reboot and factory reset function.
+                </td>
+            </tr>
+            <tr>
+                <td style="width: 143px">urn:oma:lwm2m:oma:7</td>
+                <td>
+                    <a href="http://www.openmobilealliance.org/tech/profiles/LWM2M_Connectivity_Statistics-v1_0.xml" title="download xml file">7</a>
+                </td>
+                <td>
+                    <a href="http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2FLWM2M_Connectivity_Statistics-v1_0.xml" title="call the Editor">7</a>
+                </td>
+                <td>
+                    <!-- Link not available yet -->
+                    <a>-</a>
+                </td>
+                <td style="width: 136px">
+                    <a href="http://www.openmobilealliance.org/release/LightweightM2M/V1_0-20160407-C/OMA-TS-LightweightM2M-V1_0-20160407-C.pdf" title="download document">Connectivity</a>
+                </td>
+                <td>
+                    This LWM2M Objects enables client to collect statistical information and enables the LWM2M Server to retrieve these information, set the collection duration and reset the statistical parameters.
+                </td>
+            </tr>
+            <tr>
+                <td style="width: 143px">urn:oma:lwm2m:oma:8</td>
+                <td>
+                    <!-- Link not available yet -->
+                    8
+                </td>
+                <td>
+                    <!-- Link not available yet -->
+                    8
+                </td>
+                <td>
+                    <!-- Link not available yet -->
+                    <a>-</a>
+                </td>
+                <td style="width: 136px">
+                    <a href="http://www.openmobilealliance.org/release/LWM2M_LOCKWIPE/V1_0-20151123-C/OMA-TS-LWM2M_LockWipe-V1_0-20151123-C.pdf" title="download document">
+                        Lock and Wipe
+                    </a>
+                </td>
+                <td>
+                    This LWM2M objects provides the resources needed to perform the lock and wipe operations
+                </td>
+            </tr>
+            <tr>
+                <td style="width: 143px">urn:oma:lwm2m:oma:9</td>
+                <td>
+                    <!-- Link not available yet -->
+                    9
+                </td>
+                <td>
+                    <!-- Link not available yet -->
+                    9
+                </td>
+                <td>
+                    <!-- Link not available yet -->
+                    <a>-</a>
+                </td>
+                <td style="width: 136px">
+                    <a href="http://www.openmobilealliance.org/release/LWM2M_SWMGMT/V1_0-20151201-C/OMA-TS-LWM2M_SwMgmt-V1_0-20151201-C.pdf" title="download document">Software Management</a>
+                </td>
+                <td>
+                    This LWM2M objects provides the resources needed to perform software management on the device. Each software component is managed via a dedicated Software Management Object instance
+                </td>
+            </tr>
+            <tr>
+                <td style="width: 143px">urn:oma:lwm2m:oma:10</td>
+                <td>
+                    <!-- Link not available yet -->
+                    10
+                </td>
+                <td>
+                    <!-- Link not available yet -->
+                    10
+                </td>
+                <td>
+                    <!-- Link not available yet -->
+                    <a>-</a>
+                </td>
+                <td style="width: 136px">
+                    <a href="http://www.openmobilealliance.org/release/LWM2M_CONNMGMT/V1_0-20151201-C/OMA-TS-LWM2M_ConnMgmt-V1_0-20151201-C.pdf" title="download document">Celluar connectivity</a>
+                </td>
+                <td>
+                    It specifies resources to enable a device to connect to a 3GPP or 3GPP2 bearer, including GPRS/EDGE, UMTS, LTE, SMS. For cellular connectivity, this object focuses on Packet Switched (PS) connectivity and doesn’t aim to provide comprehensive Circuit Switched (CS) connectivity management.
+                    <br>
+                    <br>
+                </td>
+            </tr>
+            <tr>
+                <td style="width: 143px">urn:oma:lwm2m:oma:11</td>
+                <td>
+                    <!-- Link not available yet -->
+                    11
+                </td>
+                <td>
+                    <!-- Link not available yet -->
+                    11
+                </td>
+                <td>
+                    <!-- Link not available yet -->
+                    <a>-</a>
+                </td>
+                <td style="width: 136px">
+                    <a href="http://www.openmobilealliance.org/release/LWM2M_CONNMGMT/V1_0-20151201-C/OMA-TS-LWM2M_ConnMgmt-V1_0-20151201-C.pdf" title="download document">APN connection profile</a>
+                </td>
+                <td>
+                    It specifies resources to enable a device to connect to an APN.
+                </td>
+            </tr>
+            <tr>
+                <td style="width: 143px">urn:oma:lwm2m:oma:12</td>
+                <td>
+                    <!-- Link not available yet -->
+                    12
+                </td>
+                <td>
+                    <!-- Link not available yet -->
+                    12
+                </td>
+                <td>
+                    <!-- Link not available yet -->
+                    <a>-</a>
+                </td>
+                <td style="width: 136px">
+                    <a href="http://www.openmobilealliance.org/release/LWM2M_CONNMGMT/V1_0-20151201-C/OMA-TS-LWM2M_ConnMgmt-V1_0-20151201-C.pdf" title="download document">WLAN connectivity</a>
+                </td>
+                <td>
+                    It specifies resources to enable a device to connect to a WLAN bearer.
+                </td>
+            </tr>
+            <tr>
+                <td style="width: 143px">urn:oma:lwm2m:oma:13</td>
+                <td>
+                    <!-- Link not available yet -->
+                    13
+                </td>
+                <td>
+                    <!-- Link not available yet -->
+                    13
+                </td>
+                <td>
+                    <!-- Link not available yet -->
+                    <a>-</a>
+                </td>
+                <td style="width: 136px">
+                    <a href="http://www.openmobilealliance.org/release/LWM2M_CONNMGMT/V1_0-20151201-C/OMA-TS-LWM2M_ConnMgmt-V1_0-20151201-C.pdf" title="download document">Bearer selection</a>
+                </td>
+                <td>
+                    It specifies resources to enable a device to choose a communications bearer on which to connect.
+                </td>
+            </tr>
+            <tr>
+                <td style="width: 143px">urn:oma:lwm2m:oma:14</td>
+                <td>
+                    <!-- Link not available yet -->
+                    14
+                </td>
+                <td>
+                    <!-- Link not available yet -->
+                    14
+                </td>
+                <td>
+                    <!-- Link not available yet -->
+                    <a>-</a>
+                </td>
+                <td style="width: 136px">
+                    <a href="http://www.openmobilealliance.org/release/LWM2M_SWMGMT/V1_0-20151201-C/OMA-TS-LWM2M_SwMgmt-V1_0-20151201-C.pdf" title="download document">Software Component</a>
+                </td>
+                <td>
+                    The LWM2M software management object enables remote software management in M2M devices
+                </td>
+            </tr>
+            <tr>
+                <td style="width: 143px">urn:oma:lwm2m:oma:15</td>
+                <td>
+                    <!-- Link not available yet -->
+                    15
+                </td>
+                <td>
+                    <!-- Link not available yet -->
+                    15
+                </td>
+                <td>
+                    <!-- Link not available yet -->
+                    <a>-</a>
+                </td>
+                <td style="width: 136px">
+                    <a href="http://www.openmobilealliance.org/release/LWM2M_DevCapMgmt/V1_0_1-20151123-A/OMA-TS-LWM2M_DevCapMgmt-V1_0_1-20151123-A.pdf" title="download document">LWM2M DevCapMgmt</a>
+                </td>
+                <td>
+                    It manages the device capabilities of a device e.g. sensors, communication, etc
+                </td>
+            </tr>
+            <tr>
+                <td style="width: 143px">urn:oma:lwm2m:oma:16</td>
+                <td>
+                    <a href="http://www.openmobilealliance.org/tech/profiles/LWM2M_Portfolio-v1_0.xml" title="download xml file">16</a>
+                </td>
+                <td>
+                    <a href="http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2FLWM2M_Portfolio-v1_0.xml" title="call the Editor">16</a>
+                </td>
+                <td>
+                    <!-- Link not available yet -->
+                    <a>-</a>
+                </td>
+                <td style="width: 136px">
+                    <a title="download document" href="http://www.openmobilealliance.org/release/LWM2M_PortfolioObj/V1_0-20160906-C/OMA-TS-LWM2M_PortfolioObj-V1_0-20160906-C.pdf">Portfolio</a>
+                </td>
+                <td>
+                    Extends data storage of other LWM2M Object Instances in M2M devices, as well as to provide security services for applications associated with this data extension.
+                </td>
+            </tr>
+            <tr>
+                <td style="width: 143px">urn:oma:lwm2m:oma:17</td>
+                <td>
+                    <a href="http://www.openmobilealliance.org/tech/profiles/Communication_Characteristics-V1_0.xml" title="download xml file">17</a>
+                </td>
+                <td>
+                    <a href="http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3a%2f%2fwww.openmobilealliance.org%2ftech%2fprofiles%2fCommunication+Characteristics.xml" title="call the Editor">17</a>
+                </td>
+                <td>
+                    <!-- Link not available yet -->
+                    -
+                </td>
+                <td>
+                    <!-- Link not available yet -->
+                    -
+                </td>
+                <td>
+                    Communication Characteristics
+                </td>
+            </tr>
+            <tr>
+                <td style="width: 143px">urn:oma:lwm2m:oma:18</td>
+                <td>
+                    <a href="http://www.openmobilealliance.org/tech/profiles/Non-Access_Stratum_NAS_configuration-V1_0.xml" title="download xml file">18</a>
+                </td>
+                <td>
+                    <a href="http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3a%2f%2fwww.openmobilealliance.org%2ftech%2fprofiles%2fNon-Access_Stratum_NAS_configuration-V1_0.xml" title="call the Editor">18</a>
+                </td>
+                <td>
+                    <!-- Link not available yet -->
+                    -
+                </td>
+                <td>
+                    <!-- Link not available yet -->
+                    -
+                </td>
+                <td>
+                    Non-Access Stratum (NAS) configuration
+                </td>
+            </tr>
+        </tbody>
+        <caption>
+            Objects in the above table (oma-label) are only registered by OMA Working Groups via an internal registratin process, called OMNA.
+            <a title="OMA Working Groups click here to register" href="http://dev_devtoolkit.openmobilealliance.org/OEditor/Register">Click to register.</a>
+        </caption>
+    </table>
 </div>
 
 <div>
@@ -2007,7 +2008,7 @@
         <caption>
             The registration of individual and proprietary LwM2M Objects is currently under review.
         </caption>
-        
+
     </table>
 </div>
 <div>
