@@ -1,0 +1,1567 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<LWM2M>
+
+
+<Object ObjectType="MODefinition">
+
+<Name>IPSO Alliance Common Resources</Name>
+
+<Description1/>
+
+<ObjectID>0</ObjectID>
+
+<ObjectURN/>
+
+<MultipleInstances>Multiple</MultipleInstances>
+
+<Mandatory>Optional</Mandatory>
+
+
+<Resources>
+
+
+<Item ID="4000">
+
+<Name>ObjectInstanceHandle</Name>
+
+<Operations>R</Operations>
+
+<MultipleInstances></MultipleInstances>
+
+<Mandatory></Mandatory>
+
+<Type>Objlnk</Type>
+
+<RangeEnumeration/>
+
+<Units/>
+
+
+<Description>
+
+<![CDATA[The object link is used to refer an Instance of a given Object. An Object link value is composed of two concatenated 16-bits unsigned integers following the Network Byte Order convention. The Most Significant Halfword is an ObjectID, the Least Significant Hafword is an ObjectInstance ID.An Object Link referencing no Object Instance will contain the concatenation of 2 MAX-ID values (null link.]]>
+
+</Description>
+
+</Item>
+<Item ID="4001">
+
+<Name>ObjectVersion</Name>
+
+<Operations>R</Operations>
+
+<MultipleInstances>Single</MultipleInstances>
+
+<Mandatory>Optional</Mandatory>
+
+<Type>String</Type>
+
+<RangeEnumeration/>
+
+<Units/>
+
+
+<Description>
+
+<![CDATA[LWM2M Object versioning label.]]>
+
+</Description>
+
+</Item>
+
+
+<Item ID="5500">
+
+<Name>Digital Input State</Name>
+
+<Operations>R</Operations>
+
+<MultipleInstances></MultipleInstances>
+
+<Mandatory></Mandatory>
+
+<Type>Boolean</Type>
+
+<RangeEnumeration></RangeEnumeration>
+
+<Units/>
+
+
+<Description>
+
+<![CDATA[The current state of a digital input.]]>
+
+</Description>
+
+</Item>
+
+
+<Item ID="5501">
+
+<Name>Digital Input Counter</Name>
+
+<Operations>R</Operations>
+
+<MultipleInstances></MultipleInstances>
+
+<Mandatory></Mandatory>
+
+<Type>Integer</Type>
+
+<RangeEnumeration></RangeEnumeration>
+
+<Units/>
+
+
+<Description>
+
+<![CDATA[The cumulative value of active state detected.]]>
+
+</Description>
+
+</Item>
+
+
+<Item ID="5502">
+
+<Name>Digital Input Polarity</Name>
+
+<Operations>RW</Operations>
+
+<MultipleInstances></MultipleInstances>
+
+<Mandatory></Mandatory>
+
+<Type>Boolean</Type>
+
+<RangeEnumeration></RangeEnumeration>
+
+<Units/>
+
+
+<Description>
+
+<![CDATA[The polarity of a digital input as a Boolean (0 = Normal, 1= Reversed)]]>
+
+</Description>
+
+</Item>
+
+
+<Item ID="5503">
+
+<Name>Digital Input Debounce Period</Name>
+
+<Operations>RW</Operations>
+
+<MultipleInstances></MultipleInstances>
+
+<Mandatory></Mandatory>
+
+<Type>Integer</Type>
+
+<RangeEnumeration/>
+
+<Units>ms</Units>
+
+
+<Description>
+
+<![CDATA[The debounce period in ms.]]>
+
+</Description>
+
+</Item>
+
+
+<Item ID="5504">
+
+<Name>Digital Input Edge Selection</Name>
+
+<Operations>RW</Operations>
+
+<MultipleInstances></MultipleInstances>
+
+<Mandatory></Mandatory>
+
+<Type>Integer</Type>
+
+<RangeEnumeration/>
+
+<Units/>
+
+
+<Description>
+
+<![CDATA[The edge selection as an integer (1 = Falling edge, 2 = Rising edge, 3 = Both Rising and Falling edge)]]>
+
+</Description>
+
+</Item>
+
+
+<Item ID="5505">
+
+<Name>Digital Input Counter Reset</Name>
+
+<Operations>E</Operations>
+
+<MultipleInstances></MultipleInstances>
+
+<Mandatory></Mandatory>
+
+<Type>Opaque</Type>
+
+<RangeEnumeration/>
+
+<Units/>
+
+
+<Description>
+
+<![CDATA[Reset the Counter value]]>
+
+</Description>
+
+</Item>
+
+
+<Item ID="5550">
+
+<Name>Digital Output State</Name>
+
+<Operations>RW</Operations>
+
+<MultipleInstances></MultipleInstances>
+
+<Mandatory></Mandatory>
+
+<Type>Boolean</Type>
+
+<RangeEnumeration/>
+
+<Units/>
+
+
+<Description>
+
+<![CDATA[The polarity of a digital input as a Boolean (0 = Normal, 1= Reversed)]]>
+
+</Description>
+
+</Item>
+
+
+<Item ID="5551">
+
+<Name>Digital Output Polarity</Name>
+
+<Operations>RW</Operations>
+
+<MultipleInstances></MultipleInstances>
+
+<Mandatory></Mandatory>
+
+<Type>Boolean</Type>
+
+<RangeEnumeration/>
+
+<Units/>
+
+<Description>
+
+<![CDATA[The polarity of a digital input as a Boolean (0 = Normal, 1= Reversed)]]>
+
+</Description>
+
+</Item>
+
+
+<Item ID="5600">
+
+<Name>Analog Input Current Value</Name>
+
+<Operations>R</Operations>
+
+<MultipleInstances></MultipleInstances>
+
+<Mandatory></Mandatory>
+
+<Type>Float</Type>
+
+<RangeEnumeration>0-5</RangeEnumeration>
+
+<Units>V</Units>
+
+
+<Description>
+
+<![CDATA[The current state of the analogue input.]]>
+
+</Description>
+
+</Item>
+
+
+<Item ID="5601">
+
+<Name>Min Measured Value</Name>
+
+<Operations>R</Operations>
+
+<MultipleInstances></MultipleInstances>
+
+<Mandatory></Mandatory>
+
+<Type>Float</Type>
+
+<RangeEnumeration/>
+
+<Units>Defined by “Units” resource.</Units>
+
+
+<Description>
+
+<![CDATA[The minimum value measured by the sensor since it is ON or Reset.]]>
+
+</Description>
+
+</Item>
+
+
+<Item ID="5602">
+
+<Name>Max Measured Value</Name>
+
+<Operations>R</Operations>
+
+<MultipleInstances></MultipleInstances>
+
+<Mandatory></Mandatory>
+
+<Type>Float</Type>
+
+<RangeEnumeration/>
+
+<Units>Defined by “Units” resource.</Units>
+
+
+<Description>
+
+<![CDATA[The maximum value measured by the sensor since it is ON or Reset]]>
+
+</Description>
+
+</Item>
+
+
+<Item ID="5603">
+
+<Name>Min Range Value</Name>
+
+<Operations>R</Operations>
+
+<MultipleInstances></MultipleInstances>
+
+<Mandatory></Mandatory>
+
+<Type>Float</Type>
+
+<RangeEnumeration/>
+
+<Units>Defined by “Units” resource.</Units>
+
+
+<Description>
+
+<![CDATA[The minimum value that can be measured by the sensor]]>
+
+</Description>
+
+</Item>
+
+
+<Item ID="5604">
+
+<Name>Max Range Value</Name>
+
+<Operations>R</Operations>
+
+<MultipleInstances></MultipleInstances>
+
+<Mandatory></Mandatory>
+
+<Type>Float</Type>
+
+<RangeEnumeration/>
+
+<Units>Defined by “Units” resource.</Units>
+
+
+<Description>
+
+<![CDATA[The maximum value that can be measured by the sensor]]>
+
+</Description>
+
+</Item>
+
+
+<Item ID="5605">
+
+<Name>Reset Min and Max Measured Values</Name>
+
+<Operations>E</Operations>
+
+<MultipleInstances></MultipleInstances>
+
+<Mandatory></Mandatory>
+
+<Type>Opaque</Type>
+
+<RangeEnumeration/>
+
+<Units/>
+
+
+<Description>
+
+<![CDATA[Reset the Min and Max Measured Values to Current Value]]>
+
+</Description>
+
+</Item>
+
+
+<Item ID="5650">
+
+<Name>Analog Output Current Value</Name>
+
+<Operations>RW</Operations>
+
+<MultipleInstances></MultipleInstances>
+
+<Mandatory></Mandatory>
+
+<Type>Float</Type>
+
+<RangeEnumeration>0-5</RangeEnumeration>
+
+<Units>V</Units>
+
+
+<Description>
+
+<![CDATA[The current state of the analogue output.]]>
+
+</Description>
+
+</Item>
+
+
+<Item ID="5700">
+
+<Name>Sensor Value</Name>
+
+<Operations>R</Operations>
+
+<MultipleInstances></MultipleInstances>
+
+<Mandatory></Mandatory>
+
+<Type>Float</Type>
+
+<RangeEnumeration/>
+
+<Units>Defined by “Units” resource.</Units>
+
+
+<Description>
+
+<![CDATA[If present, the value of the sensor.]]>
+
+</Description>
+
+</Item>
+
+
+<Item ID="5701">
+
+<Name>Sensor Units</Name>
+
+<Operations>R</Operations>
+
+<MultipleInstances></MultipleInstances>
+
+<Mandatory></Mandatory>
+
+<Type>String</Type>
+
+<RangeEnumeration/>
+
+<Units/>
+
+
+<Description>
+
+<![CDATA[If present, the type of sensor defined as the UCUM Unit Definition e.g. “Cel” for Temperature in Celcius.]]>
+
+</Description>
+
+</Item>
+
+
+<Item ID="5702">
+
+<Name>X Value</Name>
+
+<Operations>R</Operations>
+
+<MultipleInstances></MultipleInstances>
+
+<Mandatory></Mandatory>
+
+<Type>Float</Type>
+
+<RangeEnumeration/>
+
+<Units>Defined by “Units” resource.</Units>
+
+
+<Description>
+
+<![CDATA[The measured value along the X axis.]]>
+
+</Description>
+
+</Item>
+
+
+<Item ID="5703">
+
+<Name>Y Value</Name>
+
+<Operations>R</Operations>
+
+<MultipleInstances></MultipleInstances>
+
+<Mandatory></Mandatory>
+
+<Type>Float</Type>
+
+<RangeEnumeration/>
+
+<Units>Defined by “Units” resource.</Units>
+
+
+<Description>
+
+<![CDATA[The measured value along the Y axis.]]>
+
+</Description>
+
+</Item>
+
+
+<Item ID="5704">
+
+<Name>Z Value</Name>
+
+<Operations>R</Operations>
+
+<MultipleInstances></MultipleInstances>
+
+<Mandatory></Mandatory>
+
+<Type>Float</Type>
+
+<RangeEnumeration/>
+
+<Units>Defined by “Units” resource.</Units>
+
+
+<Description>
+
+<![CDATA[The measured value along the Z axis.]]>
+
+</Description>
+
+</Item>
+
+
+<Item ID="5705">
+
+<Name>Compass Direction</Name>
+
+<Operations>R</Operations>
+
+<MultipleInstances></MultipleInstances>
+
+<Mandatory></Mandatory>
+
+<Type>Float</Type>
+
+<RangeEnumeration>0-360</RangeEnumeration>
+
+<Units>deg.</Units>
+
+
+<Description>
+
+<![CDATA[The compass direction indicated by the calibrated magnetic field]]>
+
+</Description>
+
+</Item>
+
+
+<Item ID="5706">
+
+<Name>Colour</Name>
+
+<Operations>RW</Operations>
+
+<MultipleInstances></MultipleInstances>
+
+<Mandatory></Mandatory>
+
+<Type>String</Type>
+
+<RangeEnumeration/>
+
+<Units>Defined by “Units” resource.</Units>
+
+
+<Description>
+
+<![CDATA[A string representing a value in some color space]]>
+
+</Description>
+
+</Item>
+
+
+<Item ID="5750">
+
+<Name>Application Type</Name>
+
+<Operations>RW</Operations>
+
+<MultipleInstances></MultipleInstances>
+
+<Mandatory></Mandatory>
+
+<Type>String</Type>
+
+<RangeEnumeration/>
+
+<Units/>
+
+
+<Description>
+
+<![CDATA[The Application type of the device, for example “Motion Closure”.]]>
+
+</Description>
+
+</Item>
+
+
+<Item ID="5751">
+
+<Name>Sensor Type</Name>
+
+<Operations>R</Operations>
+
+<MultipleInstances></MultipleInstances>
+
+<Mandatory></Mandatory>
+
+<Type>String</Type>
+
+<RangeEnumeration/>
+
+<Units/>
+
+
+<Description>
+
+<![CDATA[The type of the sensor (for instance PIR type)]]>
+
+</Description>
+
+</Item>
+
+
+<Item ID="5800">
+
+<Name>Instantaneous active power</Name>
+
+<Operations>R</Operations>
+
+<MultipleInstances></MultipleInstances>
+
+<Mandatory></Mandatory>
+
+<Type>Float</Type>
+
+<RangeEnumeration/>
+
+<Units>W</Units>
+
+
+<Description>
+
+<![CDATA[The current active power]]>
+
+</Description>
+
+</Item>
+
+
+<Item ID="5801">
+
+<Name>Min Measured active power</Name>
+
+<Operations>R</Operations>
+
+<MultipleInstances></MultipleInstances>
+
+<Mandatory></Mandatory>
+
+<Type>Float</Type>
+
+<RangeEnumeration/>
+
+<Units>W</Units>
+
+
+<Description>
+
+<![CDATA[The minimum active power measured by the sensor since it is ON]]>
+
+</Description>
+
+</Item>
+
+
+<Item ID="5802">
+
+<Name>Max Measured active power</Name>
+
+<Operations>R</Operations>
+
+<MultipleInstances></MultipleInstances>
+
+<Mandatory></Mandatory>
+
+<Type>Float</Type>
+
+<RangeEnumeration/>
+
+<Units>W</Units>
+
+
+<Description>
+
+<![CDATA[The maximum active power measured by the sensor since it is ON]]>
+
+</Description>
+
+</Item>
+
+
+<Item ID="5803">
+
+<Name>Min Range active power</Name>
+
+<Operations>R</Operations>
+
+<MultipleInstances></MultipleInstances>
+
+<Mandatory></Mandatory>
+
+<Type>Float</Type>
+
+<RangeEnumeration/>
+
+<Units>W</Units>
+
+
+<Description>
+
+<![CDATA[The minimum active power that can be measured by the sensor]]>
+
+</Description>
+
+</Item>
+
+
+<Item ID="5804">
+
+<Name>Max Range active power</Name>
+
+<Operations>R</Operations>
+
+<MultipleInstances></MultipleInstances>
+
+<Mandatory></Mandatory>
+
+<Type>Float</Type>
+
+<RangeEnumeration/>
+
+<Units>W</Units>
+
+
+<Description>
+
+<![CDATA[The maximum active power that can be measured by the sensor]]>
+
+</Description>
+
+</Item>
+
+
+<Item ID="5805">
+
+<Name>Cumulative active power</Name>
+
+<Operations>R</Operations>
+
+<MultipleInstances></MultipleInstances>
+
+<Mandatory></Mandatory>
+
+<Type>Float</Type>
+
+<RangeEnumeration/>
+
+<Units>Wh</Units>
+
+
+<Description>
+
+<![CDATA[The cumulative active power since the last cumulative energy reset or device start]]>
+
+</Description>
+
+</Item>
+
+
+<Item ID="5806">
+
+<Name>Active Power Calibration</Name>
+
+<Operations>W</Operations>
+
+<MultipleInstances></MultipleInstances>
+
+<Mandatory></Mandatory>
+
+<Type>Float</Type>
+
+<RangeEnumeration/>
+
+<Units>W</Units>
+
+
+<Description>
+
+<![CDATA[Request an active power calibration by writing the value of a calibrated load.]]>
+
+</Description>
+
+</Item>
+
+
+<Item ID="5810">
+
+<Name>Instantaneous reactive power</Name>
+
+<Operations>R</Operations>
+
+<MultipleInstances></MultipleInstances>
+
+<Mandatory></Mandatory>
+
+<Type>Float</Type>
+
+<RangeEnumeration/>
+
+<Units>var</Units>
+
+
+<Description>
+
+<![CDATA[The current reactive power]]>
+
+</Description>
+
+</Item>
+
+
+<Item ID="5811">
+
+<Name>Min Measured reactive power</Name>
+
+<Operations>R</Operations>
+
+<MultipleInstances></MultipleInstances>
+
+<Mandatory></Mandatory>
+
+<Type>Float</Type>
+
+<RangeEnumeration/>
+
+<Units>var</Units>
+
+
+<Description>
+
+<![CDATA[The minimum reactive power measured by the sensor since it is ON]]>
+
+</Description>
+
+</Item>
+
+
+<Item ID="5812">
+
+<Name>Max Measured reactive power</Name>
+
+<Operations>R</Operations>
+
+<MultipleInstances></MultipleInstances>
+
+<Mandatory></Mandatory>
+
+<Type>Float</Type>
+
+<RangeEnumeration/>
+
+<Units>var</Units>
+
+
+<Description>
+
+<![CDATA[The maximum reactive power measured by the sensor since it is ON]]>
+
+</Description>
+
+</Item>
+
+
+<Item ID="5813">
+
+<Name>Min Range reactive power</Name>
+
+<Operations>R</Operations>
+
+<MultipleInstances></MultipleInstances>
+
+<Mandatory></Mandatory>
+
+<Type>Float</Type>
+
+<RangeEnumeration/>
+
+<Units>var</Units>
+
+
+<Description>
+
+<![CDATA[The minimum active power that can be measured by the sensor]]>
+
+</Description>
+
+</Item>
+
+
+<Item ID="5814">
+
+<Name>Max Range reactive power</Name>
+
+<Operations>R</Operations>
+
+<MultipleInstances></MultipleInstances>
+
+<Mandatory></Mandatory>
+
+<Type>Float</Type>
+
+<RangeEnumeration/>
+
+<Units>var</Units>
+
+
+<Description>
+
+<![CDATA[The maximum reactive power that can be measured by the sensor]]>
+
+</Description>
+
+</Item>
+
+
+<Item ID="5815">
+
+<Name>Cumulative reactive power</Name>
+
+<Operations>R</Operations>
+
+<MultipleInstances></MultipleInstances>
+
+<Mandatory></Mandatory>
+
+<Type>Float</Type>
+
+<RangeEnumeration/>
+
+<Units>varh</Units>
+
+
+<Description>
+
+<![CDATA[The cumulative reactive power since the last cumulative energy reset or device start]]>
+
+</Description>
+
+</Item>
+
+
+<Item ID="5816">
+
+<Name>Reactive Power Calibration</Name>
+
+<Operations>W</Operations>
+
+<MultipleInstances></MultipleInstances>
+
+<Mandatory></Mandatory>
+
+<Type>Float</Type>
+
+<RangeEnumeration/>
+
+<Units>var</Units>
+
+
+<Description>
+
+<![CDATA[Request a reactive power calibration by writing the value of a calibrated load.]]>
+
+</Description>
+
+</Item>
+
+
+<Item ID="5820">
+
+<Name>Power factor</Name>
+
+<Operations>R</Operations>
+
+<MultipleInstances></MultipleInstances>
+
+<Mandatory></Mandatory>
+
+<Type>Float</Type>
+
+<RangeEnumeration/>
+
+<Units></Units>
+
+<Description>
+
+<![CDATA[If applicable, the power factor of the current consumption.]]>
+
+</Description>
+
+</Item>
+
+
+<Item ID="5821">
+
+<Name>Current Calibration</Name>
+
+<Operations>RW</Operations>
+
+<MultipleInstances></MultipleInstances>
+
+<Mandatory></Mandatory>
+
+<Type>Float</Type>
+
+<RangeEnumeration/>
+
+<Units></Units>
+
+<Description>
+
+<![CDATA[Read or Write the current calibration coefficient]]>
+
+</Description>
+
+</Item>
+
+
+<Item ID="5822">
+
+<Name>Reset Cumulative energy</Name>
+
+<Operations>E</Operations>
+
+<MultipleInstances></MultipleInstances>
+
+<Mandatory></Mandatory>
+
+<Type>Opaque</Type>
+
+<RangeEnumeration/>
+
+<Units></Units>
+
+<Description>
+
+<![CDATA[Reset both cumulative active/reactive power]]>
+
+</Description>
+
+</Item>
+
+
+<Item ID="5823">
+
+<Name>Event Identifier</Name>
+
+<Operations>RW</Operations>
+
+<MultipleInstances></MultipleInstances>
+
+<Mandatory></Mandatory>
+
+<Type>String</Type>
+
+<RangeEnumeration/>
+
+<Units></Units>
+
+<Description>
+
+<![CDATA[The event identifier as a string.]]>
+
+</Description>
+
+</Item>
+
+
+<Item ID="5824">
+
+<Name>Start Time</Name>
+
+<Operations>RW</Operations>
+
+<MultipleInstances></MultipleInstances>
+
+<Mandatory></Mandatory>
+
+<Type>Time</Type>
+
+<RangeEnumeration/>
+
+<Units></Units>
+
+<Description>
+
+<![CDATA[Time when the load control event will start started.]]>
+
+</Description>
+
+</Item>
+
+
+<Item ID="5825">
+
+<Name>Duration In Min</Name>
+
+<Operations>RW</Operations>
+
+<MultipleInstances></MultipleInstances>
+
+<Mandatory></Mandatory>
+
+<Type>Integer</Type>
+
+<RangeEnumeration/>
+
+<Units>min</Units>
+
+<Description>
+
+<![CDATA[The duration of the load control event.]]>
+
+</Description>
+
+</Item>
+
+
+<Item ID="5826">
+
+<Name>Critical Level</Name>
+
+<Operations>RW</Operations>
+
+<MultipleInstances></MultipleInstances>
+
+<Mandatory></Mandatory>
+
+<Type>Integer</Type>
+
+<RangeEnumeration>0-3</RangeEnumeration>
+
+<Units></Units>
+
+<Description>
+
+<![CDATA[The criticality of the event. The device receiving the event will react in an appropriate fashion for the device.]]>
+
+</Description>
+
+</Item>
+
+
+<Item ID="5827">
+
+<Name>Avg Load AdjPct</Name>
+
+<Operations>RW</Operations>
+
+<MultipleInstances></MultipleInstances>
+
+<Mandatory></Mandatory>
+
+<Type>Integer</Type>
+
+<RangeEnumeration>0-100</RangeEnumeration>
+
+<Units>%</Units>
+
+<Description>
+
+<![CDATA[Defines the maximum energy usage of the receiving device, as a percentage of the device’s normal maximum energy usage.]]>
+
+</Description>
+
+</Item>
+
+
+<Item ID="5828">
+
+<Name>Duty Cycle</Name>
+
+<Operations>RW</Operations>
+
+<MultipleInstances></MultipleInstances>
+
+<Mandatory></Mandatory>
+
+<Type>Integer</Type>
+
+<RangeEnumeration>0-100</RangeEnumeration>
+
+<Units>%</Units>
+
+<Description>
+
+<![CDATA[Defines the duty cycle for the load control event, i.e, what percentage of time the receiving device is allowed to be on.]]>
+
+</Description>
+
+</Item>
+
+
+<Item ID="5850">
+
+<Name>On/Off</Name>
+
+<Operations>RW</Operations>
+
+<MultipleInstances></MultipleInstances>
+
+<Mandatory></Mandatory>
+
+<Type>Boolean</Type>
+
+<RangeEnumeration/>
+
+<Units></Units>
+
+<Description>
+
+<![CDATA[This resource represents an on/off actuator, which can be controlled, the setting of which is a Boolean value (1,0) where 1 is on and 0 is off.]]>
+
+</Description>
+
+</Item>
+
+
+<Item ID="5851">
+
+<Name>Dimmer</Name>
+
+<Operations>RW</Operations>
+
+<MultipleInstances></MultipleInstances>
+
+<Mandatory></Mandatory>
+
+<Type>Integer</Type>
+
+<RangeEnumeration>0-100</RangeEnumeration>
+
+<Units>%</Units>
+
+<Description>
+
+<![CDATA[This resource represents a dimmer setting, which has an Integer value between 0 and 100 as a percentage.]]>
+
+</Description>
+
+</Item>
+
+
+<Item ID="5852">
+
+<Name>On time</Name>
+
+<Operations>RW</Operations>
+
+<MultipleInstances></MultipleInstances>
+
+<Mandatory></Mandatory>
+
+<Type>Integer</Type>
+
+<RangeEnumeration/>
+
+<Units>S</Units>
+
+<Description>
+
+<![CDATA[The time in seconds that the device has been turned on. Writing a value of 0 resets the counter.]]>
+
+</Description>
+
+</Item>
+
+
+<Item ID="5853">
+
+<Name>Muti-state Output</Name>
+
+<Operations>RW</Operations>
+
+<MultipleInstances></MultipleInstances>
+
+<Mandatory></Mandatory>
+
+<Type>String</Type>
+
+<RangeEnumeration/>
+
+<Units></Units>
+
+<Description>
+
+<![CDATA[A string describing a state for multiple level output such as Pilot Wire]]>
+
+</Description>
+
+</Item>
+
+
+<Item ID="5900">
+
+<Name>Set Point Value</Name>
+
+<Operations>RW</Operations>
+
+<MultipleInstances></MultipleInstances>
+
+<Mandatory></Mandatory>
+
+<Type>Float</Type>
+
+<RangeEnumeration/>
+
+<Units>Defined by “Units” resource.</Units>
+
+<Description>
+
+<![CDATA[The setpoint value.]]>
+
+</Description>
+
+</Item>
+
+
+<Item ID="5903">
+
+<Name>Busy to Clear delay</Name>
+
+<Operations>RW</Operations>
+
+<MultipleInstances></MultipleInstances>
+
+<Mandatory></Mandatory>
+
+<Type>Integer</Type>
+
+<RangeEnumeration/>
+
+<Units>ms</Units>
+
+<Description>
+
+<![CDATA[Delay from the detection state to the clear state in ms]]>
+
+</Description>
+
+</Item>
+
+
+<Item ID="5904">
+
+<Name>Clear to Busy delay</Name>
+
+<Operations>RW</Operations>
+
+<MultipleInstances></MultipleInstances>
+
+<Mandatory></Mandatory>
+
+<Type>Integer</Type>
+
+<RangeEnumeration/>
+
+<Units>ms</Units>
+
+<Description>
+
+<![CDATA[Delay from the clear state to the busy state in ms.]]>
+
+</Description>
+
+</Item>
+
+
+<Item ID="5905">
+
+<Name>Host Device Manufacturer</Name>
+
+<Operations>R</Operations>
+
+<MultipleInstances>Single</MultipleInstances>
+
+<Mandatory>Optional</Mandatory>
+
+<Type>Single</Type>
+
+<RangeEnumeration/>
+
+<Units></Units>
+
+<Description>
+
+<![CDATA[Human readable host device manufacturer name]]>
+
+</Description>
+
+</Item>
+
+
+<Item ID="5906">
+
+<Name>Host Device Model Number</Name>
+
+<Operations>R</Operations>
+
+<MultipleInstances>Single</MultipleInstances>
+
+<Mandatory>Optional</Mandatory>
+
+<Type>Single</Type>
+
+<RangeEnumeration/>
+
+<Units></Units>
+
+<Description>
+
+<![CDATA[A host device model identifier (manufacturer specified string)]]>
+
+</Description>
+
+</Item>
+
+
+<Item ID="5907">
+
+<Name>Host Device Unique ID</Name>
+
+<Operations>R</Operations>
+
+<MultipleInstances>Single</MultipleInstances>
+
+<Mandatory>Optional</Mandatory>
+
+<Type>Single</Type>
+
+<RangeEnumeration/>
+
+<Units></Units>
+
+<Description>
+
+<![CDATA[The host device unique ID is assigned by AT&T as the “Device ID” in the onboarding tool and will be stored in]]>
+
+</Description>
+
+</Item>
+
+
+<Item ID="5908">
+
+<Name>Host Device Software Version</Name>
+
+<Operations>R</Operations>
+
+<MultipleInstances>Single</MultipleInstances>
+
+<Mandatory>Optional</Mandatory>
+
+<Type>Single</Type>
+
+<RangeEnumeration/>
+
+<Units></Units>
+
+<Description>
+
+<![CDATA[Current software version of the host device. (manufacturer specified string).]]>
+
+</Description>
+
+</Item>
+
+
+</Resources>
+
+<Description2/>
+
+</Object>
+
+</LWM2M>

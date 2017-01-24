@@ -6,57 +6,43 @@
 
 <!-- Integer -->
 
-
+<!-- ObjectID -->
 <ObjectID>0</ObjectID>
 
-<!-- URN of the object, not visible, not used -->
-
-
+<!-- URN of the object -->
 <URN>urn:oma:lwm2m:oma:0</URN>
 
 <!-- Name of the object -->
-
-
 <Name>LWM2M Security</Name>
 
-<!-- Description of the object -->
-
-
+<!-- Description of the Object -->
 <Description>It provides the keying material of a LWM2M Client appropriate to access a specified LWM2M Server. One Object Instance SHOULD address a LWM2M Bootstrap Server. These LWM2M Object Resources MUST only be changed by a LWM2M Bootstrap Server or Bootstrap from Smartcardand MUST NOT be accessible by any other LWM2M Server.</Description>
 
-<!-- Name of the registerer, not visible, not used -->
-
-
+<!-- Name of the organization that has registered the object -->
 <Owner>Test WG</Owner>
 
-<!-- 0 = OMA, 1 = External from OMA -->
-
-
+<!-- Type of Object: 0 = defined by OMA, 1 = defined by external Standards Development Organizations, 2 = private or individual -->
 <Source>0</Source>
 
 <!-- Ver of the object, not visible, not used -->
-
-
 <Ver>1.0</Ver>
 
 <!-- URL to the xml file describing the object -->
-
-
 <DDF>http://www.openmobilealliance.org/tech/profiles/LWM2M_Security-v1_0.xml</DDF>
 
+<!-- Link that opens the object in the LwM2M Editor Tool -->
+<LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2fLWM2M_Security-v1_0.xml</LWM2M>
+
+<!-- Link that opens the Object in the Vorto environment -->
+<Vorto></Vorto>
+ 
 <!-- 0 => if link to object should not be visible, 1 => if object should be visible (default) -->
-
-
 <DDFLink>1</DDFLink>
 
 <!-- URL to the TS of the object, not visible, not used -->
-
-
 <TS>http://member.openmobilealliance.org/ftp/Public_documents/DM/LightweightM2M/Permanent_documents/OMA-TS-LightweightM2M-V1_0-20151224-C.zip</TS>
 
 <!-- 0 => if link to TS should not be visible, 1 => if link to TS should be visible (default) -->
-
-
 <TSLink>1</TSLink>
 
 </Item>
@@ -79,6 +65,10 @@
 <Ver>1.0</Ver>
 
 <DDF>http://www.openmobilealliance.org/tech/profiles/LWM2M_Server-v1_0.xml</DDF>
+
+<LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3a%2f%2fwww.openmobilealliance.org%2ftech%2fprofiles%2fLWM2M_Server-v1_0.xml</LWM2M>
+
+<Vorto></Vorto>
 
 <DDFLink>1</DDFLink>
 
@@ -107,6 +97,10 @@
 
 <DDF>http://www.openmobilealliance.org/tech/profiles/LWM2M_Access_Control-v1_0.xml</DDF>
 
+<LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3a%2f%2fwww.openmobilealliance.org%2ftech%2fprofiles%2fLWM2M_Access_Control-v1_0.xmlV</LWM2M>
+
+<Vorto></Vorto>
+
 <DDFLink>1</DDFLink>
 
 <TS>http://member.openmobilealliance.org/ftp/Public_documents/DM/LightweightM2M/Permanent_documents/OMA-TS-LightweightM2M-V1_0-20160407-C.zip</TS>
@@ -133,6 +127,10 @@
 <Ver>1.0</Ver>
 
 <DDF>http://www.openmobilealliance.org/tech/profiles/LWM2M_Device-v1_0.xml</DDF>
+
+<LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3a%2f%2fwww.openmobilealliance.org%2ftech%2fprofiles%2fLWM2M_Device-v1_0.xml</LWM2M>
+
+<Vorto></Vorto>
 
 <DDFLink>1</DDFLink>
 
@@ -161,6 +159,10 @@
 
 <DDF>http://www.openmobilealliance.org/tech/profiles/LWM2M_Connectivity_Monitoring-v1_0.xml</DDF>
 
+<LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3a%2f%2fwww.openmobilealliance.org%2ftech%2fprofiles%2fLWM2M_Connectivity_Monitoring-v1_0.xml</LWM2M>
+
+<Vorto></Vorto>
+
 <DDFLink>1</DDFLink>
 
 <TS>http://member.openmobilealliance.org/ftp/Public_documents/DM/LightweightM2M/Permanent_documents/OMA-TS-LightweightM2M-V1_0-20160407-C.zip</TS>
@@ -187,6 +189,10 @@
 <Ver>1.0</Ver>
 
 <DDF>http://www.openmobilealliance.org/tech/profiles/LWM2M_Firmware_Update-v1_0.xml</DDF>
+
+<LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3a%2f%2fwww.openmobilealliance.org%2ftech%2fprofiles%2fLWM2M_Firmware_Update-v1_0.xml</LWM2M>
+
+<Vorto></Vorto>
 
 <DDFLink>1</DDFLink>
 
@@ -215,6 +221,10 @@
 
 <DDF>http://www.openmobilealliance.org/tech/profiles/LWM2M_Location-v1_0.xml</DDF>
 
+<LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3a%2f%2fwww.openmobilealliance.org%2ftech%2fprofiles%2fLWM2M_Location-v1_0.xml</LWM2M>
+
+<Vorto></Vorto>
+
 <DDFLink>1</DDFLink>
 
 <TS>http://member.openmobilealliance.org/ftp/Public_documents/DM/LightweightM2M/Permanent_documents/OMA-TS-LightweightM2M-V1_0-20160407-C.zipf</TS>
@@ -242,6 +252,10 @@
 
 <DDF>http://www.openmobilealliance.org/tech/profiles/LWM2M_Connectivity_Statistics-v1_0.xml</DDF>
 
+<LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3a%2f%2fwww.openmobilealliance.org%2ftech%2fprofiles%2fLWM2M_Connectivity_Statistics-v1_0.xml</LWM2M>
+
+<Vorto></Vorto>
+
 <DDFLink>1</DDFLink>
 
 <TS>http://member.openmobilealliance.org/ftp/Public_documents/DM/LightweightM2M/Permanent_documents/OMA-TS-LightweightM2M-V1_0-20160407-C.zip</TS>
@@ -267,7 +281,11 @@
 
 <Ver>1.0</Ver>
 
-<DDF>x</DDF>
+<DDF>http://www.openmobilealliance.org/tech/profiles/LWM2M_Lock_and_Wipe-V1_0.xml</DDF>
+
+<LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3a%2f%2fwww.openmobilealliance.org%2ftech%2fprofiles%2flwm2m%2fLWM2M_Lock_and_Wipe-V1_0.xml</LWM2M>
+
+<Vorto></Vorto>
 
 <DDFLink>0</DDFLink>
 
@@ -296,6 +314,10 @@
 
 <DDF>x</DDF>
 
+<LWM2M></LWM2M>
+
+<Vorto></Vorto>
+
 <DDFLink>0</DDFLink>
 
 <TS>http://member.openmobilealliance.org/ftp/Public_documents/DM/LightweightM2M/Permanent_documents/OMA-TS-LWM2M_SwMgmt-V1_0-20151201-C.zip</TS>
@@ -321,7 +343,11 @@
 
 <Ver>1.0</Ver>
 
-<DDF>x</DDF>
+<DDF>http://www.openmobilealliance.org/tech/profiles/LWM2M_Cellular_connectivity-V1_0.xml</DDF>
+
+<LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3a%2f%2fwww.openmobilealliance.org%2ftech%2fprofiles%2fLWM2M_Cellular_connectivity-V1_0.xml</LWM2M>
+
+<Vorto></Vorto>
 
 <DDFLink>0</DDFLink>
 
@@ -348,7 +374,11 @@
 
 <Ver>1.0</Ver>
 
-<DDF>x</DDF>
+<DDF>http://www.openmobilealliance.org/tech/profiles/LWM2M_APN_connection_profile-V1_0.xml</DDF>
+
+<LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3a%2f%2fwww.openmobilealliance.org%2ftech%2fprofiles%2flLWM2M_APN_connection_profile-V1_0.xml</LWM2M>
+
+<Vorto></Vorto>
 
 <DDFLink>0</DDFLink>
 
@@ -377,6 +407,10 @@
 
 <DDF>x</DDF>
 
+<LWM2M></LWM2M>
+
+<Vorto></Vorto>
+
 <DDFLink>0</DDFLink>
 
 <TS>http://member.openmobilealliance.org/ftp/Public_documents/DM/LightweightM2M/Permanent_documents/OMA-TS-LWM2M_ConnMgmt-V1_0-20151201-C.zip</TS>
@@ -402,7 +436,11 @@
 
 <Ver>1.0</Ver>
 
-<DDF>x</DDF>
+<DDF>http://www.openmobilealliance.org/tech/profiles/LWM2M_Bearer_selection-V1_0.xml</DDF>
+
+<LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3a%2f%2fwww.openmobilealliance.org%2ftech%2fprofiles%2fLWM2M_Bearer_selection-V1_0.xml</LWM2M>
+
+<Vorto></Vorto>
 
 <DDFLink>0</DDFLink>
 
@@ -419,21 +457,25 @@
 
 <URN>urn:oma:lwm2m:oma:14</URN>
 
-<Name>x</Name>
+<Name>Software Component</Name>
 
-<Description>x</Description>
+<Description>The LWM2M software management object enables remote software management in M2M devices</Description>
 
 <Owner>Test WG2</Owner>
 
 <Source>0</Source>
 
-<Ver>x</Ver>
+<Ver>1.0</Ver>
 
 <DDF>x</DDF>
 
+<LWM2M></LWM2M>
+
+<Vorto></Vorto>
+
 <DDFLink>0</DDFLink>
 
-<TS>x</TS>
+<TS>http://www.openmobilealliance.org/release/LWM2M_SWMGMT/V1_0-20151201-C/OMA-TS-LWM2M_SwMgmt-V1_0-20151201-C.pdf</TS>
 
 <TSLink>0</TSLink>
 
@@ -457,6 +499,10 @@
 <Ver>1.0</Ver>
 
 <DDF>x</DDF>
+
+<LWM2M></LWM2M>
+
+<Vorto></Vorto>
 
 <DDFLink>0</DDFLink>
 
@@ -485,6 +531,10 @@
 
 <DDF>http://www.openmobilealliance.org/tech/profiles/LWM2M_Portfolio-v1_0.xml</DDF>
 
+<LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2FLWM2M_Portfolio-v1_0.xml</LWM2M>
+
+<Vorto></Vorto>
+
 <DDFLink>1</DDFLink>
 
 <TS>http://member.openmobilealliance.org/ftp/Public_documents/DM/LightweightM2M/Permanent_documents/OMA-TS-LWM2M_PortfolioObj-V1_0-C.zip</TS>
@@ -499,7 +549,7 @@
 
 <URN>urn:oma:lwm2m:oma:17</URN>
 
-<Name>Communications characteristics</Name>
+<Name>Communications Characteristics</Name>
 
 <Description>x</Description>
 
@@ -511,7 +561,11 @@
 
 <DDF>http://www.openmobilealliance.org/tech/profiles/Communication_Characteristics-V1_0.xml</DDF>
 
-<DDFLink>1</DDFLink>
+<LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3a%2f%2fwww.openmobilealliance.org%2ftech%2fprofiles%2fCommunication_Characteristics-V1_0.xml</LWM2M>
+
+<Vorto></Vorto>
+
+<DDFLink>0</DDFLink>
 
 <TS>x</TS>
 
@@ -519,14 +573,13 @@
 
 </Item>
 
-
 -<Item>
 
 <ObjectID>18</ObjectID>
 
 <URN>urn:oma:lwm2m:oma:18</URN>
 
-<Name>Non-Access Stratum (NAS) configuration</Name>
+<Name>Non-Access Stratum (NAS) Configuration</Name>
 
 <Description>x</Description>
 
@@ -538,14 +591,17 @@
 
 <DDF>http://www.openmobilealliance.org/tech/profiles/Non-Access_Stratum_NAS_configuration-V1_0.xml</DDF>
 
-<DDFLink>1</DDFLink>
+<LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3a%2f%2fwww.openmobilealliance.org%2ftech%2fprofiles%2fNon-Access_Stratum_NAS_configuration-V1_0.xml</LWM2M>
+
+<Vorto></Vorto>
+
+<DDFLink>0</DDFLink>
 
 <TS>x</TS>
 
 <TSLink>0</TSLink>
 
 </Item>
-
 
 -<Item>
 
@@ -564,6 +620,10 @@
 <Ver>1.0.1</Ver>
 
 <DDF>X</DDF>
+
+<LWM2M></LWM2M>
+
+<Vorto></Vorto>
 
 <DDFLink>0</DDFLink>
 
@@ -592,6 +652,10 @@
 
 <DDF>X</DDF>
 
+<LWM2M></LWM2M>
+
+<Vorto></Vorto>
+
 <DDFLink>0</DDFLink>
 
 <TS>http://www.onem2m.org/images/files/deliverables/TS-0005-Management_Enablement_(OMA)-V1_0_1.pdf</TS>
@@ -618,6 +682,10 @@
 <Ver>1.0.1</Ver>
 
 <DDF>X</DDF>
+
+<LWM2M></LWM2M>
+
+<Vorto></Vorto>
 
 <DDFLink>0</DDFLink>
 
@@ -646,6 +714,10 @@
 
 <DDF>X</DDF>
 
+<LWM2M></LWM2M>
+
+<Vorto></Vorto>
+
 <DDFLink>0</DDFLink>
 
 <TS>http://www.onem2m.org/images/files/deliverables/TS-0005-Management_Enablement_(OMA)-V1_0_1.pdf</TS>
@@ -672,6 +744,10 @@
 <Ver>1.0.1</Ver>
 
 <DDF>X</DDF>
+
+<LWM2M></LWM2M>
+
+<Vorto></Vorto>
 
 <DDFLink>0</DDFLink>
 
@@ -700,6 +776,10 @@
 
 <DDF>X</DDF>
 
+<LWM2M></LWM2M>
+
+<Vorto></Vorto>
+
 <DDFLink>0</DDFLink>
 
 <TS>http://www.onem2m.org/images/files/deliverables/TS-0005-Management_Enablement_(OMA)-V1_0_1.pdf</TS>
@@ -726,6 +806,10 @@
 <Ver>1.0.1</Ver>
 
 <DDF>X</DDF>
+
+<LWM2M></LWM2M>
+
+<Vorto></Vorto>
 
 <DDFLink>0</DDFLink>
 
@@ -754,6 +838,10 @@
 
 <DDF>X</DDF>
 
+<LWM2M></LWM2M>
+
+<Vorto></Vorto>
+
 <DDFLink>0</DDFLink>
 
 <TS>http://www.onem2m.org/images/files/deliverables/TS-0005-Management_Enablement_(OMA)-V1_0_1.pdf</TS>
@@ -781,6 +869,10 @@
 
 <DDF>X</DDF>
 
+<LWM2M></LWM2M>
+
+<Vorto></Vorto>
+
 <DDFLink>0</DDFLink>
 
 <TS>http://www.onem2m.org/images/files/deliverables/TS-0005-Management_Enablement_(OMA)-V1_0_1.pdf</TS>
@@ -806,7 +898,11 @@
 
 <Ver>1.0</Ver>
 
-<DDF>http://technical.openmobilealliance.org/tech/profiles/IPSO/3200.xml</DDF>
+<DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/3200.xml</DDF>
+
+<LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3a%2f%2fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3200.xml</LWM2M>
+
+<Vorto>http://vorto.eclipse.org/resolve/lwm2m/3200</Vorto>
 
 <DDFLink>1</DDFLink>
 
@@ -833,7 +929,11 @@
 
 <Ver>1.0</Ver>
 
-<DDF>http://technical.openmobilealliance.org/tech/profiles/IPSO/3201.xml</DDF>
+<DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/3201.xml</DDF>
+
+<LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3201.xml</LWM2M>
+
+<Vorto></Vorto>
 
 <DDFLink>1</DDFLink>
 
@@ -860,7 +960,11 @@
 
 <Ver>1.0</Ver>
 
-<DDF>http://technical.openmobilealliance.org/tech/profiles/IPSO/3202.xml</DDF>
+<DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/3202.xml</DDF>
+
+<LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3202.xml</LWM2M>
+
+<Vorto></Vorto>
 
 <DDFLink>1</DDFLink>
 
@@ -887,7 +991,11 @@
 
 <Ver>1.0</Ver>
 
-<DDF>http://technical.openmobilealliance.org/tech/profiles/IPSO/3203.xml</DDF>
+<DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/3203.xml</DDF>
+
+<LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3203.xml</LWM2M>
+
+<Vorto></Vorto>
 
 <DDFLink>1</DDFLink>
 
@@ -914,7 +1022,11 @@
 
 <Ver>1.0</Ver>
 
-<DDF>http://technical.openmobilealliance.org/tech/profiles/IPSO/3300.xml</DDF>
+<DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/3300.xml</DDF>
+
+<LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3300.xml</LWM2M>
+
+<Vorto></Vorto>
 
 <DDFLink>1</DDFLink>
 
@@ -941,7 +1053,11 @@
 
 <Ver>1.0</Ver>
 
-<DDF>http://technical.openmobilealliance.org/tech/profiles/IPSO/3301.xml</DDF>
+<DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/3301.xml</DDF>
+
+<LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3a%2f%2fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3301.xml</LWM2M>
+
+<Vorto></Vorto>
 
 <DDFLink>1</DDFLink>
 
@@ -968,7 +1084,11 @@
 
 <Ver>1.0</Ver>
 
-<DDF>http://technical.openmobilealliance.org/tech/profiles/IPSO/3302.xml</DDF>
+<DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/3302.xml</DDF>
+
+<LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3302.xml</LWM2M>
+
+<Vorto></Vorto>
 
 <DDFLink>1</DDFLink>
 
@@ -995,7 +1115,11 @@
 
 <Ver>1.0</Ver>
 
-<DDF>http://technical.openmobilealliance.org/tech/profiles/IPSO/3303.xml</DDF>
+<DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/3303.xml</DDF>
+
+<LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3303.xml</LWM2M>
+
+<Vorto></Vorto>
 
 <DDFLink>1</DDFLink>
 
@@ -1022,7 +1146,11 @@
 
 <Ver>1.0</Ver>
 
-<DDF>http://technical.openmobilealliance.org/tech/profiles/IPSO/3304.xml</DDF>
+<DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/3304.xml</DDF>
+
+<LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3304.xml</LWM2M>
+
+<Vorto></Vorto>
 
 <DDFLink>1</DDFLink>
 
@@ -1049,7 +1177,11 @@
 
 <Ver>1.0</Ver>
 
-<DDF>http://technical.openmobilealliance.org/tech/profiles/IPSO/3305.xml</DDF>
+<DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/3305.xml</DDF>
+
+<LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3305.xml</LWM2M>
+
+<Vorto></Vorto>
 
 <DDFLink>1</DDFLink>
 
@@ -1076,7 +1208,11 @@
 
 <Ver>1.0</Ver>
 
-<DDF>http://technical.openmobilealliance.org/tech/profiles/IPSO/3306.xml</DDF>
+<DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/3306.xml</DDF>
+
+<LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3306.xml</LWM2M>
+
+<Vorto></Vorto>
 
 <DDFLink>1</DDFLink>
 
@@ -1103,7 +1239,11 @@
 
 <Ver>1.0</Ver>
 
-<DDF>http://technical.openmobilealliance.org/tech/profiles/IPSO/3308.xml</DDF>
+<DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/3308.xml</DDF>
+
+<LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3308.xml</LWM2M>
+
+<Vorto></Vorto>
 
 <DDFLink>1</DDFLink>
 
@@ -1130,7 +1270,11 @@
 
 <Ver>1.0</Ver>
 
-<DDF>http://technical.openmobilealliance.org/tech/profiles/IPSO/3310.xml</DDF>
+<DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/3310.xml</DDF>
+
+<LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3310.xml</LWM2M>
+
+<Vorto></Vorto>
 
 <DDFLink>1</DDFLink>
 
@@ -1157,7 +1301,11 @@
 
 <Ver>1.0</Ver>
 
-<DDF>http://technical.openmobilealliance.org/tech/profiles/IPSO/3311.xml</DDF>
+<DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/3311.xml</DDF>
+
+<LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3311.xml</LWM2M>
+
+<Vorto></Vorto>
 
 <DDFLink>1</DDFLink>
 
@@ -1184,7 +1332,11 @@
 
 <Ver>1.0</Ver>
 
-<DDF>http://technical.openmobilealliance.org/tech/profiles/IPSO/3312.xml</DDF>
+<DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/3312.xml</DDF>
+
+<LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3312.xml</LWM2M>
+
+<Vorto></Vorto>
 
 <DDFLink>1</DDFLink>
 
@@ -1211,7 +1363,11 @@
 
 <Ver>1.0</Ver>
 
-<DDF>http://technical.openmobilealliance.org/tech/profiles/IPSO/3313.xml</DDF>
+<DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/3313.xml</DDF>
+
+<LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3313.xml</LWM2M>
+
+<Vorto></Vorto>
 
 <DDFLink>1</DDFLink>
 
@@ -1238,7 +1394,11 @@
 
 <Ver>1.0</Ver>
 
-<DDF>http://technical.openmobilealliance.org/tech/profiles/IPSO/3314.xml</DDF>
+<DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/3314.xml</DDF>
+
+<LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3314.xml</LWM2M>
+
+<Vorto></Vorto>
 
 <DDFLink>1</DDFLink>
 
@@ -1265,7 +1425,11 @@
 
 <Ver>1.0</Ver>
 
-<DDF>http://technical.openmobilealliance.org/tech/profiles/IPSO/3315.xml</DDF>
+<DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/3315.xml</DDF>
+
+<LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3315.xml</LWM2M>
+
+<Vorto></Vorto>
 
 <DDFLink>1</DDFLink>
 
@@ -1292,7 +1456,11 @@
 
 <Ver/>
 
-<DDF>http://technical.openmobilealliance.org/tech/profiles/IPSO/3316.xml</DDF>
+<DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/3316.xml</DDF>
+
+<LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3316.xml</LWM2M>
+
+<Vorto></Vorto>
 
 <DDFLink>1</DDFLink>
 
@@ -1319,7 +1487,11 @@
 
 <Ver/>
 
-<DDF>http://technical.openmobilealliance.org/tech/profiles/IPSO/3317.xml</DDF>
+<DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/3317.xml</DDF>
+
+<LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3317.xml</LWM2M>
+
+<Vorto></Vorto>
 
 <DDFLink>1</DDFLink>
 
@@ -1346,7 +1518,11 @@
 
 <Ver/>
 
-<DDF>http://technical.openmobilealliance.org/tech/profiles/IPSO/3318.xml</DDF>
+<DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/3318.xml</DDF>
+
+<LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3318.xml</LWM2M>
+
+<Vorto></Vorto>
 
 <DDFLink>1</DDFLink>
 
@@ -1373,7 +1549,11 @@
 
 <Ver/>
 
-<DDF>http://technical.openmobilealliance.org/tech/profiles/IPSO/3319.xml</DDF>
+<DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/3319.xml</DDF>
+
+<LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3319.xml</LWM2M>
+
+<Vorto></Vorto>
 
 <DDFLink>1</DDFLink>
 
@@ -1400,7 +1580,11 @@
 
 <Ver/>
 
-<DDF>http://technical.openmobilealliance.org/tech/profiles/IPSO/3320.xml</DDF>
+<DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/3320.xml</DDF>
+
+<LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3320.xml</LWM2M>
+
+<Vorto></Vorto>
 
 <DDFLink>1</DDFLink>
 
@@ -1427,7 +1611,11 @@
 
 <Ver/>
 
-<DDF>http://technical.openmobilealliance.org/tech/profiles/IPSO/3321.xml</DDF>
+<DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/3321.xml</DDF>
+
+<LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3321.xml</LWM2M>
+
+<Vorto></Vorto>
 
 <DDFLink>1</DDFLink>
 
@@ -1454,7 +1642,11 @@
 
 <Ver/>
 
-<DDF>http://technical.openmobilealliance.org/tech/profiles/IPSO/3322.xml</DDF>
+<DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/3322.xml</DDF>
+
+<LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3322.xml</LWM2M>
+
+<Vorto></Vorto>
 
 <DDFLink>1</DDFLink>
 
@@ -1481,7 +1673,11 @@
 
 <Ver/>
 
-<DDF>http://technical.openmobilealliance.org/tech/profiles/IPSO/3323.xml</DDF>
+<DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/3323.xml</DDF>
+
+<LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3323.xml</LWM2M>
+
+<Vorto></Vorto>
 
 <DDFLink>1</DDFLink>
 
@@ -1508,7 +1704,11 @@
 
 <Ver/>
 
-<DDF>http://technical.openmobilealliance.org/tech/profiles/IPSO/3324.xml</DDF>
+<DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/3324.xml</DDF>
+
+<LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3324.xml</LWM2M>
+
+<Vorto></Vorto>
 
 <DDFLink>1</DDFLink>
 
@@ -1535,7 +1735,11 @@
 
 <Ver/>
 
-<DDF>http://technical.openmobilealliance.org/tech/profiles/IPSO/3325.xml</DDF>
+<DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/3325.xml</DDF>
+
+<LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3325.xml</LWM2M>
+
+<Vorto></Vorto>
 
 <DDFLink>1</DDFLink>
 
@@ -1562,7 +1766,11 @@
 
 <Ver/>
 
-<DDF>http://technical.openmobilealliance.org/tech/profiles/IPSO/3326.xml</DDF>
+<DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/3326.xml</DDF>
+
+<LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3326.xml</LWM2M>
+
+<Vorto></Vorto>
 
 <DDFLink>1</DDFLink>
 
@@ -1589,7 +1797,11 @@
 
 <Ver/>
 
-<DDF>http://technical.openmobilealliance.org/tech/profiles/IPSO/3327.xml</DDF>
+<DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/3327.xml</DDF>
+
+<LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3327.xml</LWM2M>
+
+<Vorto></Vorto>
 
 <DDFLink>1</DDFLink>
 
@@ -1616,7 +1828,11 @@
 
 <Ver/>
 
-<DDF>http://technical.openmobilealliance.org/tech/profiles/IPSO/3328.xml</DDF>
+<DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/3328.xml</DDF>
+
+<LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3328.xml</LWM2M>
+
+<Vorto></Vorto>
 
 <DDFLink>1</DDFLink>
 
@@ -1643,7 +1859,11 @@
 
 <Ver/>
 
-<DDF>http://technical.openmobilealliance.org/tech/profiles/IPSO/3329.xml</DDF>
+<DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/3329.xml</DDF>
+
+<LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3329.xml</LWM2M>
+
+<Vorto></Vorto>
 
 <DDFLink>1</DDFLink>
 
@@ -1670,7 +1890,11 @@
 
 <Ver/>
 
-<DDF>http://technical.openmobilealliance.org/tech/profiles/IPSO/3330.xml</DDF>
+<DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/3330.xml</DDF>
+
+<LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3330.xml</LWM2M>
+
+<Vorto></Vorto>
 
 <DDFLink>1</DDFLink>
 
@@ -1697,13 +1921,17 @@
 
 <Ver/>
 
-<DDF>http://technical.openmobilealliance.org/tech/profiles/IPSO/3331.xml</DDF>
+<DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/3331.xml</DDF>
 
-<DDFLink>0</DDFLink>
+<LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3331.xml</LWM2M>
+
+<Vorto></Vorto>
+
+<DDFLink>1</DDFLink>
 
 <TS/>
 
-<TSLink>1</TSLink>
+<TSLink>0</TSLink>
 
 </Item>
 
@@ -1724,13 +1952,17 @@
 
 <Ver/>
 
-<DDF>http://technical.openmobilealliance.org/tech/profiles/IPSO/3332.xml</DDF>
+<DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/3332.xml</DDF>
 
-<DDFLink>0</DDFLink>
+<LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3332.xml</LWM2M>
+
+<Vorto></Vorto>
+
+<DDFLink>1</DDFLink>
 
 <TS/>
 
-<TSLink>1</TSLink>
+<TSLink>0</TSLink>
 
 </Item>
 
@@ -1751,7 +1983,11 @@
 
 <Ver/>
 
-<DDF>http://technical.openmobilealliance.org/tech/profiles/IPSO/3333.xml</DDF>
+<DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/3333.xml</DDF>
+
+<LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3333.xml</LWM2M>
+
+<Vorto></Vorto>
 
 <DDFLink>1</DDFLink>
 
@@ -1778,7 +2014,11 @@
 
 <Ver/>
 
-<DDF>http://technical.openmobilealliance.org/tech/profiles/IPSO/3334.xml</DDF>
+<DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/3334.xml</DDF>
+
+<LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3334.xml</LWM2M>
+
+<Vorto></Vorto>
 
 <DDFLink>1</DDFLink>
 
@@ -1805,7 +2045,11 @@
 
 <Ver/>
 
-<DDF>http://technical.openmobilealliance.org/tech/profiles/IPSO/3335.xml</DDF>
+<DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/3335.xml</DDF>
+
+<LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3335.xml</LWM2M>
+
+<Vorto></Vorto>
 
 <DDFLink>1</DDFLink>
 
@@ -1832,7 +2076,11 @@
 
 <Ver/>
 
-<DDF>http://technical.openmobilealliance.org/tech/profiles/IPSO/3336.xml</DDF>
+<DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/3336.xml</DDF>
+
+<LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3336.xml</LWM2M>
+
+<Vorto></Vorto>
 
 <DDFLink>1</DDFLink>
 
@@ -1859,7 +2107,11 @@
 
 <Ver/>
 
-<DDF>http://technical.openmobilealliance.org/tech/profiles/IPSO/3337.xml</DDF>
+<DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/3337.xml</DDF>
+
+<LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3337.xml</LWM2M>
+
+<Vorto></Vorto>
 
 <DDFLink>1</DDFLink>
 
@@ -1886,7 +2138,11 @@
 
 <Ver/>
 
-<DDF>http://technical.openmobilealliance.org/tech/profiles/IPSO/3338.xml</DDF>
+<DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/3338.xml</DDF>
+
+<LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3338.xml</LWM2M>
+
+<Vorto></Vorto>
 
 <DDFLink>1</DDFLink>
 
@@ -1913,7 +2169,11 @@
 
 <Ver/>
 
-<DDF>http://technical.openmobilealliance.org/tech/profiles/IPSO/3339.xml</DDF>
+<DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/3339.xml</DDF>
+
+<LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3339.xml</LWM2M>
+
+<Vorto></Vorto>
 
 <DDFLink>1</DDFLink>
 
@@ -1940,7 +2200,11 @@
 
 <Ver/>
 
-<DDF>http://technical.openmobilealliance.org/tech/profiles/IPSO/3340.xml</DDF>
+<DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/3340.xml</DDF>
+
+<LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3340.xml</LWM2M>
+
+<Vorto></Vorto>
 
 <DDFLink>1</DDFLink>
 
@@ -1967,7 +2231,11 @@
 
 <Ver/>
 
-<DDF>http://technical.openmobilealliance.org/tech/profiles/IPSO/3341.xml</DDF>
+<DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/3341.xml</DDF>
+
+<LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3341.xml</LWM2M>
+
+<Vorto></Vorto>
 
 <DDFLink>1</DDFLink>
 
@@ -1994,7 +2262,11 @@
 
 <Ver/>
 
-<DDF>http://technical.openmobilealliance.org/tech/profiles/IPSO/3342.xml</DDF>
+<DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/3342.xml</DDF>
+
+<LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3342.xml</LWM2M>
+
+<Vorto></Vorto>
 
 <DDFLink>1</DDFLink>
 
@@ -2021,7 +2293,11 @@
 
 <Ver/>
 
-<DDF>http://technical.openmobilealliance.org/tech/profiles/IPSO/3343.xml</DDF>
+<DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/3343.xml</DDF>
+
+<LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3343.xml</LWM2M>
+
+<Vorto></Vorto>
 
 <DDFLink>1</DDFLink>
 
@@ -2048,7 +2324,11 @@
 
 <Ver/>
 
-<DDF>http://technical.openmobilealliance.org/tech/profiles/IPSO/3344.xml</DDF>
+<DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/3344.xml</DDF>
+
+<LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3344.xml</LWM2M>
+
+<Vorto></Vorto>
 
 <DDFLink>1</DDFLink>
 
@@ -2075,7 +2355,11 @@
 
 <Ver/>
 
-<DDF>http://technical.openmobilealliance.org/tech/profiles/IPSO/3345.xml</DDF>
+<DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/3345.xml</DDF>
+
+<LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3345.xml</LWM2M>
+
+<Vorto></Vorto>
 
 <DDFLink>1</DDFLink>
 
@@ -2102,7 +2386,11 @@
 
 <Ver/>
 
-<DDF>http://technical.openmobilealliance.org/tech/profiles/IPSO/3346.xml</DDF>
+<DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/3346.xml</DDF>
+
+<LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3346.xml</LWM2M>
+
+<Vorto></Vorto>
 
 <DDFLink>1</DDFLink>
 
@@ -2129,7 +2417,11 @@
 
 <Ver/>
 
-<DDF>http://technical.openmobilealliance.org/tech/profiles/IPSO/3347.xml</DDF>
+<DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/3347.xml</DDF>
+
+<LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3347.xml</LWM2M>
+
+<Vorto></Vorto>
 
 <DDFLink>1</DDFLink>
 
@@ -2156,7 +2448,11 @@
 
 <Ver/>
 
-<DDF>http://technical.openmobilealliance.org/tech/profiles/IPSO/3348.xml</DDF>
+<DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/3348.xml</DDF>
+
+<LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3348.xml</LWM2M>
+
+<Vorto></Vorto>
 
 <DDFLink>1</DDFLink>
 
@@ -2185,6 +2481,10 @@
 
 <DDF>x</DDF>
 
+<LWM2M></LWM2M>
+
+<Vorto></Vorto>
+
 <DDFLink>0</DDFLink>
 
 <TS/>
@@ -2210,7 +2510,11 @@
 
 <Ver/>
 
-<DDF>http://technical.openmobilealliance.org/tech/profiles/3-PhasePM.xml</DDF>
+<DDF>http://www.openmobilealliance.org/tech/profiles/3-PhasePM.xml</DDF>
+
+<LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2F3-PhasePM.xml</LWM2M>
+
+<Vorto></Vorto>
 
 <DDFLink>1</DDFLink>
 
@@ -2237,7 +2541,11 @@
 
 <Ver/>
 
-<DDF>http://technical.openmobilealliance.org/tech/profiles/singlePhasePM.xml</DDF>
+<DDF>http://www.openmobilealliance.org/tech/profiles/singlePhasePM.xml</DDF>
+
+<LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2FsinglePhasePM.xml</LWM2M>
+
+<Vorto></Vorto>
 
 <DDFLink>1</DDFLink>
 
@@ -2264,7 +2572,11 @@
 
 <Ver/>
 
-<DDF>http://technical.openmobilealliance.org/tech/profiles/VehicleControlUnit.xml</DDF>
+<DDF>http://www.openmobilealliance.org/tech/profiles/VehicleControlUnit.xml</DDF>
+
+<LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2FVehicleControlUnit.xml</LWM2M>
+
+<Vorto></Vorto>
 
 <DDFLink>1</DDFLink>
 
@@ -2292,6 +2604,10 @@
 
 <DDF></DDF>
 
+<LWM2M></LWM2M>
+
+<Vorto></Vorto>
+
 <DDFLink>0</DDFLink>
 
 <TS>0</TS>
@@ -2317,6 +2633,10 @@
 <Ver/>
 
 <DDF></DDF>
+
+<LWM2M></LWM2M>
+
+<Vorto></Vorto>
 
 <DDFLink>0</DDFLink>
 
@@ -2344,6 +2664,10 @@
 
 <DDF></DDF>
 
+<LWM2M></LWM2M>
+
+<Vorto></Vorto>
+
 <DDFLink>0</DDFLink>
 
 <TS>0</TS>
@@ -2370,6 +2694,10 @@
 
 <DDF></DDF>
 
+<LWM2M></LWM2M>
+
+<Vorto></Vorto>
+
 <DDFLink>0</DDFLink>
 
 <TS>0</TS>
@@ -2395,6 +2723,10 @@
 <Ver/>
 
 <DDF></DDF>
+
+<LWM2M></LWM2M>
+
+<Vorto></Vorto>
 
 <DDFLink>0</DDFLink>
 

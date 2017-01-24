@@ -69,7 +69,7 @@ function makeExpandable(item) {
 
         // Set the linear gradient colour to white if the row's background colour is transparent
         var bgColour = $item.closest('tr').css('background-color');
-        if (bgColour == 'rgba(0, 0, 0, 0)') {
+        if (bgColour === 'rgba(0, 0, 0, 0)') {
             bgColour = 'white';
         }
 
