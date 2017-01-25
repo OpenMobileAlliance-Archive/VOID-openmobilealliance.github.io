@@ -1,4 +1,4 @@
-<!doctype html>
+﻿<!doctype html>
 <html>
 <head>
     <title>Open Mobile Alliance - LwM2M Registry</title>
@@ -7,19 +7,23 @@
     <!-- Font awesome for arrows -->
     <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
     <!-- Normalize CSS -->
-    <link rel="stylesheet" href="CSS/Normalize.css" />
+    <link rel="stylesheet" href="../../CSS/Normalize.css" />
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
     <!-- Optional theme -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
-    <link rel="stylesheet" href="/wp/CSS/Site.css">
-    <link rel="stylesheet" href="/wp/CSS/tabledregistries.css">
-    <script src="/wp/Scripts/tabledregistries.js"></script>
+    <link rel="stylesheet" href="../../CSS/Site.css">
+    <link rel="stylesheet" href="../../CSS/tabledregistries.css">
+    <script src="../../Scripts/tabledregistries.js"></script>
+    <script src="../../Scripts/lwm2m_xmlregistries.js"></script>
     <script>
         $(document).ready(function () {
-            $('#header').load("/wp/header.html");
-            $('#footer').load("/wp/footer.html");
-            $('#LwM2MObjects').load("LwM2MObjects.html", function () { SetUpExpandableTDs(); TablesWithRowspanStyleChanges(); });
+            $('#header').load("../../header.html");
+            $('#footer').load("../../footer.html");
+            //$('#LwM2MObjects').load("LwM2MObjects.html", function () { SetUpExpandableTDs(); TablesWithRowspanStyleChanges(); });
+            DisplayXML('./DDF.xml', './Common.xml');
+            SetUpExpandableTDs();
+            TablesWithRowspanStyleChanges();
         });
     </script>
 </head>
@@ -47,7 +51,7 @@
             <h2>
                 ObjectID Classes
             </h2>
-            <table id="lwm2mregistry-table" class="table-bordered">
+            <table id="registry-table" class="table-bordered">
                 <thead>
                     <tr>
                         <th>Category</th>
@@ -189,7 +193,104 @@
                 </tbody>
             </table>
         </div>
-        <div id="LwM2MObjects"></div>
+        <!-- This table gets filled in from the DDF.xml file -->
+        <div>
+            <h2>LwM2M Objects</h2>
+            <h3 id="omalabel"><strong>oma-label</strong> Objects Produced by OMA</h3>
+            <p><code>URN: urn:oma:lwm2m:oma:ObjectID | range (0 - 1,023)</code></p>
+            <table id="omaobjects_tbl" class="descriptive-table">
+                <thead>
+                    <tr>
+                        <th style="width: 143px">URN / Version</th>
+                        <th>ObjectID / xml</th>
+                        <th>LwM2M Editor</th>
+                        <th>Vorto</th>
+                        <th>Object Name / Specification</th>
+                        <th>Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                </tbody>
+                <caption>
+                    Objects in the above table (oma-label) are only registered by OMA Working Groups via an internal registratin process, called OMNA.
+                    <a title="OMA Working Groups click here to register" href="http://dev_devtoolkit.openmobilealliance.org/OEditor/Register">Click to register.</a>
+                </caption>
+            </table>
+        </div>
+
+        <div>
+            <h3 id="extlabel"> <strong>ext-label</strong> Objects Produced by 3rd party Standards Development Organizations</h3>
+            <p><code>URN: urn:oma:lwm2m:ext:ObjectID | range (2,048 - 10,240)</code></p>
+            <table id="thirdpartyobjects_tbl" class="descriptive-table">
+                <thead>
+                    <tr>
+                        <th>URN / Version</th>
+                        <th>ObjectID / xml</th>
+                        <th>LwM2M Editor</th>
+                        <th>Vorto</th>
+                        <th>Object Name / Specification</th>
+                        <th>Owner</th>
+                        <th>Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                </tbody>
+                <caption>
+                    <a title="click here to register a new (ext-label) Object ID" href="http://dev_devtoolkit.openmobilealliance.org/OEditor/Register">Register a new Object produced by a 3rd party SDO (Standards Development Organization).</a>
+                </caption>
+            </table>
+        </div>
+        <div>
+            <h3 id="xlabel"><strong>x-label</strong> Objects Produced by vendors or individuals</h3>
+            <p><code>URN: urn:oma:lwm2m:x:ObjectID | ranges (10,241 - 26,240) & (26,241 - 32,768)</code></p>
+            <p>10241 - 26240 Range accepts registration</p>
+            <p>26241 - 32768 Range is privately reused and there is no need for registration</p>
+            <table id="publicobjects_tbl" class="descriptive-table">
+                <thead>
+                    <tr>
+                        <th>URN / Version</th>
+                        <th>ObjectID / xml</th>
+                        <th>LwM2M Editor</th>
+                        <th>Vorto</th>
+                        <th>Object Name / Specification</th>
+                        <th>Company</th>
+                        <th>Description - Objects Produced by Vendors</th>
+                    </tr>
+                </thead>
+                <tbody>
+                </tbody>
+                <caption>
+                    The registration of individual and proprietary LwM2M Objects is currently under review.
+                </caption>
+
+            </table>
+        </div>
+        <div>
+            <h2>LwM2M Resources</h2>
+            <h3 id="resources">Reusable Resources</h3>
+            <p><code>range: (2048 - 32,768)</code></p>
+            <table id="commonobjects_tbl" class="descriptive-table">
+                <thead>
+                    <tr>
+                        <th>ResourceID </th>
+                        <th>Resource Name / xml</th>
+                        <th>Access Type/Operation</th>
+                        <th>Multiple Instances</th>
+                        <th>Mandatory</th>
+                        <th>Type</th>
+                        <th>Range/Enumeration</th>
+                        <th>Units</th>
+                        <th>Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                </tbody>
+                <caption>
+                    <a title="click here to register a new (Reusable) Resource ID" href="http://dev_devtoolkit.openmobilealliance.org/OEditor/Register">Register a new Resource produced by 3rd parties.</a>
+                </caption>
+            </table>
+        </div>
+
     </div>
     <!-- This gets populated with the footer.html using Javascript -->
     <div id="footer"></div>
