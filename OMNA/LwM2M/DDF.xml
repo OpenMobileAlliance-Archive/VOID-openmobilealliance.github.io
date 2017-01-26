@@ -2736,4 +2736,35 @@
 
 </Item>
 
+<Item>
+
+<ObjectID>10250</ObjectID>
+
+<URN>urn:oma:lwm2m:x:10250</URN>
+
+<Name>App Data Container</Name>
+
+<Description>This LWM2M Object is used for reporting application data of a device.</Description>
+
+<Owner>Works System</Owner>
+
+<Source>2</Source>
+
+<Ver/>
+
+<DDF>http://www.openmobilealliance.org/tech/profiles/Application-Data-Container.xml</DDF>
+
+<LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2FApplication-Data-Container.xml</LWM2M>
+
+<Vorto></Vorto>
+
+<DDFLink>1</DDFLink>
+
+<TS>0</TS>
+ 
+<TSLink>0</TSLink>
+
+</Item>
+
+
 </DDFList>
