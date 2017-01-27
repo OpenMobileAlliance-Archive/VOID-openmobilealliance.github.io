@@ -1,2 +1,8 @@
 Testing
 Made change in origin
+www.openmobilealliance.org
+devwww.openmobilealliance.org
+devtoolkit.openmobilealliance.org
+dev_devtoolkit.openmobilealliance.org
+member.openmobilealliance.org
+devmember.openmobileallaince.org
