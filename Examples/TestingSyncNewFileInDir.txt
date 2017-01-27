@@ -5,4 +5,4 @@ devwww.openmobilealliance.org
 devtoolkit.openmobilealliance.org
 dev_devtoolkit.openmobilealliance.org
 member.openmobilealliance.org
-devmember.openmobileallaince.org
+devmember.openmobilealliance.org
