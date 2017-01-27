@@ -16,4 +16,3 @@ asdvasddev_devtoolkit.openmobilealliance.org
 addvsd member.openmobilealliance.org adfasdfas
 avddv devmember.openmobilealliance.org adfasdf
 a
-a
