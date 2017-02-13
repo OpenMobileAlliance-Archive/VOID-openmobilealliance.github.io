@@ -320,7 +320,7 @@
 
 <DDFLink>0</DDFLink>
 
-<TS>X</TS>
+<TS>http://openmobilealliance.org/release/LWM2M_SWMGMT/V1_0-20151201-C/OMA-TS-LWM2M_SwMgmt-V1_0-20151201-C.pdf</TS>
 
 <TSLink>1</TSLink>
 
@@ -351,7 +351,7 @@
 
 <DDFLink>0</DDFLink>
 
-<TS>http://openmobilealliance.org/release/LWM2M_CONNMGMT/V1_0-20170208-C/OMA-TS-LWM2M_ConnMgmt-V1_0-20170208-C.pdf</TS>
+<TS>http://www.openmobilealliance.org/release/LWM2M_CONNMGMT/V1_0-20170208-C/OMA-TS-LWM2M_ConnMgmt-V1_0-20170208-C.pdf</TS>
 
 <TSLink>1</TSLink>
 
@@ -382,7 +382,7 @@
 
 <DDFLink>0</DDFLink>
 
-<TS>http://openmobilealliance.org/release/LWM2M_CONNMGMT/V1_0-20170208-C/OMA-TS-LWM2M_ConnMgmt-V1_0-20170208-C.pdf</TS>
+<TS>http://www.openmobilealliance.org/release/LWM2M_CONNMGMT/V1_0-20170208-C/OMA-TS-LWM2M_ConnMgmt-V1_0-20170208-C.pdf</TS>
 
 <TSLink>1</TSLink>
 
