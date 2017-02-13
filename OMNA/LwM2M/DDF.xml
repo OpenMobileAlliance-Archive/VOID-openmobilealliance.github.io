@@ -178,7 +178,7 @@
 
 <URN>urn:oma:lwm2m:oma:5</URN>
 
-<Name>Firmware</Name>
+<Name>Firmware Update</Name>
 
 <Description>It enables management of firmware which is to be updated. This Object includes installing firmware package, updating firmware, and performing actions after updating firmware</Description>
 
