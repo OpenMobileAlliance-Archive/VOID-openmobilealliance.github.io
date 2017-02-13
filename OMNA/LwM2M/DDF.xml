@@ -40,7 +40,7 @@
 <DDFLink>1</DDFLink>
 
 <!-- URL to the TS of the object, not visible, not used -->
-<TS>http://member.openmobilealliance.org/ftp/Public_documents/DM/LightweightM2M/Permanent_documents/OMA-TS-LightweightM2M-V1_0-20170208-A.zip</TS>
+<TS>http://openmobilealliance.org/release/LightweightM2M/V1_0-20170208-A/OMA-TS-LightweightM2M-V1_0-20170208-A.pdf</TS>
 
 <!-- 0 => if link to TS should not be visible, 1 => if link to TS should be visible (default) -->
 <TSLink>1</TSLink>
@@ -72,7 +72,7 @@
 
 <DDFLink>1</DDFLink>
 
-<TS>http://member.openmobilealliance.org/ftp/Public_documents/DM/LightweightM2M/Permanent_documents/OMA-TS-LightweightM2M-V1_0-20170208-A.zip</TS>
+<TS>http://openmobilealliance.org/release/LightweightM2M/V1_0-20170208-A/OMA-TS-LightweightM2M-V1_0-20170208-A.pdf</TS>
 
 <TSLink>1</TSLink>
 
@@ -103,7 +103,7 @@
 
 <DDFLink>1</DDFLink>
 
-<TS>http://member.openmobilealliance.org/ftp/Public_documents/DM/LightweightM2M/Permanent_documents/OMA-TS-LightweightM2M-V1_0-20170208-A.zip</TS>
+<TS>http://openmobilealliance.org/release/LightweightM2M/V1_0-20170208-A/OMA-TS-LightweightM2M-V1_0-20170208-A.pdf</TS>
 
 <TSLink>1</TSLink>
 
@@ -134,7 +134,7 @@
 
 <DDFLink>1</DDFLink>
 
-<TS>http://member.openmobilealliance.org/ftp/Public_documents/DM/LightweightM2M/Permanent_documents/OMA-TS-LightweightM2M-V1_0-20170208-A.zip</TS>
+<TS>http://openmobilealliance.org/release/LightweightM2M/V1_0-20170208-A/OMA-TS-LightweightM2M-V1_0-20170208-A.pdf</TS>
 
 <TSLink>1</TSLink>
 
@@ -165,7 +165,7 @@
 
 <DDFLink>1</DDFLink>
 
-<TS>http://member.openmobilealliance.org/ftp/Public_documents/DM/LightweightM2M/Permanent_documents/OMA-TS-LightweightM2M-V1_0-20170208-A.zip</TS>
+<TS>http://openmobilealliance.org/release/LightweightM2M/V1_0-20170208-A/OMA-TS-LightweightM2M-V1_0-20170208-A.pdf</TS>
 
 <TSLink>1</TSLink>
 
@@ -178,7 +178,7 @@
 
 <URN>urn:oma:lwm2m:oma:5</URN>
 
-<Name>Firmware Update</Name>
+<Name>Firmware</Name>
 
 <Description>It enables management of firmware which is to be updated. This Object includes installing firmware package, updating firmware, and performing actions after updating firmware</Description>
 
@@ -196,7 +196,7 @@
 
 <DDFLink>1</DDFLink>
 
-<TS>http://member.openmobilealliance.org/ftp/Public_documents/DM/LightweightM2M/Permanent_documents/OMA-TS-LightweightM2M-V1_0-20170208-A.zip</TS>
+<TS>http://openmobilealliance.org/release/LightweightM2M/V1_0-20170208-A/OMA-TS-LightweightM2M-V1_0-20170208-A.pdf</TS>
 
 <TSLink>1</TSLink>
 
@@ -227,7 +227,7 @@
 
 <DDFLink>1</DDFLink>
 
-<TS>http://member.openmobilealliance.org/ftp/Public_documents/DM/LightweightM2M/Permanent_documents/OMA-TS-LightweightM2M-V1_0-20170208-A.zip</TS>
+<TS>http://openmobilealliance.org/release/LightweightM2M/V1_0-20170208-A/OMA-TS-LightweightM2M-V1_0-20170208-A.pdf</TS>
 
 <TSLink>1</TSLink>
 
@@ -258,7 +258,7 @@
 
 <DDFLink>1</DDFLink>
 
-<TS>http://member.openmobilealliance.org/ftp/Public_documents/DM/LightweightM2M/Permanent_documents/OMA-TS-LightweightM2M-V1_0-20170208-A.zip</TS>
+<TS>http://openmobilealliance.org/release/LightweightM2M/V1_0-20170208-A/OMA-TS-LightweightM2M-V1_0-20170208-A.pdf</TS>
 
 <TSLink>1</TSLink>
 
