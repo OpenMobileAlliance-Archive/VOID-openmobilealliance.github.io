@@ -40,7 +40,7 @@
 <DDFLink>1</DDFLink>
 
 <!-- URL to the TS of the object, not visible, not used -->
-<TS>http://member.openmobilealliance.org/ftp/Public_documents/DM/LightweightM2M/Permanent_documents/OMA-TS-LightweightM2M-V1_0-20151224-C.zip</TS>
+<TS>http://member.openmobilealliance.org/ftp/Public_documents/DM/LightweightM2M/Permanent_documents/OMA-TS-LightweightM2M-V1_0-20170208-A.zip</TS>
 
 <!-- 0 => if link to TS should not be visible, 1 => if link to TS should be visible (default) -->
 <TSLink>1</TSLink>
@@ -72,7 +72,7 @@
 
 <DDFLink>1</DDFLink>
 
-<TS>http://member.openmobilealliance.org/ftp/Public_documents/DM/LightweightM2M/Permanent_documents/OMA-TS-LightweightM2M-V1_0-20160407-C.zip</TS>
+<TS>http://member.openmobilealliance.org/ftp/Public_documents/DM/LightweightM2M/Permanent_documents/OMA-TS-LightweightM2M-V1_0-20170208-A.zip</TS>
 
 <TSLink>1</TSLink>
 
@@ -103,7 +103,7 @@
 
 <DDFLink>1</DDFLink>
 
-<TS>http://member.openmobilealliance.org/ftp/Public_documents/DM/LightweightM2M/Permanent_documents/OMA-TS-LightweightM2M-V1_0-20160407-C.zip</TS>
+<TS>http://member.openmobilealliance.org/ftp/Public_documents/DM/LightweightM2M/Permanent_documents/OMA-TS-LightweightM2M-V1_0-20170208-A.zip</TS>
 
 <TSLink>1</TSLink>
 
@@ -134,7 +134,7 @@
 
 <DDFLink>1</DDFLink>
 
-<TS>http://member.openmobilealliance.org/ftp/Public_documents/DM/LightweightM2M/Permanent_documents/OMA-TS-LightweightM2M-V1_0-20160407-C.zip</TS>
+<TS>http://member.openmobilealliance.org/ftp/Public_documents/DM/LightweightM2M/Permanent_documents/OMA-TS-LightweightM2M-V1_0-20170208-A.zip</TS>
 
 <TSLink>1</TSLink>
 
@@ -165,7 +165,7 @@
 
 <DDFLink>1</DDFLink>
 
-<TS>http://member.openmobilealliance.org/ftp/Public_documents/DM/LightweightM2M/Permanent_documents/OMA-TS-LightweightM2M-V1_0-20160407-C.zip</TS>
+<TS>http://member.openmobilealliance.org/ftp/Public_documents/DM/LightweightM2M/Permanent_documents/OMA-TS-LightweightM2M-V1_0-20170208-A.zip</TS>
 
 <TSLink>1</TSLink>
 
@@ -196,7 +196,7 @@
 
 <DDFLink>1</DDFLink>
 
-<TS>http://member.openmobilealliance.org/ftp/Public_documents/DM/LightweightM2M/Permanent_documents/OMA-TS-LightweightM2M-V1_0-20160407-C.zip</TS>
+<TS>http://member.openmobilealliance.org/ftp/Public_documents/DM/LightweightM2M/Permanent_documents/OMA-TS-LightweightM2M-V1_0-20170208-A.zip</TS>
 
 <TSLink>1</TSLink>
 
@@ -227,7 +227,7 @@
 
 <DDFLink>1</DDFLink>
 
-<TS>http://member.openmobilealliance.org/ftp/Public_documents/DM/LightweightM2M/Permanent_documents/OMA-TS-LightweightM2M-V1_0-20160407-C.zipf</TS>
+<TS>http://member.openmobilealliance.org/ftp/Public_documents/DM/LightweightM2M/Permanent_documents/OMA-TS-LightweightM2M-V1_0-20170208-A.zip</TS>
 
 <TSLink>1</TSLink>
 
@@ -258,7 +258,7 @@
 
 <DDFLink>1</DDFLink>
 
-<TS>http://member.openmobilealliance.org/ftp/Public_documents/DM/LightweightM2M/Permanent_documents/OMA-TS-LightweightM2M-V1_0-20160407-C.zip</TS>
+<TS>http://member.openmobilealliance.org/ftp/Public_documents/DM/LightweightM2M/Permanent_documents/OMA-TS-LightweightM2M-V1_0-20170208-A.zip</TS>
 
 <TSLink>1</TSLink>
 
@@ -289,7 +289,7 @@
 
 <DDFLink>0</DDFLink>
 
-<TS>http://member.openmobilealliance.org/ftp/Public_documents/DM/LightweightM2M/Permanent_documents/OMA-TS-LightweightM2M-V1_0-20160407-C.zip</TS>
+<TS>http://member.openmobilealliance.org/ftp/Public_documents/DM/LightweightM2M/Permanent_documents/OMA-TS-LightweightM2M-V1_0-20170208-A.zip</TS>
 
 <TSLink>1</TSLink>
 
@@ -351,7 +351,7 @@
 
 <DDFLink>0</DDFLink>
 
-<TS>http://member.openmobilealliance.org/ftp/Public_documents/DM/LightweightM2M/Permanent_documents/OMA-TS-LWM2M_ConnMgmt-V1_0-20151201-C.zip</TS>
+<TS>http://member.openmobilealliance.org/ftp/Public_documents/DM/LightweightM2M/Permanent_documents/OMA-TS-LWM2M_ConnMgmt-V1_0-20170208-C.zip</TS>
 
 <TSLink>1</TSLink>
 
@@ -382,7 +382,7 @@
 
 <DDFLink>0</DDFLink>
 
-<TS>http://member.openmobilealliance.org/ftp/Public_documents/DM/LightweightM2M/Permanent_documents/OMA-TS-LWM2M_ConnMgmt-V1_0-20151201-C.zip</TS>
+<TS>http://member.openmobilealliance.org/ftp/Public_documents/DM/LightweightM2M/Permanent_documents/OMA-TS-LWM2M_ConnMgmt-V1_0-20170208-C.zip</TS>
 
 <TSLink>1</TSLink>
 
@@ -413,7 +413,7 @@
 
 <DDFLink>0</DDFLink>
 
-<TS>http://member.openmobilealliance.org/ftp/Public_documents/DM/LightweightM2M/Permanent_documents/OMA-TS-LWM2M_ConnMgmt-V1_0-20151201-C.zip</TS>
+<TS>http://member.openmobilealliance.org/ftp/Public_documents/DM/LightweightM2M/Permanent_documents/OMA-TS-LWM2M_ConnMgmt-V1_0-20170208-C.zip</TS>
 
 <TSLink>1</TSLink>
 
@@ -444,7 +444,7 @@
 
 <DDFLink>0</DDFLink>
 
-<TS>http://member.openmobilealliance.org/ftp/Public_documents/DM/LightweightM2M/Permanent_documents/OMA-TS-LWM2M_ConnMgmt-V1_0-20151201-C.zip</TS>
+<TS>http://member.openmobilealliance.org/ftp/Public_documents/DM/LightweightM2M/Permanent_documents/OMA-TS-LWM2M_ConnMgmt-V1_0-20170208-C.zip</TS>
 
 <TSLink>1</TSLink>
 
