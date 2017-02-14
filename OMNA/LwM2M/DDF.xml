@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 
 <DDFList>
 
@@ -178,7 +178,7 @@
 
 <URN>urn:oma:lwm2m:oma:5</URN>
 
-<Name>Firmware</Name>
+<Name>Firmware Update</Name>
 
 <Description>It enables management of firmware which is to be updated. This Object includes installing firmware package, updating firmware, and performing actions after updating firmware</Description>
 
@@ -405,13 +405,13 @@
 
 <Ver>1.0</Ver>
 
-<DDF>x</DDF>
+<DDF>http://www.openmobilealliance.org/tech/profiles/LWM2M_WLAN_connectivity4-v1_0.xml</DDF>
 
-<LWM2M></LWM2M>
+<LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2FLWM2M_WLAN_connectivity4-v1_0.xml</LWM2M>
 
 <Vorto></Vorto>
 
-<DDFLink>0</DDFLink>
+<DDFLink>1</DDFLink>
 
 <TS>http://www.openmobilealliance.org/release/LWM2M_CONNMGMT/V1_0-20170208-C/OMA-TS-LWM2M_ConnMgmt-V1_0-20170208-C.pdf</TS>
 
