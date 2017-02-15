@@ -1480,6 +1480,106 @@
     </TS>
   </Item>
   <Item>
+    <MOIdentifier>urn:oma:mo:oma-connmo-nap:1.0</MOIdentifier>
+    <MOIndex>0x0075</MOIndex>
+    <Description>ConnMO</Description>
+    <Owner>DM WG</Owner>
+    <Source>0</Source>
+    <Ver>1.0</Ver>
+    <DDF>http://www.openmobilealliance.org/tech/omna/dm_mo/OMA-SUP-MO_ConnMO_NAP-v1_0.ddf</DDF>
+    <TS></TS>
+  </Item>
+    <Item>
+    <MOIdentifier>urn:oma:mo:oma-connmo-proxy:1.0</MOIdentifier>
+    <MOIndex>0x0076</MOIndex>
+    <Description>ConnMO</Description>
+    <Owner>DM WG</Owner>
+    <Source>0</Source>
+    <Ver>1.0</Ver>
+    <DDF>http://www.openmobilealliance.org/tech/omna/dm_mo/OMA-SUP-MO_ConnMO_Proxy-v1_0.ddf</DDF>
+    <TS></TS>
+  </Item>
+    <Item>
+    <MOIdentifier>urn:oma:mo:oma-connmo-3gppcs:1.0</MOIdentifier>
+    <MOIndex>0x0077</MOIndex>
+    <Description>ConnMO</Description>
+    <Owner>DM WG</Owner>
+    <Source>0</Source>
+    <Ver>1.0</Ver>
+    <DDF>http://www.openmobilealliance.org/tech/omna/dm_mo/OMA-SUP-MO_ConnMO_3GPPCS-v1_0.ddf</DDF>
+    <TS></TS>
+  </Item>
+    <Item>
+    <MOIdentifier>urn:oma:mo:oma-connmo-3gppps:1.0</MOIdentifier>
+    <MOIndex>0x0078</MOIndex>
+    <Description>ConnMO</Description>
+    <Owner>DM WG</Owner>
+    <Source>0</Source>
+    <Ver>1.0</Ver>
+    <DDF>http://www.openmobilealliance.org/tech/omna/dm_mo/OMA-SUP-MO_ConnMO_3GPPPS-v1_0.ddf</DDF>
+    <TS></TS>
+  </Item>
+    <Item>
+    <MOIdentifier>urn:oma:mo:oma-connmo-cdma:1.0</MOIdentifier>
+    <MOIndex>0x0079</MOIndex>
+    <Description>ConnMO</Description>
+    <Owner>DM WG</Owner>
+    <Source>0</Source>
+    <Ver>1.0</Ver>
+    <DDF>http://www.openmobilealliance.org/tech/omna/dm_mo/OMA-SUP-MO_ConnMO_CDMA-v1_0.ddf</DDF>
+    <TS></TS>
+  </Item>
+    <Item>
+    <MOIdentifier>urn:oma:mo:oma-connmo-eap:1.0</MOIdentifier>
+    <MOIndex>0x007A</MOIndex>
+    <Description>ConnMO</Description>
+    <Owner>DM WG</Owner>
+    <Source>0</Source>
+    <Ver>1.0</Ver>
+    <DDF>http://www.openmobilealliance.org/tech/omna/dm_mo/OMA-SUP-MO_ConnMO_EAP-v1_0.ddf</DDF>
+    <TS></TS>
+  </Item>
+    <Item>
+    <MOIdentifier>urn:oma:mo:oma-connmo-http:1.0</MOIdentifier>
+    <MOIndex>0x007B</MOIndex>
+    <Description>ConnMO</Description>
+    <Owner>DM WG</Owner>
+    <Source>0</Source>
+    <Ver>1.0</Ver>
+    <DDF>http://www.openmobilealliance.org/tech/omna/dm_mo/OMA-SUP-MO_ConnMO_HTTPProxy-v1_0.ddf</DDF>
+    <TS></TS>
+  </Item>
+    <Item>
+    <MOIdentifier>urn:oma:mo:oma-connmo-wap:1.0</MOIdentifier>
+    <MOIndex>0x007C</MOIndex>
+    <Description>ConnMO</Description>
+    <Owner>DM WG</Owner>
+    <Source>0</Source>
+    <Ver>1.0</Ver>
+    <DDF>http://www.openmobilealliance.org/tech/omna/dm_mo/OMA-SUP-MO_ConnMO_WAPProxy-v1_0.ddf</DDF>
+    <TS></TS>
+  </Item>
+    <Item>
+    <MOIdentifier>urn:oma:mo:oma-connmo-wlan:1.0</MOIdentifier>
+    <MOIndex>0x007D</MOIndex>
+    <Description>ConnMO</Description>
+    <Owner>DM WG</Owner>
+    <Source>0</Source>
+    <Ver>1.0</Ver>
+    <DDF>http://www.openmobilealliance.org/tech/omna/dm_mo/OMA-SUP-MO_ConnMO_WLAN-v1_0.ddf</DDF>
+    <TS></TS>
+  </Item>
+  <Item>
+    <MOIdentifier>urn:oma:mo:oma_bcast:1.2</MOIdentifier>
+    <MOIndex>0x007E</MOIndex>
+    <Description>BCAST 1.2 MO</Description>
+    <Owner>CD WG</Owner>
+    <Source>0</Source>
+    <Ver>1.2</Ver>
+    <DDF>http://www.openmobilealliance.org/tech/omna/dm_mo/oma_bcast-v1_2.ddf</DDF>
+    <TS></TS>
+  </Item>
+  <Item>
     <MOIdentifier>urn:oma:mo:ext-3gpp-IWLAN:1.0</MOIdentifier>
     <Owner>3GPP</Owner>
     <Source>1</Source>
@@ -1809,5 +1909,29 @@
     <DDF></DDF>
     <TS>
     </TS>
+  </Item>
+    <Item>
+    <MOIdentifier>urn:oma:mo:ext-3gpp-tv-config:1.0</MOIdentifier>
+    <Owner>3GPP</Owner>
+    <Source>1</Source>
+    <Ver>1.0</Ver>
+    <DDF></DDF>
+    <TS></TS>
+  </Item>
+    <Item>
+    <MOIdentifier>urn:oma:mo:ext-3gpp-bcp:1.0</MOIdentifier>
+    <Owner>3GPP</Owner>
+    <Source>1</Source>
+    <Ver>1.0</Ver>
+    <DDF></DDF>
+    <TS></TS>
+  </Item>
+    <Item>
+    <MOIdentifier>urn:oma:mo:ext-EPC-level-prose-discovery-provisioning:1.0</MOIdentifier>
+    <Owner>3GPP</Owner>
+    <Source>1</Source>
+    <Ver>1.0</Ver>
+    <DDF></DDF>
+    <TS></TS>
   </Item>
 </DDFList>
