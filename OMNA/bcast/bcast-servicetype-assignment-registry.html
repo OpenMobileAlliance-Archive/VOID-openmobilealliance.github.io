@@ -1,0 +1,300 @@
+<!doctype html>
+<html>
+<head>
+    <title>Open Mobile Alliance - BCAST ServiceType Assignment Registry</title>
+    <meta charset="utf-8">
+    <script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
+    <!-- Font awesome for arrows -->
+    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+    <!-- Normalize CSS -->
+    <link rel="stylesheet" href="CSS/Normalize.css" />
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="/wp/CSS/Site.css">
+    <link rel="stylesheet" href="/wp/CSS/tabledregistries.css">
+    <script src="/wp/Scripts/tabledregistries.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('#header').load("/wp/header.html");
+            $('#footer').load("/wp/footer.html");
+            $('#LwM2MObjects').load("LwM2MObjects.html", function () { SetUpExpandableTDs(); TablesWithRowspanStyleChanges(); });
+        });
+    </script>
+</head>
+<body>
+    <!-- This gets populated with the header.html using Javascript -->
+    <div id="header"></div>
+    <div class="container">
+        <div>
+            <h1>
+                OMA BCAST ServiceType Assignment Registry
+            </h1>
+        </div>
+        <div>
+            <p></p>
+        </div>
+        <div>
+            <h2>
+                ServiceType value assignment registry for OMA Broadcast Service Guide
+            </h2>
+            <table id="bcast-servicetype-table" class="table-bordered">
+                <thead>
+                    <tr>
+                        <th>ServiceType value</th>
+                        <th>Purpose</th>
+                        <th>Reference Information</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td  colspan="3"><strong>Assigned as part of the BCAST Specifications</strong></td>
+                    <tr>
+                        <td>
+                            <p><strong>0</strong></p>
+                        </td>
+                        <td>
+                            <p>unspecified</p>
+                        </td>
+                        <td>
+                            OMA-TS-BCAST_Service_Guide-V1_0<br />
+                            OMA-TS-BCAST_Service_Guide-V1_1<br />
+                            OMA-TS-BCAST_Service_Guide-V1_2<br />
+                            OMA-TS-BCAST_Service_Guide-V1_3
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p><strong>1</strong></p>
+                        </td>
+                        <td>
+                            <p>Basic TV</p>
+                        </td>
+                        <td>
+                            OMA-TS-BCAST_Service_Guide-V1_0<br />
+                            OMA-TS-BCAST_Service_Guide-V1_1<br />
+                            OMA-TS-BCAST_Service_Guide-V1_2<br />
+                            OMA-TS-BCAST_Service_Guide-V1_3
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p><strong>2</strong></p>
+                        </td>
+                        <td>
+                            <p>Basic Radio</p>
+                        </td>
+                        <td>
+                            OMA-TS-BCAST_Service_Guide-V1_0<br />
+                            OMA-TS-BCAST_Service_Guide-V1_1<br />
+                            OMA-TS-BCAST_Service_Guide-V1_2<br />
+                            OMA-TS-BCAST_Service_Guide-V1_3
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p><strong>3</strong></p>
+                        </td>
+                        <td>
+                            <p>RI services</p>
+                        </td>
+                        <td>
+                            OMA-TS-BCAST_Service_Guide-V1_0<br />
+                            OMA-TS-BCAST_Service_Guide-V1_1<br />
+                            OMA-TS-BCAST_Service_Guide-V1_2<br />
+                            OMA-TS-BCAST_Service_Guide-V1_3
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p><strong>4</strong></p>
+                        </td>
+                        <td>
+                            <p>Cachecast</p>
+                        </td>
+                        <td>
+                            OMA-TS-BCAST_Service_Guide-V1_0<br />
+                            OMA-TS-BCAST_Service_Guide-V1_1<br />
+                            OMA-TS-BCAST_Service_Guide-V1_2<br />
+                            OMA-TS-BCAST_Service_Guide-V1_3
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p><strong>5</strong></p>
+                        </td>
+                        <td>
+                            <p>File download services</p>
+                        </td>
+                        <td>
+                            OMA-TS-BCAST_Service_Guide-V1_0<br />
+                            OMA-TS-BCAST_Service_Guide-V1_1<br />
+                            OMA-TS-BCAST_Service_Guide-V1_2<br />
+                            OMA-TS-BCAST_Service_Guide-V1_3
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p><strong>6</strong></p>
+                        </td>
+                        <td>
+                            <p>Software management services</p>
+                        </td>
+                        <td>
+                            OMA-TS-BCAST_Service_Guide-V1_0<br />
+                            OMA-TS-BCAST_Service_Guide-V1_1<br />
+                            OMA-TS-BCAST_Service_Guide-V1_2<br />
+                            OMA-TS-BCAST_Service_Guide-V1_3
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p><strong>7</strong></p>
+                        </td>
+                        <td>
+                            <p>Notification</p>
+                        </td>
+                        <td>
+                            OMA-TS-BCAST_Service_Guide-V1_0<br />
+                            OMA-TS-BCAST_Service_Guide-V1_1<br />
+                            OMA-TS-BCAST_Service_Guide-V1_2<br />
+                            OMA-TS-BCAST_Service_Guide-V1_3
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p><strong>8</strong></p>
+                        </td>
+                        <td>
+                            <p>Service Guide</p>
+                        </td>
+                        <td>
+                            OMA-TS-BCAST_Service_Guide-V1_0<br />
+                            OMA-TS-BCAST_Service_Guide-V1_1<br />
+                            OMA-TS-BCAST_Service_Guide-V1_2<br />
+                            OMA-TS-BCAST_Service_Guide-V1_3
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p><strong>9</strong></p>
+                        </td>
+                        <td>
+                            <p>Terminal Provisioning services</p>
+                        </td>
+                        <td>
+                            OMA-TS-BCAST_Service_Guide-V1_0<br />
+                            OMA-TS-BCAST_Service_Guide-V1_1<br />
+                            OMA-TS-BCAST_Service_Guide-V1_2<br />
+                            OMA-TS-BCAST_Service_Guide-V1_3
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p><strong>10</strong></p>
+                        </td>
+                        <td>
+                            <p>Auxiliary Data</p>
+                        </td>
+                        <td>
+                            OMA-TS-BCAST_Service_Guide-V1_0<br />
+                            OMA-TS-BCAST_Service_Guide-V1_1<br />
+                            OMA-TS-BCAST_Service_Guide-V1_2<br />
+                            OMA-TS-BCAST_Service_Guide-V1_3
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p><strong>11</strong></p>
+                        </td>
+                        <td>
+                            <p>Streaming on demand</p>
+                        </td>
+                        <td>
+                            OMA-TS-BCAST_Service_Guide-V1_0<br />
+                            OMA-TS-BCAST_Service_Guide-V1_1<br />
+                            OMA-TS-BCAST_Service_Guide-V1_2<br />
+                            OMA-TS-BCAST_Service_Guide-V1_3
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p><strong>12</strong></p>
+                        </td>
+                        <td>
+                            <p>File download on demand</p>
+                        </td>
+                        <td>
+                            OMA-TS-BCAST_Service_Guide-V1_0<br />
+                            OMA-TS-BCAST_Service_Guide-V1_1<br />
+                            OMA-TS-BCAST_Service_Guide-V1_2<br />
+                            OMA-TS-BCAST_Service_Guide-V1_3
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p><strong>13</strong></p>
+                        </td>
+                        <td>
+                            <p>Smartcard Provisioning services</p>
+                        </td>
+                        <td>
+                            OMA-TS-BCAST_Service_Guide-V1_0<br />
+                            OMA-TS-BCAST_Service_Guide-V1_1<br />
+                            OMA-TS-BCAST_Service_Guide-V1_2<br />
+                            OMA-TS-BCAST_Service_Guide-V1_3
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p><strong>14 - 127</strong></p>
+                        </td>
+                        <td colspan="2">
+                            <p>reserved for future use</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="3">
+                            <p><strong>Assigned values associated with other OMA Enablers</strong></p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p><strong>128 - 223</strong></p>
+                        </td>
+                        <td colspan="2">
+                            <p>reserved for other OMA Enablers</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="3">
+                            <p><strong>Unregistered Values</strong></p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p><strong>224 - 255</strong></p>
+                        </td>
+                        <td colspan="2">
+                            <p>reserved for proprietary use</p>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <!-- This gets populated with the footer.html using Javascript -->
+    <div id="footer"></div>
+    <!-- Start of Async HubSpot Analytics Code -->
+    <script type="text/javascript">
+        (function (d, s, i, r) {
+            if (d.getElementById(i)) { return; }
+            var n = d.createElement(s), e = d.getElementsByTagName(s)[0];
+            n.id = i; n.src = '//js.hs-analytics.net/analytics/' + (Math.ceil(new Date() / r) * r) + '/183757.js';
+            e.parentNode.insertBefore(n, e);
+        })(document, "script", "hs-analytics", 300000);
+    </script>
+    <!-- End of Async HubSpot Analytics Code -->
+</body>
+</html>
