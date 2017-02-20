@@ -1927,7 +1927,7 @@
     <TS></TS>
   </Item>
     <Item>
-    <MOIdentifier>urn:oma:mo:ext-EPC-level-prose-discovery-provisioning:1.0</MOIdentifier>
+    <MOIdentifier>urn:oma:mo:ext-3GPP-EPC-level-prose-discovery-provisioning:1.0</MOIdentifier>
     <Owner>3GPP</Owner>
     <Source>1</Source>
     <Ver>1.0</Ver>
