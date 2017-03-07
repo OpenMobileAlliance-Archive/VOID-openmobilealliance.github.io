@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 
 <DDFList>
 
@@ -58,7 +58,7 @@
 
 <Description>It provides the data related to a LWM2M Server. A Bootstrap Server has no such an Object Instance associated to it.</Description>
 
-<Owner>Test WG2</Owner>
+<Owner>OMA</Owner>
 
 <Source>0</Source>
 
@@ -89,7 +89,7 @@
 
 <Description>It is used to check whether the LWM2M Server has access right for performing a operation.</Description>
 
-<Owner>Test WG2</Owner>
+<Owner>OMA</Owner>
 
 <Source>0</Source>
 
@@ -120,7 +120,7 @@
 
 <Description>It provides a range of device related information which can be queried by the LWM2M Server, and a device reboot and factory reset function.</Description>
 
-<Owner>Test WG2</Owner>
+<Owner>OMA</Owner>
 
 <Source>0</Source>
 
@@ -151,7 +151,7 @@
 
 <Description>It enables monitoring of parameters related to network connectivity. In this general connectivity Object, the Resources are limited to the most general cases common to most network bearers. It is recommended to read the description, which refers to relevant standard development organizations (e.g. 3GPP, IEEE). The goal of the Connectivity Monitoring Object is to carry information reflecting the more up to date values of the current connection for monitoring purposes. Resources such as Link Quality, Radio Signal Strenght, Cell ID are retrieved during connected mode at least for cellular networks.</Description>
 
-<Owner>Test WG2</Owner>
+<Owner>OMA</Owner>
 
 <Source>0</Source>
 
@@ -178,11 +178,11 @@
 
 <URN>urn:oma:lwm2m:oma:5</URN>
 
-<Name>Firmware Update</Name>
+<Name>Firmware</Name>
 
 <Description>It enables management of firmware which is to be updated. This Object includes installing firmware package, updating firmware, and performing actions after updating firmware</Description>
 
-<Owner>Test WG2</Owner>
+<Owner>OMA</Owner>
 
 <Source>0</Source>
 
@@ -213,7 +213,7 @@
 
 <Description>It provides a range of device related information which can be queried by the LWM2M Server, and a device reboot and factory reset function.</Description>
 
-<Owner>Test WG2</Owner>
+<Owner>OMA</Owner>
 
 <Source>0</Source>
 
@@ -244,7 +244,7 @@
 
 <Description>This LWM2M Objects enables client to collect statistical information and enables the LWM2M Server to retrieve these information, set the collection duration and reset the statistical parameters.</Description>
 
-<Owner>Test WG2</Owner>
+<Owner>OMA</Owner>
 
 <Source>0</Source>
 
@@ -275,7 +275,7 @@
 
 <Description>This LWM2M objects provides the resources needed to perform the lock and wipe operations</Description>
 
-<Owner>Test WG2</Owner>
+<Owner>OMA</Owner>
 
 <Source>0</Source>
 
@@ -287,7 +287,7 @@
 
 <Vorto></Vorto>
 
-<DDFLink>1</DDFLink>
+<DDFLink>0</DDFLink>
 
 <TS>http://www.openmobilealliance.org/release/LWM2M_LOCKWIPE/V1_0-20151123-C/OMA-TS-LWM2M_LockWipe-V1_0-20151123-C.pdf</TS>
 
@@ -306,7 +306,7 @@
 
 <Description>This LWM2M objects provides the resources needed to perform software management on the device. Each software component is managed via a dedicated Software Management Object instance</Description>
 
-<Owner>Test WG2</Owner>
+<Owner>OMA</Owner>
 
 <Source>0</Source>
 
@@ -337,7 +337,7 @@
 
 <Description>It specifies resources to enable a device to connect to a 3GPP or 3GPP2 bearer, including GPRS/EDGE, UMTS, LTE, SMS. For cellular connectivity, this object focuses on Packet Switched (PS) connectivity and doesn’t aim to provide comprehensive Circuit Switched (CS) connectivity management.</Description>
 
-<Owner>Test WG2</Owner>
+<Owner>OMA</Owner>
 
 <Source>0</Source>
 
@@ -368,7 +368,7 @@
 
 <Description>It specifies resources to enable a device to connect to an APN.</Description>
 
-<Owner>Test WG2</Owner>
+<Owner>OMA</Owner>
 
 <Source>0</Source>
 
@@ -399,19 +399,19 @@
 
 <Description>It specifies resources to enable a device to connect to a WLAN bearer.</Description>
 
-<Owner>Test WG2</Owner>
+<Owner>OMA</Owner>
 
 <Source>0</Source>
 
 <Ver>1.0</Ver>
 
-<DDF>http://www.openmobilealliance.org/tech/profiles/LWM2M_WLAN_connectivity4-v1_0.xml</DDF>
+<DDF>x</DDF>
 
-<LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2FLWM2M_WLAN_connectivity4-v1_0.xml</LWM2M>
+<LWM2M></LWM2M>
 
 <Vorto></Vorto>
 
-<DDFLink>1</DDFLink>
+<DDFLink>0</DDFLink>
 
 <TS>http://www.openmobilealliance.org/release/LWM2M_CONNMGMT/V1_0-20170208-C/OMA-TS-LWM2M_ConnMgmt-V1_0-20170208-C.pdf</TS>
 
@@ -430,7 +430,7 @@
 
 <Description>It specifies resources to enable a device to choose a communications bearer on which to connect.</Description>
 
-<Owner>Test WG2</Owner>
+<Owner>OMA</Owner>
 
 <Source>0</Source>
 
@@ -461,7 +461,7 @@
 
 <Description>The LWM2M software management object enables remote software management in M2M devices</Description>
 
-<Owner>Test WG2</Owner>
+<Owner>OMA</Owner>
 
 <Source>0</Source>
 
@@ -492,7 +492,7 @@
 
 <Description>It manages the device capabilities of a device e.g. sensors, communication, etc.</Description>
 
-<Owner>Test WG2</Owner>
+<Owner>OMA</Owner>
 
 <Source>0</Source>
 
@@ -523,7 +523,7 @@
 
 <Description>Extends data storage of other LWM2M Object Instances in M2M devices, as well as to provide security services for applications associated with this data extension.</Description>
 
-<Owner>Test WG2</Owner>
+<Owner>OMA</Owner>
 
 <Source>0</Source>
 
@@ -553,7 +553,7 @@
 
 <Description>x</Description>
 
-<Owner>Test WG2</Owner>
+<Owner>OMA</Owner>
 
 <Source>0</Source>
 
@@ -583,7 +583,7 @@
 
 <Description>x</Description>
 
-<Owner>Test WG2</Owner>
+<Owner>OMA</Owner>
 
 <Source>0</Source>
 
@@ -617,7 +617,7 @@
 
 <Source>1</Source>
 
-<Ver>1.0.1</Ver>
+<Ver>1.0</Ver>
 
 <DDF>X</DDF>
 
@@ -648,7 +648,7 @@
 
 <Source>1</Source>
 
-<Ver>1.0.1</Ver>
+<Ver>1.0</Ver>
 
 <DDF>X</DDF>
 
@@ -679,7 +679,7 @@
 
 <Source>1</Source>
 
-<Ver>1.0.1</Ver>
+<Ver>1.0</Ver>
 
 <DDF>X</DDF>
 
@@ -710,7 +710,7 @@
 
 <Source>1</Source>
 
-<Ver>1.0.1</Ver>
+<Ver>1.0</Ver>
 
 <DDF>X</DDF>
 
@@ -741,7 +741,7 @@
 
 <Source>1</Source>
 
-<Ver>1.0.1</Ver>
+<Ver>1.0</Ver>
 
 <DDF>X</DDF>
 
@@ -772,7 +772,7 @@
 
 <Source>1</Source>
 
-<Ver>1.0.1</Ver>
+<Ver>1.0</Ver>
 
 <DDF>X</DDF>
 
@@ -803,7 +803,7 @@
 
 <Source>1</Source>
 
-<Ver>1.0.1</Ver>
+<Ver>1.0</Ver>
 
 <DDF>X</DDF>
 
@@ -834,7 +834,7 @@
 
 <Source>1</Source>
 
-<Ver>1.0.1</Ver>
+<Ver>1.0</Ver>
 
 <DDF>X</DDF>
 
@@ -865,7 +865,7 @@
 
 <Source>1</Source>
 
-<Ver>1.0.1</Ver>
+<Ver>1.0</Ver>
 
 <DDF>X</DDF>
 
