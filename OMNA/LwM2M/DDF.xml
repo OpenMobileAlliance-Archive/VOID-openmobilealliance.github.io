@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 
 <DDFList>
 
@@ -302,7 +302,7 @@
 
 <URN>urn:oma:lwm2m:oma:9</URN>
 
-<Name>Sofware Update</Name>
+<Name>Sofware Management</Name>
 
 <Description>This LWM2M objects provides the resources needed to perform software management on the device. Each software component is managed via a dedicated Software Management Object instance</Description>
 
@@ -312,15 +312,15 @@
 
 <Ver>1.0</Ver>
 
-<DDF>x</DDF>
+<DDF>http://www.openmobilealliance.org/tech/profiles/LWM2M_Software_Management-v1_0.xml</DDF>
 
-<LWM2M></LWM2M>
+<LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3a%2f%2fwww.openmobilealliance.org%2ftech%2fprofiles%2flwm2m%2fLWM2M_Software_Management-v1_0.xml</LWM2M>
 
 <Vorto></Vorto>
 
-<DDFLink>0</DDFLink>
+<DDFLink>1</DDFLink>
 
-<TS>http://www.openmobilealliance.org/release/LWM2M_SWMGMT/V1_0-20151201-C/OMA-TS-LWM2M_SwMgmt-V1_0-20151201-C.pdf</TS>
+<TS>http://www.openmobilealliance.org/release/LWM2M_SWMGMT/V1_0-20170314-C/OMA-TS-LWM2M_SwMgmt-V1_0-20151201-C.pdf</TS>
 
 <TSLink>1</TSLink>
 
@@ -349,9 +349,9 @@
 
 <Vorto></Vorto>
 
-<DDFLink>0</DDFLink>
+<DDFLink>1</DDFLink>
 
-<TS>http://www.openmobilealliance.org/release/LWM2M_CONNMGMT/V1_0-20170208-C/OMA-TS-LWM2M_ConnMgmt-V1_0-20170208-C.pdf</TS>
+<TS>http://www.openmobilealliance.org/release/LWM2M_CONNMGMT/V1_0-20170314-A/OMA-TS-LWM2M_ConnMgmt-V1_0-20170314-A.pdf</TS>
 
 <TSLink>1</TSLink>
 
@@ -380,9 +380,9 @@
 
 <Vorto></Vorto>
 
-<DDFLink>0</DDFLink>
+<DDFLink>1</DDFLink>
 
-<TS>http://www.openmobilealliance.org/release/LWM2M_CONNMGMT/V1_0-20170208-C/OMA-TS-LWM2M_ConnMgmt-V1_0-20170208-C.pdf</TS>
+<TS>http://www.openmobilealliance.org/release/LWM2M_CONNMGMT/V1_0-20170314-A/OMA-TS-LWM2M_ConnMgmt-V1_0-20170314-A.pdf</TS>
 
 <TSLink>1</TSLink>
 
@@ -413,7 +413,7 @@
 
 <DDFLink>1</DDFLink>
 
-<TS>http://www.openmobilealliance.org/release/LWM2M_CONNMGMT/V1_0-20170208-C/OMA-TS-LWM2M_ConnMgmt-V1_0-20170208-C.pdf</TS>
+<TS>http://www.openmobilealliance.org/release/LWM2M_CONNMGMT/V1_0-20170314-A/OMA-TS-LWM2M_ConnMgmt-V1_0-20170314-A.pdf</TS>
 
 <TSLink>1</TSLink>
 
@@ -442,9 +442,9 @@
 
 <Vorto></Vorto>
 
-<DDFLink>0</DDFLink>
+<DDFLink>1</DDFLink>
 
-<TS>http://www.openmobilealliance.org/release/LWM2M_CONNMGMT/V1_0-20170208-C/OMA-TS-LWM2M_ConnMgmt-V1_0-20170208-C.pdf</TS>
+<TS>http://www.openmobilealliance.org/release/LWM2M_CONNMGMT/V1_0-20170314-A/OMA-TS-LWM2M_ConnMgmt-V1_0-20170314-A.pdf</TS>
 
 <TSLink>1</TSLink>
 
@@ -467,17 +467,17 @@
 
 <Ver>1.0</Ver>
 
-<DDF>x</DDF>
+<DDF>http://www.openmobilealliance.org/tech/profiles/LWM2M_Software_Component-v1_0.xml</DDF>
 
-<LWM2M></LWM2M>
+<LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3a%2f%2fwww.openmobilealliance.org%2ftech%2fprofiles%2fLWM2M_Software_Component-v1_0.xml</LWM2M>
 
 <Vorto></Vorto>
 
-<DDFLink>0</DDFLink>
+<DDFLink>1</DDFLink>
 
-<TS>http://www.openmobilealliance.org/release/LWM2M_SWMGMT/V1_0-20151201-C/OMA-TS-LWM2M_SwMgmt-V1_0-20151201-C.pdf</TS>
+<TS>http://www.openmobilealliance.org/release/LWM2M_SWMGMT/V1_0-20170314-C/OMA-TS-LWM2M_SwMgmt-V1_0-20151201-C.pdf</TS>
 
-<TSLink>0</TSLink>
+<TSLink>1</TSLink>
 
 </Item>
 
@@ -498,15 +498,15 @@
 
 <Ver>1.0</Ver>
 
-<DDF>x</DDF>
+<DDF>http://www.openmobilealliance.org/tech/profiles/LWM2M_DevCapMgmt-v1_0.xml</DDF>
 
-<LWM2M></LWM2M>
+<LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2FLWM2M_DevCapMgmt-v1_0.xml</LWM2M>
 
 <Vorto></Vorto>
 
-<DDFLink>0</DDFLink>
+<DDFLink>1</DDFLink>
 
-<TS>http://www.openmobilealliance.org/release/LWM2M_DevCapMgmt/V1_0_1-20151123-A/OMA-TS-LWM2M_DevCapMgmt-V1_0_1-20151123-A.pdf</TS>
+<TS>http://www.openmobilealliance.org/release/LWM2M_DevCapMgmt/V1_0_2-20170308-A/OMA-TS-LWM2M_DevCapMgmt-V1_0_2-20170308-A.pdf</TS>
 
 <TSLink>1</TSLink>
 
