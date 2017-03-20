@@ -52,7 +52,7 @@
 
 <ObjectID>1</ObjectID>
 
-<URN>urn:oma:lwm2m:oma:1</URN>
+<URN>urn:oma:lwm2m:oma:1[v1.0]</URN>
 
 <Name>LWM2M Server</Name>
 
@@ -83,7 +83,7 @@
 
 <ObjectID>2</ObjectID>
 
-<URN>urn:oma:lwm2m:oma:2</URN>
+<URN>urn:oma:lwm2m:oma:2[v1.0]</URN>
 
 <Name>Access Control</Name>
 
@@ -114,7 +114,7 @@
 
 <ObjectID>3</ObjectID>
 
-<URN>urn:oma:lwm2m:oma:3</URN>
+<URN>urn:oma:lwm2m:oma:3[v1.0]</URN>
 
 <Name>Device</Name>
 
@@ -145,7 +145,7 @@
 
 <ObjectID>4</ObjectID>
 
-<URN>urn:oma:lwm2m:oma:4</URN>
+<URN>urn:oma:lwm2m:oma:4[v1.0]</URN>
 
 <Name>Connectivity Monitoring</Name>
 
@@ -176,7 +176,7 @@
 
 <ObjectID>5</ObjectID>
 
-<URN>urn:oma:lwm2m:oma:5</URN>
+<URN>urn:oma:lwm2m:oma:5[v1.0]</URN>
 
 <Name>Firmware</Name>
 
@@ -207,7 +207,7 @@
 
 <ObjectID>6</ObjectID>
 
-<URN>urn:oma:lwm2m:oma:6</URN>
+<URN>urn:oma:lwm2m:oma:6[v1.0]</URN>
 
 <Name>Location</Name>
 
@@ -238,7 +238,7 @@
 
 <ObjectID>7</ObjectID>
 
-<URN>urn:oma:lwm2m:oma:7</URN>
+<URN>urn:oma:lwm2m:oma:7[v1.0]</URN>
 
 <Name>Connectivity Statistics</Name>
 
@@ -269,7 +269,7 @@
 
 <ObjectID>8</ObjectID>
 
-<URN>urn:oma:lwm2m:oma:8</URN>
+<URN>urn:oma:lwm2m:oma:8[v1.0]</URN>
 
 <Name>Lock and Wipe</Name>
 
@@ -393,7 +393,7 @@
 
 <ObjectID>12</ObjectID>
 
-<URN>urn:oma:lwm2m:oma:12</URN>
+<URN>urn:oma:lwm2m:oma:12[v1.0]</URN>
 
 <Name>WLAN connectivity</Name>
 
@@ -517,7 +517,7 @@
 
 <ObjectID>16</ObjectID>
 
-<URN>urn:oma:lwm2m:oma:16</URN>
+<URN>urn:oma:lwm2m:oma:16[v1.0]</URN>
 
 <Name>Porfolio</Name>
 
