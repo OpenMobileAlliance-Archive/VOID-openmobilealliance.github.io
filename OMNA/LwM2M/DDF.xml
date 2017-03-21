@@ -10,7 +10,7 @@
 <ObjectID>0</ObjectID>
 
 <!-- URN of the object -->
-<URN>urn:oma:lwm2m:oma:0:v1.0</URN>
+<URN>urn:oma:lwm2m:oma:0:1.0</URN>
 
 <!-- Name of the object -->
 <Name>LWM2M Security</Name>
@@ -486,7 +486,7 @@
 
 <ObjectID>15</ObjectID>
 
-<URN>urn:oma:lwm2m:oma:15:v1.0</URN>
+<URN>urn:oma:lwm2m:oma:15:1.0</URN>
 
 <Name>DevCapMgmt</Name>
 
