@@ -1,4 +1,4 @@
-﻿﻿<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 
 <DDFList>
 
@@ -10,9 +10,7 @@
 <ObjectID>0</ObjectID>
 
 <!-- URN of the object -->
-
 <URN>urn:oma:lwm2m:oma:0(v1.0)</URN>
-
 
 <!-- Name of the object -->
 <Name>LWM2M Security</Name>
