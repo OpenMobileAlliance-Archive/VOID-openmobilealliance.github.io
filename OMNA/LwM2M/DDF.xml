@@ -312,9 +312,9 @@
 
 <Ver>1.0</Ver>
 
-<DDF>x</DDF>
+<DDF>http://www.openmobilealliance.org/tech/profiles/LWM2M_Software_Management-v1_0.xml</DDF>
 
-<LWM2M></LWM2M>
+<LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3a%2f%2fwww.openmobilealliance.org%2ftech%2fprofiles%2fLWM2M_Software_Management-v1_0.xml</LWM2M>
 
 <Vorto></Vorto>
 
@@ -467,9 +467,9 @@
 
 <Ver>1.0</Ver>
 
-<DDF>x</DDF>
+<DDF>http://www.openmobilealliance.org/tech/profiles/LWM2M_Software_Component-v1_0.xml</DDF>
 
-<LWM2M></LWM2M>
+<LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3a%2f%2fwww.openmobilealliance.org%2ftech%2fprofiles%2fLWM2M_Software_Component-v1_0.xml</LWM2M>
 
 <Vorto></Vorto>
 
@@ -498,9 +498,9 @@
 
 <Ver>1.0</Ver>
 
-<DDF>x</DDF>
+<DDF>http://www.openmobilealliance.org/tech/profiles/LWM2M_DevCapMgmt-v1_0.xml</DDF>
 
-<LWM2M></LWM2M>
+<LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3a%2f%2fwww.openmobilealliance.org%2ftech%2fprofiles%2fLWM2M_DevCapMgmt-v1_0.xml</LWM2M>
 
 <Vorto></Vorto>
 
