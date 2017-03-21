@@ -52,7 +52,7 @@
 
 <ObjectID>1</ObjectID>
 
-<URN>urn:oma:lwm2m:oma:1(:v1.0)</URN>
+<URN>urn:oma:lwm2m:oma:1(:1.0)</URN>
 
 <Name>LWM2M Server</Name>
 
@@ -83,7 +83,7 @@
 
 <ObjectID>2</ObjectID>
 
-<URN>urn:oma:lwm2m:oma:2[v1.0]</URN>
+<URN>urn:oma:lwm2m:oma:2[:1.0]</URN>
 
 <Name>Access Control</Name>
 
@@ -114,7 +114,7 @@
 
 <ObjectID>3</ObjectID>
 
-<URN>urn:oma:lwm2m:oma:3[:v1.0]</URN>
+<URN>urn:oma:lwm2m:oma:3:v1.0</URN>
 
 <Name>Device</Name>
 
@@ -477,7 +477,7 @@
 
 <TS>http://www.openmobilealliance.org/release/LWM2M_SWMGMT/V1_0-20151201-C/OMA-TS-LWM2M_SwMgmt-V1_0-20151201-C.pdf</TS>
 
-<TSLink>0</TSLink>
+<TSLink>1</TSLink>
 
 </Item>
 
