@@ -10,7 +10,9 @@
 <ObjectID>0</ObjectID>
 
 <!-- URN of the object -->
-<URN>urn:oma:lwm2m:oma:0[v1.0]</URN>
+
+<URN>urn:oma:lwm2m:oma:0(v1.0)</URN>
+
 
 <!-- Name of the object -->
 <Name>LWM2M Security</Name>
@@ -52,7 +54,7 @@
 
 <ObjectID>1</ObjectID>
 
-<URN>urn:oma:lwm2m:oma:1[v1.0]</URN>
+<URN>urn:oma:lwm2m:oma:1(v1.0)</URN>
 
 <Name>LWM2M Server</Name>
 
@@ -72,7 +74,7 @@
 
 <DDFLink>1</DDFLink>
 
-<TS>http://openmobilealliance.org/release/LightweightM2M/V1_0-20170208-A/OMA-TS-LightweightM2M-V1_0-20170208-A.pdf</TS>
+<TS>http://openmobilealliance.org/release/LightweightM2M/V1_0-20170208-A/OMA-TS-LightweightM2M-v1_0-20170208-A.pdf</TS>
 
 <TSLink>1</TSLink>
 
@@ -314,9 +316,7 @@
 
 <DDF>x</DDF>
 
-
-<LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3a%2f%2fwww.openmobilealliance.org%2ftech%2fprofiles%2fLWM2M_Software_Management-v1_0.xml</LWM2M>
-
+<LWM2M></LWM2M>
 
 <Vorto></Vorto>
 
@@ -345,7 +345,7 @@
 
 <Ver>1.0</Ver>
 
-<DDF>http://www.openmobilealliance.org/tech/profiles/LWM2M_Cellular_connectivity-v1_0.xml</DDF>
+<DDF>http://www.openmobilealliance.org/tech/profiles/LWM2M_Cellular_connectivity-V1_0.xml</DDF>
 
 <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3a%2f%2fwww.openmobilealliance.org%2ftech%2fprofiles%2fLWM2M_Cellular_connectivity-v1_0.xml</LWM2M>
 
@@ -376,7 +376,7 @@
 
 <Ver>1.0</Ver>
 
-<DDF>http://www.openmobilealliance.org/tech/profiles/LWM2M_APN_connection_profile-v1_0.xml</DDF>
+<DDF>http://www.openmobilealliance.org/tech/profiles/LWM2M_APN_connection_profile-V1_0.xml</DDF>
 
 <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3a%2f%2fwww.openmobilealliance.org%2ftech%2fprofiles%2flLWM2M_APN_connection_profile-v1_0.xml</LWM2M>
 
@@ -438,9 +438,9 @@
 
 <Ver>1.0</Ver>
 
-<DDF>http://www.openmobilealliance.org/tech/profiles/LWM2M_Bearer_selection-v1_0.xml</DDF>
+<DDF>http://www.openmobilealliance.org/tech/profiles/LWM2M_Bearer_selection-V1_0.xml</DDF>
 
-<LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3a%2f%2fwww.openmobilealliance.org%2ftech%2fprofiles%2fLWM2M_Bearer_selection-V1_0.xml</LWM2M>
+<LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3a%2f%2fwww.openmobilealliance.org%2ftech%2fprofiles%2fLWM2M_Bearer_selection-v1_0.xml</LWM2M>
 
 <Vorto></Vorto>
 
@@ -563,7 +563,7 @@
 
 <DDF>http://www.openmobilealliance.org/tech/profiles/Communication_Characteristics-V1_0.xml</DDF>
 
-<LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3a%2f%2fwww.openmobilealliance.org%2ftech%2fprofiles%2fCommunication_Characteristics-V1_0.xml</LWM2M>
+<LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3a%2f%2fwww.openmobilealliance.org%2ftech%2fprofiles%2fCommunication_Characteristics-v1_0.xml</LWM2M>
 
 <Vorto></Vorto>
 
@@ -593,7 +593,7 @@
 
 <DDF>http://www.openmobilealliance.org/tech/profiles/Non-Access_Stratum_NAS_configuration-V1_0.xml</DDF>
 
-<LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3a%2f%2fwww.openmobilealliance.org%2ftech%2fprofiles%2fNon-Access_Stratum_NAS_configuration-V1_0.xml</LWM2M>
+<LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3a%2f%2fwww.openmobilealliance.org%2ftech%2fprofiles%2fNon-Access_Stratum_NAS_configuration-v1_0.xml</LWM2M>
 
 <Vorto></Vorto>
 
