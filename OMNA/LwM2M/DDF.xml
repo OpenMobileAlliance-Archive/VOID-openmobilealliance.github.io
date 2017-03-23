@@ -561,11 +561,11 @@
 
 <DDF>http://www.openmobilealliance.org/tech/profiles/Communication_Characteristics-V1_0.xml</DDF>
 
-<LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3a%2f%2fwww.openmobilealliance.org%2ftech%2fprofiles%2fCommunication_Characteristics-V1_0.xml</LWM2M>
+<LWM2M></LWM2M>
 
 <Vorto></Vorto>
 
-<DDFLink>1</DDFLink>
+<DDFLink>0</DDFLink>
 
 <TS>x</TS>
 
@@ -591,11 +591,11 @@
 
 <DDF>http://www.openmobilealliance.org/tech/profiles/Non-Access_Stratum_NAS_configuration-V1_0.xml</DDF>
 
-<LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3a%2f%2fwww.openmobilealliance.org%2ftech%2fprofiles%2fNon-Access_Stratum_NAS_configuration-V1_0.xml</LWM2M>
+<LWM2M></LWM2M>
 
 <Vorto></Vorto>
 
-<DDFLink>1</DDFLink>
+<DDFLink>0</DDFLink>
 
 <TS>x</TS>
 
