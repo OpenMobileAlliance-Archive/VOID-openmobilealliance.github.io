@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 
 <DDFList>
 
@@ -10,7 +10,7 @@
 <ObjectID>0</ObjectID>
 
 <!-- URN of the object -->
-<URN>urn:oma:lwm2m:oma:0</URN>
+<URN>urn:oma:lwm2m:oma:0:1.0</URN>
 
 <!-- Name of the object -->
 <Name>LWM2M Security</Name>
@@ -52,7 +52,7 @@
 
 <ObjectID>1</ObjectID>
 
-<URN>urn:oma:lwm2m:oma:1</URN>
+<URN>urn:oma:lwm2m:oma:1:1.0</URN>
 
 <Name>LWM2M Server</Name>
 
@@ -83,7 +83,7 @@
 
 <ObjectID>2</ObjectID>
 
-<URN>urn:oma:lwm2m:oma:2</URN>
+<URN>urn:oma:lwm2m:oma:2:1.0</URN>
 
 <Name>Access Control</Name>
 
@@ -114,7 +114,7 @@
 
 <ObjectID>3</ObjectID>
 
-<URN>urn:oma:lwm2m:oma:3</URN>
+<URN>urn:oma:lwm2m:oma:3:1.0</URN>
 
 <Name>Device</Name>
 
@@ -145,7 +145,7 @@
 
 <ObjectID>4</ObjectID>
 
-<URN>urn:oma:lwm2m:oma:4</URN>
+<URN>urn:oma:lwm2m:oma:4:1.0</URN>
 
 <Name>Connectivity Monitoring</Name>
 
@@ -176,7 +176,7 @@
 
 <ObjectID>5</ObjectID>
 
-<URN>urn:oma:lwm2m:oma:5</URN>
+<URN>urn:oma:lwm2m:oma:5:1.0</URN>
 
 <Name>Firmware</Name>
 
@@ -207,7 +207,7 @@
 
 <ObjectID>6</ObjectID>
 
-<URN>urn:oma:lwm2m:oma:6</URN>
+<URN>urn:oma:lwm2m:oma:6:1.0</URN>
 
 <Name>Location</Name>
 
@@ -238,7 +238,7 @@
 
 <ObjectID>7</ObjectID>
 
-<URN>urn:oma:lwm2m:oma:7</URN>
+<URN>urn:oma:lwm2m:oma:7:1.0</URN>
 
 <Name>Connectivity Statistics</Name>
 
@@ -269,7 +269,7 @@
 
 <ObjectID>8</ObjectID>
 
-<URN>urn:oma:lwm2m:oma:8</URN>
+<URN>urn:oma:lwm2m:oma:8:1.0</URN>
 
 <Name>Lock and Wipe</Name>
 
@@ -283,7 +283,7 @@
 
 <DDF>http://www.openmobilealliance.org/tech/profiles/LWM2M_Lock_and_Wipe-V1_0.xml</DDF>
 
-<LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3a%2f%2fwww.openmobilealliance.org%2ftech%2fprofiles%2flwm2m%2fLWM2M_Lock_and_Wipe-V1_0.xml</LWM2M>
+<LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3a%2f%2fwww.openmobilealliance.org%2ftech%2fprofiles%2fLWM2M_Lock_and_Wipe-V1_0.xml</LWM2M>
 
 <Vorto></Vorto>
 
@@ -300,9 +300,9 @@
 
 <ObjectID>9</ObjectID>
 
-<URN>urn:oma:lwm2m:oma:9</URN>
+<URN>urn:oma:lwm2m:oma:9:1.0</URN>
 
-<Name>Sofware Update</Name>
+<Name>Sofware Management</Name>
 
 <Description>This LWM2M objects provides the resources needed to perform software management on the device. Each software component is managed via a dedicated Software Management Object instance</Description>
 
@@ -312,15 +312,15 @@
 
 <Ver>1.0</Ver>
 
-<DDF>x</DDF>
+<DDF>http://www.openmobilealliance.org/tech/profiles/LWM2M_Software_Management-v1_0.xml</DDF>
 
-<LWM2M></LWM2M>
+<LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3a%2f%2fwww.openmobilealliance.org%2ftech%2fprofiles%2fLWM2M_Software_Management-v1_0.xml</LWM2M>
 
 <Vorto></Vorto>
 
-<DDFLink>0</DDFLink>
+<DDFLink>1</DDFLink>
 
-<TS>http://www.openmobilealliance.org/release/LWM2M_SWMGMT/V1_0-20151201-C/OMA-TS-LWM2M_SwMgmt-V1_0-20151201-C.pdf</TS>
+<TS>http://www.openmobilealliance.org/release/LWM2M_SWMGMT/V1_0-20170314-C/OMA-TS-LWM2M_SwMgmt-V1_0-20151201-C.pdf</TS>
 
 <TSLink>1</TSLink>
 
@@ -331,11 +331,11 @@
 
 <ObjectID>10</ObjectID>
 
-<URN>urn:oma:lwm2m:oma:10</URN>
+<URN>urn:oma:lwm2m:oma:10:1.0</URN>
 
 <Name>Cellular connectivity</Name>
 
-<Description>It specifies resources to enable a device to connect to a 3GPP or 3GPP2 bearer, including GPRS/EDGE, UMTS, LTE, SMS. For cellular connectivity, this object focuses on Packet Switched (PS) connectivity and doesn’t aim to provide comprehensive Circuit Switched (CS) connectivity management.</Description>
+<Description>It specifies resources to enable a device to connect to a 3GPP or 3GPP2 bearer, including GPRS/EDGE, UMTS, LTE, SMS. For cellular connectivity, this object focuses on Packet Switched (PS) connectivity and doesn't aim to provide comprehensive Circuit Switched (CS) connectivity management.</Description>
 
 <Owner>OMA</Owner>
 
@@ -343,15 +343,15 @@
 
 <Ver>1.0</Ver>
 
-<DDF>http://www.openmobilealliance.org/tech/profiles/LWM2M_Cellular_connectivity-V1_0.xml</DDF>
+<DDF>http://www.openmobilealliance.org/tech/profiles/LWM2M_Cellular_connectivity-v1_0.xml</DDF>
 
-<LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3a%2f%2fwww.openmobilealliance.org%2ftech%2fprofiles%2fLWM2M_Cellular_connectivity-V1_0.xml</LWM2M>
+<LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3a%2f%2fwww.openmobilealliance.org%2ftech%2fprofiles%2fLWM2M_Cellular_connectivity-v1_0.xml</LWM2M>
 
 <Vorto></Vorto>
 
-<DDFLink>0</DDFLink>
+<DDFLink>1</DDFLink>
 
-<TS>http://www.openmobilealliance.org/release/LWM2M_CONNMGMT/V1_0-20170208-C/OMA-TS-LWM2M_ConnMgmt-V1_0-20170208-C.pdf</TS>
+<TS>http://www.openmobilealliance.org/release/LWM2M_CONNMGMT/V1_0-20170314-A/OMA-TS-LWM2M_ConnMgmt-V1_0-20170314-A.pdf</TS>
 
 <TSLink>1</TSLink>
 
@@ -362,7 +362,7 @@
 
 <ObjectID>11</ObjectID>
 
-<URN>urn:oma:lwm2m:oma:11</URN>
+<URN>urn:oma:lwm2m:oma:11:1.0</URN>
 
 <Name>APN connection profile</Name>
 
@@ -374,15 +374,15 @@
 
 <Ver>1.0</Ver>
 
-<DDF>http://www.openmobilealliance.org/tech/profiles/LWM2M_APN_connection_profile-V1_0.xml</DDF>
+<DDF>http://www.openmobilealliance.org/tech/profiles/LWM2M_APN_connection_profile-v1_0.xml</DDF>
 
-<LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3a%2f%2fwww.openmobilealliance.org%2ftech%2fprofiles%2flLWM2M_APN_connection_profile-V1_0.xml</LWM2M>
+<LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3a%2f%2fwww.openmobilealliance.org%2ftech%2fprofiles%2flLWM2M_APN_connection_profile-v1_0.xml</LWM2M>
 
 <Vorto></Vorto>
 
-<DDFLink>0</DDFLink>
+<DDFLink>1</DDFLink>
 
-<TS>http://www.openmobilealliance.org/release/LWM2M_CONNMGMT/V1_0-20170208-C/OMA-TS-LWM2M_ConnMgmt-V1_0-20170208-C.pdf</TS>
+<TS>http://www.openmobilealliance.org/release/LWM2M_CONNMGMT/V1_0-20170314-A/OMA-TS-LWM2M_ConnMgmt-V1_0-20170314-A.pdf</TS>
 
 <TSLink>1</TSLink>
 
@@ -393,7 +393,7 @@
 
 <ObjectID>12</ObjectID>
 
-<URN>urn:oma:lwm2m:oma:12</URN>
+<URN>urn:oma:lwm2m:oma:12:1.0</URN>
 
 <Name>WLAN connectivity</Name>
 
@@ -413,7 +413,7 @@
 
 <DDFLink>1</DDFLink>
 
-<TS>http://www.openmobilealliance.org/release/LWM2M_CONNMGMT/V1_0-20170208-C/OMA-TS-LWM2M_ConnMgmt-V1_0-20170208-C.pdf</TS>
+<TS>http://www.openmobilealliance.org/release/LWM2M_CONNMGMT/V1_0-20170314-A/OMA-TS-LWM2M_ConnMgmt-V1_0-20170314-A.pdf</TS>
 
 <TSLink>1</TSLink>
 
@@ -424,7 +424,7 @@
 
 <ObjectID>13</ObjectID>
 
-<URN>urn:oma:lwm2m:oma:13</URN>
+<URN>urn:oma:lwm2m:oma:13:1.0</URN>
 
 <Name>Bearer selection</Name>
 
@@ -436,15 +436,15 @@
 
 <Ver>1.0</Ver>
 
-<DDF>http://www.openmobilealliance.org/tech/profiles/LWM2M_Bearer_selection-V1_0.xml</DDF>
+<DDF>http://www.openmobilealliance.org/tech/profiles/LWM2M_Bearer_selection-v1_0.xml</DDF>
 
-<LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3a%2f%2fwww.openmobilealliance.org%2ftech%2fprofiles%2fLWM2M_Bearer_selection-V1_0.xml</LWM2M>
+<LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3a%2f%2fwww.openmobilealliance.org%2ftech%2fprofiles%2fLWM2M_Bearer_selection-v1_0.xml</LWM2M>
 
 <Vorto></Vorto>
 
-<DDFLink>0</DDFLink>
+<DDFLink>1</DDFLink>
 
-<TS>http://www.openmobilealliance.org/release/LWM2M_CONNMGMT/V1_0-20170208-C/OMA-TS-LWM2M_ConnMgmt-V1_0-20170208-C.pdf</TS>
+<TS>http://www.openmobilealliance.org/release/LWM2M_CONNMGMT/V1_0-20170314-A/OMA-TS-LWM2M_ConnMgmt-V1_0-20170314-A.pdf</TS>
 
 <TSLink>1</TSLink>
 
@@ -455,7 +455,7 @@
 
 <ObjectID>14</ObjectID>
 
-<URN>urn:oma:lwm2m:oma:14</URN>
+<URN>urn:oma:lwm2m:oma:14:1.0</URN>
 
 <Name>Software Component</Name>
 
@@ -467,17 +467,17 @@
 
 <Ver>1.0</Ver>
 
-<DDF>x</DDF>
+<DDF>http://www.openmobilealliance.org/tech/profiles/LWM2M_Software_Component-v1_0.xml</DDF>
 
-<LWM2M></LWM2M>
+<LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3a%2f%2fwww.openmobilealliance.org%2ftech%2fprofiles%2fLWM2M_Software_Component-v1_0.xml</LWM2M>
 
 <Vorto></Vorto>
 
-<DDFLink>0</DDFLink>
+<DDFLink>1</DDFLink>
 
-<TS>http://www.openmobilealliance.org/release/LWM2M_SWMGMT/V1_0-20151201-C/OMA-TS-LWM2M_SwMgmt-V1_0-20151201-C.pdf</TS>
+<TS>http://www.openmobilealliance.org/release/LWM2M_SWMGMT/V1_0-20170314-C/OMA-TS-LWM2M_SwMgmt-V1_0-20151201-C.pdf</TS>
 
-<TSLink>0</TSLink>
+<TSLink>1</TSLink>
 
 </Item>
 
@@ -486,7 +486,7 @@
 
 <ObjectID>15</ObjectID>
 
-<URN>urn:oma:lwm2m:oma:15</URN>
+<URN>urn:oma:lwm2m:oma:15:1.0</URN>
 
 <Name>DevCapMgmt</Name>
 
@@ -498,15 +498,15 @@
 
 <Ver>1.0</Ver>
 
-<DDF>x</DDF>
+<DDF>http://www.openmobilealliance.org/tech/profiles/LWM2M_DevCapMgmt-v1_0.xml</DDF>
 
-<LWM2M></LWM2M>
+<LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3a%2f%2fwww.openmobilealliance.org%2ftech%2fprofiles%2fLWM2M_DevCapMgmt-v1_0.xml</LWM2M>
 
 <Vorto></Vorto>
 
-<DDFLink>0</DDFLink>
+<DDFLink>1</DDFLink>
 
-<TS>http://www.openmobilealliance.org/release/LWM2M_DevCapMgmt/V1_0_1-20151123-A/OMA-TS-LWM2M_DevCapMgmt-V1_0_1-20151123-A.pdf</TS>
+<TS>http://www.openmobilealliance.org/release/LWM2M_DevCapMgmt/V1_0_2-20170308-A/OMA-TS-LWM2M_DevCapMgmt-V1_0_2-20170308-A.pdf</TS>
 
 <TSLink>1</TSLink>
 
@@ -517,7 +517,7 @@
 
 <ObjectID>16</ObjectID>
 
-<URN>urn:oma:lwm2m:oma:16</URN>
+<URN>urn:oma:lwm2m:oma:16:1.0</URN>
 
 <Name>Porfolio</Name>
 
@@ -547,7 +547,7 @@
 
 <ObjectID>17</ObjectID>
 
-<URN>urn:oma:lwm2m:oma:17</URN>
+<URN>urn:oma:lwm2m:oma:17:1.0</URN>
 
 <Name>Communications Characteristics</Name>
 
@@ -561,7 +561,7 @@
 
 <DDF>http://www.openmobilealliance.org/tech/profiles/Communication_Characteristics-V1_0.xml</DDF>
 
-<LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3a%2f%2fwww.openmobilealliance.org%2ftech%2fprofiles%2fCommunication_Characteristics-V1_0.xml</LWM2M>
+<LWM2M></LWM2M>
 
 <Vorto></Vorto>
 
@@ -577,7 +577,7 @@
 
 <ObjectID>18</ObjectID>
 
-<URN>urn:oma:lwm2m:oma:18</URN>
+<URN>urn:oma:lwm2m:oma:18:1.0</URN>
 
 <Name>Non-Access Stratum (NAS) Configuration</Name>
 
@@ -591,7 +591,7 @@
 
 <DDF>http://www.openmobilealliance.org/tech/profiles/Non-Access_Stratum_NAS_configuration-V1_0.xml</DDF>
 
-<LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3a%2f%2fwww.openmobilealliance.org%2ftech%2fprofiles%2fNon-Access_Stratum_NAS_configuration-V1_0.xml</LWM2M>
+<LWM2M></LWM2M>
 
 <Vorto></Vorto>
 
