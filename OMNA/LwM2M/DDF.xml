@@ -551,7 +551,7 @@
 
 <Name>Communications Characteristics</Name>
 
-<Description>x</Description>
+<Description>This object enables configuration of various generic communications parameters.</Description>
 
 <Owner>OMA</Owner>
 
@@ -581,7 +581,7 @@
 
 <Name>Non-Access Stratum (NAS) Configuration</Name>
 
-<Description>x</Description>
+<Description>This object provides Non-Access Stratum (NAS) configuration and is derived from 3GPP TS 24.368.</Description>
 
 <Owner>OMA</Owner>
 
