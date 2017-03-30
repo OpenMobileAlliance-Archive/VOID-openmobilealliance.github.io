@@ -607,7 +607,7 @@
 
 <ObjectID>2048</ObjectID>
 
-<URN>urn:oma:lwm2m:ext:2048</URN>
+<URN>urn:oma:lwm2m:ext:2048:1.0</URN>
 
 <Name>CmdhPolicy</Name>
 
@@ -638,7 +638,7 @@
 
 <ObjectID>2049</ObjectID>
 
-<URN>urn:oma:lwm2m:ext:2049</URN>
+<URN>urn:oma:lwm2m:ext:2049:1.0</URN>
 
 <Name>ActiveCmdhPolicy</Name>
 
@@ -669,7 +669,7 @@
 
 <ObjectID>2050</ObjectID>
 
-<URN>urn:oma:lwm2m:ext:2050</URN>
+<URN>urn:oma:lwm2m:ext:2050:1.0</URN>
 
 <Name>CmdhDefaults</Name>
 
@@ -678,6 +678,8 @@
 <Owner>OneM2M</Owner>
 
 <Source>1</Source>
+  
+<Ver>1.0</Ver>
 
 <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/CmdhDefaults.xml</DDF>
 
@@ -700,7 +702,7 @@
 
 <ObjectID>2051</ObjectID>
 
-<URN>urn:oma:lwm2m:ext:2051</URN>
+<URN>urn:oma:lwm2m:ext:2051:1.0</URN>
 
 <Name>CmdhDefEcValues</Name>
 
@@ -731,7 +733,7 @@
 
 <ObjectID>2052</ObjectID>
 
-<URN>urn:oma:lwm2m:ext:2052</URN>
+<URN>urn:oma:lwm2m:ext:2052:1.0</URN>
 
 <Name>CmdhEcDefParamValues</Name>
 
@@ -762,7 +764,7 @@
 
 <ObjectID>2053</ObjectID>
 
-<URN>urn:oma:lwm2m:ext:2053</URN>
+<URN>urn:oma:lwm2m:ext:2053:1.0</URN>
 
 <Name>CmdhLimits</Name>
 
@@ -793,7 +795,7 @@
 
 <ObjectID>2054</ObjectID>
 
-<URN>urn:oma:lwm2m:ext:2054</URN>
+<URN>urn:oma:lwm2m:ext:2054:1.0</URN>
 
 <Name>CmdhNetworkAccessRules</Name>
 
@@ -824,7 +826,7 @@
 
 <ObjectID>2055</ObjectID>
 
-<URN>urn:oma:lwm2m:ext:2055</URN>
+<URN>urn:oma:lwm2m:ext:2055:1.0</URN>
 
 <Name>CmdhNwAccessRule</Name>
 
@@ -833,6 +835,8 @@
 <Owner>OneM2M</Owner>
 
 <Source>1</Source>
+  
+<Ver>1.0</Ver>
 
 <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/CmdhNwAccessRule.xml</DDF>
 
@@ -855,7 +859,7 @@
 
 <ObjectID>2056</ObjectID>
 
-<URN>urn:oma:lwm2m:ext:2056</URN>
+<URN>urn:oma:lwm2m:ext:2056:1.0</URN>
 
 <Name>CmdhBuffer</Name>
 
@@ -885,7 +889,7 @@
 
 <ObjectID>2057</ObjectID>
 
-<URN>urn:oma:lwm2m:ext:2057</URN>
+<URN>urn:oma:lwm2m:ext:2057:1.0</URN>
 
 <Name>CmdhBackOffParametersSet</Name>
 
