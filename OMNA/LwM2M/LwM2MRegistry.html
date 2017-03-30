@@ -214,7 +214,7 @@
         <div>
             <h2>LwM2M Objects</h2>
             <h3 id="omalabel"><strong>oma-label</strong> Objects Produced by OMA</h3>
-            <p><code>URN: urn:oma:lwm2m:oma:ObjectID | range (0 - 1,023)</code></p>
+            <p><code>URN: urn:oma:lwm2m:oma:ObjectID:version | range (0 - 1,023)</code></p>
             <table id="omaobjects_tbl" class="descriptive-table">
                 <thead>
                     <tr>
@@ -236,7 +236,7 @@
 
         <div>
             <h3 id="extlabel"> <strong>ext-label</strong> Objects Produced by 3rd party Standards Development Organizations</h3>
-            <p><code>URN: urn:oma:lwm2m:ext:ObjectID | range (2,048 - 10,240)</code></p>
+            <p><code>URN: urn:oma:lwm2m:ext:ObjectID:version | range (2,048 - 10,240)</code></p>
             <table id="thirdpartyobjects_tbl" class="descriptive-table">
                 <thead>
                     <tr>
@@ -258,7 +258,7 @@
         </div>
         <div>
             <h3 id="xlabel"><strong>x-label</strong> Objects Produced by vendors or individuals</h3>
-            <p><code>URN: urn:oma:lwm2m:x:ObjectID | ranges (10,241 - 26,240) & (26,241 - 32,768)</code></p>
+            <p><code>URN: urn:oma:lwm2m:x:ObjectID:version | ranges (10,241 - 26,240) & (26,241 - 32,768)</code></p>
             <p>10241 - 26240 Range accepts registration</p>
             <p>26241 - 32768 Range is privately reused and there is no need for registration</p>
             <table id="publicobjects_tbl" class="descriptive-table">
@@ -306,7 +306,6 @@
                 </caption>
             </table>
         </div>
-
     </div>
     <!-- This gets populated with the footer.html using Javascript -->
     <div id="footer"></div>
