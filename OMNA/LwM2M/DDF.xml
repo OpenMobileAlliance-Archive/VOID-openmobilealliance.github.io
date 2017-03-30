@@ -619,13 +619,13 @@
 
 <Ver>1.0</Ver>
 
-<DDF>X</DDF>
+<DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/CmdhPolicy.xml</DDF>
 
-<LWM2M></LWM2M>
+<LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3a%2f%2fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2FCmdhPolicy.xml</LWM2M>
 
 <Vorto></Vorto>
 
-<DDFLink>0</DDFLink>
+<DDFLink>1</DDFLink>
 
 <TS>http://www.onem2m.org/images/files/deliverables/TS-0005-Management_Enablement_(OMA)-V1_0_1.pdf</TS>
 
@@ -650,13 +650,13 @@
 
 <Ver>1.0</Ver>
 
-<DDF>X</DDF>
+<DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/ActiveCmdhPolicy.xml</DDF>
 
-<LWM2M></LWM2M>
+<LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3a%2f%2fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2FActiveCmdhPolicy.xml</LWM2M>
 
 <Vorto></Vorto>
 
-<DDFLink>0</DDFLink>
+<DDFLink>1</DDFLink>
 
 <TS>http://www.onem2m.org/images/files/deliverables/TS-0005-Management_Enablement_(OMA)-V1_0_1.pdf</TS>
 
@@ -679,15 +679,15 @@
 
 <Source>1</Source>
 
-<Ver>1.0</Ver>
+<DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/CmdhDefaults.xml</DDF>
 
-<DDF>X</DDF>
+<LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3a%2f%2fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2FCmdhDefaults.xml</LWM2M>
 
 <LWM2M></LWM2M>
 
 <Vorto></Vorto>
 
-<DDFLink>0</DDFLink>
+<DDFLink>1</DDFLink>
 
 <TS>http://www.onem2m.org/images/files/deliverables/TS-0005-Management_Enablement_(OMA)-V1_0_1.pdf</TS>
 
@@ -712,13 +712,13 @@
 
 <Ver>1.0</Ver>
 
-<DDF>X</DDF>
+<DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/CmdhDefEcValues.xml</DDF>
 
-<LWM2M></LWM2M>
+<LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3a%2f%2fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2FCmdhDefEcValues.xml</LWM2M>
 
 <Vorto></Vorto>
 
-<DDFLink>0</DDFLink>
+<DDFLink>1</DDFLink>
 
 <TS>http://www.onem2m.org/images/files/deliverables/TS-0005-Management_Enablement_(OMA)-V1_0_1.pdf</TS>
 
@@ -733,7 +733,7 @@
 
 <URN>urn:oma:lwm2m:ext:2052</URN>
 
-<Name>cmdhDefEcParamsValues</Name>
+<Name>CmdhEcDefParamValues</Name>
 
 <Description/>
 
@@ -743,13 +743,13 @@
 
 <Ver>1.0</Ver>
 
-<DDF>X</DDF>
+<DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/CmdhEcDefParamValues.xml</DDF>
 
-<LWM2M></LWM2M>
+<LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3a%2f%2fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2FCmdhEcDefParamValues.xml</LWM2M>
 
 <Vorto></Vorto>
 
-<DDFLink>0</DDFLink>
+<DDFLink>1</DDFLink>
 
 <TS>http://www.onem2m.org/images/files/deliverables/TS-0005-Management_Enablement_(OMA)-V1_0_1.pdf</TS>
 
@@ -774,13 +774,13 @@
 
 <Ver>1.0</Ver>
 
-<DDF>X</DDF>
+<DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/CmdhLimits.xml</DDF>
 
-<LWM2M></LWM2M>
+<LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3a%2f%2fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2FCmdhLimits.xml</LWM2M>
 
 <Vorto></Vorto>
 
-<DDFLink>0</DDFLink>
+<DDFLink>1</DDFLink>
 
 <TS>http://www.onem2m.org/images/files/deliverables/TS-0005-Management_Enablement_(OMA)-V1_0_1.pdf</TS>
 
@@ -805,13 +805,13 @@
 
 <Ver>1.0</Ver>
 
-<DDF>X</DDF>
+<DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/CmdhNetworkAccessRules.xml</DDF>
 
-<LWM2M></LWM2M>
+<LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3a%2f%2fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2FCmdhNetworkAccessRules.xml</LWM2M>
 
 <Vorto></Vorto>
 
-<DDFLink>0</DDFLink>
+<DDFLink>1</DDFLink>
 
 <TS>http://www.onem2m.org/images/files/deliverables/TS-0005-Management_Enablement_(OMA)-V1_0_1.pdf</TS>
 
@@ -834,15 +834,15 @@
 
 <Source>1</Source>
 
-<Ver>1.0</Ver>
+<DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/CmdhNwAccessRule.xml</DDF>
 
-<DDF>X</DDF>
+<LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3a%2f%2fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2FCmdhNwAccessRule.xml</LWM2M>
 
 <LWM2M></LWM2M>
 
 <Vorto></Vorto>
 
-<DDFLink>0</DDFLink>
+<DDFLink>1</DDFLink>
 
 <TS>http://www.onem2m.org/images/files/deliverables/TS-0005-Management_Enablement_(OMA)-V1_0_1.pdf</TS>
 
@@ -867,13 +867,13 @@
 
 <Ver>1.0</Ver>
 
-<DDF>X</DDF>
+<DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/CmdhBuffer.xml</DDF>
 
-<LWM2M></LWM2M>
+<LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3a%2f%2fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2FCmdhBuffer.xml</LWM2M>
 
 <Vorto></Vorto>
 
-<DDFLink>0</DDFLink>
+<DDFLink>1</DDFLink>
 
 <TS>http://www.onem2m.org/images/files/deliverables/TS-0005-Management_Enablement_(OMA)-V1_0_1.pdf</TS>
 
@@ -881,7 +881,36 @@
 
 </Item>
 
+<Item>
 
+<ObjectID>2057</ObjectID>
+
+<URN>urn:oma:lwm2m:ext:2057</URN>
+
+<Name>CmdhBackOffParametersSet</Name>
+
+<Description/>
+
+<Owner>OneM2M</Owner>
+
+<Source>1</Source>
+
+<Ver>1.0</Ver>
+
+<DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/CmdhBackOffParametersSet.xml</DDF>
+
+<LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3a%2f%2fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2FCmdhBackOffParametersSet.xml</LWM2M>
+
+<Vorto></Vorto>
+
+<DDFLink>1</DDFLink>
+
+<TS>http://www.onem2m.org/images/files/deliverables/TS-0005-Management_Enablement_(OMA)-V1_0_1.pdf</TS>
+
+<TSLink>1</TSLink>
+
+</Item>
+  
 -<Item>
 
 <ObjectID>3200</ObjectID>
