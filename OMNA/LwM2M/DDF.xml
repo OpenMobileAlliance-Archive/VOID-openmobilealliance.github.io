@@ -611,7 +611,7 @@
 
 <Name>CmdhPolicy</Name>
 
-<Description/>
+<Description>This Object provides links to a set of rules associated with a specific CSE that governs the behavior of that CSE regarding rejecting, buffering and sending request or response messages via the Mcc reference point.</Description>
 
 <Owner>OneM2M</Owner>
 
@@ -642,7 +642,7 @@
 
 <Name>ActiveCmdhPolicy</Name>
 
-<Description/>
+<Description>This Object provides a link to the currently active set of CMDH policies</Description>
 
 <Owner>OneM2M</Owner>
 
@@ -673,7 +673,7 @@
 
 <Name>CmdhDefaults</Name>
 
-<Description/>
+<Description>Defines which CMDH related parameters will be used by default.</Description>
 
 <Owner>OneM2M</Owner>
 
@@ -704,7 +704,7 @@
 
 <Name>CmdhDefEcValues</Name>
 
-<Description/>
+<Description>This Object represents default set of values for the Event Category parameter of an incoming request or response message.</Description>
 
 <Owner>OneM2M</Owner>
 
@@ -735,7 +735,7 @@
 
 <Name>CmdhEcDefParamValues</Name>
 
-<Description/>
+<Description>This Object represents a specific set of default values for the CMDH related parameters Request Expiration Timestamp, Result Expiration Timestamp, Operational Execution Time, Result Persistence and Delivery Aggregation that are applicable for a given Event Category if these parameters are not specified in the message.</Description>
 
 <Owner>OneM2M</Owner>
 
@@ -766,7 +766,7 @@
 
 <Name>CmdhLimits</Name>
 
-<Description/>
+<Description>This Object represents limits for CMDH related parameter values.</Description>
 
 <Owner>OneM2M</Owner>
 
@@ -797,7 +797,7 @@
 
 <Name>CmdhNetworkAccessRules</Name>
 
-<Description/>
+<Description>This Object defines the usage of underlying networks for forwarding information to other CSEs during processing of CMDH-related requests in a CSE.</Description>
 
 <Owner>OneM2M</Owner>
 
@@ -828,7 +828,7 @@
 
 <Name>CmdhNwAccessRule</Name>
 
-<Description/>
+<Description>This Object defines limits in usage of specific underlying networks for forwarding information to other CSEs during processing of CMDH-related requests in a CSE.</Description>
 
 <Owner>OneM2M</Owner>
 
@@ -859,7 +859,7 @@
 
 <Name>CmdhBuffer</Name>
 
-<Description/>
+<Description>This Object defines limits in usage of buffers for temporarily storing information that needs to be forwarded to other CSEs during processing of CMDH-related requests in a CSE.</Description>
 
 <Owner>OneM2M</Owner>
 
@@ -889,7 +889,7 @@
 
 <Name>CmdhBackOffParametersSet</Name>
 
-<Description/>
+<Description>This Object defines set of parameters which can be referenced by a specific Instance of the CmdhNwAccessRule Object (ID: 2055)</Description>
 
 <Owner>OneM2M</Owner>
 
