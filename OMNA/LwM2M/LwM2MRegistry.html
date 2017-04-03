@@ -1,356 +1,319 @@
 ﻿<!doctype html>
 <html>
-  <head>
+<head>
     <title>Open Mobile Alliance - LwM2M Registry</title>
     <meta charset="utf-8">
-      <script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
-      <!-- Font awesome for arrows -->
-      <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
-        <!-- Normalize CSS -->
-        <link rel="stylesheet" href="../../CSS/Normalize.css" />
-        <!-- Latest compiled and minified CSS -->
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
-          <!-- Optional theme -->
-          <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
-            <link rel="stylesheet" href="../../CSS/Site.css">
-              <link rel="stylesheet" href="../../CSS/tabledregistries.css">
-                <script src="../../Scripts/tabledregistries.js"></script>
-                <script src="../../Scripts/lwm2m_xmlregistries.js"></script>
-                <script>
-                  $(document).ready(function () {
-                  $('#header').load("../../header.html");
-                  $('#footer').load("../../footer.html");
-                  //$('#LwM2MObjects').load("LwM2MObjects.html", function () { SetUpExpandableTDs(); TablesWithRowspanStyleChanges(); });
-                  DisplayXML('./DDF.xml', './Common.xml');
-                  SetUpExpandableTDs();
-                  TablesWithRowspanStyleChanges();
-                  });
-                </script>
-              </head>
-  <body>
+    <script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
+    <!-- Font awesome for arrows -->
+    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+    <!-- Normalize CSS -->
+    <link rel="stylesheet" href="../../CSS/Normalize.css" />
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="../../CSS/Site.css">
+    <link rel="stylesheet" href="../../CSS/tabledregistries.css">
+    <script src="../../Scripts/tabledregistries.js"></script>
+    <script src="../../Scripts/lwm2m_xmlregistries.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('#header').load("../../header.html");
+            $('#footer').load("../../footer.html");
+            //$('#LwM2MObjects').load("LwM2MObjects.html", function () { SetUpExpandableTDs(); TablesWithRowspanStyleChanges(); });
+            DisplayXML('./DDF.xml', './Common.xml');
+            SetUpExpandableTDs();
+            TablesWithRowspanStyleChanges();
+        });
+    </script>
+</head>
+<body>
     <!-- This gets populated with the header.html using Javascript -->
     <div id="header"></div>
     <div class="container">
-      <div>
-        <h1>
-          OMA LightweightM2M (LwM2M) Object and Resource Registry
-        </h1>
-      </div>
-      <div>
-        <p>
-          OMNA can provide you with an unique Object or/and Resource Identifier: (Object ID) or (ResourceID).<a href="http://openmobilealliance.org/" target="_blank">
-            <img src="/wp/Images/OMA-129 Lightweight M2M Logo_RGB_full.jpg" style="float:right;width:250px;height:125px;">
-          </a>
-        </p>
-        <p>
-          To register a new <a title="to register a new Object click here ..." href="http://devtoolkit.openmobilealliance.org/OEditor/Default">(Ojbect ID)</a> or <a title="to register a new Resource click here ..." href="http://devtoolkit.openmobilealliance.org/OEditor/Default">(Resource ID).</a>
-        </p>
-        <p>OMA has developed an editor for creating LwM2M Objects & Resources.</p>
-        <p>
-          <ul>
-            <li>
-              The LwM2M Editor can be accessed here: <a target="_blank" href="http://devtoolkit.openmobilealliance.org/OEditor/">Editor.</a>
-            </li>
-            <li>
-              The XML schema used by the LwM2M Editor can be found here: <a target="_blank" href="http://www.openmobilealliance.org/tech/profiles/LWM2M.xsd">Schema.</a>
-            </li>
-          </ul>
-        </p>
-      </div>
-      <div>
-        <h2>
-          ObjectID Classes
-        </h2>
-        <table id="registry-table" class="table-bordered">
-          <thead>
-            <tr>
-              <th>Category</th>
-              <th>URN </th>
-              <th>Object ID range</th>
-              <th>Description</th>
-              <th colspan="2">Operations</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>
-                <p>oma-label</p>
-              </td>
-              <td>
-                <p>
-                  <code>urn:oma:lwm2m:oma:&lt;id&gt;:&lt;version&gt;</code>
-                </p>
-              </td>
-              <td>
-                0 - 1023
-              </td>
-              <td>
-                Objects Produced by OMA
-              </td>
-              <td>
-                <a title="click here to view OMA defined Objects" href="#omalabel">View</a>
-              </td>
-              <td>
-                <a title="these objects are only registered by OMA Working Groups" href="http://devtoolkit.openmobilealliance.org/OEditor/Default">Register</a>
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <p>reserved</p>
-              </td>
-              <td></td>
-              <td>
-                1024 - 2047
-              </td>
-              <td>
-                Reserved for future use
-              </td>
-              <td>
-                --
-              </td>
-              <td>
-                --
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <p>ext-label</p>
-              </td>
-              <td>
-                <p>
-                  <code>urn:oma:lwm2m:ext:&lt;id&gt;:&lt;version&gt;</code>
-                </p>
-              </td>
-              <td>
-                2048 - 10240
-              </td>
-              <td>
-                Objects Produced by 3rd party SDOs
-              </td>
-              <td>
-                <a title="click here to view Objects registered by 3rd party SDOs" href="#extlabel">View</a>
-              </td>
-              <td>
-                <a title="click here to register an Object if you are from a Standard Organization" href="http://devtoolkit.openmobilealliance.org/OEditor/Register">Register</a>
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <p>x-label</p>
-              </td>
-              <td>
-                <p>
-                  <code>urn:oma:lwm2m:x:&lt;id&gt;:&lt;version&gt;</code>
-                </p>
-              </td>
-              <td>
-                10241 - 26240<br>26241 - 32768
+        <div>
+            <h1>
+                OMA LightweightM2M (LwM2M) Object and Resource Registry
+            </h1>
+        </div>
+        <div>
+            <p>OMNA can provide you with an unique Object or/and Resource Identifier: (Object ID) or (ResourceID).<a href="http://openmobilealliance.org/" target="_blank"><img src="/wp/Images/OMA-129 Lightweight M2M Logo_RGB_full.jpg" style="float:right;width:250px;height:125px;"></a></p>
+            <p>To register a new <a title="to register a new Object click here ..." href="http://devtoolkit.openmobilealliance.org/OEditor/Default">(Ojbect ID)</a> or <a title="to register a new Resource click here ..." href="http://devtoolkit.openmobilealliance.org/OEditor/Default">(Resource ID).</a> </p>
+            <p>OMA has developed an editor for creating LwM2M Objects & Resources.</p>
+            <p>
+                <ul>
+                    <li>The LwM2M Editor can be accessed here: <a target="_blank" href="http://devtoolkit.openmobilealliance.org/OEditor/">Editor.</a></li>
+                    <li>The XML schema used by the LwM2M Editor can be found here: <a target="_blank" href="http://www.openmobilealliance.org/tech/profiles/LWM2M.xsd">Schema.</a></li>
+                </ul>
+            </p>
+        </div>
+        <div>
+            <h2>
+                ObjectID Classes
+            </h2>
+            <table id="registry-table" class="table-bordered">
+                <thead>
+                    <tr>
+                        <th>Category</th>
+                        <th>URN </th>
+                        <th>Object ID range</th>
+                        <th>Description</th>
+                        <th colspan="2">Operations</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>
+                            <p>oma-label</p>
                         </td>
-              <td>
-                Objects Produced by Vendors
-                for Registration<br>Objects Produced by Vendors to re-use
+                        <td>
+                            <p><code>urn:oma:lwm2m:oma:&lt;id&gt;:&lt;version&gt;</code></p>
                         </td>
-              <td>
-                <a title="click here to view Objects registered by companies and individuals" href="#xlabel">View</a>
-              </td>
-              <td>
-                <a title="click here to register an Object if you are vendors or individuals" href="http://devtoolkit.openmobilealliance.org/OEditor/Register">Register</a>
-              </td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
-      <div>
-        <h2>ResourceID Classes</h2>
-        <table>
-          <thead>
-            <tr>
-              <th>Category</th>
-              <th>Resource ID Range</th>
-              <th>Description</th>
-              <th colspan="2">Operations</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>
-                <p>Common Resources</p>
-              </td>
-              <td>
-                0 - 2047
-              </td>
-              <td>
-                Common resource defined inside  Objects. Inside of an Object the resourceIDs must be unique but it can be reused in different Objects.
-              </td>
-              <td>
-                --
-              </td>
-              <td>
-                --
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <p>Reusable Resources</p>
-              </td>
-              <td>
-                2048 - 26240<br>
-                  26241 - 32768
-              </td>
-              </td>
-              <td>
-                Resource range available for registration<br>
-                Private resource range, no registration necessary, open to re-use.  
-              </td>
-              <td>
-                <a title="click here to view Resources registered in OMA" href="#resources"> View</a>
-              </td>
-              <td>
-                <a title="click here to register a new Resource" href="http://devtoolkit.openmobilealliance.org/OEditor/Default">Register</a>
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <p>Private Resources</p>
-              </td>
-              <td>
-                26241 - 32768
-              </td>
-              <td>
-                Private resource range, no registration is necessary and open to re-use.
-              </td>
-              <td>
-                --
-              </td>
-              <td>
-                --
-              </td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
-      <!-- This table gets filled in from the DDF.xml file -->
-      <div>
-        <h2>LwM2M Objects</h2>
-        <h3 id="omalabel">
-          <strong>oma-label</strong> Objects Produced by OMA
-        </h3>
-        <p>
-          <code>URN: urn:oma:lwm2m:oma:ObjectID:version | range (0 - 1,023)</code>
-        </p>
-        <table id="omaobjects_tbl" class="descriptive-table">
-          <thead>
-            <tr>
-              <th style="width: 143px">URN / Version</th>
-              <th>ObjectID / xml</th>
-              <th>LwM2M Editor</th>
-              <th>Vorto</th>
-              <th>Object Name / Specification</th>
-              <th>Description</th>
-            </tr>
-          </thead>
-          <tbody>
-          </tbody>
-          <caption>
-            Objects in the above table (oma-label) are only registered by OMA Working Groups via an internal registratin process, called OMNA.
-          </caption>
-        </table>
-      </div>
-
-      <div>
-        <h3 id="extlabel">
-          <strong>ext-label</strong> Objects Produced by 3rd party Standards Development Organizations
-        </h3>
-        <p>
-          <code>URN: urn:oma:lwm2m:ext:ObjectID:version | range (2,048 - 10,240)</code>
-        </p>
-        <table id="thirdpartyobjects_tbl" class="descriptive-table">
-          <thead>
-            <tr>
-              <th>URN / Version</th>
-              <th>ObjectID / xml</th>
-              <th>LwM2M Editor</th>
-              <th>Vorto</th>
-              <th>Object Name / Specification</th>
-              <th>Owner</th>
-              <th>Description</th>
-            </tr>
-          </thead>
-          <tbody>
-          </tbody>
-          <caption>
-            <a title="click here to register a new (ext-label) Object ID" href="http://devtoolkit.openmobilealliance.org/OEditor/Register">Register a new Object produced by a 3rd party SDO (Standards Development Organization).</a>
-          </caption>
-        </table>
-      </div>
-      <div>
-        <h3 id="xlabel">
-          <strong>x-label</strong> Objects Produced by vendors or individuals
-        </h3>
-        <p>
-          <code>URN: urn:oma:lwm2m:x:ObjectID:version | ranges (10,241 - 26,240) & (26,241 - 32,768)</code>
-        </p>
-        <p>10241 - 26240 Range accepts registration</p>
-        <p>26241 - 32768 Range is privately reused and there is no need for registration</p>
-        <table id="publicobjects_tbl" class="descriptive-table">
-          <thead>
-            <tr>
-              <th>URN / Version</th>
-              <th>ObjectID / xml</th>
-              <th>LwM2M Editor</th>
-              <th>Vorto</th>
-              <th>Object Name / Specification</th>
-              <th>Company</th>
-              <th>Description - Objects Produced by Vendors</th>
-            </tr>
-          </thead>
-          <tbody>
-          </tbody>
-          <caption>
-            <a title="Click here to register Objects Produced by vendors or individuals between ranges 10241 - 26240" href="http://devtoolkit.openmobilealliance.org/OEditor/Register">Click here to register Objects Produced by vendors or individuals between ranges 10241 - 26240</a>
-          </caption>
-
-        </table>
-      </div>
-      <div>
-        <h2>LwM2M Resources</h2>
-        <h3 id="resources">Reusable Resources</h3>
-        <p>
-          <code>range: (2048 - 32,768)</code>
-        </p>
-        <table id="commonobjects_tbl" class="descriptive-table">
-          <thead>
-            <tr>
-              <th>ResourceID </th>
-              <th>Resource Name / xml</th>
-              <th>Access Type/Operation</th>
-              <th>Multiple Instances</th>
-              <th>Mandatory</th>
-              <th>Type</th>
-              <th>Range/Enumeration</th>
-              <th>Units</th>
-              <th>Description</th>
-            </tr>
-          </thead>
-          <tbody>
-          </tbody>
-          <caption>
-            <a title="click here to register a new (Reusable) Resource ID" href="http://devtoolkit.openmobilealliance.org/OEditor/Register">Register a new Resource produced by 3rd parties.</a>
-          </caption>
-        </table>
-      </div>
+                        <td>
+                            0 - 1023
+                        </td>
+                        <td>
+                            Objects Produced by OMA
+                        </td>
+                        <td>
+                            <a title="click here to view OMA defined Objects" href="#omalabel">View</a>
+                        </td>
+                        <td>
+                            <a title="these objects are only registered by OMA Working Groups" href="http://devtoolkit.openmobilealliance.org/OEditor/Default">Register</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p>reserved</p>
+                        </td>
+                        <td></td>
+                        <td>
+                            1024 - 2047
+                        </td>
+                        <td>
+                            Reserved for future use
+                        </td>
+                        <td>
+                            --
+                        </td>
+                        <td>
+                            --
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p>ext-label</p>
+                        </td>
+                        <td>
+                            <p><code>urn:oma:lwm2m:ext:&lt;id&gt;:&lt;version&gt;</code></p>
+                        </td>
+                        <td>
+                            2048 - 10240
+                        </td>
+                        <td>
+                            Objects Produced by 3rd party SDOs
+                        </td>
+                        <td>
+                            <a title="click here to view Objects registered by 3rd party SDOs" href="#extlabel">View</a>
+                        </td>
+                        <td>
+                            <a title="click here to register an Object if you are from a Standard Organization" href="http://devtoolkit.openmobilealliance.org/OEditor/Register">Register</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p>x-label</p>
+                        </td>
+                        <td>
+                            <p><code>urn:oma:lwm2m:x:&lt;id&gt;:&lt;version&gt;</code></p>
+                        </td>
+                        <td>
+                            10241 - 26240<br>26241 - 32768
+                        </td>
+                        <td>
+                            Objects Produced by Vendors
+                            for Registration<br>Objects Produced by Vendors to re-use
+                        </td>
+                        <td>
+                            <a title="click here to view Objects registered by companies and individuals" href="#xlabel">View</a>
+                        </td>
+                        <td>
+                            <a title="click here to register an Object if you are vendors or individuals" href="http://devtoolkit.openmobilealliance.org/OEditor/Register">Register</a>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div>
+            <h2>ResourceID Classes</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Category</th>
+                        <th>Resource ID Range</th>
+                        <th>Description</th>
+                        <th colspan="2">Operations</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>
+                            <p>Common Resources</p>
+                        </td>
+                        <td>
+                            0 - 2047
+                        </td>
+                        <td>
+                            Common resource defined inside  Objects. Inside of an Object the resourceIDs must be unique but it can be reused in different Objects.
+                        </td>
+                        <td>
+                            --
+                        </td>
+                        <td>
+                            --
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p>Reusable Resources</p>
+                        </td>
+                        <td>
+                            2048 - 26240<br>
+                            26241 - 32768
+                        </td>
+                        <td>
+                            Resource range available for registration<br>
+                            Private resource range, no registration necessary, open to re-use.  
+                        </td>
+                        <td>
+                            <a title="click here to view Resources registered in OMA" href="#resources"> View</a>
+                        </td>
+                        <td>
+                            <a title="click here to register a new Resource" href="http://devtoolkit.openmobilealliance.org/OEditor/Default">Register</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p>Private Resources</p>
+                        </td>
+                        <td>
+                            26241 - 32768
+                        </td>
+                        <td>
+                            Private resource range, no registration is necessary and open to re-use.
+                        </td>
+                        <td>
+                            --
+                        </td>
+                        <td>
+                            --
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <!-- This table gets filled in from the DDF.xml file -->
+        <div>
+            <h2>LwM2M Objects</h2>
+            <h3 id="omalabel"><strong>oma-label</strong> Objects Produced by OMA</h3>
+            <p><code>URN: urn:oma:lwm2m:oma:ObjectID:version | range (0 - 1,023)</code></p>
+            <table id="omaobjects_tbl" class="descriptive-table">
+                <thead>
+                    <tr>
+                        <th style="width: 143px">URN / Version</th>
+                        <th>ObjectID / xml</th>
+                        <th>LwM2M Editor</th>
+                        <th>Vorto</th>
+                        <th>Object Name / Specification</th>
+                        <th>Description</th>
+                    </tr>
+                </thead>
+                <tbody></tbody>
+                <caption>
+                    Objects in the above table (oma-label) are only registered by OMA Working Groups via an internal registratin process, called OMNA.
+                </caption>
+            </table>
+        </div>
+        <div>
+            <h3 id="extlabel"> <strong>ext-label</strong> Objects Produced by 3rd party Standards Development Organizations</h3>
+            <p><code>URN: urn:oma:lwm2m:ext:ObjectID:version | range (2,048 - 10,240)</code></p>
+            <table id="thirdpartyobjects_tbl" class="descriptive-table">
+                <thead>
+                    <tr>
+                        <th>URN / Version</th>
+                        <th>ObjectID / xml</th>
+                        <th>LwM2M Editor</th>
+                        <th>Vorto</th>
+                        <th>Object Name / Specification</th>
+                        <th>Owner</th>
+                        <th>Description</th>
+                    </tr>
+                </thead>
+                <tbody></tbody>
+                <caption>
+                    <a title="click here to register a new (ext-label) Object ID" href="http://devtoolkit.openmobilealliance.org/OEditor/Register">Register a new Object produced by a 3rd party SDO (Standards Development Organization).</a>
+                </caption>
+            </table>
+        </div>
+        <div>
+            <h3 id="xlabel"><strong>x-label</strong> Objects Produced by vendors or individuals</h3>
+            <p><code>URN: urn:oma:lwm2m:x:ObjectID:version | ranges (10,241 - 26,240) & (26,241 - 32,768)</code></p>
+            <p>10241 - 26240 Range accepts registration</p>
+            <p>26241 - 32768 Range is privately reused and there is no need for registration</p>
+            <table id="publicobjects_tbl" class="descriptive-table">
+                <thead>
+                    <tr>
+                        <th>URN / Version</th>
+                        <th>ObjectID / xml</th>
+                        <th>LwM2M Editor</th>
+                        <th>Vorto</th>
+                        <th>Object Name / Specification</th>
+                        <th>Company</th>
+                        <th>Description - Objects Produced by Vendors</th>
+                    </tr>
+                </thead>
+                <tbody></tbody>
+                <caption>
+                    <a title="Click here to register Objects Produced by vendors or individuals between ranges 10241 - 26240" href="http://devtoolkit.openmobilealliance.org/OEditor/Register">Click here to register Objects Produced by vendors or individuals between ranges 10241 - 26240</a>
+                </caption>
+            </table>
+        </div>
+        <div>
+            <h2>LwM2M Resources</h2>
+            <h3 id="resources">Reusable Resources</h3>
+            <p><code>range: (2048 - 32,768)</code></p>
+            <table id="commonobjects_tbl" class="descriptive-table">
+                <thead>
+                    <tr>
+                        <th>ResourceID </th>
+                        <th>Resource Name / xml</th>
+                        <th>Access Type/Operation</th>
+                        <th>Multiple Instances</th>
+                        <th>Mandatory</th>
+                        <th>Type</th>
+                        <th>Range/Enumeration</th>
+                        <th>Units</th>
+                        <th>Description</th>
+                    </tr>
+                </thead>
+                <tbody></tbody>
+                <caption>
+                    <a title="click here to register a new (Reusable) Resource ID" href="http://devtoolkit.openmobilealliance.org/OEditor/Register">Register a new Resource produced by 3rd parties.</a>
+                </caption>
+            </table>
+        </div>
     </div>
     <!-- This gets populated with the footer.html using Javascript -->
     <div id="footer"></div>
     <!-- Start of Async HubSpot Analytics Code -->
     <script type="text/javascript">
-      (function (d, s, i, r) {
-      if (d.getElementById(i)) { return; }
-      var n = d.createElement(s), e = d.getElementsByTagName(s)[0];
-      n.id = i; n.src = '//js.hs-analytics.net/analytics/' + (Math.ceil(new Date() / r) * r) + '/183757.js';
-      e.parentNode.insertBefore(n, e);
-      })(document, "script", "hs-analytics", 300000);
+        (function (d, s, i, r) {
+            if (d.getElementById(i)) { return; }
+            var n = d.createElement(s), e = d.getElementsByTagName(s)[0];
+            n.id = i; n.src = '//js.hs-analytics.net/analytics/' + (Math.ceil(new Date() / r) * r) + '/183757.js';
+            e.parentNode.insertBefore(n, e);
+        })(document, "script", "hs-analytics", 300000);
     </script>
     <!-- End of Async HubSpot Analytics Code -->
-  </body>
+</body>
 </html>
