@@ -921,7 +921,7 @@
 
 <URN>urn:oma:lwm2m:ext:3200</URN>
 
-<Name>Digital</Name>
+<Name>Digital Input</Name>
 
 <Description>This IPSO object is a generic object that can be used with any kind of digital input interface. Specific objects for a given range of sensors are described later in the document, enabling to identify the type of sensors directly from its Object ID. This object may be used as a generic object if a dedicated one does not exist.</Description>
 
