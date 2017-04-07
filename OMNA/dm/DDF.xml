@@ -1580,6 +1580,16 @@
     <TS></TS>
   </Item>
   <Item>
+    <MOIdentifier>urn:oma:mo:oma-mgmtpolicymo:1.0</MOIdentifier>
+    <MOIndex>0x007F</MOIndex>
+    <Description>Management Policy MO (MgmtPolicyMO)</Description>
+    <Owner>DM WG</Owner>
+    <Source>0</Source>
+    <Ver>1.0</Ver>
+    <DDF></DDF>
+    <TS></TS>
+  </Item>
+  <Item>
     <MOIdentifier>urn:oma:mo:ext-3gpp-IWLAN:1.0</MOIdentifier>
     <Owner>3GPP</Owner>
     <Source>1</Source>
