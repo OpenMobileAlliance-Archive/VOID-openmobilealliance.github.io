@@ -2635,13 +2635,13 @@
 
 <Ver/>
 
-<DDF></DDF>
+<DDF>http://www.openmobilealliance.org/tech/profiles/Relay_Management.xml</DDF>
 
-<LWM2M></LWM2M>
+<LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2FRelay_Management.xml</LWM2M>
 
 <Vorto></Vorto>
 
-<DDFLink>0</DDFLink>
+<DDFLink>1</DDFLink>
 
 <TS>0</TS>
  
@@ -2665,13 +2665,13 @@
 
 <Ver/>
 
-<DDF></DDF>
+<DDF>http://www.openmobilealliance.org/tech/profiles/CrowdBox_Measurements.xml</DDF>
 
-<LWM2M></LWM2M>
+<LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2FCrowdBox_Measurements.xml</LWM2M>
 
 <Vorto></Vorto>
 
-<DDFLink>0</DDFLink>
+<DDFLink>1</DDFLink>
 
 <TS>0</TS>
  
@@ -2695,13 +2695,13 @@
 
 <Ver/>
 
-<DDF></DDF>
+<DDF>http://www.openmobilealliance.org/tech/profiles/Neighbour_Cell_Report.xml</DDF>
 
-<LWM2M></LWM2M>
+<LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2FNeighbour_Cell_Report.xml</LWM2M>
 
 <Vorto></Vorto>
 
-<DDFLink>0</DDFLink>
+<DDFLink>1</DDFLink>
 
 <TS>0</TS>
  
@@ -2725,13 +2725,13 @@
 
 <Ver/>
 
-<DDF></DDF>
+<DDF>http://www.openmobilealliance.org/tech/profiles/Connected_UE_Measurements.xml</DDF>
 
-<LWM2M></LWM2M>
+<LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2FConnected_UE_Measurements.xml</LWM2M>
 
 <Vorto></Vorto>
 
-<DDFLink>0</DDFLink>
+<DDFLink>1</DDFLink>
 
 <TS>0</TS>
  
@@ -2755,13 +2755,13 @@
 
 <Ver/>
 
-<DDF></DDF>
+<DDF>http://www.openmobilealliance.org/tech/profiles/Connected_UE_Report.xml</DDF>
 
-<LWM2M></LWM2M>
+<LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2FConnected_UE_Report.xml</LWM2M>
 
 <Vorto></Vorto>
 
-<DDFLink>0</DDFLink>
+<DDFLink>1</DDFLink>
 
 <TS>0</TS>
  
