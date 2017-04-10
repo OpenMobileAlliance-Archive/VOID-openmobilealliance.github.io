@@ -226,6 +226,31 @@
 
 </Item>
 
+<Item ID="5506">
+
+<Name>Current Time</Name>
+
+<Operations>RW</Operations>
+
+<MultipleInstances></MultipleInstances>
+
+<Mandatory></Mandatory>
+
+<Type>Time</Type>
+
+<RangeEnumeration/>
+
+<Units/>
+
+
+<Description>
+
+<![CDATA[Unix Time. A signed integer representing the number of seconds since Jan 1st, 1970 in the UTC time zone.]]>
+
+</Description>
+
+</Item>
+
 
 <Item ID="5550">
 
