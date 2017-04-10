@@ -10,7 +10,7 @@
     <ObjectID>0</ObjectID>
 
     <!-- URN of the object -->
-    <URN>urn:oma:lwm2m:oma:0:1.0</URN>
+    <URN>urn:oma:lwm2m:oma:0</URN>
 
     <!-- Name of the object -->
     <Name>LWM2M Security</Name>
@@ -52,7 +52,7 @@
 
     <ObjectID>1</ObjectID>
 
-    <URN>urn:oma:lwm2m:oma:1:1.0</URN>
+    <URN>urn:oma:lwm2m:oma:1</URN>
 
     <Name>LWM2M Server</Name>
 
@@ -83,7 +83,7 @@
 
     <ObjectID>2</ObjectID>
 
-    <URN>urn:oma:lwm2m:oma:2:1.0</URN>
+    <URN>urn:oma:lwm2m:oma:2</URN>
 
     <Name>Access Control</Name>
 
@@ -114,7 +114,7 @@
 
     <ObjectID>3</ObjectID>
 
-    <URN>urn:oma:lwm2m:oma:3:1.0</URN>
+    <URN>urn:oma:lwm2m:oma:3</URN>
 
     <Name>Device</Name>
 
@@ -145,7 +145,7 @@
 
     <ObjectID>4</ObjectID>
 
-    <URN>urn:oma:lwm2m:oma:4:1.0</URN>
+    <URN>urn:oma:lwm2m:oma:4</URN>
 
     <Name>Connectivity Monitoring</Name>
 
@@ -176,7 +176,7 @@
 
     <ObjectID>5</ObjectID>
 
-    <URN>urn:oma:lwm2m:oma:5:1.0</URN>
+    <URN>urn:oma:lwm2m:oma:5</URN>
 
     <Name>Firmware</Name>
 
@@ -207,7 +207,7 @@
 
     <ObjectID>6</ObjectID>
 
-    <URN>urn:oma:lwm2m:oma:6:1.0</URN>
+    <URN>urn:oma:lwm2m:oma:6</URN>
 
     <Name>Location</Name>
 
@@ -238,7 +238,7 @@
 
     <ObjectID>7</ObjectID>
 
-    <URN>urn:oma:lwm2m:oma:7:1.0</URN>
+    <URN>urn:oma:lwm2m:oma:7</URN>
 
     <Name>Connectivity Statistics</Name>
 
@@ -269,7 +269,7 @@
 
     <ObjectID>8</ObjectID>
 
-    <URN>urn:oma:lwm2m:oma:8:1.0</URN>
+    <URN>urn:oma:lwm2m:oma:8</URN>
 
     <Name>Lock and Wipe</Name>
 
@@ -300,7 +300,7 @@
 
     <ObjectID>9</ObjectID>
 
-    <URN>urn:oma:lwm2m:oma:9:1.0</URN>
+    <URN>urn:oma:lwm2m:oma:9</URN>
 
     <Name>Sofware Management</Name>
 
@@ -331,7 +331,7 @@
 
     <ObjectID>10</ObjectID>
 
-    <URN>urn:oma:lwm2m:oma:10:1.0</URN>
+    <URN>urn:oma:lwm2m:oma:10</URN>
 
     <Name>Cellular connectivity</Name>
 
@@ -362,7 +362,7 @@
 
     <ObjectID>11</ObjectID>
 
-    <URN>urn:oma:lwm2m:oma:11:1.0</URN>
+    <URN>urn:oma:lwm2m:oma:11</URN>
 
     <Name>APN connection profile</Name>
 
@@ -393,7 +393,7 @@
 
     <ObjectID>12</ObjectID>
 
-    <URN>urn:oma:lwm2m:oma:12:1.0</URN>
+    <URN>urn:oma:lwm2m:oma:12</URN>
 
     <Name>WLAN connectivity</Name>
 
@@ -424,7 +424,7 @@
 
     <ObjectID>13</ObjectID>
 
-    <URN>urn:oma:lwm2m:oma:13:1.0</URN>
+    <URN>urn:oma:lwm2m:oma:13</URN>
 
     <Name>Bearer selection</Name>
 
@@ -455,7 +455,7 @@
 
     <ObjectID>14</ObjectID>
 
-    <URN>urn:oma:lwm2m:oma:14:1.0</URN>
+    <URN>urn:oma:lwm2m:oma:14</URN>
 
     <Name>Software Component</Name>
 
@@ -486,7 +486,7 @@
 
     <ObjectID>15</ObjectID>
 
-    <URN>urn:oma:lwm2m:oma:15:1.0</URN>
+    <URN>urn:oma:lwm2m:oma:15</URN>
 
     <Name>DevCapMgmt</Name>
 
@@ -517,7 +517,7 @@
 
     <ObjectID>16</ObjectID>
 
-    <URN>urn:oma:lwm2m:oma:16:1.0</URN>
+    <URN>urn:oma:lwm2m:oma:16</URN>
 
     <Name>Porfolio</Name>
 
@@ -547,7 +547,7 @@
 
     <ObjectID>17</ObjectID>
 
-    <URN>urn:oma:lwm2m:oma:17:1.0</URN>
+    <URN>urn:oma:lwm2m:oma:17</URN>
 
     <Name>Communications Characteristics</Name>
 
@@ -577,7 +577,7 @@
 
     <ObjectID>18</ObjectID>
 
-    <URN>urn:oma:lwm2m:oma:18:1.0</URN>
+    <URN>urn:oma:lwm2m:oma:18</URN>
 
     <Name>Non-Access Stratum (NAS) Configuration</Name>
 
@@ -607,7 +607,7 @@
 
     <ObjectID>2048</ObjectID>
 
-    <URN>urn:oma:lwm2m:ext:2048:1.0</URN>
+    <URN>urn:oma:lwm2m:ext:2048</URN>
 
     <Name>CmdhPolicy</Name>
 
@@ -638,7 +638,7 @@
 
     <ObjectID>2049</ObjectID>
 
-    <URN>urn:oma:lwm2m:ext:2049:1.0</URN>
+    <URN>urn:oma:lwm2m:ext:2049</URN>
 
     <Name>ActiveCmdhPolicy</Name>
 
@@ -669,7 +669,7 @@
 
     <ObjectID>2050</ObjectID>
 
-    <URN>urn:oma:lwm2m:ext:2050:1.0</URN>
+    <URN>urn:oma:lwm2m:ext:2050</URN>
 
     <Name>CmdhDefaults</Name>
 
@@ -702,7 +702,7 @@
 
     <ObjectID>2051</ObjectID>
 
-    <URN>urn:oma:lwm2m:ext:2051:1.0</URN>
+    <URN>urn:oma:lwm2m:ext:2051</URN>
 
     <Name>CmdhDefEcValues</Name>
 
@@ -733,7 +733,7 @@
 
     <ObjectID>2052</ObjectID>
 
-    <URN>urn:oma:lwm2m:ext:2052:1.0</URN>
+    <URN>urn:oma:lwm2m:ext:2052</URN>
 
     <Name>CmdhEcDefParamValues</Name>
 
@@ -764,7 +764,7 @@
 
     <ObjectID>2053</ObjectID>
 
-    <URN>urn:oma:lwm2m:ext:2053:1.0</URN>
+    <URN>urn:oma:lwm2m:ext:2053</URN>
 
     <Name>CmdhLimits</Name>
 
@@ -795,7 +795,7 @@
 
     <ObjectID>2054</ObjectID>
 
-    <URN>urn:oma:lwm2m:ext:2054:1.0</URN>
+    <URN>urn:oma:lwm2m:ext:2054</URN>
 
     <Name>CmdhNetworkAccessRules</Name>
 
@@ -826,7 +826,7 @@
 
     <ObjectID>2055</ObjectID>
 
-    <URN>urn:oma:lwm2m:ext:2055:1.0</URN>
+    <URN>urn:oma:lwm2m:ext:2055</URN>
 
     <Name>CmdhNwAccessRule</Name>
 
@@ -859,7 +859,7 @@
 
     <ObjectID>2056</ObjectID>
 
-    <URN>urn:oma:lwm2m:ext:2056:1.0</URN>
+    <URN>urn:oma:lwm2m:ext:2056</URN>
 
     <Name>CmdhBuffer</Name>
 
@@ -889,7 +889,7 @@
 
     <ObjectID>2057</ObjectID>
 
-    <URN>urn:oma:lwm2m:ext:2057:1.0</URN>
+    <URN>urn:oma:lwm2m:ext:2057</URN>
 
     <Name>CmdhBackOffParametersSet</Name>
 
