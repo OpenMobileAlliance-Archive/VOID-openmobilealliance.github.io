@@ -44,6 +44,8 @@
 
 </Description>
 
+<Submitter>-</Submitter>
+
 </Item>
 <Item ID="4001">
 
@@ -67,6 +69,8 @@
 <![CDATA[LWM2M Object versioning label.]]>
 
 </Description>
+
+<Submitter>-</Submitter>
 
 </Item>
 
@@ -94,6 +98,8 @@
 
 </Description>
 
+<Submitter>-</Submitter>
+
 </Item>
 
 
@@ -113,12 +119,13 @@
 
 <Units/>
 
-
 <Description>
 
 <![CDATA[The cumulative value of active state detected.]]>
 
 </Description>
+
+<Submitter>-</Submitter>
 
 </Item>
 
@@ -146,6 +153,8 @@
 
 </Description>
 
+<Submitter>-</Submitter>
+
 </Item>
 
 
@@ -171,6 +180,8 @@
 <![CDATA[The debounce period in ms.]]>
 
 </Description>
+
+<Submitter>-</Submitter>
 
 </Item>
 
@@ -198,6 +209,8 @@
 
 </Description>
 
+<Submitter>-</Submitter>
+
 </Item>
 
 
@@ -224,6 +237,8 @@
 
 </Description>
 
+<Submitter>-</Submitter>
+
 </Item>
 
 <Item ID="5506">
@@ -248,6 +263,8 @@
 <![CDATA[Unix Time. A signed integer representing the number of seconds since Jan 1st, 1970 in the UTC time zone.]]>
 
 </Description>
+
+<Submitter>-</Submitter>
 
 </Item>
 
