@@ -43,7 +43,8 @@
 <![CDATA[The object link is used to refer an Instance of a given Object. An Object link value is composed of two concatenated 16-bits unsigned integers following the Network Byte Order convention. The Most Significant Halfword is an ObjectID, the Least Significant Hafword is an ObjectInstance ID.An Object Link referencing no Object Instance will contain the concatenation of 2 MAX-ID values (null link.]]>
 
 </Description>
-<Submitter></Submitter>
+
+<Submitter>-</Submitter>
 
 </Item>
 <Item ID="4001">
@@ -69,7 +70,7 @@
 
 </Description>
 
-<Submitter></Submitter>
+<Submitter>-</Submitter>
 
 </Item>
 
@@ -97,7 +98,7 @@
 
 </Description>
 
-<Submitter></Submitter>
+<Submitter>-</Submitter>
 
 </Item>
 
@@ -118,14 +119,13 @@
 
 <Units/>
 
-
 <Description>
 
 <![CDATA[The cumulative value of active state detected.]]>
 
 </Description>
 
-<Submitter></Submitter>
+<Submitter>-</Submitter>
 
 </Item>
 
@@ -153,7 +153,7 @@
 
 </Description>
 
-<Submitter></Submitter>
+<Submitter>-</Submitter>
 
 </Item>
 
@@ -181,7 +181,7 @@
 
 </Description>
 
-<Submitter></Submitter>
+<Submitter>-</Submitter>
 
 </Item>
 
@@ -209,7 +209,7 @@
 
 </Description>
 
-<Submitter></Submitter>
+<Submitter>-</Submitter>
 
 </Item>
 
@@ -237,6 +237,8 @@
 
 </Description>
 
+<Submitter>-</Submitter>
+
 </Item>
 
 <Item ID="5506">
@@ -261,6 +263,8 @@
 <![CDATA[Unix Time. A signed integer representing the number of seconds since Jan 1st, 1970 in the UTC time zone.]]>
 
 </Description>
+
+<Submitter>-</Submitter>
 
 </Item>
 
