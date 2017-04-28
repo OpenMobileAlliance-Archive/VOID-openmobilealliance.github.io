@@ -43,6 +43,7 @@
 <![CDATA[The object link is used to refer an Instance of a given Object. An Object link value is composed of two concatenated 16-bits unsigned integers following the Network Byte Order convention. The Most Significant Halfword is an ObjectID, the Least Significant Hafword is an ObjectInstance ID.An Object Link referencing no Object Instance will contain the concatenation of 2 MAX-ID values (null link.]]>
 
 </Description>
+<Submitter></Submitter>
 
 </Item>
 <Item ID="4001">
@@ -67,6 +68,8 @@
 <![CDATA[LWM2M Object versioning label.]]>
 
 </Description>
+
+<Submitter></Submitter>
 
 </Item>
 
@@ -94,6 +97,8 @@
 
 </Description>
 
+<Submitter></Submitter>
+
 </Item>
 
 
@@ -119,6 +124,8 @@
 <![CDATA[The cumulative value of active state detected.]]>
 
 </Description>
+
+<Submitter></Submitter>
 
 </Item>
 
@@ -146,6 +153,8 @@
 
 </Description>
 
+<Submitter></Submitter>
+
 </Item>
 
 
@@ -172,6 +181,8 @@
 
 </Description>
 
+<Submitter></Submitter>
+
 </Item>
 
 
@@ -197,6 +208,8 @@
 <![CDATA[The edge selection as an integer (1 = Falling edge, 2 = Rising edge, 3 = Both Rising and Falling edge)]]>
 
 </Description>
+
+<Submitter></Submitter>
 
 </Item>
 
