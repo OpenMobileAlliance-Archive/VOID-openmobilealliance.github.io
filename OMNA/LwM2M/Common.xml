@@ -47,6 +47,7 @@
 <Submitter>-</Submitter>
 
 </Item>
+
 <Item ID="4001">
 
 <Name>ObjectVersion</Name>
@@ -71,6 +72,131 @@
 </Description>
 
 <Submitter>-</Submitter>
+
+</Item>
+
+
+<Item ID="4010">
+
+<Name>LogClass</Name>
+
+<Operations>R</Operations>
+
+<MultipleInstances>Single</MultipleInstances>
+
+<Mandatory>Optional</Mandatory>
+
+<Type>Integer</Type>
+
+<RangeEnumeration>0-255</RangeEnumeration>
+
+<Units/>
+
+<Description>
+
+<![CDATA[Part of the Logging Event Set: 1/5 (Must be a Single-Instance Resource) Define the Log Event Class: 0: generic (default) 1: system 2: security 3: event 4: trace 5: panic 6: charging [7-99]: reserved [100-255]: vendor specific ]]>
+
+</Description>
+
+</Item>
+
+
+<Item ID="4011">
+
+<Name>LogStart</Name>
+
+<Operations>E</Operations>
+
+<MultipleInstances>Single</MultipleInstances>
+
+<Mandatory>Optional</Mandatory>
+
+<Type>-</Type>
+
+<RangeEnumeration/>
+
+<Units/>
+
+<Description>
+
+<![CDATA[Part of the Logging Event Set: 2/5 Actions: a) Start data collection(DC) b) LogStatus is set to 0 (running) c) DC is emptied(default) or extended according to arg'0' value d) DC Period is set according to arg'1' value Arguments '0': DC emptied(=0[default] or extended(=1) '1': set the DC Period (in sec): if=0 or absent[default] DC is stopped by LogStop action only. ]]>
+
+</Description>
+
+</Item>
+
+
+<Item ID="4012">
+
+<Name>LogStop</Name>
+
+<Operations>E</Operations>
+
+<MultipleInstances>Single</MultipleInstances>
+
+<Mandatory>Optional</Mandatory>
+
+<Type>-</Type>
+
+<RangeEnumeration/>
+
+<Units/>
+
+<Description>
+
+<![CDATA[Log Event Set Interface 3/5 Actions: a) Stop data collection(DC) b) LogStatus is set to 1 (stopped) c) DC is kept(default) or emptied according to arg'0' value Argument: '0': DC kept(=0)[default]or emptied(=1) ]]>
+
+</Description>
+
+</Item>
+
+
+<Item ID="4013">
+
+<Name>LogStatus</Name>
+
+<Operations>R</Operations>
+
+<MultipleInstances>Single</MultipleInstances>
+
+<Mandatory>Optional</Mandatory>
+
+<Type>Integer</Type>
+
+<RangeEnumeration>0-255</RangeEnumeration>
+
+<Units/>
+
+<Description>
+
+<![CDATA[Log Event Set Interface 4/5 (Must be a Single-Instance Resource) Data Collection process status: 0 : running 1 : stopped [2-99] : reserved [100-255] : vendor specific.]]>
+
+</Description>
+
+</Item>
+
+
+<Item ID="4014">
+
+<Name>LogData</Name>
+
+<Operations>R</Operations>
+
+<MultipleInstances>Multiple</MultipleInstances>
+
+<Mandatory>Optional</Mandatory>
+
+<Type>Opaque</Type>
+
+<RangeEnumeration/>
+
+<Units/>
+
+<Description>
+
+<![CDATA[Log Event Set Interface 5/5 (May be a Multiple-Instance Resource) Read Access on that Resource returns the Data Collection associated to the current Object Instance. Data format followed by this Opaque Resource is given by the 1st byte of the opaque sequence: 0 : OMA-LwM2M TLV format 1 : OMA-LwM2M JSON format 2 : OMA-LwM2M CBOR format [3..99] reserved [100..255] vendor specific ]]>
+
+</Description>
 
 </Item>
 
@@ -145,7 +271,6 @@
 <RangeEnumeration></RangeEnumeration>
 
 <Units/>
-
 
 <Description>
 
