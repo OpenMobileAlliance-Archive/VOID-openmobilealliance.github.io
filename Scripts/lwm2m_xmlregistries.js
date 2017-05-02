@@ -80,6 +80,7 @@ function DisplayXML(ddfXMLFileURL, commonXMLFileUrl) {
                 var type = $(this).find('Type').text();
                 var range = $(this).find('RangeEnumeration').text();
                 var units = $(this).find('Units').text();
+                var submitter = $(this).find('Submitter').text();
                 var description = $(this).find('Description').text();
 
                 var $tableselected = $('#commonobjects_tbl');
@@ -95,12 +96,14 @@ function DisplayXML(ddfXMLFileURL, commonXMLFileUrl) {
                         '<td>' +
                              accessType +
                         '</td>' +
-                        '<td>' +
-                            ((multipleInstance) ? multipleInstance : '-') +
-                        '</td>' +
-                        '<td>' +
-                            ((mandatory) ? mandatory : '-') +
-                        '</td>' +
+                        // https://helpdesk.openmobilealliance.org/browse/OPEN-1694
+                        // Removed for ticket request
+                        //'<td>' +
+                        //    ((multipleInstance) ? multipleInstance : '-') +
+                        //'</td>' +
+                        //'<td>' +
+                        //    ((mandatory) ? mandatory : '-') +
+                        //'</td>' +
                         '<td>' +
                              type +
                         '</td>' +
@@ -109,6 +112,9 @@ function DisplayXML(ddfXMLFileURL, commonXMLFileUrl) {
                         '</td>' +
                         '<td>' +
                              ((units) ? units : '-') +
+                        '</td>' +
+                        '<td>' +
+                             ((submitter) ? submitter : '-') +
                         '</td>' +
                         '<td>' +
                             '<p>' + description + '</p>' +
