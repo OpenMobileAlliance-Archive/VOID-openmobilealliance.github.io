@@ -1510,7 +1510,7 @@
 
 <Mandatory>Optional</Mandatory>
 
-<Type>Single</Type>
+<Type></Type>
 
 <RangeEnumeration/>
 
@@ -1535,7 +1535,7 @@
 
 <Mandatory>Optional</Mandatory>
 
-<Type>Single</Type>
+<Type></Type>
 
 <RangeEnumeration/>
 
@@ -1560,7 +1560,7 @@
 
 <Mandatory>Optional</Mandatory>
 
-<Type>Single</Type>
+<Type></Type>
 
 <RangeEnumeration/>
 
@@ -1585,7 +1585,7 @@
 
 <Mandatory>Optional</Mandatory>
 
-<Type>Single</Type>
+<Type></Type>
 
 <RangeEnumeration/>
 
