@@ -111,7 +111,7 @@
 
 <Mandatory>Optional</Mandatory>
 
-<Type>-<Type/>
+<Type>-</Type>
 
 <RangeEnumeration/>
 
@@ -136,7 +136,7 @@
 
 <Mandatory>Optional</Mandatory>
 
-<Type>-<Type/>
+<Type>-</Type>
 
 <RangeEnumeration/>
 
@@ -271,7 +271,6 @@
 <RangeEnumeration></RangeEnumeration>
 
 <Units/>
-
 
 <Description>
 
