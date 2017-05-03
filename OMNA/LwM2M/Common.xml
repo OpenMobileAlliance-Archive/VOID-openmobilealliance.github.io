@@ -37,6 +37,7 @@
 
 <Units/>
 
+<Submitter>OMA</Submitter>
 
 <Description>
 
@@ -64,6 +65,7 @@
 
 <Units/>
 
+<Submitter>OMA</Submitter>
 
 <Description>
 
@@ -92,6 +94,8 @@
 
 <Units/>
 
+<Submitter>OMA</Submitter>
+
 <Description>
 
 <![CDATA[Part of the Logging Event Set: 1/5 (Must be a Single-Instance Resource) Define the Log Event Class: 0: generic (default) 1: system 2: security 3: event 4: trace 5: panic 6: charging [7-99]: reserved [100-255]: vendor specific ]]>
@@ -116,6 +120,8 @@
 <RangeEnumeration/>
 
 <Units/>
+
+<Submitter>OMA</Submitter>
 
 <Description>
 
@@ -142,6 +148,8 @@
 
 <Units/>
 
+<Submitter>OMA</Submitter>
+
 <Description>
 
 <![CDATA[Log Event Set Interface 3/5 Actions: a) Stop data collection(DC) b) LogStatus is set to 1 (stopped) c) DC is kept(default) or emptied according to arg'0' value Argument: '0': DC kept(=0)[default]or emptied(=1) ]]>
@@ -166,6 +174,8 @@
 <RangeEnumeration>0-255</RangeEnumeration>
 
 <Units/>
+
+<Submitter>OMA</Submitter>
 
 <Description>
 
@@ -192,6 +202,8 @@
 
 <Units/>
 
+<Submitter>OMA</Submitter>
+
 <Description>
 
 <![CDATA[Log Event Set Interface 5/5 (May be a Multiple-Instance Resource) Read Access on that Resource returns the Data Collection associated to the current Object Instance. Data format followed by this Opaque Resource is given by the 1st byte of the opaque sequence: 0 : OMA-LwM2M TLV format 1 : OMA-LwM2M JSON format 2 : OMA-LwM2M CBOR format [3..99] reserved [100..255] vendor specific ]]>
@@ -217,6 +229,7 @@
 
 <Units/>
 
+<Submitter>IPSO</Submitter>
 
 <Description>
 
@@ -245,6 +258,8 @@
 
 <Units/>
 
+<Submitter>IPSO</Submitter>
+
 <Description>
 
 <![CDATA[The cumulative value of active state detected.]]>
@@ -271,6 +286,8 @@
 <RangeEnumeration></RangeEnumeration>
 
 <Units/>
+
+<Submitter>IPSO</Submitter>
 
 <Description>
 
@@ -299,6 +316,7 @@
 
 <Units>ms</Units>
 
+<Submitter>IPSO</Submitter>
 
 <Description>
 
@@ -327,6 +345,7 @@
 
 <Units/>
 
+<Submitter>IPSO</Submitter>
 
 <Description>
 
@@ -355,6 +374,7 @@
 
 <Units/>
 
+<Submitter>IPSO</Submitter>
 
 <Description>
 
@@ -382,6 +402,7 @@
 
 <Units/>
 
+<Submitter>IPSO</Submitter>
 
 <Description>
 
@@ -410,6 +431,7 @@
 
 <Units/>
 
+<Submitter>IPSO</Submitter>
 
 <Description>
 
@@ -436,6 +458,8 @@
 
 <Units/>
 
+<Submitter>IPSO</Submitter>
+
 <Description>
 
 <![CDATA[The polarity of a digital input as a Boolean (0 = Normal, 1= Reversed)]]>
@@ -461,6 +485,7 @@
 
 <Units>V</Units>
 
+<Submitter>IPSO</Submitter>
 
 <Description>
 
@@ -487,6 +512,7 @@
 
 <Units>Defined by “Units” resource.</Units>
 
+<Submitter>IPSO</Submitter>
 
 <Description>
 
@@ -513,6 +539,7 @@
 
 <Units>Defined by “Units” resource.</Units>
 
+<Submitter>IPSO</Submitter>
 
 <Description>
 
@@ -539,6 +566,7 @@
 
 <Units>Defined by “Units” resource.</Units>
 
+<Submitter>IPSO</Submitter>
 
 <Description>
 
@@ -565,6 +593,7 @@
 
 <Units>Defined by “Units” resource.</Units>
 
+<Submitter>IPSO</Submitter>
 
 <Description>
 
@@ -591,6 +620,7 @@
 
 <Units/>
 
+<Submitter>IPSO</Submitter>
 
 <Description>
 
@@ -617,6 +647,7 @@
 
 <Units>V</Units>
 
+<Submitter>IPSO</Submitter>
 
 <Description>
 
@@ -643,6 +674,7 @@
 
 <Units>Defined by “Units” resource.</Units>
 
+<Submitter>IPSO</Submitter>
 
 <Description>
 
@@ -669,6 +701,7 @@
 
 <Units/>
 
+<Submitter>IPSO</Submitter>
 
 <Description>
 
@@ -721,6 +754,7 @@
 
 <Units>Defined by “Units” resource.</Units>
 
+<Submitter>IPSO</Submitter>
 
 <Description>
 
@@ -747,6 +781,7 @@
 
 <Units>Defined by “Units” resource.</Units>
 
+<Submitter>IPSO</Submitter>
 
 <Description>
 
@@ -773,6 +808,7 @@
 
 <Units>deg.</Units>
 
+<Submitter>IPSO</Submitter>
 
 <Description>
 
@@ -799,6 +835,7 @@
 
 <Units>Defined by “Units” resource.</Units>
 
+<Submitter>IPSO</Submitter>
 
 <Description>
 
@@ -825,6 +862,7 @@
 
 <Units/>
 
+<Submitter>IPSO</Submitter>
 
 <Description>
 
@@ -851,6 +889,7 @@
 
 <Units/>
 
+<Submitter>IPSO</Submitter>
 
 <Description>
 
@@ -877,6 +916,7 @@
 
 <Units>W</Units>
 
+<Submitter>IPSO</Submitter>
 
 <Description>
 
@@ -903,6 +943,7 @@
 
 <Units>W</Units>
 
+<Submitter>IPSO</Submitter>
 
 <Description>
 
@@ -929,6 +970,7 @@
 
 <Units>W</Units>
 
+<Submitter>IPSO</Submitter>
 
 <Description>
 
@@ -955,6 +997,7 @@
 
 <Units>W</Units>
 
+<Submitter>IPSO</Submitter>
 
 <Description>
 
@@ -981,6 +1024,7 @@
 
 <Units>W</Units>
 
+<Submitter>IPSO</Submitter>
 
 <Description>
 
@@ -1007,6 +1051,7 @@
 
 <Units>Wh</Units>
 
+<Submitter>IPSO</Submitter>
 
 <Description>
 
@@ -1033,6 +1078,7 @@
 
 <Units>W</Units>
 
+<Submitter>IPSO</Submitter>
 
 <Description>
 
@@ -1059,6 +1105,7 @@
 
 <Units>var</Units>
 
+<Submitter>IPSO</Submitter>
 
 <Description>
 
@@ -1085,6 +1132,7 @@
 
 <Units>var</Units>
 
+<Submitter>IPSO</Submitter>
 
 <Description>
 
@@ -1094,6 +1142,7 @@
 
 </Item>
 
+<Submitter>IPSO</Submitter>
 
 <Item ID="5812">
 
@@ -1111,6 +1160,7 @@
 
 <Units>var</Units>
 
+<Submitter>IPSO</Submitter>
 
 <Description>
 
@@ -1137,6 +1187,7 @@
 
 <Units>var</Units>
 
+<Submitter>IPSO</Submitter>
 
 <Description>
 
@@ -1163,6 +1214,7 @@
 
 <Units>var</Units>
 
+<Submitter>IPSO</Submitter>
 
 <Description>
 
@@ -1189,6 +1241,7 @@
 
 <Units>varh</Units>
 
+<Submitter>IPSO</Submitter>
 
 <Description>
 
@@ -1215,6 +1268,7 @@
 
 <Units>var</Units>
 
+<Submitter>IPSO</Submitter>
 
 <Description>
 
@@ -1241,6 +1295,8 @@
 
 <Units></Units>
 
+<Submitter>IPSO</Submitter>
+
 <Description>
 
 <![CDATA[If applicable, the power factor of the current consumption.]]>
@@ -1265,6 +1321,8 @@
 <RangeEnumeration/>
 
 <Units></Units>
+
+<Submitter>IPSO</Submitter>
 
 <Description>
 
@@ -1291,6 +1349,8 @@
 
 <Units></Units>
 
+<Submitter>IPSO</Submitter>
+
 <Description>
 
 <![CDATA[Reset both cumulative active/reactive power]]>
@@ -1315,6 +1375,8 @@
 <RangeEnumeration/>
 
 <Units></Units>
+
+<Submitter>IPSO</Submitter>
 
 <Description>
 
@@ -1341,6 +1403,8 @@
 
 <Units></Units>
 
+<Submitter>IPSO</Submitter>
+
 <Description>
 
 <![CDATA[Time when the load control event will start started.]]>
@@ -1365,6 +1429,8 @@
 <RangeEnumeration/>
 
 <Units>min</Units>
+
+<Submitter>IPSO</Submitter>
 
 <Description>
 
@@ -1391,6 +1457,8 @@
 
 <Units></Units>
 
+<Submitter>IPSO</Submitter>
+
 <Description>
 
 <![CDATA[The criticality of the event. The device receiving the event will react in an appropriate fashion for the device.]]>
@@ -1415,6 +1483,8 @@
 <RangeEnumeration>0-100</RangeEnumeration>
 
 <Units>%</Units>
+
+<Submitter>IPSO</Submitter>
 
 <Description>
 
@@ -1441,6 +1511,8 @@
 
 <Units>%</Units>
 
+<Submitter>IPSO</Submitter>
+
 <Description>
 
 <![CDATA[Defines the duty cycle for the load control event, i.e, what percentage of time the receiving device is allowed to be on.]]>
@@ -1465,6 +1537,8 @@
 <RangeEnumeration/>
 
 <Units></Units>
+
+<Submitter>IPSO</Submitter>
 
 <Description>
 
@@ -1516,6 +1590,8 @@
 
 <Units>S</Units>
 
+<Submitter>IPSO</Submitter>
+
 <Description>
 
 <![CDATA[The time in seconds that the device has been turned on. Writing a value of 0 resets the counter.]]>
@@ -1540,6 +1616,8 @@
 <RangeEnumeration/>
 
 <Units></Units>
+
+<Submitter>IPSO</Submitter>
 
 <Description>
 
@@ -1566,6 +1644,8 @@
 
 <Units>Defined by “Units” resource.</Units>
 
+<Submitter>IPSO</Submitter>
+
 <Description>
 
 <![CDATA[The setpoint value.]]>
@@ -1590,6 +1670,8 @@
 <RangeEnumeration/>
 
 <Units>ms</Units>
+
+<Submitter>IPSO</Submitter>
 
 <Description>
 
@@ -1616,6 +1698,8 @@
 
 <Units>ms</Units>
 
+<Submitter>IPSO</Submitter>
+
 <Description>
 
 <![CDATA[Delay from the clear state to the busy state in ms.]]>
@@ -1640,6 +1724,8 @@
 <RangeEnumeration/>
 
 <Units></Units>
+
+<Submitter>IPSO</Submitter>
 
 <Description>
 
@@ -1666,6 +1752,8 @@
 
 <Units></Units>
 
+<Submitter>IPSO</Submitter>
+
 <Description>
 
 <![CDATA[A host device model identifier (manufacturer specified string)]]>
@@ -1691,6 +1779,8 @@
 
 <Units></Units>
 
+<Submitter>IPSO</Submitter>
+
 <Description>
 
 <![CDATA[The host device unique ID is assigned by AT&T as the “Device ID” in the onboarding tool and will be stored in]]>
@@ -1715,6 +1805,8 @@
 <RangeEnumeration/>
 
 <Units></Units>
+
+<Submitter>IPSO</Submitter>
 
 <Description>
 
