@@ -45,8 +45,6 @@
 
 </Description>
 
-<Submitter>-</Submitter>
-
 </Item>
 
 <Item ID="4001">
@@ -72,8 +70,6 @@
 <![CDATA[LWM2M Object versioning label.]]>
 
 </Description>
-
-<Submitter>-</Submitter>
 
 </Item>
 
@@ -237,8 +233,6 @@
 
 </Description>
 
-<Submitter>-</Submitter>
-
 </Item>
 
 
@@ -265,8 +259,6 @@
 <![CDATA[The cumulative value of active state detected.]]>
 
 </Description>
-
-<Submitter>-</Submitter>
 
 </Item>
 
@@ -295,8 +287,6 @@
 
 </Description>
 
-<Submitter>-</Submitter>
-
 </Item>
 
 
@@ -323,8 +313,6 @@
 <![CDATA[The debounce period in ms.]]>
 
 </Description>
-
-<Submitter>-</Submitter>
 
 </Item>
 
@@ -353,8 +341,6 @@
 
 </Description>
 
-<Submitter>-</Submitter>
-
 </Item>
 
 
@@ -382,7 +368,6 @@
 
 </Description>
 
-<Submitter>-</Submitter>
 
 </Item>
 
@@ -410,7 +395,6 @@
 
 </Description>
 
-<Submitter>-</Submitter>
 
 </Item>
 
@@ -728,6 +712,7 @@
 
 <Units>Defined by “Units” resource.</Units>
 
+<Submitter>IPSO</Submitter>
 
 <Description>
 
@@ -1141,6 +1126,7 @@
 </Description>
 
 </Item>
+
 
 <Submitter>IPSO</Submitter>
 
@@ -1564,6 +1550,8 @@
 <RangeEnumeration>0-100</RangeEnumeration>
 
 <Units>%</Units>
+
+<Submitter>IPSO</Submitter>
 
 <Description>
 
