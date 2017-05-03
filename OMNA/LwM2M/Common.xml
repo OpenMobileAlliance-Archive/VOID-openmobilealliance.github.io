@@ -1635,7 +1635,7 @@
 
 <Mandatory>Optional</Mandatory>
 
-<Type>-</Type>
+<Type>String</Type>
 
 <RangeEnumeration/>
 
@@ -1660,7 +1660,7 @@
 
 <Mandatory>Optional</Mandatory>
 
-<Type>-</Type>
+<Type>String</Type>
 
 <RangeEnumeration/>
 
@@ -1685,7 +1685,7 @@
 
 <Mandatory>Optional</Mandatory>
 
-<Type>-</Type>
+<Type>String</Type>
 
 <RangeEnumeration/>
 
@@ -1710,7 +1710,7 @@
 
 <Mandatory>Optional</Mandatory>
 
-<Type>-</Type>
+<Type>String</Type>
 
 <RangeEnumeration/>
 
