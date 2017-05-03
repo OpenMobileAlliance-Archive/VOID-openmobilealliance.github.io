@@ -2512,13 +2512,13 @@
 
     <Ver/>
 
-    <DDF>x</DDF>
+    <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/HostDeviceInfo.xml</DDF>
 
-    <LWM2M></LWM2M>
+    <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2FHostDeviceInfo.xml</LWM2M>
 
     <Vorto></Vorto>
 
-    <DDFLink>0</DDFLink>
+    <DDFLink>1</DDFLink>
 
     <TS></TS>
 
