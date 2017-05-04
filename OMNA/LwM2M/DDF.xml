@@ -34,7 +34,7 @@
     <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2fLWM2M_Security-v1_0.xml</LWM2M>
 
     <!-- Link that opens the Object in the Vorto environment -->
-    <Vorto>http://vorto.eclipse.org/resolve/lwm2m/Object/ObjectID/0</Vorto>
+    <Vorto> <a href= "http://vorto.eclipse.org/resolve/lwm2m/Object/ObjectID/0"> 0 </a></Vorto>
 
     <!-- 0 => if link to object should not be visible, 1 => if object should be visible (default) -->
     <DDFLink>1</DDFLink>
