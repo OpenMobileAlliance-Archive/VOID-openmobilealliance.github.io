@@ -368,8 +368,8 @@
 
 </Description>
 
-
 </Item>
+
 
 <Item ID="5506">
 
@@ -394,7 +394,6 @@
 <![CDATA[Unix Time. A signed integer representing the number of seconds since Jan 1st, 1970 in the UTC time zone.]]>
 
 </Description>
-
 
 </Item>
 
@@ -857,6 +856,7 @@
 
 </Item>
 
+
 <Item ID="5508">
 
 <Name>Min X Value</Name>
@@ -1095,84 +1095,6 @@
 <Description>
 
 <![CDATA[The accuracy of the position in meters.]]>
-
-</Description>
-
-</Item>
-
-<Item ID="5536">
-
-<Name>Current Position</Name>
-
-<Operations>RW</Operations>
-
-<MultipleInstances>Single</MultipleInstances>
-
-<Mandatory>Mandatory</Mandatory>
-
-<Type>Float</Type>
-
-<RangeEnumeration>0-100</RangeEnumeration>
-
-<Units>%</Units>
-
-<Submitter>IPSO</Submitter>
-
-<Description>
-
-<![CDATA[Current position or desired position of a positioner actuator.]]>
-
-</Description>
-
-</Item>
-
-<Item ID="5537">
-
-<Name>Transition Time</Name>
-
-<Operations>RW</Operations>
-
-<MultipleInstances>Single</MultipleInstances>
-
-<Mandatory>Optional</Mandatory>
-
-<Type>Float</Type>
-
-<RangeEnumeration/>
-
-<Units>s</Units>
-
-<Submitter>IPSO</Submitter>
-
-<Description>
-
-<![CDATA[The time expected to move the actuator to the new position.]]>
-
-</Description>
-
-</Item>
-
-<Item ID="5538">
-
-<Name>Remaining Time</Name>
-
-<Operations>R</Operations>
-
-<MultipleInstances>Single</MultipleInstances>
-
-<Mandatory>Optional</Mandatory>
-
-<Type>Float</Type>
-
-<RangeEnumeration/>
-
-<Units>s</Units>
-
-<Submitter>IPSO</Submitter>
-
-<Description>
-
-<![CDATA[The time remaining in an operation.]]>
 
 </Description>
 
@@ -1600,6 +1522,86 @@
 <Description>
 
 <![CDATA[Counts the number of times the timer output transitions from 0 to 1.]]>
+
+</Description>
+
+</Item>
+
+<Item ID="5536">
+
+<Name>Current Position</Name>
+
+<Operations>RW</Operations>
+
+<MultipleInstances>Single</MultipleInstances>
+
+<Mandatory>Mandatory</Mandatory>
+
+<Type>Float</Type>
+
+<RangeEnumeration>0-100</RangeEnumeration>
+
+<Units>%</Units>
+
+<Submitter>IPSO</Submitter>
+
+<Description>
+
+<![CDATA[Current position or desired position of a positioner actuator.]]>
+
+</Description>
+
+</Item>
+
+
+<Item ID="5537">
+
+<Name>Transition Time</Name>
+
+<Operations>RW</Operations>
+
+<MultipleInstances>Single</MultipleInstances>
+
+<Mandatory>Optional</Mandatory>
+
+<Type>Float</Type>
+
+<RangeEnumeration/>
+
+<Units>s</Units>
+
+<Submitter>IPSO</Submitter>
+
+<Description>
+
+<![CDATA[The time expected to move the actuator to the new position.]]>
+
+</Description>
+
+</Item>
+
+
+<Item ID="5538">
+
+<Name>Remaining Time</Name>
+
+<Operations>R</Operations>
+
+<MultipleInstances>Single</MultipleInstances>
+
+<Mandatory>Optional</Mandatory>
+
+<Type>Float</Type>
+
+<RangeEnumeration/>
+
+<Units>s</Units>
+
+<Submitter>IPSO</Submitter>
+
+<Description>
+
+<![CDATA[The time remaining in an operation.]]>
 
 </Description>
 
@@ -2583,17 +2585,32 @@
 
 </Item>
 
+
 <Item ID="5854">
+
 <Name>Off Time</Name>
+
 <Operations>RW</Operations>
+
 <MultipleInstances>Single</MultipleInstances>
+
 <Mandatory>Optional</Mandatory>
+
 <Type>Integer</Type>
+
 <RangeEnumeration/>
+
 <Units>s</Units>
+
+<Submitter>IPSO</Submitter>
+
 <Description>
-The time in seconds since the Off command was sent. Writing a value of 0 resets the counter.
+
+<![CDATA[The time in seconds since the Off command was sent. Writing a value of 0 resets the counter.]]>
+
 </Description>
+
+
 </Item>
 
 
