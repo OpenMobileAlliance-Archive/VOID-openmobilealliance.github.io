@@ -44,12 +44,15 @@
                         '<td>' +
                             ((ddfLink > 0) ? '<a href="http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=' + encodeURIComponent(ddfURL) + '" title="call the Editor">' + objectID + '</a>' : objectID) +
                         '</td>' + 
-                    // Vorto
-                        '<td>' +
-                            ((vortoLink) ? '<a href ="' + vortoLink + '">' + vortoLink + '</a>' : '-') +
+                        '<td style="width:15%">' +
+                            name +
                         '</td>' +
-                        '<td style="width: 136px">' +
-                            ((tsLink > 0) ? '<a href="' + tsURL + '" title="download document">' + name + '</a>' : name) +
+                    // TS & Vorto links
+                        '<td style="width:10%; text-align: center">' +
+                            ((tsLink > 0) ? '<a href="' + tsURL + '" title="download document">' + '<img src="../../Images/Windows_download.gif" alt="Download TS"></img>' + '</a>' : '-') +
+                        '</td>' + 
+                        '<td style="width:10%; text-align: center">' +
+                            ((vortoLink) ? '<a href ="' + vortoLink + '" target="_blank">' + '<img src="http://vorto.eclipse.org/images/favicon.png" alt="Vorto Link"></img>' + '</a>' : '-') +
                         '</td>' +
                         ((source === "1" || source === "2") ? '<td>' + owner + '</td>' : '') +
                         '<td>' +
