@@ -8,11 +8,39 @@
     text-align: center;
 }
 
-
+/* Descriptive table stylings */
 .descriptive-table > tbody > tr > td:last-child {
     padding: 0;
     margin: 0;
-    width: 50%;
+    width: 30%;
+}
+
+.descriptive-table th > a {
+    color: white;
+    text-decoration: underline;
+}
+.descriptive-table th > a:hover {
+    color: lightgrey;
+}
+
+.descriptive-table ul {
+    padding-left: 0;
+}
+
+.descriptive-table li {
+    list-style: none;
+    margin-bottom: 3px;
+}
+
+.descriptive-table li > a:hover {
+    background: lightblue;
+}
+
+.descriptive-table li > a {
+    color: white;
+    background: darkgray;
+    display: block;
+    text-decoration: none;
 }
 
 /*.descriptive-table > tbody > tr:nth-child(odd) .expanderOverlay {
