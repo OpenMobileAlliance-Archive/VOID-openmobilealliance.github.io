@@ -1,0 +1,26 @@
+{
+  "name": "openmobilealliance.github.io",
+  "version": "1.0.0",
+  "description": "Open Mobile Alliance Work Program Pages",
+  "main": "index.html",
+  "scripts": {
+    "lite": "lite-server",
+    "start": "concurrently \"npm run lite\" ",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OpenMobileAlliance/openmobilealliance.github.io.git"
+  },
+  "author": "Nathan Dixon",
+  "license": "OMA",
+  "bugs": {
+    "url": "https://github.com/OpenMobileAlliance/openmobilealliance.github.io/issues"
+  },
+  "homepage": "https://github.com/OpenMobileAlliance/openmobilealliance.github.io#readme",
+  "devDependencies": {
+    "jshint": "^2.9.4",
+    "concurrently": "^2.0.0",
+    "lite-server": "^2.2.0"
+  }
+}

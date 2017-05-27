@@ -34,7 +34,7 @@
     <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2fLWM2M_Security-v1_0.xml</LWM2M>
 
     <!-- Link that opens the Object in the Vorto environment -->
-    <Vorto></Vorto>
+    <Vorto>http://vorto.eclipse.org/resolve/lwm2m/Object/ObjectID/0</Vorto>
 
     <!-- 0 => if link to object should not be visible, 1 => if object should be visible (default) -->
     <DDFLink>1</DDFLink>
@@ -68,7 +68,7 @@
 
     <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3a%2f%2fwww.openmobilealliance.org%2ftech%2fprofiles%2fLWM2M_Server-v1_0.xml</LWM2M>
 
-    <Vorto></Vorto>
+    <Vorto>http://vorto.eclipse.org/resolve/lwm2m/Object/ObjectID/1</Vorto>
 
     <DDFLink>1</DDFLink>
 
@@ -99,7 +99,7 @@
 
     <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3a%2f%2fwww.openmobilealliance.org%2ftech%2fprofiles%2fLWM2M_Access_Control-v1_0.xmlV</LWM2M>
 
-    <Vorto></Vorto>
+    <Vorto>http://vorto.eclipse.org/resolve/lwm2m/Object/ObjectID/2</Vorto>
 
     <DDFLink>1</DDFLink>
 
@@ -130,7 +130,7 @@
 
     <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3a%2f%2fwww.openmobilealliance.org%2ftech%2fprofiles%2fLWM2M_Device-v1_0.xml</LWM2M>
 
-    <Vorto></Vorto>
+    <Vorto>http://vorto.eclipse.org/resolve/lwm2m/Object/ObjectID/3</Vorto>
 
     <DDFLink>1</DDFLink>
 
@@ -161,7 +161,7 @@
 
     <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3a%2f%2fwww.openmobilealliance.org%2ftech%2fprofiles%2fLWM2M_Connectivity_Monitoring-v1_0.xml</LWM2M>
 
-    <Vorto></Vorto>
+    <Vorto>http://vorto.eclipse.org/resolve/lwm2m/Object/ObjectID/4</Vorto>
 
     <DDFLink>1</DDFLink>
 
@@ -192,7 +192,7 @@
 
     <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3a%2f%2fwww.openmobilealliance.org%2ftech%2fprofiles%2fLWM2M_Firmware_Update-v1_0.xml</LWM2M>
 
-    <Vorto></Vorto>
+    <Vorto>http://vorto.eclipse.org/resolve/lwm2m/Object/ObjectID/5</Vorto>
 
     <DDFLink>1</DDFLink>
 
@@ -223,7 +223,7 @@
 
     <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3a%2f%2fwww.openmobilealliance.org%2ftech%2fprofiles%2fLWM2M_Location-v1_0.xml</LWM2M>
 
-    <Vorto></Vorto>
+    <Vorto>http://vorto.eclipse.org/resolve/lwm2m/Object/ObjectID/6</Vorto>
 
     <DDFLink>1</DDFLink>
 
@@ -254,7 +254,7 @@
 
     <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3a%2f%2fwww.openmobilealliance.org%2ftech%2fprofiles%2fLWM2M_Connectivity_Statistics-v1_0.xml</LWM2M>
 
-    <Vorto></Vorto>
+    <Vorto>http://vorto.eclipse.org/resolve/lwm2m/Object/ObjectID/7</Vorto>
 
     <DDFLink>1</DDFLink>
 
@@ -285,7 +285,7 @@
 
     <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3a%2f%2fwww.openmobilealliance.org%2ftech%2fprofiles%2fLWM2M_Lock_and_Wipe-V1_0.xml</LWM2M>
 
-    <Vorto></Vorto>
+    <Vorto>http://vorto.eclipse.org/resolve/lwm2m/Object/ObjectID/8</Vorto>
 
     <DDFLink>1</DDFLink>
 
@@ -316,7 +316,7 @@
 
     <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3a%2f%2fwww.openmobilealliance.org%2ftech%2fprofiles%2fLWM2M_Software_Management-v1_0.xml</LWM2M>
 
-    <Vorto></Vorto>
+    <Vorto>http://vorto.eclipse.org/resolve/lwm2m/Object/ObjectID/9</Vorto>
 
     <DDFLink>1</DDFLink>
 
@@ -347,7 +347,7 @@
 
     <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3a%2f%2fwww.openmobilealliance.org%2ftech%2fprofiles%2fLWM2M_Cellular_connectivity-v1_0.xml</LWM2M>
 
-    <Vorto></Vorto>
+    <Vorto>http://vorto.eclipse.org/resolve/lwm2m/Object/ObjectID/10</Vorto>
 
     <DDFLink>1</DDFLink>
 
@@ -378,7 +378,7 @@
 
     <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3a%2f%2fwww.openmobilealliance.org%2ftech%2fprofiles%2flLWM2M_APN_connection_profile-v1_0.xml</LWM2M>
 
-    <Vorto></Vorto>
+    <Vorto>http://vorto.eclipse.org/resolve/lwm2m/Object/ObjectID/11</Vorto>
 
     <DDFLink>1</DDFLink>
 
@@ -409,7 +409,7 @@
 
     <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2FLWM2M_WLAN_connectivity4-v1_0.xml</LWM2M>
 
-    <Vorto></Vorto>
+    <Vorto>http://vorto.eclipse.org/resolve/lwm2m/Object/ObjectID/12</Vorto>
 
     <DDFLink>1</DDFLink>
 
@@ -440,7 +440,7 @@
 
     <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3a%2f%2fwww.openmobilealliance.org%2ftech%2fprofiles%2fLWM2M_Bearer_selection-v1_0.xml</LWM2M>
 
-    <Vorto></Vorto>
+    <Vorto>http://vorto.eclipse.org/resolve/lwm2m/Object/ObjectID/13</Vorto>
 
     <DDFLink>1</DDFLink>
 
@@ -471,7 +471,7 @@
 
     <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3a%2f%2fwww.openmobilealliance.org%2ftech%2fprofiles%2fLWM2M_Software_Component-v1_0.xml</LWM2M>
 
-    <Vorto></Vorto>
+    <Vorto>http://vorto.eclipse.org/resolve/lwm2m/Object/ObjectID/14</Vorto>
 
     <DDFLink>1</DDFLink>
 
@@ -502,7 +502,7 @@
 
     <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3a%2f%2fwww.openmobilealliance.org%2ftech%2fprofiles%2fLWM2M_DevCapMgmt-v1_0.xml</LWM2M>
 
-    <Vorto></Vorto>
+    <Vorto>http://vorto.eclipse.org/resolve/lwm2m/Object/ObjectID/15</Vorto>
 
     <DDFLink>1</DDFLink>
 
@@ -533,7 +533,7 @@
 
     <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2FLWM2M_Portfolio-v1_0.xml</LWM2M>
 
-    <Vorto></Vorto>
+    <Vorto>http://vorto.eclipse.org/resolve/lwm2m/Object/ObjectID/16</Vorto>
 
     <DDFLink>1</DDFLink>
 
@@ -935,7 +935,7 @@
 
     <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3a%2f%2fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3200.xml</LWM2M>
 
-    <Vorto>http://vorto.eclipse.org/resolve/lwm2m/3200</Vorto>
+    <Vorto>http://vorto.eclipse.org/resolve/lwm2m/Object/ObjectID/3200</Vorto>
 
     <DDFLink>1</DDFLink>
 
@@ -966,7 +966,7 @@
 
     <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3201.xml</LWM2M>
 
-    <Vorto></Vorto>
+    <Vorto>http://vorto.eclipse.org/resolve/lwm2m/Object/ObjectID/3201</Vorto>
 
     <DDFLink>1</DDFLink>
 
@@ -997,7 +997,7 @@
 
     <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3202.xml</LWM2M>
 
-    <Vorto></Vorto>
+    <Vorto>http://vorto.eclipse.org/resolve/lwm2m/Object/ObjectID/3202</Vorto>
 
     <DDFLink>1</DDFLink>
 
@@ -1028,7 +1028,7 @@
 
     <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3203.xml</LWM2M>
 
-    <Vorto></Vorto>
+    <Vorto>http://vorto.eclipse.org/resolve/lwm2m/Object/ObjectID/3203</Vorto>
 
     <DDFLink>1</DDFLink>
 
@@ -1059,7 +1059,7 @@
 
     <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3300.xml</LWM2M>
 
-    <Vorto></Vorto>
+    <Vorto>http://vorto.eclipse.org/resolve/lwm2m/Object/ObjectID/3300</Vorto>
 
     <DDFLink>1</DDFLink>
 
@@ -1090,7 +1090,7 @@
 
     <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3a%2f%2fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3301.xml</LWM2M>
 
-    <Vorto></Vorto>
+    <Vorto>http://vorto.eclipse.org/resolve/lwm2m/Object/ObjectID/3301</Vorto>
 
     <DDFLink>1</DDFLink>
 
@@ -1121,7 +1121,7 @@
 
     <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3302.xml</LWM2M>
 
-    <Vorto></Vorto>
+    <Vorto>http://vorto.eclipse.org/resolve/lwm2m/Object/ObjectID/3302</Vorto>
 
     <DDFLink>1</DDFLink>
 
@@ -1152,7 +1152,7 @@
 
     <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3303.xml</LWM2M>
 
-    <Vorto></Vorto>
+    <Vorto>http://vorto.eclipse.org/resolve/lwm2m/Object/ObjectID/3303</Vorto>
 
     <DDFLink>1</DDFLink>
 
@@ -1183,7 +1183,7 @@
 
     <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3304.xml</LWM2M>
 
-    <Vorto></Vorto>
+    <Vorto>http://vorto.eclipse.org/resolve/lwm2m/Object/ObjectID/3304</Vorto>
 
     <DDFLink>1</DDFLink>
 
@@ -1214,7 +1214,7 @@
 
     <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3305.xml</LWM2M>
 
-    <Vorto></Vorto>
+    <Vorto>http://vorto.eclipse.org/resolve/lwm2m/Object/ObjectID/3305</Vorto>
 
     <DDFLink>1</DDFLink>
 
@@ -1245,7 +1245,7 @@
 
     <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3306.xml</LWM2M>
 
-    <Vorto></Vorto>
+    <Vorto>http://vorto.eclipse.org/resolve/lwm2m/Object/ObjectID/3306</Vorto>
 
     <DDFLink>1</DDFLink>
 
@@ -1276,7 +1276,7 @@
 
     <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3308.xml</LWM2M>
 
-    <Vorto></Vorto>
+    <Vorto>http://vorto.eclipse.org/resolve/lwm2m/Object/ObjectID/3308</Vorto>
 
     <DDFLink>1</DDFLink>
 
@@ -1307,7 +1307,7 @@
 
     <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3310.xml</LWM2M>
 
-    <Vorto></Vorto>
+    <Vorto>http://vorto.eclipse.org/resolve/lwm2m/Object/ObjectID/3310</Vorto>
 
     <DDFLink>1</DDFLink>
 
@@ -1338,7 +1338,7 @@
 
     <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3311.xml</LWM2M>
 
-    <Vorto></Vorto>
+    <Vorto>http://vorto.eclipse.org/resolve/lwm2m/Object/ObjectID/3311</Vorto>
 
     <DDFLink>1</DDFLink>
 
@@ -1369,7 +1369,7 @@
 
     <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3312.xml</LWM2M>
 
-    <Vorto></Vorto>
+    <Vorto>http://vorto.eclipse.org/resolve/lwm2m/Object/ObjectID/3312</Vorto>
 
     <DDFLink>1</DDFLink>
 
@@ -1400,7 +1400,7 @@
 
     <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3313.xml</LWM2M>
 
-    <Vorto></Vorto>
+    <Vorto>http://vorto.eclipse.org/resolve/lwm2m/Object/ObjectID/3313</Vorto>
 
     <DDFLink>1</DDFLink>
 
@@ -1431,7 +1431,7 @@
 
     <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3314.xml</LWM2M>
 
-    <Vorto></Vorto>
+    <Vorto>http://vorto.eclipse.org/resolve/lwm2m/Object/ObjectID/3314</Vorto>
 
     <DDFLink>1</DDFLink>
 
@@ -1462,7 +1462,7 @@
 
     <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3315.xml</LWM2M>
 
-    <Vorto></Vorto>
+    <Vorto>http://vorto.eclipse.org/resolve/lwm2m/Object/ObjectID/3315</Vorto>
 
     <DDFLink>1</DDFLink>
 
@@ -1493,7 +1493,7 @@
 
     <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3316.xml</LWM2M>
 
-    <Vorto></Vorto>
+    <Vorto>http://vorto.eclipse.org/resolve/lwm2m/Object/ObjectID/3316</Vorto>
 
     <DDFLink>1</DDFLink>
 
@@ -1524,7 +1524,7 @@
 
     <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3317.xml</LWM2M>
 
-    <Vorto></Vorto>
+    <Vorto>http://vorto.eclipse.org/resolve/lwm2m/Object/ObjectID/3317</Vorto>
 
     <DDFLink>1</DDFLink>
 
@@ -1555,7 +1555,7 @@
 
     <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3318.xml</LWM2M>
 
-    <Vorto></Vorto>
+    <Vorto>http://vorto.eclipse.org/resolve/lwm2m/Object/ObjectID/3318</Vorto>
 
     <DDFLink>1</DDFLink>
 
@@ -1586,7 +1586,7 @@
 
     <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3319.xml</LWM2M>
 
-    <Vorto></Vorto>
+    <Vorto>http://vorto.eclipse.org/resolve/lwm2m/Object/ObjectID/3319</Vorto>
 
     <DDFLink>1</DDFLink>
 
@@ -1617,7 +1617,7 @@
 
     <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3320.xml</LWM2M>
 
-    <Vorto></Vorto>
+    <Vorto>http://vorto.eclipse.org/resolve/lwm2m/Object/ObjectID/3320</Vorto>
 
     <DDFLink>1</DDFLink>
 
@@ -1648,7 +1648,7 @@
 
     <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3321.xml</LWM2M>
 
-    <Vorto></Vorto>
+    <Vorto>http://vorto.eclipse.org/resolve/lwm2m/Object/ObjectID/3321</Vorto>
 
     <DDFLink>1</DDFLink>
 
@@ -1679,7 +1679,7 @@
 
     <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3322.xml</LWM2M>
 
-    <Vorto></Vorto>
+    <Vorto>http://vorto.eclipse.org/resolve/lwm2m/Object/ObjectID/3322</Vorto>
 
     <DDFLink>1</DDFLink>
 
@@ -1710,7 +1710,7 @@
 
     <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3323.xml</LWM2M>
 
-    <Vorto></Vorto>
+    <Vorto>http://vorto.eclipse.org/resolve/lwm2m/Object/ObjectID/3323</Vorto>
 
     <DDFLink>1</DDFLink>
 
@@ -1741,7 +1741,7 @@
 
     <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3324.xml</LWM2M>
 
-    <Vorto></Vorto>
+    <Vorto>http://vorto.eclipse.org/resolve/lwm2m/Object/ObjectID/3324</Vorto>
 
     <DDFLink>1</DDFLink>
 
@@ -1772,7 +1772,7 @@
 
     <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3325.xml</LWM2M>
 
-    <Vorto></Vorto>
+    <Vorto>http://vorto.eclipse.org/resolve/lwm2m/Object/ObjectID/3325</Vorto>
 
     <DDFLink>1</DDFLink>
 
@@ -1803,7 +1803,7 @@
 
     <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3326.xml</LWM2M>
 
-    <Vorto></Vorto>
+    <Vorto>http://vorto.eclipse.org/resolve/lwm2m/Object/ObjectID/3326</Vorto>
 
     <DDFLink>1</DDFLink>
 
@@ -1834,7 +1834,7 @@
 
     <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3327.xml</LWM2M>
 
-    <Vorto></Vorto>
+    <Vorto>http://vorto.eclipse.org/resolve/lwm2m/Object/ObjectID/3327</Vorto>
 
     <DDFLink>1</DDFLink>
 
@@ -1865,7 +1865,7 @@
 
     <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3328.xml</LWM2M>
 
-    <Vorto></Vorto>
+    <Vorto>http://vorto.eclipse.org/resolve/lwm2m/Object/ObjectID/3328</Vorto>
 
     <DDFLink>1</DDFLink>
 
@@ -1896,7 +1896,7 @@
 
     <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3329.xml</LWM2M>
 
-    <Vorto></Vorto>
+    <Vorto>http://vorto.eclipse.org/resolve/lwm2m/Object/ObjectID/3329</Vorto>
 
     <DDFLink>1</DDFLink>
 
@@ -1927,7 +1927,7 @@
 
     <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3330.xml</LWM2M>
 
-    <Vorto></Vorto>
+    <Vorto>http://vorto.eclipse.org/resolve/lwm2m/Object/ObjectID/3330</Vorto>
 
     <DDFLink>1</DDFLink>
 
@@ -1958,7 +1958,7 @@
 
     <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3331.xml</LWM2M>
 
-    <Vorto></Vorto>
+    <Vorto>http://vorto.eclipse.org/resolve/lwm2m/Object/ObjectID/3331</Vorto>
 
     <DDFLink>1</DDFLink>
 
@@ -1989,7 +1989,7 @@
 
     <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3332.xml</LWM2M>
 
-    <Vorto></Vorto>
+    <Vorto>http://vorto.eclipse.org/resolve/lwm2m/Object/ObjectID/3332</Vorto>
 
     <DDFLink>1</DDFLink>
 
@@ -2020,7 +2020,7 @@
 
     <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3333.xml</LWM2M>
 
-    <Vorto></Vorto>
+    <Vorto>http://vorto.eclipse.org/resolve/lwm2m/Object/ObjectID/3333</Vorto>
 
     <DDFLink>1</DDFLink>
 
@@ -2051,7 +2051,7 @@
 
     <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3334.xml</LWM2M>
 
-    <Vorto></Vorto>
+    <Vorto>http://vorto.eclipse.org/resolve/lwm2m/Object/ObjectID/3334</Vorto>
 
     <DDFLink>1</DDFLink>
 
@@ -2082,7 +2082,7 @@
 
     <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3335.xml</LWM2M>
 
-    <Vorto></Vorto>
+    <Vorto>http://vorto.eclipse.org/resolve/lwm2m/Object/ObjectID/3335</Vorto>
 
     <DDFLink>1</DDFLink>
 
@@ -2113,7 +2113,7 @@
 
     <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3336.xml</LWM2M>
 
-    <Vorto></Vorto>
+    <Vorto>http://vorto.eclipse.org/resolve/lwm2m/Object/ObjectID/3336</Vorto>
 
     <DDFLink>1</DDFLink>
 
@@ -2144,7 +2144,7 @@
 
     <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3337.xml</LWM2M>
 
-    <Vorto></Vorto>
+    <Vorto>http://vorto.eclipse.org/resolve/lwm2m/Object/ObjectID/3337</Vorto>
 
     <DDFLink>1</DDFLink>
 
@@ -2175,7 +2175,7 @@
 
     <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3338.xml</LWM2M>
 
-    <Vorto></Vorto>
+    <Vorto>http://vorto.eclipse.org/resolve/lwm2m/Object/ObjectID/3338</Vorto>
 
     <DDFLink>1</DDFLink>
 
@@ -2206,7 +2206,7 @@
 
     <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3339.xml</LWM2M>
 
-    <Vorto></Vorto>
+    <Vorto>http://vorto.eclipse.org/resolve/lwm2m/Object/ObjectID/3339</Vorto>
 
     <DDFLink>1</DDFLink>
 
@@ -2237,7 +2237,7 @@
 
     <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3340.xml</LWM2M>
 
-    <Vorto></Vorto>
+    <Vorto>http://vorto.eclipse.org/resolve/lwm2m/Object/ObjectID/3340</Vorto>
 
     <DDFLink>1</DDFLink>
 
@@ -2268,7 +2268,7 @@
 
     <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3341.xml</LWM2M>
 
-    <Vorto></Vorto>
+    <Vorto>http://vorto.eclipse.org/resolve/lwm2m/Object/ObjectID/3341</Vorto>
 
     <DDFLink>1</DDFLink>
 
@@ -2299,7 +2299,7 @@
 
     <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3342.xml</LWM2M>
 
-    <Vorto></Vorto>
+    <Vorto>http://vorto.eclipse.org/resolve/lwm2m/Object/ObjectID/3342</Vorto>
 
     <DDFLink>1</DDFLink>
 
@@ -2330,7 +2330,7 @@
 
     <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3343.xml</LWM2M>
 
-    <Vorto></Vorto>
+    <Vorto>http://vorto.eclipse.org/resolve/lwm2m/Object/ObjectID/3343</Vorto>
 
     <DDFLink>1</DDFLink>
 
@@ -2361,7 +2361,7 @@
 
     <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3344.xml</LWM2M>
 
-    <Vorto></Vorto>
+    <Vorto>http://vorto.eclipse.org/resolve/lwm2m/Object/ObjectID/3344</Vorto>
 
     <DDFLink>1</DDFLink>
 
@@ -2392,7 +2392,7 @@
 
     <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3345.xml</LWM2M>
 
-    <Vorto></Vorto>
+    <Vorto>http://vorto.eclipse.org/resolve/lwm2m/Object/ObjectID/3345</Vorto>
 
     <DDFLink>1</DDFLink>
 
@@ -2423,7 +2423,7 @@
 
     <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3346.xml</LWM2M>
 
-    <Vorto></Vorto>
+    <Vorto>http://vorto.eclipse.org/resolve/lwm2m/Object/ObjectID/3346</Vorto>
 
     <DDFLink>1</DDFLink>
 
@@ -2454,7 +2454,7 @@
 
     <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3347.xml</LWM2M>
 
-    <Vorto></Vorto>
+    <Vorto>http://vorto.eclipse.org/resolve/lwm2m/Object/ObjectID/3347</Vorto>
 
     <DDFLink>1</DDFLink>
 
@@ -2485,7 +2485,7 @@
 
     <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3348.xml</LWM2M>
 
-    <Vorto></Vorto>
+    <Vorto>http://vorto.eclipse.org/resolve/lwm2m/Object/ObjectID/3348</Vorto>
 
     <DDFLink>1</DDFLink>
 

@@ -1,10 +1,5 @@
-﻿$(document).ready(function () {
-    
-});
-
-
-
-function DisplayXML(ddfXMLFileURL, commonXMLFileUrl) {
+﻿function DisplayXML(ddfXMLFileURL, commonXMLFileUrl) {
+    // Load the DDF.xml data and fill in the OMA Objects, 3rd Party Objects and Individuals Objects tables
     $.ajax({
         type: "GET",
         async: false,
@@ -24,6 +19,7 @@ function DisplayXML(ddfXMLFileURL, commonXMLFileUrl) {
                 var tsURL = $(this).find('TS').text();
                 var name = $(this).find('Name').text();
                 var owner = $(this).find('Owner').text();
+                var vortoLink = $(this).find('Vorto').text();
                 var description = $(this).find('Description').text();
 
                 if (source.replace(/\s/g,'') === "" || source === "0") {
@@ -36,18 +32,21 @@ function DisplayXML(ddfXMLFileURL, commonXMLFileUrl) {
 
                 $tableselected.find('tbody').append(
                     '<tr>' +
+                    // URN / Version
                         '<td style="width: 143px">' +
                             urn +
                         '</td>' +
+                    // ObjectID / xml
                         '<td>' +
                             ((ddfLink > 0) ? '<a href="' + ddfURL + '" title="download xml file">' + objectID + '</a>' : objectID) +
                         '</td>' +
+                    // LwM2M Editor
                         '<td>' +
                             ((ddfLink > 0) ? '<a href="http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=' + encodeURIComponent(ddfURL) + '" title="call the Editor">' + objectID + '</a>' : objectID) +
                         '</td>' + 
+                    // Vorto
                         '<td>' +
-                            '<!-- Link not available yet -->' +
-                            '<a>' + '-' + '</a>'+
+                            ((vortoLink) ? '<a href ="' + vortoLink + '">' + vortoLink + '</a>' : '-') +
                         '</td>' +
                         '<td style="width: 136px">' +
                             ((tsLink > 0) ? '<a href="' + tsURL + '" title="download document">' + name + '</a>' : name) +
@@ -62,6 +61,7 @@ function DisplayXML(ddfXMLFileURL, commonXMLFileUrl) {
         }
     });
 
+// Load the common.xml data and fill in the common objects table
     $.ajax({
         type: "GET",
         async: false,
