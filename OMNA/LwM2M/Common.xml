@@ -47,6 +47,7 @@
 
 </Item>
 
+
 <Item ID="4001">
 
 <Name>ObjectVersion</Name>
@@ -2310,7 +2311,7 @@
 
 <Type>String</Type>
 
-<RangeEnumeration>-</RangeEnumeration>
+<RangeEnumeration></RangeEnumeration>
 
 <Units></Units>
 
