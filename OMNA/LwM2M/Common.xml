@@ -575,6 +575,7 @@
 <Type>String</Type>
 
 <RangeEnumeration></RangeEnumeration>
+
 <Submitter>IPSO</Submitter>
 
 <Description>
@@ -599,6 +600,7 @@
 <Type>String</Type>
 
 <RangeEnumeration></RangeEnumeration>
+
 <Submitter>IPSO</Submitter>
 
 <Description>
@@ -623,6 +625,7 @@
 <Type>String</Type>
 
 <RangeEnumeration></RangeEnumeration>
+
 <Submitter>IPSO</Submitter>
 
 <Description>
@@ -632,6 +635,57 @@
 </Description>
 
 </Item>
+
+
+<Item ID="5517">
+
+<Name>Volocity</Name>
+
+<Operations>R</Operations>
+
+<MultipleInstances>Single</MultipleInstances>
+
+<Mandatory>Optional</Mandatory>
+
+<Type>Opaque</Type>
+
+<RangeEnumeration></RangeEnumeration>
+
+<Submitter>IPSO</Submitter>
+
+<Description>
+
+<![CDATA[The velocity of the device as defined in 3GPP 23.032 GAD specification. This set of values may not be available if the device is static.]]>
+
+</Description>
+
+</Item>
+
+
+<Item ID="5518">
+
+<Name>Timestamp</Name>
+
+<Operations>R</Operations>
+
+<MultipleInstances>Single</MultipleInstances>
+
+<Mandatory>Optional</Mandatory>
+
+<Type>Time</Type>
+
+<RangeEnumeration></RangeEnumeration>
+
+<Submitter>IPSO</Submitter>
+
+<Description>
+
+<![CDATA[The timestamp of when the location measurement was performed.]]>
+
+</Description>
+
+</Item>
+
 
 <Item ID="5519">
 
