@@ -2821,11 +2821,11 @@
 
     <Vorto></Vorto>
 
-    <DDFLink></DDFLink>
+    <DDFLink>1</DDFLink>
 
     <TS></TS>
 
-    <TSLink></TSLink>
+    <TSLink>0</TSLink>
 
   </Item>
 
