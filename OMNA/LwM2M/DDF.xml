@@ -2807,7 +2807,7 @@
 
     <Name>Reserved</Name>
 
-    <Description>-</Description>
+    <Description></Description>
 
     <Owner>-</Owner>
 
@@ -2819,7 +2819,7 @@
 
     <LWM2M>-</LWM2M>
 
-    <Vorto>-</Vorto>
+    <Vorto></Vorto>
 
     <DDFLink></DDFLink>
 
