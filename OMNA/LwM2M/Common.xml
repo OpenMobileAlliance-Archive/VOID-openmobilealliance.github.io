@@ -33,9 +33,9 @@
 
 <Type>Objlnk</Type>
 
-<RangeEnumeration/>
+<RangeEnumeration></RangeEnumeration>
 
-<Units/>
+<Units></Units>
 
 <Submitter>OMA</Submitter>
 
@@ -46,6 +46,7 @@
 </Description>
 
 </Item>
+
 
 <Item ID="4001">
 
@@ -59,10 +60,7 @@
 
 <Type>String</Type>
 
-<RangeEnumeration/>
-
-<Units/>
-
+<RangeEnumeration></RangeEnumeration>
 <Submitter>OMA</Submitter>
 
 <Description>
@@ -88,7 +86,7 @@
 
 <RangeEnumeration>0-255</RangeEnumeration>
 
-<Units/>
+<RangeEnumeration></RangeEnumeration>
 
 <Submitter>OMA</Submitter>
 
@@ -111,12 +109,9 @@
 
 <Mandatory>Optional</Mandatory>
 
-<Type>-</Type>
+<Type></Type>
 
-<RangeEnumeration/>
-
-<Units/>
-
+<RangeEnumeration></RangeEnumeration>
 <Submitter>OMA</Submitter>
 
 <Description>
@@ -138,12 +133,9 @@
 
 <Mandatory>Optional</Mandatory>
 
-<Type>-</Type>
+<Type></Type>
 
-<RangeEnumeration/>
-
-<Units/>
-
+<RangeEnumeration></RangeEnumeration>
 <Submitter>OMA</Submitter>
 
 <Description>
@@ -169,7 +161,7 @@
 
 <RangeEnumeration>0-255</RangeEnumeration>
 
-<Units/>
+<RangeEnumeration></RangeEnumeration>
 
 <Submitter>OMA</Submitter>
 
@@ -194,10 +186,7 @@
 
 <Type>Opaque</Type>
 
-<RangeEnumeration/>
-
-<Units/>
-
+<RangeEnumeration></RangeEnumeration>
 <Submitter>OMA</Submitter>
 
 <Description>
@@ -222,9 +211,6 @@
 <Type>Boolean</Type>
 
 <RangeEnumeration></RangeEnumeration>
-
-<Units/>
-
 <Submitter>IPSO</Submitter>
 
 <Description>
@@ -249,9 +235,6 @@
 <Type>Integer</Type>
 
 <RangeEnumeration></RangeEnumeration>
-
-<Units/>
-
 <Submitter>IPSO</Submitter>
 
 <Description>
@@ -276,9 +259,6 @@
 <Type>Boolean</Type>
 
 <RangeEnumeration></RangeEnumeration>
-
-<Units/>
-
 <Submitter>IPSO</Submitter>
 
 <Description>
@@ -329,9 +309,8 @@
 
 <Type>Integer</Type>
 
-<RangeEnumeration/>
+<RangeEnumeration></RangeEnumeration>
 
-<Units/>
 
 <Submitter>IPSO</Submitter>
 
@@ -356,9 +335,7 @@
 
 <Type>Opaque</Type>
 
-<RangeEnumeration/>
-
-<Units/>
+<RangeEnumeration></RangeEnumeration>
 
 <Submitter>IPSO</Submitter>
 
@@ -383,9 +360,7 @@
 
 <Type>Time</Type>
 
-<RangeEnumeration/>
-
-<Units/>
+<RangeEnumeration></RangeEnumeration>
 
 <Submitter>IPSO</Submitter>
 
@@ -396,439 +371,6 @@
 </Description>
 
 </Item>
-
-
-<Item ID="5550">
-
-<Name>Digital Output State</Name>
-
-<Operations>RW</Operations>
-
-<MultipleInstances></MultipleInstances>
-
-<Mandatory></Mandatory>
-
-<Type>Boolean</Type>
-
-<RangeEnumeration/>
-
-<Units/>
-
-<Submitter>IPSO</Submitter>
-
-<Description>
-
-<![CDATA[The current state of a digital output]]>
-
-</Description>
-
-</Item>
-
-
-<Item ID="5551">
-
-<Name>Digital Output Polarity</Name>
-
-<Operations>RW</Operations>
-
-<MultipleInstances></MultipleInstances>
-
-<Mandatory></Mandatory>
-
-<Type>Boolean</Type>
-
-<RangeEnumeration/>
-
-<Units/>
-
-<Submitter>IPSO</Submitter>
-
-<Description>
-
-<![CDATA[The polarity of a digital input as a Boolean (0 = Normal, 1= Reversed)]]>
-
-</Description>
-
-</Item>
-
-
-<Item ID="5600">
-
-<Name>Analog Input Current Value</Name>
-
-<Operations>R</Operations>
-
-<MultipleInstances></MultipleInstances>
-
-<Mandatory></Mandatory>
-
-<Type>Float</Type>
-
-<RangeEnumeration>0-1</RangeEnumeration>
-
-<Units>V</Units>
-
-<Submitter>IPSO</Submitter>
-
-<Description>
-
-<![CDATA[The current state of the analogue input.]]>
-
-</Description>
-
-</Item>
-
-
-<Item ID="5601">
-
-<Name>Min Measured Value</Name>
-
-<Operations>R</Operations>
-
-<MultipleInstances></MultipleInstances>
-
-<Mandatory></Mandatory>
-
-<Type>Float</Type>
-
-<RangeEnumeration/>
-
-<Units>Defined by “Units” resource.</Units>
-
-<Submitter>IPSO</Submitter>
-
-<Description>
-
-<![CDATA[The minimum value measured by the sensor since it is ON or Reset.]]>
-
-</Description>
-
-</Item>
-
-
-<Item ID="5602">
-
-<Name>Max Measured Value</Name>
-
-<Operations>R</Operations>
-
-<MultipleInstances></MultipleInstances>
-
-<Mandatory></Mandatory>
-
-<Type>Float</Type>
-
-<RangeEnumeration/>
-
-<Units>Defined by “Units” resource.</Units>
-
-<Submitter>IPSO</Submitter>
-
-<Description>
-
-<![CDATA[The maximum value measured by the sensor since it is ON or Reset]]>
-
-</Description>
-
-</Item>
-
-
-<Item ID="5603">
-
-<Name>Min Range Value</Name>
-
-<Operations>R</Operations>
-
-<MultipleInstances></MultipleInstances>
-
-<Mandatory></Mandatory>
-
-<Type>Float</Type>
-
-<RangeEnumeration/>
-
-<Units>Defined by “Units” resource.</Units>
-
-<Submitter>IPSO</Submitter>
-
-<Description>
-
-<![CDATA[The minimum value that can be measured by the sensor]]>
-
-</Description>
-
-</Item>
-
-
-<Item ID="5604">
-
-<Name>Max Range Value</Name>
-
-<Operations>R</Operations>
-
-<MultipleInstances></MultipleInstances>
-
-<Mandatory></Mandatory>
-
-<Type>Float</Type>
-
-<RangeEnumeration/>
-
-<Units>Defined by “Units” resource.</Units>
-
-<Submitter>IPSO</Submitter>
-
-<Description>
-
-<![CDATA[The maximum value that can be measured by the sensor]]>
-
-</Description>
-
-</Item>
-
-
-<Item ID="5605">
-
-<Name>Reset Min and Max Measured Values</Name>
-
-<Operations>E</Operations>
-
-<MultipleInstances></MultipleInstances>
-
-<Mandatory></Mandatory>
-
-<Type>Opaque</Type>
-
-<RangeEnumeration/>
-
-<Units/>
-
-<Submitter>IPSO</Submitter>
-
-<Description>
-
-<![CDATA[Reset the Min and Max Measured Values to Current Value]]>
-
-</Description>
-
-</Item>
-
-
-<Item ID="5650">
-
-<Name>Analog Output Current Value</Name>
-
-<Operations>RW</Operations>
-
-<MultipleInstances></MultipleInstances>
-
-<Mandatory></Mandatory>
-
-<Type>Float</Type>
-
-<RangeEnumeration>0-1</RangeEnumeration>
-
-<Units>-</Units>
-
-<Submitter>IPSO</Submitter>
-
-<Description>
-
-<![CDATA[The current state of the analogue output.]]>
-
-</Description>
-
-</Item>
-
-
-<Item ID="5700">
-
-<Name>Sensor Value</Name>
-
-<Operations>R</Operations>
-
-<MultipleInstances></MultipleInstances>
-
-<Mandatory></Mandatory>
-
-<Type>Float</Type>
-
-<RangeEnumeration/>
-
-<Units>Defined by “Units” resource.</Units>
-
-<Submitter>IPSO</Submitter>
-
-<Description>
-
-<![CDATA[Last or Current Measured Value from the Sensor.]]>
-
-</Description>
-
-</Item>
-
-
-<Item ID="5701">
-
-<Name>Sensor Units</Name>
-
-<Operations>R</Operations>
-
-<MultipleInstances></MultipleInstances>
-
-<Mandatory></Mandatory>
-
-<Type>Float</Type>
-
-<RangeEnumeration/>
-
-<Units/>
-
-<Submitter>IPSO</Submitter>
-
-<Description>
-
-<![CDATA[Measurement Units Definition e.g. “Cel” for Temperature in Celsius.]]>
-
-</Description>
-
-</Item>
-
-
-<Item ID="5702">
-
-<Name>X Value</Name>
-
-<Operations>R</Operations>
-
-<MultipleInstances></MultipleInstances>
-
-<Mandatory></Mandatory>
-
-<Type>Float</Type>
-
-<RangeEnumeration/>
-
-<Units>Defined by “Units” resource.</Units>
-
-<Submitter>IPSO</Submitter>
-
-<Description>
-
-<![CDATA[The measured value along the X axis.]]>
-
-</Description>
-
-</Item>
-
-
-<Item ID="5703">
-
-<Name>Y Value</Name>
-
-<Operations>R</Operations>
-
-<MultipleInstances></MultipleInstances>
-
-<Mandatory></Mandatory>
-
-<Type>Float</Type>
-
-<RangeEnumeration/>
-
-<Units>Defined by “Units” resource.</Units>
-
-<Submitter>IPSO</Submitter>
-
-<Description>
-
-<![CDATA[The measured value along the Y axis.]]>
-
-</Description>
-
-</Item>
-
-
-<Item ID="5704">
-
-<Name>Z Value</Name>
-
-<Operations>R</Operations>
-
-<MultipleInstances></MultipleInstances>
-
-<Mandatory></Mandatory>
-
-<Type>Float</Type>
-
-<RangeEnumeration/>
-
-<Units>Defined by “Units” resource.</Units>
-
-<Submitter>IPSO</Submitter>
-
-<Description>
-
-<![CDATA[The measured value along the Z axis.]]>
-
-</Description>
-
-</Item>
-
-
-<Item ID="5705">
-
-<Name>Compass Direction</Name>
-
-<Operations>R</Operations>
-
-<MultipleInstances></MultipleInstances>
-
-<Mandatory></Mandatory>
-
-<Type>Float</Type>
-
-<RangeEnumeration>0-360</RangeEnumeration>
-
-<Units>deg.</Units>
-
-<Submitter>IPSO</Submitter>
-
-<Description>
-
-<![CDATA[The compass direction.]]>
-
-</Description>
-
-</Item>
-
-
-<Item ID="5706">
-
-<Name>Colour</Name>
-
-<Operations>RW</Operations>
-
-<MultipleInstances></MultipleInstances>
-
-<Mandatory></Mandatory>
-
-<Type>String</Type>
-
-<RangeEnumeration/>
-
-<Units>s</Units>
-
-<Submitter>IPSO</Submitter>
-
-<Description>
-
-<![CDATA[A string representing a value in some color space]]>
-
-</Description>
-
-</Item>
-
 
 <Item ID="5507">
 
@@ -869,7 +411,7 @@
 
 <Type>Float</Type>
 
-<RangeEnumeration/>
+<RangeEnumeration></RangeEnumeration>
 
 <Units>Defined by “Units” resource.</Units>
 
@@ -896,7 +438,7 @@
 
 <Type>Float</Type>
 
-<RangeEnumeration/>
+<RangeEnumeration></RangeEnumeration>
 
 <Units>Defined by “Units” resource.</Units>
 
@@ -923,7 +465,7 @@
 
 <Type>Float</Type>
 
-<RangeEnumeration/>
+<RangeEnumeration></RangeEnumeration>
 
 <Units>Defined by “Units” resource.</Units>
 
@@ -950,7 +492,7 @@
 
 <Type>Float</Type>
 
-<RangeEnumeration/>
+<RangeEnumeration></RangeEnumeration>
 
 <Units>Defined by “Units” resource.</Units>
 
@@ -977,7 +519,7 @@
 
 <Type>Float</Type>
 
-<RangeEnumeration/>
+<RangeEnumeration></RangeEnumeration>
 
 <Units>Defined by “Units” resource.</Units>
 
@@ -1004,7 +546,7 @@
 
 <Type>Float</Type>
 
-<RangeEnumeration/>
+<RangeEnumeration></RangeEnumeration>
 
 <Units>Defined by “Units” resource.</Units>
 
@@ -1032,9 +574,7 @@
 
 <Type>String</Type>
 
-<RangeEnumeration/>
-
-<Units/>
+<RangeEnumeration></RangeEnumeration>
 
 <Submitter>IPSO</Submitter>
 
@@ -1059,9 +599,7 @@
 
 <Type>String</Type>
 
-<RangeEnumeration/>
-
-<Units/>
+<RangeEnumeration></RangeEnumeration>
 
 <Submitter>IPSO</Submitter>
 
@@ -1086,9 +624,7 @@
 
 <Type>String</Type>
 
-<RangeEnumeration/>
-
-<Units/>
+<RangeEnumeration></RangeEnumeration>
 
 <Submitter>IPSO</Submitter>
 
@@ -1099,6 +635,57 @@
 </Description>
 
 </Item>
+
+
+<Item ID="5517">
+
+<Name>Volocity</Name>
+
+<Operations>R</Operations>
+
+<MultipleInstances>Single</MultipleInstances>
+
+<Mandatory>Optional</Mandatory>
+
+<Type>Opaque</Type>
+
+<RangeEnumeration></RangeEnumeration>
+
+<Submitter>IPSO</Submitter>
+
+<Description>
+
+<![CDATA[The velocity of the device as defined in 3GPP 23.032 GAD specification. This set of values may not be available if the device is static.]]>
+
+</Description>
+
+</Item>
+
+
+<Item ID="5518">
+
+<Name>Timestamp</Name>
+
+<Operations>R</Operations>
+
+<MultipleInstances>Single</MultipleInstances>
+
+<Mandatory>Optional</Mandatory>
+
+<Type>Time</Type>
+
+<RangeEnumeration></RangeEnumeration>
+
+<Submitter>IPSO</Submitter>
+
+<Description>
+
+<![CDATA[The timestamp of when the location measurement was performed.]]>
+
+</Description>
+
+</Item>
+
 
 <Item ID="5519">
 
@@ -1166,7 +753,7 @@
 
 <Type>Float</Type>
 
-<RangeEnumeration/>
+<RangeEnumeration></RangeEnumeration>
 
 <Units>s</Units>
 
@@ -1192,10 +779,7 @@
 
 <Type>Opaque</Type>
 
-<RangeEnumeration/>
-
-<Units/>
-
+<RangeEnumeration></RangeEnumeration>
 <Submitter>IPSO</Submitter>
 
 <Description>
@@ -1218,10 +802,7 @@
 
 <Type>Opaque</Type>
 
-<RangeEnumeration/>
-
-<Units/>
-
+<RangeEnumeration></RangeEnumeration>
 <Submitter>IPSO</Submitter>
 
 <Description>
@@ -1244,7 +825,7 @@
 
 <Type>Float</Type>
 
-<RangeEnumeration/>
+<RangeEnumeration></RangeEnumeration>
 
 <Units>seconds</Units>
 
@@ -1271,7 +852,7 @@
 
 <Type>Float</Type>
 
-<RangeEnumeration/>
+<RangeEnumeration></RangeEnumeration>
 
 <Units>s</Units>
 
@@ -1300,7 +881,7 @@
 
 <RangeEnumeration>0-4</RangeEnumeration>
 
-<Units/>
+<RangeEnumeration></RangeEnumeration>
 
 <Submitter>IPSO</Submitter>
 
@@ -1325,10 +906,7 @@
 
 <Type>String</Type>
 
-<RangeEnumeration/>
-
-<Units/>
-
+<RangeEnumeration></RangeEnumeration>
 <Submitter>IPSO</Submitter>
 
 <Description>
@@ -1352,10 +930,7 @@
 
 <Type>Integer</Type>
 
-<RangeEnumeration/>
-
-<Units/>
-
+<RangeEnumeration></RangeEnumeration>
 <Submitter>IPSO</Submitter>
 
 <Description>
@@ -1380,10 +955,7 @@
 
 <Type>Integer</Type>
 
-<RangeEnumeration/>
-
-<Units/>
-
+<RangeEnumeration></RangeEnumeration>
 <Submitter>IPSO</Submitter>
 
 <Description>
@@ -1407,10 +979,7 @@
 
 <Type/>
 
-<RangeEnumeration/>
-
-<Units/>
-
+<RangeEnumeration></RangeEnumeration>
 <Submitter>IPSO</Submitter>
 
 <Description>
@@ -1459,10 +1028,7 @@
 
 <Type>Boolean</Type>
 
-<RangeEnumeration/>
-
-<Units/>
-
+<RangeEnumeration></RangeEnumeration>
 <Submitter>IPSO</Submitter>
 
 <Description>
@@ -1486,10 +1052,7 @@
 
 <Type>Boolean</Type>
 
-<RangeEnumeration/>
-
-<Units/>
-
+<RangeEnumeration></RangeEnumeration>
 <Submitter>IPSO</Submitter>
 
 <Description>
@@ -1513,10 +1076,7 @@
 
 <Type>Integer</Type>
 
-<RangeEnumeration/>
-
-<Units/>
-
+<RangeEnumeration></RangeEnumeration>
 <Submitter>IPSO</Submitter>
 
 <Description>
@@ -1566,7 +1126,7 @@
 
 <Type>Float</Type>
 
-<RangeEnumeration/>
+<RangeEnumeration></RangeEnumeration>
 
 <Units>s</Units>
 
@@ -1593,7 +1153,7 @@
 
 <Type>Float</Type>
 
-<RangeEnumeration/>
+<RangeEnumeration></RangeEnumeration>
 
 <Units>s</Units>
 
@@ -1620,10 +1180,7 @@
 
 <Type>Integer</Type>
 
-<RangeEnumeration/>
-
-<Units/>
-
+<RangeEnumeration></RangeEnumeration>
 <Submitter>IPSO</Submitter>
 
 <Description>
@@ -1647,10 +1204,7 @@
 
 <Type>Integer</Type>
 
-<RangeEnumeration/>
-
-<Units/>
-
+<RangeEnumeration></RangeEnumeration>
 <Submitter>IPSO</Submitter>
 
 <Description>
@@ -1674,10 +1228,7 @@
 
 <Type>Boolean</Type>
 
-<RangeEnumeration/>
-
-<Units/>
-
+<RangeEnumeration></RangeEnumeration>
 <Submitter>IPSO</Submitter>
 
 <Description>
@@ -1701,7 +1252,7 @@
 
 <Type>Float</Type>
 
-<RangeEnumeration/>
+<RangeEnumeration></RangeEnumeration>
 
 <Units>s</Units>
 
@@ -1729,10 +1280,7 @@
 
 <Type>Integer</Type>
 
-<RangeEnumeration/>
-
-<Units/>
-
+<RangeEnumeration></RangeEnumeration>
 <Submitter>IPSO</Submitter>
 
 <Description>
@@ -1757,10 +1305,7 @@
 
 <Type>Integer</Type>
 
-<RangeEnumeration/>
-
-<Units/>
-
+<RangeEnumeration></RangeEnumeration>
 <Submitter>IPSO</Submitter>
 
 <Description>
@@ -1784,10 +1329,7 @@
 
 <Type>Integer</Type>
 
-<RangeEnumeration/>
-
-<Units/>
-
+<RangeEnumeration></RangeEnumeration>
 <Submitter>IPSO</Submitter>
 
 <Description>
@@ -1797,6 +1339,427 @@
 </Description>
 
 </Item>
+
+
+<Item ID="5550">
+
+<Name>Digital Output State</Name>
+
+<Operations>RW</Operations>
+
+<MultipleInstances></MultipleInstances>
+
+<Mandatory></Mandatory>
+
+<Type>Boolean</Type>
+
+<RangeEnumeration></RangeEnumeration>
+<Submitter>IPSO</Submitter>
+
+<Description>
+
+<![CDATA[The current state of a digital output]]>
+
+</Description>
+
+</Item>
+
+
+<Item ID="5551">
+
+<Name>Digital Output Polarity</Name>
+
+<Operations>RW</Operations>
+
+<MultipleInstances></MultipleInstances>
+
+<Mandatory></Mandatory>
+
+<Type>Boolean</Type>
+
+<RangeEnumeration></RangeEnumeration>
+<Submitter>IPSO</Submitter>
+
+<Description>
+
+<![CDATA[The polarity of a digital input as a Boolean (0 = Normal, 1= Reversed)]]>
+
+</Description>
+
+</Item>
+
+
+<Item ID="5600">
+
+<Name>Analog Input Current Value</Name>
+
+<Operations>R</Operations>
+
+<MultipleInstances></MultipleInstances>
+
+<Mandatory></Mandatory>
+
+<Type>Float</Type>
+
+<RangeEnumeration>0-1</RangeEnumeration>
+
+<Units>V</Units>
+
+<Submitter>IPSO</Submitter>
+
+<Description>
+
+<![CDATA[The current state of the analogue input.]]>
+
+</Description>
+
+</Item>
+
+
+<Item ID="5601">
+
+<Name>Min Measured Value</Name>
+
+<Operations>R</Operations>
+
+<MultipleInstances></MultipleInstances>
+
+<Mandatory></Mandatory>
+
+<Type>Float</Type>
+
+<RangeEnumeration></RangeEnumeration>
+
+<Units>Defined by “Units” resource.</Units>
+
+<Submitter>IPSO</Submitter>
+
+<Description>
+
+<![CDATA[The minimum value measured by the sensor since it is ON or Reset.]]>
+
+</Description>
+
+</Item>
+
+
+<Item ID="5602">
+
+<Name>Max Measured Value</Name>
+
+<Operations>R</Operations>
+
+<MultipleInstances></MultipleInstances>
+
+<Mandatory></Mandatory>
+
+<Type>Float</Type>
+
+<RangeEnumeration></RangeEnumeration>
+
+<Units>Defined by “Units” resource.</Units>
+
+<Submitter>IPSO</Submitter>
+
+<Description>
+
+<![CDATA[The maximum value measured by the sensor since it is ON or Reset]]>
+
+</Description>
+
+</Item>
+
+
+<Item ID="5603">
+
+<Name>Min Range Value</Name>
+
+<Operations>R</Operations>
+
+<MultipleInstances></MultipleInstances>
+
+<Mandatory></Mandatory>
+
+<Type>Float</Type>
+
+<RangeEnumeration></RangeEnumeration>
+
+<Units>Defined by “Units” resource.</Units>
+
+<Submitter>IPSO</Submitter>
+
+<Description>
+
+<![CDATA[The minimum value that can be measured by the sensor]]>
+
+</Description>
+
+</Item>
+
+
+<Item ID="5604">
+
+<Name>Max Range Value</Name>
+
+<Operations>R</Operations>
+
+<MultipleInstances></MultipleInstances>
+
+<Mandatory></Mandatory>
+
+<Type>Float</Type>
+
+<RangeEnumeration></RangeEnumeration>
+
+<Units>Defined by “Units” resource.</Units>
+
+<Submitter>IPSO</Submitter>
+
+<Description>
+
+<![CDATA[The maximum value that can be measured by the sensor]]>
+
+</Description>
+
+</Item>
+
+
+<Item ID="5605">
+
+<Name>Reset Min and Max Measured Values</Name>
+
+<Operations>E</Operations>
+
+<MultipleInstances></MultipleInstances>
+
+<Mandatory></Mandatory>
+
+<Type>Opaque</Type>
+
+<RangeEnumeration></RangeEnumeration>
+<Submitter>IPSO</Submitter>
+
+<Description>
+
+<![CDATA[Reset the Min and Max Measured Values to Current Value]]>
+
+</Description>
+
+</Item>
+
+
+<Item ID="5650">
+
+<Name>Analog Output Current Value</Name>
+
+<Operations>RW</Operations>
+
+<MultipleInstances></MultipleInstances>
+
+<Mandatory></Mandatory>
+
+<Type>Float</Type>
+
+<RangeEnumeration>0-1</RangeEnumeration>
+
+<Units>-</Units>
+
+<Submitter>IPSO</Submitter>
+
+<Description>
+
+<![CDATA[The current state of the analogue output.]]>
+
+</Description>
+
+</Item>
+
+
+<Item ID="5700">
+
+<Name>Sensor Value</Name>
+
+<Operations>R</Operations>
+
+<MultipleInstances></MultipleInstances>
+
+<Mandatory></Mandatory>
+
+<Type>Float</Type>
+
+<RangeEnumeration></RangeEnumeration>
+
+<Units>Defined by “Units” resource.</Units>
+
+<Submitter>IPSO</Submitter>
+
+<Description>
+
+<![CDATA[Last or Current Measured Value from the Sensor.]]>
+
+</Description>
+
+</Item>
+
+
+<Item ID="5701">
+
+<Name>Sensor Units</Name>
+
+<Operations>R</Operations>
+
+<MultipleInstances></MultipleInstances>
+
+<Mandatory></Mandatory>
+
+<Type>Float</Type>
+
+<RangeEnumeration></RangeEnumeration>
+<Submitter>IPSO</Submitter>
+
+<Description>
+
+<![CDATA[Measurement Units Definition e.g. “Cel” for Temperature in Celsius.]]>
+
+</Description>
+
+</Item>
+
+
+<Item ID="5702">
+
+<Name>X Value</Name>
+
+<Operations>R</Operations>
+
+<MultipleInstances></MultipleInstances>
+
+<Mandatory></Mandatory>
+
+<Type>Float</Type>
+
+<RangeEnumeration></RangeEnumeration>
+
+<Units>Defined by “Units” resource.</Units>
+
+<Submitter>IPSO</Submitter>
+
+<Description>
+
+<![CDATA[The measured value along the X axis.]]>
+
+</Description>
+
+</Item>
+
+
+<Item ID="5703">
+
+<Name>Y Value</Name>
+
+<Operations>R</Operations>
+
+<MultipleInstances></MultipleInstances>
+
+<Mandatory></Mandatory>
+
+<Type>Float</Type>
+
+<RangeEnumeration></RangeEnumeration>
+
+<Units>Defined by “Units” resource.</Units>
+
+<Submitter>IPSO</Submitter>
+
+<Description>
+
+<![CDATA[The measured value along the Y axis.]]>
+
+</Description>
+
+</Item>
+
+
+<Item ID="5704">
+
+<Name>Z Value</Name>
+
+<Operations>R</Operations>
+
+<MultipleInstances></MultipleInstances>
+
+<Mandatory></Mandatory>
+
+<Type>Float</Type>
+
+<RangeEnumeration></RangeEnumeration>
+
+<Units>Defined by “Units” resource.</Units>
+
+<Submitter>IPSO</Submitter>
+
+<Description>
+
+<![CDATA[The measured value along the Z axis.]]>
+
+</Description>
+
+</Item>
+
+
+<Item ID="5705">
+
+<Name>Compass Direction</Name>
+
+<Operations>R</Operations>
+
+<MultipleInstances></MultipleInstances>
+
+<Mandatory></Mandatory>
+
+<Type>Float</Type>
+
+<RangeEnumeration>0-360</RangeEnumeration>
+
+<Units>deg.</Units>
+
+<Submitter>IPSO</Submitter>
+
+<Description>
+
+<![CDATA[The compass direction.]]>
+
+</Description>
+
+</Item>
+
+
+<Item ID="5706">
+
+<Name>Colour</Name>
+
+<Operations>RW</Operations>
+
+<MultipleInstances></MultipleInstances>
+
+<Mandatory></Mandatory>
+
+<Type>String</Type>
+
+<RangeEnumeration></RangeEnumeration>
+
+<Units>s</Units>
+
+<Submitter>IPSO</Submitter>
+
+<Description>
+
+<![CDATA[A string representing a value in some color space]]>
+
+</Description>
+
+</Item>
+
 
 
 <Item ID="5750">
@@ -1811,10 +1774,7 @@
 
 <Type>String</Type>
 
-<RangeEnumeration/>
-
-<Units/>
-
+<RangeEnumeration></RangeEnumeration>
 <Submitter>IPSO</Submitter>
 
 <Description>
@@ -1839,10 +1799,7 @@
 
 <Type>String</Type>
 
-<RangeEnumeration/>
-
-<Units/>
-
+<RangeEnumeration></RangeEnumeration>
 <Submitter>IPSO</Submitter>
 
 <Description>
@@ -1866,7 +1823,7 @@
 
 <Type>Float</Type>
 
-<RangeEnumeration/>
+<RangeEnumeration></RangeEnumeration>
 
 <Units>W</Units>
 
@@ -1893,7 +1850,7 @@
 
 <Type>Float</Type>
 
-<RangeEnumeration/>
+<RangeEnumeration></RangeEnumeration>
 
 <Units>W</Units>
 
@@ -1920,7 +1877,7 @@
 
 <Type>Float</Type>
 
-<RangeEnumeration/>
+<RangeEnumeration></RangeEnumeration>
 
 <Units>W</Units>
 
@@ -1947,7 +1904,7 @@
 
 <Type>Float</Type>
 
-<RangeEnumeration/>
+<RangeEnumeration></RangeEnumeration>
 
 <Units>W</Units>
 
@@ -1974,7 +1931,7 @@
 
 <Type>Float</Type>
 
-<RangeEnumeration/>
+<RangeEnumeration></RangeEnumeration>
 
 <Units>W</Units>
 
@@ -2001,7 +1958,7 @@
 
 <Type>Float</Type>
 
-<RangeEnumeration/>
+<RangeEnumeration></RangeEnumeration>
 
 <Units>Wh</Units>
 
@@ -2028,7 +1985,7 @@
 
 <Type>Float</Type>
 
-<RangeEnumeration/>
+<RangeEnumeration></RangeEnumeration>
 
 <Units>W</Units>
 
@@ -2055,7 +2012,7 @@
 
 <Type>Float</Type>
 
-<RangeEnumeration/>
+<RangeEnumeration></RangeEnumeration>
 
 <Units>var</Units>
 
@@ -2082,7 +2039,7 @@
 
 <Type>Float</Type>
 
-<RangeEnumeration/>
+<RangeEnumeration></RangeEnumeration>
 
 <Units>var</Units>
 
@@ -2111,7 +2068,7 @@
 
 <Type>Float</Type>
 
-<RangeEnumeration/>
+<RangeEnumeration></RangeEnumeration>
 
 <Units>var</Units>
 
@@ -2138,7 +2095,7 @@
 
 <Type>Float</Type>
 
-<RangeEnumeration/>
+<RangeEnumeration></RangeEnumeration>
 
 <Units>var</Units>
 
@@ -2165,7 +2122,7 @@
 
 <Type>Float</Type>
 
-<RangeEnumeration/>
+<RangeEnumeration></RangeEnumeration>
 
 <Units>var</Units>
 
@@ -2192,7 +2149,7 @@
 
 <Type>Float</Type>
 
-<RangeEnumeration/>
+<RangeEnumeration></RangeEnumeration>
 
 <Units>varh</Units>
 
@@ -2219,7 +2176,7 @@
 
 <Type>Float</Type>
 
-<RangeEnumeration/>
+<RangeEnumeration></RangeEnumeration>
 
 <Units>var</Units>
 
@@ -2246,7 +2203,7 @@
 
 <Type>Float</Type>
 
-<RangeEnumeration/>
+<RangeEnumeration></RangeEnumeration>
 
 <Units></Units>
 
@@ -2273,7 +2230,7 @@
 
 <Type>Float</Type>
 
-<RangeEnumeration/>
+<RangeEnumeration></RangeEnumeration>
 
 <Units></Units>
 
@@ -2300,7 +2257,7 @@
 
 <Type>Opaque</Type>
 
-<RangeEnumeration/>
+<RangeEnumeration></RangeEnumeration>
 
 <Units></Units>
 
@@ -2327,7 +2284,7 @@
 
 <Type>String</Type>
 
-<RangeEnumeration/>
+<RangeEnumeration></RangeEnumeration>
 
 <Units></Units>
 
@@ -2354,7 +2311,7 @@
 
 <Type>String</Type>
 
-<RangeEnumeration/>
+<RangeEnumeration></RangeEnumeration>
 
 <Units></Units>
 
@@ -2381,7 +2338,7 @@
 
 <Type>String</Type>
 
-<RangeEnumeration/>
+<RangeEnumeration></RangeEnumeration>
 
 <Units>min</Units>
 
@@ -2408,7 +2365,7 @@
 
 <Type>String</Type>
 
-<RangeEnumeration>-</RangeEnumeration>
+<RangeEnumeration></RangeEnumeration>
 
 <Units></Units>
 
@@ -2490,7 +2447,7 @@
 
 <Type>String</Type>
 
-<RangeEnumeration/>
+<RangeEnumeration></RangeEnumeration>
 
 <Units></Units>
 
@@ -2544,7 +2501,7 @@
 
 <Type>Integer</Type>
 
-<RangeEnumeration/>
+<RangeEnumeration></RangeEnumeration>
 
 <Units>sec</Units>
 
@@ -2571,7 +2528,7 @@
 
 <Type>String</Type>
 
-<RangeEnumeration/>
+<RangeEnumeration></RangeEnumeration>
 
 <Units></Units>
 
@@ -2598,7 +2555,7 @@
 
 <Type>Integer</Type>
 
-<RangeEnumeration/>
+<RangeEnumeration></RangeEnumeration>
 
 <Units>s</Units>
 
@@ -2627,7 +2584,7 @@
 
 <Type>Float</Type>
 
-<RangeEnumeration/>
+<RangeEnumeration></RangeEnumeration>
 
 <Units>Defined by “Units” resource.</Units>
 
@@ -2654,7 +2611,7 @@
 
 <Type>Integer</Type>
 
-<RangeEnumeration/>
+<RangeEnumeration></RangeEnumeration>
 
 <Units>ms</Units>
 
@@ -2681,7 +2638,7 @@
 
 <Type>Integer</Type>
 
-<RangeEnumeration/>
+<RangeEnumeration></RangeEnumeration>
 
 <Units>ms</Units>
 
@@ -2708,7 +2665,7 @@
 
 <Type>String</Type>
 
-<RangeEnumeration/>
+<RangeEnumeration></RangeEnumeration>
 
 <Units></Units>
 
@@ -2735,7 +2692,7 @@
 
 <Type>String</Type>
 
-<RangeEnumeration/>
+<RangeEnumeration></RangeEnumeration>
 
 <Units></Units>
 
@@ -2762,7 +2719,7 @@
 
 <Type>String</Type>
 
-<RangeEnumeration/>
+<RangeEnumeration></RangeEnumeration>
 
 <Units></Units>
 
@@ -2789,7 +2746,7 @@
 
 <Type>String</Type>
 
-<RangeEnumeration/>
+<RangeEnumeration></RangeEnumeration>
 
 <Units></Units>
 
