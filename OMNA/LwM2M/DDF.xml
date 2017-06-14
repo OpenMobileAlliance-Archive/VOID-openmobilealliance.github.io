@@ -2860,4 +2860,33 @@
   </Item>
 
 
+   <Item>
+
+    <ObjectID>10253</ObjectID>
+
+    <URN>urn:oma:lwm2m:x:10253</URN>
+
+    <Name>Reserved</Name>
+
+    <Description></Description>
+
+    <Owner>-</Owner>
+
+    <Source>2</Source>
+
+    <Ver/>
+
+    <DDF>-</DDF>
+
+    <LWM2M>-</LWM2M>
+
+    <Vorto></Vorto>
+
+    <DDFLink>1</DDFLink>
+
+    <TS></TS>
+
+    <TSLink></TSLink>
+
+  </Item>
 </DDFList>
