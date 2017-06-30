@@ -2835,19 +2835,19 @@
 
     <URN>urn:oma:lwm2m:x:10252</URN>
 
-    <Name>Reserved</Name>
+    <Name>Manifest</Name>
 
-    <Description></Description>
+    <Description><![CDATA[This object provides a range of information related to updating packages on a device]]></Description>
 
-    <Owner>-</Owner>
+    <Owner>ARM Limited</Owner>
 
     <Source>2</Source>
 
     <Ver/>
 
-    <DDF>-</DDF>
+    <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/10252.xml</DDF>
 
-    <LWM2M>-</LWM2M>
+    <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F10252.xml</LWM2M>
 
     <Vorto></Vorto>
 
@@ -2855,7 +2855,7 @@
 
     <TS></TS>
 
-    <TSLink></TSLink>
+    <TSLink>0</TSLink>
 
   </Item>
 
@@ -2919,5 +2919,36 @@
     <TSLink></TSLink>
 
   </Item>
+  
+   <Item>
+
+    <ObjectID>10255</ObjectID>
+
+    <URN>urn:oma:lwm2m:x:10255</URN>
+
+    <Name>Device Metadata</Name>
+
+    <Description><![CDATA[Manifest protocol supported]]></Description>
+
+    <Owner>ARM Limited</Owner>
+
+    <Source>2</Source>
+
+    <Ver/>
+
+    <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/10255.xml</DDF>
+
+    <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F10255.xml</LWM2M>
+
+    <Vorto></Vorto>
+
+    <DDFLink>1</DDFLink>
+
+    <TS></TS>
+
+    <TSLink>0</TSLink>
+
+  </Item>
+
 
 </DDFList>
