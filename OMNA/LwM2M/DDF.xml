@@ -2928,7 +2928,7 @@
 
     <Name>Device Metadata</Name>
 
-    <Description><![CDATA[Manifest protocol supported]]></Description>
+    <Description><![CDATA[This object provides a range of information related to device metadata]]></Description>
 
     <Owner>ARM Limited</Owner>
 
