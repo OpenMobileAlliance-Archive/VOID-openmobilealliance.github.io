@@ -76,7 +76,7 @@
 
 <Name>LogClass</Name>
 
-<Operations>R</Operations>
+<Operations>RW</Operations>
 
 <MultipleInstances>Single</MultipleInstances>
 
@@ -140,7 +140,7 @@
 
 <Description>
 
-<![CDATA[Log Event Set Interface 3/5 Actions: a) Stop data collection(DC) b) LogStatus is set to 1 (stopped) c) DC is kept(default) or emptied according to arg'0' value Argument: '0': DC kept(=0)[default]or emptied(=1) ]]>
+<![CDATA[Log Event Set Interface 3/5 Actions: a) Stop data collection(DC) b) 1st LSB of LogStatus is set to 1 (stopped) c) DC is kept (default) or emptied according arg'0' value Argument:'0': DC kept(=0)[default]or emptied(=1)]]>
 
 </Description>
 
@@ -159,7 +159,7 @@
 
 <Type>Integer</Type>
 
-<RangeEnumeration>0-255</RangeEnumeration>
+<RangeEnumeration>8-Bits</RangeEnumeration>
 
 <RangeEnumeration></RangeEnumeration>
 
@@ -167,7 +167,8 @@
 
 <Description>
 
-<![CDATA[Log Event Set Interface 4/5 (Must be a Single-Instance Resource) Data Collection process status: 0 : running 1 : stopped [2-99] : reserved [100-255] : vendor specific.]]>
+<![CDATA[Log Event Set Interface 4/5 (Must be a Single-Instance Resource)Data Collection process status: Each bit of this Resource Instance value defines a specific status: 1st LSB  0=running, 1=stopped 2nd LSB 1=LogData contains Valid Data 0=LogData doesn’t contain Valid 
+ Data 3rd LSB  1=Error occurred during Data Collection Collection 0=no Error [4th -7th ] LSB : reserved 8th LSB : vendor specific.]]>
 
 </Description>
 
