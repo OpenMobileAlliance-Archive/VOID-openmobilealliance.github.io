@@ -97,7 +97,7 @@
     <Ver>1.3</Ver>
     <DDF>
     </DDF>
-    <TS>DM13StdObjFirst.doc</TS>
+    <TS>DM13StdObjFirst.docx</TS>
   </Item>
   <Item>
     <Owner>
@@ -109,7 +109,7 @@
     <Description>DMDMAcc TS with first object</Description>
     <Ver>1.3</Ver>
     <DDF>http://www.openmobilealliance.org/tech/omna/dm_mo/dm_dmacc-v1_3.ddf</DDF>
-    <TS>DM13StdObjFirst.doc</TS>
+    <TS>DM13StdObjFirst.docx</TS>
   </Item>
   <Item>
     <Owner>
@@ -121,7 +121,7 @@
     <Description>DMDMAcc TS</Description>
     <Ver>1.3</Ver>
     <DDF>http://www.openmobilealliance.org/tech/omna/dm_mo/dm_dmacc-v1_3.ddf</DDF>
-    <TS>DM13StdObj.doc</TS>
+    <TS>DM13StdObj.docx</TS>
   </Item>
   <Item>
     <Owner>
@@ -134,7 +134,7 @@
     
     <Ver>1.3</Ver>
     <DDF>http://www.openmobilealliance.org/tech/omna/dm_mo/dm_dmacc-v1_3.ddf</DDF>
-    <TS>DM13StdObj.doc</TS>
+    <TS>DM13StdObj.docx</TS>
   </Item>
   <Item>
     <Owner>
@@ -282,8 +282,7 @@
     <Source>0</Source>
     <Ver>1.3</Ver>
     <DDF>http://www.openmobilealliance.org/tech/omna/dm_mo/dm_devdetail-v1_3.ddf</DDF>
-    <TS>
-    </TS>
+    <TS>http://devmember.openmobilealliance.org/ftp/Public_documents/DM/DM-DM13/Permanent_documents/OMA-TS-DM_StdObj-V1_3-20160524-A.zip/</TS>
   </Item>
   <Item>
     <MOIdentifier>urn:oma:mo:oma-dm-devinfo:1.1</MOIdentifier>
@@ -293,8 +292,7 @@
     <Source>0</Source>
     <Ver>1.3</Ver>
     <DDF>http://www.openmobilealliance.org/tech/omna/dm_mo/dm_devinfo-v1_3.ddf</DDF>
-    <TS>
-    </TS>
+    <TS>http://devmember.openmobilealliance.org/ftp/Public_documents/DM/DM-DM13/Permanent_documents/OMA-TS-DM_StdObj-V1_3-20160524-A.zip/</TS>
   </Item>
   <Item>
     <MOIdentifier>urn:oma:mo:oma-dm-dmacc:1.1</MOIdentifier>
@@ -304,8 +302,7 @@
     <Source>0</Source>
     <Ver>1.3</Ver>
     <DDF>http://www.openmobilealliance.org/tech/omna/dm_mo/dm_dmacc-v1_3.ddf</DDF>
-    <TS>
-    </TS>
+    <TS>http://devmember.openmobilealliance.org/ftp/Public_documents/DM/DM-DM13/Permanent_documents/OMA-TS-DM_StdObj-V1_3-20160524-A.zip/</TS>
   </Item>
   <Item>
     <MOIdentifier>urn:oma:mo:oma-dm-bootstrapcfg:1.0</MOIdentifier>
@@ -316,8 +313,7 @@
     <Source>0</Source>
     <Ver>1.3</Ver>
     <DDF>http://www.openmobilealliance.org/tech/omna/dm_mo/MO_dm_bootconfig-v1_3.ddf</DDF>  
-    <TS>
-    </TS>
+    <TS>http://devmember.openmobilealliance.org/ftp/Public_documents/DM/DM-DM13/Permanent_documents/OMA-TS-DM_Bootstrap-V1_3-20160524-A.zip/OMA-TS-DM_Bootstrap-V1_3-20160524-A.docx</TS>
   </Item>
   <Item>
     <MOIdentifier>urn:oma:mo:oma-dm-devinfo:1.0</MOIdentifier>
