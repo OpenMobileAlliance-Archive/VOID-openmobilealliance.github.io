@@ -76,7 +76,7 @@
 
 <Name>LogClass</Name>
 
-<Operations>W</Operations>
+<Operations>RW</Operations>
 
 <MultipleInstances>Single</MultipleInstances>
 
