@@ -7,7 +7,7 @@
     <SubGroup>DM</SubGroup>
     <Description>DM Account</Description>
     <Ver>1.2</Ver>
-    <DDF>http://devwww.openmobilealliance.org/tech/omna/dm_mo/dm_dmacc-v1_2.ddf</DDF>
+    <DDF>http://www.openmobilealliance.org/tech/omna/dm_mo/dm_dmacc-v1_2.ddf</DDF>
     <TS>
     </TS>
   </Item>
@@ -20,7 +20,7 @@
     </SubGroup>
     <Description>DM Account</Description>
     <Ver>1.3</Ver>
-    <DDF>http://devwww.openmobilealliance.org/tech/omna/dm_mo/dm_dmacc-v1_3.ddf</DDF>
+    <DDF>http://www.openmobilealliance.org/tech/omna/dm_mo/dm_dmacc-v1_3.ddf</DDF>
     <TS>
     </TS>
   </Item>
@@ -33,7 +33,7 @@
     </SubGroup>
     <Description>Device Info</Description>
     <Ver>1.3</Ver>
-    <DDF>http://devwww.openmobilealliance.org/tech/omna/dm_mo/dm_devinfo-v1_3.ddf</DDF>
+    <DDF>http://www.openmobilealliance.org/tech/omna/dm_mo/dm_devinfo-v1_3.ddf</DDF>
     <TS>
     </TS>
   </Item>
@@ -46,7 +46,7 @@
     </SubGroup>
     <Description>SCOMO</Description>
     <Ver>1.1</Ver>
-    <DDF>http://devwww.openmobilealliance.org/tech/omna/dm_mo/mo_scomo-v1_1.ddf</DDF>
+    <DDF>http://www.openmobilealliance.org/tech/omna/dm_mo/mo_scomo-v1_1.ddf</DDF>
     <TS>
     </TS>
   </Item>
@@ -58,7 +58,7 @@
     <SubGroup>CD Push</SubGroup>
     <Description>Push MO</Description>
     <Ver>1.0</Ver>
-    <DDF>http://devwww.openmobilealliance.org/tech/omna/dm_mo/MO_Push_DDF-V1_0.ddf</DDF>
+    <DDF>http://www.openmobilealliance.org/tech/omna/dm_mo/MO_Push_DDF-V1_0.ddf</DDF>
     <TS>
     </TS>
   </Item>
@@ -108,7 +108,7 @@
     </SubGroup>
     <Description>DMDMAcc TS with first object</Description>
     <Ver>1.3</Ver>
-    <DDF>http://devwww.openmobilealliance.org/tech/omna/dm_mo/dm_dmacc-v1_3.ddf</DDF>
+    <DDF>http://www.openmobilealliance.org/tech/omna/dm_mo/dm_dmacc-v1_3.ddf</DDF>
     <TS>DM13StdObjFirst.docx</TS>
   </Item>
   <Item>
@@ -120,7 +120,7 @@
     </SubGroup>
     <Description>DMDMAcc TS</Description>
     <Ver>1.3</Ver>
-    <DDF>http://devwww.openmobilealliance.org/tech/omna/dm_mo/dm_dmacc-v1_3.ddf</DDF>
+    <DDF>http://www.openmobilealliance.org/tech/omna/dm_mo/dm_dmacc-v1_3.ddf</DDF>
     <TS>DM13StdObj.docx</TS>
   </Item>
   <Item>
@@ -133,7 +133,7 @@
     <Description>DMDMAcc TS Section 2</Description>
     
     <Ver>1.3</Ver>
-    <DDF>http://devwww.openmobilealliance.org/tech/omna/dm_mo/dm_dmacc-v1_3.ddf</DDF>
+    <DDF>http://www.openmobilealliance.org/tech/omna/dm_mo/dm_dmacc-v1_3.ddf</DDF>
     <TS>DM13StdObj.docx</TS>
   </Item>
   <Item>
@@ -145,7 +145,7 @@
     </SubGroup>
     <Description>DMDMAcc without links</Description>
     <Ver>1.3</Ver>
-    <DDF>http://devwww.openmobilealliance.org/tech/omna/dm_mo/dm_dmacc-v1_3.ddf</DDF>
+    <DDF>http://www.openmobilealliance.org/tech/omna/dm_mo/dm_dmacc-v1_3.ddf</DDF>
     <DDFLink>0</DDFLink>
     <TS>DM13StdObj.doc</TS>
     <TSLink>0</TSLink>
@@ -159,7 +159,7 @@
     </SubGroup>
     <Description>DMDMAcc TS Section 2</Description>
     <Ver>1.3</Ver>
-    <DDF>http://devwww.openmobilealliance.org/tech/omna/dm_mo/dm_dmacc-v1_3.ddf</DDF>
+    <DDF>http://www.openmobilealliance.org/tech/omna/dm_mo/dm_dmacc-v1_3.ddf</DDF>
     <TS>DM13StdObj.zip</TS>
   </Item>
   <Item>
@@ -170,7 +170,7 @@
     <Source>
     </Source>
     <Ver>1.0</Ver>
-    <DDF>http://devwww.openmobilealliance.org/tech/omna/dm_mo/oma_poc-v1_0.ddf</DDF>
+    <DDF>http://www.openmobilealliance.org/tech/omna/dm_mo/oma_poc-v1_0.ddf</DDF>
     <TS>
     </TS>
   </Item>
@@ -182,7 +182,7 @@
     <Source>
     </Source>
     <Ver>1.0</Ver>
-    <DDF>http://devwww.openmobilealliance.org/tech/omna/prs_mo/oma_prs-v1_0.ddf</DDF>
+    <DDF>http://www.openmobilealliance.org/tech/omna/prs_mo/oma_prs-v1_0.ddf</DDF>
     <TS>
     </TS>
   </Item>
@@ -204,7 +204,7 @@
     <Owner>MWG WG</Owner>
     <Source>0</Source>
     <Ver>2.0</Ver>
-    <DDF>http://devwww.openmobilealliance.org/tech/omna/dm_mo/oma_poc-v2_0.ddf</DDF>
+    <DDF>http://www.openmobilealliance.org/tech/omna/dm_mo/oma_poc-v2_0.ddf</DDF>
     <TS>
     </TS>
   </Item>
@@ -215,7 +215,7 @@
     <Owner>BCAST</Owner>
     <Source>0</Source>
     <Ver>1.0</Ver>
-    <DDF>http://devwww.openmobilealliance.org/tech/omna/dm_mo/oma_bcast-v1_0.ddf</DDF>
+    <DDF>http://www.openmobilealliance.org/tech/omna/dm_mo/oma_bcast-v1_0.ddf</DDF>
     <TS>
     </TS>
   </Item>
@@ -226,7 +226,7 @@
     <Owner>BCAST</Owner>
     <Source>0</Source>
     <Ver>1.1</Ver>
-    <DDF>http://devwww.openmobilealliance.org/tech/omna/dm_mo/oma_bcast-v1_1.ddf</DDF>
+    <DDF>http://www.openmobilealliance.org/tech/omna/dm_mo/oma_bcast-v1_1.ddf</DDF>
     <TS>
     </TS>
   </Item>
@@ -248,7 +248,7 @@
     <Owner>COMMS</Owner>
     <Source>0</Source>
     <Ver>1.0</Ver>
-    <DDF>http://devwww.openmobilealliance.org/tech/omna/dm_mo/oma_cab-v1_0.ddf</DDF>
+    <DDF>http://www.openmobilealliance.org/tech/omna/dm_mo/oma_cab-v1_0.ddf</DDF>
     <TS>
     </TS>
   </Item>
@@ -259,7 +259,7 @@
     <Owner>DM WG</Owner>
     <Source>0</Source>
     <Ver>1.0</Ver>
-    <DDF>http://devwww.openmobilealliance.org/tech/omna/dm_mo/mo_lawmo-v1_0.ddf</DDF>
+    <DDF>http://www.openmobilealliance.org/tech/omna/dm_mo/mo_lawmo-v1_0.ddf</DDF>
     <TS>
     </TS>
   </Item>
@@ -270,7 +270,7 @@
     <Owner>DCMO</Owner>
     <Source>0</Source>
     <Ver>1.0</Ver>
-    <DDF>http://devwww.openmobilealliance.org/tech/omna/dm_mo/mo_dcmo-v1_0.ddf</DDF>
+    <DDF>http://www.openmobilealliance.org/tech/omna/dm_mo/mo_dcmo-v1_0.ddf</DDF>
     <TS>
     </TS>
   </Item>
@@ -281,8 +281,8 @@
     <Owner>DM WG</Owner>
     <Source>0</Source>
     <Ver>1.3</Ver>
-    <DDF>http://devwww.openmobilealliance.org/tech/omna/dm_mo/dm_devdetail-v1_3.ddf</DDF>
-    <TS>http://devmember.openmobilealliance.org/ftp/Public_documents/DM/DM-DM13/Permanent_documents/OMA-TS-DM_StdObj-V1_3-20160524-A.zip/</TS>
+    <DDF>http://www.openmobilealliance.org/tech/omna/dm_mo/dm_devdetail-v1_3.ddf</DDF>
+    <TS>http://member.openmobilealliance.org/ftp/Public_documents/DM/DM-DM13/Permanent_documents/tool/OMA-TS-DM_StdObj-V1_3-20160524-A.zip</TS>
   </Item>
   <Item>
     <MOIdentifier>urn:oma:mo:oma-dm-devinfo:1.1</MOIdentifier>
@@ -291,8 +291,8 @@
     <Owner>DM WG</Owner>
     <Source>0</Source>
     <Ver>1.3</Ver>
-    <DDF>http://devwww.openmobilealliance.org/tech/omna/dm_mo/dm_devinfo-v1_3.ddf</DDF>
-    <TS>http://devmember.openmobilealliance.org/ftp/Public_documents/DM/DM-DM13/Permanent_documents/OMA-TS-DM_StdObj-V1_3-20160524-A.zip/</TS>
+    <DDF>http://www.openmobilealliance.org/tech/omna/dm_mo/dm_devinfo-v1_3.ddf</DDF>
+    <TS>http://member.openmobilealliance.org/ftp/Public_documents/DM/DM-DM13/Permanent_documents/tool/OMA-TS-DM_StdObj-V1_3-20160524-A.zip</TS>
   </Item>
   <Item>
     <MOIdentifier>urn:oma:mo:oma-dm-dmacc:1.1</MOIdentifier>
@@ -301,8 +301,8 @@
     <Owner>DM WG</Owner>
     <Source>0</Source>
     <Ver>1.3</Ver>
-    <DDF>http://devwww.openmobilealliance.org/tech/omna/dm_mo/dm_dmacc-v1_3.ddf</DDF>
-    <TS>http://devmember.openmobilealliance.org/ftp/Public_documents/DM/DM-DM13/Permanent_documents/OMA-TS-DM_StdObj-V1_3-20160524-A.zip/</TS>
+    <DDF>http://www.openmobilealliance.org/tech/omna/dm_mo/dm_dmacc-v1_3.ddf</DDF>
+    <TS>http://member.openmobilealliance.org/ftp/Public_documents/DM/DM-DM13/Permanent_documents/tool/OMA-TS-DM_StdObj-V1_3-20160524-A.zip</TS>
   </Item>
   <Item>
     <MOIdentifier>urn:oma:mo:oma-dm-bootstrapcfg:1.0</MOIdentifier>
@@ -312,8 +312,8 @@
     <Owner>DM WG</Owner>
     <Source>0</Source>
     <Ver>1.3</Ver>
-    <DDF>http://devwww.openmobilealliance.org/tech/omna/dm_mo/MO_dm_bootconfig-v1_3.ddf</DDF>  
-    <TS>http://devmember.openmobilealliance.org/ftp/Public_documents/DM/DM-DM13/Permanent_documents/OMA-TS-DM_Bootstrap-V1_3-20160524-A.zip/OMA-TS-DM_Bootstrap-V1_3-20160524-A.docx</TS>
+    <DDF>http://www.openmobilealliance.org/tech/omna/dm_mo/MO_dm_bootconfig-v1_3.ddf</DDF>  
+    <TS>http://member.openmobilealliance.org/ftp/Public_documents/DM/DM-DM13/Permanent_documents/tool/OMA-TS-DM_Bootstrap-V1_3-20160524-A.zip</TS>
   </Item>
   <Item>
     <MOIdentifier>urn:oma:mo:oma-dm-devinfo:1.0</MOIdentifier>
@@ -322,7 +322,7 @@
     <Owner>DM WG</Owner>
     <Source>0</Source>
     <Ver>1.0</Ver>
-    <DDF>http://devwww.openmobilealliance.org/tech/omna/dm_mo/dm_devinfo-v1_2.ddf</DDF>
+    <DDF>http://www.openmobilealliance.org/tech/omna/dm_mo/dm_devinfo-v1_2.ddf</DDF>
     <TS>
     </TS>
   </Item>
@@ -345,7 +345,7 @@
     <Owner>DM WG</Owner>
     <Source>0</Source>
     <Ver>1.0</Ver>
-    <DDF>http://devwww.openmobilealliance.org/tech/omna/dm_mo/dpe_mo-v1_0.ddf</DDF>
+    <DDF>http://www.openmobilealliance.org/tech/omna/dm_mo/dpe_mo-v1_0.ddf</DDF>
     <TS>
     </TS>
   </Item>
@@ -356,7 +356,7 @@
     <Owner>DM WG</Owner>
     <Source>0</Source>
     <Ver>1.0</Ver>
-    <DDF>http://devwww.openmobilealliance.org/tech/omna/dm_mo/dm_dmacc-v1_2.ddf</DDF>
+    <DDF>http://www.openmobilealliance.org/tech/omna/dm_mo/dm_dmacc-v1_2.ddf</DDF>
     <TS>
     </TS>
   </Item>
@@ -367,7 +367,7 @@
     <Owner>DM WG</Owner>
     <Source>0</Source>
     <Ver>1.0</Ver>
-    <DDF>http://devwww.openmobilealliance.org/tech/omna/dm_mo/mo_diagmon-v1_0.ddf</DDF>
+    <DDF>http://www.openmobilealliance.org/tech/omna/dm_mo/mo_diagmon-v1_0.ddf</DDF>
     <TS>
     </TS>
   </Item>
@@ -378,7 +378,7 @@
     <Owner>DM WG</Owner>
     <Source>0</Source>
     <Ver>1.0</Ver>
-    <DDF>http://devwww.openmobilealliance.org/tech/omna/dm_mo/mo_diagmontrapmo-v1_0.ddf</DDF>
+    <DDF>http://www.openmobilealliance.org/tech/omna/dm_mo/mo_diagmontrapmo-v1_0.ddf</DDF>
     <TS>
     </TS>
   </Item>
@@ -389,7 +389,7 @@
     <Owner>DM WG</Owner>
     <Source>0</Source>
     <Ver>1.1</Ver>
-    <DDF>http://devwww.openmobilealliance.org/tech/omna/dm_mo/mo_diagmon_function_appmonlog-v1_0.ddf</DDF>
+    <DDF>http://www.openmobilealliance.org/tech/omna/dm_mo/mo_diagmon_function_appmonlog-v1_0.ddf</DDF>
     <TS>
     </TS>
   </Item>
@@ -401,7 +401,7 @@
     <Source>0</Source>
     <Ver>
     </Ver>
-    <DDF>http://devwww.openmobilealliance.org/tech/omna/dm_mo/mo_diagmon_function_battery-v1_0.ddf</DDF>
+    <DDF>http://www.openmobilealliance.org/tech/omna/dm_mo/mo_diagmon_function_battery-v1_0.ddf</DDF>
     <TS>
     </TS>
   </Item>
@@ -414,7 +414,7 @@
     <Source>0</Source>
     <Ver>
     </Ver>
-    <DDF>http://devwww.openmobilealliance.org/tech/omna/dm_mo/mo_diagmon_function_browsingusage-v1_0.ddf</DDF>
+    <DDF>http://www.openmobilealliance.org/tech/omna/dm_mo/mo_diagmon_function_browsingusage-v1_0.ddf</DDF>
     <TS>
     </TS>
   </Item>
@@ -427,7 +427,7 @@
     <Source>0</Source>
     <Ver>
     </Ver>
-    <DDF>http://devwww.openmobilealliance.org/tech/omna/dm_mo/mo_diagmon_function_datacalldatasession-v1_0.ddf</DDF>
+    <DDF>http://www.openmobilealliance.org/tech/omna/dm_mo/mo_diagmon_function_datacalldatasession-v1_0.ddf</DDF>
     <TS>
     </TS>
   </Item>
@@ -440,7 +440,7 @@
     <Source>0</Source>
     <Ver>
     </Ver>
-    <DDF>http://devwww.openmobilealliance.org/tech/omna/dm_mo/mo_diagmon_function_gsm-v1_0.ddf</DDF>
+    <DDF>http://www.openmobilealliance.org/tech/omna/dm_mo/mo_diagmon_function_gsm-v1_0.ddf</DDF>
     <TS>
     </TS>
   </Item>
@@ -453,7 +453,7 @@
     <Source>0</Source>
     <Ver>
     </Ver>
-    <DDF>http://devwww.openmobilealliance.org/tech/omna/dm_mo/mo_diagmon_function_lte-v1_0.ddf</DDF>
+    <DDF>http://www.openmobilealliance.org/tech/omna/dm_mo/mo_diagmon_function_lte-v1_0.ddf</DDF>
     <TS>
     </TS>
   </Item>
@@ -466,7 +466,7 @@
     <Source>0</Source>
     <Ver>
     </Ver>
-    <DDF>http://devwww.openmobilealliance.org/tech/omna/dm_mo/mo_diagmon_function_memory-v1_0.ddf</DDF>
+    <DDF>http://www.openmobilealliance.org/tech/omna/dm_mo/mo_diagmon_function_memory-v1_0.ddf</DDF>
     <TS>
     </TS>
   </Item>
@@ -479,7 +479,7 @@
     <Source>0</Source>
     <Ver>
     </Ver>
-    <DDF>http://devwww.openmobilealliance.org/tech/omna/dm_mo/mo_diagmon_function_mmsusage-v1_0.ddf</DDF>
+    <DDF>http://www.openmobilealliance.org/tech/omna/dm_mo/mo_diagmon_function_mmsusage-v1_0.ddf</DDF>
     <TS>
     </TS>
   </Item>
@@ -492,7 +492,7 @@
     <Source>0</Source>
     <Ver>
     </Ver>
-    <DDF>http://devwww.openmobilealliance.org/tech/omna/dm_mo/mo_diagmon_function_mobilitymgmtrejection-v1_0.ddf</DDF>
+    <DDF>http://www.openmobilealliance.org/tech/omna/dm_mo/mo_diagmon_function_mobilitymgmtrejection-v1_0.ddf</DDF>
     <TS>
     </TS>
   </Item>
@@ -505,7 +505,7 @@
     <Source>0</Source>
     <Ver>
     </Ver>
-    <DDF>http://devwww.openmobilealliance.org/tech/omna/dm_mo/mo_diagmon_function_nfc-v1_0.ddf</DDF>
+    <DDF>http://www.openmobilealliance.org/tech/omna/dm_mo/mo_diagmon_function_nfc-v1_0.ddf</DDF>
     <TS>
     </TS>
   </Item>
@@ -518,7 +518,7 @@
     <Source>0</Source>
     <Ver>
     </Ver>
-    <DDF>http://devwww.openmobilealliance.org/tech/omna/dm_mo/mo_diagmon_function_paniclog-v1_0.ddf</DDF>
+    <DDF>http://www.openmobilealliance.org/tech/omna/dm_mo/mo_diagmon_function_paniclog-v1_0.ddf</DDF>
     <TS>
     </TS>
   </Item>
@@ -531,7 +531,7 @@
     <Source>0</Source>
     <Ver>
     </Ver>
-    <DDF>http://devwww.openmobilealliance.org/tech/omna/dm_mo/mo_diagmon_function_phonebook-v1_0.ddf</DDF>
+    <DDF>http://www.openmobilealliance.org/tech/omna/dm_mo/mo_diagmon_function_phonebook-v1_0.ddf</DDF>
     <TS>
     </TS>
   </Item>
@@ -544,7 +544,7 @@
     <Source>0</Source>
     <Ver>
     </Ver>
-    <DDF>http://devwww.openmobilealliance.org/tech/omna/dm_mo/mo_diagmon_function_restart-v1_0.ddf</DDF>
+    <DDF>http://www.openmobilealliance.org/tech/omna/dm_mo/mo_diagmon_function_restart-v1_0.ddf</DDF>
     <TS>
     </TS>
   </Item>
@@ -557,7 +557,7 @@
     <Source>0</Source>
     <Ver>
     </Ver>
-    <DDF>http://devwww.openmobilealliance.org/tech/omna/dm_mo/mo_diagmon_function_smsoptions-v1_0.ddf</DDF>
+    <DDF>http://www.openmobilealliance.org/tech/omna/dm_mo/mo_diagmon_function_smsoptions-v1_0.ddf</DDF>
     <TS>
     </TS>
   </Item>
@@ -570,7 +570,7 @@
     <Source>0</Source>
     <Ver>
     </Ver>
-    <DDF>http://devwww.openmobilealliance.org/tech/omna/dm_mo/mo_diagmon_function_smsusage-v1_0.ddf</DDF>
+    <DDF>http://www.openmobilealliance.org/tech/omna/dm_mo/mo_diagmon_function_smsusage-v1_0.ddf</DDF>
     <TS>
     </TS>
   </Item>
@@ -583,7 +583,7 @@
     <Source>0</Source>
     <Ver>
     </Ver>
-    <DDF>http://devwww.openmobilealliance.org/tech/omna/dm_mo/mo_diagmon_function_trapeventlog-v1_0.ddf</DDF>
+    <DDF>http://www.openmobilealliance.org/tech/omna/dm_mo/mo_diagmon_function_trapeventlog-v1_0.ddf</DDF>
     <TS>
     </TS>
   </Item>
@@ -596,7 +596,7 @@
     <Source>0</Source>
     <Ver>
     </Ver>
-    <DDF>http://devwww.openmobilealliance.org/tech/omna/dm_mo/mo_diagmon_function_uesettings-v1_0.ddf</DDF>
+    <DDF>http://www.openmobilealliance.org/tech/omna/dm_mo/mo_diagmon_function_uesettings-v1_0.ddf</DDF>
     <TS>
     </TS>
   </Item>
@@ -609,7 +609,7 @@
     <Source>0</Source>
     <Ver>
     </Ver>
-    <DDF>http://devwww.openmobilealliance.org/tech/omna/dm_mo/mo_diagmon_function_umts-v1_0.ddf</DDF>
+    <DDF>http://www.openmobilealliance.org/tech/omna/dm_mo/mo_diagmon_function_umts-v1_0.ddf</DDF>
     <TS>
     </TS>
   </Item>
@@ -620,7 +620,7 @@
     <Owner>DM WG</Owner>
     <Source>0</Source>
     <Ver>1.0</Ver>
-    <DDF>http://devwww.openmobilealliance.org/tech/omna/dm_mo/mo_diagmontrapmo-v1_0.ddf</DDF>
+    <DDF>http://www.openmobilealliance.org/tech/omna/dm_mo/mo_diagmontrapmo-v1_0.ddf</DDF>
     <TS>
     </TS>
   </Item>
@@ -642,7 +642,7 @@
     <Owner>DM WG</Owner>
     <Source>0</Source>
     <Ver>1.0</Ver>
-    <DDF>http://devwww.openmobilealliance.org/tech/omna/dm_mo/ListMO-v1_0.ddf</DDF>
+    <DDF>http://www.openmobilealliance.org/tech/omna/dm_mo/ListMO-v1_0.ddf</DDF>
     <TS>
     </TS>
   </Item>
@@ -665,7 +665,7 @@
     <Source>0</Source>
     <Ver>
     </Ver>
-    <DDF>http://devwww.openmobilealliance.org/tech/omna/dm_mo/mo_mcc-v1_0.ddf</DDF>
+    <DDF>http://www.openmobilealliance.org/tech/omna/dm_mo/mo_mcc-v1_0.ddf</DDF>
     <TS>
     </TS>
   </Item>
@@ -677,7 +677,7 @@
     </Owner>
     <Source>0</Source>
     <Ver>1.0</Ver>
-    <DDF>http://devwww.openmobilealliance.org/tech/omna/dm_mo/msfcc-v1_0.ddf</DDF>
+    <DDF>http://www.openmobilealliance.org/tech/omna/dm_mo/msfcc-v1_0.ddf</DDF>
     <TS>
     </TS>
   </Item>
@@ -688,7 +688,7 @@
     <Owner>CD Push</Owner>
     <Source>0</Source>
     <Ver>1.0</Ver>
-    <DDF>http://devwww.openmobilealliance.org/tech/omna/dm_mo/MO_Push_DDF-V1_0.ddf</DDF>
+    <DDF>http://www.openmobilealliance.org/tech/omna/dm_mo/MO_Push_DDF-V1_0.ddf</DDF>
     <TS>
     </TS>
   </Item>
@@ -722,7 +722,7 @@
     <Owner>DS WG</Owner>
     <Source>0</Source>
     <Ver>1.0</Ver>
-    <DDF>http://devwww.openmobilealliance.org/tech/omna/dm_mo/ds_mo-v1_0.ddf</DDF>
+    <DDF>http://www.openmobilealliance.org/tech/omna/dm_mo/ds_mo-v1_0.ddf</DDF>
     <TS>
     </TS>
   </Item>
@@ -733,7 +733,7 @@
     <Owner>SEC WG</Owner>
     <Source>0</Source>
     <Ver>1.0</Ver>
-    <DDF>http://devwww.openmobilealliance.org/tech/omna/dm_mo/SEC-CERT_MO-v1_0.ddf</DDF>
+    <DDF>http://www.openmobilealliance.org/tech/omna/dm_mo/SEC-CERT_MO-v1_0.ddf</DDF>
     <TS>
     </TS>
   </Item>
@@ -768,7 +768,7 @@
     </Owner>
     <Source>0</Source>
     <Ver>2.0</Ver>
-    <DDF>http://devwww.openmobilealliance.org/tech/omna/prs_mo/oma_prs-v2_0.ddf</DDF>
+    <DDF>http://www.openmobilealliance.org/tech/omna/prs_mo/oma_prs-v2_0.ddf</DDF>
     <TS>
     </TS>
   </Item>
@@ -780,7 +780,7 @@
     </Owner>
     <Source>0</Source>
     <Ver>1.0</Ver>
-    <DDF>http://devwww.openmobilealliance.org/tech/omna/dm_mo/dm_scheduling_ddf-v1_0.ddf</DDF>
+    <DDF>http://www.openmobilealliance.org/tech/omna/dm_mo/dm_scheduling_ddf-v1_0.ddf</DDF>
     <TS>
     </TS>
   </Item>
@@ -792,7 +792,7 @@
     </Owner>
     <Source>0</Source>
     <Ver>2.0</Ver>
-    <DDF>http://devwww.openmobilealliance.org/tech/omna/dm_mo/oma_supl-v2_0.ddf</DDF>
+    <DDF>http://www.openmobilealliance.org/tech/omna/dm_mo/oma_supl-v2_0.ddf</DDF>
     <TS>
     </TS>
   </Item>
@@ -803,7 +803,7 @@
     <Owner>SCOMO</Owner>
     <Source>0</Source>
     <Ver>1.0</Ver>
-    <DDF>http://devwww.openmobilealliance.org/tech/omna/dm_mo/mo_scomo-v1_0.ddf</DDF>
+    <DDF>http://www.openmobilealliance.org/tech/omna/dm_mo/mo_scomo-v1_0.ddf</DDF>
     <TS>
     </TS>
   </Item>
@@ -826,7 +826,7 @@
     </Owner>
     <Source>0</Source>
     <Ver>1.0</Ver>
-    <DDF>http://devwww.openmobilealliance.org/tech/omna/dm_mo/SUP-MO_MEM-v1_0.ddf</DDF>
+    <DDF>http://www.openmobilealliance.org/tech/omna/dm_mo/SUP-MO_MEM-v1_0.ddf</DDF>
     <TS>
     </TS>
   </Item>
@@ -850,7 +850,7 @@
     </Owner>
     <Source>0</Source>
     <Ver>1.0</Ver>
-    <DDF>http://devwww.openmobilealliance.org/tech/omna/dm_mo/MO_DeltaRec-V1_0.ddf</DDF>
+    <DDF>http://www.openmobilealliance.org/tech/omna/dm_mo/MO_DeltaRec-V1_0.ddf</DDF>
     <TS>
     </TS>
   </Item>
@@ -862,7 +862,7 @@
     </Owner>
     <Source>0</Source>
     <Ver>3.0</Ver>
-    <DDF>http://devwww.openmobilealliance.org/tech/omna/dm_mo/oma_supl-v3_0.ddf</DDF>
+    <DDF>http://www.openmobilealliance.org/tech/omna/dm_mo/oma_supl-v3_0.ddf</DDF>
     <TS>
     </TS>
   </Item>
@@ -874,7 +874,7 @@
     </Owner>
     <Source>0</Source>
     <Ver>1.1</Ver>
-    <DDF>http://devwww.openmobilealliance.org/tech/omna/dm_mo/mo_scomo-v1_1.ddf</DDF>
+    <DDF>http://www.openmobilealliance.org/tech/omna/dm_mo/mo_scomo-v1_1.ddf</DDF>
     <TS>
     </TS>
   </Item>
@@ -898,7 +898,7 @@
     </Owner>
     <Source>0</Source>
     <Ver>1.2</Ver>
-    <DDF>http://devwww.openmobilealliance.org/tech/omna/dm_mo/mo_diagmon-v1_1.ddf</DDF>
+    <DDF>http://www.openmobilealliance.org/tech/omna/dm_mo/mo_diagmon-v1_1.ddf</DDF>
     <TS>
     </TS>
   </Item>
@@ -910,7 +910,7 @@
     </Owner>
     <Source>0</Source>
     <Ver>1.2</Ver>
-    <DDF>http://devwww.openmobilealliance.org/tech/omna/dm_mo/mo_diagmontrapmo-v1_1.ddf</DDF>
+    <DDF>http://www.openmobilealliance.org/tech/omna/dm_mo/mo_diagmontrapmo-v1_1.ddf</DDF>
     <TS>
     </TS>
   </Item>
@@ -922,7 +922,7 @@
     </Owner>
     <Source>0</Source>
     <Ver>1.2</Ver>
-    <DDF>http://devwww.openmobilealliance.org/tech/omna/dm_mo/mo_diagmon_function_umts-v1_1.ddf</DDF>
+    <DDF>http://www.openmobilealliance.org/tech/omna/dm_mo/mo_diagmon_function_umts-v1_1.ddf</DDF>
     <TS>
     </TS>
   </Item>
@@ -934,7 +934,7 @@
     </Owner>
     <Source>0</Source>
     <Ver>1.2</Ver>
-    <DDF>http://devwww.openmobilealliance.org/tech/omna/dm_mo/mo_diagmon_function_uesettings-v1_0.ddf</DDF>
+    <DDF>http://www.openmobilealliance.org/tech/omna/dm_mo/mo_diagmon_function_uesettings-v1_0.ddf</DDF>
     <TS>
     </TS>
   </Item>
@@ -946,7 +946,7 @@
     </Owner>
     <Source>0</Source>
     <Ver>1.2</Ver>
-    <DDF>http://devwww.openmobilealliance.org/tech/omna/dm_mo/mo_diagmon_function_trapeventlog-v1_1.ddf</DDF>
+    <DDF>http://www.openmobilealliance.org/tech/omna/dm_mo/mo_diagmon_function_trapeventlog-v1_1.ddf</DDF>
     <TS>
     </TS>
   </Item>
@@ -958,7 +958,7 @@
     </Owner>
     <Source>0</Source>
     <Ver>1.2</Ver>
-    <DDF>http://devwww.openmobilealliance.org/tech/omna/dm_mo/mo_diagmon_function_tracelogs-v1_0.ddf</DDF>
+    <DDF>http://www.openmobilealliance.org/tech/omna/dm_mo/mo_diagmon_function_tracelogs-v1_0.ddf</DDF>
     <TS>
     </TS>
   </Item>
@@ -970,7 +970,7 @@
     </Owner>
     <Source>0</Source>
     <Ver>1.2</Ver>
-    <DDF>http://devwww.openmobilealliance.org/tech/omna/dm_mo/mo_diagmon_function_smsusage-v1_0.ddf</DDF>
+    <DDF>http://www.openmobilealliance.org/tech/omna/dm_mo/mo_diagmon_function_smsusage-v1_0.ddf</DDF>
     <TS>
     </TS>
   </Item>
@@ -982,7 +982,7 @@
     </Owner>
     <Source>0</Source>
     <Ver>1.2</Ver>
-    <DDF>http://devwww.openmobilealliance.org/tech/omna/dm_mo/mo_diagmon_function_smsoptions-v1_0.ddf</DDF>
+    <DDF>http://www.openmobilealliance.org/tech/omna/dm_mo/mo_diagmon_function_smsoptions-v1_0.ddf</DDF>
     <TS>
     </TS>
   </Item>
@@ -994,7 +994,7 @@
     </Owner>
     <Source>0</Source>
     <Ver>1.2</Ver>
-    <DDF>http://devwww.openmobilealliance.org/tech/omna/dm_mo/mo_diagmon_function_sensorinfo-v1_0.ddf</DDF>
+    <DDF>http://www.openmobilealliance.org/tech/omna/dm_mo/mo_diagmon_function_sensorinfo-v1_0.ddf</DDF>
     <TS>
     </TS>
   </Item>
@@ -1006,7 +1006,7 @@
     </Owner>
     <Source>0</Source>
     <Ver>1.2</Ver>
-    <DDF>http://devwww.openmobilealliance.org/tech/omna/dm_mo/mo_diagmon_function_restart-v1_0.ddf</DDF>
+    <DDF>http://www.openmobilealliance.org/tech/omna/dm_mo/mo_diagmon_function_restart-v1_0.ddf</DDF>
     <TS>
     </TS>
   </Item>
@@ -1018,7 +1018,7 @@
     </Owner>
     <Source>0</Source>
     <Ver>1.2</Ver>
-    <DDF>http://devwww.openmobilealliance.org/tech/omna/dm_mo/mo_diagmon_function_qos-v1_0.ddf</DDF>
+    <DDF>http://www.openmobilealliance.org/tech/omna/dm_mo/mo_diagmon_function_qos-v1_0.ddf</DDF>
     <TS>
     </TS>
   </Item>
@@ -1030,7 +1030,7 @@
     </Owner>
     <Source>0</Source>
     <Ver>1.2</Ver>
-    <DDF>http://devwww.openmobilealliance.org/tech/omna/dm_mo/mo_diagmon_function_phonebook-v1_0.ddf</DDF>
+    <DDF>http://www.openmobilealliance.org/tech/omna/dm_mo/mo_diagmon_function_phonebook-v1_0.ddf</DDF>
     <TS>
     </TS>
   </Item>
@@ -1042,7 +1042,7 @@
     </Owner>
     <Source>0</Source>
     <Ver>1.2</Ver>
-    <DDF>http://devwww.openmobilealliance.org/tech/omna/dm_mo/mo_diagmon_function_paniclog-v1_1.ddf</DDF>
+    <DDF>http://www.openmobilealliance.org/tech/omna/dm_mo/mo_diagmon_function_paniclog-v1_1.ddf</DDF>
     <TS>
     </TS>
   </Item>
@@ -1054,7 +1054,7 @@
     </Owner>
     <Source>0</Source>
     <Ver>1.2</Ver>
-    <DDF>http://devwww.openmobilealliance.org/tech/omna/dm_mo/mo_diagmon_function_mobilitymgmtrejection-v1_0.ddf</DDF>
+    <DDF>http://www.openmobilealliance.org/tech/omna/dm_mo/mo_diagmon_function_mobilitymgmtrejection-v1_0.ddf</DDF>
     <TS>
     </TS>
   </Item>
@@ -1066,7 +1066,7 @@
     </Owner>
     <Source>0</Source>
     <Ver>1.2</Ver>
-    <DDF>http://devwww.openmobilealliance.org/tech/omna/dm_mo/mo_diagmon_function_mmsusage-v1_0.ddf</DDF>
+    <DDF>http://www.openmobilealliance.org/tech/omna/dm_mo/mo_diagmon_function_mmsusage-v1_0.ddf</DDF>
     <TS>
     </TS>
   </Item>
@@ -1078,7 +1078,7 @@
     </Owner>
     <Source>0</Source>
     <Ver>1.2</Ver>
-    <DDF>http://devwww.openmobilealliance.org/tech/omna/dm_mo/mo_diagmon_function_memory-v1_0.ddf</DDF>
+    <DDF>http://www.openmobilealliance.org/tech/omna/dm_mo/mo_diagmon_function_memory-v1_0.ddf</DDF>
     <TS>
     </TS>
   </Item>
@@ -1090,7 +1090,7 @@
     </Owner>
     <Source>0</Source>
     <Ver>1.2</Ver>
-    <DDF>http://devwww.openmobilealliance.org/tech/omna/dm_mo/mo_diagmon_function_lte-v1_1.ddf</DDF>
+    <DDF>http://www.openmobilealliance.org/tech/omna/dm_mo/mo_diagmon_function_lte-v1_1.ddf</DDF>
     <TS>
     </TS>
   </Item>
@@ -1102,7 +1102,7 @@
     </Owner>
     <Source>0</Source>
     <Ver>1.2</Ver>
-    <DDF>http://devwww.openmobilealliance.org/tech/omna/dm_mo/mo_diagmon_function_gsm-v1_1.ddf</DDF>
+    <DDF>http://www.openmobilealliance.org/tech/omna/dm_mo/mo_diagmon_function_gsm-v1_1.ddf</DDF>
     <TS>
     </TS>
   </Item>
@@ -1114,7 +1114,7 @@
     </Owner>
     <Source>0</Source>
     <Ver>1.2</Ver>
-    <DDF>http://devwww.openmobilealliance.org/tech/omna/dm_mo/mo_diagmon_function_deviceloc-v1_0.ddf</DDF>
+    <DDF>http://www.openmobilealliance.org/tech/omna/dm_mo/mo_diagmon_function_deviceloc-v1_0.ddf</DDF>
     <TS>
     </TS>
   </Item>
@@ -1126,7 +1126,7 @@
     </Owner>
     <Source>0</Source>
     <Ver>1.2</Ver>
-    <DDF>http://devwww.openmobilealliance.org/tech/omna/dm_mo/mo_diagmon_function_datacalldatasession-v1_1.ddf</DDF>
+    <DDF>http://www.openmobilealliance.org/tech/omna/dm_mo/mo_diagmon_function_datacalldatasession-v1_1.ddf</DDF>
     <TS>
     </TS>
   </Item>
@@ -1138,7 +1138,7 @@
     </Owner>
     <Source>0</Source>
     <Ver>1.2</Ver>
-    <DDF>http://devwww.openmobilealliance.org/tech/omna/dm_mo/mo_diagmon_function_builtintest-v1_0.ddf</DDF>
+    <DDF>http://www.openmobilealliance.org/tech/omna/dm_mo/mo_diagmon_function_builtintest-v1_0.ddf</DDF>
     <TS>
     </TS>
   </Item>
@@ -1150,7 +1150,7 @@
     </Owner>
     <Source>0</Source>
     <Ver>1.2</Ver>
-    <DDF>http://devwww.openmobilealliance.org/tech/omna/dm_mo/mo_diagmon_function_browsermon-v1_0.ddf</DDF>
+    <DDF>http://www.openmobilealliance.org/tech/omna/dm_mo/mo_diagmon_function_browsermon-v1_0.ddf</DDF>
     <TS>
     </TS>
   </Item>
@@ -1162,7 +1162,7 @@
     </Owner>
     <Source>0</Source>
     <Ver>1.2</Ver>
-    <DDF>http://devwww.openmobilealliance.org/tech/omna/dm_mo/mo_diagmon_function_battery-v1_0.ddf</DDF>
+    <DDF>http://www.openmobilealliance.org/tech/omna/dm_mo/mo_diagmon_function_battery-v1_0.ddf</DDF>
     <TS>
     </TS>
   </Item>
@@ -1174,7 +1174,7 @@
     </Owner>
     <Source>0</Source>
     <Ver>1.2</Ver>
-    <DDF>http://devwww.openmobilealliance.org/tech/omna/dm_mo/mo_diagmon_function_appmonlog-v1_0.ddf</DDF>
+    <DDF>http://www.openmobilealliance.org/tech/omna/dm_mo/mo_diagmon_function_appmonlog-v1_0.ddf</DDF>
     <TS>
     </TS>
   </Item>
@@ -1186,7 +1186,7 @@
     </Owner>
     <Source>0</Source>
     <Ver>1.2</Ver>
-    <DDF>http://devwww.openmobilealliance.org/tech/omna/dm_mo/mo_diagmon_function_appdatausage-v1_0.ddf</DDF>
+    <DDF>http://www.openmobilealliance.org/tech/omna/dm_mo/mo_diagmon_function_appdatausage-v1_0.ddf</DDF>
     <TS>
     </TS>
   </Item>
@@ -1198,7 +1198,7 @@
     </Owner>
     <Source>0</Source>
     <Ver>1.2</Ver>
-    <DDF>http://devwww.openmobilealliance.org/tech/omna/dm_mo/mo_diagmon_event_qos-v1_0.ddf</DDF>
+    <DDF>http://www.openmobilealliance.org/tech/omna/dm_mo/mo_diagmon_event_qos-v1_0.ddf</DDF>
     <TS>
     </TS>
   </Item>
@@ -1210,7 +1210,7 @@
     </Owner>
     <Source>0</Source>
     <Ver>1.2</Ver>
-    <DDF>http://devwww.openmobilealliance.org/tech/omna/dm_mo/mo_diagmon_event_logfull-v1_0.ddf</DDF>
+    <DDF>http://www.openmobilealliance.org/tech/omna/dm_mo/mo_diagmon_event_logfull-v1_0.ddf</DDF>
     <TS>
     </TS>
   </Item>
@@ -1222,7 +1222,7 @@
     </Owner>
     <Source>0</Source>
     <Ver>1.2</Ver>
-    <DDF>http://devwww.openmobilealliance.org/tech/omna/dm_mo/mo_diagmon_event_hardreboot-v1_0.ddf</DDF>
+    <DDF>http://www.openmobilealliance.org/tech/omna/dm_mo/mo_diagmon_event_hardreboot-v1_0.ddf</DDF>
     <TS>
     </TS>
   </Item>
@@ -1234,7 +1234,7 @@
     </Owner>
     <Source>0</Source>
     <Ver>1.2</Ver>
-    <DDF>http://devwww.openmobilealliance.org/tech/omna/dm_mo/mo_diagmon_event_geographic-v1_0.ddf</DDF>
+    <DDF>http://www.openmobilealliance.org/tech/omna/dm_mo/mo_diagmon_event_geographic-v1_0.ddf</DDF>
     <TS>
     </TS>
   </Item>
@@ -1246,7 +1246,7 @@
     </Owner>
     <Source>0</Source>
     <Ver>1.2</Ver>
-    <DDF>http://devwww.openmobilealliance.org/tech/omna/dm_mo/mo_diagmon_event_calldrop-v1_0.ddf</DDF>
+    <DDF>http://www.openmobilealliance.org/tech/omna/dm_mo/mo_diagmon_event_calldrop-v1_0.ddf</DDF>
     <TS>
     </TS>
   </Item>
@@ -1258,7 +1258,7 @@
     </Owner>
     <Source>0</Source>
     <Ver>1.2</Ver>
-    <DDF>http://devwww.openmobilealliance.org/tech/omna/dm_mo/mo_diagmon_event_dataspeed-v1_0.ddf</DDF>
+    <DDF>http://www.openmobilealliance.org/tech/omna/dm_mo/mo_diagmon_event_dataspeed-v1_0.ddf</DDF>
     <TS>
     </TS>
   </Item>
@@ -1270,7 +1270,7 @@
     </Owner>
     <Source>0</Source>
     <Ver>1.2</Ver>
-    <DDF>http://devwww.openmobilealliance.org/tech/omna/dm_mo/mo_diagmon_function_nfc-v1_1.ddf</DDF>
+    <DDF>http://www.openmobilealliance.org/tech/omna/dm_mo/mo_diagmon_function_nfc-v1_1.ddf</DDF>
     <TS>
     </TS>
   </Item>
@@ -1282,7 +1282,7 @@
     </Owner>
     <Source>0</Source>
     <Ver>1.2</Ver>
-    <DDF>http://devwww.openmobilealliance.org/tech/omna/dm_mo/mo_diagmon_function_appexeinfo-v1_0.ddf</DDF>
+    <DDF>http://www.openmobilealliance.org/tech/omna/dm_mo/mo_diagmon_function_appexeinfo-v1_0.ddf</DDF>
     <TS>
     </TS>
   </Item>
@@ -1294,7 +1294,7 @@
     </Owner>
     <Source>0</Source>
     <Ver>1.2</Ver>
-    <DDF>http://devwww.openmobilealliance.org/tech/omna/dm_mo/mo_diagmon_event_receivedpower-v1_0.ddf</DDF>
+    <DDF>http://www.openmobilealliance.org/tech/omna/dm_mo/mo_diagmon_event_receivedpower-v1_0.ddf</DDF>
     <TS>
     </TS>
   </Item>
@@ -1306,7 +1306,7 @@
     </Owner>
     <Source>0</Source>
     <Ver>1.1</Ver>
-    <DDF>http://devwww.openmobilealliance.org/tech/omna/dm_mo/MO_GwConfig-v1_1.ddf</DDF>
+    <DDF>http://www.openmobilealliance.org/tech/omna/dm_mo/MO_GwConfig-v1_1.ddf</DDF>
     <TS>
     </TS>
   </Item>
@@ -1318,7 +1318,7 @@
     </Owner>
     <Source>0</Source>
     <Ver>1.1</Ver>
-    <DDF>http://devwww.openmobilealliance.org/tech/omna/dm_mo/MO_GwDeviceInventory-v1_1.ddf</DDF>
+    <DDF>http://www.openmobilealliance.org/tech/omna/dm_mo/MO_GwDeviceInventory-v1_1.ddf</DDF>
     <TS>
     </TS>
   </Item>
@@ -1330,7 +1330,7 @@
     </Owner>
     <Source>0</Source>
     <Ver>1.0</Ver>
-    <DDF>http://devwww.openmobilealliance.org/tech/omna/dm_mo/MO_GwEDTrigger-v1_0.ddf</DDF>
+    <DDF>http://www.openmobilealliance.org/tech/omna/dm_mo/MO_GwEDTrigger-v1_0.ddf</DDF>
     <TS>
     </TS>
   </Item>
@@ -1342,7 +1342,7 @@
     </Owner>
     <Source>0</Source>
     <Ver>1.0</Ver>
-    <DDF>http://devwww.openmobilealliance.org/tech/omna/dm_mo/MO_GwFanout-v1_0.ddf</DDF>
+    <DDF>http://www.openmobilealliance.org/tech/omna/dm_mo/MO_GwFanout-v1_0.ddf</DDF>
     <TS>
     </TS>
   </Item>
@@ -1354,7 +1354,7 @@
     </Owner>
     <Source>0</Source>
     <Ver>1.0</Ver>
-    <DDF>http://devwww.openmobilealliance.org/tech/omna/dm_mo/MO_GwImageInventory-v1_0.ddf</DDF>
+    <DDF>http://www.openmobilealliance.org/tech/omna/dm_mo/MO_GwImageInventory-v1_0.ddf</DDF>
     <TS>
     </TS>
   </Item>
@@ -1366,7 +1366,7 @@
     </Owner>
     <Source>0</Source>
     <Ver>1.0</Ver>
-    <DDF>http://devwww.openmobilealliance.org/tech/omna/dm_mo/MO_GwImageInventory-v1_0.ddf</DDF>
+    <DDF>http://www.openmobilealliance.org/tech/omna/dm_mo/MO_GwImageInventory-v1_0.ddf</DDF>
     <TS>
     </TS>
   </Item>
@@ -1378,7 +1378,7 @@
     </Owner>
     <Source>0</Source>
     <Ver>1.0</Ver>
-    <DDF>http://devwww.openmobilealliance.org/tech/omna/dm_mo/virmo-v1_0.ddf</DDF>
+    <DDF>http://www.openmobilealliance.org/tech/omna/dm_mo/virmo-v1_0.ddf</DDF>
     <TS>
     </TS>
   </Item>
@@ -1390,7 +1390,7 @@
     </Owner>
     <Source>0</Source>
     <Ver>1.0</Ver>
-    <DDF>http://devwww.openmobilealliance.org/tech/omna/dm_mo/vmimgmo-v1_0.ddf</DDF>
+    <DDF>http://www.openmobilealliance.org/tech/omna/dm_mo/vmimgmo-v1_0.ddf</DDF>
     <TS>
     </TS>
   </Item>
@@ -1427,7 +1427,7 @@
     </Owner>
     <Source>0</Source>
     <Ver>1.2</Ver>
-    <DDF>http://devwww.openmobilealliance.org/tech/omna/dm_mo/dm_dmacc-v1_2.ddf</DDF>
+    <DDF>http://www.openmobilealliance.org/tech/omna/dm_mo/dm_dmacc-v1_2.ddf</DDF>
     <TS>
     </TS>
   </Item>
@@ -1439,7 +1439,7 @@
     </Owner>
     <Source>0</Source>
     <Ver>1.2</Ver>
-    <DDF>http://devwww.openmobilealliance.org/tech/omna/dm_mo/dm_devinfo-v1_2.ddf</DDF>
+    <DDF>http://www.openmobilealliance.org/tech/omna/dm_mo/dm_devinfo-v1_2.ddf</DDF>
     <TS>
     </TS>
   </Item>
@@ -1451,7 +1451,7 @@
     </Owner>
     <Source>0</Source>
     <Ver>1.0</Ver>
-    <DDF>http://devwww.openmobilealliance.org/tech/omna/dm_mo/dm_delegation-v1_0.ddf</DDF>
+    <DDF>http://www.openmobilealliance.org/tech/omna/dm_mo/dm_delegation-v1_0.ddf</DDF>
     <TS>
     </TS>
   </Item>
@@ -1463,7 +1463,7 @@
     </Owner>
     <Source>0</Source>
     <Ver>1.0</Ver>
-    <DDF>http://devwww.openmobilealliance.org/tech/omna/dm_mo/dm_sessioninfo-v1_0.ddf</DDF>
+    <DDF>http://www.openmobilealliance.org/tech/omna/dm_mo/dm_sessioninfo-v1_0.ddf</DDF>
     <TS>
     </TS>
   </Item>
@@ -1475,7 +1475,7 @@
     </Owner>
     <Source>0</Source>
     <Ver>1.0</Ver>
-    <DDF>http://devwww.openmobilealliance.org/tech/omna/dm_mo/oma_pcps-v1_0.ddf</DDF>
+    <DDF>http://www.openmobilealliance.org/tech/omna/dm_mo/oma_pcps-v1_0.ddf</DDF>
     <TS>
     </TS>
   </Item>
@@ -1486,7 +1486,7 @@
     <Owner>DM WG</Owner>
     <Source>0</Source>
     <Ver>1.0</Ver>
-    <DDF>http://devwww.openmobilealliance.org/tech/omna/dm_mo/OMA-SUP-MO_ConnMO_NAP-v1_0.ddf</DDF>
+    <DDF>http://www.openmobilealliance.org/tech/omna/dm_mo/OMA-SUP-MO_ConnMO_NAP-v1_0.ddf</DDF>
     <TS></TS>
   </Item>
     <Item>
@@ -1496,7 +1496,7 @@
     <Owner>DM WG</Owner>
     <Source>0</Source>
     <Ver>1.0</Ver>
-    <DDF>http://devwww.openmobilealliance.org/tech/omna/dm_mo/OMA-SUP-MO_ConnMO_Proxy-v1_0.ddf</DDF>
+    <DDF>http://www.openmobilealliance.org/tech/omna/dm_mo/OMA-SUP-MO_ConnMO_Proxy-v1_0.ddf</DDF>
     <TS></TS>
   </Item>
     <Item>
@@ -1506,7 +1506,7 @@
     <Owner>DM WG</Owner>
     <Source>0</Source>
     <Ver>1.0</Ver>
-    <DDF>http://devwww.openmobilealliance.org/tech/omna/dm_mo/OMA-SUP-MO_ConnMO_3GPPCS-v1_0.ddf</DDF>
+    <DDF>http://www.openmobilealliance.org/tech/omna/dm_mo/OMA-SUP-MO_ConnMO_3GPPCS-v1_0.ddf</DDF>
     <TS></TS>
   </Item>
     <Item>
@@ -1516,7 +1516,7 @@
     <Owner>DM WG</Owner>
     <Source>0</Source>
     <Ver>1.0</Ver>
-    <DDF>http://devwww.openmobilealliance.org/tech/omna/dm_mo/OMA-SUP-MO_ConnMO_3GPPPS-v1_0.ddf</DDF>
+    <DDF>http://www.openmobilealliance.org/tech/omna/dm_mo/OMA-SUP-MO_ConnMO_3GPPPS-v1_0.ddf</DDF>
     <TS></TS>
   </Item>
     <Item>
@@ -1526,7 +1526,7 @@
     <Owner>DM WG</Owner>
     <Source>0</Source>
     <Ver>1.0</Ver>
-    <DDF>http://devwww.openmobilealliance.org/tech/omna/dm_mo/OMA-SUP-MO_ConnMO_CDMA-v1_0.ddf</DDF>
+    <DDF>http://www.openmobilealliance.org/tech/omna/dm_mo/OMA-SUP-MO_ConnMO_CDMA-v1_0.ddf</DDF>
     <TS></TS>
   </Item>
     <Item>
@@ -1536,7 +1536,7 @@
     <Owner>DM WG</Owner>
     <Source>0</Source>
     <Ver>1.0</Ver>
-    <DDF>http://devwww.openmobilealliance.org/tech/omna/dm_mo/OMA-SUP-MO_ConnMO_EAP-v1_0.ddf</DDF>
+    <DDF>http://www.openmobilealliance.org/tech/omna/dm_mo/OMA-SUP-MO_ConnMO_EAP-v1_0.ddf</DDF>
     <TS></TS>
   </Item>
     <Item>
@@ -1546,7 +1546,7 @@
     <Owner>DM WG</Owner>
     <Source>0</Source>
     <Ver>1.0</Ver>
-    <DDF>http://devwww.openmobilealliance.org/tech/omna/dm_mo/OMA-SUP-MO_ConnMO_HTTPProxy-v1_0.ddf</DDF>
+    <DDF>http://www.openmobilealliance.org/tech/omna/dm_mo/OMA-SUP-MO_ConnMO_HTTPProxy-v1_0.ddf</DDF>
     <TS></TS>
   </Item>
     <Item>
@@ -1556,7 +1556,7 @@
     <Owner>DM WG</Owner>
     <Source>0</Source>
     <Ver>1.0</Ver>
-    <DDF>http://devwww.openmobilealliance.org/tech/omna/dm_mo/OMA-SUP-MO_ConnMO_WAPProxy-v1_0.ddf</DDF>
+    <DDF>http://www.openmobilealliance.org/tech/omna/dm_mo/OMA-SUP-MO_ConnMO_WAPProxy-v1_0.ddf</DDF>
     <TS></TS>
   </Item>
     <Item>
@@ -1566,7 +1566,7 @@
     <Owner>DM WG</Owner>
     <Source>0</Source>
     <Ver>1.0</Ver>
-    <DDF>http://devwww.openmobilealliance.org/tech/omna/dm_mo/OMA-SUP-MO_ConnMO_WLAN-v1_0.ddf</DDF>
+    <DDF>http://www.openmobilealliance.org/tech/omna/dm_mo/OMA-SUP-MO_ConnMO_WLAN-v1_0.ddf</DDF>
     <TS></TS>
   </Item>
   <Item>
@@ -1576,7 +1576,7 @@
     <Owner>CD WG</Owner>
     <Source>0</Source>
     <Ver>1.2</Ver>
-    <DDF>http://devwww.openmobilealliance.org/tech/omna/dm_mo/oma_bcast-v1_2.ddf</DDF>
+    <DDF>http://www.openmobilealliance.org/tech/omna/dm_mo/oma_bcast-v1_2.ddf</DDF>
     <TS></TS>
   </Item>
   <Item>
