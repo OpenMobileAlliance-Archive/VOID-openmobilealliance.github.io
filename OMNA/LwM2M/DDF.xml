@@ -504,7 +504,7 @@
 
     <Vorto>http://vorto.eclipse.org/resolve/lwm2m/Object/ObjectID/15</Vorto>
 
-    <DDFLink>1</DDFLink>
+    <DDFLink>0</DDFLink>
 
     <TS>http://www.openmobilealliance.org/release/LWM2M_DevCapMgmt/V1_0_2-20170308-A/OMA-TS-LWM2M_DevCapMgmt-V1_0_2-20170308-A.pdf</TS>
 
