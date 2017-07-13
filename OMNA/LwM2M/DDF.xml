@@ -40,7 +40,7 @@
     <DDFLink>1</DDFLink>
 
     <!-- URL to the TS of the object, not visible, not used -->
-    <TS>http://openmobilealliance.org/release/LightweightM2M/V1_0-20170208-A/OMA-TS-LightweightM2M-V1_0-20170208-A.pdf</TS>
+   <TS>http://openmobilealliance.org/release/LightweightM2M/V1_0_1-20170704-A/OMA-TS-LightweightM2M-V1_0_1-20170704-A.pdf</TS>
 
     <!-- 0 => if link to TS should not be visible, 1 => if link to TS should be visible (default) -->
     <TSLink>1</TSLink>
@@ -72,7 +72,7 @@
 
     <DDFLink>1</DDFLink>
 
-    <TS>http://openmobilealliance.org/release/LightweightM2M/V1_0-20170208-A/OMA-TS-LightweightM2M-V1_0-20170208-A.pdf</TS>
+   <TS>http://openmobilealliance.org/release/LightweightM2M/V1_0_1-20170704-A/OMA-TS-LightweightM2M-V1_0_1-20170704-A.pdf</TS>
 
     <TSLink>1</TSLink>
 
@@ -95,15 +95,15 @@
 
     <Ver>1.0</Ver>
 
-    <DDF>http://www.openmobilealliance.org/tech/profiles/LWM2M_Access_Control-v1_0.xml</DDF>
+    <DDF>http://www.openmobilealliance.org/tech/profiles/LWM2M_Access_Control-v1_0_1.xml</DDF>
 
-    <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3a%2f%2fwww.openmobilealliance.org%2ftech%2fprofiles%2fLWM2M_Access_Control-v1_0.xmlV</LWM2M>
+    <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3a%2f%2fwww.openmobilealliance.org%2ftech%2fprofiles%2fLWM2M_Access_Control-v1_0_1.xmlV</LWM2M>
 
     <Vorto>http://vorto.eclipse.org/resolve/lwm2m/Object/ObjectID/2</Vorto>
 
     <DDFLink>1</DDFLink>
 
-    <TS>http://openmobilealliance.org/release/LightweightM2M/V1_0-20170208-A/OMA-TS-LightweightM2M-V1_0-20170208-A.pdf</TS>
+    <TS>http://openmobilealliance.org/release/LightweightM2M/V1_0_1-20170704-A/OMA-TS-LightweightM2M-V1_0_1-20170704-A.pdf</TS>
 
     <TSLink>1</TSLink>
 
@@ -126,15 +126,15 @@
 
     <Ver>1.0</Ver>
 
-    <DDF>http://www.openmobilealliance.org/tech/profiles/LWM2M_Device-v1_0.xml</DDF>
+    <DDF>http://www.openmobilealliance.org/tech/profiles/LWM2M_Device-v1_0_1.xml</DDF>
 
-    <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3a%2f%2fwww.openmobilealliance.org%2ftech%2fprofiles%2fLWM2M_Device-v1_0.xml</LWM2M>
+    <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3a%2f%2fwww.openmobilealliance.org%2ftech%2fprofiles%2fLWM2M_Device-v1_0_1.xml</LWM2M>
 
     <Vorto>http://vorto.eclipse.org/resolve/lwm2m/Object/ObjectID/3</Vorto>
 
     <DDFLink>1</DDFLink>
 
-    <TS>http://openmobilealliance.org/release/LightweightM2M/V1_0-20170208-A/OMA-TS-LightweightM2M-V1_0-20170208-A.pdf</TS>
+  <TS>http://openmobilealliance.org/release/LightweightM2M/V1_0_1-20170704-A/OMA-TS-LightweightM2M-V1_0_1-20170704-A.pdf</TS>
 
     <TSLink>1</TSLink>
 
@@ -157,15 +157,15 @@
 
     <Ver>1.0</Ver>
 
-    <DDF>http://www.openmobilealliance.org/tech/profiles/LWM2M_Connectivity_Monitoring-v1_0.xml</DDF>
+    <DDF>http://www.openmobilealliance.org/tech/profiles/LWM2M_Connectivity_Monitoring-v1_0_1.xml</DDF>
 
-    <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3a%2f%2fwww.openmobilealliance.org%2ftech%2fprofiles%2fLWM2M_Connectivity_Monitoring-v1_0.xml</LWM2M>
+    <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3a%2f%2fwww.openmobilealliance.org%2ftech%2fprofiles%2fLWM2M_Connectivity_Monitoring-v1_0_1.xml</LWM2M>
 
     <Vorto>http://vorto.eclipse.org/resolve/lwm2m/Object/ObjectID/4</Vorto>
 
     <DDFLink>1</DDFLink>
 
-    <TS>http://openmobilealliance.org/release/LightweightM2M/V1_0-20170208-A/OMA-TS-LightweightM2M-V1_0-20170208-A.pdf</TS>
+   <TS>http://openmobilealliance.org/release/LightweightM2M/V1_0_1-20170704-A/OMA-TS-LightweightM2M-V1_0_1-20170704-A.pdf</TS>
 
     <TSLink>1</TSLink>
 
@@ -188,15 +188,14 @@
 
     <Ver>1.0</Ver>
 
-    <DDF>http://www.openmobilealliance.org/tech/profiles/LWM2M_Firmware_Update-v1_0.xml</DDF>
+    <DDF>http://www.openmobilealliance.org/tech/profiles/LWM2M_Firmware_Update-v1_0_1.xml</DDF>
 
-    <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3a%2f%2fwww.openmobilealliance.org%2ftech%2fprofiles%2fLWM2M_Firmware_Update-v1_0.xml</LWM2M>
+    <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3a%2f%2fwww.openmobilealliance.org%2ftech%2fprofiles%2fLWM2M_Firmware_Update-v1_0_1.xml</LWM2M>
 
     <Vorto>http://vorto.eclipse.org/resolve/lwm2m/Object/ObjectID/5</Vorto>
 
     <DDFLink>1</DDFLink>
-
-    <TS>http://openmobilealliance.org/release/LightweightM2M/V1_0-20170208-A/OMA-TS-LightweightM2M-V1_0-20170208-A.pdf</TS>
+    <TS>http://openmobilealliance.org/release/LightweightM2M/V1_0_1-20170704-A/OMA-TS-LightweightM2M-V1_0_1-20170704-A.pdf</TS>
 
     <TSLink>1</TSLink>
 
@@ -227,7 +226,7 @@
 
     <DDFLink>1</DDFLink>
 
-    <TS>http://openmobilealliance.org/release/LightweightM2M/V1_0-20170208-A/OMA-TS-LightweightM2M-V1_0-20170208-A.pdf</TS>
+   <TS>http://openmobilealliance.org/release/LightweightM2M/V1_0_1-20170704-A/OMA-TS-LightweightM2M-V1_0_1-20170704-A.pdf</TS>
 
     <TSLink>1</TSLink>
 
@@ -250,15 +249,15 @@
 
     <Ver>1.0</Ver>
 
-    <DDF>http://www.openmobilealliance.org/tech/profiles/LWM2M_Connectivity_Statistics-v1_0.xml</DDF>
+    <DDF>http://www.openmobilealliance.org/tech/profiles/LWM2M_Connectivity_Statistics-v1_0_1.xml</DDF>
 
-    <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3a%2f%2fwww.openmobilealliance.org%2ftech%2fprofiles%2fLWM2M_Connectivity_Statistics-v1_0.xml</LWM2M>
+    <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3a%2f%2fwww.openmobilealliance.org%2ftech%2fprofiles%2fLWM2M_Connectivity_Statistics-v1_0_1.xml</LWM2M>
 
     <Vorto>http://vorto.eclipse.org/resolve/lwm2m/Object/ObjectID/7</Vorto>
 
     <DDFLink>1</DDFLink>
 
-    <TS>http://openmobilealliance.org/release/LightweightM2M/V1_0-20170208-A/OMA-TS-LightweightM2M-V1_0-20170208-A.pdf</TS>
+   <TS>http://openmobilealliance.org/release/LightweightM2M/V1_0_1-20170704-A/OMA-TS-LightweightM2M-V1_0_1-20170704-A.pdf</TS>
 
     <TSLink>1</TSLink>
 
