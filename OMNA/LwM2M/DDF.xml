@@ -93,7 +93,7 @@
 
     <Source>0</Source>
 
-    <Ver>1.0</Ver>
+    <Ver>1.0.1</Ver>
 
     <DDF>http://www.openmobilealliance.org/tech/profiles/LWM2M_Access_Control-v1_0_1.xml</DDF>
 
@@ -155,7 +155,7 @@
 
     <Source>0</Source>
 
-    <Ver>1.0</Ver>
+    <Ver>1.0.1</Ver>
 
     <DDF>http://www.openmobilealliance.org/tech/profiles/LWM2M_Connectivity_Monitoring-v1_0_1.xml</DDF>
 
@@ -186,7 +186,7 @@
 
     <Source>0</Source>
 
-    <Ver>1.0</Ver>
+    <Ver>1.0.1</Ver>
 
     <DDF>http://www.openmobilealliance.org/tech/profiles/LWM2M_Firmware_Update-v1_0_1.xml</DDF>
 
@@ -247,7 +247,7 @@
 
     <Source>0</Source>
 
-    <Ver>1.0</Ver>
+    <Ver>1.0.1</Ver>
 
     <DDF>http://www.openmobilealliance.org/tech/profiles/LWM2M_Connectivity_Statistics-v1_0_1.xml</DDF>
 
