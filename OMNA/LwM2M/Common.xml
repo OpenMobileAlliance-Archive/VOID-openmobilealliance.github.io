@@ -251,7 +251,7 @@
 
 <Name>Digital Input Polarity</Name>
 
-<Operations>RW</Operations>
+<Operations>R,W</Operations>
 
 <MultipleInstances></MultipleInstances>
 
@@ -275,7 +275,7 @@
 
 <Name>Digital Input Debounce</Name>
 
-<Operations>RW</Operations>
+<Operations>R,W</Operations>
 
 <MultipleInstances></MultipleInstances>
 
@@ -302,7 +302,7 @@
 
 <Name>Digital Input Edge Selection</Name>
 
-<Operations>RW</Operations>
+<Operations>R,W</Operations>
 
 <MultipleInstances></MultipleInstances>
 
@@ -353,7 +353,7 @@
 
 <Name>Current Time</Name>
 
-<Operations>RW</Operations>
+<Operations>R,W</Operations>
 
 <MultipleInstances></MultipleInstances>
 
@@ -377,7 +377,7 @@
 
 <Name>Fractional Time</Name>
 
-<Operations>RW</Operations>
+<Operations>R,W</Operations>
 
 <MultipleInstances>Single</MultipleInstances>
 
@@ -746,7 +746,7 @@
 
 <Name>Delay Duration</Name>
 
-<Operations>RW</Operations>
+<Operations>R,W</Operations>
 
 <MultipleInstances>Single</MultipleInstances>
 
@@ -772,7 +772,7 @@
 
 <Name>Clip</Name>
 
-<Operations>RW</Operations>
+<Operations>R,W</Operations>
 
 <MultipleInstances>Single</MultipleInstances>
 
@@ -818,7 +818,7 @@
 
 <Name>Duration</Name>
 
-<Operations>RW</Operations>
+<Operations>R,W</Operations>
 
 <MultipleInstances>Single</MultipleInstances>
 
@@ -845,7 +845,7 @@
 
 <Name>Minimum Off-time</Name>
 
-<Operations>RW</Operations>
+<Operations>R,W</Operations>
 
 <MultipleInstances>Single</MultipleInstances>
 
@@ -872,7 +872,7 @@
 
 <Name>Mode</Name>
 
-<Operations>RW</Operations>
+<Operations>R,W</Operations>
 
 <MultipleInstances>Single</MultipleInstances>
 
@@ -899,7 +899,7 @@
 
 <Name>Text</Name>
 
-<Operations>RW</Operations>
+<Operations>R,W</Operations>
 
 <MultipleInstances>Single</MultipleInstances>
 
@@ -923,7 +923,7 @@
 
 <Name>X Coordinate</Name>
 
-<Operations>RW</Operations>
+<Operations>R,W</Operations>
 
 <MultipleInstances>Single</MultipleInstances>
 
@@ -948,7 +948,7 @@
 
 <Name>Y Coordinate</Name>
 
-<Operations>RW</Operations>
+<Operations>R,W</Operations>
 
 <MultipleInstances>Single</MultipleInstances>
 
@@ -995,7 +995,7 @@
 
 <Name>Contrast</Name>
 
-<Operations>RW</Operations>
+<Operations>R,W</Operations>
 
 <MultipleInstances>Single</MultipleInstances>
 
@@ -1069,7 +1069,7 @@
 
 <Name>Counter</Name>
 
-<Operations>RW</Operations>
+<Operations>R,W</Operations>
 
 <MultipleInstances>Single</MultipleInstances>
 
@@ -1092,7 +1092,7 @@
 
 <Name>Current Position</Name>
 
-<Operations>RW</Operations>
+<Operations>R,W</Operations>
 
 <MultipleInstances>Single</MultipleInstances>
 
@@ -1119,7 +1119,7 @@
 
 <Name>Transition Time</Name>
 
-<Operations>RW</Operations>
+<Operations>R,W</Operations>
 
 <MultipleInstances>Single</MultipleInstances>
 
@@ -1173,7 +1173,7 @@
 
 <Name>Up Counter</Name>
 
-<Operations>RW</Operations>
+<Operations>R,W</Operations>
 
 <MultipleInstances>Single</MultipleInstances>
 
@@ -1197,7 +1197,7 @@
 
 <Name>Down Counter</Name>
 
-<Operations>RW</Operations>
+<Operations>R,W</Operations>
 
 <MultipleInstances>Single</MultipleInstances>
 
@@ -1245,7 +1245,7 @@
 
 <Name>Cumulative Time</Name>
 
-<Operations>RW</Operations>
+<Operations>R,W</Operations>
 
 <MultipleInstances>Single</MultipleInstances>
 
@@ -1346,7 +1346,7 @@
 
 <Name>Digital Output State</Name>
 
-<Operations>RW</Operations>
+<Operations>R,W</Operations>
 
 <MultipleInstances></MultipleInstances>
 
@@ -1370,7 +1370,7 @@
 
 <Name>Digital Output Polarity</Name>
 
-<Operations>RW</Operations>
+<Operations>R,W</Operations>
 
 <MultipleInstances></MultipleInstances>
 
@@ -1553,7 +1553,7 @@
 
 <Name>Analog Output Current Value</Name>
 
-<Operations>RW</Operations>
+<Operations>R,W</Operations>
 
 <MultipleInstances></MultipleInstances>
 
@@ -1739,7 +1739,7 @@
 
 <Name>Colour</Name>
 
-<Operations>RW</Operations>
+<Operations>R,W</Operations>
 
 <MultipleInstances></MultipleInstances>
 
@@ -1767,7 +1767,7 @@
 
 <Name>Application Type</Name>
 
-<Operations>RW</Operations>
+<Operations>R,W</Operations>
 
 <MultipleInstances></MultipleInstances>
 
@@ -2223,7 +2223,7 @@
 
 <Name>Current Calibration</Name>
 
-<Operations>RW</Operations>
+<Operations>R,W</Operations>
 
 <MultipleInstances></MultipleInstances>
 
@@ -2277,7 +2277,7 @@
 
 <Name>Event Identifier</Name>
 
-<Operations>RW</Operations>
+<Operations>R,W</Operations>
 
 <MultipleInstances></MultipleInstances>
 
@@ -2304,7 +2304,7 @@
 
 <Name>Start Time</Name>
 
-<Operations>RW</Operations>
+<Operations>R,W</Operations>
 
 <MultipleInstances></MultipleInstances>
 
@@ -2446,7 +2446,7 @@
 
 <Mandatory></Mandatory>
 
-<Type>String</Type>
+<Type>Boolean</Type>
 
 <RangeEnumeration></RangeEnumeration>
 
@@ -2467,7 +2467,7 @@
 
 <Name>Dimmer</Name>
 
-<Operations>RW</Operations>
+<Operations>R,W</Operations>
 
 <MultipleInstances></MultipleInstances>
 
@@ -2652,115 +2652,6 @@
 </Description>
 
 </Item>
-
-
-<Item ID="5905">
-
-<Name>Host Device Manufacturer</Name>
-
-<Operations>R</Operations>
-
-<MultipleInstances>Single</MultipleInstances>
-
-<Mandatory>Optional</Mandatory>
-
-<Type>String</Type>
-
-<RangeEnumeration></RangeEnumeration>
-
-<Units></Units>
-
-<Submitter>IPSO</Submitter>
-
-<Description>
-
-<![CDATA[Human readable host device manufacturer name]]>
-
-</Description>
-
-</Item>
-
-
-<Item ID="5906">
-
-<Name>Host Device Model Number</Name>
-
-<Operations>R</Operations>
-
-<MultipleInstances>Single</MultipleInstances>
-
-<Mandatory>Optional</Mandatory>
-
-<Type>String</Type>
-
-<RangeEnumeration></RangeEnumeration>
-
-<Units></Units>
-
-<Submitter>IPSO</Submitter>
-
-<Description>
-
-<![CDATA[A host device model identifier (manufacturer specified string)]]>
-
-</Description>
-
-</Item>
-
-
-<Item ID="5907">
-
-<Name>Host Device Unique ID</Name>
-
-<Operations>R</Operations>
-
-<MultipleInstances>Single</MultipleInstances>
-
-<Mandatory>Optional</Mandatory>
-
-<Type>String</Type>
-
-<RangeEnumeration></RangeEnumeration>
-
-<Units></Units>
-
-<Submitter>IPSO</Submitter>
-
-<Description>
-
-<![CDATA[The host device unique ID is assigned by AT&T as the “Device ID” in the onboarding tool and will be stored in]]>
-
-</Description>
-
-</Item>
-
-
-<Item ID="5908">
-
-<Name>Host Device Software Version</Name>
-
-<Operations>R</Operations>
-
-<MultipleInstances>Single</MultipleInstances>
-
-<Mandatory>Optional</Mandatory>
-
-<Type>String</Type>
-
-<RangeEnumeration></RangeEnumeration>
-
-<Units></Units>
-
-<Submitter>IPSO</Submitter>
-
-<Description>
-
-<![CDATA[Current software version of the host device. (manufacturer specified string).]]>
-
-</Description>
-
-</Item>
-
 
 </Resources>
 
