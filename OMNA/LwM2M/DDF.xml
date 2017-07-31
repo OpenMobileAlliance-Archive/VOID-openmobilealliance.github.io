@@ -2978,4 +2978,35 @@
 
   </Item>
 
+  
+   <Item>
+
+    <ObjectID>10256</ObjectID>
+
+    <URN>urn:oma:lwm2m:x:10256</URN>
+
+    <Name>Reserved</Name>
+
+    <Description></Description>
+
+    <Owner>Huawei Technologies</Owner>
+
+    <Source>2</Source>
+
+    <Ver/>
+
+    <DDF>-</DDF>
+
+    <LWM2M>-</LWM2M>
+
+    <Vorto></Vorto>
+
+    <DDFLink>1</DDFLink>
+
+    <TS></TS>
+
+    <TSLink></TSLink>
+
+  </Item>
+
 </DDFList>
