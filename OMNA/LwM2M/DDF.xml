@@ -2981,15 +2981,15 @@
   
    <Item>
 
-    <ObjectID>10256</ObjectID>
+    <ObjectID>10257</ObjectID>
 
-    <URN>urn:oma:lwm2m:x:10256</URN>
+    <URN>urn:oma:lwm2m:x:10257</URN>
 
     <Name>Reserved</Name>
 
     <Description></Description>
 
-    <Owner>Huawei Technologies</Owner>
+    <Owner>Comsel System Ltd</Owner>
 
     <Source>2</Source>
 
