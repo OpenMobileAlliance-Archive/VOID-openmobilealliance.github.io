@@ -1613,7 +1613,7 @@
 
 <Mandatory></Mandatory>
 
-<Type>Float</Type>
+<Type>String</Type>
 
 <RangeEnumeration></RangeEnumeration>
 <Submitter>IPSO</Submitter>
