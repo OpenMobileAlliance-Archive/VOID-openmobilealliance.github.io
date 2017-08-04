@@ -2977,6 +2977,36 @@
     <TSLink></TSLink>
 
   </Item>
+  
+    <Item>
+
+    <ObjectID>10257</ObjectID>
+
+    <URN>urn:oma:lwm2m:x:10257</URN>
+
+    <Name>Reserved</Name>
+
+    <Description></Description>
+
+    <Owner>Comsel System Ltd</Owner>
+
+    <Source>2</Source>
+
+    <Ver/>
+
+    <DDF>-</DDF>
+
+    <LWM2M>-</LWM2M>
+
+    <Vorto></Vorto>
+
+    <DDFLink>1</DDFLink>
+
+    <TS></TS>
+
+    <TSLink></TSLink>
+
+  </Item>
 
   
    <Item>
