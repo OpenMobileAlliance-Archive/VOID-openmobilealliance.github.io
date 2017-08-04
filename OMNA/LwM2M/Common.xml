@@ -2331,7 +2331,7 @@
 
 <Name>Duration In Min</Name>
 
-<Operations>RW</Operations>
+<Operations>R,W</Operations>
 
 <MultipleInstances></MultipleInstances>
 
@@ -2358,7 +2358,7 @@
 
 <Name>Critical Level</Name>
 
-<Operations>RW</Operations>
+<Operations>R,W</Operations>
 
 <MultipleInstances></MultipleInstances>
 
@@ -2385,7 +2385,7 @@
 
 <Name>Avg Load AdjPct</Name>
 
-<Operations>RW</Operations>
+<Operations>R,W</Operations>
 
 <MultipleInstances></MultipleInstances>
 
@@ -2412,7 +2412,7 @@
 
 <Name>Duty Cycle</Name>
 
-<Operations>RW</Operations>
+<Operations>R,W</Operations>
 
 <MultipleInstances></MultipleInstances>
 
@@ -2440,7 +2440,7 @@
 
 <Name>On/Off</Name>
 
-<Operations>RW</Operations>
+<Operations>R,W</Operations>
 
 <MultipleInstances></MultipleInstances>
 
@@ -2486,7 +2486,7 @@
 <![CDATA[This resource represents a light dimmer setting, which has an Integer value between 0 and 100 as a percentage.]]>
 
 </Description>
-
+ 
 </Item>
 
 
@@ -2494,7 +2494,7 @@
 
 <Name>On time</Name>
 
-<Operations>RW</Operations>
+<Operations>R,W</Operations>
 
 <MultipleInstances></MultipleInstances>
 
@@ -2521,7 +2521,7 @@
 
 <Name>Muti-state Output</Name>
 
-<Operations>RW</Operations>
+<Operations>R,W</Operations>
 
 <MultipleInstances></MultipleInstances>
 
@@ -2548,7 +2548,7 @@
 
 <Name>Off Time</Name>
 
-<Operations>RW</Operations>
+<Operations>R,W</Operations>
 
 <MultipleInstances>Single</MultipleInstances>
 
@@ -2577,7 +2577,7 @@
 
 <Name>Set Point Value</Name>
 
-<Operations>RW</Operations>
+<Operations>R,W</Operations>
 
 <MultipleInstances></MultipleInstances>
 
@@ -2604,7 +2604,7 @@
 
 <Name>Busy to Clear delay</Name>
 
-<Operations>RW</Operations>
+<Operations>R,W</Operations>
 
 <MultipleInstances></MultipleInstances>
 
@@ -2631,7 +2631,7 @@
 
 <Name>Clear to Busy delay</Name>
 
-<Operations>RW</Operations>
+<Operations>R,W</Operations>
 
 <MultipleInstances></MultipleInstances>
 
