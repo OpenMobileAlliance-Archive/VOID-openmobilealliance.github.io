@@ -251,7 +251,7 @@
 
 <Name>Digital Input Polarity</Name>
 
-<Operations>R,W</Operations>
+<Operations>RW</Operations>
 
 <MultipleInstances></MultipleInstances>
 
@@ -275,7 +275,7 @@
 
 <Name>Digital Input Debounce</Name>
 
-<Operations>R,W</Operations>
+<Operations>RW</Operations>
 
 <MultipleInstances></MultipleInstances>
 
@@ -302,7 +302,7 @@
 
 <Name>Digital Input Edge Selection</Name>
 
-<Operations>R,W</Operations>
+<Operations>RW</Operations>
 
 <MultipleInstances></MultipleInstances>
 
@@ -353,7 +353,7 @@
 
 <Name>Current Time</Name>
 
-<Operations>R,W</Operations>
+<Operations>RW</Operations>
 
 <MultipleInstances></MultipleInstances>
 
@@ -377,7 +377,7 @@
 
 <Name>Fractional Time</Name>
 
-<Operations>R,W</Operations>
+<Operations>RW</Operations>
 
 <MultipleInstances>Single</MultipleInstances>
 
@@ -746,7 +746,7 @@
 
 <Name>Delay Duration</Name>
 
-<Operations>R,W</Operations>
+<Operations>RW</Operations>
 
 <MultipleInstances>Single</MultipleInstances>
 
@@ -772,7 +772,7 @@
 
 <Name>Clip</Name>
 
-<Operations>R,W</Operations>
+<Operations>RW</Operations>
 
 <MultipleInstances>Single</MultipleInstances>
 
@@ -818,7 +818,7 @@
 
 <Name>Duration</Name>
 
-<Operations>R,W</Operations>
+<Operations>RW</Operations>
 
 <MultipleInstances>Single</MultipleInstances>
 
@@ -845,7 +845,7 @@
 
 <Name>Minimum Off-time</Name>
 
-<Operations>R,W</Operations>
+<Operations>RW</Operations>
 
 <MultipleInstances>Single</MultipleInstances>
 
@@ -872,7 +872,7 @@
 
 <Name>Mode</Name>
 
-<Operations>R,W</Operations>
+<Operations>RW</Operations>
 
 <MultipleInstances>Single</MultipleInstances>
 
@@ -899,7 +899,7 @@
 
 <Name>Text</Name>
 
-<Operations>R,W</Operations>
+<Operations>RW</Operations>
 
 <MultipleInstances>Single</MultipleInstances>
 
@@ -923,7 +923,7 @@
 
 <Name>X Coordinate</Name>
 
-<Operations>R,W</Operations>
+<Operations>RW</Operations>
 
 <MultipleInstances>Single</MultipleInstances>
 
@@ -948,7 +948,7 @@
 
 <Name>Y Coordinate</Name>
 
-<Operations>R,W</Operations>
+<Operations>RW</Operations>
 
 <MultipleInstances>Single</MultipleInstances>
 
@@ -995,7 +995,7 @@
 
 <Name>Contrast</Name>
 
-<Operations>R,W</Operations>
+<Operations>RW</Operations>
 
 <MultipleInstances>Single</MultipleInstances>
 
@@ -1069,7 +1069,7 @@
 
 <Name>Counter</Name>
 
-<Operations>R,W</Operations>
+<Operations>RW</Operations>
 
 <MultipleInstances>Single</MultipleInstances>
 
@@ -1092,7 +1092,7 @@
 
 <Name>Current Position</Name>
 
-<Operations>R,W</Operations>
+<Operations>RW</Operations>
 
 <MultipleInstances>Single</MultipleInstances>
 
@@ -1119,7 +1119,7 @@
 
 <Name>Transition Time</Name>
 
-<Operations>R,W</Operations>
+<Operations>RW</Operations>
 
 <MultipleInstances>Single</MultipleInstances>
 
@@ -1173,7 +1173,7 @@
 
 <Name>Up Counter</Name>
 
-<Operations>R,W</Operations>
+<Operations>RW</Operations>
 
 <MultipleInstances>Single</MultipleInstances>
 
@@ -1197,7 +1197,7 @@
 
 <Name>Down Counter</Name>
 
-<Operations>R,W</Operations>
+<Operations>RW</Operations>
 
 <MultipleInstances>Single</MultipleInstances>
 
@@ -1245,7 +1245,7 @@
 
 <Name>Cumulative Time</Name>
 
-<Operations>R,W</Operations>
+<Operations>RW</Operations>
 
 <MultipleInstances>Single</MultipleInstances>
 
@@ -1346,7 +1346,7 @@
 
 <Name>Digital Output State</Name>
 
-<Operations>R,W</Operations>
+<Operations>RW</Operations>
 
 <MultipleInstances></MultipleInstances>
 
@@ -1370,7 +1370,7 @@
 
 <Name>Digital Output Polarity</Name>
 
-<Operations>R,W</Operations>
+<Operations>RW</Operations>
 
 <MultipleInstances></MultipleInstances>
 
@@ -1553,7 +1553,7 @@
 
 <Name>Analog Output Current Value</Name>
 
-<Operations>R,W</Operations>
+<Operations>RW</Operations>
 
 <MultipleInstances></MultipleInstances>
 
@@ -1767,7 +1767,7 @@
 
 <Name>Application Type</Name>
 
-<Operations>R,W</Operations>
+<Operations>RW</Operations>
 
 <MultipleInstances></MultipleInstances>
 
@@ -2223,7 +2223,7 @@
 
 <Name>Current Calibration</Name>
 
-<Operations>R,W</Operations>
+<Operations>RW</Operations>
 
 <MultipleInstances></MultipleInstances>
 
@@ -2277,7 +2277,7 @@
 
 <Name>Event Identifier</Name>
 
-<Operations>R,W</Operations>
+<Operations>RW</Operations>
 
 <MultipleInstances></MultipleInstances>
 
@@ -2304,7 +2304,7 @@
 
 <Name>Start Time</Name>
 
-<Operations>R,W</Operations>
+<Operations>RW</Operations>
 
 <MultipleInstances></MultipleInstances>
 
@@ -2331,7 +2331,7 @@
 
 <Name>Duration In Min</Name>
 
-<Operations>R,W</Operations>
+<Operations>RW</Operations>
 
 <MultipleInstances></MultipleInstances>
 
@@ -2358,7 +2358,7 @@
 
 <Name>Critical Level</Name>
 
-<Operations>R,W</Operations>
+<Operations>RW</Operations>
 
 <MultipleInstances></MultipleInstances>
 
@@ -2385,7 +2385,7 @@
 
 <Name>Avg Load AdjPct</Name>
 
-<Operations>R,W</Operations>
+<Operations>RW</Operations>
 
 <MultipleInstances></MultipleInstances>
 
@@ -2412,7 +2412,7 @@
 
 <Name>Duty Cycle</Name>
 
-<Operations>R,W</Operations>
+<Operations>RW</Operations>
 
 <MultipleInstances></MultipleInstances>
 
@@ -2440,7 +2440,7 @@
 
 <Name>On/Off</Name>
 
-<Operations>R,W</Operations>
+<Operations>RW</Operations>
 
 <MultipleInstances></MultipleInstances>
 
@@ -2467,7 +2467,7 @@
 
 <Name>Dimmer</Name>
 
-<Operations>R,W</Operations>
+<Operations>RW</Operations>
 
 <MultipleInstances></MultipleInstances>
 
@@ -2494,7 +2494,7 @@
 
 <Name>On time</Name>
 
-<Operations>R,W</Operations>
+<Operations>RW</Operations>
 
 <MultipleInstances></MultipleInstances>
 
@@ -2521,7 +2521,7 @@
 
 <Name>Muti-state Output</Name>
 
-<Operations>R,W</Operations>
+<Operations>RW</Operations>
 
 <MultipleInstances></MultipleInstances>
 
@@ -2548,7 +2548,7 @@
 
 <Name>Off Time</Name>
 
-<Operations>R,W</Operations>
+<Operations>RW</Operations>
 
 <MultipleInstances>Single</MultipleInstances>
 
@@ -2577,7 +2577,7 @@
 
 <Name>Set Point Value</Name>
 
-<Operations>R,W</Operations>
+<Operations>RW</Operations>
 
 <MultipleInstances></MultipleInstances>
 
@@ -2604,7 +2604,7 @@
 
 <Name>Busy to Clear delay</Name>
 
-<Operations>R,W</Operations>
+<Operations>RW</Operations>
 
 <MultipleInstances></MultipleInstances>
 
@@ -2631,7 +2631,7 @@
 
 <Name>Clear to Busy delay</Name>
 
-<Operations>R,W</Operations>
+<Operations>RW</Operations>
 
 <MultipleInstances></MultipleInstances>
 
