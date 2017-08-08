@@ -2501,7 +2501,7 @@
 
     <Name>Reserved</Name>
 
-    <Description></Description>
+    <Description>-</Description>
 
     <Owner>IPSO Alliance</Owner>
 
@@ -2515,11 +2515,11 @@
 
     <Vorto>-</Vorto>
 
-    <DDFLink>1</DDFLink>
+    <DDFLink>-</DDFLink>
 
     <TS>-</TS>
 
-    <TSLink>1</TSLink>
+    <TSLink>-</TSLink>
 
   </Item>
   
@@ -2531,7 +2531,7 @@
 
     <Name>Reserved</Name>
 
-    <Description></Description>
+    <Description>-</Description>
 
     <Owner>IPSO Alliance</Owner>
 
@@ -2545,11 +2545,11 @@
 
     <Vorto>-</Vorto>
 
-    <DDFLink>1</DDFLink>
+    <DDFLink>-</DDFLink>
 
     <TS>-</TS>
 
-    <TSLink>1</TSLink>
+    <TSLink>-</TSLink>
 
   </Item>
   -<Item>
