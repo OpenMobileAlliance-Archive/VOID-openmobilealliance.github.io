@@ -2954,7 +2954,7 @@
 
     <Name>Current Loop Input</Name>
 
-    <Description>This LwM2M Object provides a representation of a current loop sensor, which inicates the value emitted by a current source.</Description>
+    <Description>This LwM2M Object provides a representation of a current loop sensor, which indicates the value emitted by a current source.</Description>
 
     <Owner>World-Direct eBusiness</Owner>
 
