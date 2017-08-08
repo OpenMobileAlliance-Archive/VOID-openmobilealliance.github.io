@@ -2803,9 +2803,9 @@
 
     <URN>urn:oma:lwm2m:x:10251</URN>
 
-    <Name>Reserved</Name>
+    <Name>AT Command</Name>
 
-    <Description></Description>
+    <Description>Used to execute an AT command on a cellular modem</Description>
 
     <Owner>Cisco</Owner>
 
@@ -2813,9 +2813,9 @@
 
     <Ver/>
 
-    <DDF>-</DDF>
+    <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/10251.xml</DDF>
 
-    <LWM2M>-</LWM2M>
+    <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F10251.xml</LWM2M>
 
     <Vorto></Vorto>
 
@@ -2894,19 +2894,19 @@
 
     <URN>urn:oma:lwm2m:x:10254</URN>
 
-    <Name>Reserved</Name>
+    <Name>Current Loop Input</Name>
 
-    <Description></Description>
+    <Description>This LwM2M Object provides a representation of a current loop sensor, which inicates the value emitted by a current source.</Description>
 
-    <Owner>World-Direct</Owner>
+    <Owner>World-Direct eBusiness</Owner>
 
     <Source>2</Source>
 
     <Ver/>
 
-    <DDF>-</DDF>
+    <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/10254.xml</DDF>
 
-    <LWM2M>-</LWM2M>
+    <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F10254.xml</LWM2M>
 
     <Vorto></Vorto>
 
