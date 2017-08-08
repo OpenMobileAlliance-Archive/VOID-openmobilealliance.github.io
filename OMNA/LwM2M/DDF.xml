@@ -2493,7 +2493,65 @@
 
   </Item>
 
+ -<Item>
 
+    <ObjectID>3349</ObjectID>
+
+    <URN>urn:oma:lwm2m:ext:3349</URN>
+
+    <Name>Reserved</Name>
+
+    <Description></Description>
+
+    <Owner>IPSO Alliance</Owner>
+
+    <Source>1</Source>
+
+    <Ver/>
+
+    <DDF>-</DDF>
+
+    <LWM2M>-</LWM2M>
+
+    <Vorto>-</Vorto>
+
+    <DDFLink>1</DDFLink>
+
+    <TS>-</TS>
+
+    <TSLink>1</TSLink>
+
+  </Item>
+  
+   -<Item>
+
+    <ObjectID>3350</ObjectID>
+
+    <URN>urn:oma:lwm2m:ext:3350</URN>
+
+    <Name>Reserved</Name>
+
+    <Description></Description>
+
+    <Owner>IPSO Alliance</Owner>
+
+    <Source>1</Source>
+
+    <Ver/>
+
+    <DDF>-</DDF>
+
+    <LWM2M>-</LWM2M>
+
+    <Vorto>-</Vorto>
+
+    <DDFLink>1</DDFLink>
+
+    <TS>-</TS>
+
+    <TSLink>1</TSLink>
+
+  </Item>
   -<Item>
 
     <ObjectID>10241</ObjectID>
