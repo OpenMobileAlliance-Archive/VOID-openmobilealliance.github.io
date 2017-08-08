@@ -1739,7 +1739,7 @@
 
 <Name>Colour</Name>
 
-<Operations>R,W</Operations>
+<Operations>RW</Operations>
 
 <MultipleInstances></MultipleInstances>
 
