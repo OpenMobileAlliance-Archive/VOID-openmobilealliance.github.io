@@ -1,2803 +1,1607 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
 <DDFList>
 
-  -<Item>
-
+  -
+  <Item>
     <!-- Integer -->
-
     <!-- ObjectID -->
     <ObjectID>0</ObjectID>
-
     <!-- URN of the object -->
     <URN>urn:oma:lwm2m:oma:0</URN>
-
     <!-- Name of the object -->
     <Name>LWM2M Security</Name>
-
     <!-- Description of the Object -->
     <Description>It provides the keying material of a LWM2M Client appropriate to access a specified LWM2M Server. One Object Instance SHOULD address a LWM2M Bootstrap Server. These LWM2M Object Resources MUST only be changed by a LWM2M Bootstrap Server or Bootstrap from Smartcardand MUST NOT be accessible by any other LWM2M Server.</Description>
-
     <!-- Name of the organization that has registered the object -->
     <Owner>Test WG</Owner>
-
     <!-- Type of Object: 0 = defined by OMA, 1 = defined by external Standards Development Organizations, 2 = private or individual -->
     <Source>0</Source>
-
     <!-- Ver of the object, not visible, not used -->
     <Ver>1.0</Ver>
-
     <!-- URL to the xml file describing the object -->
     <DDF>http://www.openmobilealliance.org/tech/profiles/LWM2M_Security-v1_0.xml</DDF>
-
     <!-- Link that opens the object in the LwM2M Editor Tool -->
     <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2fLWM2M_Security-v1_0.xml</LWM2M>
-
     <!-- Link that opens the Object in the Vorto environment -->
     <Vorto>http://vorto.eclipse.org/resolve/lwm2m/Object/ObjectID/0</Vorto>
-
     <!-- 0 => if link to object should not be visible, 1 => if object should be visible (default) -->
     <DDFLink>1</DDFLink>
-
     <!-- URL to the TS of the object, not visible, not used -->
     <TS>http://openmobilealliance.org/release/LightweightM2M/V1_0-20170208-A/OMA-TS-LightweightM2M-V1_0-20170208-A.pdf</TS>
-
     <!-- 0 => if link to TS should not be visible, 1 => if link to TS should be visible (default) -->
     <TSLink>1</TSLink>
-
   </Item>
 
 
-  -<Item>
-
+  -
+  <Item>
     <ObjectID>1</ObjectID>
-
     <URN>urn:oma:lwm2m:oma:1</URN>
-
     <Name>LWM2M Server</Name>
-
     <Description>It provides the data related to a LWM2M Server. A Bootstrap Server has no such an Object Instance associated to it.</Description>
-
     <Owner>OMA</Owner>
-
     <Source>0</Source>
-
     <Ver>1.0</Ver>
-
     <DDF>http://www.openmobilealliance.org/tech/profiles/LWM2M_Server-v1_0.xml</DDF>
-
     <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3a%2f%2fwww.openmobilealliance.org%2ftech%2fprofiles%2fLWM2M_Server-v1_0.xml</LWM2M>
-
     <Vorto>http://vorto.eclipse.org/resolve/lwm2m/Object/ObjectID/1</Vorto>
-
     <DDFLink>1</DDFLink>
-
     <TS>http://openmobilealliance.org/release/LightweightM2M/V1_0-20170208-A/OMA-TS-LightweightM2M-V1_0-20170208-A.pdf</TS>
-
     <TSLink>1</TSLink>
-
   </Item>
 
 
-  -<Item>
-
+  -
+  <Item>
     <ObjectID>2</ObjectID>
-
     <URN>urn:oma:lwm2m:oma:2</URN>
-
     <Name>Access Control</Name>
-
     <Description>It is used to check whether the LWM2M Server has access right for performing a operation.</Description>
-
     <Owner>OMA</Owner>
-
     <Source>0</Source>
-
     <Ver>1.0</Ver>
-
     <DDF>http://www.openmobilealliance.org/tech/profiles/LWM2M_Access_Control-v1_0.xml</DDF>
-
     <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3a%2f%2fwww.openmobilealliance.org%2ftech%2fprofiles%2fLWM2M_Access_Control-v1_0.xmlV</LWM2M>
-
     <Vorto>http://vorto.eclipse.org/resolve/lwm2m/Object/ObjectID/2</Vorto>
-
     <DDFLink>1</DDFLink>
-
     <TS>http://openmobilealliance.org/release/LightweightM2M/V1_0-20170208-A/OMA-TS-LightweightM2M-V1_0-20170208-A.pdf</TS>
-
     <TSLink>1</TSLink>
-
   </Item>
 
 
-  -<Item>
-
+  -
+  <Item>
     <ObjectID>3</ObjectID>
-
     <URN>urn:oma:lwm2m:oma:3</URN>
-
     <Name>Device</Name>
-
     <Description>It provides a range of device related information which can be queried by the LWM2M Server, and a device reboot and factory reset function.</Description>
-
     <Owner>OMA</Owner>
-
     <Source>0</Source>
-
     <Ver>1.0</Ver>
-
     <DDF>http://www.openmobilealliance.org/tech/profiles/LWM2M_Device-v1_0.xml</DDF>
-
     <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3a%2f%2fwww.openmobilealliance.org%2ftech%2fprofiles%2fLWM2M_Device-v1_0.xml</LWM2M>
-
     <Vorto>http://vorto.eclipse.org/resolve/lwm2m/Object/ObjectID/3</Vorto>
-
     <DDFLink>1</DDFLink>
-
     <TS>http://openmobilealliance.org/release/LightweightM2M/V1_0-20170208-A/OMA-TS-LightweightM2M-V1_0-20170208-A.pdf</TS>
-
     <TSLink>1</TSLink>
-
   </Item>
 
 
-  -<Item>
-
+  -
+  <Item>
     <ObjectID>4</ObjectID>
-
     <URN>urn:oma:lwm2m:oma:4</URN>
-
     <Name>Connectivity Monitoring</Name>
-
     <Description>It enables monitoring of parameters related to network connectivity. In this general connectivity Object, the Resources are limited to the most general cases common to most network bearers. It is recommended to read the description, which refers to relevant standard development organizations (e.g. 3GPP, IEEE). The goal of the Connectivity Monitoring Object is to carry information reflecting the more up to date values of the current connection for monitoring purposes. Resources such as Link Quality, Radio Signal Strenght, Cell ID are retrieved during connected mode at least for cellular networks.</Description>
-
     <Owner>OMA</Owner>
-
     <Source>0</Source>
-
     <Ver>1.0</Ver>
-
     <DDF>http://www.openmobilealliance.org/tech/profiles/LWM2M_Connectivity_Monitoring-v1_0.xml</DDF>
-
     <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3a%2f%2fwww.openmobilealliance.org%2ftech%2fprofiles%2fLWM2M_Connectivity_Monitoring-v1_0.xml</LWM2M>
-
     <Vorto>http://vorto.eclipse.org/resolve/lwm2m/Object/ObjectID/4</Vorto>
-
     <DDFLink>1</DDFLink>
-
     <TS>http://openmobilealliance.org/release/LightweightM2M/V1_0-20170208-A/OMA-TS-LightweightM2M-V1_0-20170208-A.pdf</TS>
-
     <TSLink>1</TSLink>
-
   </Item>
 
 
-  -<Item>
-
+  -
+  <Item>
     <ObjectID>5</ObjectID>
-
     <URN>urn:oma:lwm2m:oma:5</URN>
-
     <Name>Firmware</Name>
-
     <Description>It enables management of firmware which is to be updated. This Object includes installing firmware package, updating firmware, and performing actions after updating firmware</Description>
-
     <Owner>OMA</Owner>
-
     <Source>0</Source>
-
     <Ver>1.0</Ver>
-
     <DDF>http://www.openmobilealliance.org/tech/profiles/LWM2M_Firmware_Update-v1_0.xml</DDF>
-
     <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3a%2f%2fwww.openmobilealliance.org%2ftech%2fprofiles%2fLWM2M_Firmware_Update-v1_0.xml</LWM2M>
-
     <Vorto>http://vorto.eclipse.org/resolve/lwm2m/Object/ObjectID/5</Vorto>
-
     <DDFLink>1</DDFLink>
-
     <TS>http://openmobilealliance.org/release/LightweightM2M/V1_0-20170208-A/OMA-TS-LightweightM2M-V1_0-20170208-A.pdf</TS>
-
     <TSLink>1</TSLink>
-
   </Item>
 
 
-  -<Item>
-
+  -
+  <Item>
     <ObjectID>6</ObjectID>
-
     <URN>urn:oma:lwm2m:oma:6</URN>
-
     <Name>Location</Name>
-
     <Description>It provides a range of device related information which can be queried by the LWM2M Server, and a device reboot and factory reset function.</Description>
-
     <Owner>OMA</Owner>
-
     <Source>0</Source>
-
     <Ver>1.0</Ver>
-
     <DDF>http://www.openmobilealliance.org/tech/profiles/LWM2M_Location-v1_0.xml</DDF>
-
     <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3a%2f%2fwww.openmobilealliance.org%2ftech%2fprofiles%2fLWM2M_Location-v1_0.xml</LWM2M>
-
     <Vorto>http://vorto.eclipse.org/resolve/lwm2m/Object/ObjectID/6</Vorto>
-
     <DDFLink>1</DDFLink>
-
     <TS>http://openmobilealliance.org/release/LightweightM2M/V1_0-20170208-A/OMA-TS-LightweightM2M-V1_0-20170208-A.pdf</TS>
-
     <TSLink>1</TSLink>
-
   </Item>
 
 
-  -<Item>
-
+  -
+  <Item>
     <ObjectID>7</ObjectID>
-
     <URN>urn:oma:lwm2m:oma:7</URN>
-
     <Name>Connectivity Statistics</Name>
-
     <Description>This LWM2M Objects enables client to collect statistical information and enables the LWM2M Server to retrieve these information, set the collection duration and reset the statistical parameters.</Description>
-
     <Owner>OMA</Owner>
-
     <Source>0</Source>
-
     <Ver>1.0</Ver>
-
     <DDF>http://www.openmobilealliance.org/tech/profiles/LWM2M_Connectivity_Statistics-v1_0.xml</DDF>
-
     <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3a%2f%2fwww.openmobilealliance.org%2ftech%2fprofiles%2fLWM2M_Connectivity_Statistics-v1_0.xml</LWM2M>
-
     <Vorto>http://vorto.eclipse.org/resolve/lwm2m/Object/ObjectID/7</Vorto>
-
     <DDFLink>1</DDFLink>
-
     <TS>http://openmobilealliance.org/release/LightweightM2M/V1_0-20170208-A/OMA-TS-LightweightM2M-V1_0-20170208-A.pdf</TS>
-
     <TSLink>1</TSLink>
-
   </Item>
 
 
-  -<Item>
-
+  -
+  <Item>
     <ObjectID>8</ObjectID>
-
     <URN>urn:oma:lwm2m:oma:8</URN>
-
     <Name>Lock and Wipe</Name>
-
     <Description>This LWM2M objects provides the resources needed to perform the lock and wipe operations</Description>
-
     <Owner>OMA</Owner>
-
     <Source>0</Source>
-
     <Ver>1.0</Ver>
-
     <DDF>http://www.openmobilealliance.org/tech/profiles/LWM2M_Lock_and_Wipe-V1_0.xml</DDF>
-
     <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3a%2f%2fwww.openmobilealliance.org%2ftech%2fprofiles%2fLWM2M_Lock_and_Wipe-V1_0.xml</LWM2M>
-
     <Vorto>http://vorto.eclipse.org/resolve/lwm2m/Object/ObjectID/8</Vorto>
-
     <DDFLink>1</DDFLink>
-
     <TS>http://www.openmobilealliance.org/release/LWM2M_LOCKWIPE/V1_0-20151123-C/OMA-TS-LWM2M_LockWipe-V1_0-20151123-C.pdf</TS>
-
     <TSLink>1</TSLink>
-
   </Item>
 
 
-  -<Item>
-
+  -
+  <Item>
     <ObjectID>9</ObjectID>
-
     <URN>urn:oma:lwm2m:oma:9</URN>
-
     <Name>Sofware Management</Name>
-
     <Description>This LWM2M objects provides the resources needed to perform software management on the device. Each software component is managed via a dedicated Software Management Object instance</Description>
-
     <Owner>OMA</Owner>
-
     <Source>0</Source>
-
     <Ver>1.0</Ver>
-
     <DDF>http://www.openmobilealliance.org/tech/profiles/LWM2M_Software_Management-v1_0.xml</DDF>
-
     <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3a%2f%2fwww.openmobilealliance.org%2ftech%2fprofiles%2fLWM2M_Software_Management-v1_0.xml</LWM2M>
-
     <Vorto>http://vorto.eclipse.org/resolve/lwm2m/Object/ObjectID/9</Vorto>
-
     <DDFLink>1</DDFLink>
-
     <TS>http://www.openmobilealliance.org/release/LWM2M_SWMGMT/V1_0-20170314-C/OMA-TS-LWM2M_SwMgmt-V1_0-20151201-C.pdf</TS>
-
     <TSLink>1</TSLink>
-
   </Item>
 
 
-  -<Item>
-
+  -
+  <Item>
     <ObjectID>10</ObjectID>
-
     <URN>urn:oma:lwm2m:oma:10</URN>
-
     <Name>Cellular connectivity</Name>
-
     <Description>It specifies resources to enable a device to connect to a 3GPP or 3GPP2 bearer, including GPRS/EDGE, UMTS, LTE, SMS. For cellular connectivity, this object focuses on Packet Switched (PS) connectivity and doesn't aim to provide comprehensive Circuit Switched (CS) connectivity management.</Description>
-
     <Owner>OMA</Owner>
-
     <Source>0</Source>
-
     <Ver>1.0</Ver>
-
     <DDF>http://www.openmobilealliance.org/tech/profiles/LWM2M_Cellular_connectivity-v1_0.xml</DDF>
-
     <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3a%2f%2fwww.openmobilealliance.org%2ftech%2fprofiles%2fLWM2M_Cellular_connectivity-v1_0.xml</LWM2M>
-
     <Vorto>http://vorto.eclipse.org/resolve/lwm2m/Object/ObjectID/10</Vorto>
-
     <DDFLink>1</DDFLink>
-
     <TS>http://www.openmobilealliance.org/release/LWM2M_CONNMGMT/V1_0-20170314-A/OMA-TS-LWM2M_ConnMgmt-V1_0-20170314-A.pdf</TS>
-
     <TSLink>1</TSLink>
-
   </Item>
 
 
-  -<Item>
-
+  -
+  <Item>
     <ObjectID>11</ObjectID>
-
     <URN>urn:oma:lwm2m:oma:11</URN>
-
     <Name>APN connection profile</Name>
-
     <Description>It specifies resources to enable a device to connect to an APN.</Description>
-
     <Owner>OMA</Owner>
-
     <Source>0</Source>
-
     <Ver>1.0</Ver>
-
     <DDF>http://www.openmobilealliance.org/tech/profiles/LWM2M_APN_connection_profile-v1_0.xml</DDF>
-
     <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3a%2f%2fwww.openmobilealliance.org%2ftech%2fprofiles%2flLWM2M_APN_connection_profile-v1_0.xml</LWM2M>
-
     <Vorto>http://vorto.eclipse.org/resolve/lwm2m/Object/ObjectID/11</Vorto>
-
     <DDFLink>1</DDFLink>
-
     <TS>http://www.openmobilealliance.org/release/LWM2M_CONNMGMT/V1_0-20170314-A/OMA-TS-LWM2M_ConnMgmt-V1_0-20170314-A.pdf</TS>
-
     <TSLink>1</TSLink>
-
   </Item>
 
 
-  -<Item>
-
+  -
+  <Item>
     <ObjectID>12</ObjectID>
-
     <URN>urn:oma:lwm2m:oma:12</URN>
-
     <Name>WLAN connectivity</Name>
-
     <Description>It specifies resources to enable a device to connect to a WLAN bearer.</Description>
-
     <Owner>OMA</Owner>
-
     <Source>0</Source>
-
     <Ver>1.0</Ver>
-
     <DDF>http://www.openmobilealliance.org/tech/profiles/LWM2M_WLAN_connectivity4-v1_0.xml</DDF>
-
     <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2FLWM2M_WLAN_connectivity4-v1_0.xml</LWM2M>
-
     <Vorto>http://vorto.eclipse.org/resolve/lwm2m/Object/ObjectID/12</Vorto>
-
     <DDFLink>1</DDFLink>
-
     <TS>http://www.openmobilealliance.org/release/LWM2M_CONNMGMT/V1_0-20170314-A/OMA-TS-LWM2M_ConnMgmt-V1_0-20170314-A.pdf</TS>
-
     <TSLink>1</TSLink>
-
   </Item>
 
 
-  -<Item>
-
+  -
+  <Item>
     <ObjectID>13</ObjectID>
-
     <URN>urn:oma:lwm2m:oma:13</URN>
-
     <Name>Bearer selection</Name>
-
     <Description>It specifies resources to enable a device to choose a communications bearer on which to connect.</Description>
-
     <Owner>OMA</Owner>
-
     <Source>0</Source>
-
     <Ver>1.0</Ver>
-
     <DDF>http://www.openmobilealliance.org/tech/profiles/LWM2M_Bearer_selection-v1_0.xml</DDF>
-
     <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3a%2f%2fwww.openmobilealliance.org%2ftech%2fprofiles%2fLWM2M_Bearer_selection-v1_0.xml</LWM2M>
-
     <Vorto>http://vorto.eclipse.org/resolve/lwm2m/Object/ObjectID/13</Vorto>
-
     <DDFLink>1</DDFLink>
-
     <TS>http://www.openmobilealliance.org/release/LWM2M_CONNMGMT/V1_0-20170314-A/OMA-TS-LWM2M_ConnMgmt-V1_0-20170314-A.pdf</TS>
-
     <TSLink>1</TSLink>
-
   </Item>
 
 
-  -<Item>
-
+  -
+  <Item>
     <ObjectID>14</ObjectID>
-
     <URN>urn:oma:lwm2m:oma:14</URN>
-
     <Name>Software Component</Name>
-
     <Description>The LWM2M software management object enables remote software management in M2M devices</Description>
-
     <Owner>OMA</Owner>
-
     <Source>0</Source>
-
     <Ver>1.0</Ver>
-
     <DDF>http://www.openmobilealliance.org/tech/profiles/LWM2M_Software_Component-v1_0.xml</DDF>
-
     <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3a%2f%2fwww.openmobilealliance.org%2ftech%2fprofiles%2fLWM2M_Software_Component-v1_0.xml</LWM2M>
-
     <Vorto>http://vorto.eclipse.org/resolve/lwm2m/Object/ObjectID/14</Vorto>
-
     <DDFLink>1</DDFLink>
-
     <TS>http://www.openmobilealliance.org/release/LWM2M_SWMGMT/V1_0-20170314-C/OMA-TS-LWM2M_SwMgmt-V1_0-20151201-C.pdf</TS>
-
     <TSLink>1</TSLink>
-
   </Item>
 
 
-  -<Item>
-
+  -
+  <Item>
     <ObjectID>15</ObjectID>
-
     <URN>urn:oma:lwm2m:oma:15</URN>
-
     <Name>DevCapMgmt</Name>
-
     <Description>It manages the device capabilities of a device e.g. sensors, communication, etc.</Description>
-
     <Owner>OMA</Owner>
-
     <Source>0</Source>
-
     <Ver>1.0</Ver>
-
     <DDF>http://www.openmobilealliance.org/tech/profiles/LWM2M_DevCapMgmt-v1_0.xml</DDF>
-
     <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3a%2f%2fwww.openmobilealliance.org%2ftech%2fprofiles%2fLWM2M_DevCapMgmt-v1_0.xml</LWM2M>
-
     <Vorto>http://vorto.eclipse.org/resolve/lwm2m/Object/ObjectID/15</Vorto>
-
     <DDFLink>1</DDFLink>
-
     <TS>http://www.openmobilealliance.org/release/LWM2M_DevCapMgmt/V1_0_2-20170308-A/OMA-TS-LWM2M_DevCapMgmt-V1_0_2-20170308-A.pdf</TS>
-
     <TSLink>1</TSLink>
-
   </Item>
 
 
-  -<Item>
-
+  -
+  <Item>
     <ObjectID>16</ObjectID>
-
     <URN>urn:oma:lwm2m:oma:16</URN>
-
     <Name>Porfolio</Name>
-
     <Description>Extends data storage of other LWM2M Object Instances in M2M devices, as well as to provide security services for applications associated with this data extension.</Description>
-
     <Owner>OMA</Owner>
-
     <Source>0</Source>
-
     <Ver>1.0</Ver>
-
     <DDF>http://www.openmobilealliance.org/tech/profiles/LWM2M_Portfolio-v1_0.xml</DDF>
-
     <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2FLWM2M_Portfolio-v1_0.xml</LWM2M>
-
     <Vorto>http://vorto.eclipse.org/resolve/lwm2m/Object/ObjectID/16</Vorto>
-
     <DDFLink>1</DDFLink>
-
     <TS>http://www.openmobilealliance.org/release/LWM2M_PortfolioObj/V1_0-20160906-C/OMA-TS-LWM2M_PortfolioObj-V1_0-20160906-C.pdf</TS>
-
     <TSLink>1</TSLink>
-
   </Item>
 
-  -<Item>
-
+  -
+  <Item>
     <ObjectID>17</ObjectID>
-
     <URN>urn:oma:lwm2m:oma:17</URN>
-
     <Name>Communications Characteristics</Name>
-
     <Description>This object enables configuration of various generic communications parameters.</Description>
-
     <Owner>OMA</Owner>
-
     <Source>0</Source>
-
     <Ver>1.0</Ver>
-
     <DDF>http://www.openmobilealliance.org/tech/profiles/Communication_Characteristics-V1_0.xml</DDF>
-
     <LWM2M></LWM2M>
-
     <Vorto></Vorto>
-
     <DDFLink>0</DDFLink>
-
     <TS>x</TS>
-
     <TSLink>0</TSLink>
-
   </Item>
 
-  -<Item>
-
+  -
+  <Item>
     <ObjectID>18</ObjectID>
-
     <URN>urn:oma:lwm2m:oma:18</URN>
-
     <Name>Non-Access Stratum (NAS) Configuration</Name>
-
     <Description>This object provides Non-Access Stratum (NAS) configuration and is derived from 3GPP TS 24.368.</Description>
-
     <Owner>OMA</Owner>
-
     <Source>0</Source>
-
     <Ver>1.0</Ver>
-
     <DDF>http://www.openmobilealliance.org/tech/profiles/Non-Access_Stratum_NAS_configuration-V1_0.xml</DDF>
-
     <LWM2M></LWM2M>
-
     <Vorto></Vorto>
-
     <DDFLink>0</DDFLink>
-
     <TS>x</TS>
-
     <TSLink>0</TSLink>
-
   </Item>
 
-  -<Item>
-
+  -
+  <Item>
     <ObjectID>2048</ObjectID>
-
     <URN>urn:oma:lwm2m:ext:2048</URN>
-
     <Name>CmdhPolicy</Name>
-
     <Description>This Object provides links to a set of rules associated with a specific CSE that governs the behavior of that CSE regarding rejecting, buffering and sending request or response messages via the Mcc reference point.</Description>
-
     <Owner>OneM2M</Owner>
-
     <Source>1</Source>
-
     <Ver>1.0</Ver>
-
     <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/CmdhPolicy.xml</DDF>
-
     <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3a%2f%2fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2FCmdhPolicy.xml</LWM2M>
-
     <Vorto></Vorto>
-
     <DDFLink>1</DDFLink>
-
     <TS>http://www.onem2m.org/images/files/deliverables/TS-0005-Management_Enablement_(OMA)-V1_0_1.pdf</TS>
-
     <TSLink>1</TSLink>
-
   </Item>
 
 
-  -<Item>
-
+  -
+  <Item>
     <ObjectID>2049</ObjectID>
-
     <URN>urn:oma:lwm2m:ext:2049</URN>
-
     <Name>ActiveCmdhPolicy</Name>
-
     <Description>This Object provides a link to the currently active set of CMDH policies</Description>
-
     <Owner>OneM2M</Owner>
-
     <Source>1</Source>
-
     <Ver>1.0</Ver>
-
     <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/ActiveCmdhPolicy.xml</DDF>
-
     <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3a%2f%2fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2FActiveCmdhPolicy.xml</LWM2M>
-
     <Vorto></Vorto>
-
     <DDFLink>1</DDFLink>
-
     <TS>http://www.onem2m.org/images/files/deliverables/TS-0005-Management_Enablement_(OMA)-V1_0_1.pdf</TS>
-
     <TSLink>1</TSLink>
-
   </Item>
 
 
-  -<Item>
-
+  -
+  <Item>
     <ObjectID>2050</ObjectID>
-
     <URN>urn:oma:lwm2m:ext:2050</URN>
-
     <Name>CmdhDefaults</Name>
-
     <Description>Defines which CMDH related parameters will be used by default.</Description>
-
     <Owner>OneM2M</Owner>
-
     <Source>1</Source>
-
     <Ver>1.0</Ver>
-
     <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/CmdhDefaults.xml</DDF>
-
     <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3a%2f%2fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2FCmdhDefaults.xml</LWM2M>
-
     <LWM2M></LWM2M>
-
     <Vorto></Vorto>
-
     <DDFLink>1</DDFLink>
-
     <TS>http://www.onem2m.org/images/files/deliverables/TS-0005-Management_Enablement_(OMA)-V1_0_1.pdf</TS>
-
     <TSLink>1</TSLink>
-
   </Item>
 
 
-  -<Item>
-
+  -
+  <Item>
     <ObjectID>2051</ObjectID>
-
     <URN>urn:oma:lwm2m:ext:2051</URN>
-
     <Name>CmdhDefEcValues</Name>
-
     <Description>This Object represents default set of values for the Event Category parameter of an incoming request or response message.</Description>
-
     <Owner>OneM2M</Owner>
-
     <Source>1</Source>
-
     <Ver>1.0</Ver>
-
     <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/CmdhDefEcValues.xml</DDF>
-
     <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3a%2f%2fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2FCmdhDefEcValues.xml</LWM2M>
-
     <Vorto></Vorto>
-
     <DDFLink>1</DDFLink>
-
     <TS>http://www.onem2m.org/images/files/deliverables/TS-0005-Management_Enablement_(OMA)-V1_0_1.pdf</TS>
-
     <TSLink>1</TSLink>
-
   </Item>
 
 
-  -<Item>
-
+  -
+  <Item>
     <ObjectID>2052</ObjectID>
-
     <URN>urn:oma:lwm2m:ext:2052</URN>
-
     <Name>CmdhEcDefParamValues</Name>
-
     <Description>This Object represents a specific set of default values for the CMDH related parameters Request Expiration Timestamp, Result Expiration Timestamp, Operational Execution Time, Result Persistence and Delivery Aggregation that are applicable for a given Event Category if these parameters are not specified in the message.</Description>
-
     <Owner>OneM2M</Owner>
-
     <Source>1</Source>
-
     <Ver>1.0</Ver>
-
     <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/CmdhEcDefParamValues.xml</DDF>
-
     <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3a%2f%2fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2FCmdhEcDefParamValues.xml</LWM2M>
-
     <Vorto></Vorto>
-
     <DDFLink>1</DDFLink>
-
     <TS>http://www.onem2m.org/images/files/deliverables/TS-0005-Management_Enablement_(OMA)-V1_0_1.pdf</TS>
-
     <TSLink>1</TSLink>
-
   </Item>
 
 
-  -<Item>
-
+  -
+  <Item>
     <ObjectID>2053</ObjectID>
-
     <URN>urn:oma:lwm2m:ext:2053</URN>
-
     <Name>CmdhLimits</Name>
-
     <Description>This Object represents limits for CMDH related parameter values.</Description>
-
     <Owner>OneM2M</Owner>
-
     <Source>1</Source>
-
     <Ver>1.0</Ver>
-
     <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/CmdhLimits.xml</DDF>
-
     <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3a%2f%2fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2FCmdhLimits.xml</LWM2M>
-
     <Vorto></Vorto>
-
     <DDFLink>1</DDFLink>
-
     <TS>http://www.onem2m.org/images/files/deliverables/TS-0005-Management_Enablement_(OMA)-V1_0_1.pdf</TS>
-
     <TSLink>1</TSLink>
-
   </Item>
 
 
-  -<Item>
-
+  -
+  <Item>
     <ObjectID>2054</ObjectID>
-
     <URN>urn:oma:lwm2m:ext:2054</URN>
-
     <Name>CmdhNetworkAccessRules</Name>
-
     <Description>This Object defines the usage of underlying networks for forwarding information to other CSEs during processing of CMDH-related requests in a CSE.</Description>
-
     <Owner>OneM2M</Owner>
-
     <Source>1</Source>
-
     <Ver>1.0</Ver>
-
     <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/CmdhNetworkAccessRules.xml</DDF>
-
     <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3a%2f%2fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2FCmdhNetworkAccessRules.xml</LWM2M>
-
     <Vorto></Vorto>
-
     <DDFLink>1</DDFLink>
-
     <TS>http://www.onem2m.org/images/files/deliverables/TS-0005-Management_Enablement_(OMA)-V1_0_1.pdf</TS>
-
     <TSLink>1</TSLink>
-
   </Item>
 
 
-  -<Item>
-
+  -
+  <Item>
     <ObjectID>2055</ObjectID>
-
     <URN>urn:oma:lwm2m:ext:2055</URN>
-
     <Name>CmdhNwAccessRule</Name>
-
     <Description>This Object defines limits in usage of specific underlying networks for forwarding information to other CSEs during processing of CMDH-related requests in a CSE.</Description>
-
     <Owner>OneM2M</Owner>
-
     <Source>1</Source>
-
     <Ver>1.0</Ver>
-
     <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/CmdhNwAccessRule.xml</DDF>
-
     <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3a%2f%2fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2FCmdhNwAccessRule.xml</LWM2M>
-
     <LWM2M></LWM2M>
-
     <Vorto></Vorto>
-
     <DDFLink>1</DDFLink>
-
     <TS>http://www.onem2m.org/images/files/deliverables/TS-0005-Management_Enablement_(OMA)-V1_0_1.pdf</TS>
-
     <TSLink>1</TSLink>
-
   </Item>
 
 
-  -<Item>
-
+  -
+  <Item>
     <ObjectID>2056</ObjectID>
-
     <URN>urn:oma:lwm2m:ext:2056</URN>
-
     <Name>CmdhBuffer</Name>
-
     <Description>This Object defines limits in usage of buffers for temporarily storing information that needs to be forwarded to other CSEs during processing of CMDH-related requests in a CSE.</Description>
-
     <Owner>OneM2M</Owner>
-
     <Source>1</Source>
-
     <Ver>1.0</Ver>
-
     <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/CmdhBuffer.xml</DDF>
-
     <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3a%2f%2fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2FCmdhBuffer.xml</LWM2M>
-
     <Vorto></Vorto>
-
     <DDFLink>1</DDFLink>
-
     <TS>http://www.onem2m.org/images/files/deliverables/TS-0005-Management_Enablement_(OMA)-V1_0_1.pdf</TS>
-
     <TSLink>1</TSLink>
-
   </Item>
-
   <Item>
-
     <ObjectID>2057</ObjectID>
-
     <URN>urn:oma:lwm2m:ext:2057</URN>
-
     <Name>CmdhBackOffParametersSet</Name>
-
     <Description>This Object defines set of parameters which can be referenced by a specific Instance of the CmdhNwAccessRule Object (ID: 2055)</Description>
-
     <Owner>OneM2M</Owner>
-
     <Source>1</Source>
-
     <Ver>1.0</Ver>
-
     <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/CmdhBackOffParametersSet.xml</DDF>
-
     <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3a%2f%2fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2FCmdhBackOffParametersSet.xml</LWM2M>
-
     <Vorto></Vorto>
-
     <DDFLink>1</DDFLink>
-
     <TS>http://www.onem2m.org/images/files/deliverables/TS-0005-Management_Enablement_(OMA)-V1_0_1.pdf</TS>
-
     <TSLink>1</TSLink>
-
   </Item>
 
-  -<Item>
-
+  -
+  <Item>
     <ObjectID>3200</ObjectID>
-
     <URN>urn:oma:lwm2m:ext:3200</URN>
-
     <Name>Digital Input</Name>
-
     <Description>This IPSO object is a generic object that can be used with any kind of digital input interface. Specific objects for a given range of sensors are described later in the document, enabling to identify the type of sensors directly from its Object ID. This object may be used as a generic object if a dedicated one does not exist.</Description>
-
     <Owner>IPSO Alliance</Owner>
-
     <Source>1</Source>
-
     <Ver>1.0</Ver>
-
     <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/3200.xml</DDF>
-
     <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3a%2f%2fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3200.xml</LWM2M>
-
     <Vorto>http://vorto.eclipse.org/resolve/lwm2m/Object/ObjectID/3200</Vorto>
-
     <DDFLink>1</DDFLink>
-
     <TS>https://github.com/IPSO-Alliance/pub/blob/master/README.md</TS>
-
     <TSLink>1</TSLink>
-
   </Item>
 
 
-  -<Item>
-
+  -
+  <Item>
     <ObjectID>3201</ObjectID>
-
     <URN>urn:oma:lwm2m:ext:3201</URN>
-
     <Name>Digital Output</Name>
-
     <Description>This IPSO object is a generic object that can be used with any kind of digital output interface. Specific object for a given range of sensors is described later in the document, enabling to identify the type of sensors directly from its Object ID. This object may be used as a generic object if a dedicated one does not exist.</Description>
-
     <Owner>IPSO Alliance</Owner>
-
     <Source>1</Source>
-
     <Ver>1.0</Ver>
-
     <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/3201.xml</DDF>
-
     <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3201.xml</LWM2M>
-
     <Vorto>http://vorto.eclipse.org/resolve/lwm2m/Object/ObjectID/3201</Vorto>
-
     <DDFLink>1</DDFLink>
-
     <TS>https://github.com/IPSO-Alliance/pub/blob/master/README.md</TS>
-
     <TSLink>1</TSLink>
-
   </Item>
 
 
-  -<Item>
-
+  -
+  <Item>
     <ObjectID>3202</ObjectID>
-
     <URN>urn:oma:lwm2m:ext:3202</URN>
-
     <Name>Analogue Input</Name>
-
     <Description>This IPSO object is a generic object that can be used with any kind of analogue input interface. Specific object for a given range of sensors is described later in the document, enabling to identify the type of sensors directly from its Object ID. This object may be used as a generic object if a dedicated one does not exist.</Description>
-
     <Owner>IPSO Alliance</Owner>
-
     <Source>1</Source>
-
     <Ver>1.0</Ver>
-
     <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/3202.xml</DDF>
-
     <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3202.xml</LWM2M>
-
     <Vorto>http://vorto.eclipse.org/resolve/lwm2m/Object/ObjectID/3202</Vorto>
-
     <DDFLink>1</DDFLink>
-
     <TS>https://github.com/IPSO-Alliance/pub/blob/master/README.md</TS>
-
     <TSLink>1</TSLink>
-
   </Item>
 
 
-  -<Item>
-
+  -
+  <Item>
     <ObjectID>3203</ObjectID>
-
     <URN>urn:oma:lwm2m:ext:3203</URN>
-
     <Name>Analogue Output</Name>
-
     <Description>This IPSO object is a generic object that can be used with any kind of analogue input interface. Specific object for a given range of sensors is described later in the document, enabling to identify the type of sensors directly from its Object ID. This object may be used as a generic object if a dedicated one does not exist.</Description>
-
     <Owner>IPSO Alliance</Owner>
-
     <Source>1</Source>
-
     <Ver>1.0</Ver>
-
     <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/3203.xml</DDF>
-
     <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3203.xml</LWM2M>
-
     <Vorto>http://vorto.eclipse.org/resolve/lwm2m/Object/ObjectID/3203</Vorto>
-
     <DDFLink>1</DDFLink>
-
     <TS>https://github.com/IPSO-Alliance/pub/blob/master/README.md</TS>
-
     <TSLink>1</TSLink>
-
   </Item>
 
 
-  -<Item>
-
+  -
+  <Item>
     <ObjectID>3300</ObjectID>
-
     <URN>urn:oma:lwm2m:ext:3300</URN>
-
     <Name>Generic Sensor</Name>
-
     <Description>This IPSO object allow the description of a generic sensor. It is based on the description of a value and a unit according to the UCUM specification. Thus, any type of value defined within this specification can be reporting using this object. Specific object for a given range of sensors is described later in the document, enabling to identify the type of sensors directly from its Object ID. This object may be used as a generic object if a dedicated one does not exist.</Description>
-
     <Owner>IPSO Alliance</Owner>
-
     <Source>1</Source>
-
     <Ver>1.0</Ver>
-
     <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/3300.xml</DDF>
-
     <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3300.xml</LWM2M>
-
     <Vorto>http://vorto.eclipse.org/resolve/lwm2m/Object/ObjectID/3300</Vorto>
-
     <DDFLink>1</DDFLink>
-
     <TS>https://github.com/IPSO-Alliance/pub/blob/master/README.md</TS>
-
     <TSLink>1</TSLink>
-
   </Item>
 
 
-  -<Item>
-
+  -
+  <Item>
     <ObjectID>3301</ObjectID>
-
     <URN>urn:oma:lwm2m:ext:3301</URN>
-
     <Name>Illuminance Sensor</Name>
-
     <Description>This IPSO object should be used over a luminosity sensor to report a remote luminosity measurement. It also provides resources for minimum/maximum measured values and the minimum/maximum range that can be measured by the luminosity sensor. The unit used here is Lux (ucum:lx).</Description>
-
     <Owner>IPSO Alliance</Owner>
-
     <Source>1</Source>
-
     <Ver>1.0</Ver>
-
     <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/3301.xml</DDF>
-
     <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3a%2f%2fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3301.xml</LWM2M>
-
     <Vorto>http://vorto.eclipse.org/resolve/lwm2m/Object/ObjectID/3301</Vorto>
-
     <DDFLink>1</DDFLink>
-
     <TS>https://github.com/IPSO-Alliance/pub/blob/master/README.md</TS>
-
     <TSLink>1</TSLink>
-
   </Item>
 
 
-  -<Item>
-
+  -
+  <Item>
     <ObjectID>3302</ObjectID>
-
     <URN>urn:oma:lwm2m:ext:3302</URN>
-
     <Name>Presence Sensor</Name>
-
     <Description>This IPSO object should be used over a presence sensor to report a remote presence detection. It also provides resources to manage a counter, the type of sensor used (e.g the technology of the probe), and configuration for the delay between busy and clear detection state.</Description>
-
     <Owner>IPSO Alliance</Owner>
-
     <Source>1</Source>
-
     <Ver>1.0</Ver>
-
     <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/3302.xml</DDF>
-
     <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3302.xml</LWM2M>
-
     <Vorto>http://vorto.eclipse.org/resolve/lwm2m/Object/ObjectID/3302</Vorto>
-
     <DDFLink>1</DDFLink>
-
     <TS>https://github.com/IPSO-Alliance/pub/blob/master/README.md</TS>
-
     <TSLink>1</TSLink>
-
   </Item>
 
 
-  -<Item>
-
+  -
+  <Item>
     <ObjectID>3303</ObjectID>
-
     <URN>urn:oma:lwm2m:ext:3303</URN>
-
     <Name>Temperature Sensor</Name>
-
     <Description>This IPSO object should be used over a temperature sensor to report a remote temperature measurement. It also provides resources for minimum/maximum measured values and the minimum/maximum range that can be measured by the temperature sensor. The unit used here is degree Celsius (ucum:Cel).</Description>
-
     <Owner>IPSO Alliance</Owner>
-
     <Source>1</Source>
-
     <Ver>1.0</Ver>
-
     <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/3303.xml</DDF>
-
     <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3303.xml</LWM2M>
-
     <Vorto>http://vorto.eclipse.org/resolve/lwm2m/Object/ObjectID/3303</Vorto>
-
     <DDFLink>1</DDFLink>
-
     <TS>https://github.com/IPSO-Alliance/pub/blob/master/README.md</TS>
-
     <TSLink>1</TSLink>
-
   </Item>
 
 
-  -<Item>
-
+  -
+  <Item>
     <ObjectID>3304</ObjectID>
-
     <URN>urn:oma:lwm2m:ext:3304</URN>
-
     <Name>Humidity Sensor</Name>
-
     <Description>This IPSO object should be used over a humidity sensor to report a remote humidity measurement. It also provides resources for minimum/maximum measured values and the minimum/maximum range that can be measured by the humidity sensor. The unit used here is relative humidity as a percentage (ucum:%).</Description>
-
     <Owner>IPSO Alliance</Owner>
-
     <Source>1</Source>
-
     <Ver>1.0</Ver>
-
     <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/3304.xml</DDF>
-
     <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3304.xml</LWM2M>
-
     <Vorto>http://vorto.eclipse.org/resolve/lwm2m/Object/ObjectID/3304</Vorto>
-
     <DDFLink>1</DDFLink>
-
     <TS>https://github.com/IPSO-Alliance/pub/blob/master/README.md</TS>
-
     <TSLink>1</TSLink>
-
   </Item>
 
 
-  -<Item>
-
+  -
+  <Item>
     <ObjectID>3305</ObjectID>
-
     <URN>urn:oma:lwm2m:ext:3305</URN>
-
     <Name>Power Measurement</Name>
-
     <Description>This IPSO object should be used over a power measurement sensor to report a remote power measurement. It also provides resources for minimum/maximum measured values and the minimum/maximum range for both active and reactive power. Il also provides resources for cumulative energy, calibration, and the power factor.</Description>
-
     <Owner>IPSO Alliance</Owner>
-
     <Source>1</Source>
-
     <Ver>1.0</Ver>
-
     <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/3305.xml</DDF>
-
     <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3305.xml</LWM2M>
-
     <Vorto>http://vorto.eclipse.org/resolve/lwm2m/Object/ObjectID/3305</Vorto>
-
     <DDFLink>1</DDFLink>
-
     <TS>https://github.com/IPSO-Alliance/pub/blob/master/README.md</TS>
-
     <TSLink>1</TSLink>
-
   </Item>
 
 
-  -<Item>
-
+  -
+  <Item>
     <ObjectID>3306</ObjectID>
-
     <URN>urn:oma:lwm2m:ext:3306</URN>
-
     <Name>Actuation</Name>
-
     <Description>This IPSO object is dedicated to remote actuation such as ON/OFF action or dimming. A multistate output can also be described as a string. This is useful to send pilot wire orders for instance. It also provides a resource to reflect the time that the device has been switched on.</Description>
-
     <Owner>IPSO Alliance</Owner>
-
     <Source>1</Source>
-
     <Ver>1.0</Ver>
-
     <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/3306.xml</DDF>
-
     <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3306.xml</LWM2M>
-
     <Vorto>http://vorto.eclipse.org/resolve/lwm2m/Object/ObjectID/3306</Vorto>
-
     <DDFLink>1</DDFLink>
-
     <TS>https://github.com/IPSO-Alliance/pub/blob/master/README.md</TS>
-
     <TSLink>1</TSLink>
-
   </Item>
 
 
-  -<Item>
-
+  -
+  <Item>
     <ObjectID>3308</ObjectID>
-
     <URN>urn:oma:lwm2m:ext:3308</URN>
-
     <Name>Set Point</Name>
-
     <Description>This IPSO object should be used to set a desired value to a controller, such as a thermostat. This object enables a setpoint to be expressed units defined in the UCUM specification, to match an associated sensor or measurement value. A special resource is added to set the colour of an object.</Description>
-
     <Owner>IPSO Alliance</Owner>
-
     <Source>1</Source>
-
     <Ver>1.0</Ver>
-
     <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/3308.xml</DDF>
-
     <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3308.xml</LWM2M>
-
     <Vorto>http://vorto.eclipse.org/resolve/lwm2m/Object/ObjectID/3308</Vorto>
-
     <DDFLink>1</DDFLink>
-
     <TS>https://github.com/IPSO-Alliance/pub/blob/master/README.md</TS>
-
     <TSLink>1</TSLink>
-
   </Item>
 
 
-  -<Item>
-
+  -
+  <Item>
     <ObjectID>3310</ObjectID>
-
     <URN>urn:oma:lwm2m:ext:3310</URN>
-
     <Name>Load Control</Name>
-
     <Description>This Object is used for demand-response load control and other load control in automation application (not limited to power).</Description>
-
     <Owner>IPSO Alliance</Owner>
-
     <Source>1</Source>
-
     <Ver>1.0</Ver>
-
     <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/3310.xml</DDF>
-
     <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3310.xml</LWM2M>
-
     <Vorto>http://vorto.eclipse.org/resolve/lwm2m/Object/ObjectID/3310</Vorto>
-
     <DDFLink>1</DDFLink>
-
     <TS>https://github.com/IPSO-Alliance/pub/blob/master/README.md</TS>
-
     <TSLink>1</TSLink>
-
   </Item>
 
 
-  -<Item>
-
+  -
+  <Item>
     <ObjectID>3311</ObjectID>
-
     <URN>urn:oma:lwm2m:ext:3311</URN>
-
     <Name>Light Control</Name>
-
     <Description>This Object is used to control a light source, such as a LED or other light. It allows a light to be turned on or off and its dimmer setting to be control as a % between 0 and 100.</Description>
-
     <Owner>IPSO Alliance</Owner>
-
     <Source>1</Source>
-
     <Ver>1.0</Ver>
-
     <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/3311.xml</DDF>
-
     <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3311.xml</LWM2M>
-
     <Vorto>http://vorto.eclipse.org/resolve/lwm2m/Object/ObjectID/3311</Vorto>
-
     <DDFLink>1</DDFLink>
-
     <TS>https://github.com/IPSO-Alliance/pub/blob/master/README.md</TS>
-
     <TSLink>1</TSLink>
-
   </Item>
 
 
-  -<Item>
-
+  -
+  <Item>
     <ObjectID>3312</ObjectID>
-
     <URN>urn:oma:lwm2m:ext:3312</URN>
-
     <Name>Power Control</Name>
-
     <Description>This Object is used to control a power source, such as a Smart Plug. It allows a power relay to be turned on or off and its dimmer setting to be control as a % between 0 and 100.</Description>
-
     <Owner>IPSO Alliance</Owner>
-
     <Source>1</Source>
-
     <Ver>1.0</Ver>
-
     <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/3312.xml</DDF>
-
     <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3312.xml</LWM2M>
-
     <Vorto>http://vorto.eclipse.org/resolve/lwm2m/Object/ObjectID/3312</Vorto>
-
     <DDFLink>1</DDFLink>
-
     <TS>https://github.com/IPSO-Alliance/pub/blob/master/README.md</TS>
-
     <TSLink>1</TSLink>
-
   </Item>
 
 
-  -<Item>
-
+  -
+  <Item>
     <ObjectID>3313</ObjectID>
-
     <URN>urn:oma:lwm2m:ext:3313</URN>
-
     <Name>Accelerometer</Name>
-
     <Description>This IPSO object can be used to represent a 1-3 axis accelerometer.</Description>
-
     <Owner>IPSO Alliance</Owner>
-
     <Source>1</Source>
-
     <Ver>1.0</Ver>
-
     <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/3313.xml</DDF>
-
     <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3313.xml</LWM2M>
-
     <Vorto>http://vorto.eclipse.org/resolve/lwm2m/Object/ObjectID/3313</Vorto>
-
     <DDFLink>1</DDFLink>
-
     <TS>https://github.com/IPSO-Alliance/pub/blob/master/README.md</TS>
-
     <TSLink>1</TSLink>
-
   </Item>
 
 
-  -<Item>
-
+  -
+  <Item>
     <ObjectID>3314</ObjectID>
-
     <URN>urn:oma:lwm2m:ext:3314</URN>
-
     <Name>Magnetometer</Name>
-
     <Description>This IPSO object can be used to represent a 1-3 axis magnetometer with optional compass direction.</Description>
-
     <Owner>IPSO Alliance</Owner>
-
     <Source>1</Source>
-
     <Ver>1.0</Ver>
-
     <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/3314.xml</DDF>
-
     <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3314.xml</LWM2M>
-
     <Vorto>http://vorto.eclipse.org/resolve/lwm2m/Object/ObjectID/3314</Vorto>
-
     <DDFLink>1</DDFLink>
-
     <TS>https://github.com/IPSO-Alliance/pub/blob/master/README.md</TS>
-
     <TSLink>1</TSLink>
-
   </Item>
 
 
-  -<Item>
-
+  -
+  <Item>
     <ObjectID>3315</ObjectID>
-
     <URN>urn:oma:lwm2m:ext:3315</URN>
-
     <Name>Barometer</Name>
-
     <Description>This IPSO object should be used with an air pressure sensor to report a remote barometer measurement. It also provides resources for minimum/maximum measured values and the minimum/maximum range that can be measured by the barometer sensor.</Description>
-
     <Owner>IPSO Alliance</Owner>
-
     <Source>1</Source>
-
     <Ver>1.0</Ver>
-
     <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/3315.xml</DDF>
-
     <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3315.xml</LWM2M>
-
     <Vorto>http://vorto.eclipse.org/resolve/lwm2m/Object/ObjectID/3315</Vorto>
-
     <DDFLink>1</DDFLink>
-
     <TS>https://github.com/IPSO-Alliance/pub/blob/master/README.md</TS>
-
     <TSLink>1</TSLink>
-
   </Item>
 
 
-  -<Item>
-
+  -
+  <Item>
     <ObjectID>3316</ObjectID>
-
     <URN>urn:oma:lwm2m:ext:3316</URN>
-
     <Name>Voltage</Name>
-
     <Description>This IPSO object should be used with voltmeter sensor to report measured voltage between two points. It also provides resources for minimum and maximum measured values, as well as the minimum and maximum range that can be measured by the sensor. An example measurement unit is volts (ucum: V).</Description>
-
     <Owner>IPSO Alliance</Owner>
-
     <Source>1</Source>
-
     <Ver/>
-
     <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/3316.xml</DDF>
-
     <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3316.xml</LWM2M>
-
     <Vorto>http://vorto.eclipse.org/resolve/lwm2m/Object/ObjectID/3316</Vorto>
-
     <DDFLink>1</DDFLink>
-
     <TS>https://github.com/IPSO-Alliance/pub/blob/master/README.md</TS>
-
     <TSLink>1</TSLink>
-
   </Item>
 
 
-  -<Item>
-
+  -
+  <Item>
     <ObjectID>3317</ObjectID>
-
     <URN>urn:oma:lwm2m:ext:3317</URN>
-
     <Name>Current</Name>
-
     <Description>This IPSO object should be used with an ammeter to report measured electric current in amperes. It also provides resources for minimum and maximum measured values, as well as the minimum and maximum range that can be measured by the sensor. An example measurement unit is volts (ucum: A).</Description>
-
     <Owner>IPSO Alliance</Owner>
-
     <Source>1</Source>
-
     <Ver/>
-
     <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/3317.xml</DDF>
-
     <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3317.xml</LWM2M>
-
     <Vorto>http://vorto.eclipse.org/resolve/lwm2m/Object/ObjectID/3317</Vorto>
-
     <DDFLink>1</DDFLink>
-
     <TS>https://github.com/IPSO-Alliance/pub/blob/master/README.md</TS>
-
     <TSLink>1</TSLink>
-
   </Item>
 
 
-  -<Item>
-
+  -
+  <Item>
     <ObjectID>3318</ObjectID>
-
     <URN>urn:oma:lwm2m:ext:3318</URN>
-
     <Name>Frequency</Name>
-
     <Description>This IPSO object should be used to report frequency measurements. It also provides resources for minimum and maximum measured values, as well as the minimum and maximum range that can be measured by the sensor. An example measurement unit is volts (ucum: Hz).</Description>
-
     <Owner>IPSO Alliance</Owner>
-
     <Source>1</Source>
-
     <Ver/>
-
     <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/3318.xml</DDF>
-
     <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3318.xml</LWM2M>
-
     <Vorto>http://vorto.eclipse.org/resolve/lwm2m/Object/ObjectID/3318</Vorto>
-
     <DDFLink>1</DDFLink>
-
     <TS>https://github.com/IPSO-Alliance/pub/blob/master/README.md</TS>
-
     <TSLink>1</TSLink>
-
   </Item>
 
 
-  -<Item>
-
+  -
+  <Item>
     <ObjectID>3319</ObjectID>
-
     <URN>urn:oma:lwm2m:ext:3319</URN>
-
     <Name>Depth</Name>
-
     <Description>This IPSO object should be used to report depth measurements. It can, for example, be used to describe a generic rain gauge that measures the accumulated rainfall in millimetres (mm) or in fathoms (fth).</Description>
-
     <Owner>IPSO Alliance</Owner>
-
     <Source>1</Source>
-
     <Ver/>
-
     <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/3319.xml</DDF>
-
     <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3319.xml</LWM2M>
-
     <Vorto>http://vorto.eclipse.org/resolve/lwm2m/Object/ObjectID/3319</Vorto>
-
     <DDFLink>1</DDFLink>
-
     <TS>https://github.com/IPSO-Alliance/pub/blob/master/README.md</TS>
-
     <TSLink>1</TSLink>
-
   </Item>
 
 
-  -<Item>
-
+  -
+  <Item>
     <ObjectID>3320</ObjectID>
-
     <URN>urn:oma:lwm2m:ext:3320</URN>
-
     <Name>Percentage</Name>
-
     <Description>This IPSO object should can be used to report measurements relative to a 0-100% scale. For example it could be used to measure the level of a liquid in a vessel or container in units of %.</Description>
-
     <Owner>IPSO Alliance</Owner>
-
     <Source>1</Source>
-
     <Ver/>
-
     <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/3320.xml</DDF>
-
     <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3320.xml</LWM2M>
-
     <Vorto>http://vorto.eclipse.org/resolve/lwm2m/Object/ObjectID/3320</Vorto>
-
     <DDFLink>1</DDFLink>
-
     <TS>https://github.com/IPSO-Alliance/pub/blob/master/README.md</TS>
-
     <TSLink>1</TSLink>
-
   </Item>
 
 
-  -<Item>
-
+  -
+  <Item>
     <ObjectID>3321</ObjectID>
-
     <URN>urn:oma:lwm2m:ext:3321</URN>
-
     <Name>Altitude</Name>
-
     <Description>This IPSO object should be used with an altitude sensor to report altitude above sea level in meters. Note that Altitude can be calculated from the measured pressure given the local sea level pressure. It also provides resources for minimum and maximum measured values, as well as the minimum and maximum range that can be measured by the sensor. An example measurement unit is meters (ucum: m).</Description>
-
     <Owner>IPSO Alliance</Owner>
-
     <Source>1</Source>
-
     <Ver/>
-
     <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/3321.xml</DDF>
-
     <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3321.xml</LWM2M>
-
     <Vorto>http://vorto.eclipse.org/resolve/lwm2m/Object/ObjectID/3321</Vorto>
-
     <DDFLink>1</DDFLink>
-
     <TS>https://github.com/IPSO-Alliance/pub/blob/master/README.md</TS>
-
     <TSLink>1</TSLink>
-
   </Item>
 
 
-  -<Item>
-
+  -
+  <Item>
     <ObjectID>3322</ObjectID>
-
     <URN>urn:oma:lwm2m:ext:3322</URN>
-
     <Name>Load</Name>
-
     <Description>This IPSO object should be used with a load sensor (as in a scale) to report the applied weight or force. It also provides resources for minimum and maximum measured values, as well as the minimum and maximum range that can be measured by the sensor.</Description>
-
     <Owner>IPSO Alliance</Owner>
-
     <Source>1</Source>
-
     <Ver/>
-
     <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/3322.xml</DDF>
-
     <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3322.xml</LWM2M>
-
     <Vorto>http://vorto.eclipse.org/resolve/lwm2m/Object/ObjectID/3322</Vorto>
-
     <DDFLink>1</DDFLink>
-
     <TS>https://github.com/IPSO-Alliance/pub/blob/master/README.md</TS>
-
     <TSLink>1</TSLink>
-
   </Item>
 
 
-  -<Item>
-
+  -
+  <Item>
     <ObjectID>3323</ObjectID>
-
     <URN>urn:oma:lwm2m:ext:3323</URN>
-
     <Name>Pressure</Name>
-
     <Description>This IPSO object should be used to report pressure measurements. It also provides resources for minimum and maximum measured values, as well as the minimum and maximum range that can be measured by the sensor.</Description>
-
     <Owner>IPSO Alliance</Owner>
-
     <Source>1</Source>
-
     <Ver/>
-
     <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/3323.xml</DDF>
-
     <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3323.xml</LWM2M>
-
     <Vorto>http://vorto.eclipse.org/resolve/lwm2m/Object/ObjectID/3323</Vorto>
-
     <DDFLink>1</DDFLink>
-
     <TS>https://github.com/IPSO-Alliance/pub/blob/master/README.md</TS>
-
     <TSLink>1</TSLink>
-
   </Item>
 
 
-  -<Item>
-
+  -
+  <Item>
     <ObjectID>3324</ObjectID>
-
     <URN>urn:oma:lwm2m:ext:3324</URN>
-
     <Name>Loudness</Name>
-
     <Description>This IPSO object should be used to report loudness or noise level measurements. It also provides resources for minimum and maximum measured values, as well as the minimum and maximum range that can be measured by the sensor.</Description>
-
     <Owner>IPSO Alliance</Owner>
-
     <Source>1</Source>
-
     <Ver/>
-
     <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/3324.xml</DDF>
-
     <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3324.xml</LWM2M>
-
     <Vorto>http://vorto.eclipse.org/resolve/lwm2m/Object/ObjectID/3324</Vorto>
-
     <DDFLink>1</DDFLink>
-
     <TS>https://github.com/IPSO-Alliance/pub/blob/master/README.md</TS>
-
     <TSLink>1</TSLink>
-
   </Item>
 
 
-  -<Item>
-
+  -
+  <Item>
     <ObjectID>3325</ObjectID>
-
     <URN>urn:oma:lwm2m:ext:3325</URN>
-
     <Name>Concentration</Name>
-
     <Description>This IPSO object should be used to the particle concentration measurement of a medium. It also provides resources for minimum and maximum measured values, as well as the minimum and maximum range that can be measured by the sensor.</Description>
-
     <Owner>IPSO Alliance</Owner>
-
     <Source>1</Source>
-
     <Ver/>
-
     <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/3325.xml</DDF>
-
     <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3325.xml</LWM2M>
-
     <Vorto>http://vorto.eclipse.org/resolve/lwm2m/Object/ObjectID/3325</Vorto>
-
     <DDFLink>1</DDFLink>
-
     <TS>https://github.com/IPSO-Alliance/pub/blob/master/README.md</TS>
-
     <TSLink>1</TSLink>
-
   </Item>
 
 
-  -<Item>
-
+  -
+  <Item>
     <ObjectID>3326</ObjectID>
-
     <URN>urn:oma:lwm2m:ext:3326</URN>
-
     <Name>Acidity</Name>
-
     <Description>This IPSO object should be used to report an acidity measurement of a liquid. It also provides resources for minimum and maximum measured values, as well as the minimum and maximum range that can be measured by the sensor.</Description>
-
     <Owner>IPSO Alliance</Owner>
-
     <Source>1</Source>
-
     <Ver/>
-
     <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/3326.xml</DDF>
-
     <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3326.xml</LWM2M>
-
     <Vorto>http://vorto.eclipse.org/resolve/lwm2m/Object/ObjectID/3326</Vorto>
-
     <DDFLink>1</DDFLink>
-
     <TS>https://github.com/IPSO-Alliance/pub/blob/master/README.md</TS>
-
     <TSLink>1</TSLink>
-
   </Item>
 
 
-  -<Item>
-
+  -
+  <Item>
     <ObjectID>3327</ObjectID>
-
     <URN>urn:oma:lwm2m:ext:3327</URN>
-
     <Name>Conductivity</Name>
-
     <Description>This IPSO object should be used to report a measurement of the electric conductivity of a medium or sample. It also provides resources for minimum and maximum measured values, as well as the minimum and maximum range that can be measured by the sensor.</Description>
-
     <Owner>IPSO Alliance</Owner>
-
     <Source>1</Source>
-
     <Ver/>
-
     <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/3327.xml</DDF>
-
     <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3327.xml</LWM2M>
-
     <Vorto>http://vorto.eclipse.org/resolve/lwm2m/Object/ObjectID/3327</Vorto>
-
     <DDFLink>1</DDFLink>
-
     <TS>https://github.com/IPSO-Alliance/pub/blob/master/README.md</TS>
-
     <TSLink>1</TSLink>
-
   </Item>
 
 
-  -<Item>
-
+  -
+  <Item>
     <ObjectID>3328</ObjectID>
-
     <URN>urn:oma:lwm2m:ext:3328</URN>
-
     <Name>Power</Name>
-
     <Description>This IPSO object should be used to report power measurements. It also provides resources for minimum and maximum measured values, as well as the minimum and maximum range that can be measured by the sensor.</Description>
-
     <Owner>IPSO Alliance</Owner>
-
     <Source>1</Source>
-
     <Ver/>
-
     <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/3328.xml</DDF>
-
     <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3328.xml</LWM2M>
-
     <Vorto>http://vorto.eclipse.org/resolve/lwm2m/Object/ObjectID/3328</Vorto>
-
     <DDFLink>1</DDFLink>
-
     <TS>https://github.com/IPSO-Alliance/pub/blob/master/README.md</TS>
-
     <TSLink>1</TSLink>
-
   </Item>
 
 
-  -<Item>
-
+  -
+  <Item>
     <ObjectID>3329</ObjectID>
-
     <URN>urn:oma:lwm2m:ext:3329</URN>
-
     <Name>Power Factor</Name>
-
     <Description>This IPSO object should be used to report a measurement or calculation of the power factor of a reactive electrical load.</Description>
-
     <Owner>IPSO Alliance</Owner>
-
     <Source>1</Source>
-
     <Ver/>
-
     <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/3329.xml</DDF>
-
     <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3329.xml</LWM2M>
-
     <Vorto>http://vorto.eclipse.org/resolve/lwm2m/Object/ObjectID/3329</Vorto>
-
     <DDFLink>1</DDFLink>
-
     <TS>https://github.com/IPSO-Alliance/pub/blob/master/README.md</TS>
-
     <TSLink>1</TSLink>
-
   </Item>
 
 
-  -<Item>
-
+  -
+  <Item>
     <ObjectID>3330</ObjectID>
-
     <URN>urn:oma:lwm2m:ext:3330</URN>
-
     <Name>Distance</Name>
-
     <Description>This IPSO object should be used to report a distance measurement. It also provides resources for minimum and maximum measured values, as well as the minimum and maximum range that can be measured by the sensor.</Description>
-
     <Owner>IPSO Alliance</Owner>
-
     <Source>1</Source>
-
     <Ver/>
-
     <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/3330.xml</DDF>
-
     <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3330.xml</LWM2M>
-
     <Vorto>http://vorto.eclipse.org/resolve/lwm2m/Object/ObjectID/3330</Vorto>
-
     <DDFLink>1</DDFLink>
-
     <TS>https://github.com/IPSO-Alliance/pub/blob/master/README.md</TS>
-
     <TSLink>1</TSLink>
-
   </Item>
 
 
-  -<Item>
-
+  -
+  <Item>
     <ObjectID>3331</ObjectID>
-
     <URN>urn:oma:lwm2m:ext:3331</URN>
-
     <Name>Energy</Name>
-
     <Description>This IPSO object should be used to report energy consumption (Cumulative Power) of an electrical load.</Description>
-
     <Owner>IPSO Alliance</Owner>
-
     <Source>1</Source>
-
     <Ver/>
-
     <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/3331.xml</DDF>
-
     <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3331.xml</LWM2M>
-
     <Vorto>http://vorto.eclipse.org/resolve/lwm2m/Object/ObjectID/3331</Vorto>
-
     <DDFLink>1</DDFLink>
-
     <TS>https://github.com/IPSO-Alliance/pub/blob/master/README.md</TS>
-
     <TSLink>1</TSLink>
-
   </Item>
 
 
-  -<Item>
-
+  -
+  <Item>
     <ObjectID>3332</ObjectID>
-
     <URN>urn:oma:lwm2m:ext:3332</URN>
-
     <Name>Direction</Name>
-
     <Description>This IPSO object is used to report the direction indicated by a compass, wind vane, or other directional indicator. The units of measure is plane angle degrees (ucum:deg).</Description>
-
     <Owner>IPSO Alliance</Owner>
-
     <Source>1</Source>
-
     <Ver/>
-
     <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/3332.xml</DDF>
-
     <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3332.xml</LWM2M>
-
     <Vorto>http://vorto.eclipse.org/resolve/lwm2m/Object/ObjectID/3332</Vorto>
-
     <DDFLink>1</DDFLink>
-
     <TS>https://github.com/IPSO-Alliance/pub/blob/master/README.md</TS>
-
     <TSLink>1</TSLink>
-
   </Item>
 
 
-  -<Item>
-
+  -
+  <Item>
     <ObjectID>3333</ObjectID>
-
     <URN>urn:oma:lwm2m:ext:3333</URN>
-
     <Name>Time</Name>
-
     <Description>This IPSO object is used to report the current time in seconds since January 1, 1970 UTC. There is also a fractional time counter that has a range of less than one second.</Description>
-
     <Owner>IPSO Alliance</Owner>
-
     <Source>1</Source>
-
     <Ver/>
-
     <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/3333.xml</DDF>
-
     <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3333.xml</LWM2M>
-
     <Vorto>http://vorto.eclipse.org/resolve/lwm2m/Object/ObjectID/3333</Vorto>
-
     <DDFLink>1</DDFLink>
-
     <TS>https://github.com/IPSO-Alliance/pub/blob/master/README.md</TS>
-
     <TSLink>1</TSLink>
-
   </Item>
 
 
-  -<Item>
-
+  -
+  <Item>
     <ObjectID>3334</ObjectID>
-
     <URN>urn:oma:lwm2m:ext:3334</URN>
-
     <Name>Gyrometer</Name>
-
     <Description>This IPSO Object is used to report the current reading of a gyrometer sensor in 3 axes. It provides tracking of the minimum and maximum angular rate in all 3 axes.</Description>
-
     <Owner>IPSO Alliance</Owner>
-
     <Source>1</Source>
-
     <Ver/>
-
     <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/3334.xml</DDF>
-
     <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3334.xml</LWM2M>
-
     <Vorto>http://vorto.eclipse.org/resolve/lwm2m/Object/ObjectID/3334</Vorto>
-
     <DDFLink>1</DDFLink>
-
     <TS>https://github.com/IPSO-Alliance/pub/blob/master/README.md</TS>
-
     <TSLink>1</TSLink>
-
   </Item>
 
 
-  -<Item>
-
+  -
+  <Item>
     <ObjectID>3335</ObjectID>
-
     <URN>urn:oma:lwm2m:ext:3335</URN>
-
     <Name>Color</Name>
-
     <Description>This IPSO object should be used to report the measured value of a colour sensor in some colour space described by the units resource.</Description>
-
     <Owner>IPSO Alliance</Owner>
-
     <Source>1</Source>
-
     <Ver/>
-
     <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/3335.xml</DDF>
-
     <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3335.xml</LWM2M>
-
     <Vorto>http://vorto.eclipse.org/resolve/lwm2m/Object/ObjectID/3335</Vorto>
-
     <DDFLink>1</DDFLink>
-
     <TS>https://github.com/IPSO-Alliance/pub/blob/master/README.md</TS>
-
     <TSLink>1</TSLink>
-
   </Item>
 
 
-  -<Item>
-
+  -
+  <Item>
     <ObjectID>3336</ObjectID>
-
     <URN>urn:oma:lwm2m:ext:3336</URN>
-
     <Name>GPS Location</Name>
-
     <Description>This IPSO object represents GPS coordinates. This object is compatible with the LWM2M management object for location, but uses reusable resources.</Description>
-
     <Owner>IPSO Alliance</Owner>
-
     <Source>1</Source>
-
     <Ver/>
-
     <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/3336.xml</DDF>
-
     <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3336.xml</LWM2M>
-
     <Vorto>http://vorto.eclipse.org/resolve/lwm2m/Object/ObjectID/3336</Vorto>
-
     <DDFLink>1</DDFLink>
-
     <TS>https://github.com/IPSO-Alliance/pub/blob/master/README.md</TS>
-
     <TSLink>1</TSLink>
-
   </Item>
 
 
-  -<Item>
-
+  -
+  <Item>
     <ObjectID>3337</ObjectID>
-
     <URN>urn:oma:lwm2m:ext:3337</URN>
-
     <Name>Positioner</Name>
-
     <Description>This IPSO object should be used with a generic position actuator from 0 to 100%.</Description>
-
     <Owner>IPSO Alliance</Owner>
-
     <Source>1</Source>
-
     <Ver/>
-
     <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/3337.xml</DDF>
-
     <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3337.xml</LWM2M>
-
     <Vorto>http://vorto.eclipse.org/resolve/lwm2m/Object/ObjectID/3337</Vorto>
-
     <DDFLink>1</DDFLink>
-
     <TS>https://github.com/IPSO-Alliance/pub/blob/master/README.md</TS>
-
     <TSLink>1</TSLink>
-
   </Item>
 
 
-  -<Item>
-
+  -
+  <Item>
     <ObjectID>3338</ObjectID>
-
     <URN>urn:oma:lwm2m:ext:3338</URN>
-
     <Name>Buzzer</Name>
-
     <Description>This IPSO object should be used to actuate an audible alarm such as a buzzer, beeper, or vibration alarm.</Description>
-
     <Owner>IPSO Alliance</Owner>
-
     <Source>1</Source>
-
     <Ver/>
-
     <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/3338.xml</DDF>
-
     <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3338.xml</LWM2M>
-
     <Vorto>http://vorto.eclipse.org/resolve/lwm2m/Object/ObjectID/3338</Vorto>
-
     <DDFLink>1</DDFLink>
-
     <TS>https://github.com/IPSO-Alliance/pub/blob/master/README.md</TS>
-
     <TSLink>1</TSLink>
-
   </Item>
 
 
-  -<Item>
-
+  -
+  <Item>
     <ObjectID>3339</ObjectID>
-
     <URN>urn:oma:lwm2m:ext:3339</URN>
-
     <Name>Audio Clip</Name>
-
     <Description>This IPSO object should be used for a speaker that plays a pre-recorded audio clip or an audio output that is sent elsewhere.</Description>
-
     <Owner>IPSO Alliance</Owner>
-
     <Source>1</Source>
-
     <Ver/>
-
     <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/3339.xml</DDF>
-
     <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3339.xml</LWM2M>
-
     <Vorto>http://vorto.eclipse.org/resolve/lwm2m/Object/ObjectID/3339</Vorto>
-
     <DDFLink>1</DDFLink>
-
     <TS>https://github.com/IPSO-Alliance/pub/blob/master/README.md</TS>
-
     <TSLink>1</TSLink>
-
   </Item>
 
 
-  -<Item>
-
+  -
+  <Item>
     <ObjectID>3340</ObjectID>
-
     <URN>urn:oma:lwm2m:ext:3340</URN>
-
     <Name>Timer</Name>
-
     <Description>This IPSO object is used to time events and actions, using patterns common to industrial timers. A POST to the trigger resource or On/Off input state change starts the timing operation, and the timer remaining time shows zero when the operation is complete.</Description>
-
     <Owner>IPSO Alliance</Owner>
-
     <Source>1</Source>
-
     <Ver/>
-
     <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/3340.xml</DDF>
-
     <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3340.xml</LWM2M>
-
     <Vorto>http://vorto.eclipse.org/resolve/lwm2m/Object/ObjectID/3340</Vorto>
-
     <DDFLink>1</DDFLink>
-
     <TS>https://github.com/IPSO-Alliance/pub/blob/master/README.md</TS>
-
     <TSLink>1</TSLink>
-
   </Item>
 
 
-  -<Item>
-
+  -
+  <Item>
     <ObjectID>3341</ObjectID>
-
     <URN>urn:oma:lwm2m:ext:3341</URN>
-
     <Name>Addressable Text Display</Name>
-
     <Description>This IPSO object is used to send text to a text-only or text mode graphics display.</Description>
-
     <Owner>IPSO Alliance</Owner>
-
     <Source>1</Source>
-
     <Ver/>
-
     <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/3341.xml</DDF>
-
     <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3341.xml</LWM2M>
-
     <Vorto>http://vorto.eclipse.org/resolve/lwm2m/Object/ObjectID/3341</Vorto>
-
     <DDFLink>1</DDFLink>
-
     <TS>https://github.com/IPSO-Alliance/pub/blob/master/README.md</TS>
-
     <TSLink>1</TSLink>
-
   </Item>
 
 
-  -<Item>
-
+  -
+  <Item>
     <ObjectID>3342</ObjectID>
-
     <URN>urn:oma:lwm2m:ext:3342</URN>
-
     <Name>On/Off Switch</Name>
-
     <Description>This IPSO object should be used with an On/Off switch to report the state of the switch.</Description>
-
     <Owner>IPSO Alliance</Owner>
-
     <Source>1</Source>
-
     <Ver/>
-
     <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/3342.xml</DDF>
-
     <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3342.xml</LWM2M>
-
     <Vorto>http://vorto.eclipse.org/resolve/lwm2m/Object/ObjectID/3342</Vorto>
-
     <DDFLink>1</DDFLink>
-
     <TS>https://github.com/IPSO-Alliance/pub/blob/master/README.md</TS>
-
     <TSLink>1</TSLink>
-
   </Item>
 
 
-  -<Item>
-
+  -
+  <Item>
     <ObjectID>3343</ObjectID>
-
     <URN>urn:oma:lwm2m:ext:3343</URN>
-
     <Name>Lever Control</Name>
-
     <Description>This IPSO object should be used with a dimmer or level control to report the state of the control.</Description>
-
     <Owner>IPSO Alliance</Owner>
-
     <Source>1</Source>
-
     <Ver/>
-
     <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/3343.xml</DDF>
-
     <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3343.xml</LWM2M>
-
     <Vorto>http://vorto.eclipse.org/resolve/lwm2m/Object/ObjectID/3343</Vorto>
-
     <DDFLink>1</DDFLink>
-
     <TS>https://github.com/IPSO-Alliance/pub/blob/master/README.md</TS>
-
     <TSLink>1</TSLink>
-
   </Item>
 
 
-  -<Item>
-
+  -
+  <Item>
     <ObjectID>3344</ObjectID>
-
     <URN>urn:oma:lwm2m:ext:3344</URN>
-
     <Name>Up/Down Control</Name>
-
     <Description>This IPSO object is used to report the state of an up/down control element like a pair of push buttons or a rotary encoder.</Description>
-
     <Owner>IPSO Alliance</Owner>
-
     <Source>1</Source>
-
     <Ver/>
-
     <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/3344.xml</DDF>
-
     <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3344.xml</LWM2M>
-
     <Vorto>http://vorto.eclipse.org/resolve/lwm2m/Object/ObjectID/3344</Vorto>
-
     <DDFLink>1</DDFLink>
-
     <TS>https://github.com/IPSO-Alliance/pub/blob/master/README.md</TS>
-
     <TSLink>1</TSLink>
-
   </Item>
 
 
-  -<Item>
-
+  -
+  <Item>
     <ObjectID>3345</ObjectID>
-
     <URN>urn:oma:lwm2m:ext:3345</URN>
-
     <Name>Multiple Axis Joystick</Name>
-
     <Description>This IPSO object can be used to report the position of a shuttle or joystick control. A digital input is provided to report the state of an associated push button.</Description>
-
     <Owner>IPSO Alliance</Owner>
-
     <Source>1</Source>
-
     <Ver/>
-
     <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/3345.xml</DDF>
-
     <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3345.xml</LWM2M>
-
     <Vorto>http://vorto.eclipse.org/resolve/lwm2m/Object/ObjectID/3345</Vorto>
-
     <DDFLink>1</DDFLink>
-
     <TS>https://github.com/IPSO-Alliance/pub/blob/master/README.md</TS>
-
     <TSLink>1</TSLink>
-
   </Item>
 
 
-  -<Item>
-
+  -
+  <Item>
     <ObjectID>3346</ObjectID>
-
     <URN>urn:oma:lwm2m:ext:3346</URN>
-
     <Name>Rate</Name>
-
     <Description>This object type should be used to report a rate measurement,</Description>
-
     <Owner>IPSO Alliance</Owner>
-
     <Source>1</Source>
-
     <Ver/>
-
     <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/3346.xml</DDF>
-
     <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3346.xml</LWM2M>
-
     <Vorto>http://vorto.eclipse.org/resolve/lwm2m/Object/ObjectID/3346</Vorto>
-
     <DDFLink>1</DDFLink>
-
     <TS>https://github.com/IPSO-Alliance/pub/blob/master/README.md</TS>
-
     <TSLink>1</TSLink>
-
   </Item>
 
 
-  -<Item>
-
+  -
+  <Item>
     <ObjectID>3347</ObjectID>
-
     <URN>urn:oma:lwm2m:ext:3347</URN>
-
     <Name>Push Button</Name>
-
     <Description>This IPSO object is used to report the state of a momentary action push button control and to count the number of times the control has been operated since the last observation.</Description>
-
     <Owner>IPSO Alliance</Owner>
-
     <Source>1</Source>
-
     <Ver/>
-
     <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/3347.xml</DDF>
-
     <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3347.xml</LWM2M>
-
     <Vorto>http://vorto.eclipse.org/resolve/lwm2m/Object/ObjectID/3347</Vorto>
-
     <DDFLink>1</DDFLink>
-
     <TS>https://github.com/IPSO-Alliance/pub/blob/master/README.md</TS>
-
     <TSLink>1</TSLink>
-
   </Item>
 
 
-  -<Item>
-
+  -
+  <Item>
     <ObjectID>3348</ObjectID>
-
     <URN>urn:oma:lwm2m:ext:3348</URN>
-
     <Name>Multistate Selector</Name>
-
     <Description>This IPSO object is used to represent the state of a multistate selector switch with a number of fixed positions.</Description>
-
     <Owner>IPSO Alliance</Owner>
-
     <Source>1</Source>
-
     <Ver/>
-
     <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/3348.xml</DDF>
-
     <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3348.xml</LWM2M>
-
     <Vorto>http://vorto.eclipse.org/resolve/lwm2m/Object/ObjectID/3348</Vorto>
-
     <DDFLink>1</DDFLink>
-
     <TS>https://github.com/IPSO-Alliance/pub/blob/master/README.md</TS>
-
     <TSLink>1</TSLink>
-
   </Item>
 
 
-  -<Item>
-
+  -
+  <Item>
     <ObjectID>10241</ObjectID>
-
     <URN>urn:oma:lwm2m:x:10241</URN>
-
     <Name>HostDeviceInfo</Name>
-
     <Description>This LWM2M Object provides a range of host device related information which can be queried by the LWM2M Server. The host device is any integrated device with an embedded cellular radio module</Description>
-
     <Owner>AT&amp;T</Owner>
-
     <Source>2</Source>
-
     <Ver/>
-
     <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/HostDeviceInfo.xml</DDF>
-
     <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2FHostDeviceInfo.xml</LWM2M>
-
     <Vorto></Vorto>
-
     <DDFLink>1</DDFLink>
-
     <TS></TS>
-
     <TSLink>0</TSLink>
-
   </Item>
 
 
-  -<Item>
-
+  -
+  <Item>
     <ObjectID>10242</ObjectID>
-
     <URN>urn:oma:lwm2m:x:10242</URN>
-
     <Name>3-PhasePM</Name>
-
     <Description>This Object provides the information to represent a generic 3-Phase Power Meter</Description>
-
     <Owner>Odins</Owner>
-
     <Source>2</Source>
-
     <Ver/>
-
     <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/3-PhasePM.xml</DDF>
-
     <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3-PhasePM.xml</LWM2M>
-
     <Vorto></Vorto>
-
     <DDFLink>1</DDFLink>
-
     <TS></TS>
-
     <TSLink>0</TSLink>
-
   </Item>
-
-
   <Item>
-
     <ObjectID>10243</ObjectID>
-
     <URN>urn:oma:lwm2m:x:10243</URN>
-
     <Name>singlePhasePM</Name>
-
     <Description>This Object provides the information to represent a generic Single-Phase Power Meter</Description>
-
     <Owner>Odins</Owner>
-
     <Source>2</Source>
-
     <Ver/>
-
     <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/singlePhasePM.xml</DDF>
-
     <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2FsinglePhasePM.xml</LWM2M>
-
     <Vorto></Vorto>
-
     <DDFLink>1</DDFLink>
-
     <TS></TS>
-
     <TSLink>0</TSLink>
-
   </Item>
-
-
   <Item>
-
     <ObjectID>10244</ObjectID>
-
     <URN>urn:oma:lwm2m:x:10244</URN>
-
     <Name>vehicle control unit</Name>
-
     <Description>This Object provides the information to represent a generic VCU (vehicle control unit)</Description>
-
     <Owner>Works System</Owner>
-
     <Source>2</Source>
-
     <Ver/>
-
     <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/VehicleControlUnit.xml</DDF>
-
     <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2FVehicleControlUnit.xml</LWM2M>
-
     <Vorto></Vorto>
-
     <DDFLink>1</DDFLink>
-
     <TS>0</TS>
-
     <TSLink>0</TSLink>
-
   </Item>
-
   <Item>
-
     <ObjectID>10245</ObjectID>
-
     <URN>urn:oma:lwm2m:x:10245</URN>
-
     <Name>Relay Management</Name>
-
     <Description>This LWM2M Object provides a range of eNB related measurements and parameters of which several are changeable. Furthermore, it includes Resources to enable/disable the eNB</Description>
-
     <Owner>Vodafone Group Services Ltd</Owner>
-
     <Source>2</Source>
-
     <Ver/>
-
     <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/Relay_Management.xml</DDF>
-
     <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2FRelay_Management.xml</LWM2M>
-
     <Vorto></Vorto>
-
     <DDFLink>1</DDFLink>
-
     <TS></TS>
-
     <TSLink>0</TSLink>
-
   </Item>
-
   <Item>
-
     <ObjectID>10246</ObjectID>
-
     <URN>urn:oma:lwm2m:x:10246</URN>
-
     <Name>CrowdBox Measurements</Name>
-
     <Description>This LWM2M Object provides CrowdBox-related measurements such as serving cell parameters, backhaul timing advance, and neighbour cell reports.</Description>
-
     <Owner>Vodafone Group Services Ltd</Owner>
-
     <Source>2</Source>
-
     <Ver/>
-
     <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/CrowdBox_Measurements.xml</DDF>
-
     <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2FCrowdBox_Measurements.xml</LWM2M>
-
     <Vorto></Vorto>
-
     <DDFLink>1</DDFLink>
-
     <TS>0</TS>
-
     <TSLink>0</TSLink>
-
   </Item>
-
   <Item>
-
     <ObjectID>10247</ObjectID>
-
     <URN>urn:oma:lwm2m:x:10247</URN>
-
     <Name>Neighbour Cell Report</Name>
-
     <Description>This LWM2M Object provides the neighbour cell report. The CrowdBox Measurements Object and the Connected UE Report Object have both Objlnk Resources pointing to this Object</Description>
-
     <Owner>Vodafone Group Services Ltd</Owner>
-
     <Source>2</Source>
-
     <Ver/>
-
     <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/Neighbour_Cell_Report.xml</DDF>
-
     <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2FNeighbour_Cell_Report.xml</LWM2M>
-
     <Vorto></Vorto>
-
     <DDFLink>1</DDFLink>
-
     <TS></TS>
-
     <TSLink>0</TSLink>
-
   </Item>
-
   <Item>
-
     <ObjectID>10248</ObjectID>
-
     <URN>urn:oma:lwm2m:x:10248</URN>
-
     <Name>Connected UE Measurements</Name>
-
     <Description>This LWM2M Object provides a range of measurements of connected UEs and provides an Object link to the Connected UE report.</Description>
-
     <Owner>Vodafone Group Services Ltd</Owner>
-
     <Source>2</Source>
-
     <Ver/>
-
     <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/Connected_UE_Measurements.xml</DDF>
-
     <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2FConnected_UE_Measurements.xml</LWM2M>
-
     <Vorto></Vorto>
-
     <DDFLink>1</DDFLink>
-
     <TS>0</TS>
-
     <TSLink>0</TSLink>
-
   </Item>
-
   <Item>
-
     <ObjectID>10249</ObjectID>
-
     <URN>urn:oma:lwm2m:x:10249</URN>
-
     <Name>	Connected UE Report</Name>
-
     <Description>This LWM2M Object provides a range of information related to the connected UEs.</Description>
-
     <Owner>Vodafone Group Services Ltd</Owner>
-
     <Source>2</Source>
-
     <Ver/>
-
     <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/Connected_UE_Report.xml</DDF>
-
     <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2FConnected_UE_Report.xml</LWM2M>
-
     <Vorto></Vorto>
-
     <DDFLink>1</DDFLink>
-
     <TS></TS>
-
     <TSLink>0</TSLink>
-
   </Item>
-
   <Item>
-
     <ObjectID>10250</ObjectID>
-
     <URN>urn:oma:lwm2m:x:10250</URN>
-
     <Name>App Data Container</Name>
-
     <Description>This LWM2M Object is used for reporting application data of a device.</Description>
-
     <Owner>Huawei Technologies Co., Ltd.</Owner>
-
     <Source>2</Source>
-
     <Ver/>
-
     <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/Application-Data-Container.xml</DDF>
-
     <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2FApplication-Data-Container.xml</LWM2M>
-
     <Vorto></Vorto>
-
     <DDFLink>1</DDFLink>
-
     <TS></TS>
-
     <TSLink>0</TSLink>
-
   </Item>
-
-
 </DDFList>

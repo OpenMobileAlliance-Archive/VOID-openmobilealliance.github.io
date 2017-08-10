@@ -21,7 +21,7 @@
             $('#header').load("../../header.html");
             $('#footer').load("../../footer.html");
             //$('#LwM2MObjects').load("LwM2MObjects.html", function () { SetUpExpandableTDs(); TablesWithRowspanStyleChanges(); });
-            DisplayXML('./DDF.xml', './Common.xml');
+            DisplayXML('./DDF.xml', './reserved.xml', './Common.xml');
             SetUpExpandableTDs();
             TablesWithRowspanStyleChanges();
         });
@@ -285,6 +285,19 @@
                 <caption>
                     <a title="Click here to register Objects Produced by vendors or individuals between ranges 10241 - 26240" href="http://devtoolkit.openmobilealliance.org/OEditor/Register">Click here to register Objects Produced by vendors or individuals between ranges 10241 - 26240</a>
                 </caption>
+            </table>
+        </div>
+        <div>
+            <h3 id="xlabel"><strong>x-label</strong> Bulk Objects Reserved by Vendors</h3>
+            <p>32769 - 42768 This range is used for company bulk reservation (up to 50 ObjectIDs). Object range are reserved by not published.</p>
+            <table id="reservedobjects_tbl" style="width:50%">
+                <thead>
+                    <tr>
+                        <th>Object ID</th>
+                        <th>Company</th>
+                    </tr>
+                </thead>
+                <tbody></tbody>
             </table>
         </div>
         <div>
