@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<xs:schema 
+    xmlns:xs="http://www.w3.org/2001/XMLSchema" 
+    targetNamespace="http://www.openmobilealliance.org" 
+    xmlns="http://www.openmobilealliance.org" 
+    elementFormDefault="qualified">
+    
+    <xs:element name="ReservedObjects">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="Item">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="ObjectIDStartRange" type="xs:string"/>
+                            <xs:element name="ObjectIDEndRange" type="xs:string"/>
+                            <xs:element name="Company" type="xs:string"/>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

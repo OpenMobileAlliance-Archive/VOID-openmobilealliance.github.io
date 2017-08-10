@@ -1,4 +1,4 @@
-﻿function DisplayXML(ddfXMLFileURL, commonXMLFileUrl) {
+﻿function DisplayXML(ddfXMLFileURL, reservedXMLFileUrl, commonXMLFileUrl) {
     // Load the DDF.xml data and fill in the OMA Objects, 3rd Party Objects and Individuals Objects tables
     $.ajax({
         type: "GET",
@@ -58,6 +58,42 @@
                         '<td>' +
                             '<p>' + description + '</p>' +
                         '</td>' +
+                    '</tr>'
+                );
+            });
+        }
+    });
+
+// Load the reserved.xml data and fill in the reserved objects table    
+    $.ajax({
+        type: "GET",
+        async: false,
+        url: reservedXMLFileUrl,
+        dataType: "xml",
+        success: function (xmlDoc) {
+            var $xml = $(xmlDoc);
+            var $items = $xml.find('Item');
+
+            $items.each(function () {                
+                var objectIDStartRange = $(this).find('ObjectIDStartRange').text();
+                var objectIDEndRange = $(this).find('ObjectIDEndRange').text();
+                var company = $(this).find('Company').text();
+
+                var $tableselected = $('#reservedobjects_tbl');
+                
+                var objectIDRange = objectIDStartRange + ' - ' + objectIDEndRange;
+                if (objectIDStartRange === objectIDEndRange || !objectIDEndRange) {
+                    objectIDRange = objectIDStartRange;
+                }
+
+                $tableselected.find('tbody').append(
+                    '<tr>' +
+                        '<td>' +
+                            objectIDRange +
+                        '</td>' +
+                        '<td>' +
+                            company +
+                        '</td>' +                        
                     '</tr>'
                 );
             });
