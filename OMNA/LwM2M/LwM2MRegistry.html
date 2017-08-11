@@ -21,7 +21,7 @@
             $('#header').load("../../header.html");
             $('#footer').load("../../footer.html");
             //$('#LwM2MObjects').load("LwM2MObjects.html", function () { SetUpExpandableTDs(); TablesWithRowspanStyleChanges(); });
-            DisplayXML('./DDF.xml', './reserved.xml', './Common.xml');
+            DisplayXML('./DDF.xml', './Common.xml');
             SetUpExpandableTDs();
             TablesWithRowspanStyleChanges();
         });
@@ -129,22 +129,19 @@
                             <p><code>urn:oma:lwm2m:x:&lt;id&gt;:&lt;version&gt;</code></p>
                         </td>
                         <td>
-                            10241 - 26240<br>26241 - 32768<br>32769 - 42768
+                            10241 - 26240<br>26241 - 32768
                         </td>
                         <td>
                             Objects registered by companies or individuals.
                             <br>Objects Produced by Vendors to re-use
-                            <br>Block of objects reserved by vendors (Max 50). Private range, Objects will not be published
                         </td>
                         <td>
-                            <a title="click here to view Objects registered by companies and individuals" href="#x_label">View</a><br />
-                            --<br />
-                            <a title="click here to view reserved Objects" href="#xlabel">View</a>
+                            <a title="click here to view Objects registered by companies and individuals" href="#xlabel">View</a><br />
+                            --
                         </td>
                         <td>
                             <a title="click here to register an Object if you are vendors or individuals" href="http://devtoolkit.openmobilealliance.org/OEditor/Register">Register</a><br />
-                            --<br />
-                             <a title="click here to block reserve Objects" href="mailto:helpdesk@omaorg.org?Subject=Reserve%20Objects">Reserve</a>
+                            --
                         </td>
                     </tr>
                 </tbody>
@@ -267,7 +264,7 @@
             </table>
         </div>
         <div>
-            <h3 id="x_label"><strong>x-label</strong> Objects Produced by vendors or individuals</h3>
+            <h3 id="xlabel"><strong>x-label</strong> Objects Produced by vendors or individuals</h3>
             <p><code>URN: urn:oma:lwm2m:x:ObjectID:version | ranges (10,241 - 26,240) &amp; (26,241 - 32,768)</code></p>
             <p>10241 - 26240 Range accepts registration</p>
             <p>26241 - 32768 Range is privately reused and there is no need for registration</p>
@@ -288,19 +285,6 @@
                 <caption>
                     <a title="Click here to register Objects Produced by vendors or individuals between ranges 10241 - 26240" href="http://devtoolkit.openmobilealliance.org/OEditor/Register">Click here to register Objects Produced by vendors or individuals between ranges 10241 - 26240</a>
                 </caption>
-            </table>
-        </div>
-        <div>
-            <h3 id="xlabel"><strong>x-label</strong> Bulk Objects Reserved by Vendors</h3>
-            <p>32769 - 42768 This range is used for company bulk reservation (up to 50 ObjectIDs). This range is to create private objects that are not registered here.</p>
-            <table id="reservedobjects_tbl" style="width:50%">
-                <thead>
-                    <tr>
-                        <th>Object ID</th>
-                        <th>Company</th>
-                    </tr>
-                </thead>
-                <tbody></tbody>
             </table>
         </div>
         <div>
