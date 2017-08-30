@@ -1302,7 +1302,7 @@
   <Item>
     <MOIdentifier>urn:oma:mo:oma-gwmo-config:1.1</MOIdentifier>
     <MOIndex>0x0060</MOIndex>
-    <Description>GwMO</Description>
+    <Description>Gateway Config MO</Description>
     <Owner>
     </Owner>
     <Source>0</Source>
@@ -1314,7 +1314,7 @@
   <Item>
     <MOIdentifier>urn:oma:mo:oma-gwmo-deviceinventory:1.1</MOIdentifier>
     <MOIndex>0x0061</MOIndex>
-    <Description>GwMO</Description>
+    <Description>Device Inventory MO</Description>
     <Owner>
     </Owner>
     <Source>0</Source>
@@ -1326,7 +1326,7 @@
   <Item>
     <MOIdentifier>urn:oma:mo:oma-gwmo-edtrigger:1.0</MOIdentifier>
     <MOIndex>0x0062</MOIndex>
-    <Description>GwMO</Description>
+    <Description>End Device Trigger MO</Description>
     <Owner>
     </Owner>
     <Source>0</Source>
@@ -1338,7 +1338,7 @@
   <Item>
     <MOIdentifier>urn:oma:mo:oma-gwmo-fanout:1.0</MOIdentifier>
     <MOIndex>0x0063</MOIndex>
-    <Description>GwMO</Description>
+    <Description>Fanout MO</Description>
     <Owner>
     </Owner>
     <Source>0</Source>
@@ -1350,7 +1350,7 @@
   <Item>
     <MOIdentifier>urn:oma:mo:oma-gwmo-imageinventory:1.0</MOIdentifier>
     <MOIndex>0x0064</MOIndex>
-    <Description>GwMO</Description>
+    <Description>Image Inventory MO</Description>
     <Owner>
     </Owner>
     <Source>0</Source>
@@ -1360,14 +1360,14 @@
     </TS>
   </Item>
   <Item>
-    <MOIdentifier>urn:oma:mo: oma-dm-zigbee:1.0</MOIdentifier>
+    <MOIdentifier>urn:oma:mo:oma-dm-zigbee:1.0</MOIdentifier>
     <MOIndex>0x0065</MOIndex>
-    <Description>GwMO</Description>
+    <Description>ZigBee Device MO</Description>
     <Owner>
     </Owner>
     <Source>0</Source>
     <Ver>1.0</Ver>
-    <DDF>http://www.openmobilealliance.org/tech/omna/dm_mo/MO_GwImageInventory-v1_0.ddf</DDF>
+    <DDF>http://www.openmobilealliance.org/tech/omna/dm_mo/MO_GwZigBeeDevice-v1_0.ddf</DDF>
     <TS>
     </TS>
   </Item>
@@ -1396,7 +1396,7 @@
     </TS>
   </Item>
   <Item>
-    <MOIdentifier>urn:oma:xml:push :1.0</MOIdentifier>
+    <MOIdentifier>urn:oma:xml:push:1.0</MOIdentifier>
     <MOIndex>0x0068</MOIndex>
     <Description>WRAPI</Description>
     <Owner>
@@ -1756,7 +1756,7 @@
     </TS>
   </Item>
   <Item>
-    <MOIdentifier>urn:oma:mo:ext-e2r- terminal:1.0</MOIdentifier>
+    <MOIdentifier>urn:oma:mo:ext-e2r-terminal:1.0</MOIdentifier>
     <Owner>E2R</Owner>
     <Source>1</Source>
     <Ver>1.0</Ver>
@@ -1805,7 +1805,7 @@
     </TS>
   </Item>
   <Item>
-    <MOIdentifier>urn:oma:mo:ext-etsi -manmo:1.0</MOIdentifier>
+    <MOIdentifier>urn:oma:mo:ext-etsi-manmo:1.0</MOIdentifier>
     <Owner>ETSI TC M2M</Owner>
     <Source>1</Source>
     <Ver>1.0</Ver>
