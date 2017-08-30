@@ -3073,11 +3073,70 @@
 
     <URN>urn:oma:lwm2m:x:10258</URN>
 
+    <Name>Current Loop Output</Name>
+
+    <Description>This LWM2M Object provides a representation of a current loop source, which may be used to carry control signals.</Description>
+
+    <Owner>World-Direct eBusiness</Owner>
+
+    <Source>2</Source>
+
+    <Ver/>
+
+    <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/10258.xml</DDF>
+
+    <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F10258.xml</LWM2M>
+
+    <Vorto></Vorto>
+
+    <DDFLink>1</DDFLink>
+
+    <TS></TS>
+
+    <TSLink></TSLink>
+
+  </Item>
+     <Item>
+
+    <ObjectID>10259</ObjectID>
+
+    <URN>urn:oma:lwm2m:x:10259</URN>
+
     <Name>Reserved</Name>
 
     <Description></Description>
 
-    <Owner>World-Direct eBusiness</Owner>
+    <Owner>NetComm Wireless Limited</Owner>
+
+    <Source>2</Source>
+
+    <Ver/>
+
+    <DDF>-</DDF>
+
+    <LWM2M>-</LWM2M>
+
+    <Vorto></Vorto>
+
+    <DDFLink>1</DDFLink>
+
+    <TS></TS>
+
+    <TSLink></TSLink>
+
+  </Item>
+  
+       <Item>
+
+    <ObjectID>10260</ObjectID>
+
+    <URN>urn:oma:lwm2m:x:10260</URN>
+
+    <Name>Reserved</Name>
+
+    <Description></Description>
+
+    <Owner>NetComm Wireless Limited</Owner>
 
     <Source>2</Source>
 
