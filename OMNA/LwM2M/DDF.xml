@@ -3073,9 +3073,9 @@
 
     <URN>urn:oma:lwm2m:x:10258</URN>
 
-    <Name>Reserved</Name>
+    <Name>Current Loop Output</Name>
 
-    <Description></Description>
+    <Description>This LWM2M Object provides a representation of a current loop source, which may be used to carry control signals.</Description>
 
     <Owner>World-Direct eBusiness</Owner>
 
@@ -3083,9 +3083,9 @@
 
     <Ver/>
 
-    <DDF>-</DDF>
+    <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/10258.xml</DDF>
 
-    <LWM2M>-</LWM2M>
+    <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F10258.xml</LWM2M>
 
     <Vorto></Vorto>
 
