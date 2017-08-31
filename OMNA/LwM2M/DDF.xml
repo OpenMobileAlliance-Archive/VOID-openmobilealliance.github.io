@@ -3043,9 +3043,9 @@
 
     <URN>urn:oma:lwm2m:x:10257</URN>
 
-    <Name>Reserved</Name>
+    <Name>Heat/Cooling meter</Name>
 
-    <Description></Description>
+    <Description>This Object provides the information to represent a generic (district) heat or cooling meter</Description>
 
     <Owner>Comsel System Ltd</Owner>
 
@@ -3053,9 +3053,9 @@
 
     <Ver/>
 
-    <DDF>-</DDF>
+    <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/10257.xml</DDF>
 
-    <LWM2M>-</LWM2M>
+    <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F10257.xml</LWM2M>
 
     <Vorto></Vorto>
 
