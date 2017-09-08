@@ -2503,7 +2503,7 @@
 
     <Description>Summarize several digital inputs to one value by mapping each bit to a digital input.</Description>
 
-    <Owner>Ericsson</Owner>
+    <Owner>IPSO Alliance</Owner>
 
     <Source>1</Source>
 
@@ -2533,7 +2533,7 @@
 
     <Description>An ascending timer that counts how long time has passed since the timer was started after reset.</Description>
 
-    <Owner>Ericsson</Owner>
+    <Owner>IPSO Alliance</Owner>
 
     <Source>1</Source>
 
