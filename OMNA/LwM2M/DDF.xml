@@ -2499,9 +2499,9 @@
 
     <URN>urn:oma:lwm2m:ext:3349</URN>
 
-    <Name>Reserved</Name>
+    <Name>Bitmap</Name>
 
-    <Description>-</Description>
+    <Description>Summarize several digital inputs to one value by mapping each bit to a digital input.</Description>
 
     <Owner>IPSO Alliance</Owner>
 
@@ -2509,17 +2509,17 @@
 
     <Ver/>
 
-    <DDF>-</DDF>
+    <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/3349.xml</DDF>
 
-    <LWM2M>-</LWM2M>
+    <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3349.xml</LWM2M>
 
-    <Vorto>-</Vorto>
+    <Vorto>http://vorto.eclipse.org/resolve/lwm2m/Object/ObjectID/3349</Vorto>
 
-    <DDFLink>-</DDFLink>
+    <DDFLink>1</DDFLink>
 
-    <TS>-</TS>
+    <TS>https://github.com/IPSO-Alliance/pub/blob/master/README.md</TS>
 
-    <TSLink>-</TSLink>
+    <TSLink>1</TSLink>
 
   </Item>
   
@@ -2529,9 +2529,9 @@
 
     <URN>urn:oma:lwm2m:ext:3350</URN>
 
-    <Name>Reserved</Name>
+    <Name>Stopwatch</Name>
 
-    <Description>-</Description>
+    <Description>An ascending timer that counts how long time has passed since the timer was started after reset.</Description>
 
     <Owner>IPSO Alliance</Owner>
 
@@ -2539,17 +2539,17 @@
 
     <Ver/>
 
-    <DDF>-</DDF>
+    <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/3350.xml</DDF>
 
-    <LWM2M>-</LWM2M>
+    <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3350.xml</LWM2M>
 
-    <Vorto>-</Vorto>
+    <Vorto>http://vorto.eclipse.org/resolve/lwm2m/Object/ObjectID/3350</Vorto>
 
-    <DDFLink>-</DDFLink>
+    <DDFLink>1</DDFLink>
 
-    <TS>-</TS>
+    <TS>https://github.com/IPSO-Alliance/pub/blob/master/README.md</TS>
 
-    <TSLink>-</TSLink>
+    <TSLink>1</TSLink>
 
   </Item>
   -<Item>
