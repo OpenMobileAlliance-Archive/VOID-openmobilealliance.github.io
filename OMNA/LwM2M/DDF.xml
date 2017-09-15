@@ -607,7 +607,7 @@
 
     <URN>urn:oma:lwm2m:oma:19</URN>
 
-    <Name> BinaryAppDataContainer</Name>
+    <Name>Reserved</Name>
 
     <Description>.</Description>
 
@@ -637,7 +637,7 @@
 
     <URN>urn:oma:lwm2m:oma:20</URN>
 
-    <Name>Event Log</Name>
+    <Name>Reserved</Name>
 
     <Description></Description>
 
