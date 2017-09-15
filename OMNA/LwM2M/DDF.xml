@@ -600,6 +600,67 @@
     <TSLink>0</TSLink>
 
   </Item>
+  
+   -<Item>
+
+    <ObjectID>19</ObjectID>
+
+    <URN>urn:oma:lwm2m:oma:19</URN>
+
+    <Name>Reserved</Name>
+
+    <Description></Description>
+
+    <Owner>OMA</Owner>
+
+    <Source>0</Source>
+
+    <Ver>1.0</Ver>
+
+    <DDF></DDF>
+
+    <LWM2M></LWM2M>
+
+    <Vorto></Vorto>
+
+    <DDFLink>0</DDFLink>
+
+    <TS>x</TS>
+
+    <TSLink>0</TSLink>
+
+  </Item>
+  
+  
+   -<Item>
+
+    <ObjectID>20</ObjectID>
+
+    <URN>urn:oma:lwm2m:oma:20</URN>
+
+    <Name>Reserved</Name>
+
+    <Description></Description>
+
+    <Owner>OMA</Owner>
+
+    <Source>0</Source>
+
+    <Ver>1.0</Ver>
+
+    <DDF></DDF>
+
+    <LWM2M></LWM2M>
+
+    <Vorto></Vorto>
+
+    <DDFLink>0</DDFLink>
+
+    <TS>x</TS>
+
+    <TSLink>0</TSLink>
+
+  </Item>
 
   -<Item>
 
