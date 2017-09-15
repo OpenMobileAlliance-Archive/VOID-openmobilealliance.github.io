@@ -600,6 +600,66 @@
     <TSLink>0</TSLink>
 
   </Item>
+  
+   -<Item>
+
+    <ObjectID>19</ObjectID>
+
+    <URN>urn:oma:lwm2m:oma:19</URN>
+
+    <Name>Reserved</Name>
+
+    <Description>.</Description>
+
+    <Owner>OMA</Owner>
+
+    <Source>0</Source>
+
+    <Ver></Ver>
+
+    <DDF></DDF>
+
+    <LWM2M></LWM2M>
+
+    <Vorto></Vorto>
+
+    <DDFLink>0</DDFLink>
+
+    <TS>x</TS>
+
+    <TSLink>0</TSLink>
+
+  </Item>
+  
+   -<Item>
+
+    <ObjectID>20</ObjectID>
+
+    <URN>urn:oma:lwm2m:oma:20</URN>
+
+    <Name>Reserved</Name>
+
+    <Description></Description>
+
+    <Owner>OMA</Owner>
+
+    <Source>0</Source>
+
+    <Ver>1.0</Ver>
+
+    <DDF></DDF>
+
+    <LWM2M></LWM2M>
+
+    <Vorto></Vorto>
+
+    <DDFLink>0</DDFLink>
+
+    <TS>x</TS>
+
+    <TSLink>0</TSLink>
+
+  </Item>
 
   -<Item>
 
@@ -2499,9 +2559,9 @@
 
     <URN>urn:oma:lwm2m:ext:3349</URN>
 
-    <Name>Bitmap</Name>
+    <Name>Reserved</Name>
 
-    <Description>Summarize several digital inputs to one value by mapping each bit to a digital input.</Description>
+    <Description>-</Description>
 
     <Owner>IPSO Alliance</Owner>
 
@@ -2509,17 +2569,17 @@
 
     <Ver/>
 
-    <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/3349.xml</DDF>
+    <DDF>-</DDF>
 
-    <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3349.xml</LWM2M>
+    <LWM2M>-</LWM2M>
 
-    <Vorto>http://vorto.eclipse.org/resolve/lwm2m/Object/ObjectID/3349</Vorto>
+    <Vorto>-</Vorto>
 
-    <DDFLink>1</DDFLink>
+    <DDFLink>-</DDFLink>
 
-    <TS>https://github.com/IPSO-Alliance/pub/blob/master/README.md</TS>
+    <TS>-</TS>
 
-    <TSLink>1</TSLink>
+    <TSLink>-</TSLink>
 
   </Item>
   
@@ -2529,9 +2589,9 @@
 
     <URN>urn:oma:lwm2m:ext:3350</URN>
 
-    <Name>Stopwatch</Name>
+    <Name>Reserved</Name>
 
-    <Description>An ascending timer that counts how long time has passed since the timer was started after reset.</Description>
+    <Description>-</Description>
 
     <Owner>IPSO Alliance</Owner>
 
@@ -2539,17 +2599,17 @@
 
     <Ver/>
 
-    <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/3350.xml</DDF>
+    <DDF>-</DDF>
 
-    <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3350.xml</LWM2M>
+    <LWM2M>-</LWM2M>
 
-    <Vorto>http://vorto.eclipse.org/resolve/lwm2m/Object/ObjectID/3350</Vorto>
+    <Vorto>-</Vorto>
 
-    <DDFLink>1</DDFLink>
+    <DDFLink>-</DDFLink>
 
-    <TS>https://github.com/IPSO-Alliance/pub/blob/master/README.md</TS>
+    <TS>-</TS>
 
-    <TSLink>1</TSLink>
+    <TSLink>-</TSLink>
 
   </Item>
   -<Item>
@@ -3043,9 +3103,9 @@
 
     <URN>urn:oma:lwm2m:x:10257</URN>
 
-    <Name>Heat/Cooling meter</Name>
+    <Name>Reserved</Name>
 
-    <Description>This Object provides the information to represent a generic (district) heat or cooling meter</Description>
+    <Description></Description>
 
     <Owner>Comsel System Ltd</Owner>
 
@@ -3053,9 +3113,9 @@
 
     <Ver/>
 
-    <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/10257.xml</DDF>
+    <DDF>-</DDF>
 
-    <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F10257.xml</LWM2M>
+    <LWM2M>-</LWM2M>
 
     <Vorto></Vorto>
 
@@ -3102,9 +3162,9 @@
 
     <URN>urn:oma:lwm2m:x:10259</URN>
 
-    <Name>System Log</Name>
+    <Name>Reserved</Name>
 
-    <Description>This object provides read access to log buffers as well as limited configuration of logging services.</Description>
+    <Description></Description>
 
     <Owner>NetComm Wireless Limited</Owner>
 
@@ -3112,9 +3172,9 @@
 
     <Ver/>
 
-    <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/10259.xml</DDF>
+    <DDF>-</DDF>
 
-    <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F10259.xml</LWM2M>
+    <LWM2M>-</LWM2M>
 
     <Vorto></Vorto>
 
@@ -3132,9 +3192,9 @@
 
     <URN>urn:oma:lwm2m:x:10260</URN>
 
-    <Name>Runtime Database</Name>
+    <Name>Reserved</Name>
 
-    <Description>This object allows manipulation of Runtime Database variables.</Description>
+    <Description></Description>
 
     <Owner>NetComm Wireless Limited</Owner>
 
@@ -3142,9 +3202,9 @@
 
     <Ver/>
 
-    <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/10260.xml</DDF>
+    <DDF>-</DDF>
 
-    <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F10260.xml</LWM2M>
+    <LWM2M>-</LWM2M>
 
     <Vorto></Vorto>
 
