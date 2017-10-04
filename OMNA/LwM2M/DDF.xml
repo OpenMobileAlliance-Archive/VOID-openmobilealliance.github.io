@@ -2621,7 +2621,7 @@
 
     <Name>HostDeviceInfo</Name>
 
-    <Description>This LWM2M Object provides a range of host device related information which can be queried by the LWM2M Server. The host device is any integrated device with an embedded cellular radio module</Description>
+    <Description>The host device unique ID as assigned by an OEM, MNO, or other as the Device ID in the onboarding or manufacturing process.</</Description>
 
     <Owner>AT&amp;T</Owner>
 
