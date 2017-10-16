@@ -2752,7 +2752,7 @@ First instance describes the least significant bit, second instance the second l
         </Description>
 
       </Item>
-      
+
       <Item ID="6000">
 
         <Name>Reserved</Name>
@@ -2964,29 +2964,8 @@ First instance describes the least significant bit, second instance the second l
         <Description></Description>
 
       </Item>
-      
-          <Item ID="6010">
 
-        <Name>Reserved</Name>
-
-        <Operations></Operations>
-
-        <MultipleInstances></MultipleInstances>
-
-        <Mandatory></Mandatory>
-
-        <Type></Type>
-
-        <RangeEnumeration></RangeEnumeration>
-
-        <Units></Units>
-
-        <Submitter>smartlogic.com</Submitter>
-
-        <Description></Description>
-
-      </Item>
-      <Item ID="6011">
+      <Item ID="6010">
 
         <Name>Reserved</Name>
 
@@ -3029,6 +3008,27 @@ First instance describes the least significant bit, second instance the second l
 
       </Item>
       <Item ID="6012">
+
+        <Name>Reserved</Name>
+
+        <Operations></Operations>
+
+        <MultipleInstances></MultipleInstances>
+
+        <Mandatory></Mandatory>
+
+        <Type></Type>
+
+        <RangeEnumeration></RangeEnumeration>
+
+        <Units></Units>
+
+        <Submitter>smartlogic.com</Submitter>
+
+        <Description></Description>
+
+      </Item>
+      <Item ID="6013">
 
         <Name>Reserved</Name>
 
@@ -3467,7 +3467,7 @@ First instance describes the least significant bit, second instance the second l
         <Description></Description>
 
       </Item>
-      
+
     </Resources>
 
     <Description2/>
