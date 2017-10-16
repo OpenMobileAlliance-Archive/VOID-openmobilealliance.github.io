@@ -3193,23 +3193,23 @@
 
     <URN>urn:oma:lwm2m:x:10260</URN>
 
-    <Name>Reserved</Name>
+    <Name>Runtime Database</Name>
 
-    <Description></Description>
+    <Description>This object allows manipulation of Runtime Database variables.</Description>
 
-    <Owner>smartlogic</Owner>
+    <Owner>NetComm Wireless Limited</Owner>
 
     <Source>2</Source>
 
     <Ver/>
 
-    <DDF></DDF>
+    <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/10260.xml</DDF>
 
-    <LWM2M></LWM2M>
+    <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F10260.xml</LWM2M>
 
     <Vorto></Vorto>
 
-    <DDFLink></DDFLink>
+    <DDFLink>1</DDFLink>
 
     <TS></TS>
 
