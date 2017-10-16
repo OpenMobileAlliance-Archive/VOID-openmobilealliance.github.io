@@ -3,2760 +3,3454 @@
 <LWM2M>
 
 
-<Object ObjectType="MODefinition">
+  <Object ObjectType="MODefinition">
 
-<Name>IPSO Alliance Common Resources</Name>
+    <Name>IPSO Alliance Common Resources</Name>
 
-<Description1/>
+    <Description1/>
 
-<ObjectID>0</ObjectID>
+    <ObjectID>0</ObjectID>
 
-<ObjectURN/>
+    <ObjectURN/>
 
-<MultipleInstances>Multiple</MultipleInstances>
+    <MultipleInstances>Multiple</MultipleInstances>
 
-<Mandatory>Optional</Mandatory>
+    <Mandatory>Optional</Mandatory>
 
 
-<Resources>
+    <Resources>
 
 
-<Item ID="4000">
+      <Item ID="4000">
 
-<Name>ObjectInstanceHandle</Name>
+        <Name>ObjectInstanceHandle</Name>
 
-<Operations>R</Operations>
+        <Operations>R</Operations>
 
-<MultipleInstances></MultipleInstances>
+        <MultipleInstances></MultipleInstances>
 
-<Mandatory></Mandatory>
+        <Mandatory></Mandatory>
 
-<Type>Objlnk</Type>
+        <Type>Objlnk</Type>
 
-<RangeEnumeration></RangeEnumeration>
+        <RangeEnumeration></RangeEnumeration>
 
-<Units></Units>
+        <Units></Units>
 
-<Submitter>OMA</Submitter>
+        <Submitter>OMA</Submitter>
 
-<Description>
+        <Description>
 
-<![CDATA[The object link is used to refer an Instance of a given Object. An Object link value is composed of two concatenated 16-bits unsigned integers following the Network Byte Order convention. The Most Significant Halfword is an ObjectID, the Least Significant Hafword is an ObjectInstance ID.An Object Link referencing no Object Instance will contain the concatenation of 2 MAX-ID values (null link.]]>
+          <![CDATA[The object link is used to refer an Instance of a given Object. An Object link value is composed of two concatenated 16-bits unsigned integers following the Network Byte Order convention. The Most Significant Halfword is an ObjectID, the Least Significant Hafword is an ObjectInstance ID.An Object Link referencing no Object Instance will contain the concatenation of 2 MAX-ID values (null link.]]>
 
-</Description>
+        </Description>
 
-</Item>
+      </Item>
 
 
-<Item ID="4001">
+      <Item ID="4001">
 
-<Name>ObjectVersion</Name>
+        <Name>ObjectVersion</Name>
 
-<Operations>R</Operations>
+        <Operations>R</Operations>
 
-<MultipleInstances>Single</MultipleInstances>
+        <MultipleInstances>Single</MultipleInstances>
 
-<Mandatory>Optional</Mandatory>
+        <Mandatory>Optional</Mandatory>
 
-<Type>String</Type>
+        <Type>String</Type>
 
-<RangeEnumeration></RangeEnumeration>
-<Submitter>OMA</Submitter>
+        <RangeEnumeration></RangeEnumeration>
+        <Submitter>OMA</Submitter>
 
-<Description>
+        <Description>
 
-<![CDATA[LWM2M Object versioning label.]]>
+          <![CDATA[LWM2M Object versioning label.]]>
 
-</Description>
+        </Description>
 
-</Item>
+      </Item>
 
 
-<Item ID="4010">
+      <Item ID="4010">
 
-<Name>LogClass</Name>
+        <Name>LogClass</Name>
 
-<Operations>RW</Operations>
+        <Operations>RW</Operations>
 
-<MultipleInstances>Single</MultipleInstances>
+        <MultipleInstances>Single</MultipleInstances>
 
-<Mandatory>Optional</Mandatory>
+        <Mandatory>Optional</Mandatory>
 
-<Type>Integer</Type>
+        <Type>Integer</Type>
 
-<RangeEnumeration>0-255</RangeEnumeration>
+        <RangeEnumeration>0-255</RangeEnumeration>
 
-<RangeEnumeration></RangeEnumeration>
+        <RangeEnumeration></RangeEnumeration>
 
-<Submitter>OMA</Submitter>
+        <Submitter>OMA</Submitter>
 
-<Description>
+        <Description>
 
-<![CDATA[Part of the Logging Event Set: 1/5 (Must be a Single-Instance Resource) Define the Log Event Class: 0: generic (default) 1: system 2: security 3: event 4: trace 5: panic 6: charging [7-99]: reserved [100-255]: vendor specific ]]>
+          <![CDATA[Part of the Logging Event Set: 1/5 (Must be a Single-Instance Resource) Define the Log Event Class: 0: generic (default) 1: system 2: security 3: event 4: trace 5: panic 6: charging [7-99]: reserved [100-255]: vendor specific ]]>
 
-</Description>
+        </Description>
 
-</Item>
+      </Item>
 
 
-<Item ID="4011">
+      <Item ID="4011">
 
-<Name>LogStart</Name>
+        <Name>LogStart</Name>
 
-<Operations>E</Operations>
+        <Operations>E</Operations>
 
-<MultipleInstances>Single</MultipleInstances>
+        <MultipleInstances>Single</MultipleInstances>
 
-<Mandatory>Optional</Mandatory>
+        <Mandatory>Optional</Mandatory>
 
-<Type></Type>
+        <Type></Type>
 
-<RangeEnumeration></RangeEnumeration>
-<Submitter>OMA</Submitter>
+        <RangeEnumeration></RangeEnumeration>
+        <Submitter>OMA</Submitter>
 
-<Description>
+        <Description>
 
-<![CDATA[Part of the Logging Event Set: 2/5 Actions: a) Start data collection(DC) b) LogStatus is set to 0 (running) c) DC is emptied(default) or extended according to arg'0' value d) DC Period is set according to arg'1' value Arguments '0': DC emptied(=0[default] or extended(=1) '1': set the DC Period (in sec): if=0 or absent[default] DC is stopped by LogStop action only. ]]>
+          <![CDATA[Part of the Logging Event Set: 2/5 Actions: a) Start data collection(DC) b) LogStatus is set to 0 (running) c) DC is emptied(default) or extended according to arg'0' value d) DC Period is set according to arg'1' value Arguments '0': DC emptied(=0[default] or extended(=1) '1': set the DC Period (in sec): if=0 or absent[default] DC is stopped by LogStop action only. ]]>
 
-</Description>
+        </Description>
 
-</Item>
+      </Item>
 
 
-<Item ID="4012">
+      <Item ID="4012">
 
-<Name>LogStop</Name>
+        <Name>LogStop</Name>
 
-<Operations>E</Operations>
+        <Operations>E</Operations>
 
-<MultipleInstances>Single</MultipleInstances>
+        <MultipleInstances>Single</MultipleInstances>
 
-<Mandatory>Optional</Mandatory>
+        <Mandatory>Optional</Mandatory>
 
-<Type></Type>
+        <Type></Type>
 
-<RangeEnumeration></RangeEnumeration>
-<Submitter>OMA</Submitter>
+        <RangeEnumeration></RangeEnumeration>
+        <Submitter>OMA</Submitter>
 
-<Description>
+        <Description>
 
-<![CDATA[Log Event Set Interface 3/5 Actions: a) Stop data collection(DC) b) 1st LSB of LogStatus is set to 1 (stopped) c) DC is kept (default) or emptied according arg'0' value Argument:'0': DC kept(=0)[default]or emptied(=1)]]>
+          <![CDATA[Log Event Set Interface 3/5 Actions: a) Stop data collection(DC) b) 1st LSB of LogStatus is set to 1 (stopped) c) DC is kept (default) or emptied according arg'0' value Argument:'0': DC kept(=0)[default]or emptied(=1)]]>
 
-</Description>
+        </Description>
 
-</Item>
+      </Item>
 
 
-<Item ID="4013">
+      <Item ID="4013">
 
-<Name>LogStatus</Name>
+        <Name>LogStatus</Name>
 
-<Operations>R</Operations>
+        <Operations>R</Operations>
 
-<MultipleInstances>Single</MultipleInstances>
+        <MultipleInstances>Single</MultipleInstances>
 
-<Mandatory>Optional</Mandatory>
+        <Mandatory>Optional</Mandatory>
 
-<Type>Integer</Type>
+        <Type>Integer</Type>
 
-<RangeEnumeration>8-Bits</RangeEnumeration>
+        <RangeEnumeration>8-Bits</RangeEnumeration>
 
-<RangeEnumeration></RangeEnumeration>
+        <RangeEnumeration></RangeEnumeration>
 
-<Submitter>OMA</Submitter>
+        <Submitter>OMA</Submitter>
 
-<Description>
+        <Description>
 
-<![CDATA[Log Event Set Interface 4/5 (Must be a Single-Instance Resource)Data Collection process status: Each bit of this Resource Instance value defines a specific status: 1st LSB  0=running, 1=stopped 2nd LSB 1=LogData contains Valid Data 0=LogData doesn’t contain Valid 
+          <![CDATA[Log Event Set Interface 4/5 (Must be a Single-Instance Resource)Data Collection process status: Each bit of this Resource Instance value defines a specific status: 1st LSB  0=running, 1=stopped 2nd LSB 1=LogData contains Valid Data 0=LogData doesn’t contain Valid 
  Data 3rd LSB  1=Error occurred during Data Collection Collection 0=no Error [4th -7th ] LSB : reserved 8th LSB : vendor specific.]]>
 
-</Description>
+        </Description>
 
-</Item>
+      </Item>
 
 
-<Item ID="4014">
+      <Item ID="4014">
 
-<Name>LogData</Name>
+        <Name>LogData</Name>
 
-<Operations>R</Operations>
+        <Operations>R</Operations>
 
-<MultipleInstances>Multiple</MultipleInstances>
+        <MultipleInstances>Multiple</MultipleInstances>
 
-<Mandatory>Optional</Mandatory>
+        <Mandatory>Optional</Mandatory>
 
-<Type>Opaque</Type>
+        <Type>Opaque</Type>
 
-<RangeEnumeration></RangeEnumeration>
-<Submitter>OMA</Submitter>
+        <RangeEnumeration></RangeEnumeration>
+        <Submitter>OMA</Submitter>
 
-<Description>
+        <Description>
 
-<![CDATA[Log Event Set Interface 5/5 (May be a Multiple-Instance Resource) Read Access on that Resource returns the Data Collection associated to the current Object Instance. Data format followed by this Opaque Resource is given by the 1st byte of the opaque sequence: 0 : OMA-LwM2M TLV format 1 : OMA-LwM2M JSON format 2 : OMA-LwM2M CBOR format [3..99] reserved [100..255] vendor specific ]]>
+          <![CDATA[Log Event Set Interface 5/5 (May be a Multiple-Instance Resource) Read Access on that Resource returns the Data Collection associated to the current Object Instance. Data format followed by this Opaque Resource is given by the 1st byte of the opaque sequence: 0 : OMA-LwM2M TLV format 1 : OMA-LwM2M JSON format 2 : OMA-LwM2M CBOR format [3..99] reserved [100..255] vendor specific ]]>
 
-</Description>
+        </Description>
 
-</Item>
- 
- <Item ID="4015">
+      </Item>
 
-<Name>Reserved</Name>
+      <Item ID="4015">
 
-<Operations></Operations>
+        <Name>Reserved</Name>
 
-<MultipleInstances></MultipleInstances>
+        <Operations></Operations>
 
-<Mandatory></Mandatory>
+        <MultipleInstances></MultipleInstances>
 
-<Type></Type>
+        <Mandatory></Mandatory>
 
-<RangeEnumeration></RangeEnumeration>
-<Submitter></Submitter>
+        <Type></Type>
 
-<Description></Description>
+        <RangeEnumeration></RangeEnumeration>
+        <Submitter></Submitter>
 
-</Item>
+        <Description></Description>
 
+      </Item>
 
-<Item ID="5500">
 
-<Name>Digital Input State</Name>
+      <Item ID="5500">
 
-<Operations>R</Operations>
+        <Name>Digital Input State</Name>
 
-<MultipleInstances></MultipleInstances>
+        <Operations>R</Operations>
 
-<Mandatory></Mandatory>
+        <MultipleInstances></MultipleInstances>
 
-<Type>Boolean</Type>
+        <Mandatory></Mandatory>
 
-<RangeEnumeration></RangeEnumeration>
-<Submitter>IPSO</Submitter>
+        <Type>Boolean</Type>
 
-<Description>
+        <RangeEnumeration></RangeEnumeration>
+        <Submitter>IPSO</Submitter>
 
-<![CDATA[The current state of a digital input.]]>
+        <Description>
 
-</Description>
+          <![CDATA[The current state of a digital input.]]>
 
-</Item>
+        </Description>
 
+      </Item>
 
-<Item ID="5501">
 
-<Name>Digital Input Counter</Name>
+      <Item ID="5501">
 
-<Operations>R</Operations>
+        <Name>Digital Input Counter</Name>
 
-<MultipleInstances></MultipleInstances>
+        <Operations>R</Operations>
 
-<Mandatory></Mandatory>
+        <MultipleInstances></MultipleInstances>
 
-<Type>Integer</Type>
+        <Mandatory></Mandatory>
 
-<RangeEnumeration></RangeEnumeration>
-<Submitter>IPSO</Submitter>
+        <Type>Integer</Type>
 
-<Description>
+        <RangeEnumeration></RangeEnumeration>
+        <Submitter>IPSO</Submitter>
 
-<![CDATA[The cumulative value of active state detected.]]>
+        <Description>
 
-</Description>
+          <![CDATA[The cumulative value of active state detected.]]>
 
-</Item>
+        </Description>
 
+      </Item>
 
-<Item ID="5502">
 
-<Name>Digital Input Polarity</Name>
+      <Item ID="5502">
 
-<Operations>RW</Operations>
+        <Name>Digital Input Polarity</Name>
 
-<MultipleInstances></MultipleInstances>
+        <Operations>RW</Operations>
 
-<Mandatory></Mandatory>
+        <MultipleInstances></MultipleInstances>
 
-<Type>Boolean</Type>
+        <Mandatory></Mandatory>
 
-<RangeEnumeration></RangeEnumeration>
-<Submitter>IPSO</Submitter>
+        <Type>Boolean</Type>
 
-<Description>
+        <RangeEnumeration></RangeEnumeration>
+        <Submitter>IPSO</Submitter>
 
-<![CDATA[The polarity of a digital input as a Boolean (0 = Normal, 1= Reversed)]]>
+        <Description>
 
-</Description>
+          <![CDATA[The polarity of a digital input as a Boolean (0 = Normal, 1= Reversed)]]>
 
-</Item>
+        </Description>
 
+      </Item>
 
-<Item ID="5503">
 
-<Name>Digital Input Debounce</Name>
+      <Item ID="5503">
 
-<Operations>RW</Operations>
+        <Name>Digital Input Debounce</Name>
 
-<MultipleInstances></MultipleInstances>
+        <Operations>RW</Operations>
 
-<Mandatory></Mandatory>
+        <MultipleInstances></MultipleInstances>
 
-<Type>Integer</Type>
+        <Mandatory></Mandatory>
 
-<RangeEnumeration>1-3</RangeEnumeration>
+        <Type>Integer</Type>
 
-<Units>ms</Units>
+        <RangeEnumeration>1-3</RangeEnumeration>
 
-<Submitter>IPSO</Submitter>
+        <Units>ms</Units>
 
-<Description>
+        <Submitter>IPSO</Submitter>
 
-<![CDATA[The debounce period in ms.]]>
+        <Description>
 
-</Description>
+          <![CDATA[The debounce period in ms.]]>
 
-</Item>
+        </Description>
 
+      </Item>
 
-<Item ID="5504">
 
-<Name>Digital Input Edge Selection</Name>
+      <Item ID="5504">
 
-<Operations>RW</Operations>
+        <Name>Digital Input Edge Selection</Name>
 
-<MultipleInstances></MultipleInstances>
+        <Operations>RW</Operations>
 
-<Mandatory></Mandatory>
+        <MultipleInstances></MultipleInstances>
 
-<Type>Integer</Type>
+        <Mandatory></Mandatory>
 
-<RangeEnumeration></RangeEnumeration>
+        <Type>Integer</Type>
 
+        <RangeEnumeration></RangeEnumeration>
 
-<Submitter>IPSO</Submitter>
 
-<Description>
+        <Submitter>IPSO</Submitter>
 
-<![CDATA[The edge selection as an integer (1 = Falling edge, 2 = Rising edge, 3 = Both Rising and Falling edge)]]>
+        <Description>
 
-</Description>
+          <![CDATA[The edge selection as an integer (1 = Falling edge, 2 = Rising edge, 3 = Both Rising and Falling edge)]]>
 
-</Item>
+        </Description>
 
+      </Item>
 
-<Item ID="5505">
 
-<Name>Digital Input Counter Reset</Name>
+      <Item ID="5505">
 
-<Operations>E</Operations>
+        <Name>Digital Input Counter Reset</Name>
 
-<MultipleInstances></MultipleInstances>
+        <Operations>E</Operations>
 
-<Mandatory></Mandatory>
+        <MultipleInstances></MultipleInstances>
 
-<Type>Opaque</Type>
+        <Mandatory></Mandatory>
 
-<RangeEnumeration></RangeEnumeration>
+        <Type>Opaque</Type>
 
-<Submitter>IPSO</Submitter>
+        <RangeEnumeration></RangeEnumeration>
 
-<Description>
+        <Submitter>IPSO</Submitter>
 
-<![CDATA[Reset the Counter value]]>
+        <Description>
 
-</Description>
+          <![CDATA[Reset the Counter value]]>
 
-</Item>
+        </Description>
 
+      </Item>
 
-<Item ID="5506">
 
-<Name>Current Time</Name>
+      <Item ID="5506">
 
-<Operations>RW</Operations>
+        <Name>Current Time</Name>
 
-<MultipleInstances></MultipleInstances>
+        <Operations>RW</Operations>
 
-<Mandatory></Mandatory>
+        <MultipleInstances></MultipleInstances>
 
-<Type>Time</Type>
+        <Mandatory></Mandatory>
 
-<RangeEnumeration></RangeEnumeration>
+        <Type>Time</Type>
 
-<Submitter>IPSO</Submitter>
+        <RangeEnumeration></RangeEnumeration>
 
-<Description>
+        <Submitter>IPSO</Submitter>
 
-<![CDATA[Unix Time. A signed integer representing the number of seconds since Jan 1st, 1970 in the UTC time zone.]]>
+        <Description>
 
-</Description>
+          <![CDATA[Unix Time. A signed integer representing the number of seconds since Jan 1st, 1970 in the UTC time zone.]]>
 
-</Item>
+        </Description>
 
-<Item ID="5507">
+      </Item>
 
-<Name>Fractional Time</Name>
+      <Item ID="5507">
 
-<Operations>RW</Operations>
+        <Name>Fractional Time</Name>
 
-<MultipleInstances>Single</MultipleInstances>
+        <Operations>RW</Operations>
 
-<Mandatory>Optional</Mandatory>
+        <MultipleInstances>Single</MultipleInstances>
 
-<Type>Float</Type>
+        <Mandatory>Optional</Mandatory>
 
-<RangeEnumeration>0-1</RangeEnumeration>
+        <Type>Float</Type>
 
-<Units>seconds</Units>
+        <RangeEnumeration>0-1</RangeEnumeration>
 
-<Submitter>IPSO</Submitter>
+        <Units>seconds</Units>
 
-<Description>
+        <Submitter>IPSO</Submitter>
 
-<![CDATA[For shorter times of a fraction of a second (i.e. 0.23).]]>
+        <Description>
 
-</Description>
+          <![CDATA[For shorter times of a fraction of a second (i.e. 0.23).]]>
 
-</Item>
+        </Description>
 
+      </Item>
 
-<Item ID="5508">
 
-<Name>Min X Value</Name>
+      <Item ID="5508">
 
-<Operations>R</Operations>
+        <Name>Min X Value</Name>
 
-<MultipleInstances>Single</MultipleInstances>
+        <Operations>R</Operations>
 
-<Mandatory>Optional</Mandatory>
+        <MultipleInstances>Single</MultipleInstances>
 
-<Type>Float</Type>
+        <Mandatory>Optional</Mandatory>
 
-<RangeEnumeration></RangeEnumeration>
+        <Type>Float</Type>
 
-<Units>Defined by “Units” resource.</Units>
+        <RangeEnumeration></RangeEnumeration>
 
-<Submitter>IPSO</Submitter>
+        <Units>Defined by “Units” resource.</Units>
 
-<Description>
+        <Submitter>IPSO</Submitter>
 
-<![CDATA[The minimum measured value along the X axis]]>
+        <Description>
 
-</Description>
+          <![CDATA[The minimum measured value along the X axis]]>
 
-</Item>
+        </Description>
 
+      </Item>
 
-<Item ID="5509">
 
-<Name>Max X Value</Name>
+      <Item ID="5509">
 
-<Operations>R</Operations>
+        <Name>Max X Value</Name>
 
-<MultipleInstances>Single</MultipleInstances>
+        <Operations>R</Operations>
 
-<Mandatory>Optional</Mandatory>
+        <MultipleInstances>Single</MultipleInstances>
 
-<Type>Float</Type>
+        <Mandatory>Optional</Mandatory>
 
-<RangeEnumeration></RangeEnumeration>
+        <Type>Float</Type>
 
-<Units>Defined by “Units” resource.</Units>
+        <RangeEnumeration></RangeEnumeration>
 
-<Submitter>IPSO</Submitter>
+        <Units>Defined by “Units” resource.</Units>
 
-<Description>
+        <Submitter>IPSO</Submitter>
 
-<![CDATA[The maximum measured value along the X axis]]>
+        <Description>
 
-</Description>
+          <![CDATA[The maximum measured value along the X axis]]>
 
-</Item>
+        </Description>
 
+      </Item>
 
-<Item ID="5510">
 
-<Name>Min Y Value</Name>
+      <Item ID="5510">
 
-<Operations>R</Operations>
+        <Name>Min Y Value</Name>
 
-<MultipleInstances>Single</MultipleInstances>
+        <Operations>R</Operations>
 
-<Mandatory>Optional</Mandatory>
+        <MultipleInstances>Single</MultipleInstances>
 
-<Type>Float</Type>
+        <Mandatory>Optional</Mandatory>
 
-<RangeEnumeration></RangeEnumeration>
+        <Type>Float</Type>
 
-<Units>Defined by “Units” resource.</Units>
+        <RangeEnumeration></RangeEnumeration>
 
-<Submitter>IPSO</Submitter>
+        <Units>Defined by “Units” resource.</Units>
 
-<Description>
+        <Submitter>IPSO</Submitter>
 
-<![CDATA[The minimum measured value along the Y axis]]>
+        <Description>
 
-</Description>
+          <![CDATA[The minimum measured value along the Y axis]]>
 
-</Item>
+        </Description>
 
+      </Item>
 
-<Item ID="5511">
 
-<Name>Max Y Value</Name>
+      <Item ID="5511">
 
-<Operations>R</Operations>
+        <Name>Max Y Value</Name>
 
-<MultipleInstances>Single</MultipleInstances>
+        <Operations>R</Operations>
 
-<Mandatory>Optional</Mandatory>
+        <MultipleInstances>Single</MultipleInstances>
 
-<Type>Float</Type>
+        <Mandatory>Optional</Mandatory>
 
-<RangeEnumeration></RangeEnumeration>
+        <Type>Float</Type>
 
-<Units>Defined by “Units” resource.</Units>
+        <RangeEnumeration></RangeEnumeration>
 
-<Submitter>IPSO</Submitter>
+        <Units>Defined by “Units” resource.</Units>
 
-<Description>
+        <Submitter>IPSO</Submitter>
 
-<![CDATA[The maximum measured value along the Y axis]]>
+        <Description>
 
-</Description>
+          <![CDATA[The maximum measured value along the Y axis]]>
 
-</Item>
+        </Description>
 
+      </Item>
 
-<Item ID="5512">
 
-<Name>Min Z Value</Name>
+      <Item ID="5512">
 
-<Operations>R</Operations>
+        <Name>Min Z Value</Name>
 
-<MultipleInstances>Single</MultipleInstances>
+        <Operations>R</Operations>
 
-<Mandatory>Optional</Mandatory>
+        <MultipleInstances>Single</MultipleInstances>
 
-<Type>Float</Type>
+        <Mandatory>Optional</Mandatory>
 
-<RangeEnumeration></RangeEnumeration>
+        <Type>Float</Type>
 
-<Units>Defined by “Units” resource.</Units>
+        <RangeEnumeration></RangeEnumeration>
 
-<Submitter>IPSO</Submitter>
+        <Units>Defined by “Units” resource.</Units>
 
-<Description>
+        <Submitter>IPSO</Submitter>
 
-<![CDATA[The minimum measured value along the Z axis]]>
+        <Description>
 
-</Description>
+          <![CDATA[The minimum measured value along the Z axis]]>
 
-</Item>
+        </Description>
 
+      </Item>
 
-<Item ID="5513">
 
-<Name>Max Z Value</Name>
+      <Item ID="5513">
 
-<Operations>R</Operations>
+        <Name>Max Z Value</Name>
 
-<MultipleInstances>Single</MultipleInstances>
+        <Operations>R</Operations>
 
-<Mandatory>Optional</Mandatory>
+        <MultipleInstances>Single</MultipleInstances>
 
-<Type>Float</Type>
+        <Mandatory>Optional</Mandatory>
 
-<RangeEnumeration></RangeEnumeration>
+        <Type>Float</Type>
 
-<Units>Defined by “Units” resource.</Units>
+        <RangeEnumeration></RangeEnumeration>
 
-<Submitter>IPSO</Submitter>
+        <Units>Defined by “Units” resource.</Units>
 
-<Description>
+        <Submitter>IPSO</Submitter>
 
-<![CDATA[The maximum measured value along the Z axis]]>
+        <Description>
 
-</Description>
+          <![CDATA[The maximum measured value along the Z axis]]>
 
-</Item>
+        </Description>
 
+      </Item>
 
 
-<Item ID="5514">
 
-<Name>Latitude</Name>
+      <Item ID="5514">
 
-<Operations>R</Operations>
+        <Name>Latitude</Name>
 
-<MultipleInstances>Single</MultipleInstances>
+        <Operations>R</Operations>
 
-<Mandatory>Mandatory</Mandatory>
+        <MultipleInstances>Single</MultipleInstances>
 
-<Type>String</Type>
+        <Mandatory>Mandatory</Mandatory>
 
-<RangeEnumeration></RangeEnumeration>
+        <Type>String</Type>
 
-<Submitter>IPSO</Submitter>
+        <RangeEnumeration></RangeEnumeration>
 
-<Description>
+        <Submitter>IPSO</Submitter>
 
-<![CDATA[The decimal notation of latitude, e.g. -43.5723 (World Geodetic System 1984).]]>
+        <Description>
 
-</Description>
+          <![CDATA[The decimal notation of latitude, e.g. -43.5723 (World Geodetic System 1984).]]>
 
-</Item>
+        </Description>
 
+      </Item>
 
-<Item ID="5515">
 
-<Name>Longitude</Name>
+      <Item ID="5515">
 
-<Operations>R</Operations>
+        <Name>Longitude</Name>
 
-<MultipleInstances>Single</MultipleInstances>
+        <Operations>R</Operations>
 
-<Mandatory>Mandatory</Mandatory>
+        <MultipleInstances>Single</MultipleInstances>
 
-<Type>String</Type>
+        <Mandatory>Mandatory</Mandatory>
 
-<RangeEnumeration></RangeEnumeration>
+        <Type>String</Type>
 
-<Submitter>IPSO</Submitter>
+        <RangeEnumeration></RangeEnumeration>
 
-<Description>
+        <Submitter>IPSO</Submitter>
 
-<![CDATA[The decimal notation of longitude, e.g. 153.21760 (World Geodetic System 1984).]]>
+        <Description>
 
-</Description>
+          <![CDATA[The decimal notation of longitude, e.g. 153.21760 (World Geodetic System 1984).]]>
 
-</Item>
+        </Description>
 
+      </Item>
 
-<Item ID="5516">
 
-<Name>Uncertainty</Name>
+      <Item ID="5516">
 
-<Operations>R</Operations>
+        <Name>Uncertainty</Name>
 
-<MultipleInstances>Single</MultipleInstances>
+        <Operations>R</Operations>
 
-<Mandatory>Optional</Mandatory>
+        <MultipleInstances>Single</MultipleInstances>
 
-<Type>String</Type>
+        <Mandatory>Optional</Mandatory>
 
-<RangeEnumeration></RangeEnumeration>
+        <Type>String</Type>
 
-<Submitter>IPSO</Submitter>
+        <RangeEnumeration></RangeEnumeration>
 
-<Description>
+        <Submitter>IPSO</Submitter>
 
-<![CDATA[The accuracy of the position in meters.]]>
+        <Description>
 
-</Description>
+          <![CDATA[The accuracy of the position in meters.]]>
 
-</Item>
+        </Description>
 
+      </Item>
 
-<Item ID="5517">
 
-<Name>Volocity</Name>
+      <Item ID="5517">
 
-<Operations>R</Operations>
+        <Name>Volocity</Name>
 
-<MultipleInstances>Single</MultipleInstances>
+        <Operations>R</Operations>
 
-<Mandatory>Optional</Mandatory>
+        <MultipleInstances>Single</MultipleInstances>
 
-<Type>Opaque</Type>
+        <Mandatory>Optional</Mandatory>
 
-<RangeEnumeration></RangeEnumeration>
+        <Type>Opaque</Type>
 
-<Submitter>IPSO</Submitter>
+        <RangeEnumeration></RangeEnumeration>
 
-<Description>
+        <Submitter>IPSO</Submitter>
 
-<![CDATA[The velocity of the device as defined in 3GPP 23.032 GAD specification. This set of values may not be available if the device is static.]]>
+        <Description>
 
-</Description>
+          <![CDATA[The velocity of the device as defined in 3GPP 23.032 GAD specification. This set of values may not be available if the device is static.]]>
 
-</Item>
+        </Description>
 
+      </Item>
 
-<Item ID="5518">
 
-<Name>Timestamp</Name>
+      <Item ID="5518">
 
-<Operations>R</Operations>
+        <Name>Timestamp</Name>
 
-<MultipleInstances>Single</MultipleInstances>
+        <Operations>R</Operations>
 
-<Mandatory>Optional</Mandatory>
+        <MultipleInstances>Single</MultipleInstances>
 
-<Type>Time</Type>
+        <Mandatory>Optional</Mandatory>
 
-<RangeEnumeration></RangeEnumeration>
+        <Type>Time</Type>
 
-<Submitter>IPSO</Submitter>
+        <RangeEnumeration></RangeEnumeration>
 
-<Description>
+        <Submitter>IPSO</Submitter>
 
-<![CDATA[The timestamp of when the location measurement was performed.]]>
+        <Description>
 
-</Description>
+          <![CDATA[The timestamp of when the location measurement was performed.]]>
 
-</Item>
+        </Description>
 
+      </Item>
 
-<Item ID="5519">
 
-<Name>Min Limit</Name>
+      <Item ID="5519">
 
-<Operations>R</Operations>
+        <Name>Min Limit</Name>
 
-<MultipleInstances>Single</MultipleInstances>
+        <Operations>R</Operations>
 
-<Mandatory>Optional</Mandatory>
+        <MultipleInstances>Single</MultipleInstances>
 
-<Type>Float</Type>
+        <Mandatory>Optional</Mandatory>
 
-<RangeEnumeration>Same as Measured Value</RangeEnumeration>
+        <Type>Float</Type>
 
-<Units>Same as Measured Value</Units>
+        <RangeEnumeration>Same as Measured Value</RangeEnumeration>
 
-<Submitter>IPSO</Submitter>
+        <Units>Same as Measured Value</Units>
 
-<Description>
+        <Submitter>IPSO</Submitter>
 
-<![CDATA[The minimum value that can be measured by the sensor.]]>
+        <Description>
 
-</Description>
+          <![CDATA[The minimum value that can be measured by the sensor.]]>
 
-</Item>
+        </Description>
 
+      </Item>
 
 
-<Item ID="5520">
 
-<Name>Max Limit</Name>
+      <Item ID="5520">
 
-<Operations>R</Operations>
+        <Name>Max Limit</Name>
 
-<MultipleInstances>Single</MultipleInstances>
+        <Operations>R</Operations>
 
-<Mandatory>Optional</Mandatory>
+        <MultipleInstances>Single</MultipleInstances>
 
-<Type>Float</Type>
+        <Mandatory>Optional</Mandatory>
 
-<RangeEnumeration>Same as Measured Value</RangeEnumeration>
+        <Type>Float</Type>
 
-<Units>Same as Measured Value</Units>
+        <RangeEnumeration>Same as Measured Value</RangeEnumeration>
 
-<Submitter>IPSO</Submitter>
+        <Units>Same as Measured Value</Units>
 
-<Description>
+        <Submitter>IPSO</Submitter>
 
-<![CDATA[The maximum value that can be measured by the sensor.]]>
+        <Description>
 
-</Description>
+          <![CDATA[The maximum value that can be measured by the sensor.]]>
 
-</Item>
+        </Description>
 
-<Item ID="5521">
+      </Item>
 
-<Name>Delay Duration</Name>
+      <Item ID="5521">
 
-<Operations>RW</Operations>
+        <Name>Delay Duration</Name>
 
-<MultipleInstances>Single</MultipleInstances>
+        <Operations>RW</Operations>
 
-<Mandatory>Optional</Mandatory>
+        <MultipleInstances>Single</MultipleInstances>
 
-<Type>Float</Type>
+        <Mandatory>Optional</Mandatory>
 
-<RangeEnumeration></RangeEnumeration>
+        <Type>Float</Type>
 
-<Units>s</Units>
+        <RangeEnumeration></RangeEnumeration>
 
-<Submitter>IPSO</Submitter>
+        <Units>s</Units>
 
-<Description>
+        <Submitter>IPSO</Submitter>
 
-<![CDATA[The duration of the time delay.]]>
+        <Description>
 
-</Description>
+          <![CDATA[The duration of the time delay.]]>
 
-</Item>
+        </Description>
 
-<Item ID="5522">
+      </Item>
 
-<Name>Clip</Name>
+      <Item ID="5522">
 
-<Operations>RW</Operations>
+        <Name>Clip</Name>
 
-<MultipleInstances>Single</MultipleInstances>
+        <Operations>RW</Operations>
 
-<Mandatory>Mandatory</Mandatory>
+        <MultipleInstances>Single</MultipleInstances>
 
-<Type>Opaque</Type>
+        <Mandatory>Mandatory</Mandatory>
 
-<RangeEnumeration></RangeEnumeration>
-<Submitter>IPSO</Submitter>
+        <Type>Opaque</Type>
 
-<Description>
+        <RangeEnumeration></RangeEnumeration>
+        <Submitter>IPSO</Submitter>
 
-<![CDATA[Audio Clip that is playable (i.e. short audio recording indicating the floor in an elevator).]]>
+        <Description>
 
-</Description>
+          <![CDATA[Audio Clip that is playable (i.e. short audio recording indicating the floor in an elevator).]]>
 
-</Item>
+        </Description>
 
-<Item ID="5523">
+      </Item>
 
-<Name>Trigger</Name>
+      <Item ID="5523">
 
-<Operations>E</Operations>
+        <Name>Trigger</Name>
 
-<MultipleInstances>Single</MultipleInstances>
+        <Operations>E</Operations>
 
-<Mandatory>Optional</Mandatory>
+        <MultipleInstances>Single</MultipleInstances>
 
-<Type>Opaque</Type>
+        <Mandatory>Optional</Mandatory>
 
-<RangeEnumeration></RangeEnumeration>
-<Submitter>IPSO</Submitter>
+        <Type>Opaque</Type>
 
-<Description>
+        <RangeEnumeration></RangeEnumeration>
+        <Submitter>IPSO</Submitter>
 
-<![CDATA[Trigger initiating actuation.]]>
+        <Description>
 
-</Description>
+          <![CDATA[Trigger initiating actuation.]]>
 
-</Item>
+        </Description>
 
-<Item ID="5524">
+      </Item>
 
-<Name>Duration</Name>
+      <Item ID="5524">
 
-<Operations>RW</Operations>
+        <Name>Duration</Name>
 
-<MultipleInstances>Single</MultipleInstances>
+        <Operations>RW</Operations>
 
-<Mandatory>Optional</Mandatory>
+        <MultipleInstances>Single</MultipleInstances>
 
-<Type>Float</Type>
+        <Mandatory>Optional</Mandatory>
 
-<RangeEnumeration></RangeEnumeration>
+        <Type>Float</Type>
 
-<Units>seconds</Units>
+        <RangeEnumeration></RangeEnumeration>
 
-<Submitter>IPSO</Submitter>
+        <Units>seconds</Units>
 
-<Description>
+        <Submitter>IPSO</Submitter>
 
-<![CDATA[The duration of the sound once trigger.]]>
+        <Description>
 
-</Description>
+          <![CDATA[The duration of the sound once trigger.]]>
 
-</Item>
+        </Description>
 
+      </Item>
 
-<Item ID="5525">
 
-<Name>Minimum Off-time</Name>
+      <Item ID="5525">
 
-<Operations>RW</Operations>
+        <Name>Minimum Off-time</Name>
 
-<MultipleInstances>Single</MultipleInstances>
+        <Operations>RW</Operations>
 
-<Mandatory>Mandatory</Mandatory>
+        <MultipleInstances>Single</MultipleInstances>
 
-<Type>Float</Type>
+        <Mandatory>Mandatory</Mandatory>
 
-<RangeEnumeration></RangeEnumeration>
+        <Type>Float</Type>
 
-<Units>s</Units>
+        <RangeEnumeration></RangeEnumeration>
 
-<Submitter>IPSO</Submitter>
+        <Units>s</Units>
 
-<Description>
+        <Submitter>IPSO</Submitter>
 
-<![CDATA[The off time when On/Off control remains on.]]>
+        <Description>
 
-</Description>
+          <![CDATA[The off time when On/Off control remains on.]]>
 
-</Item>
+        </Description>
 
+      </Item>
 
-<Item ID="5526">
 
-<Name>Mode</Name>
+      <Item ID="5526">
 
-<Operations>RW</Operations>
+        <Name>Mode</Name>
 
-<MultipleInstances>Single</MultipleInstances>
+        <Operations>RW</Operations>
 
-<Mandatory>Optional</Mandatory>
+        <MultipleInstances>Single</MultipleInstances>
 
-<Type>Integer</Type>
+        <Mandatory>Optional</Mandatory>
 
-<RangeEnumeration>0-4</RangeEnumeration>
+        <Type>Integer</Type>
 
-<RangeEnumeration></RangeEnumeration>
+        <RangeEnumeration>0-4</RangeEnumeration>
 
-<Submitter>IPSO</Submitter>
+        <RangeEnumeration></RangeEnumeration>
 
-<Description>
+        <Submitter>IPSO</Submitter>
 
-<![CDATA[Type of timer pattern used by the patterns.]]>
+        <Description>
 
-</Description>
+          <![CDATA[Type of timer pattern used by the patterns.]]>
 
-</Item>
+        </Description>
 
+      </Item>
 
-<Item ID="5527">
 
-<Name>Text</Name>
+      <Item ID="5527">
 
-<Operations>RW</Operations>
+        <Name>Text</Name>
 
-<MultipleInstances>Single</MultipleInstances>
+        <Operations>RW</Operations>
 
-<Mandatory>Mandatory</Mandatory>
+        <MultipleInstances>Single</MultipleInstances>
 
-<Type>String</Type>
+        <Mandatory>Mandatory</Mandatory>
 
-<RangeEnumeration></RangeEnumeration>
-<Submitter>IPSO</Submitter>
+        <Type>String</Type>
 
-<Description>
+        <RangeEnumeration></RangeEnumeration>
+        <Submitter>IPSO</Submitter>
 
-<![CDATA[A string of text.]]>
+        <Description>
 
-</Description>
+          <![CDATA[A string of text.]]>
 
-</Item>
+        </Description>
 
+      </Item>
 
-<Item ID="5528">
 
-<Name>X Coordinate</Name>
+      <Item ID="5528">
 
-<Operations>RW</Operations>
+        <Name>X Coordinate</Name>
 
-<MultipleInstances>Single</MultipleInstances>
+        <Operations>RW</Operations>
 
-<Mandatory>Optional</Mandatory>
+        <MultipleInstances>Single</MultipleInstances>
 
-<Type>Integer</Type>
+        <Mandatory>Optional</Mandatory>
 
-<RangeEnumeration></RangeEnumeration>
-<Submitter>IPSO</Submitter>
+        <Type>Integer</Type>
 
-<Description>
+        <RangeEnumeration></RangeEnumeration>
+        <Submitter>IPSO</Submitter>
 
-<![CDATA[X Coordinate.]]>
+        <Description>
 
-</Description>
+          <![CDATA[X Coordinate.]]>
 
-</Item>
+        </Description>
 
+      </Item>
 
 
-<Item ID="5529">
 
-<Name>Y Coordinate</Name>
+      <Item ID="5529">
 
-<Operations>RW</Operations>
+        <Name>Y Coordinate</Name>
 
-<MultipleInstances>Single</MultipleInstances>
+        <Operations>RW</Operations>
 
-<Mandatory>Optional</Mandatory>
+        <MultipleInstances>Single</MultipleInstances>
 
-<Type>Integer</Type>
+        <Mandatory>Optional</Mandatory>
 
-<RangeEnumeration></RangeEnumeration>
-<Submitter>IPSO</Submitter>
+        <Type>Integer</Type>
 
-<Description>
+        <RangeEnumeration></RangeEnumeration>
+        <Submitter>IPSO</Submitter>
 
-<![CDATA[Y Coordinate.]]>
+        <Description>
 
-</Description>
+          <![CDATA[Y Coordinate.]]>
 
-</Item>
+        </Description>
 
+      </Item>
 
-<Item ID="5530">
 
-<Name>Clear Display</Name>
+      <Item ID="5530">
 
-<Operations>E</Operations>
+        <Name>Clear Display</Name>
 
-<MultipleInstances>Single</MultipleInstances>
+        <Operations>E</Operations>
 
-<Mandatory>Optional</Mandatory>
+        <MultipleInstances>Single</MultipleInstances>
 
-<Type/>
+        <Mandatory>Optional</Mandatory>
 
-<RangeEnumeration></RangeEnumeration>
-<Submitter>IPSO</Submitter>
+        <Type/>
 
-<Description>
+        <RangeEnumeration></RangeEnumeration>
+        <Submitter>IPSO</Submitter>
 
-<![CDATA[Command to clear the display.]]>
+        <Description>
 
-</Description>
+          <![CDATA[Command to clear the display.]]>
 
-</Item>
+        </Description>
 
-<Item ID="5531">
+      </Item>
 
-<Name>Contrast</Name>
+      <Item ID="5531">
 
-<Operations>RW</Operations>
+        <Name>Contrast</Name>
 
-<MultipleInstances>Single</MultipleInstances>
+        <Operations>RW</Operations>
 
-<Mandatory>Optional</Mandatory>
+        <MultipleInstances>Single</MultipleInstances>
 
-<Type>Float</Type>
+        <Mandatory>Optional</Mandatory>
 
-<RangeEnumeration>0-100</RangeEnumeration>
+        <Type>Float</Type>
 
-<Units>%</Units>
+        <RangeEnumeration>0-100</RangeEnumeration>
 
-<Submitter>IPSO</Submitter>
+        <Units>%</Units>
 
-<Description>
+        <Submitter>IPSO</Submitter>
 
-<![CDATA[Proportional control, integer value between 0 and 100 as a percentage.]]>
+        <Description>
 
-</Description>
+          <![CDATA[Proportional control, integer value between 0 and 100 as a percentage.]]>
 
-</Item>
+        </Description>
 
-<Item ID="5532">
+      </Item>
 
-<Name>Increase Input State</Name>
+      <Item ID="5532">
 
-<Operations>R</Operations>
+        <Name>Increase Input State</Name>
 
-<MultipleInstances>Single</MultipleInstances>
+        <Operations>R</Operations>
 
-<Mandatory>Mandatory</Mandatory>
+        <MultipleInstances>Single</MultipleInstances>
 
-<Type>Boolean</Type>
+        <Mandatory>Mandatory</Mandatory>
 
-<RangeEnumeration></RangeEnumeration>
-<Submitter>IPSO</Submitter>
+        <Type>Boolean</Type>
 
-<Description>
+        <RangeEnumeration></RangeEnumeration>
+        <Submitter>IPSO</Submitter>
 
-<![CDATA[Indicates an increase control action.]]>
+        <Description>
 
-</Description>
+          <![CDATA[Indicates an increase control action.]]>
 
-</Item>
+        </Description>
 
+      </Item>
 
-<Item ID="5533">
 
-<Name>Decrease Input State</Name>
+      <Item ID="5533">
 
-<Operations>R</Operations>
+        <Name>Decrease Input State</Name>
 
-<MultipleInstances>Single</MultipleInstances>
+        <Operations>R</Operations>
 
-<Mandatory>Mandatory</Mandatory>
+        <MultipleInstances>Single</MultipleInstances>
 
-<Type>Boolean</Type>
+        <Mandatory>Mandatory</Mandatory>
 
-<RangeEnumeration></RangeEnumeration>
-<Submitter>IPSO</Submitter>
+        <Type>Boolean</Type>
 
-<Description>
+        <RangeEnumeration></RangeEnumeration>
+        <Submitter>IPSO</Submitter>
 
-<![CDATA[Indicates a decrease control action.]]>
+        <Description>
 
-</Description>
+          <![CDATA[Indicates a decrease control action.]]>
 
-</Item>
+        </Description>
 
+      </Item>
 
-<Item ID="5534">
 
-<Name>Counter</Name>
+      <Item ID="5534">
 
-<Operations>RW</Operations>
+        <Name>Counter</Name>
 
-<MultipleInstances>Single</MultipleInstances>
+        <Operations>RW</Operations>
 
-<Mandatory>Optional</Mandatory>
+        <MultipleInstances>Single</MultipleInstances>
 
-<Type>Integer</Type>
+        <Mandatory>Optional</Mandatory>
 
-<RangeEnumeration></RangeEnumeration>
-<Submitter>IPSO</Submitter>
+        <Type>Integer</Type>
 
-<Description>
+        <RangeEnumeration></RangeEnumeration>
+        <Submitter>IPSO</Submitter>
 
-<![CDATA[Counts the number of times the timer output transitions from 0 to 1.]]>
+        <Description>
 
-</Description>
+          <![CDATA[Counts the number of times the timer output transitions from 0 to 1.]]>
 
-</Item>
+        </Description>
 
-<Item ID="5536">
+      </Item>
 
-<Name>Current Position</Name>
+      <Item ID="5536">
 
-<Operations>RW</Operations>
+        <Name>Current Position</Name>
 
-<MultipleInstances>Single</MultipleInstances>
+        <Operations>RW</Operations>
 
-<Mandatory>Mandatory</Mandatory>
+        <MultipleInstances>Single</MultipleInstances>
 
-<Type>Float</Type>
+        <Mandatory>Mandatory</Mandatory>
 
-<RangeEnumeration>0-100</RangeEnumeration>
+        <Type>Float</Type>
 
-<Units>%</Units>
+        <RangeEnumeration>0-100</RangeEnumeration>
 
-<Submitter>IPSO</Submitter>
+        <Units>%</Units>
 
-<Description>
+        <Submitter>IPSO</Submitter>
 
-<![CDATA[Current position or desired position of a positioner actuator.]]>
+        <Description>
 
-</Description>
+          <![CDATA[Current position or desired position of a positioner actuator.]]>
 
-</Item>
+        </Description>
 
+      </Item>
 
-<Item ID="5537">
 
-<Name>Transition Time</Name>
+      <Item ID="5537">
 
-<Operations>RW</Operations>
+        <Name>Transition Time</Name>
 
-<MultipleInstances>Single</MultipleInstances>
+        <Operations>RW</Operations>
 
-<Mandatory>Optional</Mandatory>
+        <MultipleInstances>Single</MultipleInstances>
 
-<Type>Float</Type>
+        <Mandatory>Optional</Mandatory>
 
-<RangeEnumeration></RangeEnumeration>
+        <Type>Float</Type>
 
-<Units>s</Units>
+        <RangeEnumeration></RangeEnumeration>
 
-<Submitter>IPSO</Submitter>
+        <Units>s</Units>
 
-<Description>
+        <Submitter>IPSO</Submitter>
 
-<![CDATA[The time expected to move the actuator to the new position.]]>
+        <Description>
 
-</Description>
+          <![CDATA[The time expected to move the actuator to the new position.]]>
 
-</Item>
+        </Description>
 
+      </Item>
 
-<Item ID="5538">
 
-<Name>Remaining Time</Name>
+      <Item ID="5538">
 
-<Operations>R</Operations>
+        <Name>Remaining Time</Name>
 
-<MultipleInstances>Single</MultipleInstances>
+        <Operations>R</Operations>
 
-<Mandatory>Optional</Mandatory>
+        <MultipleInstances>Single</MultipleInstances>
 
-<Type>Float</Type>
+        <Mandatory>Optional</Mandatory>
 
-<RangeEnumeration></RangeEnumeration>
+        <Type>Float</Type>
 
-<Units>s</Units>
+        <RangeEnumeration></RangeEnumeration>
 
-<Submitter>IPSO</Submitter>
+        <Units>s</Units>
 
-<Description>
+        <Submitter>IPSO</Submitter>
 
-<![CDATA[The time remaining in an operation.]]>
+        <Description>
 
-</Description>
+          <![CDATA[The time remaining in an operation.]]>
 
-</Item>
+        </Description>
 
+      </Item>
 
-<Item ID="5541">
 
-<Name>Up Counter</Name>
+      <Item ID="5541">
 
-<Operations>RW</Operations>
+        <Name>Up Counter</Name>
 
-<MultipleInstances>Single</MultipleInstances>
+        <Operations>RW</Operations>
 
-<Mandatory>Optional</Mandatory>
+        <MultipleInstances>Single</MultipleInstances>
 
-<Type>Integer</Type>
+        <Mandatory>Optional</Mandatory>
 
-<RangeEnumeration></RangeEnumeration>
-<Submitter>IPSO</Submitter>
+        <Type>Integer</Type>
 
-<Description>
+        <RangeEnumeration></RangeEnumeration>
+        <Submitter>IPSO</Submitter>
 
-<![CDATA[Counts the number of times the increase control has been operated. Writing a 0 resets the counter.]]>
+        <Description>
 
-</Description>
+          <![CDATA[Counts the number of times the increase control has been operated. Writing a 0 resets the counter.]]>
 
-</Item>
+        </Description>
 
+      </Item>
 
-<Item ID="5542">
 
-<Name>Down Counter</Name>
+      <Item ID="5542">
 
-<Operations>RW</Operations>
+        <Name>Down Counter</Name>
 
-<MultipleInstances>Single</MultipleInstances>
+        <Operations>RW</Operations>
 
-<Mandatory>Optional</Mandatory>
+        <MultipleInstances>Single</MultipleInstances>
 
-<Type>Integer</Type>
+        <Mandatory>Optional</Mandatory>
 
-<RangeEnumeration></RangeEnumeration>
-<Submitter>IPSO</Submitter>
+        <Type>Integer</Type>
 
-<Description>
+        <RangeEnumeration></RangeEnumeration>
+        <Submitter>IPSO</Submitter>
 
-<![CDATA[Counts the times the decrease control has been operated. Writing a 0 resets the counter.]]>
+        <Description>
 
-</Description>
+          <![CDATA[Counts the times the decrease control has been operated. Writing a 0 resets the counter.]]>
 
-</Item>
+        </Description>
 
+      </Item>
 
-<Item ID="5543">
 
-<Name>Digital State</Name>
+      <Item ID="5543">
 
-<Operations>R</Operations>
+        <Name>Digital State</Name>
 
-<MultipleInstances>Single</MultipleInstances>
+        <Operations>R</Operations>
 
-<Mandatory>Optional</Mandatory>
+        <MultipleInstances>Single</MultipleInstances>
 
-<Type>Boolean</Type>
+        <Mandatory>Optional</Mandatory>
 
-<RangeEnumeration></RangeEnumeration>
-<Submitter>IPSO</Submitter>
+        <Type>Boolean</Type>
 
-<Description>
+        <RangeEnumeration></RangeEnumeration>
+        <Submitter>IPSO</Submitter>
 
-<![CDATA[The current state of the timer output.]]>
+        <Description>
 
-</Description>
+          <![CDATA[The current state of the timer output.]]>
 
-</Item>
+        </Description>
 
+      </Item>
 
-<Item ID="5544">
 
-<Name>Cumulative Time</Name>
+      <Item ID="5544">
 
-<Operations>RW</Operations>
+        <Name>Cumulative Time</Name>
 
-<MultipleInstances>Single</MultipleInstances>
+        <Operations>RW</Operations>
 
-<Mandatory>Optional</Mandatory>
+        <MultipleInstances>Single</MultipleInstances>
 
-<Type>Float</Type>
+        <Mandatory>Optional</Mandatory>
 
-<RangeEnumeration></RangeEnumeration>
+        <Type>Float</Type>
 
-<Units>s</Units>
+        <RangeEnumeration></RangeEnumeration>
 
-<Submitter>IPSO</Submitter>
+        <Units>s</Units>
 
-<Description>
+        <Submitter>IPSO</Submitter>
 
-<![CDATA[The total time in seconds that the timer input is true. Writing a 0 resets the time.]]>
+        <Description>
 
-</Description>
+          <![CDATA[The total time in seconds that the timer input is true. Writing a 0 resets the time.]]>
 
-</Item>
+        </Description>
 
+      </Item>
 
 
-<Item ID="5545">
 
-<Name>Max X Coordinate</Name>
+      <Item ID="5545">
 
-<Operations>R</Operations>
+        <Name>Max X Coordinate</Name>
 
-<MultipleInstances>Single</MultipleInstances>
+        <Operations>R</Operations>
 
-<Mandatory>Optional</Mandatory>
+        <MultipleInstances>Single</MultipleInstances>
 
-<Type>Integer</Type>
+        <Mandatory>Optional</Mandatory>
 
-<RangeEnumeration></RangeEnumeration>
-<Submitter>IPSO</Submitter>
+        <Type>Integer</Type>
 
-<Description>
+        <RangeEnumeration></RangeEnumeration>
+        <Submitter>IPSO</Submitter>
 
-<![CDATA[The highest X coordinate the display supports before wrapping to the next line.]]>
+        <Description>
 
-</Description>
+          <![CDATA[The highest X coordinate the display supports before wrapping to the next line.]]>
 
-</Item>
+        </Description>
 
+      </Item>
 
 
-<Item ID="5546">
 
-<Name>Max Y Coordinate</Name>
+      <Item ID="5546">
 
-<Operations>R</Operations>
+        <Name>Max Y Coordinate</Name>
 
-<MultipleInstances>Single</MultipleInstances>
+        <Operations>R</Operations>
 
-<Mandatory>Optional</Mandatory>
+        <MultipleInstances>Single</MultipleInstances>
 
-<Type>Integer</Type>
+        <Mandatory>Optional</Mandatory>
 
-<RangeEnumeration></RangeEnumeration>
-<Submitter>IPSO</Submitter>
+        <Type>Integer</Type>
 
-<Description>
+        <RangeEnumeration></RangeEnumeration>
+        <Submitter>IPSO</Submitter>
 
-<![CDATA[The highest Y coordinate the display supports before wrapping to the next line.]]>
+        <Description>
 
-</Description>
+          <![CDATA[The highest Y coordinate the display supports before wrapping to the next line.]]>
 
-</Item>
+        </Description>
 
+      </Item>
 
-<Item ID="5547">
 
-<Name>Multi-state Input</Name>
+      <Item ID="5547">
 
-<Operations>R</Operations>
+        <Name>Multi-state Input</Name>
 
-<MultipleInstances>Single</MultipleInstances>
+        <Operations>R</Operations>
 
-<Mandatory>Mandatory</Mandatory>
+        <MultipleInstances>Single</MultipleInstances>
 
-<Type>Integer</Type>
+        <Mandatory>Mandatory</Mandatory>
 
-<RangeEnumeration></RangeEnumeration>
-<Submitter>IPSO</Submitter>
+        <Type>Integer</Type>
 
-<Description>
+        <RangeEnumeration></RangeEnumeration>
+        <Submitter>IPSO</Submitter>
 
-<![CDATA[The current state of a Multi-state input or selector.]]>
+        <Description>
 
-</Description>
+          <![CDATA[The current state of a Multi-state input or selector.]]>
 
-</Item>
+        </Description>
 
+      </Item>
 
-<Item ID="5550">
 
-<Name>Digital Output State</Name>
+      <Item ID="5550">
 
-<Operations>RW</Operations>
+        <Name>Digital Output State</Name>
 
-<MultipleInstances></MultipleInstances>
+        <Operations>RW</Operations>
 
-<Mandatory></Mandatory>
+        <MultipleInstances></MultipleInstances>
 
-<Type>Boolean</Type>
+        <Mandatory></Mandatory>
 
-<RangeEnumeration></RangeEnumeration>
-<Submitter>IPSO</Submitter>
+        <Type>Boolean</Type>
 
-<Description>
+        <RangeEnumeration></RangeEnumeration>
+        <Submitter>IPSO</Submitter>
 
-<![CDATA[The current state of a digital output]]>
+        <Description>
 
-</Description>
+          <![CDATA[The current state of a digital output]]>
 
-</Item>
+        </Description>
 
+      </Item>
 
-<Item ID="5551">
 
-<Name>Digital Output Polarity</Name>
+      <Item ID="5551">
 
-<Operations>RW</Operations>
+        <Name>Digital Output Polarity</Name>
 
-<MultipleInstances></MultipleInstances>
+        <Operations>RW</Operations>
 
-<Mandatory></Mandatory>
+        <MultipleInstances></MultipleInstances>
 
-<Type>Boolean</Type>
+        <Mandatory></Mandatory>
 
-<RangeEnumeration></RangeEnumeration>
-<Submitter>IPSO</Submitter>
+        <Type>Boolean</Type>
 
-<Description>
+        <RangeEnumeration></RangeEnumeration>
+        <Submitter>IPSO</Submitter>
 
-<![CDATA[The polarity of a digital input as a Boolean (0 = Normal, 1= Reversed)]]>
+        <Description>
 
-</Description>
+          <![CDATA[The polarity of a digital input as a Boolean (0 = Normal, 1= Reversed)]]>
 
-</Item>
+        </Description>
 
+      </Item>
 
-<Item ID="5600">
 
-<Name>Analog Input Current Value</Name>
+      <Item ID="5600">
 
-<Operations>R</Operations>
+        <Name>Analog Input Current Value</Name>
 
-<MultipleInstances></MultipleInstances>
+        <Operations>R</Operations>
 
-<Mandatory></Mandatory>
+        <MultipleInstances></MultipleInstances>
 
-<Type>Float</Type>
+        <Mandatory></Mandatory>
 
-<RangeEnumeration>0-1</RangeEnumeration>
+        <Type>Float</Type>
 
-<Units>V</Units>
+        <RangeEnumeration>0-1</RangeEnumeration>
 
-<Submitter>IPSO</Submitter>
+        <Units>V</Units>
 
-<Description>
+        <Submitter>IPSO</Submitter>
 
-<![CDATA[The current state of the analogue input.]]>
+        <Description>
 
-</Description>
+          <![CDATA[The current state of the analogue input.]]>
 
-</Item>
+        </Description>
 
+      </Item>
 
-<Item ID="5601">
 
-<Name>Min Measured Value</Name>
+      <Item ID="5601">
 
-<Operations>R</Operations>
+        <Name>Min Measured Value</Name>
 
-<MultipleInstances></MultipleInstances>
+        <Operations>R</Operations>
 
-<Mandatory></Mandatory>
+        <MultipleInstances></MultipleInstances>
 
-<Type>Float</Type>
+        <Mandatory></Mandatory>
 
-<RangeEnumeration></RangeEnumeration>
+        <Type>Float</Type>
 
-<Units>Defined by “Units” resource.</Units>
+        <RangeEnumeration></RangeEnumeration>
 
-<Submitter>IPSO</Submitter>
+        <Units>Defined by “Units” resource.</Units>
 
-<Description>
+        <Submitter>IPSO</Submitter>
 
-<![CDATA[The minimum value measured by the sensor since it is ON or Reset.]]>
+        <Description>
 
-</Description>
+          <![CDATA[The minimum value measured by the sensor since it is ON or Reset.]]>
 
-</Item>
+        </Description>
 
+      </Item>
 
-<Item ID="5602">
 
-<Name>Max Measured Value</Name>
+      <Item ID="5602">
 
-<Operations>R</Operations>
+        <Name>Max Measured Value</Name>
 
-<MultipleInstances></MultipleInstances>
+        <Operations>R</Operations>
 
-<Mandatory></Mandatory>
+        <MultipleInstances></MultipleInstances>
 
-<Type>Float</Type>
+        <Mandatory></Mandatory>
 
-<RangeEnumeration></RangeEnumeration>
+        <Type>Float</Type>
 
-<Units>Defined by “Units” resource.</Units>
+        <RangeEnumeration></RangeEnumeration>
 
-<Submitter>IPSO</Submitter>
+        <Units>Defined by “Units” resource.</Units>
 
-<Description>
+        <Submitter>IPSO</Submitter>
 
-<![CDATA[The maximum value measured by the sensor since it is ON or Reset]]>
+        <Description>
 
-</Description>
+          <![CDATA[The maximum value measured by the sensor since it is ON or Reset]]>
 
-</Item>
+        </Description>
 
+      </Item>
 
-<Item ID="5603">
 
-<Name>Min Range Value</Name>
+      <Item ID="5603">
 
-<Operations>R</Operations>
+        <Name>Min Range Value</Name>
 
-<MultipleInstances></MultipleInstances>
+        <Operations>R</Operations>
 
-<Mandatory></Mandatory>
+        <MultipleInstances></MultipleInstances>
 
-<Type>Float</Type>
+        <Mandatory></Mandatory>
 
-<RangeEnumeration></RangeEnumeration>
+        <Type>Float</Type>
 
-<Units>Defined by “Units” resource.</Units>
+        <RangeEnumeration></RangeEnumeration>
 
-<Submitter>IPSO</Submitter>
+        <Units>Defined by “Units” resource.</Units>
 
-<Description>
+        <Submitter>IPSO</Submitter>
 
-<![CDATA[The minimum value that can be measured by the sensor]]>
+        <Description>
 
-</Description>
+          <![CDATA[The minimum value that can be measured by the sensor]]>
 
-</Item>
+        </Description>
 
+      </Item>
 
-<Item ID="5604">
 
-<Name>Max Range Value</Name>
+      <Item ID="5604">
 
-<Operations>R</Operations>
+        <Name>Max Range Value</Name>
 
-<MultipleInstances></MultipleInstances>
+        <Operations>R</Operations>
 
-<Mandatory></Mandatory>
+        <MultipleInstances></MultipleInstances>
 
-<Type>Float</Type>
+        <Mandatory></Mandatory>
 
-<RangeEnumeration></RangeEnumeration>
+        <Type>Float</Type>
 
-<Units>Defined by “Units” resource.</Units>
+        <RangeEnumeration></RangeEnumeration>
 
-<Submitter>IPSO</Submitter>
+        <Units>Defined by “Units” resource.</Units>
 
-<Description>
+        <Submitter>IPSO</Submitter>
 
-<![CDATA[The maximum value that can be measured by the sensor]]>
+        <Description>
 
-</Description>
+          <![CDATA[The maximum value that can be measured by the sensor]]>
 
-</Item>
+        </Description>
 
+      </Item>
 
-<Item ID="5605">
 
-<Name>Reset Min and Max Measured Values</Name>
+      <Item ID="5605">
 
-<Operations>E</Operations>
+        <Name>Reset Min and Max Measured Values</Name>
 
-<MultipleInstances></MultipleInstances>
+        <Operations>E</Operations>
 
-<Mandatory></Mandatory>
+        <MultipleInstances></MultipleInstances>
 
-<Type>Opaque</Type>
+        <Mandatory></Mandatory>
 
-<RangeEnumeration></RangeEnumeration>
-<Submitter>IPSO</Submitter>
+        <Type>Opaque</Type>
 
-<Description>
+        <RangeEnumeration></RangeEnumeration>
+        <Submitter>IPSO</Submitter>
 
-<![CDATA[Reset the Min and Max Measured Values to Current Value]]>
+        <Description>
 
-</Description>
+          <![CDATA[Reset the Min and Max Measured Values to Current Value]]>
 
-</Item>
+        </Description>
 
+      </Item>
 
-<Item ID="5650">
 
-<Name>Analog Output Current Value</Name>
+      <Item ID="5650">
 
-<Operations>RW</Operations>
+        <Name>Analog Output Current Value</Name>
 
-<MultipleInstances></MultipleInstances>
+        <Operations>RW</Operations>
 
-<Mandatory></Mandatory>
+        <MultipleInstances></MultipleInstances>
 
-<Type>Float</Type>
+        <Mandatory></Mandatory>
 
-<RangeEnumeration>0-1</RangeEnumeration>
+        <Type>Float</Type>
 
-<Units>-</Units>
+        <RangeEnumeration>0-1</RangeEnumeration>
 
-<Submitter>IPSO</Submitter>
+        <Units>-</Units>
 
-<Description>
+        <Submitter>IPSO</Submitter>
 
-<![CDATA[The current state of the analogue output.]]>
+        <Description>
 
-</Description>
+          <![CDATA[The current state of the analogue output.]]>
 
-</Item>
+        </Description>
 
+      </Item>
 
-<Item ID="5700">
 
-<Name>Sensor Value</Name>
+      <Item ID="5700">
 
-<Operations>R</Operations>
+        <Name>Sensor Value</Name>
 
-<MultipleInstances></MultipleInstances>
+        <Operations>R</Operations>
 
-<Mandatory></Mandatory>
+        <MultipleInstances></MultipleInstances>
 
-<Type>Float</Type>
+        <Mandatory></Mandatory>
 
-<RangeEnumeration></RangeEnumeration>
+        <Type>Float</Type>
 
-<Units>Defined by “Units” resource.</Units>
+        <RangeEnumeration></RangeEnumeration>
 
-<Submitter>IPSO</Submitter>
+        <Units>Defined by “Units” resource.</Units>
 
-<Description>
+        <Submitter>IPSO</Submitter>
 
-<![CDATA[Last or Current Measured Value from the Sensor.]]>
+        <Description>
 
-</Description>
+          <![CDATA[Last or Current Measured Value from the Sensor.]]>
 
-</Item>
+        </Description>
 
+      </Item>
 
-<Item ID="5701">
 
-<Name>Sensor Units</Name>
+      <Item ID="5701">
 
-<Operations>R</Operations>
+        <Name>Sensor Units</Name>
 
-<MultipleInstances></MultipleInstances>
+        <Operations>R</Operations>
 
-<Mandatory></Mandatory>
+        <MultipleInstances></MultipleInstances>
 
-<Type>String</Type>
+        <Mandatory></Mandatory>
 
-<RangeEnumeration></RangeEnumeration>
-<Submitter>IPSO</Submitter>
+        <Type>String</Type>
 
-<Description>
+        <RangeEnumeration></RangeEnumeration>
+        <Submitter>IPSO</Submitter>
 
-<![CDATA[Measurement Units Definition e.g. “Cel” for Temperature in Celsius.]]>
+        <Description>
 
-</Description>
+          <![CDATA[Measurement Units Definition e.g. “Cel” for Temperature in Celsius.]]>
 
-</Item>
+        </Description>
 
+      </Item>
 
-<Item ID="5702">
 
-<Name>X Value</Name>
+      <Item ID="5702">
 
-<Operations>R</Operations>
+        <Name>X Value</Name>
 
-<MultipleInstances></MultipleInstances>
+        <Operations>R</Operations>
 
-<Mandatory></Mandatory>
+        <MultipleInstances></MultipleInstances>
 
-<Type>Float</Type>
+        <Mandatory></Mandatory>
 
-<RangeEnumeration></RangeEnumeration>
+        <Type>Float</Type>
 
-<Units>Defined by “Units” resource.</Units>
+        <RangeEnumeration></RangeEnumeration>
 
-<Submitter>IPSO</Submitter>
+        <Units>Defined by “Units” resource.</Units>
 
-<Description>
+        <Submitter>IPSO</Submitter>
 
-<![CDATA[The measured value along the X axis.]]>
+        <Description>
 
-</Description>
+          <![CDATA[The measured value along the X axis.]]>
 
-</Item>
+        </Description>
 
+      </Item>
 
-<Item ID="5703">
 
-<Name>Y Value</Name>
+      <Item ID="5703">
 
-<Operations>R</Operations>
+        <Name>Y Value</Name>
 
-<MultipleInstances></MultipleInstances>
+        <Operations>R</Operations>
 
-<Mandatory></Mandatory>
+        <MultipleInstances></MultipleInstances>
 
-<Type>Float</Type>
+        <Mandatory></Mandatory>
 
-<RangeEnumeration></RangeEnumeration>
+        <Type>Float</Type>
 
-<Units>Defined by “Units” resource.</Units>
+        <RangeEnumeration></RangeEnumeration>
 
-<Submitter>IPSO</Submitter>
+        <Units>Defined by “Units” resource.</Units>
 
-<Description>
+        <Submitter>IPSO</Submitter>
 
-<![CDATA[The measured value along the Y axis.]]>
+        <Description>
 
-</Description>
+          <![CDATA[The measured value along the Y axis.]]>
 
-</Item>
+        </Description>
 
+      </Item>
 
-<Item ID="5704">
 
-<Name>Z Value</Name>
+      <Item ID="5704">
 
-<Operations>R</Operations>
+        <Name>Z Value</Name>
 
-<MultipleInstances></MultipleInstances>
+        <Operations>R</Operations>
 
-<Mandatory></Mandatory>
+        <MultipleInstances></MultipleInstances>
 
-<Type>Float</Type>
+        <Mandatory></Mandatory>
 
-<RangeEnumeration></RangeEnumeration>
+        <Type>Float</Type>
 
-<Units>Defined by “Units” resource.</Units>
+        <RangeEnumeration></RangeEnumeration>
 
-<Submitter>IPSO</Submitter>
+        <Units>Defined by “Units” resource.</Units>
 
-<Description>
+        <Submitter>IPSO</Submitter>
 
-<![CDATA[The measured value along the Z axis.]]>
+        <Description>
 
-</Description>
+          <![CDATA[The measured value along the Z axis.]]>
 
-</Item>
+        </Description>
 
+      </Item>
 
-<Item ID="5705">
 
-<Name>Compass Direction</Name>
+      <Item ID="5705">
 
-<Operations>R</Operations>
+        <Name>Compass Direction</Name>
 
-<MultipleInstances></MultipleInstances>
+        <Operations>R</Operations>
 
-<Mandatory></Mandatory>
+        <MultipleInstances></MultipleInstances>
 
-<Type>Float</Type>
+        <Mandatory></Mandatory>
 
-<RangeEnumeration>0-360</RangeEnumeration>
+        <Type>Float</Type>
 
-<Units>deg.</Units>
+        <RangeEnumeration>0-360</RangeEnumeration>
 
-<Submitter>IPSO</Submitter>
+        <Units>deg.</Units>
 
-<Description>
+        <Submitter>IPSO</Submitter>
 
-<![CDATA[The compass direction.]]>
+        <Description>
 
-</Description>
+          <![CDATA[The compass direction.]]>
 
-</Item>
+        </Description>
 
+      </Item>
 
-<Item ID="5706">
 
-<Name>Colour</Name>
+      <Item ID="5706">
 
-<Operations>RW</Operations>
+        <Name>Colour</Name>
 
-<MultipleInstances></MultipleInstances>
+        <Operations>RW</Operations>
 
-<Mandatory></Mandatory>
+        <MultipleInstances></MultipleInstances>
 
-<Type>String</Type>
+        <Mandatory></Mandatory>
 
-<RangeEnumeration></RangeEnumeration>
+        <Type>String</Type>
 
-<Units>s</Units>
+        <RangeEnumeration></RangeEnumeration>
 
-<Submitter>IPSO</Submitter>
+        <Units>s</Units>
 
-<Description>
+        <Submitter>IPSO</Submitter>
 
-<![CDATA[A string representing a value in some color space]]>
+        <Description>
 
-</Description>
+          <![CDATA[A string representing a value in some color space]]>
 
-</Item>
+        </Description>
 
+      </Item>
 
 
-<Item ID="5750">
 
-<Name>Application Type</Name>
+      <Item ID="5750">
 
-<Operations>RW</Operations>
+        <Name>Application Type</Name>
 
-<MultipleInstances></MultipleInstances>
+        <Operations>RW</Operations>
 
-<Mandatory></Mandatory>
+        <MultipleInstances></MultipleInstances>
 
-<Type>String</Type>
+        <Mandatory></Mandatory>
 
-<RangeEnumeration></RangeEnumeration>
-<Submitter>IPSO</Submitter>
+        <Type>String</Type>
 
-<Description>
+        <RangeEnumeration></RangeEnumeration>
+        <Submitter>IPSO</Submitter>
 
-<![CDATA[The application type of the sensor or actuator as a string, for instance, “Air Pressure”.]]>
+        <Description>
 
-</Description>
+          <![CDATA[The application type of the sensor or actuator as a string, for instance, “Air Pressure”.]]>
 
-</Item>
+        </Description>
 
+      </Item>
 
 
-<Item ID="5751">
 
-<Name>Sensor Type</Name>
+      <Item ID="5751">
 
-<Operations>R</Operations>
+        <Name>Sensor Type</Name>
 
-<MultipleInstances></MultipleInstances>
+        <Operations>R</Operations>
 
-<Mandatory></Mandatory>
+        <MultipleInstances></MultipleInstances>
 
-<Type>String</Type>
+        <Mandatory></Mandatory>
 
-<RangeEnumeration></RangeEnumeration>
-<Submitter>IPSO</Submitter>
+        <Type>String</Type>
 
-<Description>
+        <RangeEnumeration></RangeEnumeration>
+        <Submitter>IPSO</Submitter>
 
-<![CDATA[The type of the sensor (for instance PIR type)]]>
+        <Description>
 
-</Description>
+          <![CDATA[The type of the sensor (for instance PIR type)]]>
 
-</Item>
+        </Description>
 
+      </Item>
 
-<Item ID="5800">
 
-<Name>Instantaneous active power</Name>
+      <Item ID="5800">
 
-<Operations>R</Operations>
+        <Name>Instantaneous active power</Name>
 
-<MultipleInstances></MultipleInstances>
+        <Operations>R</Operations>
 
-<Mandatory></Mandatory>
+        <MultipleInstances></MultipleInstances>
 
-<Type>Float</Type>
+        <Mandatory></Mandatory>
 
-<RangeEnumeration></RangeEnumeration>
+        <Type>Float</Type>
 
-<Units>W</Units>
+        <RangeEnumeration></RangeEnumeration>
 
-<Submitter>IPSO</Submitter>
+        <Units>W</Units>
 
-<Description>
+        <Submitter>IPSO</Submitter>
 
-<![CDATA[The current active power]]>
+        <Description>
 
-</Description>
+          <![CDATA[The current active power]]>
 
-</Item>
+        </Description>
 
+      </Item>
 
-<Item ID="5801">
 
-<Name>Min Measured active power</Name>
+      <Item ID="5801">
 
-<Operations>R</Operations>
+        <Name>Min Measured active power</Name>
 
-<MultipleInstances></MultipleInstances>
+        <Operations>R</Operations>
 
-<Mandatory></Mandatory>
+        <MultipleInstances></MultipleInstances>
 
-<Type>Float</Type>
+        <Mandatory></Mandatory>
 
-<RangeEnumeration></RangeEnumeration>
+        <Type>Float</Type>
 
-<Units>W</Units>
+        <RangeEnumeration></RangeEnumeration>
 
-<Submitter>IPSO</Submitter>
+        <Units>W</Units>
 
-<Description>
+        <Submitter>IPSO</Submitter>
 
-<![CDATA[The minimum active power measured by the sensor since it is ON]]>
+        <Description>
 
-</Description>
+          <![CDATA[The minimum active power measured by the sensor since it is ON]]>
 
-</Item>
+        </Description>
 
+      </Item>
 
-<Item ID="5802">
 
-<Name>Max Measured active power</Name>
+      <Item ID="5802">
 
-<Operations>R</Operations>
+        <Name>Max Measured active power</Name>
 
-<MultipleInstances></MultipleInstances>
+        <Operations>R</Operations>
 
-<Mandatory></Mandatory>
+        <MultipleInstances></MultipleInstances>
 
-<Type>Float</Type>
+        <Mandatory></Mandatory>
 
-<RangeEnumeration></RangeEnumeration>
+        <Type>Float</Type>
 
-<Units>W</Units>
+        <RangeEnumeration></RangeEnumeration>
 
-<Submitter>IPSO</Submitter>
+        <Units>W</Units>
 
-<Description>
+        <Submitter>IPSO</Submitter>
 
-<![CDATA[The maximum active power measured by the sensor since it is ON]]>
+        <Description>
 
-</Description>
+          <![CDATA[The maximum active power measured by the sensor since it is ON]]>
 
-</Item>
+        </Description>
 
+      </Item>
 
-<Item ID="5803">
 
-<Name>Min Range active power</Name>
+      <Item ID="5803">
 
-<Operations>R</Operations>
+        <Name>Min Range active power</Name>
 
-<MultipleInstances></MultipleInstances>
+        <Operations>R</Operations>
 
-<Mandatory></Mandatory>
+        <MultipleInstances></MultipleInstances>
 
-<Type>Float</Type>
+        <Mandatory></Mandatory>
 
-<RangeEnumeration></RangeEnumeration>
+        <Type>Float</Type>
 
-<Units>W</Units>
+        <RangeEnumeration></RangeEnumeration>
 
-<Submitter>IPSO</Submitter>
+        <Units>W</Units>
 
-<Description>
+        <Submitter>IPSO</Submitter>
 
-<![CDATA[The minimum active power that can be measured by the sensor]]>
+        <Description>
 
-</Description>
+          <![CDATA[The minimum active power that can be measured by the sensor]]>
 
-</Item>
+        </Description>
 
+      </Item>
 
-<Item ID="5804">
 
-<Name>Max Range active power</Name>
+      <Item ID="5804">
 
-<Operations>R</Operations>
+        <Name>Max Range active power</Name>
 
-<MultipleInstances></MultipleInstances>
+        <Operations>R</Operations>
 
-<Mandatory></Mandatory>
+        <MultipleInstances></MultipleInstances>
 
-<Type>Float</Type>
+        <Mandatory></Mandatory>
 
-<RangeEnumeration></RangeEnumeration>
+        <Type>Float</Type>
 
-<Units>W</Units>
+        <RangeEnumeration></RangeEnumeration>
 
-<Submitter>IPSO</Submitter>
+        <Units>W</Units>
 
-<Description>
+        <Submitter>IPSO</Submitter>
 
-<![CDATA[The maximum active power that can be measured by the sensor]]>
+        <Description>
 
-</Description>
+          <![CDATA[The maximum active power that can be measured by the sensor]]>
 
-</Item>
+        </Description>
 
+      </Item>
 
-<Item ID="5805">
 
-<Name>Cumulative active power</Name>
+      <Item ID="5805">
 
-<Operations>R</Operations>
+        <Name>Cumulative active power</Name>
 
-<MultipleInstances></MultipleInstances>
+        <Operations>R</Operations>
 
-<Mandatory></Mandatory>
+        <MultipleInstances></MultipleInstances>
 
-<Type>Float</Type>
+        <Mandatory></Mandatory>
 
-<RangeEnumeration></RangeEnumeration>
+        <Type>Float</Type>
 
-<Units>Wh</Units>
+        <RangeEnumeration></RangeEnumeration>
 
-<Submitter>IPSO</Submitter>
+        <Units>Wh</Units>
 
-<Description>
+        <Submitter>IPSO</Submitter>
 
-<![CDATA[The cumulative active power since the last cumulative energy reset or device start]]>
+        <Description>
 
-</Description>
+          <![CDATA[The cumulative active power since the last cumulative energy reset or device start]]>
 
-</Item>
+        </Description>
 
+      </Item>
 
-<Item ID="5806">
 
-<Name>Active Power Calibration</Name>
+      <Item ID="5806">
 
-<Operations>W</Operations>
+        <Name>Active Power Calibration</Name>
 
-<MultipleInstances></MultipleInstances>
+        <Operations>W</Operations>
 
-<Mandatory></Mandatory>
+        <MultipleInstances></MultipleInstances>
 
-<Type>Float</Type>
+        <Mandatory></Mandatory>
 
-<RangeEnumeration></RangeEnumeration>
+        <Type>Float</Type>
 
-<Units>W</Units>
+        <RangeEnumeration></RangeEnumeration>
 
-<Submitter>IPSO</Submitter>
+        <Units>W</Units>
 
-<Description>
+        <Submitter>IPSO</Submitter>
 
-<![CDATA[Request an active power calibration by writing the value of a calibrated load.]]>
+        <Description>
 
-</Description>
+          <![CDATA[Request an active power calibration by writing the value of a calibrated load.]]>
 
-</Item>
+        </Description>
 
+      </Item>
 
-<Item ID="5810">
 
-<Name>Instantaneous reactive power</Name>
+      <Item ID="5810">
 
-<Operations>R</Operations>
+        <Name>Instantaneous reactive power</Name>
 
-<MultipleInstances></MultipleInstances>
+        <Operations>R</Operations>
 
-<Mandatory></Mandatory>
+        <MultipleInstances></MultipleInstances>
 
-<Type>Float</Type>
+        <Mandatory></Mandatory>
 
-<RangeEnumeration></RangeEnumeration>
+        <Type>Float</Type>
 
-<Units>var</Units>
+        <RangeEnumeration></RangeEnumeration>
 
-<Submitter>IPSO</Submitter>
+        <Units>var</Units>
 
-<Description>
+        <Submitter>IPSO</Submitter>
 
-<![CDATA[The current reactive power]]>
+        <Description>
 
-</Description>
+          <![CDATA[The current reactive power]]>
 
-</Item>
+        </Description>
 
+      </Item>
 
-<Item ID="5811">
 
-<Name>Min Measured reactive power</Name>
+      <Item ID="5811">
 
-<Operations>R</Operations>
+        <Name>Min Measured reactive power</Name>
 
-<MultipleInstances></MultipleInstances>
+        <Operations>R</Operations>
 
-<Mandatory></Mandatory>
+        <MultipleInstances></MultipleInstances>
 
-<Type>Float</Type>
+        <Mandatory></Mandatory>
 
-<RangeEnumeration></RangeEnumeration>
+        <Type>Float</Type>
 
-<Units>var</Units>
+        <RangeEnumeration></RangeEnumeration>
 
-<Submitter>IPSO</Submitter>
+        <Units>var</Units>
 
-<Description>
+        <Submitter>IPSO</Submitter>
 
-<![CDATA[The minimum reactive power measured by the sensor since it is ON]]>
+        <Description>
 
-</Description>
+          <![CDATA[The minimum reactive power measured by the sensor since it is ON]]>
 
-</Item>
+        </Description>
 
+      </Item>
 
-<Submitter>IPSO</Submitter>
 
-<Item ID="5812">
+      <Submitter>IPSO</Submitter>
 
-<Name>Max Measured reactive power</Name>
+      <Item ID="5812">
 
-<Operations>R</Operations>
+        <Name>Max Measured reactive power</Name>
 
-<MultipleInstances></MultipleInstances>
+        <Operations>R</Operations>
 
-<Mandatory></Mandatory>
+        <MultipleInstances></MultipleInstances>
 
-<Type>Float</Type>
+        <Mandatory></Mandatory>
 
-<RangeEnumeration></RangeEnumeration>
+        <Type>Float</Type>
 
-<Units>var</Units>
+        <RangeEnumeration></RangeEnumeration>
 
-<Submitter>IPSO</Submitter>
+        <Units>var</Units>
 
-<Description>
+        <Submitter>IPSO</Submitter>
 
-<![CDATA[The maximum reactive power measured by the sensor since it is ON]]>
+        <Description>
 
-</Description>
+          <![CDATA[The maximum reactive power measured by the sensor since it is ON]]>
 
-</Item>
+        </Description>
 
+      </Item>
 
-<Item ID="5813">
 
-<Name>Min Range reactive power</Name>
+      <Item ID="5813">
 
-<Operations>R</Operations>
+        <Name>Min Range reactive power</Name>
 
-<MultipleInstances></MultipleInstances>
+        <Operations>R</Operations>
 
-<Mandatory></Mandatory>
+        <MultipleInstances></MultipleInstances>
 
-<Type>Float</Type>
+        <Mandatory></Mandatory>
 
-<RangeEnumeration></RangeEnumeration>
+        <Type>Float</Type>
 
-<Units>var</Units>
+        <RangeEnumeration></RangeEnumeration>
 
-<Submitter>IPSO</Submitter>
+        <Units>var</Units>
 
-<Description>
+        <Submitter>IPSO</Submitter>
 
-<![CDATA[The minimum active power that can be measured by the sensor]]>
+        <Description>
 
-</Description>
+          <![CDATA[The minimum active power that can be measured by the sensor]]>
 
-</Item>
+        </Description>
 
+      </Item>
 
-<Item ID="5814">
 
-<Name>Max Range reactive power</Name>
+      <Item ID="5814">
 
-<Operations>R</Operations>
+        <Name>Max Range reactive power</Name>
 
-<MultipleInstances></MultipleInstances>
+        <Operations>R</Operations>
 
-<Mandatory></Mandatory>
+        <MultipleInstances></MultipleInstances>
 
-<Type>Float</Type>
+        <Mandatory></Mandatory>
 
-<RangeEnumeration></RangeEnumeration>
+        <Type>Float</Type>
 
-<Units>var</Units>
+        <RangeEnumeration></RangeEnumeration>
 
-<Submitter>IPSO</Submitter>
+        <Units>var</Units>
 
-<Description>
+        <Submitter>IPSO</Submitter>
 
-<![CDATA[The maximum reactive power that can be measured by the sensor]]>
+        <Description>
 
-</Description>
+          <![CDATA[The maximum reactive power that can be measured by the sensor]]>
 
-</Item>
+        </Description>
 
+      </Item>
 
-<Item ID="5815">
 
-<Name>Cumulative reactive power</Name>
+      <Item ID="5815">
 
-<Operations>R</Operations>
+        <Name>Cumulative reactive power</Name>
 
-<MultipleInstances></MultipleInstances>
+        <Operations>R</Operations>
 
-<Mandatory></Mandatory>
+        <MultipleInstances></MultipleInstances>
 
-<Type>Float</Type>
+        <Mandatory></Mandatory>
 
-<RangeEnumeration></RangeEnumeration>
+        <Type>Float</Type>
 
-<Units>varh</Units>
+        <RangeEnumeration></RangeEnumeration>
 
-<Submitter>IPSO</Submitter>
+        <Units>varh</Units>
 
-<Description>
+        <Submitter>IPSO</Submitter>
 
-<![CDATA[The cumulative reactive power since the last cumulative energy reset or device start]]>
+        <Description>
 
-</Description>
+          <![CDATA[The cumulative reactive power since the last cumulative energy reset or device start]]>
 
-</Item>
+        </Description>
 
+      </Item>
 
-<Item ID="5816">
 
-<Name>Reactive Power Calibration</Name>
+      <Item ID="5816">
 
-<Operations>W</Operations>
+        <Name>Reactive Power Calibration</Name>
 
-<MultipleInstances></MultipleInstances>
+        <Operations>W</Operations>
 
-<Mandatory></Mandatory>
+        <MultipleInstances></MultipleInstances>
 
-<Type>Float</Type>
+        <Mandatory></Mandatory>
 
-<RangeEnumeration></RangeEnumeration>
+        <Type>Float</Type>
 
-<Units>var</Units>
+        <RangeEnumeration></RangeEnumeration>
 
-<Submitter>IPSO</Submitter>
+        <Units>var</Units>
 
-<Description>
+        <Submitter>IPSO</Submitter>
 
-<![CDATA[Request a reactive power calibration by writing the value of a calibrated load.]]>
+        <Description>
 
-</Description>
+          <![CDATA[Request a reactive power calibration by writing the value of a calibrated load.]]>
 
-</Item>
+        </Description>
 
+      </Item>
 
-<Item ID="5820">
 
-<Name>Power factor</Name>
+      <Item ID="5820">
 
-<Operations>R</Operations>
+        <Name>Power factor</Name>
 
-<MultipleInstances></MultipleInstances>
+        <Operations>R</Operations>
 
-<Mandatory></Mandatory>
+        <MultipleInstances></MultipleInstances>
 
-<Type>Float</Type>
+        <Mandatory></Mandatory>
 
-<RangeEnumeration></RangeEnumeration>
+        <Type>Float</Type>
 
-<Units></Units>
+        <RangeEnumeration></RangeEnumeration>
 
-<Submitter>IPSO</Submitter>
+        <Units></Units>
 
-<Description>
+        <Submitter>IPSO</Submitter>
 
-<![CDATA[If applicable, the power factor of the current consumption.]]>
+        <Description>
 
-</Description>
+          <![CDATA[If applicable, the power factor of the current consumption.]]>
 
-</Item>
+        </Description>
 
+      </Item>
 
-<Item ID="5821">
 
-<Name>Current Calibration</Name>
+      <Item ID="5821">
 
-<Operations>RW</Operations>
+        <Name>Current Calibration</Name>
 
-<MultipleInstances></MultipleInstances>
+        <Operations>RW</Operations>
 
-<Mandatory></Mandatory>
+        <MultipleInstances></MultipleInstances>
 
-<Type>Float</Type>
+        <Mandatory></Mandatory>
 
-<RangeEnumeration></RangeEnumeration>
+        <Type>Float</Type>
 
-<Units></Units>
+        <RangeEnumeration></RangeEnumeration>
 
-<Submitter>IPSO</Submitter>
+        <Units></Units>
 
-<Description>
+        <Submitter>IPSO</Submitter>
 
-<![CDATA[Read or Write the current calibration coefficient]]>
+        <Description>
 
-</Description>
+          <![CDATA[Read or Write the current calibration coefficient]]>
 
-</Item>
+        </Description>
 
+      </Item>
 
-<Item ID="5822">
 
-<Name>Reset Cumulative energy</Name>
+      <Item ID="5822">
 
-<Operations>E</Operations>
+        <Name>Reset Cumulative energy</Name>
 
-<MultipleInstances></MultipleInstances>
+        <Operations>E</Operations>
 
-<Mandatory></Mandatory>
+        <MultipleInstances></MultipleInstances>
 
-<Type>Opaque</Type>
+        <Mandatory></Mandatory>
 
-<RangeEnumeration></RangeEnumeration>
+        <Type>Opaque</Type>
 
-<Units></Units>
+        <RangeEnumeration></RangeEnumeration>
 
-<Submitter>IPSO</Submitter>
+        <Units></Units>
 
-<Description>
+        <Submitter>IPSO</Submitter>
 
-<![CDATA[Reset both cumulative active/reactive power]]>
+        <Description>
 
-</Description>
+          <![CDATA[Reset both cumulative active/reactive power]]>
 
-</Item>
+        </Description>
 
+      </Item>
 
-<Item ID="5823">
 
-<Name>Event Identifier</Name>
+      <Item ID="5823">
 
-<Operations>RW</Operations>
+        <Name>Event Identifier</Name>
 
-<MultipleInstances></MultipleInstances>
+        <Operations>RW</Operations>
 
-<Mandatory></Mandatory>
+        <MultipleInstances></MultipleInstances>
 
-<Type>String</Type>
+        <Mandatory></Mandatory>
 
-<RangeEnumeration></RangeEnumeration>
+        <Type>String</Type>
 
-<Units></Units>
+        <RangeEnumeration></RangeEnumeration>
 
-<Submitter>IPSO</Submitter>
+        <Units></Units>
 
-<Description>
+        <Submitter>IPSO</Submitter>
 
-<![CDATA[The event identifier as a string.]]>
+        <Description>
 
-</Description>
+          <![CDATA[The event identifier as a string.]]>
 
-</Item>
+        </Description>
 
+      </Item>
 
-<Item ID="5824">
 
-<Name>Start Time</Name>
+      <Item ID="5824">
 
-<Operations>RW</Operations>
+        <Name>Start Time</Name>
 
-<MultipleInstances></MultipleInstances>
+        <Operations>RW</Operations>
 
-<Mandatory></Mandatory>
+        <MultipleInstances></MultipleInstances>
 
-<Type>String</Type>
+        <Mandatory></Mandatory>
 
-<RangeEnumeration></RangeEnumeration>
+        <Type>String</Type>
 
-<Units></Units>
+        <RangeEnumeration></RangeEnumeration>
 
-<Submitter>IPSO</Submitter>
+        <Units></Units>
 
-<Description>
+        <Submitter>IPSO</Submitter>
 
-<![CDATA[Time when the load control event will start started.]]>
+        <Description>
 
-</Description>
+          <![CDATA[Time when the load control event will start started.]]>
 
-</Item>
+        </Description>
 
+      </Item>
 
-<Item ID="5825">
 
-<Name>Duration In Min</Name>
+      <Item ID="5825">
 
-<Operations>RW</Operations>
+        <Name>Duration In Min</Name>
 
-<MultipleInstances></MultipleInstances>
+        <Operations>RW</Operations>
 
-<Mandatory></Mandatory>
+        <MultipleInstances></MultipleInstances>
 
-<Type>String</Type>
+        <Mandatory></Mandatory>
 
-<RangeEnumeration></RangeEnumeration>
+        <Type>String</Type>
 
-<Units>min</Units>
+        <RangeEnumeration></RangeEnumeration>
 
-<Submitter>IPSO</Submitter>
+        <Units>min</Units>
 
-<Description>
+        <Submitter>IPSO</Submitter>
 
-<![CDATA[The duration of the load control event.]]>
+        <Description>
 
-</Description>
+          <![CDATA[The duration of the load control event.]]>
 
-</Item>
+        </Description>
 
+      </Item>
 
-<Item ID="5826">
 
-<Name>Critical Level</Name>
+      <Item ID="5826">
 
-<Operations>RW</Operations>
+        <Name>Critical Level</Name>
 
-<MultipleInstances></MultipleInstances>
+        <Operations>RW</Operations>
 
-<Mandatory></Mandatory>
+        <MultipleInstances></MultipleInstances>
 
-<Type>String</Type>
+        <Mandatory></Mandatory>
 
-<RangeEnumeration></RangeEnumeration>
+        <Type>String</Type>
 
-<Units></Units>
+        <RangeEnumeration></RangeEnumeration>
 
-<Submitter>IPSO</Submitter>
+        <Units></Units>
 
-<Description>
+        <Submitter>IPSO</Submitter>
 
-<![CDATA[The criticality of the event. The device receiving the event will react in an appropriate fashion for the device.]]>
+        <Description>
 
-</Description>
+          <![CDATA[The criticality of the event. The device receiving the event will react in an appropriate fashion for the device.]]>
 
-</Item>
+        </Description>
 
+      </Item>
 
-<Item ID="5827">
 
-<Name>Avg Load AdjPct</Name>
+      <Item ID="5827">
 
-<Operations>RW</Operations>
+        <Name>Avg Load AdjPct</Name>
 
-<MultipleInstances></MultipleInstances>
+        <Operations>RW</Operations>
 
-<Mandatory></Mandatory>
+        <MultipleInstances></MultipleInstances>
 
-<Type>String</Type>
+        <Mandatory></Mandatory>
 
-<RangeEnumeration>0-100</RangeEnumeration>
+        <Type>String</Type>
 
-<Units>%</Units>
+        <RangeEnumeration>0-100</RangeEnumeration>
 
-<Submitter>IPSO</Submitter>
+        <Units>%</Units>
 
-<Description>
+        <Submitter>IPSO</Submitter>
 
-<![CDATA[Defines the maximum energy usage of the receiving device, as a percentage of the device's normal maximum energy usage.]]>
+        <Description>
 
-</Description>
+          <![CDATA[Defines the maximum energy usage of the receiving device, as a percentage of the device's normal maximum energy usage.]]>
 
-</Item>
+        </Description>
 
+      </Item>
 
-<Item ID="5828">
 
-<Name>Duty Cycle</Name>
+      <Item ID="5828">
 
-<Operations>RW</Operations>
+        <Name>Duty Cycle</Name>
 
-<MultipleInstances></MultipleInstances>
+        <Operations>RW</Operations>
 
-<Mandatory></Mandatory>
+        <MultipleInstances></MultipleInstances>
 
-<Type>String</Type>
+        <Mandatory></Mandatory>
 
-<RangeEnumeration>0-100</RangeEnumeration>
+        <Type>String</Type>
 
-<Units>%</Units>
+        <RangeEnumeration>0-100</RangeEnumeration>
 
-<Submitter>IPSO</Submitter>
+        <Units>%</Units>
 
-<Description>
+        <Submitter>IPSO</Submitter>
 
-<![CDATA[Defines the duty cycle for the load control event, i.e, what percentage of time the receiving device is allowed to be on.]]>
+        <Description>
 
-</Description>
+          <![CDATA[Defines the duty cycle for the load control event, i.e, what percentage of time the receiving device is allowed to be on.]]>
 
-</Item>
+        </Description>
 
+      </Item>
 
 
-<Item ID="5850">
 
-<Name>On/Off</Name>
+      <Item ID="5850">
 
-<Operations>RW</Operations>
+        <Name>On/Off</Name>
 
-<MultipleInstances></MultipleInstances>
+        <Operations>RW</Operations>
 
-<Mandatory></Mandatory>
+        <MultipleInstances></MultipleInstances>
 
-<Type>Boolean</Type>
+        <Mandatory></Mandatory>
 
-<RangeEnumeration></RangeEnumeration>
+        <Type>Boolean</Type>
 
-<Units></Units>
+        <RangeEnumeration></RangeEnumeration>
 
-<Submitter>IPSO</Submitter>
+        <Units></Units>
 
-<Description>
+        <Submitter>IPSO</Submitter>
 
-<![CDATA[On/Off]]>
+        <Description>
 
-</Description>
+          <![CDATA[On/Off]]>
 
-</Item>
+        </Description>
 
+      </Item>
 
-<Item ID="5851">
 
-<Name>Dimmer</Name>
+      <Item ID="5851">
 
-<Operations>RW</Operations>
+        <Name>Dimmer</Name>
 
-<MultipleInstances></MultipleInstances>
+        <Operations>RW</Operations>
 
-<Mandatory></Mandatory>
+        <MultipleInstances></MultipleInstances>
 
-<Type>Integer</Type>
+        <Mandatory></Mandatory>
 
-<RangeEnumeration>0-100</RangeEnumeration>
+        <Type>Integer</Type>
 
-<Units>%</Units>
+        <RangeEnumeration>0-100</RangeEnumeration>
 
-<Submitter>IPSO</Submitter>
+        <Units>%</Units>
 
-<Description>
+        <Submitter>IPSO</Submitter>
 
-<![CDATA[This resource represents a light dimmer setting, which has an Integer value between 0 and 100 as a percentage.]]>
+        <Description>
 
-</Description>
- 
-</Item>
+          <![CDATA[This resource represents a light dimmer setting, which has an Integer value between 0 and 100 as a percentage.]]>
 
+        </Description>
 
-<Item ID="5852">
+      </Item>
 
-<Name>On time</Name>
 
-<Operations>RW</Operations>
+      <Item ID="5852">
 
-<MultipleInstances></MultipleInstances>
+        <Name>On time</Name>
 
-<Mandatory></Mandatory>
+        <Operations>RW</Operations>
 
-<Type>Integer</Type>
+        <MultipleInstances></MultipleInstances>
 
-<RangeEnumeration></RangeEnumeration>
+        <Mandatory></Mandatory>
 
-<Units>sec</Units>
+        <Type>Integer</Type>
 
-<Submitter>IPSO</Submitter>
+        <RangeEnumeration></RangeEnumeration>
 
-<Description>
+        <Units>sec</Units>
 
-<![CDATA[The time in seconds that the device has been turned on. Writing a value of 0 resets the counter.]]>
+        <Submitter>IPSO</Submitter>
 
-</Description>
+        <Description>
 
-</Item>
+          <![CDATA[The time in seconds that the device has been turned on. Writing a value of 0 resets the counter.]]>
 
+        </Description>
 
-<Item ID="5853">
+      </Item>
 
-<Name>Muti-state Output</Name>
 
-<Operations>RW</Operations>
+      <Item ID="5853">
 
-<MultipleInstances></MultipleInstances>
+        <Name>Muti-state Output</Name>
 
-<Mandatory></Mandatory>
+        <Operations>RW</Operations>
 
-<Type>String</Type>
+        <MultipleInstances></MultipleInstances>
 
-<RangeEnumeration></RangeEnumeration>
+        <Mandatory></Mandatory>
 
-<Units></Units>
+        <Type>String</Type>
 
-<Submitter>IPSO</Submitter>
+        <RangeEnumeration></RangeEnumeration>
 
-<Description>
+        <Units></Units>
 
-<![CDATA[A string describing a state for multiple level output such as Pilot Wire]]>
+        <Submitter>IPSO</Submitter>
 
-</Description>
+        <Description>
 
-</Item>
+          <![CDATA[A string describing a state for multiple level output such as Pilot Wire]]>
 
+        </Description>
 
-<Item ID="5854">
+      </Item>
 
-<Name>Off Time</Name>
 
-<Operations>RW</Operations>
+      <Item ID="5854">
 
-<MultipleInstances>Single</MultipleInstances>
+        <Name>Off Time</Name>
 
-<Mandatory>Optional</Mandatory>
+        <Operations>RW</Operations>
 
-<Type>Integer</Type>
+        <MultipleInstances>Single</MultipleInstances>
 
-<RangeEnumeration></RangeEnumeration>
+        <Mandatory>Optional</Mandatory>
 
-<Units>s</Units>
+        <Type>Integer</Type>
 
-<Submitter>IPSO</Submitter>
+        <RangeEnumeration></RangeEnumeration>
 
-<Description>
+        <Units>s</Units>
 
-<![CDATA[The time in seconds since the Off command was sent. Writing a value of 0 resets the counter.]]>
+        <Submitter>IPSO</Submitter>
 
-</Description>
+        <Description>
 
+          <![CDATA[The time in seconds since the Off command was sent. Writing a value of 0 resets the counter.]]>
 
-</Item>
+        </Description>
 
 
+      </Item>
 
-<Item ID="5900">
 
-<Name>Set Point Value</Name>
 
-<Operations>RW</Operations>
+      <Item ID="5900">
 
-<MultipleInstances></MultipleInstances>
+        <Name>Set Point Value</Name>
 
-<Mandatory></Mandatory>
+        <Operations>RW</Operations>
 
-<Type>Float</Type>
+        <MultipleInstances></MultipleInstances>
 
-<RangeEnumeration></RangeEnumeration>
+        <Mandatory></Mandatory>
 
-<Units>Defined by “Units” resource.</Units>
+        <Type>Float</Type>
 
-<Submitter>IPSO</Submitter>
+        <RangeEnumeration></RangeEnumeration>
 
-<Description>
+        <Units>Defined by “Units” resource.</Units>
 
-<![CDATA[The setpoint value.]]>
+        <Submitter>IPSO</Submitter>
 
-</Description>
+        <Description>
 
-</Item>
+          <![CDATA[The setpoint value.]]>
 
+        </Description>
 
-<Item ID="5903">
+      </Item>
 
-<Name>Busy to Clear delay</Name>
 
-<Operations>RW</Operations>
+      <Item ID="5903">
 
-<MultipleInstances></MultipleInstances>
+        <Name>Busy to Clear delay</Name>
 
-<Mandatory></Mandatory>
+        <Operations>RW</Operations>
 
-<Type>Integer</Type>
+        <MultipleInstances></MultipleInstances>
 
-<RangeEnumeration></RangeEnumeration>
+        <Mandatory></Mandatory>
 
-<Units>ms</Units>
+        <Type>Integer</Type>
 
-<Submitter>IPSO</Submitter>
+        <RangeEnumeration></RangeEnumeration>
 
-<Description>
+        <Units>ms</Units>
 
-<![CDATA[Delay from the detection state to the clear state in ms]]>
+        <Submitter>IPSO</Submitter>
 
-</Description>
+        <Description>
 
-</Item>
+          <![CDATA[Delay from the detection state to the clear state in ms]]>
 
+        </Description>
 
-<Item ID="5904">
+      </Item>
 
-<Name>Clear to Busy delay</Name>
 
-<Operations>RW</Operations>
+      <Item ID="5904">
 
-<MultipleInstances></MultipleInstances>
+        <Name>Clear to Busy delay</Name>
 
-<Mandatory></Mandatory>
+        <Operations>RW</Operations>
 
-<Type>Integer</Type>
+        <MultipleInstances></MultipleInstances>
 
-<RangeEnumeration></RangeEnumeration>
+        <Mandatory></Mandatory>
 
-<Units>ms</Units>
+        <Type>Integer</Type>
 
-<Submitter>IPSO</Submitter>
+        <RangeEnumeration></RangeEnumeration>
 
-<Description>
+        <Units>ms</Units>
 
-<![CDATA[Delay from the clear state to the busy state in ms.]]>
+        <Submitter>IPSO</Submitter>
 
-</Description>
+        <Description>
 
-</Item>
+          <![CDATA[Delay from the clear state to the busy state in ms.]]>
 
-<Item ID="5910">
+        </Description>
 
-<Name>Bitmap Input</Name>
+      </Item>
 
-<Operations>R</Operations>
+      <Item ID="5910">
 
-<MultipleInstances></MultipleInstances>
+        <Name>Bitmap Input</Name>
 
-<Mandatory></Mandatory>
+        <Operations>R</Operations>
 
-<Type>Integer</Type>
+        <MultipleInstances></MultipleInstances>
 
-<RangeEnumeration></RangeEnumeration>
+        <Mandatory></Mandatory>
 
-<Units></Units>
+        <Type>Integer</Type>
 
-<Submitter>IPSO</Submitter>
+        <RangeEnumeration></RangeEnumeration>
 
-<Description>
+        <Units></Units>
 
-<![CDATA[Integer in which each of the bits are associated with specific digital input value. 
+        <Submitter>IPSO</Submitter>
+
+        <Description>
+
+          <![CDATA[Integer in which each of the bits are associated with specific digital input value. 
 Represented as a binary signed integer in network byte order, and in two's complement representation. 
 Using values in range 0-127 is recommended to avoid ambiguities with byte order and negative values.]]>
 
-</Description>
+        </Description>
 
-</Item>  
- 
- <Item ID="5911">
+      </Item>
 
-<Name>Bitmap Input Reset</Name>
+      <Item ID="5911">
 
-<Operations>E</Operations>
+        <Name>Bitmap Input Reset</Name>
 
-<MultipleInstances></MultipleInstances>
+        <Operations>E</Operations>
 
-<Mandatory></Mandatory>
+        <MultipleInstances></MultipleInstances>
 
-<Type>Opaque</Type>
+        <Mandatory></Mandatory>
 
-<RangeEnumeration></RangeEnumeration>
+        <Type>Opaque</Type>
 
-<Units></Units>
+        <RangeEnumeration></RangeEnumeration>
 
-<Submitter>IPSO</Submitter>
+        <Units></Units>
 
-<Description>
+        <Submitter>IPSO</Submitter>
 
-<![CDATA[Reset the Bitmap Input value]]>
+        <Description>
 
-</Description>
+          <![CDATA[Reset the Bitmap Input value]]>
 
-</Item> 
- 
- <Item ID="5912">
+        </Description>
 
-<Name>Element Description</Name>
+      </Item>
 
-<Operations>RW</Operations>
+      <Item ID="5912">
 
-<MultipleInstances></MultipleInstances>
+        <Name>Element Description</Name>
 
-<Mandatory></Mandatory>
+        <Operations>RW</Operations>
 
-<Type>String</Type>
+        <MultipleInstances></MultipleInstances>
 
-<RangeEnumeration></RangeEnumeration>
+        <Mandatory></Mandatory>
 
-<Units></Units>
+        <Type>String</Type>
 
-<Submitter>IPSO</Submitter>
+        <RangeEnumeration></RangeEnumeration>
 
-<Description>
+        <Units></Units>
 
-<![CDATA[The semantics / description of each bit as a string. 
+        <Submitter>IPSO</Submitter>
+
+        <Description>
+
+          <![CDATA[The semantics / description of each bit as a string. 
 First instance describes the least significant bit, second instance the second least significant bit, etc]]>
 
-</Description>
+        </Description>
 
-</Item> 
- 
-</Resources>
+      </Item>
 
-<Description2/>
+      <Item ID="6000">
 
-</Object>
+        <Name>Reserved</Name>
+
+        <Operations></Operations>
+
+        <MultipleInstances></MultipleInstances>
+
+        <Mandatory></Mandatory>
+
+        <Type></Type>
+
+        <RangeEnumeration></RangeEnumeration>
+
+        <Units></Units>
+
+        <Submitter>smartlogic.com</Submitter>
+
+        <Description></Description>
+
+      </Item>
+
+      <Item ID="6001">
+
+        <Name>Reserved</Name>
+
+        <Operations></Operations>
+
+        <MultipleInstances></MultipleInstances>
+
+        <Mandatory></Mandatory>
+
+        <Type></Type>
+
+        <RangeEnumeration></RangeEnumeration>
+
+        <Units></Units>
+
+        <Submitter>smartlogic.com</Submitter>
+
+        <Description></Description>
+
+      </Item>
+      <Item ID="6002">
+
+        <Name>Reserved</Name>
+
+        <Operations></Operations>
+
+        <MultipleInstances></MultipleInstances>
+
+        <Mandatory></Mandatory>
+
+        <Type></Type>
+
+        <RangeEnumeration></RangeEnumeration>
+
+        <Units></Units>
+
+        <Submitter>smartlogic.com</Submitter>
+
+        <Description></Description>
+
+      </Item>
+      <Item ID="6003">
+
+        <Name>Reserved</Name>
+
+        <Operations></Operations>
+
+        <MultipleInstances></MultipleInstances>
+
+        <Mandatory></Mandatory>
+
+        <Type></Type>
+
+        <RangeEnumeration></RangeEnumeration>
+
+        <Units></Units>
+
+        <Submitter>smartlogic.com</Submitter>
+
+        <Description></Description>
+
+      </Item>
+      <Item ID="6004">
+
+        <Name>Reserved</Name>
+
+        <Operations></Operations>
+
+        <MultipleInstances></MultipleInstances>
+
+        <Mandatory></Mandatory>
+
+        <Type></Type>
+
+        <RangeEnumeration></RangeEnumeration>
+
+        <Units></Units>
+
+        <Submitter>smartlogic.com</Submitter>
+
+        <Description></Description>
+
+      </Item>
+      <Item ID="6005">
+
+        <Name>Reserved</Name>
+
+        <Operations></Operations>
+
+        <MultipleInstances></MultipleInstances>
+
+        <Mandatory></Mandatory>
+
+        <Type></Type>
+
+        <RangeEnumeration></RangeEnumeration>
+
+        <Units></Units>
+
+        <Submitter>smartlogic.com</Submitter>
+
+        <Description></Description>
+
+      </Item>
+      <Item ID="6006">
+
+        <Name>Reserved</Name>
+
+        <Operations></Operations>
+
+        <MultipleInstances></MultipleInstances>
+
+        <Mandatory></Mandatory>
+
+        <Type></Type>
+
+        <RangeEnumeration></RangeEnumeration>
+
+        <Units></Units>
+
+        <Submitter>smartlogic.com</Submitter>
+
+        <Description></Description>
+
+      </Item>
+      <Item ID="6007">
+
+        <Name>Reserved</Name>
+
+        <Operations></Operations>
+
+        <MultipleInstances></MultipleInstances>
+
+        <Mandatory></Mandatory>
+
+        <Type></Type>
+
+        <RangeEnumeration></RangeEnumeration>
+
+        <Units></Units>
+
+        <Submitter>smartlogic.com</Submitter>
+
+        <Description></Description>
+
+      </Item>
+      <Item ID="6008">
+
+        <Name>Reserved</Name>
+
+        <Operations></Operations>
+
+        <MultipleInstances></MultipleInstances>
+
+        <Mandatory></Mandatory>
+
+        <Type></Type>
+
+        <RangeEnumeration></RangeEnumeration>
+
+        <Units></Units>
+
+        <Submitter>smartlogic.com</Submitter>
+
+        <Description></Description>
+
+      </Item>
+      <Item ID="6009">
+
+        <Name>Reserved</Name>
+
+        <Operations></Operations>
+
+        <MultipleInstances></MultipleInstances>
+
+        <Mandatory></Mandatory>
+
+        <Type></Type>
+
+        <RangeEnumeration></RangeEnumeration>
+
+        <Units></Units>
+
+        <Submitter>smartlogic.com</Submitter>
+
+        <Description></Description>
+
+      </Item>
+
+      <Item ID="6010">
+
+        <Name>Reserved</Name>
+
+        <Operations></Operations>
+
+        <MultipleInstances></MultipleInstances>
+
+        <Mandatory></Mandatory>
+
+        <Type></Type>
+
+        <RangeEnumeration></RangeEnumeration>
+
+        <Units></Units>
+
+        <Submitter>smartlogic.com</Submitter>
+
+        <Description></Description>
+
+      </Item>
+      <Item ID="6011">
+
+        <Name>Reserved</Name>
+
+        <Operations></Operations>
+
+        <MultipleInstances></MultipleInstances>
+
+        <Mandatory></Mandatory>
+
+        <Type></Type>
+
+        <RangeEnumeration></RangeEnumeration>
+
+        <Units></Units>
+
+        <Submitter>smartlogic.com</Submitter>
+
+        <Description></Description>
+
+      </Item>
+      <Item ID="6012">
+
+        <Name>Reserved</Name>
+
+        <Operations></Operations>
+
+        <MultipleInstances></MultipleInstances>
+
+        <Mandatory></Mandatory>
+
+        <Type></Type>
+
+        <RangeEnumeration></RangeEnumeration>
+
+        <Units></Units>
+
+        <Submitter>smartlogic.com</Submitter>
+
+        <Description></Description>
+
+      </Item>
+      <Item ID="6013">
+
+        <Name>Reserved</Name>
+
+        <Operations></Operations>
+
+        <MultipleInstances></MultipleInstances>
+
+        <Mandatory></Mandatory>
+
+        <Type></Type>
+
+        <RangeEnumeration></RangeEnumeration>
+
+        <Units></Units>
+
+        <Submitter>smartlogic.com</Submitter>
+
+        <Description></Description>
+
+      </Item>
+
+      <Item ID="6014">
+
+        <Name>Reserved</Name>
+
+        <Operations></Operations>
+
+        <MultipleInstances></MultipleInstances>
+
+        <Mandatory></Mandatory>
+
+        <Type></Type>
+
+        <RangeEnumeration></RangeEnumeration>
+
+        <Units></Units>
+
+        <Submitter>smartlogic.com</Submitter>
+
+        <Description></Description>
+
+      </Item>
+
+      <Item ID="6015">
+
+        <Name>Reserved</Name>
+
+        <Operations></Operations>
+
+        <MultipleInstances></MultipleInstances>
+
+        <Mandatory></Mandatory>
+
+        <Type></Type>
+
+        <RangeEnumeration></RangeEnumeration>
+
+        <Units></Units>
+
+        <Submitter>smartlogic.com</Submitter>
+
+        <Description></Description>
+
+      </Item>
+
+      <Item ID="6016">
+
+        <Name>Reserved</Name>
+
+        <Operations></Operations>
+
+        <MultipleInstances></MultipleInstances>
+
+        <Mandatory></Mandatory>
+
+        <Type></Type>
+
+        <RangeEnumeration></RangeEnumeration>
+
+        <Units></Units>
+
+        <Submitter>smartlogic.com</Submitter>
+
+        <Description></Description>
+
+      </Item>
+
+      <Item ID="6017">
+
+        <Name>Reserved</Name>
+
+        <Operations></Operations>
+
+        <MultipleInstances></MultipleInstances>
+
+        <Mandatory></Mandatory>
+
+        <Type></Type>
+
+        <RangeEnumeration></RangeEnumeration>
+
+        <Units></Units>
+
+        <Submitter>smartlogic.com</Submitter>
+
+        <Description></Description>
+
+      </Item>
+
+      <Item ID="6018">
+
+        <Name>Reserved</Name>
+
+        <Operations></Operations>
+
+        <MultipleInstances></MultipleInstances>
+
+        <Mandatory></Mandatory>
+
+        <Type></Type>
+
+        <RangeEnumeration></RangeEnumeration>
+
+        <Units></Units>
+
+        <Submitter>smartlogic.com</Submitter>
+
+        <Description></Description>
+
+      </Item>
+
+      <Item ID="6019">
+
+        <Name>Reserved</Name>
+
+        <Operations></Operations>
+
+        <MultipleInstances></MultipleInstances>
+
+        <Mandatory></Mandatory>
+
+        <Type></Type>
+
+        <RangeEnumeration></RangeEnumeration>
+
+        <Units></Units>
+
+        <Submitter>smartlogic.com</Submitter>
+
+        <Description></Description>
+
+      </Item>
+
+      <Item ID="6020">
+
+        <Name>Reserved</Name>
+
+        <Operations></Operations>
+
+        <MultipleInstances></MultipleInstances>
+
+        <Mandatory></Mandatory>
+
+        <Type></Type>
+
+        <RangeEnumeration></RangeEnumeration>
+
+        <Units></Units>
+
+        <Submitter>smartlogic.com</Submitter>
+
+        <Description></Description>
+
+      </Item>
+
+      <Item ID="6021">
+
+        <Name>Reserved</Name>
+
+        <Operations></Operations>
+
+        <MultipleInstances></MultipleInstances>
+
+        <Mandatory></Mandatory>
+
+        <Type></Type>
+
+        <RangeEnumeration></RangeEnumeration>
+
+        <Units></Units>
+
+        <Submitter>smartlogic.com</Submitter>
+
+        <Description></Description>
+
+      </Item>
+
+      <Item ID="6022">
+
+        <Name>Reserved</Name>
+
+        <Operations></Operations>
+
+        <MultipleInstances></MultipleInstances>
+
+        <Mandatory></Mandatory>
+
+        <Type></Type>
+
+        <RangeEnumeration></RangeEnumeration>
+
+        <Units></Units>
+
+        <Submitter>smartlogic.com</Submitter>
+
+        <Description></Description>
+
+      </Item>
+
+      <Item ID="6023">
+
+        <Name>Reserved</Name>
+
+        <Operations></Operations>
+
+        <MultipleInstances></MultipleInstances>
+
+        <Mandatory></Mandatory>
+
+        <Type></Type>
+
+        <RangeEnumeration></RangeEnumeration>
+
+        <Units></Units>
+
+        <Submitter>smartlogic.com</Submitter>
+
+        <Description></Description>
+
+      </Item>
+
+      <Item ID="6024">
+
+        <Name>Reserved</Name>
+
+        <Operations></Operations>
+
+        <MultipleInstances></MultipleInstances>
+
+        <Mandatory></Mandatory>
+
+        <Type></Type>
+
+        <RangeEnumeration></RangeEnumeration>
+
+        <Units></Units>
+
+        <Submitter>smartlogic.com</Submitter>
+
+        <Description></Description>
+
+      </Item>
+
+      <Item ID="6025">
+
+        <Name>Reserved</Name>
+
+        <Operations></Operations>
+
+        <MultipleInstances></MultipleInstances>
+
+        <Mandatory></Mandatory>
+
+        <Type></Type>
+
+        <RangeEnumeration></RangeEnumeration>
+
+        <Units></Units>
+
+        <Submitter>smartlogic.com</Submitter>
+
+        <Description></Description>
+
+      </Item>
+
+      <Item ID="6026">
+
+        <Name>Reserved</Name>
+
+        <Operations></Operations>
+
+        <MultipleInstances></MultipleInstances>
+
+        <Mandatory></Mandatory>
+
+        <Type></Type>
+
+        <RangeEnumeration></RangeEnumeration>
+
+        <Units></Units>
+
+        <Submitter>smartlogic.com</Submitter>
+
+        <Description></Description>
+
+      </Item>
+      
+
+      <Item ID="6027">
+
+        <Name>Reserved</Name>
+
+        <Operations></Operations>
+
+        <MultipleInstances></MultipleInstances>
+
+        <Mandatory></Mandatory>
+
+        <Type></Type>
+
+        <RangeEnumeration></RangeEnumeration>
+
+        <Units></Units>
+
+        <Submitter>smartlogic.com</Submitter>
+
+        <Description></Description>
+
+      </Item>
+
+      <Item ID="6028">
+
+        <Name>Reserved</Name>
+
+        <Operations></Operations>
+
+        <MultipleInstances></MultipleInstances>
+
+        <Mandatory></Mandatory>
+
+        <Type></Type>
+
+        <RangeEnumeration></RangeEnumeration>
+
+        <Units></Units>
+
+        <Submitter>smartlogic.com</Submitter>
+
+        <Description></Description>
+
+      </Item>
+
+      <Item ID="6029">
+
+        <Name>Reserved</Name>
+
+        <Operations></Operations>
+
+        <MultipleInstances></MultipleInstances>
+
+        <Mandatory></Mandatory>
+
+        <Type></Type>
+
+        <RangeEnumeration></RangeEnumeration>
+
+        <Units></Units>
+
+        <Submitter>smartlogic.com</Submitter>
+
+        <Description></Description>
+
+      </Item>
+
+      <Item ID="6030">
+
+        <Name>Reserved</Name>
+
+        <Operations></Operations>
+
+        <MultipleInstances></MultipleInstances>
+
+        <Mandatory></Mandatory>
+
+        <Type></Type>
+
+        <RangeEnumeration></RangeEnumeration>
+
+        <Units></Units>
+
+        <Submitter>smartlogic.com</Submitter>
+
+        <Description></Description>
+
+      </Item>
+
+      <Item ID="6031">
+
+        <Name>Reserved</Name>
+
+        <Operations></Operations>
+
+        <MultipleInstances></MultipleInstances>
+
+        <Mandatory></Mandatory>
+
+        <Type></Type>
+
+        <RangeEnumeration></RangeEnumeration>
+
+        <Units></Units>
+
+        <Submitter>smartlogic.com</Submitter>
+
+        <Description></Description>
+
+      </Item>
+
+    </Resources>
+
+    <Description2/>
+
+  </Object>
 
 </LWM2M>

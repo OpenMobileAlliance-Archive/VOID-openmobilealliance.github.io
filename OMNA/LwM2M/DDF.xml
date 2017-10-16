@@ -600,8 +600,8 @@
     <TSLink>0</TSLink>
 
   </Item>
-  
-   -<Item>
+
+  -<Item>
 
     <ObjectID>19</ObjectID>
 
@@ -632,6 +632,7 @@
   </Item>
   
    -<Item>
+
 
     <ObjectID>20</ObjectID>
 
@@ -2553,7 +2554,7 @@
 
   </Item>
 
- -<Item>
+  -<Item>
 
     <ObjectID>3349</ObjectID>
 
@@ -2582,8 +2583,8 @@
     <TSLink>1</TSLink>
 
   </Item>
-  
-   -<Item>
+
+  -<Item>
 
     <ObjectID>3350</ObjectID>
 
@@ -3066,8 +3067,8 @@
 
   </Item>
 
-  
-   <Item>
+
+  <Item>
 
     <ObjectID>10256</ObjectID>
 
@@ -3096,8 +3097,8 @@
     <TSLink></TSLink>
 
   </Item>
-  
-    <Item>
+
+  <Item>
 
     <ObjectID>10257</ObjectID>
 
@@ -3126,8 +3127,8 @@
     <TSLink></TSLink>
 
   </Item>
-  
-   <Item>
+
+  <Item>
 
     <ObjectID>10258</ObjectID>
 
@@ -3156,7 +3157,7 @@
     <TSLink></TSLink>
 
   </Item>
-     <Item>
+  <Item>
 
     <ObjectID>10259</ObjectID>
 
@@ -3185,8 +3186,8 @@
     <TSLink></TSLink>
 
   </Item>
-  
-       <Item>
+
+  <Item>
 
     <ObjectID>10260</ObjectID>
 
@@ -3209,6 +3210,756 @@
     <Vorto></Vorto>
 
     <DDFLink>1</DDFLink>
+
+    <TS></TS>
+
+    <TSLink></TSLink>
+
+  </Item>
+
+  <Item>
+
+    <ObjectID>10261</ObjectID>
+
+    <URN>urn:oma:lwm2m:x:10261</URN>
+
+    <Name>Reserved</Name>
+
+    <Description></Description>
+
+    <Owner>smartlogic</Owner>
+
+    <Source>2</Source>
+
+    <Ver/>
+
+    <DDF></DDF>
+
+    <LWM2M></LWM2M>
+
+    <Vorto></Vorto>
+
+    <DDFLink></DDFLink>
+
+    <TS></TS>
+
+    <TSLink></TSLink>
+
+  </Item>
+
+  <Item>
+
+    <ObjectID>10262</ObjectID>
+
+    <URN>urn:oma:lwm2m:x:10262</URN>
+
+    <Name>Reserved</Name>
+
+    <Description></Description>
+
+    <Owner>smartlogic</Owner>
+
+    <Source>2</Source>
+
+    <Ver/>
+
+    <DDF></DDF>
+
+    <LWM2M></LWM2M>
+
+    <Vorto></Vorto>
+
+    <DDFLink></DDFLink>
+
+    <TS></TS>
+
+    <TSLink></TSLink>
+
+  </Item>
+
+  <Item>
+
+    <ObjectID>10263</ObjectID>
+
+    <URN>urn:oma:lwm2m:x:10263</URN>
+
+    <Name>Reserved</Name>
+
+    <Description></Description>
+
+    <Owner>smartlogic</Owner>
+
+    <Source>2</Source>
+
+    <Ver/>
+
+    <DDF></DDF>
+
+    <LWM2M></LWM2M>
+
+    <Vorto></Vorto>
+
+    <DDFLink></DDFLink>
+
+    <TS></TS>
+
+    <TSLink></TSLink>
+
+  </Item>
+
+  <Item>
+
+    <ObjectID>10264</ObjectID>
+
+    <URN>urn:oma:lwm2m:x:10264</URN>
+
+    <Name>Reserved</Name>
+
+    <Description></Description>
+
+    <Owner>smartlogic</Owner>
+
+    <Source>2</Source>
+
+    <Ver/>
+
+    <DDF></DDF>
+
+    <LWM2M></LWM2M>
+
+    <Vorto></Vorto>
+
+    <DDFLink></DDFLink>
+
+    <TS></TS>
+
+    <TSLink></TSLink>
+
+  </Item>
+
+  <Item>
+
+    <ObjectID>10265</ObjectID>
+
+    <URN>urn:oma:lwm2m:x:10265</URN>
+
+    <Name>Reserved</Name>
+
+    <Description></Description>
+
+    <Owner>smartlogic</Owner>
+
+    <Source>2</Source>
+
+    <Ver/>
+
+    <DDF></DDF>
+
+    <LWM2M></LWM2M>
+
+    <Vorto></Vorto>
+
+    <DDFLink></DDFLink>
+
+    <TS></TS>
+
+    <TSLink></TSLink>
+
+  </Item>
+
+  <Item>
+
+    <ObjectID>10266</ObjectID>
+
+    <URN>urn:oma:lwm2m:x:10266</URN>
+
+    <Name>Reserved</Name>
+
+    <Description></Description>
+
+    <Owner>smartlogic</Owner>
+
+    <Source>2</Source>
+
+    <Ver/>
+
+    <DDF></DDF>
+
+    <LWM2M></LWM2M>
+
+    <Vorto></Vorto>
+
+    <DDFLink></DDFLink>
+
+    <TS></TS>
+
+    <TSLink></TSLink>
+
+  </Item>
+
+  <Item>
+
+    <ObjectID>10267</ObjectID>
+
+    <URN>urn:oma:lwm2m:x:10267</URN>
+
+    <Name>Reserved</Name>
+
+    <Description></Description>
+
+    <Owner>smartlogic</Owner>
+
+    <Source>2</Source>
+
+    <Ver/>
+
+    <DDF></DDF>
+
+    <LWM2M></LWM2M>
+
+    <Vorto></Vorto>
+
+    <DDFLink></DDFLink>
+
+    <TS></TS>
+
+    <TSLink></TSLink>
+
+  </Item>
+
+  <Item>
+
+    <ObjectID>10268</ObjectID>
+
+    <URN>urn:oma:lwm2m:x:10268</URN>
+
+    <Name>Reserved</Name>
+
+    <Description></Description>
+
+    <Owner>smartlogic</Owner>
+
+    <Source>2</Source>
+
+    <Ver/>
+
+    <DDF></DDF>
+
+    <LWM2M></LWM2M>
+
+    <Vorto></Vorto>
+
+    <DDFLink></DDFLink>
+
+    <TS></TS>
+
+    <TSLink></TSLink>
+
+  </Item>
+
+  <Item>
+
+    <ObjectID>10269</ObjectID>
+
+    <URN>urn:oma:lwm2m:x:10269</URN>
+
+    <Name>Reserved</Name>
+
+    <Description></Description>
+
+    <Owner>smartlogic</Owner>
+
+    <Source>2</Source>
+
+    <Ver/>
+
+    <DDF></DDF>
+
+    <LWM2M></LWM2M>
+
+    <Vorto></Vorto>
+
+    <DDFLink></DDFLink>
+
+    <TS></TS>
+
+    <TSLink></TSLink>
+
+  </Item>
+
+  <Item>
+
+    <ObjectID>10270</ObjectID>
+
+    <URN>urn:oma:lwm2m:x:10270</URN>
+
+    <Name>Reserved</Name>
+
+    <Description></Description>
+
+    <Owner>smartlogic</Owner>
+
+    <Source>2</Source>
+
+    <Ver/>
+
+    <DDF></DDF>
+
+    <LWM2M></LWM2M>
+
+    <Vorto></Vorto>
+
+    <DDFLink></DDFLink>
+
+    <TS></TS>
+
+    <TSLink></TSLink>
+
+  </Item>
+
+  <Item>
+
+    <ObjectID>10271</ObjectID>
+
+    <URN>urn:oma:lwm2m:x:10271</URN>
+
+    <Name>Reserved</Name>
+
+    <Description></Description>
+
+    <Owner>smartlogic</Owner>
+
+    <Source>2</Source>
+
+    <Ver/>
+
+    <DDF></DDF>
+
+    <LWM2M></LWM2M>
+
+    <Vorto></Vorto>
+
+    <DDFLink></DDFLink>
+
+    <TS></TS>
+
+    <TSLink></TSLink>
+
+  </Item>
+
+  <Item>
+
+    <ObjectID>10272</ObjectID>
+
+    <URN>urn:oma:lwm2m:x:10272</URN>
+
+    <Name>Reserved</Name>
+
+    <Description></Description>
+
+    <Owner>smartlogic</Owner>
+
+    <Source>2</Source>
+
+    <Ver/>
+
+    <DDF></DDF>
+
+    <LWM2M></LWM2M>
+
+    <Vorto></Vorto>
+
+    <DDFLink></DDFLink>
+
+    <TS></TS>
+
+    <TSLink></TSLink>
+
+  </Item>
+
+  <Item>
+
+    <ObjectID>10273</ObjectID>
+
+    <URN>urn:oma:lwm2m:x:10273</URN>
+
+    <Name>Reserved</Name>
+
+    <Description></Description>
+
+    <Owner>smartlogic</Owner>
+
+    <Source>2</Source>
+
+    <Ver/>
+
+    <DDF></DDF>
+
+    <LWM2M></LWM2M>
+
+    <Vorto></Vorto>
+
+    <DDFLink></DDFLink>
+
+    <TS></TS>
+
+    <TSLink></TSLink>
+
+  </Item>
+
+  <Item>
+
+    <ObjectID>10274</ObjectID>
+
+    <URN>urn:oma:lwm2m:x:10274</URN>
+
+    <Name>Reserved</Name>
+
+    <Description></Description>
+
+    <Owner>smartlogic</Owner>
+
+    <Source>2</Source>
+
+    <Ver/>
+
+    <DDF></DDF>
+
+    <LWM2M></LWM2M>
+
+    <Vorto></Vorto>
+
+    <DDFLink></DDFLink>
+
+    <TS></TS>
+
+    <TSLink></TSLink>
+
+  </Item>
+
+  <Item>
+
+    <ObjectID>10275</ObjectID>
+
+    <URN>urn:oma:lwm2m:x:10275</URN>
+
+    <Name>Reserved</Name>
+
+    <Description></Description>
+
+    <Owner>smartlogic</Owner>
+
+    <Source>2</Source>
+
+    <Ver/>
+
+    <DDF></DDF>
+
+    <LWM2M></LWM2M>
+
+    <Vorto></Vorto>
+
+    <DDFLink></DDFLink>
+
+    <TS></TS>
+
+    <TSLink></TSLink>
+
+  </Item>
+
+  <Item>
+
+    <ObjectID>10276</ObjectID>
+
+    <URN>urn:oma:lwm2m:x:10276</URN>
+
+    <Name>Reserved</Name>
+
+    <Description></Description>
+
+    <Owner>smartlogic</Owner>
+
+    <Source>2</Source>
+
+    <Ver/>
+
+    <DDF></DDF>
+
+    <LWM2M></LWM2M>
+
+    <Vorto></Vorto>
+
+    <DDFLink></DDFLink>
+
+    <TS></TS>
+
+    <TSLink></TSLink>
+
+  </Item>
+
+  <Item>
+
+    <ObjectID>10277</ObjectID>
+
+    <URN>urn:oma:lwm2m:x:10277</URN>
+
+    <Name>Reserved</Name>
+
+    <Description></Description>
+
+    <Owner>smartlogic</Owner>
+
+    <Source>2</Source>
+
+    <Ver/>
+
+    <DDF></DDF>
+
+    <LWM2M></LWM2M>
+
+    <Vorto></Vorto>
+
+    <DDFLink></DDFLink>
+
+    <TS></TS>
+
+    <TSLink></TSLink>
+
+  </Item>
+
+  <Item>
+
+    <ObjectID>10278</ObjectID>
+
+    <URN>urn:oma:lwm2m:x:10278</URN>
+
+    <Name>Reserved</Name>
+
+    <Description></Description>
+
+    <Owner>smartlogic</Owner>
+
+    <Source>2</Source>
+
+    <Ver/>
+
+    <DDF></DDF>
+
+    <LWM2M></LWM2M>
+
+    <Vorto></Vorto>
+
+    <DDFLink></DDFLink>
+
+    <TS></TS>
+
+    <TSLink></TSLink>
+
+  </Item>
+
+  <Item>
+
+    <ObjectID>10279</ObjectID>
+
+    <URN>urn:oma:lwm2m:x:10279</URN>
+
+    <Name>Reserved</Name>
+
+    <Description></Description>
+
+    <Owner>smartlogic</Owner>
+
+    <Source>2</Source>
+
+    <Ver/>
+
+    <DDF></DDF>
+
+    <LWM2M></LWM2M>
+
+    <Vorto></Vorto>
+
+    <DDFLink></DDFLink>
+
+    <TS></TS>
+
+    <TSLink></TSLink>
+
+  </Item>
+
+  <Item>
+
+    <ObjectID>10280</ObjectID>
+
+    <URN>urn:oma:lwm2m:x:10280</URN>
+
+    <Name>Reserved</Name>
+
+    <Description></Description>
+
+    <Owner>smartlogic</Owner>
+
+    <Source>2</Source>
+
+    <Ver/>
+
+    <DDF></DDF>
+
+    <LWM2M></LWM2M>
+
+    <Vorto></Vorto>
+
+    <DDFLink></DDFLink>
+
+    <TS></TS>
+
+    <TSLink></TSLink>
+
+  </Item>
+
+  <Item>
+
+    <ObjectID>10281</ObjectID>
+
+    <URN>urn:oma:lwm2m:x:10281</URN>
+
+    <Name>Reserved</Name>
+
+    <Description></Description>
+
+    <Owner>smartlogic</Owner>
+
+    <Source>2</Source>
+
+    <Ver/>
+
+    <DDF></DDF>
+
+    <LWM2M></LWM2M>
+
+    <Vorto></Vorto>
+
+    <DDFLink></DDFLink>
+
+    <TS></TS>
+
+    <TSLink></TSLink>
+
+  </Item>
+
+  <Item>
+
+    <ObjectID>10282</ObjectID>
+
+    <URN>urn:oma:lwm2m:x:10282</URN>
+
+    <Name>Reserved</Name>
+
+    <Description></Description>
+
+    <Owner>smartlogic</Owner>
+
+    <Source>2</Source>
+
+    <Ver/>
+
+    <DDF></DDF>
+
+    <LWM2M></LWM2M>
+
+    <Vorto></Vorto>
+
+    <DDFLink></DDFLink>
+
+    <TS></TS>
+
+    <TSLink></TSLink>
+
+  </Item>
+
+  <Item>
+
+    <ObjectID>10283</ObjectID>
+
+    <URN>urn:oma:lwm2m:x:10283</URN>
+
+    <Name>Reserved</Name>
+
+    <Description></Description>
+
+    <Owner>smartlogic</Owner>
+
+    <Source>2</Source>
+
+    <Ver/>
+
+    <DDF></DDF>
+
+    <LWM2M></LWM2M>
+
+    <Vorto></Vorto>
+
+    <DDFLink></DDFLink>
+
+    <TS></TS>
+
+    <TSLink></TSLink>
+
+  </Item>
+
+  <Item>
+
+    <ObjectID>10284</ObjectID>
+
+    <URN>urn:oma:lwm2m:x:10284</URN>
+
+    <Name>Reserved</Name>
+
+    <Description></Description>
+
+    <Owner>smartlogic</Owner>
+
+    <Source>2</Source>
+
+    <Ver/>
+
+    <DDF></DDF>
+
+    <LWM2M></LWM2M>
+
+    <Vorto></Vorto>
+
+    <DDFLink></DDFLink>
+
+    <TS></TS>
+
+    <TSLink></TSLink>
+
+  </Item>
+
+  <Item>
+
+    <ObjectID>10285</ObjectID>
+
+    <URN>urn:oma:lwm2m:x:10285</URN>
+
+    <Name>Reserved</Name>
+
+    <Description></Description>
+
+    <Owner>smartlogic</Owner>
+
+    <Source>2</Source>
+
+    <Ver/>
+
+    <DDF></DDF>
+
+    <LWM2M></LWM2M>
+
+    <Vorto></Vorto>
+
+    <DDFLink></DDFLink>
 
     <TS></TS>
 
