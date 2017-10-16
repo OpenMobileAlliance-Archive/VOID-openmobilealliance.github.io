@@ -3335,28 +3335,7 @@ First instance describes the least significant bit, second instance the second l
         <Description></Description>
 
       </Item>
-
-      <Item ID="6027">
-
-        <Name>Reserved</Name>
-
-        <Operations></Operations>
-
-        <MultipleInstances></MultipleInstances>
-
-        <Mandatory></Mandatory>
-
-        <Type></Type>
-
-        <RangeEnumeration></RangeEnumeration>
-
-        <Units></Units>
-
-        <Submitter>smartlogic.com</Submitter>
-
-        <Description></Description>
-
-      </Item>
+      
 
       <Item ID="6027">
 
