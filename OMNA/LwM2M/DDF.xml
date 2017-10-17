@@ -630,8 +630,8 @@
     <TSLink>0</TSLink>
 
   </Item>
-  
-   -<Item>
+
+  -<Item>
 
 
     <ObjectID>20</ObjectID>
@@ -3239,7 +3239,7 @@
 
     <Vorto></Vorto>
 
-    <DDFLink></DDFLink>
+    <DDFLink>1</DDFLink>
 
     <TS></TS>
 
@@ -3253,9 +3253,9 @@
 
     <URN>urn:oma:lwm2m:x:10262</URN>
 
-    <Name>Reserved</Name>
+    <Name>Interval Data Delivery</Name>
 
-    <Description></Description>
+    <Description>The Interval Data Delivery object provides an optimised means for managing the delivery of interval data from multiple Interval Data Object instances. </Description>
 
     <Owner>smartlogic</Owner>
 
@@ -3263,13 +3263,13 @@
 
     <Ver/>
 
-    <DDF></DDF>
+    <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/10262.xml</DDF>
 
-    <LWM2M></LWM2M>
+    <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F10262.xml</LWM2M>
 
     <Vorto></Vorto>
 
-    <DDFLink></DDFLink>
+    <DDFLink>1</DDFLink>
 
     <TS></TS>
 
@@ -3283,9 +3283,9 @@
 
     <URN>urn:oma:lwm2m:x:10263</URN>
 
-    <Name>Reserved</Name>
+    <Name>Event Data Delivery</Name>
 
-    <Description></Description>
+    <Description>The Event Data Delivery object provides a simple means for managing the delivery of event data from multiple Event Data Object instances.</Description>
 
     <Owner>smartlogic</Owner>
 
@@ -3293,13 +3293,13 @@
 
     <Ver/>
 
-    <DDF></DDF>
+    <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/10263.xml</DDF>
 
-    <LWM2M></LWM2M>
+    <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F10263.xml</LWM2M>
 
     <Vorto></Vorto>
 
-    <DDFLink></DDFLink>
+    <DDFLink>1</DDFLink>
 
     <TS></TS>
 
@@ -3313,9 +3313,9 @@
 
     <URN>urn:oma:lwm2m:x:10264</URN>
 
-    <Name>Reserved</Name>
+    <Name>Delivery Schedule</Name>
 
-    <Description></Description>
+    <Description>The Delivery Schedule object provides a means for controlling the periodic delivery of interval and event data to the LwM2M server.</Description>
 
     <Owner>smartlogic</Owner>
 
@@ -3323,29 +3323,29 @@
 
     <Ver/>
 
-    <DDF></DDF>
+    <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/10264.xml</DDF>
 
-    <LWM2M></LWM2M>
+    <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F10264.xml</LWM2M>
 
     <Vorto></Vorto>
 
-    <DDFLink></DDFLink>
+    <DDFLink>1</DDFLink>
 
     <TS></TS>
 
     <TSLink></TSLink>
 
   </Item>
-
+  
   <Item>
 
     <ObjectID>10265</ObjectID>
 
     <URN>urn:oma:lwm2m:x:10265</URN>
 
-    <Name>Reserved</Name>
+    <Name>Leakage Detection Configuration</Name>
 
-    <Description></Description>
+    <Description>The leakage detection configuration object provides a means for configuring the timing and sampling frequency of a vibration based network leak detector</Description>
 
     <Owner>smartlogic</Owner>
 
@@ -3353,13 +3353,13 @@
 
     <Ver/>
 
-    <DDF></DDF>
+    <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/10265.xml</DDF>
 
-    <LWM2M></LWM2M>
+    <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F10265.xml</LWM2M>
 
     <Vorto></Vorto>
 
-    <DDFLink></DDFLink>
+    <DDFLink>1</DDFLink>
 
     <TS></TS>
 
@@ -3373,9 +3373,9 @@
 
     <URN>urn:oma:lwm2m:x:10266</URN>
 
-    <Name>Reserved</Name>
+    <Name>Water Flow Readings</Name>
 
-    <Description></Description>
+    <Description>Measures the flow of water in regular intervals</Description>
 
     <Owner>smartlogic</Owner>
 
@@ -3383,13 +3383,13 @@
 
     <Ver/>
 
-    <DDF></DDF>
+    <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/10266.xml</DDF>
 
-    <LWM2M></LWM2M>
+    <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F10266.xml</LWM2M>
 
     <Vorto></Vorto>
 
-    <DDFLink></DDFLink>
+    <DDFLink>1</DDFLink>
 
     <TS></TS>
 
@@ -3403,9 +3403,9 @@
 
     <URN>urn:oma:lwm2m:x:10267</URN>
 
-    <Name>Reserved</Name>
+    <Name>Daily Maximum Flow Rate Readings</Name>
 
-    <Description></Description>
+    <Description>Measures the maximum flow rate and its time stamp for specified period</Description>
 
     <Owner>smartlogic</Owner>
 
@@ -3413,13 +3413,13 @@
 
     <Ver/>
 
-    <DDF></DDF>
+    <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/10267.xml</DDF>
 
-    <LWM2M></LWM2M>
+    <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F10267.xml</LWM2M>
 
     <Vorto></Vorto>
 
-    <DDFLink></DDFLink>
+    <DDFLink>1</DDFLink>
 
     <TS></TS>
 
@@ -3433,9 +3433,9 @@
 
     <URN>urn:oma:lwm2m:x:10268</URN>
 
-    <Name>Reserved</Name>
+    <Name>Temperature Readings</Name>
 
-    <Description></Description>
+    <Description>Periodic temperature measurements</Description>
 
     <Owner>smartlogic</Owner>
 
@@ -3443,13 +3443,13 @@
 
     <Ver/>
 
-    <DDF></DDF>
+    <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/10268.xml</DDF>
 
-    <LWM2M></LWM2M>
+    <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F10268.xml</LWM2M>
 
     <Vorto></Vorto>
 
-    <DDFLink></DDFLink>
+    <DDFLink>1</DDFLink>
 
     <TS></TS>
 
@@ -3463,9 +3463,9 @@
 
     <URN>urn:oma:lwm2m:x:10269</URN>
 
-    <Name>Reserved</Name>
+    <Name>Pressure Readings</Name>
 
-    <Description></Description>
+    <Description>Periodic pressure measurements</Description>
 
     <Owner>smartlogic</Owner>
 
@@ -3473,13 +3473,13 @@
 
     <Ver/>
 
-    <DDF></DDF>
+    <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/10269.xml</DDF>
 
-    <LWM2M></LWM2M>
+    <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F10269.xml</LWM2M>
 
     <Vorto></Vorto>
 
-    <DDFLink></DDFLink>
+    <DDFLink>1</DDFLink>
 
     <TS></TS>
 
@@ -3493,9 +3493,9 @@
 
     <URN>urn:oma:lwm2m:x:10270</URN>
 
-    <Name>Reserved</Name>
+    <Name>Battery Level Readings</Name>
 
-    <Description></Description>
+    <Description>Periodic battery level measurements</Description>
 
     <Owner>smartlogic</Owner>
 
@@ -3503,13 +3503,13 @@
 
     <Ver/>
 
-    <DDF></DDF>
+    <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/10270.xml</DDF>
 
-    <LWM2M></LWM2M>
+    <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F10270.xml</LWM2M>
 
     <Vorto></Vorto>
 
-    <DDFLink></DDFLink>
+    <DDFLink>1</DDFLink>
 
     <TS></TS>
 
@@ -3523,9 +3523,9 @@
 
     <URN>urn:oma:lwm2m:x:10271</URN>
 
-    <Name>Reserved</Name>
+    <Name>Communications Activity Time Readings</Name>
 
-    <Description></Description>
+    <Description>Measures the total duration that the meter was activating its radio for packet transmission or receipt for the period. Used to monitor for excess poower usage over time.</Description>
 
     <Owner>smartlogic</Owner>
 
@@ -3533,13 +3533,13 @@
 
     <Ver/>
 
-    <DDF></DDF>
+    <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/10271.xml</DDF>
 
-    <LWM2M></LWM2M>
+    <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F10271.xml</LWM2M>
 
     <Vorto></Vorto>
 
-    <DDFLink></DDFLink>
+    <DDFLink>1</DDFLink>
 
     <TS></TS>
 
@@ -3553,9 +3553,9 @@
 
     <URN>urn:oma:lwm2m:x:10272</URN>
 
-    <Name>Reserved</Name>
+    <Name>Water Meter Customer Leakage Alarm</Name>
 
-    <Description></Description>
+    <Description>A binary flag indicating continual usage (e.g. greater than 5 L/h for 24 hours and the flow never returning to zero at any time).</Description>
 
     <Owner>smartlogic</Owner>
 
@@ -3563,13 +3563,13 @@
 
     <Ver/>
 
-    <DDF></DDF>
+    <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/10272.xml</DDF>
 
-    <LWM2M></LWM2M>
+    <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F10272.xml</LWM2M>
 
     <Vorto></Vorto>
 
-    <DDFLink></DDFLink>
+    <DDFLink>1</DDFLink>
 
     <TS></TS>
 
@@ -3583,9 +3583,9 @@
 
     <URN>urn:oma:lwm2m:x:10273</URN>
 
-    <Name>Reserved</Name>
+    <Name>Water Meter Reverse Flow Alarm</Name>
 
-    <Description></Description>
+    <Description>An alarm indicating reverse flow through the pipe. Also supports delivery of the approximate volume of water flowing in the reverse direction in the preceding period.</Description>
 
     <Owner>smartlogic</Owner>
 
@@ -3593,13 +3593,13 @@
 
     <Ver/>
 
-    <DDF></DDF>
+    <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/10273.xml</DDF>
 
-    <LWM2M></LWM2M>
+    <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F10273.xml</LWM2M>
 
     <Vorto></Vorto>
 
-    <DDFLink></DDFLink>
+    <DDFLink>1</DDFLink>
 
     <TS></TS>
 
@@ -3613,9 +3613,9 @@
 
     <URN>urn:oma:lwm2m:x:10274</URN>
 
-    <Name>Reserved</Name>
+    <Name>Water Meter Empty Pipe Alarm</Name>
 
-    <Description></Description>
+    <Description>An alarm when meter detects there is no liquid in the pipe</Description>
 
     <Owner>smartlogic</Owner>
 
@@ -3623,13 +3623,13 @@
 
     <Ver/>
 
-    <DDF></DDF>
+    <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/10274.xml</DDF>
 
-    <LWM2M></LWM2M>
+    <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F10274.xml</LWM2M>
 
     <Vorto></Vorto>
 
-    <DDFLink></DDFLink>
+    <DDFLink>1</DDFLink>
 
     <TS></TS>
 
@@ -3643,9 +3643,11 @@
 
     <URN>urn:oma:lwm2m:x:10275</URN>
 
-    <Name>Reserved</Name>
+    <Name>Water Meter Tamper Alarm</Name>
 
-    <Description></Description>
+    <Description>Detects interference from strong magnetic field or other electrical sources. If this is not relevant for 
+    ultrasonic meters then the tamper alarm may be used to 
+    indicate someone attempting to open the physical enclosure or other options the manufacturer may present.</Description>
 
     <Owner>smartlogic</Owner>
 
@@ -3653,13 +3655,13 @@
 
     <Ver/>
 
-    <DDF></DDF>
+    <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/10275.xml</DDF>
 
-    <LWM2M></LWM2M>
+    <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F10275.xml</LWM2M>
 
     <Vorto></Vorto>
 
-    <DDFLink></DDFLink>
+    <DDFLink>1</DDFLink>
 
     <TS></TS>
 
@@ -3673,9 +3675,9 @@
 
     <URN>urn:oma:lwm2m:x:10276</URN>
 
-    <Name>Reserved</Name>
+    <Name>Water Meter High Pressure Alarm</Name>
 
-    <Description></Description>
+    <Description>Where supported by the meter this is an alarm that should be raised if the meter detects pressure above a pre-configured threshold.</Description>
 
     <Owner>smartlogic</Owner>
 
@@ -3683,13 +3685,13 @@
 
     <Ver/>
 
-    <DDF></DDF>
+    <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/10276.xml</DDF>
 
-    <LWM2M></LWM2M>
+    <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F10276.xml</LWM2M>
 
     <Vorto></Vorto>
 
-    <DDFLink></DDFLink>
+    <DDFLink>1</DDFLink>
 
     <TS></TS>
 
@@ -3703,9 +3705,9 @@
 
     <URN>urn:oma:lwm2m:x:10277</URN>
 
-    <Name>Reserved</Name>
+    <Name>Water Meter Low Pressure Alarm</Name>
 
-    <Description></Description>
+    <Description>Where supported by the meter this is an alarm that should be raised if the meter detects pressure below a pre-configured threshold.</Description>
 
     <Owner>smartlogic</Owner>
 
@@ -3713,13 +3715,13 @@
 
     <Ver/>
 
-    <DDF></DDF>
+    <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/10277.xml</DDF>
 
-    <LWM2M></LWM2M>
+    <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F10277.xml</LWM2M>
 
     <Vorto></Vorto>
 
-    <DDFLink></DDFLink>
+    <DDFLink>1</DDFLink>
 
     <TS></TS>
 
@@ -3733,9 +3735,10 @@
 
     <URN>urn:oma:lwm2m:x:10278</URN>
 
-    <Name>Reserved</Name>
+    <Name>High Temperature Alarm</Name>
 
-    <Description></Description>
+    <Description>Where supported by the meter this is an alarm that should be raised if the meter detects temperature above a pre-configured threshold. 
+    When the temperature drops below the clear threshold, the alarm should be cleared.</Description>
 
     <Owner>smartlogic</Owner>
 
@@ -3743,13 +3746,13 @@
 
     <Ver/>
 
-    <DDF></DDF>
+    <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/10278.xml</DDF>
 
-    <LWM2M></LWM2M>
+    <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F10278.xml</LWM2M>
 
     <Vorto></Vorto>
 
-    <DDFLink></DDFLink>
+    <DDFLink>1</DDFLink>
 
     <TS></TS>
 
@@ -3763,9 +3766,10 @@
 
     <URN>urn:oma:lwm2m:x:10279</URN>
 
-    <Name>Reserved</Name>
+    <Name>Low Temperature Alarm</Name>
 
-    <Description></Description>
+    <Description>Where supported by the meter this is an alarm that should be raised if the meter detects temperature below a pre-configured threshold. 
+    When the temperature rises above the clear threshold, the alarm should be cleared</Description>
 
     <Owner>smartlogic</Owner>
 
@@ -3773,13 +3777,13 @@
 
     <Ver/>
 
-    <DDF></DDF>
+    <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/10279.xml</DDF>
 
-    <LWM2M></LWM2M>
+    <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F10279.xml</LWM2M>
 
     <Vorto></Vorto>
 
-    <DDFLink></DDFLink>
+    <DDFLink>1</DDFLink>
 
     <TS></TS>
 
@@ -3793,9 +3797,11 @@
 
     <URN>urn:oma:lwm2m:x:10280</URN>
 
-    <Name>Reserved</Name>
+    <Name>Water Network Leak Alarm</Name>
 
-    <Description></Description>
+    <Description>All meters must support the following default configuration. This alarm will be based on the frequency 
+    output of the vibration sensor/accelerometer on the SEW Daughter board. When a frequency is identified that has the 
+    characteristics of an upstream network leak, and its amplitude is above the defined threshold, the meter will report this as a network leak alarm.</Description>
 
     <Owner>smartlogic</Owner>
 
@@ -3803,13 +3809,13 @@
 
     <Ver/>
 
-    <DDF></DDF>
+    <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/10280.xml</DDF>
 
-    <LWM2M></LWM2M>
+    <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F10280.xml</LWM2M>
 
     <Vorto></Vorto>
 
-    <DDFLink></DDFLink>
+    <DDFLink>1</DDFLink>
 
     <TS></TS>
 
@@ -3823,9 +3829,9 @@
 
     <URN>urn:oma:lwm2m:x:10281</URN>
 
-    <Name>Reserved</Name>
+    <Name>Low Battery Alarm</Name>
 
-    <Description></Description>
+    <Description>This Alarm is raised when the battery voltage drops below a defined level</Description>
 
     <Owner>smartlogic</Owner>
 
@@ -3833,13 +3839,13 @@
 
     <Ver/>
 
-    <DDF></DDF>
+    <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/10281.xml</DDF>
 
-    <LWM2M></LWM2M>
+    <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F10281.xml</LWM2M>
 
     <Vorto></Vorto>
 
-    <DDFLink></DDFLink>
+    <DDFLink>1</DDFLink>
 
     <TS></TS>
 
@@ -3853,9 +3859,9 @@
 
     <URN>urn:oma:lwm2m:x:10282</URN>
 
-    <Name>Reserved</Name>
+    <Name>Daughter Board Failure Alarm</Name>
 
-    <Description></Description>
+    <Description>This binary status should indicate that the meter MCU can no longer communicate with a daughter board</Description>
 
     <Owner>smartlogic</Owner>
 
@@ -3863,13 +3869,13 @@
 
     <Ver/>
 
-    <DDF></DDF>
+    <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/10282.xml</DDF>
 
-    <LWM2M></LWM2M>
+    <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F10282.xml</LWM2M>
 
     <Vorto></Vorto>
 
-    <DDFLink></DDFLink>
+    <DDFLink>1</DDFLink>
 
     <TS></TS>
 
@@ -3883,9 +3889,9 @@
 
     <URN>urn:oma:lwm2m:x:10283</URN>
 
-    <Name>Reserved</Name>
+    <Name>Device Reboot Event</Name>
 
-    <Description></Description>
+    <Description>This binary status should indicate that the meter MCU can no longer communicate with a daughter board</Description>
 
     <Owner>smartlogic</Owner>
 
@@ -3893,13 +3899,13 @@
 
     <Ver/>
 
-    <DDF></DDF>
+    <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/10283.xml</DDF>
 
-    <LWM2M></LWM2M>
+    <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F10283.xml</LWM2M>
 
     <Vorto></Vorto>
 
-    <DDFLink></DDFLink>
+    <DDFLink>1</DDFLink>
 
     <TS></TS>
 
@@ -3913,9 +3919,9 @@
 
     <URN>urn:oma:lwm2m:x:10284</URN>
 
-    <Name>Reserved</Name>
+    <Name>Time Synchronisation Event</Name>
 
-    <Description></Description>
+    <Description>This event records the fact that the device has rebooted</Description>
 
     <Owner>smartlogic</Owner>
 
@@ -3923,13 +3929,13 @@
 
     <Ver/>
 
-    <DDF></DDF>
+    <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/10284.xml</DDF>
 
-    <LWM2M></LWM2M>
+    <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F10284.xml</LWM2M>
 
     <Vorto></Vorto>
 
-    <DDFLink></DDFLink>
+    <DDFLink>1</DDFLink>
 
     <TS></TS>
 
@@ -3959,7 +3965,7 @@
 
     <Vorto></Vorto>
 
-    <DDFLink></DDFLink>
+    <DDFLink>1</DDFLink>
 
     <TS></TS>
 
