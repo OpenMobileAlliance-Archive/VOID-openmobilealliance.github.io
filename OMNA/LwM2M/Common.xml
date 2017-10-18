@@ -2753,783 +2753,726 @@ First instance describes the least significant bit, second instance the second l
 
       </Item>
 
-      -<Item ID="6000">
+    <Item ID="6000">
 
-        <Name>Interval Period</Name>
+<Name>Interval Period</Name>
 
-        <Operations>R</Operations>
+<Operations>R</Operations>
 
-        <MultipleInstances>Single</MultipleInstances>
+<MultipleInstances>Single</MultipleInstances>
 
-        <Mandatory>Yes</Mandatory>
+<Mandatory>Mandatory</Mandatory>
 
-        <Type>Integer</Type>
+<Type>Integer</Type>
 
-        <RangeEnumeration>1-864000</RangeEnumeration>
+<RangeEnumeration>1-864000</RangeEnumeration>
 
-        <Units>Seconds</Units>
+<Units>Seconds</Units>
 
-        <Submitter>smartlogic.com</Submitter>
+<Description>
 
-        <Description>The Interval Period resource is an Integer value representing the width in seconds of the intervals being managed by this 
-        interval data object. This resource is read only and can only be changed by resource 11 (Change Interval Configuration). 
-        It is recommended that the Interval Period be set to a devisor of 24 hours 
-        (86400 seconds) to provide a consistent interval period. Examples of Interval Period include:- 30 = Every 30 seconds 
-        600 = Every 10 minutes 1800 = Every 30 minutes 3600 = Hourly 7200 = Every 2 hours 14400 = Every 4 hours 43200 = Every 12 hours 86400 = Every Day 172600 = Every Second Day</Description>
+<![CDATA[The Interval Period resource is an Integer value representing the width in seconds of the intervals being managed by this interval data object. This resource is read only and can only be changed by resource 11 (Change Interval Configuration). It is recommended that the Interval Period be set to a devisor of 24 hours (86400 seconds) to provide a consistent interval period. Examples of Interval Period include:- 30 = Every 30 seconds 600 = Every 10 minutes 1800 = Every 30 minutes 3600 = Hourly 7200 = Every 2 hours 14400 = Every 4 hours 43200 = Every 12 hours 86400 = Every Day 172600 = Every Second Day]]>
 
-      </Item>
+</Description>
 
-      -<Item ID="6001">
+</Item>
 
-        <Name>Interval Start Offset</Name>
+<Item ID="6001">
 
-        <Operations>R</Operations>
+<Name>Interval Start Offset</Name>
 
-        <MultipleInstances>Single</MultipleInstances>
+<Operations>R</Operations>
 
-        <Mandatory>No</Mandatory>
+<MultipleInstances>Single</MultipleInstances>
 
-        <Type>Integer</Type>
+<Mandatory>Optional</Mandatory>
 
-        <RangeEnumeration>0-86399</RangeEnumeration>
+<Type>Integer</Type>
 
-        <Units>Seconds</Units>
+<RangeEnumeration>0-86399</RangeEnumeration>
 
-        <Submitter>smartlogic.com</Submitter>
+<Units>Seconds</Units>
 
-        <Description>The Interval Start Offset resource is a read only resource representing the number of seconds past midnight for which 
-        the first interval is recorded. If this resource is empty, it is assumed that the intervals are midnight aligned. This can be used to 
-        adjust interval boundaries. As an example, an Interval Period of 3600 seconds and an Interval Start time of 300 represents hourly interval data, starting at 00:05.</Description>
+<Description>
 
-      </Item>
-      -<Item ID="6002">
+<![CDATA[The Interval Start Offset resource is a read only resource representing the number of seconds past midnight for which the first interval is recorded. If this resource is empty, it is assumed that the intervals are midnight aligned. This can be used to adjust interval boundaries. As an example, an Interval Period of 3600 seconds and an Interval Start time of 300 represents hourly interval data, starting at 00:05.]]>
 
-        <Name>Interval UTC Offset</Name>
+</Description>
 
-        <Operations>R</Operations>
+</Item>
 
-        <MultipleInstances>Single</MultipleInstances>
+<Item ID="6002">
 
-        <Mandatory>No</Mandatory>
+<Name>Interval UTC Offset</Name>
 
-        <Type>String</Type>
+<Operations>R</Operations>
 
-        <RangeEnumeration></RangeEnumeration>
+<MultipleInstances>Single</MultipleInstances>
 
-        <Units></Units>
+<Mandatory>Optional</Mandatory>
 
-        <Submitter>smartlogic.com</Submitter>
+<Type>String</Type>
 
-        <Description>The Interval UTC Offset resource is a read only resource representing the time zone offset for this Interval Data instance. If this resource is empty, 
-        the application should use the UTC offset provided in the Device [/3/0/14] object instance resource or UTC if not provided. UTC+X [ISO 8601].</Description>
+<RangeEnumeration/>
 
-      </Item>
-      <Item ID="6003">
+<Units/>
 
-        <Name>Interval Collection Start Time</Name>
+<Description>
 
-        <Operations>R</Operations>
+<![CDATA[The Interval UTC Offset resource is a read only resource representing the time zone offset for this Interval Data instance. If this resource is empty, the application should use the UTC offset provided in the Device [/3/0/14] object instance resource or UTC if not provided. UTC+X [ISO 8601].]]>
 
-        <MultipleInstances>Single</MultipleInstances>
+</Description>
 
-        <Mandatory>Yes</Mandatory>
+</Item>
 
-        <Type>Time</Type>
+<Item ID="6003">
 
-        <RangeEnumeration></RangeEnumeration>
+<Name>Interval Collection Start Time</Name>
 
-        <Units></Units>
+<Operations>R</Operations>
 
-        <Submitter>smartlogic.com</Submitter>
+<MultipleInstances>Single</MultipleInstances>
 
-        <Description>The Collection Start Time resource is a read only resource representing the time when the first interval was recorded on the device. Interval times represent the end of the interval, not the beginning. 
-        As an example, the first four hourly interval past midnight will have a timestamp of 04:00 (adjusting for UTC offset).</Description>
+<Mandatory>Mandatory</Mandatory>
 
-      </Item>
-      
-      <Item ID="6004">
+<Type>Time</Type>
 
-        <Name>Oldest Recorded Interval</Name>
+<RangeEnumeration/>
 
-        <Operations>R</Operations>
+<Units/>
 
-        <MultipleInstances>Single</MultipleInstances>
+<Description>
 
-        <Mandatory>Yes</Mandatory>
+<![CDATA[The Collection Start Time resource is a read only resource representing the time when the first interval was recorded on the device. Interval times represent the end of the interval, not the beginning. As an example, the first four hourly interval past midnight will have a timestamp of 04:00 (adjusting for UTC offset). ]]>
 
-        <Type>Time</Type>
+</Description>
 
-        <RangeEnumeration></RangeEnumeration>
+</Item>
 
-        <Units></Units>
+<Item ID="6004">
 
-        <Submitter>smartlogic.com</Submitter>
+<Name>Oldest Recorded Interval</Name>
 
-        <Description>The Oldest Recorded Interval resource is a read-only 
-        resource representing the oldest available interval on the device. Interval times represent the end of the interval, not the beginning.</Description>
+<Operations>R</Operations>
 
-      </Item>
-      
-      <Item ID="6005">
+<MultipleInstances>Single</MultipleInstances>
 
-        <Name>Last Delivered Interval</Name>
+<Mandatory>Mandatory</Mandatory>
 
-        <Operations>RW</Operations>
+<Type>Time</Type>
 
-        <MultipleInstances>Single</MultipleInstances>
+<RangeEnumeration/>
 
-        <Mandatory>No</Mandatory>
+<Units/>
 
-        <Type>Time</Type>
+<Description>
 
-        <RangeEnumeration></RangeEnumeration>
+<![CDATA[The Oldest Recorded Interval resource is a read-only resource representing the oldest available interval on the device. Interval times represent the end of the interval, not the beginning.]]>
 
-        <Units></Units>
+</Description>
 
-        <Submitter>smartlogic.com</Submitter>
+</Item>
 
-        <Description>The Last Delivered Interval is a readable and writable resource used to represent the last interval delivered to the LwM2M server. 
-        Interval times represent the end of the interval, not the beginning. The setting of this resource is implementation specific but should be updated based on, either a Read request of the Latest Payload from the LwM2M server or via a confirmed delivery of Notify operation of the Latest Payload resource. 
-        This resource is writable to allow the server to adjust the Last Delivered Interval value if the server and client is out of sync.</Description>
+<Item ID="6005">
 
-      </Item>
-      
-      <Item ID="6006">
+<Name>Last Delivered Interval</Name>
 
-        <Name>Latest Recorded Interval</Name>
+<Operations>RW</Operations>
 
-        <Operations>R</Operations>
+<MultipleInstances>Single</MultipleInstances>
 
-        <MultipleInstances>Single</MultipleInstances>
+<Mandatory>Optional</Mandatory>
 
-        <Mandatory>Yes</Mandatory>
+<Type>Time</Type>
 
-        <Type>Time</Type>
+<RangeEnumeration/>
 
-        <RangeEnumeration></RangeEnumeration>
+<Units/>
 
-        <Units></Units>
+<Description>
 
-        <Submitter>smartlogic.com</Submitter>
+<![CDATA[The Last Delivered Interval is a readable and writable resource used to represent the last interval delivered to the LwM2M server. Interval times represent the end of the interval, not the beginning. The setting of this resource is implementation specific but should be updated based on, either a Read request of the Latest Payload from the LwM2M server or via a confirmed delivery of Notify operation of the Latest Payload resource. This resource is writable to allow the server to adjust the Last Delivered Interval value if the server and client is out of sync.]]>
 
-        <Description>The Latest Recorded Interval is a readable resource representing the 
-        currently highest recorded interval on the device. Interval times represent the end of the interval, not the beginning.</Description>
+</Description>
 
-      </Item>
-      
-      <Item ID="6007">
+</Item>
 
-        <Name>Interval Delivery Midnight Aligned</Name>
+<Item ID="6006">
 
-        <Operations>RW</Operations>
+<Name>Latest Recorded Interval</Name>
 
-        <MultipleInstances>Single</MultipleInstances>
+<Operations>R</Operations>
 
-        <Mandatory>Yes</Mandatory>
+<MultipleInstances>Single</MultipleInstances>
 
-        <Type>Boolean</Type>
+<Mandatory>Mandatory</Mandatory>
 
-        <RangeEnumeration></RangeEnumeration>
+<Type>Time</Type>
 
-        <Units></Units>
+<RangeEnumeration/>
 
-        <Submitter>smartlogic.com</Submitter>
+<Units/>
 
-        <Description>The Delivery Midnight Aligned is a readable and writable resource used to indicate if data is delivered only to the previous midnight (1) or if part-day data can be delivered (0). 
-        Calculating Midnight should consider the Interval UTC Offset resource, or if empty, the Device [/3/0/14] object instance resource.</Description>
+<Description>
 
-      </Item>
-      
-      <Item ID="6008">
+<![CDATA[The Latest Recorded Interval is a readable resource representing the currently highest recorded interval on the device. Interval times represent the end of the interval, not the beginning.]]>
 
-        <Name>Interval Historical Read</Name>
+</Description>
 
-        <Operations>E</Operations>
+</Item>
 
-        <MultipleInstances>Single</MultipleInstances>
+<Item ID="6007">
 
-        <Mandatory>No</Mandatory>
+<Name>Interval Delivery Midnight Aligned</Name>
 
-        <Type></Type>
+<Operations>RW</Operations>
 
-        <RangeEnumeration></RangeEnumeration>
+<MultipleInstances>Single</MultipleInstances>
 
-        <Units></Units>
+<Mandatory>Mandatory</Mandatory>
 
-        <Submitter>smartlogic.com</Submitter>
+<Type>Boolean</Type>
 
-        <Description>Historical Interval Read is an executable resource designed to retrieve ad-hoc interval read data. The resource takes two arguments:- 
-        Argument 0: First Interval time to Retrieve represented as number of seconds since Jan 1st, 1970 in the UTC time zone. Argument 1: Last interval 
-        time to Retrieve represented as number of seconds since Jan 1st, 1970 in the UTC time zone. The dates should be inclusive based on the end time 
-        of the interval. The data retrieved from this resource will be readable (or observable) from the Historical Read Payload Resource. As an example, 
-        the Argument List to retrieve data from Midnight 2nd March (UTC+10) to Midnight 6rd 
-        March (UTC+10) for a specific instance of the interval data object, would be constructed as follows:- 0='1488463200',1='1488808800'</Description>
+<RangeEnumeration/>
 
-      </Item>
-      
-      <Item ID="6009">
+<Units/>
 
-        <Name>Interval Historical Read Payload</Name>
+<Description>
 
-        <Operations>R</Operations>
+<![CDATA[The Delivery Midnight Aligned is a readable and writable resource used to indicate if data is delivered only to the previous midnight (1) or if part-day data can be delivered (0). Calculating Midnight should consider the Interval UTC Offset resource, or if empty, the Device [/3/0/14] object instance resource.]]>
 
-        <MultipleInstances>Single</MultipleInstances>
+</Description>
 
-        <Mandatory>No</Mandatory>
+</Item>
 
-        <Type>Opaque</Type>
+<Item ID="6008">
 
-        <RangeEnumeration></RangeEnumeration>
+<Name>Interval Historical Read</Name>
 
-        <Units></Units>
+<Operations>E</Operations>
 
-        <Submitter>smartlogic.com</Submitter>
+<MultipleInstances>Single</MultipleInstances>
 
-        <Description>
-          The Historical Read Payload resource is the representation of the data requested by the Historical Interval Read executable resource. 
-          The format of this Opaque value should be identical to the Latest Payload resource. If no Historical Interval Read has been executed, 
-          this resource should return and empty Opaque value. This resource can either be Read from the Server or set up as an observation and 
-          Notified to the server as soon as the historical data is available. When this payload is delivered to the LwM2M server, via either a 
-          read request or a confirmed observation on this Object, Object Instance or Resource, the Historical Read Payload should be set to an 
-          empty Opaque value.>
-        </Description>
+<Mandatory>Optional</Mandatory>
 
-      </Item>
+<Type/>
 
-      <Item ID="6010">
+<RangeEnumeration/>
 
-        <Name>Interval Change Configuration</Name>
+<Units/>
 
-        <Operations>E</Operations>
+<Description>
 
-        <MultipleInstances>Single</MultipleInstances>
+<![CDATA[Historical Interval Read is an executable resource designed to retrieve ad-hoc interval read data. The resource takes two arguments:- Argument 0: First Interval time to Retrieve represented as number of seconds since Jan 1st, 1970 in the UTC time zone. Argument 1: Last interval time to Retrieve represented as number of seconds since Jan 1st, 1970 in the UTC time zone. The dates should be inclusive based on the end time of the interval. The data retrieved from this resource will be readable (or observable) from the Historical Read Payload Resource. As an example, the Argument List to retrieve data from Midnight 2nd March (UTC+10) to Midnight 6rd March (UTC+10) for a specific instance of the interval data object, would be constructed as follows:- 0='1488463200',1='1488808800']]>
 
-        <Mandatory>No</Mandatory>
+</Description>
 
-        <Type></Type>
+</Item>
 
-        <RangeEnumeration></RangeEnumeration>
+<Item ID="6009">
 
-        <Units></Units>
+<Name>Interval Historical Read Payload</Name>
 
-        <Submitter>smartlogic.com</Submitter>
+<Operations>R</Operations>
 
-        <Description>Change Interval Configuration is an executable resource designed to allow the Interval Period, Interval Start Offset and Interval 
-        UTC Offset to be reconfigured. The resource takes three arguments:- Argument 0: [Mandatory] Interval Period represented as an integer as defined 
-        in the Interval Period Resource. Argument 1: [Optional] Interval start offset represented as an integer as defined in the Interval Start Offset 
-        Resource. If not provided, leave the value as per the current configuration Argument 2: [Optional] Interval UTC offset represented as a String as 
-        defined in the Interval UTC Offset Resource. If not provided, leave the value as per the current configuration. Depending on the specifics of the 
-        implementation of this object, reconfiguring the Interval data object may result in the removal of all historical data for this Interval Data Object 
-        Instance. Please consult with your device vendor as to the implications of reconfiguring an Interval Data Object Instance. As an example, the Argument 
-        List to change an interval data object instance from its existing values to one hour intervals, midnight aligned in UTC+10 time zone:- 0='3600',1='0',1='UTC+10'</Description>
+<MultipleInstances>Single</MultipleInstances>
 
-      </Item>
-      
-      <Item ID="6011">
+<Mandatory>Optional</Mandatory>
 
-        <Name>Event Type</Name>
+<Type>Opaque</Type>
 
-        <Operations>RW</Operations>
+<RangeEnumeration/>
 
-        <MultipleInstances>Single</MultipleInstances>
+<Units/>
 
-        <Mandatory>Yes</Mandatory>
+<Description>
 
-        <Type>Integer</Type>
+<![CDATA[The Historical Read Payload resource is the representation of the data requested by the Historical Interval Read executable resource. The format of this Opaque value should be identical to the Latest Payload resource. If no Historical Interval Read has been executed, this resource should return and empty Opaque value. This resource can either be Read from the Server or set up as an observation and Notified to the server as soon as the historical data is available. When this payload is delivered to the LwM2M server, via either a read request or a confirmed observation on this Object, Object Instance or Resource, the Historical Read Payload should be set to an empty Opaque value.]]>
 
-        <RangeEnumeration></RangeEnumeration>
+</Description>
 
-        <Units></Units>
+</Item>
 
-        <Submitter>smartlogic.com</Submitter>
+<Item ID="6010">
 
-        <Description>Event Type is a readable and writable resource used to represent how this event will behave. Event Type should be one of the following values:- 0. Disabled 1. Alarm Current State 2. Alarm State Change Log 3. Event Log When the Event Type is set to Disabled (0), this event will not be recorded by the device. No Latest Eventlog payload should be delivered for events that are Disabled. When the Event Type is set to Alarm Current State (1), this Event is treated as an alarm state manager and the Latest Eventlog Payload will only contain the current state of this alarm. When the Event Type is set to Alarm State Change Log (2), the Event is treated as an alarm that reports whenever the Alarm is either set or cleared. The Latest Eventlog Payload will contain all alarm transitions since the previous delivery in this mode. When the Event Type is set to Event Log (3), this object instance is treated as a raw event log. It is used to manage and deliver events. The Latest Eventlog Payload will contain all events since the previous delivery in this mode. See the Event Log Payload for examples of each of these modes.</Description>
+<Name>Interval Change Configuration</Name>
 
-      </Item>
-      
-      <Item ID="6012">
+<Operations>E</Operations>
 
-        <Name>Alarm Realtime</Name>
+<MultipleInstances>Single</MultipleInstances>
 
-        <Operations>RW</Operations>
+<Mandatory>Optional</Mandatory>
 
-        <MultipleInstances>Single</MultipleInstances>
+<Type/>
 
-        <Mandatory>Yes</Mandatory>
+<RangeEnumeration/>
 
-        <Type>Boolean</Type>
+<Units/>
 
-        <RangeEnumeration></RangeEnumeration>
+<Description>
 
-        <Units></Units>
+<![CDATA[Change Interval Configuration is an executable resource designed to allow the Interval Period, Interval Start Offset and Interval UTC Offset to be reconfigured. The resource takes three arguments:- Argument 0: [Mandatory] Interval Period represented as an integer as defined in the Interval Period Resource. Argument 1: [Optional] Interval start offset represented as an integer as defined in the Interval Start Offset Resource. If not provided, leave the value as per the current configuration Argument 2: [Optional] Interval UTC offset represented as a String as defined in the Interval UTC Offset Resource. If not provided, leave the value as per the current configuration. Depending on the specifics of the implementation of this object, reconfiguring the Interval data object may result in the removal of all historical data for this Interval Data Object Instance. Please consult with your device vendor as to the implications of reconfiguring an Interval Data Object Instance. As an example, the Argument List to change an interval data object instance from its existing values to one hour intervals, midnight aligned in UTC+10 time zone:- 0='3600',1='0',1='UTC+10']]>
 
-        <Submitter>smartlogic.com</Submitter>
+</Description>
 
-        <Description>Realtime is a readable and writable resource used to indicate if an 
-        event should report immediately (1) at the point of occurrence, or delivered periodically as part of the Latest Eventlog Payload</Description>
+</Item>
 
-      </Item>
-      
-      <Item ID="6013">
+<Item ID="6011">
 
-        <Name>Alarm State</Name>
+<Name>Event Type</Name>
 
-        <Operations>R</Operations>
+<Operations>RW</Operations>
 
-        <MultipleInstances>Single</MultipleInstances>
+<MultipleInstances>Single</MultipleInstances>
 
-        <Mandatory>No</Mandatory>
+<Mandatory>Mandatory</Mandatory>
 
-        <Type>Boolean</Type>
+<Type>Integer</Type>
 
-        <RangeEnumeration></RangeEnumeration>
+<RangeEnumeration/>
 
-        <Units></Units>
+<Units/>
 
-        <Submitter>smartlogic.com</Submitter>
+<Description>
 
-        <Description>Alarm State is a read-only resource used to indicate the current alarm state 
-        for this Event configuration. This is only applicable if the Event Type is Alarm Current State (1) or Alarm State Change (2). </Description>
+<![CDATA[Event Type is a readable and writable resource used to represent how this event will behave. Event Type should be one of the following values:- 0. Disabled 1. Alarm Current State 2. Alarm State Change Log 3. Event Log When the Event Type is set to Disabled (0), this event will not be recorded by the device. No Latest Eventlog payload should be delivered for events that are Disabled. When the Event Type is set to Alarm Current State (1), this Event is treated as an alarm state manager and the Latest Eventlog Payload will only contain the current state of this alarm. When the Event Type is set to Alarm State Change Log (2), the Event is treated as an alarm that reports whenever the Alarm is either set or cleared. The Latest Eventlog Payload will contain all alarm transitions since the previous delivery in this mode. When the Event Type is set to Event Log (3), this object instance is treated as a raw event log. It is used to manage and deliver events. The Latest Eventlog Payload will contain all events since the previous delivery in this mode. See the Event Log Payload for examples of each of these modes. ]]>
 
-      </Item>
+</Description>
 
-      <Item ID="6014">
+</Item>
 
-        <Name>Alarm Set Threshold</Name>
+<Item ID="6012">
 
-        <Operations>RW</Operations>
+<Name>Alarm Realtime</Name>
 
-        <MultipleInstances>Single</MultipleInstances>
+<Operations>RW</Operations>
 
-        <Mandatory>No</Mandatory>
+<MultipleInstances>Single</MultipleInstances>
 
-        <Type>Float</Type>
+<Mandatory>Mandatory</Mandatory>
 
-        <RangeEnumeration></RangeEnumeration>
+<Type>Boolean</Type>
 
-        <Units></Units>
+<RangeEnumeration/>
 
-        <Submitter>smartlogic.com</Submitter>
+<Units/>
 
-        <Description>Set Threshold is a readable and writable resource used to 
-        represent the threshold for when an alarm is triggered. This resource is used in conjunction with the Set Operator resource.</Description>
+<Description>
 
-      </Item>
+<![CDATA[Realtime is a readable and writable resource used to indicate if an event should report immediately (1) at the point of occurrence, or delivered periodically as part of the Latest Eventlog Payload.]]>
 
-      <Item ID="6015">
+</Description>
 
-        <Name>Alarm Set Operator</Name>
+</Item>
 
-        <Operations>RW</Operations>
+<Item ID="6013">
 
-        <MultipleInstances>Single</MultipleInstances>
+<Name>Alarm State</Name>
 
-        <Mandatory>No</Mandatory>
+<Operations>R</Operations>
 
-        <Type>Integer</Type>
+<MultipleInstances>Single</MultipleInstances>
 
-        <RangeEnumeration></RangeEnumeration>
+<Mandatory>Optional</Mandatory>
 
-        <Units></Units>
+<Type>Boolean</Type>
 
-        <Submitter>smartlogic.com</Submitter>
+<RangeEnumeration/>
 
-        <Description>Set Operator is a readable and writable resource used in conjunction with the Set Threshold to represent when an alarm is triggered. 
-        This resource should be set to one of the following values:- 0. Greater Than or Equal to 1. Less Than or Equal to By setting the Set Operator to 
-        Greater Than (0), when the measured value for this event exceeds the Set Threshold resource, the event is considered to be in an Alarm State of 1 
-        By setting the Set Operator to Less Than (1), when the measured value for this event falls below the Set Threshold resource, the event is considered to be in an Alarm State of 1</Description>
+<Units/>
 
-      </Item>
+<Description>
 
-      <Item ID="6016">
+<![CDATA[Alarm State is a read-only resource used to indicate the current alarm state for this Event configuration. This is only applicable if the Event Type is Alarm Current State (1) or Alarm State Change (2). ]]>
 
-        <Name>Alarm Clear Threshold</Name>
+</Description>
 
-        <Operations>RW</Operations>
+</Item>
 
-        <MultipleInstances>Single</MultipleInstances>
+<Item ID="6014">
 
-        <Mandatory>No</Mandatory>
+<Name>Alarm Set Threshold</Name>
 
-        <Type>Float</Type>
+<Operations>RW</Operations>
 
-        <RangeEnumeration></RangeEnumeration>
+<MultipleInstances>Single</MultipleInstances>
 
-        <Units></Units>
+<Mandatory>Optional</Mandatory>
 
-        <Submitter>smartlogic.com</Submitter>
+<Type>Float</Type>
 
-        <Description>Clear Threshold is a readable and writable resource used to 
-        represent the threshold for when an alarm is cleared. This resource is used in conjunction with the Clear Operator resource.</Description>
+<RangeEnumeration/>
 
-      </Item>
+<Units/>
 
-      <Item ID="6017">
+<Description>
 
-        <Name>Alarm Clear Operator</Name>
+<![CDATA[Set Threshold is a readable and writable resource used to represent the threshold for when an alarm is triggered. This resource is used in conjunction with the Set Operator resource. ]]>
 
-        <Operations>RW</Operations>
+</Description>
 
-        <MultipleInstances>Single</MultipleInstances>
+</Item>
 
-        <Mandatory>No</Mandatory>
+<Item ID="6015">
 
-        <Type>Integer</Type>
+<Name>Alarm Set Operator</Name>
 
-        <RangeEnumeration></RangeEnumeration>
+<Operations>RW</Operations>
 
-        <Units></Units>
+<MultipleInstances>Single</MultipleInstances>
 
-        <Submitter>smartlogic.com</Submitter>
+<Mandatory>Optional</Mandatory>
 
-        <Description>Clear Operator is a readable and writable resource used in conjunction with the Clear Threshold to represent when an alarm is Cleared. 
-        This resource should be set to one of the following values:- 0. Greater Than or Equal to 1. Less Than or Equal to By setting the Clear Operator to 
-        Greater Than (0), when the measured value for this event exceeds the Clear Threshold resource, the event is considered to be in an Alarm State of 0 
-        By setting the Clear Operator to Less Than (1), when the measured value for this event falls below the Clear Threshold resource, the event is considered to be in an Alarm State of 0</Description>
+<Type>Integer</Type>
 
-      </Item>
+<RangeEnumeration/>
 
-      <Item ID="6018">
+<Units/>
 
-        <Name>Alarm Maximum Event Count</Name>
+<Description>
 
-        <Operations>RW</Operations>
+<![CDATA[Set Operator is a readable and writable resource used in conjunction with the Set Threshold to represent when an alarm is triggered. This resource should be set to one of the following values:- 0. Greater Than or Equal to 1. Less Than or Equal to By setting the Set Operator to Greater Than (0), when the measured value for this event exceeds the Set Threshold resource, the event is considered to be in an Alarm State of 1 By setting the Set Operator to Less Than (1), when the measured value for this event falls below the Set Threshold resource, the event is considered to be in an Alarm State of 1]]>
 
-        <MultipleInstances>Single</MultipleInstances>
+</Description>
 
-        <Mandatory>No</Mandatory>
+</Item>
 
-        <Type>Integer</Type>
+<Item ID="6016">
 
-        <RangeEnumeration></RangeEnumeration>
+<Name>Alarm Clear Threshold</Name>
 
-        <Units></Units>
+<Operations>RW</Operations>
 
-        <Submitter>smartlogic.com</Submitter>
+<MultipleInstances>Single</MultipleInstances>
 
-        <Description>Maximum Event Count is a readable and writable resource used provide a ceiling on the number of events that can be raised within the 
-        time period defined in Maximum Event Period resource. If no Maximum Event Count is set, the number of events recorded is unconstrained. 
-        The intent of this resource is to control the number of events reported, particularly in the case of a faulty sensor.</Description>
+<Mandatory>Optional</Mandatory>
 
-      </Item>
+<Type>Float</Type>
 
-      <Item ID="6019">
+<RangeEnumeration/>
 
-        <Name>Alarm Maximum Event Period</Name>
+<Units/>
 
-        <Operations>RW</Operations>
+<Description>
 
-        <MultipleInstances>Single</MultipleInstances>
+<![CDATA[Clear Threshold is a readable and writable resource used to represent the threshold for when an alarm is cleared. This resource is used in conjunction with the Clear Operator resource. ]]>
 
-        <Mandatory>No</Mandatory>
+</Description>
 
-        <Type>Integer</Type>
+</Item>
 
-        <RangeEnumeration>1-864000</RangeEnumeration>
+<Item ID="6017">
 
-        <Units>Seconds</Units>
+<Name>Alarm Clear Operator</Name>
 
-        <Submitter>smartlogic.com</Submitter>
+<Operations>RW</Operations>
 
-        <Description>Maximum Event Period is a readable and writable resource used in conjunction with the Maximum Event Count resource to control 
-        the number of events that can be raised in a given period. Maximum Event Period is an integer value representing the number of seconds for 
-        which the Maximum Event Count is measured. If no Maximum Event Period is set, the number of events recorded is unconstrained. 
-        The intent of this resource is to control the number of events reported, particularly in the case of a faulty sensor.</Description>
+<MultipleInstances>Single</MultipleInstances>
 
-      </Item>
+<Mandatory>Optional</Mandatory>
 
-      <Item ID="6020">
+<Type>Integer</Type>
 
-        <Name>Latest Delivered Event Time</Name>
+<RangeEnumeration/>
 
-        <Operations>RW</Operations>
+<Units/>
 
-        <MultipleInstances>Single</MultipleInstances>
+<Description>
 
-        <Mandatory>No</Mandatory>
+<![CDATA[Clear Operator is a readable and writable resource used in conjunction with the Clear Threshold to represent when an alarm is Cleared. This resource should be set to one of the following values:- 0. Greater Than or Equal to 1. Less Than or Equal to By setting the Clear Operator to Greater Than (0), when the measured value for this event exceeds the Clear Threshold resource, the event is considered to be in an Alarm State of 0 By setting the Clear Operator to Less Than (1), when the measured value for this event falls below the Clear Threshold resource, the event is considered to be in an Alarm State of 0]]>
 
-        <Type>Time</Type>
+</Description>
 
-        <RangeEnumeration></RangeEnumeration>
+</Item>
 
-        <Units></Units>
+<Item ID="6018">
 
-        <Submitter>smartlogic.com</Submitter>
+<Name>Alarm Maximum Event Count</Name>
 
-        <Description>Latest Delivered Event Time is a readable and writable resource to represent the last recorded time that an event was delivered 
-        for this event code to the LwM2M server. The setting of this resource is implementation specific but should be updated based on, either a 
-        Read request of the Latest Eventlog Payload from the LwM2M server or via a confirmed delivery of Notify operation of the Latest Eventlog 
-        Payload resource. This resource is writable to allow the server to adjust the Last Delivered Event 
-        Time value if the server and client is out of sync.</Description>
+<Operations>RW</Operations>
 
-      </Item>
+<MultipleInstances>Single</MultipleInstances>
 
-      <Item ID="6021">
+<Mandatory>Optional</Mandatory>
 
-        <Name>Latest Recorded Event Time</Name>
+<Type>Integer</Type>
 
-        <Operations>R</Operations>
+<RangeEnumeration/>
 
-        <MultipleInstances>Single</MultipleInstances>
+<Units/>
 
-        <Mandatory>Yes</Mandatory>
+<Description>
 
-        <Type>Time</Type>
+<![CDATA[Maximum Event Count is a readable and writable resource used provide a ceiling on the number of events that can be raised within the time period defined in Maximum Event Period resource. If no Maximum Event Count is set, the number of events recorded is unconstrained. The intent of this resource is to control the number of events reported, particularly in the case of a faulty sensor.]]>
 
-        <RangeEnumeration></RangeEnumeration>
+</Description>
 
-        <Units></Units>
+</Item>
 
-        <Submitter>smartlogic.com</Submitter>
+<Item ID="6019">
 
-        <Description>Latest Recorded Event Time is a readonly resource used to represent the last recorded event time for this object instance on the device</Description>
+<Name>Alarm Maximum Event Period</Name>
 
-      </Item>
+<Operations>RW</Operations>
 
-      <Item ID="6022">
+<MultipleInstances>Single</MultipleInstances>
 
-        <Name>Alarm Clear</Name>
+<Mandatory>Optional</Mandatory>
 
-        <Operations>E</Operations>
+<Type>Integer</Type>
 
-        <MultipleInstances>Single</MultipleInstances>
+<RangeEnumeration>1-864000</RangeEnumeration>
 
-        <Mandatory>No</Mandatory>
+<Units>Seconds</Units>
 
-        <Type></Type>
+<Description>
 
-        <RangeEnumeration></RangeEnumeration>
+<![CDATA[Maximum Event Period is a readable and writable resource used in conjunction with the Maximum Event Count resource to control the number of events that can be raised in a given period. Maximum Event Period is an integer value representing the number of seconds for which the Maximum Event Count is measured. If no Maximum Event Period is set, the number of events recorded is unconstrained. The intent of this resource is to control the number of events reported, particularly in the case of a faulty sensor.]]>
 
-        <Units></Units>
+</Description>
 
-        <Submitter>smartlogic.com</Submitter>
+</Item>
 
-        <Description>Clear Alarm is an executable resource used to allow the LwM2M server to clear alarms when they need to be manually acknowledged.</Description>
+<Item ID="6020">
 
-      </Item>
+<Name>Latest Delivered Event Time</Name>
 
-      <Item ID="6023">
+<Operations>RW</Operations>
 
-        <Name>Alarm Auto Clear</Name>
+<MultipleInstances>Single</MultipleInstances>
 
-        <Operations>RW</Operations>
+<Mandatory>Optional</Mandatory>
 
-        <MultipleInstances>Single</MultipleInstances>
+<Type>Time</Type>
 
-        <Mandatory>No</Mandatory>
+<RangeEnumeration/>
 
-        <Type>Boolean</Type>
+<Units/>
 
-        <RangeEnumeration></RangeEnumeration>
+<Description>
 
-        <Units></Units>
+<![CDATA[Latest Delivered Event Time is a readable and writable resource to represent the last recorded time that an event was delivered for this event code to the LwM2M server. The setting of this resource is implementation specific but should be updated based on, either a Read request of the Latest Eventlog Payload from the LwM2M server or via a confirmed delivery of Notify operation of the Latest Eventlog Payload resource. This resource is writable to allow the server to adjust the Last Delivered Event Time value if the server and client is out of sync.]]>
 
-        <Submitter>smartlogic.com</Submitter>
+</Description>
 
-        <Description>Auto Clear Alarm is a readable and 
-        writable resource used to indicate if an alarm is automatically cleared once the delivery of the event data payload is complete </Description>
+</Item>
 
-      </Item>
+<Item ID="6021">
 
-      <Item ID="6024">
+<Name>Latest Recorded Event Time</Name>
 
-        <Name>Event Code</Name>
+<Operations>R</Operations>
 
-        <Operations>R</Operations>
+<MultipleInstances>Single</MultipleInstances>
 
-        <MultipleInstances>Single</MultipleInstances>
+<Mandatory>Mandatory</Mandatory>
 
-        <Mandatory>Yes</Mandatory>
+<Type>Time</Type>
 
-        <Type>Integer</Type>
+<RangeEnumeration/>
 
-        <RangeEnumeration>100-255</RangeEnumeration>
+<Units/>
 
-        <Units></Units>
+<Description>
 
-        <Submitter>smartlogic.com</Submitter>
+<![CDATA[Latest Recorded Event Time is a readonly resource used to represent the last recorded event time for this object instance on the device]]>
 
-        <Description>Event Code is a read-only resource used as an identifier to represent this class of event. The allocation of event codes is 
-        implementation specific but ideally be unique across the implementation. Event Codes use vendor specific LogClass value 100...255</Description>
+</Description>
 
-      </Item>
+</Item>
 
-      <Item ID="6025">
+<Item ID="6022">
 
-        <Name>Latest Payload</Name>
+<Name>Alarm Clear</Name>
 
-        <Operations>R</Operations>
+<Operations>E</Operations>
 
-        <MultipleInstances>Single</MultipleInstances>
+<MultipleInstances>Single</MultipleInstances>
 
-        <Mandatory>Yes</Mandatory>
+<Mandatory>Optional</Mandatory>
 
-        <Type>Opaque</Type>
+<Type/>
 
-        <RangeEnumeration></RangeEnumeration>
+<RangeEnumeration/>
 
-        <Units></Units>
+<Units/>
 
-        <Submitter>smartlogic.com</Submitter>
+<Description>
 
-        <Description>Latest Eventlog Payload resource is a read-only serialised Opaque (Binary) representation of all the Event Data between the 
-        Last Delivered Event Time and the Latest Recorded Event Time. When this payload is delivered to the LwM2M server, via either a read request 
-        or a confirmed observation on this Object, Object Instance or Resource, the Latest Delivered Interval should be updated. When no new data exists, 
-        an empty Opaque value should be provided. The payload data can be provided in an implementation specific serialisation, but by default for fixed 
-        length values should use the OMA-LwM2M CBOR format encoded with one of these schemes:- Event Type = Alarm Current State (1) In this mode, only 
-        the current alarm state should be reported 1. 8-bit integer, value 2 representing OMA-LwM2M CBOR format. 2. Event Code [16-bit integer] 3. 
-        Event Type [8-bit Integer] - Alarm Current State (1) 4. Alarm Timestamp [32-bit unsigned integer] 
-        representing the number of seconds since Jan 1st, 1970 in the UTC time zone. 5. Alarm State [8-bit Integer]</Description>
+<![CDATA[Clear Alarm is an executable resource used to allow the LwM2M server to clear alarms when they need to be manually acknowledged.]]>
 
-      </Item>
+</Description>
 
-      <Item ID="6026">
+</Item>
 
-        <Name>Start</Name>
+<Item ID="6023">
 
-        <Operations>E</Operations>
+<Name>Alarm Auto Clear</Name>
 
-        <MultipleInstances>Single</MultipleInstances>
+<Operations>RW</Operations>
 
-        <Mandatory>No</Mandatory>
+<MultipleInstances>Single</MultipleInstances>
 
-        <Type></Type>
+<Mandatory>Optional</Mandatory>
 
-        <RangeEnumeration></RangeEnumeration>
+<Type>Boolean</Type>
 
-        <Units></Units>
+<RangeEnumeration/>
 
-        <Submitter>smartlogic.com</Submitter>
+<Units/>
 
-        <Description>Start is an executable resource that enables the recording of interval data. The first interval recorded will have a timestamp based on the Interval Start Offset resource. 
-        This executable resource takes no arguments. Refer to re-usable resource LogStart for further details.</Description>
+<Description>
 
-      </Item>
+<![CDATA[Auto Clear Alarm is a readable and writable resource used to indicate if an alarm is automatically cleared once the delivery of the event data payload is complete ]]>
 
+</Description>
 
-      <Item ID="6027">
+</Item>
 
-        <Name>Stop</Name>
+<Item ID="6024">
 
-        <Operations>E</Operations>
+<Name>Event Code</Name>
 
-        <MultipleInstances>Single</MultipleInstances>
+<Operations>R</Operations>
 
-        <Mandatory>No</Mandatory>
+<MultipleInstances>Single</MultipleInstances>
 
-        <Type></Type>
+<Mandatory>Mandatory</Mandatory>
 
-        <RangeEnumeration></RangeEnumeration>
+<Type>Integer</Type>
 
-        <Units></Units>
+<RangeEnumeration>100-255</RangeEnumeration>
 
-        <Submitter>smartlogic.com</Submitter>
+<Units/>
 
-        <Description>Stop (LogStop) is an executable resource that disables the recording of interval data for this object instance. 
-        This executable resource takes no arguments. Refer to re-usable resource LogStop for further details</Description>
+<Description>
 
-      </Item>
+<![CDATA[Event Code is a read-only resource used as an identifier to represent this class of event. The allocation of event codes is implementation specific but ideally be unique across the implementation. Event Codes use vendor specific LogClass value 100...255]]>
 
-      <Item ID="6028">
+</Description>
 
-        <Name>Status</Name>
+</Item>
 
-        <Operations>R</Operations>
+<Item ID="6025">
 
-        <MultipleInstances>Single</MultipleInstances>
+<Name>Latest Payload</Name>
 
-        <Mandatory>No</Mandatory>
+<Operations>R</Operations>
 
-        <Type>Integer</Type>
+<MultipleInstances>Single</MultipleInstances>
 
-        <RangeEnumeration></RangeEnumeration>
+<Mandatory>Mandatory</Mandatory>
 
-        <Units></Units>
+<Type>Opaque</Type>
 
-        <Submitter>smartlogic.com</Submitter>
+<RangeEnumeration/>
 
-        <Description>Recording Enabled is a read-only resource providing an indication of if interval 
-        data is currently being recorded for this object instance. Refer to re-usable resource LogStatus for further details.</Description>
+<Units/>
 
-      </Item>
+<Description>
 
-      <Item ID="6029">
+<![CDATA[The Latest Eventlog Payload resource is a read-only serialised Opaque (Binary) representation of all the Event Data between the Last Delivered Event Time and the Latest Recorded Event Time. When this payload is delivered to the LwM2M server, via either a read request or a confirmed observation on this Object, Object Instance or Resource, the Latest Delivered Interval should be updated. When no new data exists, an empty Opaque value should be provided. The payload data can be provided in an implementation specific serialisation, but by default for fixed length values should use the OMA-LwM2M CBOR format encoded with one of these schemes:- Event Type = Alarm Current State (1) In this mode, only the current alarm state should be reported 1. 8-bit integer, value 2 representing OMA-LwM2M CBOR format. 2. Event Code [16-bit integer] 3. Event Type [8-bit Integer] - Alarm Current State (1) 4. Alarm Timestamp [32-bit unsigned integer] representing the number of seconds since Jan 1st, 1970 in the UTC time zone. 5. Alarm State [8-bit Integer] ]]>
 
-        <Name>Latest Payload</Name>
+</Description>
 
-        <Operations>R</Operations>
+</Item>
 
-        <MultipleInstances>Single</MultipleInstances>
+<Item ID="6026">
 
-        <Mandatory>Yes</Mandatory>
+<Name>Start</Name>
 
-        <Type>Opaque</Type>
+<Operations>E</Operations>
 
-        <RangeEnumeration></RangeEnumeration>
+<MultipleInstances>Single</MultipleInstances>
 
-        <Units></Units>
+<Mandatory>Optional</Mandatory>
 
-        <Submitter>smartlogic.com</Submitter>
+<Type/>
 
-        <Description>The Latest Payload resource is a read-only serialised Opaque (Binary) representation of all the Interval Data between the 
-        Last Delivered Interval and the Latest Recorded Interval, accounting for the Delivery Midnight Aligned resource. When this payload is 
-        delivered to the LwM2M server, via either a read request or a confirmed observation on this Object, Object Instance or Resource, the 
-        Latest Delivered Interval should be updated. When no new data exists, an empty Opaque value should be provided. The payload data can be 
-        provided in an implementation specific serialisation, but by default for fixed length values should use the OMA-LwM2M CBOR format encoded 
-        as follows: 1. 8-bit integer, value 2 representing OMA-LwM2M CBOR format. 2. Interval Data Instance ID/ Class [16-bit integer] 3. Timestamp 
-        of first Interval [32-bit integer] representing the number of seconds since Jan 1st, 1970 in the UTC time zone. 4. Interval Period in seconds 
-        [32-bit integer] 5. Number of intervals in Payload [16-bit integer] 6. Number of Values Per Interval [8-bit integer] 7. Size of Value 1 in bits 
-        [8-bit integer] 8. Size of Value 2 in bits [8-bit integer] ... 9. Size of Value N in bits [8-bit integer] 10. Interval 1 Value 1 [x bits] 11. 
-        Interval 1 Value 2 [x bits] ... 12. Interval 1 Value N [x bits] ... 13. Interval N Value N [x bits] If for some implementation specific reason, 
-        there are missing intervals in the sequence, the payload may consist of multiple blocks of the 
-        above serialised data (appended into a single binary opaque value), each block representing a continuous series of interval data. </Description>
+<RangeEnumeration/>
 
-      </Item>
+<Units/>
 
-      <Item ID="6030">
+<Description>
 
-        <Name>Reserved</Name>
+<![CDATA[Start is an executable resource that enables the recording of interval data. The first interval recorded will have a timestamp based on the Interval Start Offset resource. This executable resource takes no arguments. Refer to re-usable resource LogStart for further details.]]>
 
-        <Operations></Operations>
+</Description>
 
-        <MultipleInstances></MultipleInstances>
+</Item>
 
-        <Mandatory></Mandatory>
+<Item ID="6027">
 
-        <Type></Type>
+<Name>Stop</Name>
 
-        <RangeEnumeration></RangeEnumeration>
+<Operations>E</Operations>
 
-        <Units></Units>
+<MultipleInstances>Single</MultipleInstances>
 
-        <Submitter>smartlogic.com</Submitter>
+<Mandatory>Optional</Mandatory>
 
-        <Description></Description>
+<Type/>
 
-      </Item>
+<RangeEnumeration/>
 
-      <Item ID="6031">
+<Units/>
 
-        <Name>Reserved</Name>
+<Description>
 
-        <Operations></Operations>
+<![CDATA[Stop (LogStop) is an executable resource that disables the recording of interval data for this object instance. This executable resource takes no arguments. Refer to re-usable resource LogStop for further details.]]>
 
-        <MultipleInstances></MultipleInstances>
+</Description>
 
-        <Mandatory></Mandatory>
+</Item>
 
-        <Type></Type>
+<Item ID="6028">
 
-        <RangeEnumeration></RangeEnumeration>
+<Name>Status</Name>
 
-        <Units></Units>
+<Operations>R</Operations>
 
-        <Submitter>smartlogic.com</Submitter>
+<MultipleInstances>Single</MultipleInstances>
 
-        <Description></Description>
+<Mandatory>Optional</Mandatory>
 
-      </Item>
+<Type>Integer</Type>
 
+<RangeEnumeration/>
+
+<Units/>
+
+<Description>
+
+<![CDATA[Recording Enabled is a read-only resource providing an indication of if interval data is currently being recorded for this object instance. Refer to re-usable resource LogStatus for further details.]]>
+
+</Description>
+
+</Item>
+
+<Item ID="6029">
+
+<Name>Latest Payload</Name>
+
+<Operations>R</Operations>
+
+<MultipleInstances>Single</MultipleInstances>
+
+<Mandatory>Mandatory</Mandatory>
+
+<Type>Opaque</Type>
+
+<RangeEnumeration/>
+
+<Units/>
+
+
+-<Description>
+
+<![CDATA[The Latest Payload resource is a read-only serialised Opaque (Binary) representation of all the Interval Data between the Last Delivered Interval and the Latest Recorded Interval, accounting for the Delivery Midnight Aligned resource. When this payload is delivered to the LwM2M server, via either a read request or a confirmed observation on this Object, Object Instance or Resource, the Latest Delivered Interval should be updated. When no new data exists, an empty Opaque value should be provided. The payload data can be provided in an implementation specific serialisation, but by default for fixed length values should use the OMA-LwM2M CBOR format encoded as follows: 1. 8-bit integer, value 2 representing OMA-LwM2M CBOR format. 2. Interval Data Instance ID/ Class [16-bit integer] 3. Timestamp of first Interval [32-bit integer] representing the number of seconds since Jan 1st, 1970 in the UTC time zone. 4. Interval Period in seconds [32-bit integer] 5. Number of intervals in Payload [16-bit integer] 6. Number of Values Per Interval [8-bit integer] 7. Size of Value 1 in bits [8-bit integer] 8. Size of Value 2 in bits [8-bit integer] ... 9. Size of Value N in bits [8-bit integer] 10. Interval 1 Value 1 [x bits] 11. Interval 1 Value 2 [x bits] ... 12. Interval 1 Value N [x bits] ... 13. Interval N Value N [x bits] If for some implementation specific reason, there are missing intervals in the sequence, the payload may consist of multiple blocks of the above serialised data (appended into a single binary opaque value), each block representing a continuous series of interval data. ]]>
+
+</Description>
+
+</Item>
     </Resources>
 
     <Description2/>
