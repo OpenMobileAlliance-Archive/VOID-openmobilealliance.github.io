@@ -3403,50 +3403,6 @@ First instance describes the least significant bit, second instance the second l
 
       </Item>
 
-      <Item ID="6030">
-
-        <Name>Reserved</Name>
-
-        <Operations></Operations>
-
-        <MultipleInstances></MultipleInstances>
-
-        <Mandatory></Mandatory>
-
-        <Type></Type>
-
-        <RangeEnumeration></RangeEnumeration>
-
-        <Units></Units>
-
-        <Submitter>smartlogic.com</Submitter>
-
-        <Description></Description>
-
-      </Item>
-
-      <Item ID="6031">
-
-        <Name>Reserved</Name>
-
-        <Operations></Operations>
-
-        <MultipleInstances></MultipleInstances>
-
-        <Mandatory></Mandatory>
-
-        <Type></Type>
-
-        <RangeEnumeration></RangeEnumeration>
-
-        <Units></Units>
-
-        <Submitter>smartlogic.com</Submitter>
-
-        <Description></Description>
-
-      </Item>
-
     </Resources>
 
     <Description2/>
