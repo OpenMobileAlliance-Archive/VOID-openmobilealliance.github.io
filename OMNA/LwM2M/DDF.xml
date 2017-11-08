@@ -533,7 +533,7 @@
 
     <Vorto>http://vorto.eclipse.org/resolve/lwm2m/Object/ObjectID/16</Vorto>
 
-    <DDFLink></DDFLink>
+    <DDFLink>1</DDFLink>
 
     <TS>http://www.openmobilealliance.org/release/LWM2M_PortfolioObj/V1_0-20160906-C/OMA-TS-LWM2M_PortfolioObj-V1_0-20160906-C.pdf</TS>
 
