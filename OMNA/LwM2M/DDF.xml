@@ -527,9 +527,9 @@
 
     <Ver>1.0</Ver>
 
-    <DDF>0</DDF>
+    <DDF>http://www.openmobilealliance.org/tech/profiles/LWM2M_Portfolio-v1_0.xml.xml</DDF>
 
-    <LWM2M></LWM2M>
+    <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3a%2f%2fwww.openmobilealliance.org%2ftech%2fprofiles%2fLWM2M_Portfolio-v1_0.xml.xml</LWM2M>
 
     <Vorto>http://vorto.eclipse.org/resolve/lwm2m/Object/ObjectID/16</Vorto>
 
