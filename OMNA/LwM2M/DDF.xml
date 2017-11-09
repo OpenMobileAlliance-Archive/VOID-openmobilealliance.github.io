@@ -4005,15 +4005,15 @@
   
     <Item>
 
-    <ObjectID>10287</ObjectID>
+    <ObjectID>10299</ObjectID>
 
-    <URN>urn:oma:lwm2m:x:1028</URN>
+    <URN>urn:oma:lwm2m:x:10299</URN>
 
     <Name>Reserved</Name>
 
     <Description></Description>
 
-    <Owner>smartlogic</Owner>
+    <Owner>Verizon Wireless</Owner>
 
     <Source>2</Source>
 
