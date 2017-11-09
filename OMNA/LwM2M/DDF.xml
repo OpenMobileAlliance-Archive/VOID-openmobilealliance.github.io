@@ -527,9 +527,9 @@
 
     <Ver>1.0</Ver>
 
-    <DDF>http://www.openmobilealliance.org/tech/profiles/LWM2M_Portfolio-v1_0.xml.xml</DDF>
+    <DDF></DDF>
 
-    <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3a%2f%2fwww.openmobilealliance.org%2ftech%2fprofiles%2fLWM2M_Portfolio-v1_0.xml.xml</LWM2M>
+    <LWM2M></LWM2M>
 
     <Vorto>http://vorto.eclipse.org/resolve/lwm2m/Object/ObjectID/16</Vorto>
 
@@ -4239,6 +4239,36 @@
   <Item>
 
     <ObjectID>10308</ObjectID>
+
+    <URN>urn:oma:lwm2m:x:10308</URN>
+
+    <Name>Reserved</Name>
+
+    <Description></Description>
+
+    <Owner>Verizon Wireless</Owner>
+
+    <Source>2</Source>
+
+    <Ver/>
+
+    <DDF></DDF>
+
+    <LWM2M></LWM2M>
+
+    <Vorto></Vorto>
+
+    <DDFLink></DDFLink>
+
+    <TS></TS>
+
+    <TSLink></TSLink>
+
+  </Item>
+  
+    <Item>
+
+    <ObjectID>10309</ObjectID>
 
     <URN>urn:oma:lwm2m:x:10309</URN>
 
