@@ -3996,5 +3996,1019 @@
     <TSLink></TSLink>
 
   </Item>
+  
+     <Item>
+
+    <ObjectID>10300</ObjectID>
+
+    <URN>urn:oma:lwm2m:x:10300</URN>
+
+    <Name>Reserved</Name>
+
+    <Description></Description>
+
+    <Owner>Verizon Wireless</Owner>
+
+    <Source>2</Source>
+
+    <Ver/>
+
+    <DDF></DDF>
+
+    <LWM2M></LWM2M>
+
+    <Vorto></Vorto>
+
+    <DDFLink></DDFLink>
+
+    <TS></TS>
+
+    <TSLink></TSLink>
+
+  </Item>
+
+     <Item>
+
+    <ObjectID>10301</ObjectID>
+
+    <URN>urn:oma:lwm2m:x:10301</URN>
+
+    <Name>Reserved</Name>
+
+    <Description></Description>
+
+    <Owner>Verizon Wireless</Owner>
+
+    <Source>2</Source>
+
+    <Ver/>
+
+    <DDF></DDF>
+
+    <LWM2M></LWM2M>
+
+    <Vorto></Vorto>
+
+    <DDFLink></DDFLink>
+
+    <TS></TS>
+
+    <TSLink></TSLink>
+
+  </Item>
+  <Item>
+
+    <ObjectID>10302</ObjectID>
+
+    <URN>urn:oma:lwm2m:x:10302</URN>
+
+    <Name>Reserved</Name>
+
+    <Description></Description>
+
+    <Owner>Verizon Wireless</Owner>
+
+    <Source>2</Source>
+
+    <Ver/>
+
+    <DDF></DDF>
+
+    <LWM2M></LWM2M>
+
+    <Vorto></Vorto>
+
+    <DDFLink></DDFLink>
+
+    <TS></TS>
+
+    <TSLink></TSLink>
+
+  </Item>
+  <Item>
+
+    <ObjectID>10303</ObjectID>
+
+    <URN>urn:oma:lwm2m:x:103003</URN>
+
+    <Name>Reserved</Name>
+
+    <Description></Description>
+
+    <Owner>Verizon Wireless</Owner>
+
+    <Source>2</Source>
+
+    <Ver/>
+
+    <DDF></DDF>
+
+    <LWM2M></LWM2M>
+
+    <Vorto></Vorto>
+
+    <DDFLink></DDFLink>
+
+    <TS></TS>
+
+    <TSLink></TSLink>
+
+  </Item>
+  <Item>
+
+    <ObjectID>10304</ObjectID>
+
+    <URN>urn:oma:lwm2m:x:10304</URN>
+
+    <Name>Reserved</Name>
+
+    <Description></Description>
+
+    <Owner>Verizon Wireless</Owner>
+
+    <Source>2</Source>
+
+    <Ver/>
+
+    <DDF></DDF>
+
+    <LWM2M></LWM2M>
+
+    <Vorto></Vorto>
+
+    <DDFLink></DDFLink>
+
+    <TS></TS>
+
+    <TSLink></TSLink>
+
+  </Item>
+  <Item>
+
+    <ObjectID>10305</ObjectID>
+
+    <URN>urn:oma:lwm2m:x:10305</URN>
+
+    <Name>Reserved</Name>
+
+    <Description></Description>
+
+    <Owner>Verizon Wireless</Owner>
+
+    <Source>2</Source>
+
+    <Ver/>
+
+    <DDF></DDF>
+
+    <LWM2M></LWM2M>
+
+    <Vorto></Vorto>
+
+    <DDFLink></DDFLink>
+
+    <TS></TS>
+
+    <TSLink></TSLink>
+
+  </Item>
+  <Item>
+
+    <ObjectID>10306</ObjectID>
+
+    <URN>urn:oma:lwm2m:x:10306</URN>
+
+    <Name>Reserved</Name>
+
+    <Description></Description>
+
+    <Owner>Verizon Wireless</Owner>
+
+    <Source>2</Source>
+
+    <Ver/>
+
+    <DDF></DDF>
+
+    <LWM2M></LWM2M>
+
+    <Vorto></Vorto>
+
+    <DDFLink></DDFLink>
+
+    <TS></TS>
+
+    <TSLink></TSLink>
+
+  </Item>
+  <Item>
+
+    <ObjectID>10307</ObjectID>
+
+    <URN>urn:oma:lwm2m:x:10307</URN>
+
+    <Name>Reserved</Name>
+
+    <Description></Description>
+
+    <Owner>Verizon Wireless</Owner>
+
+    <Source>2</Source>
+
+    <Ver/>
+
+    <DDF></DDF>
+
+    <LWM2M></LWM2M>
+
+    <Vorto></Vorto>
+
+    <DDFLink></DDFLink>
+
+    <TS></TS>
+
+    <TSLink></TSLink>
+
+  </Item>
+  <Item>
+
+    <ObjectID>10308</ObjectID>
+
+    <URN>urn:oma:lwm2m:x:10308</URN>
+
+    <Name>Reserved</Name>
+
+    <Description></Description>
+
+    <Owner>Verizon Wireless</Owner>
+
+    <Source>2</Source>
+
+    <Ver/>
+
+    <DDF></DDF>
+
+    <LWM2M></LWM2M>
+
+    <Vorto></Vorto>
+
+    <DDFLink></DDFLink>
+
+    <TS></TS>
+
+    <TSLink></TSLink>
+
+  </Item>
+  
+    <Item>
+
+    <ObjectID>10309</ObjectID>
+
+    <URN>urn:oma:lwm2m:x:10309</URN>
+
+    <Name>Reserved</Name>
+
+    <Description></Description>
+
+    <Owner>Verizon Wireless</Owner>
+
+    <Source>2</Source>
+
+    <Ver/>
+
+    <DDF></DDF>
+
+    <LWM2M></LWM2M>
+
+    <Vorto></Vorto>
+
+    <DDFLink></DDFLink>
+
+    <TS></TS>
+
+    <TSLink></TSLink>
+
+  </Item>
+  <Item>
+
+    <ObjectID>10310</ObjectID>
+
+    <URN>urn:oma:lwm2m:x:10310</URN>
+
+    <Name>Reserved</Name>
+
+    <Description></Description>
+
+    <Owner>Verizon Wireless</Owner>
+
+    <Source>2</Source>
+
+    <Ver/>
+
+    <DDF></DDF>
+
+    <LWM2M></LWM2M>
+
+    <Vorto></Vorto>
+
+    <DDFLink></DDFLink>
+
+    <TS></TS>
+
+    <TSLink></TSLink>
+
+  </Item>
+  <Item>
+
+    <ObjectID>10311</ObjectID>
+
+    <URN>urn:oma:lwm2m:x:10311</URN>
+
+    <Name>Reserved</Name>
+
+    <Description></Description>
+
+    <Owner>Verizon Wireless</Owner>
+
+    <Source>2</Source>
+
+    <Ver/>
+
+    <DDF></DDF>
+
+    <LWM2M></LWM2M>
+
+    <Vorto></Vorto>
+
+    <DDFLink></DDFLink>
+
+    <TS></TS>
+
+    <TSLink></TSLink>
+
+  </Item>
+  <Item>
+
+    <ObjectID>10312</ObjectID>
+
+    <URN>urn:oma:lwm2m:x:10312</URN>
+
+    <Name>Reserved</Name>
+
+    <Description></Description>
+
+    <Owner>Verizon Wireless</Owner>
+
+    <Source>2</Source>
+
+    <Ver/>
+
+    <DDF></DDF>
+
+    <LWM2M></LWM2M>
+
+    <Vorto></Vorto>
+
+    <DDFLink></DDFLink>
+
+    <TS></TS>
+
+    <TSLink></TSLink>
+
+  </Item>
+  <Item>
+
+    <ObjectID>10313</ObjectID>
+
+    <URN>urn:oma:lwm2m:x:10313</URN>
+
+    <Name>Reserved</Name>
+
+    <Description></Description>
+
+    <Owner>Verizon Wireless</Owner>
+
+    <Source>2</Source>
+
+    <Ver/>
+
+    <DDF></DDF>
+
+    <LWM2M></LWM2M>
+
+    <Vorto></Vorto>
+
+    <DDFLink></DDFLink>
+
+    <TS></TS>
+
+    <TSLink></TSLink>
+
+  </Item>
+  <Item>
+
+    <ObjectID>10314</ObjectID>
+
+    <URN>urn:oma:lwm2m:x:10314</URN>
+
+    <Name>Reserved</Name>
+
+    <Description></Description>
+
+    <Owner>Verizon Wireless</Owner>
+
+    <Source>2</Source>
+
+    <Ver/>
+
+    <DDF></DDF>
+
+    <LWM2M></LWM2M>
+
+    <Vorto></Vorto>
+
+    <DDFLink></DDFLink>
+
+    <TS></TS>
+
+    <TSLink></TSLink>
+
+  </Item>
+  <Item>
+
+    <ObjectID>10315</ObjectID>
+
+    <URN>urn:oma:lwm2m:x:10315</URN>
+
+    <Name>Reserved</Name>
+
+    <Description></Description>
+
+    <Owner>Verizon Wireless</Owner>
+
+    <Source>2</Source>
+
+    <Ver/>
+
+    <DDF></DDF>
+
+    <LWM2M></LWM2M>
+
+    <Vorto></Vorto>
+
+    <DDFLink></DDFLink>
+
+    <TS></TS>
+
+    <TSLink></TSLink>
+
+  </Item>
+  <Item>
+
+    <ObjectID>10316</ObjectID>
+
+    <URN>urn:oma:lwm2m:x:10316</URN>
+
+    <Name>Reserved</Name>
+
+    <Description></Description>
+
+    <Owner>Verizon Wireless</Owner>
+
+    <Source>2</Source>
+
+    <Ver/>
+
+    <DDF></DDF>
+
+    <LWM2M></LWM2M>
+
+    <Vorto></Vorto>
+
+    <DDFLink></DDFLink>
+
+    <TS></TS>
+
+    <TSLink></TSLink>
+
+  </Item>
+  <Item>
+
+    <ObjectID>10317</ObjectID>
+
+    <URN>urn:oma:lwm2m:x:10317</URN>
+
+    <Name>Reserved</Name>
+
+    <Description></Description>
+
+    <Owner>Verizon Wireless</Owner>
+
+    <Source>2</Source>
+
+    <Ver/>
+
+    <DDF></DDF>
+
+    <LWM2M></LWM2M>
+
+    <Vorto></Vorto>
+
+    <DDFLink></DDFLink>
+
+    <TS></TS>
+
+    <TSLink></TSLink>
+
+  </Item>
+  <Item>
+
+    <ObjectID>10318</ObjectID>
+
+    <URN>urn:oma:lwm2m:x:10318</URN>
+
+    <Name>Reserved</Name>
+
+    <Description></Description>
+
+    <Owner>Verizon Wireless</Owner>
+
+    <Source>2</Source>
+
+    <Ver/>
+
+    <DDF></DDF>
+
+    <LWM2M></LWM2M>
+
+    <Vorto></Vorto>
+
+    <DDFLink></DDFLink>
+
+    <TS></TS>
+
+    <TSLink></TSLink>
+
+  </Item>
+  <Item>
+
+    <ObjectID>10319</ObjectID>
+
+    <URN>urn:oma:lwm2m:x:10319</URN>
+
+    <Name>Reserved</Name>
+
+    <Description></Description>
+
+    <Owner>Verizon Wireless</Owner>
+
+    <Source>2</Source>
+
+    <Ver/>
+
+    <DDF></DDF>
+
+    <LWM2M></LWM2M>
+
+    <Vorto></Vorto>
+
+    <DDFLink></DDFLink>
+
+    <TS></TS>
+
+    <TSLink></TSLink>
+
+  </Item>
+  <Item>
+
+    <ObjectID>10320</ObjectID>
+
+    <URN>urn:oma:lwm2m:x:10320</URN>
+
+    <Name>Reserved</Name>
+
+    <Description></Description>
+
+    <Owner>Verizon Wireless</Owner>
+
+    <Source>2</Source>
+
+    <Ver/>
+
+    <DDF></DDF>
+
+    <LWM2M></LWM2M>
+
+    <Vorto></Vorto>
+
+    <DDFLink></DDFLink>
+
+    <TS></TS>
+
+    <TSLink></TSLink>
+
+  </Item>
+  <Item>
+
+    <ObjectID>10321</ObjectID>
+
+    <URN>urn:oma:lwm2m:x:10321</URN>
+
+    <Name>Reserved</Name>
+
+    <Description></Description>
+
+    <Owner>Verizon Wireless</Owner>
+
+    <Source>2</Source>
+
+    <Ver/>
+
+    <DDF></DDF>
+
+    <LWM2M></LWM2M>
+
+    <Vorto></Vorto>
+
+    <DDFLink></DDFLink>
+
+    <TS></TS>
+
+    <TSLink></TSLink>
+
+  </Item>
+  <Item>
+
+    <ObjectID>10322</ObjectID>
+
+    <URN>urn:oma:lwm2m:x:10322</URN>
+
+    <Name>Reserved</Name>
+
+    <Description></Description>
+
+    <Owner>Verizon Wireless</Owner>
+
+    <Source>2</Source>
+
+    <Ver/>
+
+    <DDF></DDF>
+
+    <LWM2M></LWM2M>
+
+    <Vorto></Vorto>
+
+    <DDFLink></DDFLink>
+
+    <TS></TS>
+
+    <TSLink></TSLink>
+
+  </Item><Item>
+
+    <ObjectID>10323</ObjectID>
+
+    <URN>urn:oma:lwm2m:x:10323</URN>
+
+    <Name>Reserved</Name>
+
+    <Description></Description>
+
+    <Owner>Verizon Wireless</Owner>
+
+    <Source>2</Source>
+
+    <Ver/>
+
+    <DDF></DDF>
+
+    <LWM2M></LWM2M>
+
+    <Vorto></Vorto>
+
+    <DDFLink></DDFLink>
+
+    <TS></TS>
+
+    <TSLink></TSLink>
+
+  </Item>
+  <Item>
+
+    <ObjectID>10324</ObjectID>
+
+    <URN>urn:oma:lwm2m:x:10324</URN>
+
+    <Name>Reserved</Name>
+
+    <Description></Description>
+
+    <Owner>Verizon Wireless</Owner>
+
+    <Source>2</Source>
+
+    <Ver/>
+
+    <DDF></DDF>
+
+    <LWM2M></LWM2M>
+
+    <Vorto></Vorto>
+
+    <DDFLink></DDFLink>
+
+    <TS></TS>
+
+    <TSLink></TSLink>
+
+  </Item><Item>
+
+    <ObjectID>10325</ObjectID>
+
+    <URN>urn:oma:lwm2m:x:10325</URN>
+
+    <Name>Reserved</Name>
+
+    <Description></Description>
+
+    <Owner>Verizon Wireless</Owner>
+
+    <Source>2</Source>
+
+    <Ver/>
+
+    <DDF></DDF>
+
+    <LWM2M></LWM2M>
+
+    <Vorto></Vorto>
+
+    <DDFLink></DDFLink>
+
+    <TS></TS>
+
+    <TSLink></TSLink>
+
+  </Item><Item>
+
+    <ObjectID>10326</ObjectID>
+
+    <URN>urn:oma:lwm2m:x:10326</URN>
+
+    <Name>Reserved</Name>
+
+    <Description></Description>
+
+    <Owner>Verizon Wireless</Owner>
+
+    <Source>2</Source>
+
+    <Ver/>
+
+    <DDF></DDF>
+
+    <LWM2M></LWM2M>
+
+    <Vorto></Vorto>
+
+    <DDFLink></DDFLink>
+
+    <TS></TS>
+
+    <TSLink></TSLink>
+
+  </Item><Item>
+
+    <ObjectID>10327</ObjectID>
+
+    <URN>urn:oma:lwm2m:x:10327</URN>
+
+    <Name>Reserved</Name>
+
+    <Description></Description>
+
+    <Owner>Verizon Wireless</Owner>
+
+    <Source>2</Source>
+
+    <Ver/>
+
+    <DDF></DDF>
+
+    <LWM2M></LWM2M>
+
+    <Vorto></Vorto>
+
+    <DDFLink></DDFLink>
+
+    <TS></TS>
+
+    <TSLink></TSLink>
+
+  </Item>
+  <Item>
+
+    <ObjectID>10328</ObjectID>
+
+    <URN>urn:oma:lwm2m:x:10328</URN>
+
+    <Name>Reserved</Name>
+
+    <Description></Description>
+
+    <Owner>Verizon Wireless</Owner>
+
+    <Source>2</Source>
+
+    <Ver/>
+
+    <DDF></DDF>
+
+    <LWM2M></LWM2M>
+
+    <Vorto></Vorto>
+
+    <DDFLink></DDFLink>
+
+    <TS></TS>
+
+    <TSLink></TSLink>
+
+  </Item>
+  <Item>
+
+    <ObjectID>10329</ObjectID>
+
+    <URN>urn:oma:lwm2m:x:10329</URN>
+
+    <Name>Reserved</Name>
+
+    <Description></Description>
+
+    <Owner>Verizon Wireless</Owner>
+
+    <Source>2</Source>
+
+    <Ver/>
+
+    <DDF></DDF>
+
+    <LWM2M></LWM2M>
+
+    <Vorto></Vorto>
+
+    <DDFLink></DDFLink>
+
+    <TS></TS>
+
+    <TSLink></TSLink>
+
+  </Item>
+  <Item>
+
+    <ObjectID>10330</ObjectID>
+
+    <URN>urn:oma:lwm2m:x:10330</URN>
+
+    <Name>Reserved</Name>
+
+    <Description></Description>
+
+    <Owner>Verizon Wireless</Owner>
+
+    <Source>2</Source>
+
+    <Ver/>
+
+    <DDF></DDF>
+
+    <LWM2M></LWM2M>
+
+    <Vorto></Vorto>
+
+    <DDFLink></DDFLink>
+
+    <TS></TS>
+
+    <TSLink></TSLink>
+
+  </Item>
+     <Item>
+
+    <ObjectID>10331</ObjectID>
+
+    <URN>urn:oma:lwm2m:x:10331</URN>
+
+    <Name>Reserved</Name>
+
+    <Description></Description>
+
+    <Owner>Verizon Wireless</Owner>
+
+    <Source>2</Source>
+
+    <Ver/>
+
+    <DDF></DDF>
+
+    <LWM2M></LWM2M>
+
+    <Vorto></Vorto>
+
+    <DDFLink></DDFLink>
+
+    <TS></TS>
+
+    <TSLink></TSLink>
+
+  </Item>
+     <Item>
+
+    <ObjectID>10332</ObjectID>
+
+    <URN>urn:oma:lwm2m:x:10332</URN>
+
+    <Name>Reserved</Name>
+
+    <Description></Description>
+
+    <Owner>Verizon Wireless</Owner>
+
+    <Source>2</Source>
+
+    <Ver/>
+
+    <DDF></DDF>
+
+    <LWM2M></LWM2M>
+
+    <Vorto></Vorto>
+
+    <DDFLink></DDFLink>
+
+    <TS></TS>
+
+    <TSLink></TSLink>
+
+  </Item>
+     <Item>
+
+    <ObjectID>10333</ObjectID>
+
+    <URN>urn:oma:lwm2m:x:10333</URN>
+
+    <Name>Reserved</Name>
+
+    <Description></Description>
+
+    <Owner>Verizon Wireless</Owner>
+
+    <Source>2</Source>
+
+    <Ver/>
+
+    <DDF></DDF>
+
+    <LWM2M></LWM2M>
+
+    <Vorto></Vorto>
+
+    <DDFLink></DDFLink>
+
+    <TS></TS>
+
+    <TSLink></TSLink>
+
+  </Item>
+     <Item>
+
+    <ObjectID>10334</ObjectID>
+
+    <URN>urn:oma:lwm2m:x:10334</URN>
+
+    <Name>Reserved</Name>
+
+    <Description></Description>
+
+    <Owner>Verizon Wireless</Owner>
+
+    <Source>2</Source>
+
+    <Ver/>
+
+    <DDF></DDF>
+
+    <LWM2M></LWM2M>
+
+    <Vorto></Vorto>
+
+    <DDFLink></DDFLink>
+
+    <TS></TS>
+
+    <TSLink></TSLink>
+
+  </Item>
 
 </DDFList>
