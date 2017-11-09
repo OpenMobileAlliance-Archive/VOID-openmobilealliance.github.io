@@ -3997,6 +3997,36 @@
 
   </Item>
   
+    <Item>
+
+    <ObjectID>10287</ObjectID>
+
+    <URN>urn:oma:lwm2m:x:10287</URN>
+
+    <Name>Reserved</Name>
+
+    <Description></Description>
+
+    <Owner>smartlogic</Owner>
+
+    <Source>2</Source>
+
+    <Ver/>
+
+    <DDF></DDF>
+
+    <LWM2M></LWM2M>
+
+    <Vorto></Vorto>
+
+    <DDFLink></DDFLink>
+
+    <TS></TS>
+
+    <TSLink></TSLink>
+
+  </Item>
+  
      <Item>
 
     <ObjectID>10300</ObjectID>
