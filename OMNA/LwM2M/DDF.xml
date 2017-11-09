@@ -529,11 +529,11 @@
 
     <DDF></DDF>
 
-    <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3a%2f%2fwww.openmobilealliance.org%2ftech%2fprofiles%2fLWM2M_Portfolio-v1_0.xml.xml</LWM2M>
+    <LWM2M></LWM2M>
 
     <Vorto>http://vorto.eclipse.org/resolve/lwm2m/Object/ObjectID/16</Vorto>
 
-    <DDFLink>1</DDFLink>
+    <DDFLink>0</DDFLink>
 
     <TS>http://www.openmobilealliance.org/release/LWM2M_PortfolioObj/V1_0-20160906-C/OMA-TS-LWM2M_PortfolioObj-V1_0-20160906-C.pdf</TS>
 
@@ -3989,7 +3989,7 @@
 
     <Vorto></Vorto>
 
-    <DDFLink>1</DDFLink>
+    <DDFLink></DDFLink>
 
     <TS></TS>
 
