@@ -3465,14 +3465,14 @@ First instance describes the least significant bit, second instance the second l
 
 <Units/>
 
-
--<Description>
+<Description>
 
 <![CDATA[The Latest Payload resource is a read-only serialised Opaque (Binary) representation of all the Interval Data between the Last Delivered Interval and the Latest Recorded Interval, accounting for the Delivery Midnight Aligned resource. When this payload is delivered to the LwM2M server, via either a read request or a confirmed observation on this Object, Object Instance or Resource, the Latest Delivered Interval should be updated. When no new data exists, an empty Opaque value should be provided. The payload data can be provided in an implementation specific serialisation, but by default for fixed length values should use the OMA-LwM2M CBOR format encoded as follows: 1. 8-bit integer, value 2 representing OMA-LwM2M CBOR format. 2. Interval Data Instance ID/ Class [16-bit integer] 3. Timestamp of first Interval [32-bit integer] representing the number of seconds since Jan 1st, 1970 in the UTC time zone. 4. Interval Period in seconds [32-bit integer] 5. Number of intervals in Payload [16-bit integer] 6. Number of Values Per Interval [8-bit integer] 7. Size of Value 1 in bits [8-bit integer] 8. Size of Value 2 in bits [8-bit integer] ... 9. Size of Value N in bits [8-bit integer] 10. Interval 1 Value 1 [x bits] 11. Interval 1 Value 2 [x bits] ... 12. Interval 1 Value N [x bits] ... 13. Interval N Value N [x bits] If for some implementation specific reason, there are missing intervals in the sequence, the payload may consist of multiple blocks of the above serialised data (appended into a single binary opaque value), each block representing a continuous series of interval data. ]]>
 
 </Description>
 
 </Item>
+
     </Resources>
 
     <Description2/>
