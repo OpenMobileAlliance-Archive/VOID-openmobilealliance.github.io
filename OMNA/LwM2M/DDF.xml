@@ -3695,7 +3695,7 @@
 
     <TS></TS>
 
-    <TSLink>1</TSLink>
+    <TSLink></TSLink>
 
   </Item>
 
@@ -3752,7 +3752,7 @@
 
     <Vorto></Vorto>
 
-    <DDFLink></DDFLink>
+    <DDFLink>1</DDFLink>
 
     <TS></TS>
 
@@ -3843,7 +3843,7 @@
 
     <Vorto></Vorto>
 
-    <DDFLink></DDFLink>
+    <DDFLink>1</DDFLink>
 
     <TS></TS>
 
@@ -3947,7 +3947,7 @@
 
     <URN>urn:oma:lwm2m:x:10285</URN>
 
-    <Name>Reserved</Name>
+    <Name></Name>
 
     <Description></Description>
 
