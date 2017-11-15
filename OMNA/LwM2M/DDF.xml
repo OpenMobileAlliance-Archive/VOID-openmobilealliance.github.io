@@ -3223,11 +3223,11 @@
 
     <URN>urn:oma:lwm2m:x:10261</URN>
 
-    <Name>Reserved</Name>
+    <Name></Name>
 
     <Description></Description>
 
-    <Owner>smartlogic</Owner>
+    <Owner></Owner>
 
     <Source>2</Source>
 
