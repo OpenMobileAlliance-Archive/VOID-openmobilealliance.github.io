@@ -3074,9 +3074,9 @@
 
     <URN>urn:oma:lwm2m:x:10256</URN>
 
-    <Name>Reserved</Name>
+    <Name>ECID-Signal Measurement Information</Name>
 
-    <Description></Description>
+    <Description>This LWM2M Object provides ECID signal measurements of a device.</Description>
 
     <Owner>Huawei Technologies</Owner>
 
@@ -3084,9 +3084,9 @@
 
     <Ver/>
 
-    <DDF>-</DDF>
+    <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/10256.xml</DDF>
 
-    <LWM2M>-</LWM2M>
+    <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F10256.xml</LWM2M>
 
     <Vorto></Vorto>
 
