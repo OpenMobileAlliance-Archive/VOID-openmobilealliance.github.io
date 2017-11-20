@@ -2613,6 +2613,1026 @@
     <TSLink>1</TSLink>
 
   </Item>
+  
+      <Item>
+  
+      <ObjectID>3351</ObjectID>
+
+    <URN>urn:oma:lwm2m:ext:3351</URN>
+
+    <Name>Rserved</Name>
+
+    <Description></Description>
+
+    <Owner>Verizon Wireless</Owner>
+
+    <Source>1</Source>
+
+    <Ver/>
+
+    <DDF></DDF>
+
+    <LWM2M></LWM2M>
+
+    <Vorto></Vorto>
+
+    <DDFLink></DDFLink>
+
+    <TS></TS>
+
+    <TSLink></TSLink>
+
+  </Item>
+  
+      <Item>
+  
+      <ObjectID>3352</ObjectID>
+
+    <URN>urn:oma:lwm2m:ext:3351</URN>
+
+    <Name>Reserved</Name>
+
+    <Description></Description>
+
+    <Owner>Verizon Wireless</Owner>
+
+    <Source>1</Source>
+
+    <Ver/>
+
+    <DDF></DDF>
+
+    <LWM2M></LWM2M>
+
+    <Vorto></Vorto>
+
+    <DDFLink></DDFLink>
+
+    <TS></TS>
+
+    <TSLink></TSLink>
+
+  </Item>
+  
+     <Item>
+  
+      <ObjectID>3353</ObjectID>
+
+    <URN>urn:oma:lwm2m:ext:3354</URN>
+
+    <Name>Reserved</Name>
+
+    <Description></Description>
+
+    <Owner>Verizon Wireless</Owner>
+
+    <Source>1</Source>
+
+    <Ver/>
+
+    <DDF></DDF>
+
+    <LWM2M></LWM2M>
+
+    <Vorto></Vorto>
+
+    <DDFLink></DDFLink>
+
+    <TS></TS>
+
+    <TSLink></TSLink>
+
+  </Item>
+  
+     <Item>
+  
+      <ObjectID>335</ObjectID>
+
+    <URN>urn:oma:lwm2m:ext:3355</URN>
+
+    <Name>Reserved</Name>
+
+    <Description></Description>
+
+    <Owner>Verizon Wireless</Owner>
+
+    <Source>1</Source>
+
+    <Ver/>
+
+    <DDF></DDF>
+
+    <LWM2M></LWM2M>
+
+    <Vorto></Vorto>
+
+    <DDFLink></DDFLink>
+
+    <TS></TS>
+
+    <TSLink></TSLink>
+
+  </Item>
+  
+     <Item>
+  
+      <ObjectID>3356</ObjectID>
+
+    <URN>urn:oma:lwm2m:ext:3356</URN>
+
+    <Name>Reserved</Name>
+
+    <Description></Description>
+
+    <Owner>Verizon Wireless</Owner>
+
+    <Source>1</Source>
+
+    <Ver/>
+
+    <DDF></DDF>
+
+    <LWM2M></LWM2M>
+
+    <Vorto></Vorto>
+
+    <DDFLink></DDFLink>
+
+    <TS></TS>
+
+    <TSLink></TSLink>
+
+  </Item>
+  
+     <Item>
+  
+      <ObjectID>3357</ObjectID>
+
+    <URN>urn:oma:lwm2m:ext:3357</URN>
+
+    <Name>Reserved</Name>
+
+    <Description></Description>
+
+    <Owner>Verizon Wireless</Owner>
+
+    <Source>1</Source>
+
+    <Ver/>
+
+    <DDF></DDF>
+
+    <LWM2M></LWM2M>
+
+    <Vorto></Vorto>
+
+    <DDFLink></DDFLink>
+
+    <TS></TS>
+
+    <TSLink></TSLink>
+
+  </Item>
+  
+     <Item>
+  
+      <ObjectID>3358</ObjectID>
+
+    <URN>urn:oma:lwm2m:ext:3358</URN>
+
+    <Name>Reserved</Name>
+
+    <Description></Description>
+
+    <Owner>Verizon Wireless</Owner>
+
+    <Source>1</Source>
+
+    <Ver/>
+
+    <DDF></DDF>
+
+    <LWM2M></LWM2M>
+
+    <Vorto></Vorto>
+
+    <DDFLink></DDFLink>
+
+    <TS></TS>
+
+    <TSLink></TSLink>
+
+  </Item>
+  
+     <Item>
+  
+      <ObjectID>3359</ObjectID>
+
+    <URN>urn:oma:lwm2m:ext:3359</URN>
+
+    <Name>Reserved</Name>
+
+    <Description></Description>
+
+    <Owner>Verizon Wireless</Owner>
+
+    <Source>1</Source>
+
+    <Ver/>
+
+    <DDF></DDF>
+
+    <LWM2M></LWM2M>
+
+    <Vorto></Vorto>
+
+    <DDFLink></DDFLink>
+
+    <TS></TS>
+
+    <TSLink></TSLink>
+
+  </Item>
+  
+     <Item>
+  
+      <ObjectID>3360</ObjectID>
+
+    <URN>urn:oma:lwm2m:ext:3360</URN>
+
+    <Name>Reserved</Name>
+
+    <Description></Description>
+
+    <Owner>Verizon Wireless</Owner>
+
+    <Source>1</Source>
+
+    <Ver/>
+
+    <DDF></DDF>
+
+    <LWM2M></LWM2M>
+
+    <Vorto></Vorto>
+
+    <DDFLink></DDFLink>
+
+    <TS></TS>
+
+    <TSLink></TSLink>
+
+  </Item>
+  
+    <Item>
+  
+      <ObjectID>3361</ObjectID>
+
+    <URN>urn:oma:lwm2m:ext:3362</URN>
+
+    <Name>Reserved</Name>
+
+    <Description></Description>
+
+    <Owner>Verizon Wireless</Owner>
+
+    <Source>1</Source>
+
+    <Ver/>
+
+    <DDF></DDF>
+
+    <LWM2M></LWM2M>
+
+    <Vorto></Vorto>
+
+    <DDFLink></DDFLink>
+
+    <TS></TS>
+
+    <TSLink></TSLink>
+
+  </Item>
+  
+    <Item>
+  
+      <ObjectID>3363</ObjectID>
+
+    <URN>urn:oma:lwm2m:ext:3363</URN>
+
+    <Name>Reserved</Name>
+
+    <Description></Description>
+
+    <Owner>Verizon Wireless</Owner>
+
+    <Source>1</Source>
+
+    <Ver/>
+
+    <DDF></DDF>
+
+    <LWM2M></LWM2M>
+
+    <Vorto></Vorto>
+
+    <DDFLink></DDFLink>
+
+    <TS></TS>
+
+    <TSLink></TSLink>
+
+  </Item>
+  
+    <Item>
+  
+      <ObjectID>3364</ObjectID>
+
+    <URN>urn:oma:lwm2m:ext:3364</URN>
+
+    <Name>Reserved</Name>
+
+    <Description></Description>
+
+    <Owner>Verizon Wireless</Owner>
+
+    <Source>1</Source>
+
+    <Ver/>
+
+    <DDF></DDF>
+
+    <LWM2M></LWM2M>
+
+    <Vorto></Vorto>
+
+    <DDFLink></DDFLink>
+
+    <TS></TS>
+
+    <TSLink></TSLink>
+
+  </Item>
+  
+    <Item>
+  
+      <ObjectID>3365</ObjectID>
+
+    <URN>urn:oma:lwm2m:ext:3365</URN>
+
+    <Name>Reserved</Name>
+
+    <Description></Description>
+
+    <Owner>Verizon Wireless</Owner>
+
+    <Source>1</Source>
+
+    <Ver/>
+
+    <DDF></DDF>
+
+    <LWM2M></LWM2M>
+
+    <Vorto></Vorto>
+
+    <DDFLink></DDFLink>
+
+    <TS></TS>
+
+    <TSLink></TSLink>
+
+  </Item>
+  
+    <Item>
+  
+      <ObjectID>3366</ObjectID>
+
+    <URN>urn:oma:lwm2m:ext:3366</URN>
+
+    <Name>Reserved</Name>
+
+    <Description></Description>
+
+    <Owner>Verizon Wireless</Owner>
+
+    <Source>1</Source>
+
+    <Ver/>
+
+    <DDF></DDF>
+
+    <LWM2M></LWM2M>
+
+    <Vorto></Vorto>
+
+    <DDFLink></DDFLink>
+
+    <TS></TS>
+
+    <TSLink></TSLink>
+
+  </Item>
+  
+    <Item>
+  
+      <ObjectID>3367</ObjectID>
+
+    <URN>urn:oma:lwm2m:ext:3367</URN>
+
+    <Name>Reserved</Name>
+
+    <Description></Description>
+
+    <Owner>Verizon Wireless</Owner>
+
+    <Source>1</Source>
+
+    <Ver/>
+
+    <DDF></DDF>
+
+    <LWM2M></LWM2M>
+
+    <Vorto></Vorto>
+
+    <DDFLink></DDFLink>
+
+    <TS></TS>
+
+    <TSLink></TSLink>
+
+  </Item>
+  
+    <Item>
+  
+      <ObjectID>3368</ObjectID>
+
+    <URN>urn:oma:lwm2m:ext:3368</URN>
+
+    <Name>Reserved</Name>
+
+    <Description></Description>
+
+    <Owner>Verizon Wireless</Owner>
+
+    <Source>1</Source>
+
+    <Ver/>
+
+    <DDF></DDF>
+
+    <LWM2M></LWM2M>
+
+    <Vorto></Vorto>
+
+    <DDFLink></DDFLink>
+
+    <TS></TS>
+
+    <TSLink></TSLink>
+
+  </Item>
+  
+    <Item>
+  
+      <ObjectID>3369</ObjectID>
+
+    <URN>urn:oma:lwm2m:ext:3369</URN>
+
+    <Name>Reserved</Name>
+
+    <Description></Description>
+
+    <Owner>Verizon Wireless</Owner>
+
+    <Source>1</Source>
+
+    <Ver/>
+
+    <DDF></DDF>
+
+    <LWM2M></LWM2M>
+
+    <Vorto></Vorto>
+
+    <DDFLink></DDFLink>
+
+    <TS></TS>
+
+    <TSLink></TSLink>
+
+  </Item>
+  
+    <Item>
+  
+      <ObjectID>3370</ObjectID>
+
+    <URN>urn:oma:lwm2m:ext:3370</URN>
+
+    <Name>Reserved</Name>
+
+    <Description></Description>
+
+    <Owner>Verizon Wireless</Owner>
+
+    <Source>1</Source>
+
+    <Ver/>
+
+    <DDF></DDF>
+
+    <LWM2M></LWM2M>
+
+    <Vorto></Vorto>
+
+    <DDFLink></DDFLink>
+
+    <TS></TS>
+
+    <TSLink></TSLink>
+
+  </Item>
+  
+     <Item>
+  
+      <ObjectID>3371</ObjectID>
+
+    <URN>urn:oma:lwm2m:ext:3371</URN>
+
+    <Name>Reserved</Name>
+
+    <Description></Description>
+
+    <Owner>Verizon Wireless</Owner>
+
+    <Source>1</Source>
+
+    <Ver/>
+
+    <DDF></DDF>
+
+    <LWM2M></LWM2M>
+
+    <Vorto></Vorto>
+
+    <DDFLink></DDFLink>
+
+    <TS></TS>
+
+    <TSLink></TSLink>
+
+  </Item>
+  
+     <Item>
+  
+      <ObjectID>3372</ObjectID>
+
+    <URN>urn:oma:lwm2m:ext:3372</URN>
+
+    <Name>Reserved</Name>
+
+    <Description></Description>
+
+    <Owner>Verizon Wireless</Owner>
+
+    <Source>1</Source>
+
+    <Ver/>
+
+    <DDF></DDF>
+
+    <LWM2M></LWM2M>
+
+    <Vorto></Vorto>
+
+    <DDFLink></DDFLink>
+
+    <TS></TS>
+
+    <TSLink></TSLink>
+
+  </Item>
+  
+     <Item>
+  
+      <ObjectID>3373</ObjectID>
+
+    <URN>urn:oma:lwm2m:ext:3373</URN>
+
+    <Name>Reserved</Name>
+
+    <Description></Description>
+
+    <Owner>Verizon Wireless</Owner>
+
+    <Source>1</Source>
+
+    <Ver/>
+
+    <DDF></DDF>
+
+    <LWM2M></LWM2M>
+
+    <Vorto></Vorto>
+
+    <DDFLink></DDFLink>
+
+    <TS></TS>
+
+    <TSLink></TSLink>
+
+  </Item>
+  
+     <Item>
+  
+      <ObjectID>3374</ObjectID>
+
+    <URN>urn:oma:lwm2m:ext:3374</URN>
+
+    <Name>Reserved</Name>
+
+    <Description></Description>
+
+    <Owner>Verizon Wireless</Owner>
+
+    <Source>1</Source>
+
+    <Ver/>
+
+    <DDF></DDF>
+
+    <LWM2M></LWM2M>
+
+    <Vorto></Vorto>
+
+    <DDFLink></DDFLink>
+
+    <TS></TS>
+
+    <TSLink></TSLink>
+
+  </Item>
+  
+     <Item>
+  
+      <ObjectID>3375</ObjectID>
+
+    <URN>urn:oma:lwm2m:ext:3375</URN>
+
+    <Name>Reserved</Name>
+
+    <Description></Description>
+
+    <Owner>Verizon Wireless</Owner>
+
+    <Source>1</Source>
+
+    <Ver/>
+
+    <DDF></DDF>
+
+    <LWM2M></LWM2M>
+
+    <Vorto></Vorto>
+
+    <DDFLink></DDFLink>
+
+    <TS></TS>
+
+    <TSLink></TSLink>
+
+  </Item>
+  
+     <Item>
+  
+      <ObjectID>3376</ObjectID>
+
+    <URN>urn:oma:lwm2m:ext:3376</URN>
+
+    <Name>Reserved</Name>
+
+    <Description></Description>
+
+    <Owner>Verizon Wireless</Owner>
+
+    <Source>1</Source>
+
+    <Ver/>
+
+    <DDF></DDF>
+
+    <LWM2M></LWM2M>
+
+    <Vorto></Vorto>
+
+    <DDFLink></DDFLink>
+
+    <TS></TS>
+
+    <TSLink></TSLink>
+
+  </Item>
+  
+     <Item>
+  
+      <ObjectID>3377</ObjectID>
+
+    <URN>urn:oma:lwm2m:ext:3377</URN>
+
+    <Name>Reserved</Name>
+
+    <Description></Description>
+
+    <Owner>Verizon Wireless</Owner>
+
+    <Source>1</Source>
+
+    <Ver/>
+
+    <DDF></DDF>
+
+    <LWM2M></LWM2M>
+
+    <Vorto></Vorto>
+
+    <DDFLink></DDFLink>
+
+    <TS></TS>
+
+    <TSLink></TSLink>
+
+  </Item>
+  
+     <Item>
+  
+      <ObjectID>3378</ObjectID>
+
+    <URN>urn:oma:lwm2m:ext:3378</URN>
+
+    <Name>Reserved</Name>
+
+    <Description></Description>
+
+    <Owner>Verizon Wireless</Owner>
+
+    <Source>1</Source>
+
+    <Ver/>
+
+    <DDF></DDF>
+
+    <LWM2M></LWM2M>
+
+    <Vorto></Vorto>
+
+    <DDFLink></DDFLink>
+
+    <TS></TS>
+
+    <TSLink></TSLink>
+
+  </Item>
+  
+     <Item>
+  
+      <ObjectID>3379</ObjectID>
+
+    <URN>urn:oma:lwm2m:ext:3379</URN>
+
+    <Name>Reserved</Name>
+
+    <Description></Description>
+
+    <Owner>Verizon Wireless</Owner>
+
+    <Source>1</Source>
+
+    <Ver/>
+
+    <DDF></DDF>
+
+    <LWM2M></LWM2M>
+
+    <Vorto></Vorto>
+
+    <DDFLink></DDFLink>
+
+    <TS></TS>
+
+    <TSLink></TSLink>
+
+  </Item>
+  
+     <Item>
+  
+      <ObjectID>3380</ObjectID>
+
+    <URN>urn:oma:lwm2m:ext:3380</URN>
+
+    <Name>Reserved</Name>
+
+    <Description></Description>
+
+    <Owner>Verizon Wireless</Owner>
+
+    <Source>1</Source>
+
+    <Ver/>
+
+    <DDF></DDF>
+
+    <LWM2M></LWM2M>
+
+    <Vorto></Vorto>
+
+    <DDFLink></DDFLink>
+
+    <TS></TS>
+
+    <TSLink></TSLink>
+
+  </Item>
+  
+     <Item>
+  
+      <ObjectID>3381</ObjectID>
+
+    <URN>urn:oma:lwm2m:ext:3381</URN>
+
+    <Name>Reserved</Name>
+
+    <Description></Description>
+
+    <Owner>Verizon Wireless</Owner>
+
+    <Source>1</Source>
+
+    <Ver/>
+
+    <DDF></DDF>
+
+    <LWM2M></LWM2M>
+
+    <Vorto></Vorto>
+
+    <DDFLink></DDFLink>
+
+    <TS></TS>
+
+    <TSLink></TSLink>
+
+  </Item>
+  
+     <Item>
+  
+      <ObjectID>3382</ObjectID>
+
+    <URN>urn:oma:lwm2m:ext:3382</URN>
+
+    <Name>Reserved</Name>
+
+    <Description></Description>
+
+    <Owner>Verizon Wireless</Owner>
+
+    <Source>1</Source>
+
+    <Ver/>
+
+    <DDF></DDF>
+
+    <LWM2M></LWM2M>
+
+    <Vorto></Vorto>
+
+    <DDFLink></DDFLink>
+
+    <TS></TS>
+
+    <TSLink></TSLink>
+
+  </Item>
+  
+     <Item>
+  
+      <ObjectID>3383</ObjectID>
+
+    <URN>urn:oma:lwm2m:ext:3383</URN>
+
+    <Name>Reserved</Name>
+
+    <Description></Description>
+
+    <Owner>Verizon Wireless</Owner>
+
+    <Source>1</Source>
+
+    <Ver/>
+
+    <DDF></DDF>
+
+    <LWM2M></LWM2M>
+
+    <Vorto></Vorto>
+
+    <DDFLink></DDFLink>
+
+    <TS></TS>
+
+    <TSLink></TSLink>
+
+  </Item>
+  
+     <Item>
+  
+      <ObjectID>3384</ObjectID>
+
+    <URN>urn:oma:lwm2m:ext:3384</URN>
+
+    <Name>Reserved</Name>
+
+    <Description></Description>
+
+    <Owner>Verizon Wireless</Owner>
+
+    <Source>1</Source>
+
+    <Ver/>
+
+    <DDF></DDF>
+
+    <LWM2M></LWM2M>
+
+    <Vorto></Vorto>
+
+    <DDFLink></DDFLink>
+
+    <TS></TS>
+
+    <TSLink></TSLink>
+
+  </Item>
+  
+     <Item>
+  
+      <ObjectID>3385</ObjectID>
+
+    <URN>urn:oma:lwm2m:ext:3385</URN>
+
+    <Name>Reserved</Name>
+
+    <Description></Description>
+
+    <Owner>Verizon Wireless</Owner>
+
+    <Source>1</Source>
+
+    <Ver/>
+
+    <DDF></DDF>
+
+    <LWM2M></LWM2M>
+
+    <Vorto></Vorto>
+
+    <DDFLink></DDFLink>
+
+    <TS></TS>
+
+    <TSLink></TSLink>
+
+  </Item>
+  
+     <Item>
+  
+      <ObjectID>3386</ObjectID>
+
+    <URN>urn:oma:lwm2m:ext:3386</URN>
+
+    <Name>Reserved</Name>
+
+    <Description></Description>
+
+    <Owner>Verizon Wireless</Owner>
+
+    <Source>1</Source>
+
+    <Ver/>
+
+    <DDF></DDF>
+
+    <LWM2M></LWM2M>
+
+    <Vorto></Vorto>
+
+    <DDFLink></DDFLink>
+
+    <TS></TS>
+
+    <TSLink></TSLink>
+
+  </Item>
   -<Item>
 
     <ObjectID>10241</ObjectID>
@@ -3257,7 +4277,7 @@
 
     <Description>The Interval Data Delivery object provides an optimised means for managing the delivery of interval data from multiple Interval Data Object instances. </Description>
 
-    <Owner>smartlogic</Owner>
+    <Owner>South East Water Corporation</Owner>
 
     <Source>2</Source>
 
@@ -3287,7 +4307,7 @@
 
     <Description>The Event Data Delivery object provides a simple means for managing the delivery of event data from multiple Event Data Object instances.</Description>
 
-    <Owner>smartlogic</Owner>
+    <Owner>South East Water Corporation</Owner>
 
     <Source>2</Source>
 
@@ -3317,7 +4337,7 @@
 
     <Description>The Delivery Schedule object provides a means for controlling the periodic delivery of interval and event data to the LwM2M server.</Description>
 
-    <Owner>smartlogic</Owner>
+    <Owner>South East Water Corporation</Owner>
 
     <Source>2</Source>
 
@@ -3347,7 +4367,7 @@
 
     <Description>The leakage detection configuration object provides a means for configuring the timing and sampling frequency of a vibration based network leak detector</Description>
 
-    <Owner>smartlogic</Owner>
+    <Owner>South East Water Corporation</Owner>
 
     <Source>2</Source>
 
@@ -3377,7 +4397,7 @@
 
     <Description>Measures the flow of water in regular intervals</Description>
 
-    <Owner>smartlogic</Owner>
+    <Owner>South East Water Corporation</Owner>
 
     <Source>2</Source>
 
@@ -3407,7 +4427,7 @@
 
     <Description>Measures the maximum flow rate and its time stamp for specified period</Description>
 
-    <Owner>smartlogic</Owner>
+    <Owner>South East Water Corporation</Owner>
 
     <Source>2</Source>
 
@@ -3437,7 +4457,7 @@
 
     <Description>Periodic temperature measurements</Description>
 
-    <Owner>smartlogic</Owner>
+    <Owner>South East Water Corporation</Owner>
 
     <Source>2</Source>
 
@@ -3467,7 +4487,7 @@
 
     <Description>Periodic pressure measurements</Description>
 
-    <Owner>smartlogic</Owner>
+    <Owner>South East Water Corporation</Owner>
 
     <Source>2</Source>
 
@@ -3497,7 +4517,7 @@
 
     <Description>Periodic battery level measurements</Description>
 
-    <Owner>smartlogic</Owner>
+    <Owner>South East Water Corporation</Owner>
 
     <Source>2</Source>
 
@@ -3527,7 +4547,7 @@
 
     <Description>Measures the total duration that the meter was activating its radio for packet transmission or receipt for the period. Used to monitor for excess poower usage over time.</Description>
 
-    <Owner>smartlogic</Owner>
+    <Owner>South East Water Corporation</Owner>
 
     <Source>2</Source>
 
@@ -3557,7 +4577,7 @@
 
     <Description>A binary flag indicating continual usage (e.g. greater than 5 L/h for 24 hours and the flow never returning to zero at any time).</Description>
 
-    <Owner>smartlogic</Owner>
+    <Owner>South East Water Corporation</Owner>
 
     <Source>2</Source>
 
@@ -3587,7 +4607,7 @@
 
     <Description>An alarm indicating reverse flow through the pipe. Also supports delivery of the approximate volume of water flowing in the reverse direction in the preceding period.</Description>
 
-    <Owner>smartlogic</Owner>
+    <Owner>South East Water Corporation</Owner>
 
     <Source>2</Source>
 
@@ -3617,7 +4637,7 @@
 
     <Description>An alarm when meter detects there is no liquid in the pipe</Description>
 
-    <Owner>smartlogic</Owner>
+    <Owner>South East Water Corporation</Owner>
 
     <Source>2</Source>
 
@@ -3649,7 +4669,7 @@
     ultrasonic meters then the tamper alarm may be used to 
     indicate someone attempting to open the physical enclosure or other options the manufacturer may present.</Description>
 
-    <Owner>smartlogic</Owner>
+    <Owner>South East Water Corporation</Owner>
 
     <Source>2</Source>
 
@@ -3679,7 +4699,7 @@
 
     <Description>Where supported by the meter this is an alarm that should be raised if the meter detects pressure above a pre-configured threshold.</Description>
 
-    <Owner>smartlogic</Owner>
+    <Owner>South East Water Corporation</Owner>
 
     <Source>2</Source>
 
@@ -3709,7 +4729,7 @@
 
     <Description>Where supported by the meter this is an alarm that should be raised if the meter detects pressure below a pre-configured threshold.</Description>
 
-    <Owner>smartlogic</Owner>
+    <Owner>South East Water Corporation</Owner>
 
     <Source>2</Source>
 
@@ -3740,7 +4760,7 @@
     <Description>Where supported by the meter this is an alarm that should be raised if the meter detects temperature above a pre-configured threshold. 
     When the temperature drops below the clear threshold, the alarm should be cleared.</Description>
 
-    <Owner>smartlogic</Owner>
+    <Owner>South East Water Corporation</Owner>
 
     <Source>2</Source>
 
@@ -3771,7 +4791,7 @@
     <Description>Where supported by the meter this is an alarm that should be raised if the meter detects temperature below a pre-configured threshold. 
     When the temperature rises above the clear threshold, the alarm should be cleared</Description>
 
-    <Owner>smartlogic</Owner>
+    <Owner>South East Water Corporation</Owner>
 
     <Source>2</Source>
 
@@ -3801,7 +4821,7 @@
 
     <Description>This Alarm is raised when the battery voltage drops below a defined level</Description>
 
-    <Owner>smartlogic</Owner>
+    <Owner>South East Water Corporation</Owner>
 
     <Source>2</Source>
 
@@ -3831,7 +4851,7 @@
 
     <Description></Description>
 
-    <Owner>smartlogic</Owner>
+    <Owner>South East Water Corporation</Owner>
 
     <Source>2</Source>
 
@@ -3861,7 +4881,7 @@
 
     <Description>This binary status should indicate that the meter MCU can no longer communicate with a daughter board</Description>
 
-    <Owner>smartlogic</Owner>
+    <Owner>South East Water Corporation</Owner>
 
     <Source>2</Source>
 
@@ -3891,7 +4911,7 @@
 
     <Description>This binary status should indicate that the meter MCU can no longer communicate with a daughter board</Description>
 
-    <Owner>smartlogic</Owner>
+    <Owner>South East Water Corporation</Owner>
 
     <Source>2</Source>
 
@@ -3921,7 +4941,7 @@
 
     <Description>This event records the fact that the device has rebooted</Description>
 
-    <Owner>smartlogic</Owner>
+    <Owner>South East Water Corporation</Owner>
 
     <Source>2</Source>
 
@@ -4031,1048 +5051,4 @@
 
   </Item>
   
-     <Item>
-
-    <ObjectID>10300</ObjectID>
-
-    <URN>urn:oma:lwm2m:x:10300</URN>
-
-    <Name>Reserved</Name>
-
-    <Description></Description>
-
-    <Owner>Verizon Wireless</Owner>
-
-    <Source>2</Source>
-
-    <Ver/>
-
-    <DDF></DDF>
-
-    <LWM2M></LWM2M>
-
-    <Vorto></Vorto>
-
-    <DDFLink></DDFLink>
-
-    <TS></TS>
-
-    <TSLink></TSLink>
-
-  </Item>
-
-     <Item>
-
-    <ObjectID>10301</ObjectID>
-
-    <URN>urn:oma:lwm2m:x:10301</URN>
-
-    <Name>Reserved</Name>
-
-    <Description></Description>
-
-    <Owner>Verizon Wireless</Owner>
-
-    <Source>2</Source>
-
-    <Ver/>
-
-    <DDF></DDF>
-
-    <LWM2M></LWM2M>
-
-    <Vorto></Vorto>
-
-    <DDFLink></DDFLink>
-
-    <TS></TS>
-
-    <TSLink></TSLink>
-
-  </Item>
-  <Item>
-
-    <ObjectID>10302</ObjectID>
-
-    <URN>urn:oma:lwm2m:x:10302</URN>
-
-    <Name>Reserved</Name>
-
-    <Description></Description>
-
-    <Owner>Verizon Wireless</Owner>
-
-    <Source>2</Source>
-
-    <Ver/>
-
-    <DDF></DDF>
-
-    <LWM2M></LWM2M>
-
-    <Vorto></Vorto>
-
-    <DDFLink></DDFLink>
-
-    <TS></TS>
-
-    <TSLink></TSLink>
-
-  </Item>
-  <Item>
-
-    <ObjectID>10303</ObjectID>
-
-    <URN>urn:oma:lwm2m:x:103003</URN>
-
-    <Name>Reserved</Name>
-
-    <Description></Description>
-
-    <Owner>Verizon Wireless</Owner>
-
-    <Source>2</Source>
-
-    <Ver/>
-
-    <DDF></DDF>
-
-    <LWM2M></LWM2M>
-
-    <Vorto></Vorto>
-
-    <DDFLink></DDFLink>
-
-    <TS></TS>
-
-    <TSLink></TSLink>
-
-  </Item>
-  <Item>
-
-    <ObjectID>10304</ObjectID>
-
-    <URN>urn:oma:lwm2m:x:10304</URN>
-
-    <Name>Reserved</Name>
-
-    <Description></Description>
-
-    <Owner>Verizon Wireless</Owner>
-
-    <Source>2</Source>
-
-    <Ver/>
-
-    <DDF></DDF>
-
-    <LWM2M></LWM2M>
-
-    <Vorto></Vorto>
-
-    <DDFLink></DDFLink>
-
-    <TS></TS>
-
-    <TSLink></TSLink>
-
-  </Item>
-  <Item>
-
-    <ObjectID>10305</ObjectID>
-
-    <URN>urn:oma:lwm2m:x:10305</URN>
-
-    <Name>Reserved</Name>
-
-    <Description></Description>
-
-    <Owner>Verizon Wireless</Owner>
-
-    <Source>2</Source>
-
-    <Ver/>
-
-    <DDF></DDF>
-
-    <LWM2M></LWM2M>
-
-    <Vorto></Vorto>
-
-    <DDFLink></DDFLink>
-
-    <TS></TS>
-
-    <TSLink></TSLink>
-
-  </Item>
-  <Item>
-
-    <ObjectID>10306</ObjectID>
-
-    <URN>urn:oma:lwm2m:x:10306</URN>
-
-    <Name>Reserved</Name>
-
-    <Description></Description>
-
-    <Owner>Verizon Wireless</Owner>
-
-    <Source>2</Source>
-
-    <Ver/>
-
-    <DDF></DDF>
-
-    <LWM2M></LWM2M>
-
-    <Vorto></Vorto>
-
-    <DDFLink></DDFLink>
-
-    <TS></TS>
-
-    <TSLink></TSLink>
-
-  </Item>
-  <Item>
-
-    <ObjectID>10307</ObjectID>
-
-    <URN>urn:oma:lwm2m:x:10307</URN>
-
-    <Name>Reserved</Name>
-
-    <Description></Description>
-
-    <Owner>Verizon Wireless</Owner>
-
-    <Source>2</Source>
-
-    <Ver/>
-
-    <DDF></DDF>
-
-    <LWM2M></LWM2M>
-
-    <Vorto></Vorto>
-
-    <DDFLink></DDFLink>
-
-    <TS></TS>
-
-    <TSLink></TSLink>
-
-  </Item>
-  <Item>
-
-    <ObjectID>10308</ObjectID>
-
-    <URN>urn:oma:lwm2m:x:10308</URN>
-
-    <Name>Reserved</Name>
-
-    <Description></Description>
-
-    <Owner>Verizon Wireless</Owner>
-
-    <Source>2</Source>
-
-    <Ver/>
-
-    <DDF></DDF>
-
-    <LWM2M></LWM2M>
-
-    <Vorto></Vorto>
-
-    <DDFLink></DDFLink>
-
-    <TS></TS>
-
-    <TSLink></TSLink>
-
-  </Item>
-  
-    <Item>
-
-    <ObjectID>10309</ObjectID>
-
-    <URN>urn:oma:lwm2m:x:10309</URN>
-
-    <Name>Reserved</Name>
-
-    <Description></Description>
-
-    <Owner>Verizon Wireless</Owner>
-
-    <Source>2</Source>
-
-    <Ver/>
-
-    <DDF></DDF>
-
-    <LWM2M></LWM2M>
-
-    <Vorto></Vorto>
-
-    <DDFLink></DDFLink>
-
-    <TS></TS>
-
-    <TSLink></TSLink>
-
-  </Item>
-  <Item>
-
-    <ObjectID>10310</ObjectID>
-
-    <URN>urn:oma:lwm2m:x:10310</URN>
-
-    <Name>Reserved</Name>
-
-    <Description></Description>
-
-    <Owner>Verizon Wireless</Owner>
-
-    <Source>2</Source>
-
-    <Ver/>
-
-    <DDF></DDF>
-
-    <LWM2M></LWM2M>
-
-    <Vorto></Vorto>
-
-    <DDFLink></DDFLink>
-
-    <TS></TS>
-
-    <TSLink></TSLink>
-
-  </Item>
-  <Item>
-
-    <ObjectID>10311</ObjectID>
-
-    <URN>urn:oma:lwm2m:x:10311</URN>
-
-    <Name>Reserved</Name>
-
-    <Description></Description>
-
-    <Owner>Verizon Wireless</Owner>
-
-    <Source>2</Source>
-
-    <Ver/>
-
-    <DDF></DDF>
-
-    <LWM2M></LWM2M>
-
-    <Vorto></Vorto>
-
-    <DDFLink></DDFLink>
-
-    <TS></TS>
-
-    <TSLink></TSLink>
-
-  </Item>
-  <Item>
-
-    <ObjectID>10312</ObjectID>
-
-    <URN>urn:oma:lwm2m:x:10312</URN>
-
-    <Name>Reserved</Name>
-
-    <Description></Description>
-
-    <Owner>Verizon Wireless</Owner>
-
-    <Source>2</Source>
-
-    <Ver/>
-
-    <DDF></DDF>
-
-    <LWM2M></LWM2M>
-
-    <Vorto></Vorto>
-
-    <DDFLink></DDFLink>
-
-    <TS></TS>
-
-    <TSLink></TSLink>
-
-  </Item>
-  <Item>
-
-    <ObjectID>10313</ObjectID>
-
-    <URN>urn:oma:lwm2m:x:10313</URN>
-
-    <Name>Reserved</Name>
-
-    <Description></Description>
-
-    <Owner>Verizon Wireless</Owner>
-
-    <Source>2</Source>
-
-    <Ver/>
-
-    <DDF></DDF>
-
-    <LWM2M></LWM2M>
-
-    <Vorto></Vorto>
-
-    <DDFLink></DDFLink>
-
-    <TS></TS>
-
-    <TSLink></TSLink>
-
-  </Item>
-  <Item>
-
-    <ObjectID>10314</ObjectID>
-
-    <URN>urn:oma:lwm2m:x:10314</URN>
-
-    <Name>Reserved</Name>
-
-    <Description></Description>
-
-    <Owner>Verizon Wireless</Owner>
-
-    <Source>2</Source>
-
-    <Ver/>
-
-    <DDF></DDF>
-
-    <LWM2M></LWM2M>
-
-    <Vorto></Vorto>
-
-    <DDFLink></DDFLink>
-
-    <TS></TS>
-
-    <TSLink></TSLink>
-
-  </Item>
-  <Item>
-
-    <ObjectID>10315</ObjectID>
-
-    <URN>urn:oma:lwm2m:x:10315</URN>
-
-    <Name>Reserved</Name>
-
-    <Description></Description>
-
-    <Owner>Verizon Wireless</Owner>
-
-    <Source>2</Source>
-
-    <Ver/>
-
-    <DDF></DDF>
-
-    <LWM2M></LWM2M>
-
-    <Vorto></Vorto>
-
-    <DDFLink></DDFLink>
-
-    <TS></TS>
-
-    <TSLink></TSLink>
-
-  </Item>
-  <Item>
-
-    <ObjectID>10316</ObjectID>
-
-    <URN>urn:oma:lwm2m:x:10316</URN>
-
-    <Name>Reserved</Name>
-
-    <Description></Description>
-
-    <Owner>Verizon Wireless</Owner>
-
-    <Source>2</Source>
-
-    <Ver/>
-
-    <DDF></DDF>
-
-    <LWM2M></LWM2M>
-
-    <Vorto></Vorto>
-
-    <DDFLink></DDFLink>
-
-    <TS></TS>
-
-    <TSLink></TSLink>
-
-  </Item>
-  <Item>
-
-    <ObjectID>10317</ObjectID>
-
-    <URN>urn:oma:lwm2m:x:10317</URN>
-
-    <Name>Reserved</Name>
-
-    <Description></Description>
-
-    <Owner>Verizon Wireless</Owner>
-
-    <Source>2</Source>
-
-    <Ver/>
-
-    <DDF></DDF>
-
-    <LWM2M></LWM2M>
-
-    <Vorto></Vorto>
-
-    <DDFLink></DDFLink>
-
-    <TS></TS>
-
-    <TSLink></TSLink>
-
-  </Item>
-  <Item>
-
-    <ObjectID>10318</ObjectID>
-
-    <URN>urn:oma:lwm2m:x:10318</URN>
-
-    <Name>Reserved</Name>
-
-    <Description></Description>
-
-    <Owner>Verizon Wireless</Owner>
-
-    <Source>2</Source>
-
-    <Ver/>
-
-    <DDF></DDF>
-
-    <LWM2M></LWM2M>
-
-    <Vorto></Vorto>
-
-    <DDFLink></DDFLink>
-
-    <TS></TS>
-
-    <TSLink></TSLink>
-
-  </Item>
-  <Item>
-
-    <ObjectID>10319</ObjectID>
-
-    <URN>urn:oma:lwm2m:x:10319</URN>
-
-    <Name>Reserved</Name>
-
-    <Description></Description>
-
-    <Owner>Verizon Wireless</Owner>
-
-    <Source>2</Source>
-
-    <Ver/>
-
-    <DDF></DDF>
-
-    <LWM2M></LWM2M>
-
-    <Vorto></Vorto>
-
-    <DDFLink></DDFLink>
-
-    <TS></TS>
-
-    <TSLink></TSLink>
-
-  </Item>
-  <Item>
-
-    <ObjectID>10320</ObjectID>
-
-    <URN>urn:oma:lwm2m:x:10320</URN>
-
-    <Name>Reserved</Name>
-
-    <Description></Description>
-
-    <Owner>Verizon Wireless</Owner>
-
-    <Source>2</Source>
-
-    <Ver/>
-
-    <DDF></DDF>
-
-    <LWM2M></LWM2M>
-
-    <Vorto></Vorto>
-
-    <DDFLink></DDFLink>
-
-    <TS></TS>
-
-    <TSLink></TSLink>
-
-  </Item>
-  <Item>
-
-    <ObjectID>10321</ObjectID>
-
-    <URN>urn:oma:lwm2m:x:10321</URN>
-
-    <Name>Reserved</Name>
-
-    <Description></Description>
-
-    <Owner>Verizon Wireless</Owner>
-
-    <Source>2</Source>
-
-    <Ver/>
-
-    <DDF></DDF>
-
-    <LWM2M></LWM2M>
-
-    <Vorto></Vorto>
-
-    <DDFLink></DDFLink>
-
-    <TS></TS>
-
-    <TSLink></TSLink>
-
-  </Item>
-  <Item>
-
-    <ObjectID>10322</ObjectID>
-
-    <URN>urn:oma:lwm2m:x:10322</URN>
-
-    <Name>Reserved</Name>
-
-    <Description></Description>
-
-    <Owner>Verizon Wireless</Owner>
-
-    <Source>2</Source>
-
-    <Ver/>
-
-    <DDF></DDF>
-
-    <LWM2M></LWM2M>
-
-    <Vorto></Vorto>
-
-    <DDFLink></DDFLink>
-
-    <TS></TS>
-
-    <TSLink></TSLink>
-
-  </Item><Item>
-
-    <ObjectID>10323</ObjectID>
-
-    <URN>urn:oma:lwm2m:x:10323</URN>
-
-    <Name>Reserved</Name>
-
-    <Description></Description>
-
-    <Owner>Verizon Wireless</Owner>
-
-    <Source>2</Source>
-
-    <Ver/>
-
-    <DDF></DDF>
-
-    <LWM2M></LWM2M>
-
-    <Vorto></Vorto>
-
-    <DDFLink></DDFLink>
-
-    <TS></TS>
-
-    <TSLink></TSLink>
-
-  </Item>
-  <Item>
-
-    <ObjectID>10324</ObjectID>
-
-    <URN>urn:oma:lwm2m:x:10324</URN>
-
-    <Name>Reserved</Name>
-
-    <Description></Description>
-
-    <Owner>Verizon Wireless</Owner>
-
-    <Source>2</Source>
-
-    <Ver/>
-
-    <DDF></DDF>
-
-    <LWM2M></LWM2M>
-
-    <Vorto></Vorto>
-
-    <DDFLink></DDFLink>
-
-    <TS></TS>
-
-    <TSLink></TSLink>
-
-  </Item><Item>
-
-    <ObjectID>10325</ObjectID>
-
-    <URN>urn:oma:lwm2m:x:10325</URN>
-
-    <Name>Reserved</Name>
-
-    <Description></Description>
-
-    <Owner>Verizon Wireless</Owner>
-
-    <Source>2</Source>
-
-    <Ver/>
-
-    <DDF></DDF>
-
-    <LWM2M></LWM2M>
-
-    <Vorto></Vorto>
-
-    <DDFLink></DDFLink>
-
-    <TS></TS>
-
-    <TSLink></TSLink>
-
-  </Item><Item>
-
-    <ObjectID>10326</ObjectID>
-
-    <URN>urn:oma:lwm2m:x:10326</URN>
-
-    <Name>Reserved</Name>
-
-    <Description></Description>
-
-    <Owner>Verizon Wireless</Owner>
-
-    <Source>2</Source>
-
-    <Ver/>
-
-    <DDF></DDF>
-
-    <LWM2M></LWM2M>
-
-    <Vorto></Vorto>
-
-    <DDFLink></DDFLink>
-
-    <TS></TS>
-
-    <TSLink></TSLink>
-
-  </Item><Item>
-
-    <ObjectID>10327</ObjectID>
-
-    <URN>urn:oma:lwm2m:x:10327</URN>
-
-    <Name>Reserved</Name>
-
-    <Description></Description>
-
-    <Owner>Verizon Wireless</Owner>
-
-    <Source>2</Source>
-
-    <Ver/>
-
-    <DDF></DDF>
-
-    <LWM2M></LWM2M>
-
-    <Vorto></Vorto>
-
-    <DDFLink></DDFLink>
-
-    <TS></TS>
-
-    <TSLink></TSLink>
-
-  </Item>
-  <Item>
-
-    <ObjectID>10328</ObjectID>
-
-    <URN>urn:oma:lwm2m:x:10328</URN>
-
-    <Name>Reserved</Name>
-
-    <Description></Description>
-
-    <Owner>Verizon Wireless</Owner>
-
-    <Source>2</Source>
-
-    <Ver/>
-
-    <DDF></DDF>
-
-    <LWM2M></LWM2M>
-
-    <Vorto></Vorto>
-
-    <DDFLink></DDFLink>
-
-    <TS></TS>
-
-    <TSLink></TSLink>
-
-  </Item>
-  <Item>
-
-    <ObjectID>10329</ObjectID>
-
-    <URN>urn:oma:lwm2m:x:10329</URN>
-
-    <Name>Reserved</Name>
-
-    <Description></Description>
-
-    <Owner>Verizon Wireless</Owner>
-
-    <Source>2</Source>
-
-    <Ver/>
-
-    <DDF></DDF>
-
-    <LWM2M></LWM2M>
-
-    <Vorto></Vorto>
-
-    <DDFLink></DDFLink>
-
-    <TS></TS>
-
-    <TSLink></TSLink>
-
-  </Item>
-  <Item>
-
-    <ObjectID>10330</ObjectID>
-
-    <URN>urn:oma:lwm2m:x:10330</URN>
-
-    <Name>Reserved</Name>
-
-    <Description></Description>
-
-    <Owner>Verizon Wireless</Owner>
-
-    <Source>2</Source>
-
-    <Ver/>
-
-    <DDF></DDF>
-
-    <LWM2M></LWM2M>
-
-    <Vorto></Vorto>
-
-    <DDFLink></DDFLink>
-
-    <TS></TS>
-
-    <TSLink></TSLink>
-
-  </Item>
-     <Item>
-
-    <ObjectID>10331</ObjectID>
-
-    <URN>urn:oma:lwm2m:x:10331</URN>
-
-    <Name>Reserved</Name>
-
-    <Description></Description>
-
-    <Owner>Verizon Wireless</Owner>
-
-    <Source>2</Source>
-
-    <Ver/>
-
-    <DDF></DDF>
-
-    <LWM2M></LWM2M>
-
-    <Vorto></Vorto>
-
-    <DDFLink></DDFLink>
-
-    <TS></TS>
-
-    <TSLink></TSLink>
-
-  </Item>
-     <Item>
-
-    <ObjectID>10332</ObjectID>
-
-    <URN>urn:oma:lwm2m:x:10332</URN>
-
-    <Name>Reserved</Name>
-
-    <Description></Description>
-
-    <Owner>Verizon Wireless</Owner>
-
-    <Source>2</Source>
-
-    <Ver/>
-
-    <DDF></DDF>
-
-    <LWM2M></LWM2M>
-
-    <Vorto></Vorto>
-
-    <DDFLink></DDFLink>
-
-    <TS></TS>
-
-    <TSLink></TSLink>
-
-  </Item>
-     <Item>
-
-    <ObjectID>10333</ObjectID>
-
-    <URN>urn:oma:lwm2m:x:10333</URN>
-
-    <Name>Reserved</Name>
-
-    <Description></Description>
-
-    <Owner>Verizon Wireless</Owner>
-
-    <Source>2</Source>
-
-    <Ver/>
-
-    <DDF></DDF>
-
-    <LWM2M></LWM2M>
-
-    <Vorto></Vorto>
-
-    <DDFLink></DDFLink>
-
-    <TS></TS>
-
-    <TSLink></TSLink>
-
-  </Item>
-     <Item>
-
-    <ObjectID>10334</ObjectID>
-
-    <URN>urn:oma:lwm2m:x:10334</URN>
-
-    <Name>Reserved</Name>
-
-    <Description></Description>
-
-    <Owner>Verizon Wireless</Owner>
-
-    <Source>2</Source>
-
-    <Ver/>
-
-    <DDF></DDF>
-
-    <LWM2M></LWM2M>
-
-    <Vorto></Vorto>
-
-    <DDFLink></DDFLink>
-
-    <TS></TS>
-
-    <TSLink></TSLink>
-
-  </Item>
-  
-   <Item>
-
-    <ObjectID>10335</ObjectID>
-
-    <URN>urn:oma:lwm2m:x:10335</URN>
-
-    <Name>Reserved</Name>
-
-    <Description></Description>
-
-    <Owner>Verizon Wireless</Owner>
-
-    <Source>2</Source>
-
-    <Ver/>
-
-    <DDF></DDF>
-
-    <LWM2M></LWM2M>
-
-    <Vorto></Vorto>
-
-    <DDFLink></DDFLink>
-
-    <TS></TS>
-
-    <TSLink></TSLink>
-
-  </Item>
-
 </DDFList>
