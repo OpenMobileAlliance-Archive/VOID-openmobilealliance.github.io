@@ -607,7 +607,7 @@
 
     <URN>urn:oma:lwm2m:oma:19</URN>
 
-    <Name>Reserved</Name>
+    <Name>Pending</Name>
 
     <Description></Description>
 
@@ -638,7 +638,7 @@
 
     <URN>urn:oma:lwm2m:oma:20</URN>
 
-    <Name>Reserved</Name>
+    <Name>Pending</Name>
 
     <Description></Description>
 
@@ -2620,7 +2620,7 @@
 
     <URN>urn:oma:lwm2m:ext:3351</URN>
 
-    <Name>Reserved</Name>
+    <Name>Pending</Name>
 
     <Description></Description>
 
@@ -2650,7 +2650,7 @@
 
     <URN>urn:oma:lwm2m:ext:3351</URN>
 
-    <Name>Reserved</Name>
+    <Name>Pending</Name>
 
     <Description></Description>
 
@@ -2680,7 +2680,7 @@
 
     <URN>urn:oma:lwm2m:ext:3354</URN>
 
-    <Name>Reserved</Name>
+    <Name>Pending</Name>
 
     <Description></Description>
 
@@ -2710,7 +2710,7 @@
 
     <URN>urn:oma:lwm2m:ext:3355</URN>
 
-    <Name>Reserved</Name>
+    <Name>Pending</Name>
 
     <Description></Description>
 
@@ -2740,7 +2740,7 @@
 
     <URN>urn:oma:lwm2m:ext:3356</URN>
 
-    <Name>Reserved</Name>
+    <Name>Pending</Name>
 
     <Description></Description>
 
@@ -2770,7 +2770,7 @@
 
     <URN>urn:oma:lwm2m:ext:3357</URN>
 
-    <Name>Reserved</Name>
+    <Name>Pending</Name>
 
     <Description></Description>
 
@@ -2800,7 +2800,7 @@
 
     <URN>urn:oma:lwm2m:ext:3358</URN>
 
-    <Name>Reserved</Name>
+    <Name>Pending</Name>
 
     <Description></Description>
 
@@ -2830,7 +2830,7 @@
 
     <URN>urn:oma:lwm2m:ext:3359</URN>
 
-    <Name>Reserved</Name>
+    <Name>Pending</Name>
 
     <Description></Description>
 
@@ -2860,7 +2860,7 @@
 
     <URN>urn:oma:lwm2m:ext:3360</URN>
 
-    <Name>Reserved</Name>
+    <Name>Pending</Name>
 
     <Description></Description>
 
@@ -2890,7 +2890,7 @@
 
     <URN>urn:oma:lwm2m:ext:3362</URN>
 
-    <Name>Reserved</Name>
+    <Name>Pending</Name>
 
     <Description></Description>
 
@@ -2920,7 +2920,7 @@
 
     <URN>urn:oma:lwm2m:ext:3363</URN>
 
-    <Name>Reserved</Name>
+    <Name>Pending</Name>
 
     <Description></Description>
 
@@ -2950,7 +2950,7 @@
 
     <URN>urn:oma:lwm2m:ext:3364</URN>
 
-    <Name>Reserved</Name>
+    <Name>Pending</Name>
 
     <Description></Description>
 
@@ -2980,7 +2980,7 @@
 
     <URN>urn:oma:lwm2m:ext:3365</URN>
 
-    <Name>Reserved</Name>
+    <Name>Pending</Name>
 
     <Description></Description>
 
@@ -3010,7 +3010,7 @@
 
     <URN>urn:oma:lwm2m:ext:3366</URN>
 
-    <Name>Reserved</Name>
+    <Name>Pending</Name>
 
     <Description></Description>
 
@@ -3040,7 +3040,7 @@
 
     <URN>urn:oma:lwm2m:ext:3367</URN>
 
-    <Name>Reserved</Name>
+    <Name>Pending</Name>
 
     <Description></Description>
 
@@ -3070,7 +3070,7 @@
 
     <URN>urn:oma:lwm2m:ext:3368</URN>
 
-    <Name>Reserved</Name>
+    <Name>Pending</Name>
 
     <Description></Description>
 
@@ -3100,7 +3100,7 @@
 
     <URN>urn:oma:lwm2m:ext:3369</URN>
 
-    <Name>Reserved</Name>
+    <Name>Pending</Name>
 
     <Description></Description>
 
@@ -3130,7 +3130,7 @@
 
     <URN>urn:oma:lwm2m:ext:3370</URN>
 
-    <Name>Reserved</Name>
+    <Name>Pending</Name>
 
     <Description></Description>
 
@@ -3160,7 +3160,7 @@
 
     <URN>urn:oma:lwm2m:ext:3371</URN>
 
-    <Name>Reserved</Name>
+    <Name>Pending</Name>
 
     <Description></Description>
 
@@ -3190,7 +3190,7 @@
 
     <URN>urn:oma:lwm2m:ext:3372</URN>
 
-    <Name>Reserved</Name>
+    <Name>Pending</Name>
 
     <Description></Description>
 
@@ -3220,7 +3220,7 @@
 
     <URN>urn:oma:lwm2m:ext:3373</URN>
 
-    <Name>Reserved</Name>
+    <Name>Pending</Name>
 
     <Description></Description>
 
@@ -3250,7 +3250,7 @@
 
     <URN>urn:oma:lwm2m:ext:3374</URN>
 
-    <Name>Reserved</Name>
+    <Name>Pending</Name>
 
     <Description></Description>
 
@@ -3280,7 +3280,7 @@
 
     <URN>urn:oma:lwm2m:ext:3375</URN>
 
-    <Name>Reserved</Name>
+    <Name>Pending</Name>
 
     <Description></Description>
 
@@ -3310,7 +3310,7 @@
 
     <URN>urn:oma:lwm2m:ext:3376</URN>
 
-    <Name>Reserved</Name>
+    <Name>Pending</Name>
 
     <Description></Description>
 
@@ -3340,7 +3340,7 @@
 
     <URN>urn:oma:lwm2m:ext:3377</URN>
 
-    <Name>Reserved</Name>
+    <Name>Pending</Name>
 
     <Description></Description>
 
@@ -3370,7 +3370,7 @@
 
     <URN>urn:oma:lwm2m:ext:3378</URN>
 
-    <Name>Reserved</Name>
+    <Name>Pending</Name>
 
     <Description></Description>
 
@@ -3400,7 +3400,7 @@
 
     <URN>urn:oma:lwm2m:ext:3379</URN>
 
-    <Name>Reserved</Name>
+    <Name>Pending</Name>
 
     <Description></Description>
 
@@ -3430,7 +3430,7 @@
 
     <URN>urn:oma:lwm2m:ext:3380</URN>
 
-    <Name>Reserved</Name>
+    <Name>Pending</Name>
 
     <Description></Description>
 
@@ -3460,7 +3460,7 @@
 
     <URN>urn:oma:lwm2m:ext:3381</URN>
 
-    <Name>Reserved</Name>
+    <Name>Pending</Name>
 
     <Description></Description>
 
@@ -3490,7 +3490,7 @@
 
     <URN>urn:oma:lwm2m:ext:3382</URN>
 
-    <Name>Reserved</Name>
+    <Name>Pending</Name>
 
     <Description></Description>
 
@@ -3520,7 +3520,7 @@
 
     <URN>urn:oma:lwm2m:ext:3383</URN>
 
-    <Name>Reserved</Name>
+    <Name>Pending</Name>
 
     <Description></Description>
 
@@ -3550,7 +3550,7 @@
 
     <URN>urn:oma:lwm2m:ext:3384</URN>
 
-    <Name>Reserved</Name>
+    <Name>Pending</Name>
 
     <Description></Description>
 
@@ -3580,7 +3580,7 @@
 
     <URN>urn:oma:lwm2m:ext:3385</URN>
 
-    <Name>Reserved</Name>
+    <Name>Pending</Name>
 
     <Description></Description>
 
@@ -3610,7 +3610,7 @@
 
     <URN>urn:oma:lwm2m:ext:3386</URN>
 
-    <Name>Reserved</Name>
+    <Name>Pending</Name>
 
     <Description></Description>
 
@@ -4853,7 +4853,7 @@
 
     <URN>urn:oma:lwm2m:x:10281</URN>
 
-    <Name>Reserved</Name>
+    <Name>Pending</Name>
 
     <Description></Description>
 
@@ -4967,35 +4967,7 @@
 
   </Item>
 
-  <Item>
 
-    <ObjectID>10285</ObjectID>
-
-    <URN>urn:oma:lwm2m:x:10285</URN>
-
-    <Name></Name>
-
-    <Description></Description>
-
-    <Owner></Owner>
-
-    <Source>2</Source>
-
-    <Ver/>
-
-    <DDF></DDF>
-
-    <LWM2M></LWM2M>
-
-    <Vorto></Vorto>
-
-    <DDFLink></DDFLink>
-
-    <TS></TS>
-
-    <TSLink></TSLink>
-
-  </Item>
 
   <Item>
 
@@ -5003,9 +4975,9 @@
 
     <URN>urn:oma:lwm2m:x:10286</URN>
 
-    <Name>Reserved</Name>
+    <Name>App Fota Container</Name>
 
-    <Description></Description>
+    <Description>This LWM2M Object is used to download the firmware package of a device's application.</Description>
 
     <Owner>Huawei</Owner>
 
@@ -5013,13 +4985,13 @@
 
     <Ver/>
 
-    <DDF></DDF>
+    <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/10286.xml</DDF>
 
-    <LWM2M></LWM2M>
+    <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F10286.xml</LWM2M>
 
     <Vorto></Vorto>
 
-    <DDFLink></DDFLink>
+    <DDFLink>1</DDFLink>
 
     <TS></TS>
 
@@ -5033,7 +5005,7 @@
 
     <URN>urn:oma:lwm2m:x:10299</URN>
 
-    <Name>Reserved</Name>
+    <Name>Pending</Name>
 
     <Description></Description>
 
