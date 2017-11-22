@@ -5003,9 +5003,9 @@
 
     <URN>urn:oma:lwm2m:x:10286</URN>
 
-    <Name>Pending</Name>
+    <Name>App Fota Container</Name>
 
-    <Description></Description>
+    <Description>This LWM2M Object is used to download the firmware package of a device's application.</Description>
 
     <Owner>Huawei</Owner>
 
@@ -5013,13 +5013,13 @@
 
     <Ver/>
 
-    <DDF></DDF>
+    <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/10286.xml</DDF>
 
-    <LWM2M></LWM2M>
+    <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F10286.xml</LWM2M>
 
     <Vorto></Vorto>
 
-    <DDFLink></DDFLink>
+    <DDFLink>1</DDFLink>
 
     <TS></TS>
 
