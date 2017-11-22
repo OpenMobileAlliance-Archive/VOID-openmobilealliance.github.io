@@ -2753,900 +2753,900 @@ First instance describes the least significant bit, second instance the second l
 
       </Item>
 
-    <Item ID="6000">
+      <Item ID="6000">
 
-<Name>Interval Period</Name>
+        <Name>Interval Period</Name>
 
-<Operations>R</Operations>
+        <Operations>R</Operations>
 
-<MultipleInstances>Single</MultipleInstances>
+        <MultipleInstances>Single</MultipleInstances>
 
-<Mandatory>Mandatory</Mandatory>
+        <Mandatory>Mandatory</Mandatory>
 
-<Type>Integer</Type>
+        <Type>Integer</Type>
 
-<RangeEnumeration>1-864000</RangeEnumeration>
+        <RangeEnumeration>1-864000</RangeEnumeration>
 
-<Units>Seconds</Units>
+        <Units>Seconds</Units>
 
-<Description>
+        <Description>
 
-<![CDATA[The Interval Period resource is an Integer value representing the width in seconds of the intervals being managed by this interval data object. This resource is read only and can only be changed by resource 11 (Change Interval Configuration). It is recommended that the Interval Period be set to a devisor of 24 hours (86400 seconds) to provide a consistent interval period. Examples of Interval Period include:- 30 = Every 30 seconds 600 = Every 10 minutes 1800 = Every 30 minutes 3600 = Hourly 7200 = Every 2 hours 14400 = Every 4 hours 43200 = Every 12 hours 86400 = Every Day 172600 = Every Second Day]]>
+          <![CDATA[The Interval Period resource is an Integer value representing the width in seconds of the intervals being managed by this interval data object. This resource is read only and can only be changed by resource 11 (Change Interval Configuration). It is recommended that the Interval Period be set to a devisor of 24 hours (86400 seconds) to provide a consistent interval period. Examples of Interval Period include:- 30 = Every 30 seconds 600 = Every 10 minutes 1800 = Every 30 minutes 3600 = Hourly 7200 = Every 2 hours 14400 = Every 4 hours 43200 = Every 12 hours 86400 = Every Day 172600 = Every Second Day]]>
 
-</Description>
+        </Description>
 
-</Item>
+      </Item>
 
-<Item ID="6001">
+      <Item ID="6001">
 
-<Name>Interval Start Offset</Name>
+        <Name>Interval Start Offset</Name>
 
-<Operations>R</Operations>
+        <Operations>R</Operations>
 
-<MultipleInstances>Single</MultipleInstances>
+        <MultipleInstances>Single</MultipleInstances>
 
-<Mandatory>Optional</Mandatory>
+        <Mandatory>Optional</Mandatory>
 
-<Type>Integer</Type>
+        <Type>Integer</Type>
 
-<RangeEnumeration>0-86399</RangeEnumeration>
+        <RangeEnumeration>0-86399</RangeEnumeration>
 
-<Units>Seconds</Units>
+        <Units>Seconds</Units>
 
-<Description>
+        <Description>
 
-<![CDATA[The Interval Start Offset resource is a read only resource representing the number of seconds past midnight for which the first interval is recorded. If this resource is empty, it is assumed that the intervals are midnight aligned. This can be used to adjust interval boundaries. As an example, an Interval Period of 3600 seconds and an Interval Start time of 300 represents hourly interval data, starting at 00:05.]]>
+          <![CDATA[The Interval Start Offset resource is a read only resource representing the number of seconds past midnight for which the first interval is recorded. If this resource is empty, it is assumed that the intervals are midnight aligned. This can be used to adjust interval boundaries. As an example, an Interval Period of 3600 seconds and an Interval Start time of 300 represents hourly interval data, starting at 00:05.]]>
 
-</Description>
+        </Description>
 
-</Item>
+      </Item>
 
-<Item ID="6002">
+      <Item ID="6002">
 
-<Name>Interval UTC Offset</Name>
+        <Name>Interval UTC Offset</Name>
 
-<Operations>R</Operations>
+        <Operations>R</Operations>
 
-<MultipleInstances>Single</MultipleInstances>
+        <MultipleInstances>Single</MultipleInstances>
 
-<Mandatory>Optional</Mandatory>
+        <Mandatory>Optional</Mandatory>
 
-<Type>String</Type>
+        <Type>String</Type>
 
-<RangeEnumeration/>
+        <RangeEnumeration/>
 
-<Units/>
+        <Units/>
 
-<Description>
+        <Description>
 
-<![CDATA[The Interval UTC Offset resource is a read only resource representing the time zone offset for this Interval Data instance. If this resource is empty, the application should use the UTC offset provided in the Device [/3/0/14] object instance resource or UTC if not provided. UTC+X [ISO 8601].]]>
+          <![CDATA[The Interval UTC Offset resource is a read only resource representing the time zone offset for this Interval Data instance. If this resource is empty, the application should use the UTC offset provided in the Device [/3/0/14] object instance resource or UTC if not provided. UTC+X [ISO 8601].]]>
 
-</Description>
+        </Description>
 
-</Item>
+      </Item>
 
-<Item ID="6003">
+      <Item ID="6003">
 
-<Name>Interval Collection Start Time</Name>
+        <Name>Interval Collection Start Time</Name>
 
-<Operations>R</Operations>
+        <Operations>R</Operations>
 
-<MultipleInstances>Single</MultipleInstances>
+        <MultipleInstances>Single</MultipleInstances>
 
-<Mandatory>Mandatory</Mandatory>
+        <Mandatory>Mandatory</Mandatory>
 
-<Type>Time</Type>
+        <Type>Time</Type>
 
-<RangeEnumeration/>
+        <RangeEnumeration/>
 
-<Units/>
+        <Units/>
 
-<Description>
+        <Description>
 
-<![CDATA[The Collection Start Time resource is a read only resource representing the time when the first interval was recorded on the device. Interval times represent the end of the interval, not the beginning. As an example, the first four hourly interval past midnight will have a timestamp of 04:00 (adjusting for UTC offset). ]]>
+          <![CDATA[The Collection Start Time resource is a read only resource representing the time when the first interval was recorded on the device. Interval times represent the end of the interval, not the beginning. As an example, the first four hourly interval past midnight will have a timestamp of 04:00 (adjusting for UTC offset). ]]>
 
-</Description>
+        </Description>
 
-</Item>
+      </Item>
 
-<Item ID="6004">
+      <Item ID="6004">
 
-<Name>Oldest Recorded Interval</Name>
+        <Name>Oldest Recorded Interval</Name>
 
-<Operations>R</Operations>
+        <Operations>R</Operations>
 
-<MultipleInstances>Single</MultipleInstances>
+        <MultipleInstances>Single</MultipleInstances>
 
-<Mandatory>Mandatory</Mandatory>
+        <Mandatory>Mandatory</Mandatory>
 
-<Type>Time</Type>
+        <Type>Time</Type>
 
-<RangeEnumeration/>
+        <RangeEnumeration/>
 
-<Units/>
+        <Units/>
 
-<Description>
+        <Description>
 
-<![CDATA[The Oldest Recorded Interval resource is a read-only resource representing the oldest available interval on the device. Interval times represent the end of the interval, not the beginning.]]>
+          <![CDATA[The Oldest Recorded Interval resource is a read-only resource representing the oldest available interval on the device. Interval times represent the end of the interval, not the beginning.]]>
 
-</Description>
+        </Description>
 
-</Item>
+      </Item>
 
-<Item ID="6005">
+      <Item ID="6005">
 
-<Name>Last Delivered Interval</Name>
+        <Name>Last Delivered Interval</Name>
 
-<Operations>RW</Operations>
+        <Operations>RW</Operations>
 
-<MultipleInstances>Single</MultipleInstances>
+        <MultipleInstances>Single</MultipleInstances>
 
-<Mandatory>Optional</Mandatory>
+        <Mandatory>Optional</Mandatory>
 
-<Type>Time</Type>
+        <Type>Time</Type>
 
-<RangeEnumeration/>
+        <RangeEnumeration/>
 
-<Units/>
+        <Units/>
 
-<Description>
+        <Description>
 
-<![CDATA[The Last Delivered Interval is a readable and writable resource used to represent the last interval delivered to the LwM2M server. Interval times represent the end of the interval, not the beginning. The setting of this resource is implementation specific but should be updated based on, either a Read request of the Latest Payload from the LwM2M server or via a confirmed delivery of Notify operation of the Latest Payload resource. This resource is writable to allow the server to adjust the Last Delivered Interval value if the server and client is out of sync.]]>
+          <![CDATA[The Last Delivered Interval is a readable and writable resource used to represent the last interval delivered to the LwM2M server. Interval times represent the end of the interval, not the beginning. The setting of this resource is implementation specific but should be updated based on, either a Read request of the Latest Payload from the LwM2M server or via a confirmed delivery of Notify operation of the Latest Payload resource. This resource is writable to allow the server to adjust the Last Delivered Interval value if the server and client is out of sync.]]>
 
-</Description>
+        </Description>
 
-</Item>
+      </Item>
 
-<Item ID="6006">
+      <Item ID="6006">
 
-<Name>Latest Recorded Interval</Name>
+        <Name>Latest Recorded Interval</Name>
 
-<Operations>R</Operations>
+        <Operations>R</Operations>
 
-<MultipleInstances>Single</MultipleInstances>
+        <MultipleInstances>Single</MultipleInstances>
 
-<Mandatory>Mandatory</Mandatory>
+        <Mandatory>Mandatory</Mandatory>
 
-<Type>Time</Type>
+        <Type>Time</Type>
 
-<RangeEnumeration/>
+        <RangeEnumeration/>
 
-<Units/>
+        <Units/>
 
-<Description>
+        <Description>
 
-<![CDATA[The Latest Recorded Interval is a readable resource representing the currently highest recorded interval on the device. Interval times represent the end of the interval, not the beginning.]]>
+          <![CDATA[The Latest Recorded Interval is a readable resource representing the currently highest recorded interval on the device. Interval times represent the end of the interval, not the beginning.]]>
 
-</Description>
+        </Description>
 
-</Item>
+      </Item>
 
-<Item ID="6007">
+      <Item ID="6007">
 
-<Name>Interval Delivery Midnight Aligned</Name>
+        <Name>Interval Delivery Midnight Aligned</Name>
 
-<Operations>RW</Operations>
+        <Operations>RW</Operations>
 
-<MultipleInstances>Single</MultipleInstances>
+        <MultipleInstances>Single</MultipleInstances>
 
-<Mandatory>Mandatory</Mandatory>
+        <Mandatory>Mandatory</Mandatory>
 
-<Type>Boolean</Type>
+        <Type>Boolean</Type>
 
-<RangeEnumeration/>
+        <RangeEnumeration/>
 
-<Units/>
+        <Units/>
 
-<Description>
+        <Description>
 
-<![CDATA[The Delivery Midnight Aligned is a readable and writable resource used to indicate if data is delivered only to the previous midnight (1) or if part-day data can be delivered (0). Calculating Midnight should consider the Interval UTC Offset resource, or if empty, the Device [/3/0/14] object instance resource.]]>
+          <![CDATA[The Delivery Midnight Aligned is a readable and writable resource used to indicate if data is delivered only to the previous midnight (1) or if part-day data can be delivered (0). Calculating Midnight should consider the Interval UTC Offset resource, or if empty, the Device [/3/0/14] object instance resource.]]>
 
-</Description>
+        </Description>
 
-</Item>
+      </Item>
 
-<Item ID="6008">
+      <Item ID="6008">
 
-<Name>Interval Historical Read</Name>
+        <Name>Interval Historical Read</Name>
 
-<Operations>E</Operations>
+        <Operations>E</Operations>
 
-<MultipleInstances>Single</MultipleInstances>
+        <MultipleInstances>Single</MultipleInstances>
 
-<Mandatory>Optional</Mandatory>
+        <Mandatory>Optional</Mandatory>
 
-<Type/>
+        <Type/>
 
-<RangeEnumeration/>
+        <RangeEnumeration/>
 
-<Units/>
+        <Units/>
 
-<Description>
+        <Description>
 
-<![CDATA[Historical Interval Read is an executable resource designed to retrieve ad-hoc interval read data. The resource takes two arguments:- Argument 0: First Interval time to Retrieve represented as number of seconds since Jan 1st, 1970 in the UTC time zone. Argument 1: Last interval time to Retrieve represented as number of seconds since Jan 1st, 1970 in the UTC time zone. The dates should be inclusive based on the end time of the interval. The data retrieved from this resource will be readable (or observable) from the Historical Read Payload Resource. As an example, the Argument List to retrieve data from Midnight 2nd March (UTC+10) to Midnight 6rd March (UTC+10) for a specific instance of the interval data object, would be constructed as follows:- 0='1488463200',1='1488808800']]>
+          <![CDATA[Historical Interval Read is an executable resource designed to retrieve ad-hoc interval read data. The resource takes two arguments:- Argument 0: First Interval time to Retrieve represented as number of seconds since Jan 1st, 1970 in the UTC time zone. Argument 1: Last interval time to Retrieve represented as number of seconds since Jan 1st, 1970 in the UTC time zone. The dates should be inclusive based on the end time of the interval. The data retrieved from this resource will be readable (or observable) from the Historical Read Payload Resource. As an example, the Argument List to retrieve data from Midnight 2nd March (UTC+10) to Midnight 6rd March (UTC+10) for a specific instance of the interval data object, would be constructed as follows:- 0='1488463200',1='1488808800']]>
 
-</Description>
+        </Description>
 
-</Item>
+      </Item>
 
-<Item ID="6009">
+      <Item ID="6009">
 
-<Name>Interval Historical Read Payload</Name>
+        <Name>Interval Historical Read Payload</Name>
 
-<Operations>R</Operations>
+        <Operations>R</Operations>
 
-<MultipleInstances>Single</MultipleInstances>
+        <MultipleInstances>Single</MultipleInstances>
 
-<Mandatory>Optional</Mandatory>
+        <Mandatory>Optional</Mandatory>
 
-<Type>Opaque</Type>
+        <Type>Opaque</Type>
 
-<RangeEnumeration/>
+        <RangeEnumeration/>
 
-<Units/>
+        <Units/>
 
-<Description>
+        <Description>
 
-<![CDATA[The Historical Read Payload resource is the representation of the data requested by the Historical Interval Read executable resource. The format of this Opaque value should be identical to the Latest Payload resource. If no Historical Interval Read has been executed, this resource should return and empty Opaque value. This resource can either be Read from the Server or set up as an observation and Notified to the server as soon as the historical data is available. When this payload is delivered to the LwM2M server, via either a read request or a confirmed observation on this Object, Object Instance or Resource, the Historical Read Payload should be set to an empty Opaque value.]]>
+          <![CDATA[The Historical Read Payload resource is the representation of the data requested by the Historical Interval Read executable resource. The format of this Opaque value should be identical to the Latest Payload resource. If no Historical Interval Read has been executed, this resource should return and empty Opaque value. This resource can either be Read from the Server or set up as an observation and Notified to the server as soon as the historical data is available. When this payload is delivered to the LwM2M server, via either a read request or a confirmed observation on this Object, Object Instance or Resource, the Historical Read Payload should be set to an empty Opaque value.]]>
 
-</Description>
+        </Description>
 
-</Item>
+      </Item>
 
-<Item ID="6010">
+      <Item ID="6010">
 
-<Name>Interval Change Configuration</Name>
+        <Name>Interval Change Configuration</Name>
 
-<Operations>E</Operations>
+        <Operations>E</Operations>
 
-<MultipleInstances>Single</MultipleInstances>
+        <MultipleInstances>Single</MultipleInstances>
 
-<Mandatory>Optional</Mandatory>
+        <Mandatory>Optional</Mandatory>
 
-<Type/>
+        <Type/>
 
-<RangeEnumeration/>
+        <RangeEnumeration/>
 
-<Units/>
+        <Units/>
 
-<Description>
+        <Description>
 
-<![CDATA[Change Interval Configuration is an executable resource designed to allow the Interval Period, Interval Start Offset and Interval UTC Offset to be reconfigured. The resource takes three arguments:- Argument 0: [Mandatory] Interval Period represented as an integer as defined in the Interval Period Resource. Argument 1: [Optional] Interval start offset represented as an integer as defined in the Interval Start Offset Resource. If not provided, leave the value as per the current configuration Argument 2: [Optional] Interval UTC offset represented as a String as defined in the Interval UTC Offset Resource. If not provided, leave the value as per the current configuration. Depending on the specifics of the implementation of this object, reconfiguring the Interval data object may result in the removal of all historical data for this Interval Data Object Instance. Please consult with your device vendor as to the implications of reconfiguring an Interval Data Object Instance. As an example, the Argument List to change an interval data object instance from its existing values to one hour intervals, midnight aligned in UTC+10 time zone:- 0='3600',1='0',1='UTC+10']]>
+          <![CDATA[Change Interval Configuration is an executable resource designed to allow the Interval Period, Interval Start Offset and Interval UTC Offset to be reconfigured. The resource takes three arguments:- Argument 0: [Mandatory] Interval Period represented as an integer as defined in the Interval Period Resource. Argument 1: [Optional] Interval start offset represented as an integer as defined in the Interval Start Offset Resource. If not provided, leave the value as per the current configuration Argument 2: [Optional] Interval UTC offset represented as a String as defined in the Interval UTC Offset Resource. If not provided, leave the value as per the current configuration. Depending on the specifics of the implementation of this object, reconfiguring the Interval data object may result in the removal of all historical data for this Interval Data Object Instance. Please consult with your device vendor as to the implications of reconfiguring an Interval Data Object Instance. As an example, the Argument List to change an interval data object instance from its existing values to one hour intervals, midnight aligned in UTC+10 time zone:- 0='3600',1='0',1='UTC+10']]>
 
-</Description>
+        </Description>
 
-</Item>
+      </Item>
 
-<Item ID="6011">
+      <Item ID="6011">
 
-<Name>Event Type</Name>
+        <Name>Event Type</Name>
 
-<Operations>RW</Operations>
+        <Operations>RW</Operations>
 
-<MultipleInstances>Single</MultipleInstances>
+        <MultipleInstances>Single</MultipleInstances>
 
-<Mandatory>Mandatory</Mandatory>
+        <Mandatory>Mandatory</Mandatory>
 
-<Type>Integer</Type>
+        <Type>Integer</Type>
 
-<RangeEnumeration/>
+        <RangeEnumeration/>
 
-<Units/>
+        <Units/>
 
-<Description>
+        <Description>
 
-<![CDATA[Event Type is a readable and writable resource used to represent how this event will behave. Event Type should be one of the following values:- 0. Disabled 1. Alarm Current State 2. Alarm State Change Log 3. Event Log When the Event Type is set to Disabled (0), this event will not be recorded by the device. No Latest Eventlog payload should be delivered for events that are Disabled. When the Event Type is set to Alarm Current State (1), this Event is treated as an alarm state manager and the Latest Eventlog Payload will only contain the current state of this alarm. When the Event Type is set to Alarm State Change Log (2), the Event is treated as an alarm that reports whenever the Alarm is either set or cleared. The Latest Eventlog Payload will contain all alarm transitions since the previous delivery in this mode. When the Event Type is set to Event Log (3), this object instance is treated as a raw event log. It is used to manage and deliver events. The Latest Eventlog Payload will contain all events since the previous delivery in this mode. See the Event Log Payload for examples of each of these modes. ]]>
+          <![CDATA[Event Type is a readable and writable resource used to represent how this event will behave. Event Type should be one of the following values:- 0. Disabled 1. Alarm Current State 2. Alarm State Change Log 3. Event Log When the Event Type is set to Disabled (0), this event will not be recorded by the device. No Latest Eventlog payload should be delivered for events that are Disabled. When the Event Type is set to Alarm Current State (1), this Event is treated as an alarm state manager and the Latest Eventlog Payload will only contain the current state of this alarm. When the Event Type is set to Alarm State Change Log (2), the Event is treated as an alarm that reports whenever the Alarm is either set or cleared. The Latest Eventlog Payload will contain all alarm transitions since the previous delivery in this mode. When the Event Type is set to Event Log (3), this object instance is treated as a raw event log. It is used to manage and deliver events. The Latest Eventlog Payload will contain all events since the previous delivery in this mode. See the Event Log Payload for examples of each of these modes. ]]>
 
-</Description>
+        </Description>
 
-</Item>
+      </Item>
 
-<Item ID="6012">
+      <Item ID="6012">
 
-<Name>Alarm Realtime</Name>
+        <Name>Alarm Realtime</Name>
 
-<Operations>RW</Operations>
+        <Operations>RW</Operations>
 
-<MultipleInstances>Single</MultipleInstances>
+        <MultipleInstances>Single</MultipleInstances>
 
-<Mandatory>Mandatory</Mandatory>
+        <Mandatory>Mandatory</Mandatory>
 
-<Type>Boolean</Type>
+        <Type>Boolean</Type>
 
-<RangeEnumeration/>
+        <RangeEnumeration/>
 
-<Units/>
+        <Units/>
 
-<Description>
+        <Description>
 
-<![CDATA[Realtime is a readable and writable resource used to indicate if an event should report immediately (1) at the point of occurrence, or delivered periodically as part of the Latest Eventlog Payload.]]>
+          <![CDATA[Realtime is a readable and writable resource used to indicate if an event should report immediately (1) at the point of occurrence, or delivered periodically as part of the Latest Eventlog Payload.]]>
 
-</Description>
+        </Description>
 
-</Item>
+      </Item>
 
-<Item ID="6013">
+      <Item ID="6013">
 
-<Name>Alarm State</Name>
+        <Name>Alarm State</Name>
 
-<Operations>R</Operations>
+        <Operations>R</Operations>
 
-<MultipleInstances>Single</MultipleInstances>
+        <MultipleInstances>Single</MultipleInstances>
 
-<Mandatory>Optional</Mandatory>
+        <Mandatory>Optional</Mandatory>
 
-<Type>Boolean</Type>
+        <Type>Boolean</Type>
 
-<RangeEnumeration/>
+        <RangeEnumeration/>
 
-<Units/>
+        <Units/>
 
-<Description>
+        <Description>
 
-<![CDATA[Alarm State is a read-only resource used to indicate the current alarm state for this Event configuration. This is only applicable if the Event Type is Alarm Current State (1) or Alarm State Change (2). ]]>
+          <![CDATA[Alarm State is a read-only resource used to indicate the current alarm state for this Event configuration. This is only applicable if the Event Type is Alarm Current State (1) or Alarm State Change (2). ]]>
 
-</Description>
+        </Description>
 
-</Item>
+      </Item>
 
-<Item ID="6014">
+      <Item ID="6014">
 
-<Name>Alarm Set Threshold</Name>
+        <Name>Alarm Set Threshold</Name>
 
-<Operations>RW</Operations>
+        <Operations>RW</Operations>
 
-<MultipleInstances>Single</MultipleInstances>
+        <MultipleInstances>Single</MultipleInstances>
 
-<Mandatory>Optional</Mandatory>
+        <Mandatory>Optional</Mandatory>
 
-<Type>Float</Type>
+        <Type>Float</Type>
 
-<RangeEnumeration/>
+        <RangeEnumeration/>
 
-<Units/>
+        <Units/>
 
-<Description>
+        <Description>
 
-<![CDATA[Set Threshold is a readable and writable resource used to represent the threshold for when an alarm is triggered. This resource is used in conjunction with the Set Operator resource. ]]>
+          <![CDATA[Set Threshold is a readable and writable resource used to represent the threshold for when an alarm is triggered. This resource is used in conjunction with the Set Operator resource. ]]>
 
-</Description>
+        </Description>
 
-</Item>
+      </Item>
 
-<Item ID="6015">
+      <Item ID="6015">
 
-<Name>Alarm Set Operator</Name>
+        <Name>Alarm Set Operator</Name>
 
-<Operations>RW</Operations>
+        <Operations>RW</Operations>
 
-<MultipleInstances>Single</MultipleInstances>
+        <MultipleInstances>Single</MultipleInstances>
 
-<Mandatory>Optional</Mandatory>
+        <Mandatory>Optional</Mandatory>
 
-<Type>Integer</Type>
+        <Type>Integer</Type>
 
-<RangeEnumeration/>
+        <RangeEnumeration/>
 
-<Units/>
+        <Units/>
 
-<Description>
+        <Description>
 
-<![CDATA[Set Operator is a readable and writable resource used in conjunction with the Set Threshold to represent when an alarm is triggered. This resource should be set to one of the following values:- 0. Greater Than or Equal to 1. Less Than or Equal to By setting the Set Operator to Greater Than (0), when the measured value for this event exceeds the Set Threshold resource, the event is considered to be in an Alarm State of 1 By setting the Set Operator to Less Than (1), when the measured value for this event falls below the Set Threshold resource, the event is considered to be in an Alarm State of 1]]>
+          <![CDATA[Set Operator is a readable and writable resource used in conjunction with the Set Threshold to represent when an alarm is triggered. This resource should be set to one of the following values:- 0. Greater Than or Equal to 1. Less Than or Equal to By setting the Set Operator to Greater Than (0), when the measured value for this event exceeds the Set Threshold resource, the event is considered to be in an Alarm State of 1 By setting the Set Operator to Less Than (1), when the measured value for this event falls below the Set Threshold resource, the event is considered to be in an Alarm State of 1]]>
 
-</Description>
+        </Description>
 
-</Item>
+      </Item>
 
-<Item ID="6016">
+      <Item ID="6016">
 
-<Name>Alarm Clear Threshold</Name>
+        <Name>Alarm Clear Threshold</Name>
 
-<Operations>RW</Operations>
+        <Operations>RW</Operations>
 
-<MultipleInstances>Single</MultipleInstances>
+        <MultipleInstances>Single</MultipleInstances>
 
-<Mandatory>Optional</Mandatory>
+        <Mandatory>Optional</Mandatory>
 
-<Type>Float</Type>
+        <Type>Float</Type>
 
-<RangeEnumeration/>
+        <RangeEnumeration/>
 
-<Units/>
+        <Units/>
 
-<Description>
+        <Description>
 
-<![CDATA[Clear Threshold is a readable and writable resource used to represent the threshold for when an alarm is cleared. This resource is used in conjunction with the Clear Operator resource. ]]>
+          <![CDATA[Clear Threshold is a readable and writable resource used to represent the threshold for when an alarm is cleared. This resource is used in conjunction with the Clear Operator resource. ]]>
 
-</Description>
+        </Description>
 
-</Item>
+      </Item>
 
-<Item ID="6017">
+      <Item ID="6017">
 
-<Name>Alarm Clear Operator</Name>
+        <Name>Alarm Clear Operator</Name>
 
-<Operations>RW</Operations>
+        <Operations>RW</Operations>
 
-<MultipleInstances>Single</MultipleInstances>
+        <MultipleInstances>Single</MultipleInstances>
 
-<Mandatory>Optional</Mandatory>
+        <Mandatory>Optional</Mandatory>
 
-<Type>Integer</Type>
+        <Type>Integer</Type>
 
-<RangeEnumeration/>
+        <RangeEnumeration/>
 
-<Units/>
+        <Units/>
 
-<Description>
+        <Description>
 
-<![CDATA[Clear Operator is a readable and writable resource used in conjunction with the Clear Threshold to represent when an alarm is Cleared. This resource should be set to one of the following values:- 0. Greater Than or Equal to 1. Less Than or Equal to By setting the Clear Operator to Greater Than (0), when the measured value for this event exceeds the Clear Threshold resource, the event is considered to be in an Alarm State of 0 By setting the Clear Operator to Less Than (1), when the measured value for this event falls below the Clear Threshold resource, the event is considered to be in an Alarm State of 0]]>
+          <![CDATA[Clear Operator is a readable and writable resource used in conjunction with the Clear Threshold to represent when an alarm is Cleared. This resource should be set to one of the following values:- 0. Greater Than or Equal to 1. Less Than or Equal to By setting the Clear Operator to Greater Than (0), when the measured value for this event exceeds the Clear Threshold resource, the event is considered to be in an Alarm State of 0 By setting the Clear Operator to Less Than (1), when the measured value for this event falls below the Clear Threshold resource, the event is considered to be in an Alarm State of 0]]>
 
-</Description>
+        </Description>
 
-</Item>
+      </Item>
 
-<Item ID="6018">
+      <Item ID="6018">
 
-<Name>Alarm Maximum Event Count</Name>
+        <Name>Alarm Maximum Event Count</Name>
 
-<Operations>RW</Operations>
+        <Operations>RW</Operations>
 
-<MultipleInstances>Single</MultipleInstances>
+        <MultipleInstances>Single</MultipleInstances>
 
-<Mandatory>Optional</Mandatory>
+        <Mandatory>Optional</Mandatory>
 
-<Type>Integer</Type>
+        <Type>Integer</Type>
 
-<RangeEnumeration/>
+        <RangeEnumeration/>
 
-<Units/>
+        <Units/>
 
-<Description>
+        <Description>
 
-<![CDATA[Maximum Event Count is a readable and writable resource used provide a ceiling on the number of events that can be raised within the time period defined in Maximum Event Period resource. If no Maximum Event Count is set, the number of events recorded is unconstrained. The intent of this resource is to control the number of events reported, particularly in the case of a faulty sensor.]]>
+          <![CDATA[Maximum Event Count is a readable and writable resource used provide a ceiling on the number of events that can be raised within the time period defined in Maximum Event Period resource. If no Maximum Event Count is set, the number of events recorded is unconstrained. The intent of this resource is to control the number of events reported, particularly in the case of a faulty sensor.]]>
 
-</Description>
+        </Description>
 
-</Item>
+      </Item>
 
-<Item ID="6019">
+      <Item ID="6019">
 
-<Name>Alarm Maximum Event Period</Name>
+        <Name>Alarm Maximum Event Period</Name>
 
-<Operations>RW</Operations>
+        <Operations>RW</Operations>
 
-<MultipleInstances>Single</MultipleInstances>
+        <MultipleInstances>Single</MultipleInstances>
 
-<Mandatory>Optional</Mandatory>
+        <Mandatory>Optional</Mandatory>
 
-<Type>Integer</Type>
+        <Type>Integer</Type>
 
-<RangeEnumeration>1-864000</RangeEnumeration>
+        <RangeEnumeration>1-864000</RangeEnumeration>
 
-<Units>Seconds</Units>
+        <Units>Seconds</Units>
 
-<Description>
+        <Description>
 
-<![CDATA[Maximum Event Period is a readable and writable resource used in conjunction with the Maximum Event Count resource to control the number of events that can be raised in a given period. Maximum Event Period is an integer value representing the number of seconds for which the Maximum Event Count is measured. If no Maximum Event Period is set, the number of events recorded is unconstrained. The intent of this resource is to control the number of events reported, particularly in the case of a faulty sensor.]]>
+          <![CDATA[Maximum Event Period is a readable and writable resource used in conjunction with the Maximum Event Count resource to control the number of events that can be raised in a given period. Maximum Event Period is an integer value representing the number of seconds for which the Maximum Event Count is measured. If no Maximum Event Period is set, the number of events recorded is unconstrained. The intent of this resource is to control the number of events reported, particularly in the case of a faulty sensor.]]>
 
-</Description>
+        </Description>
 
-</Item>
+      </Item>
 
-<Item ID="6020">
+      <Item ID="6020">
 
-<Name>Latest Delivered Event Time</Name>
+        <Name>Latest Delivered Event Time</Name>
 
-<Operations>RW</Operations>
+        <Operations>RW</Operations>
 
-<MultipleInstances>Single</MultipleInstances>
+        <MultipleInstances>Single</MultipleInstances>
 
-<Mandatory>Optional</Mandatory>
+        <Mandatory>Optional</Mandatory>
 
-<Type>Time</Type>
+        <Type>Time</Type>
 
-<RangeEnumeration/>
+        <RangeEnumeration/>
 
-<Units/>
+        <Units/>
 
-<Description>
+        <Description>
 
-<![CDATA[Latest Delivered Event Time is a readable and writable resource to represent the last recorded time that an event was delivered for this event code to the LwM2M server. The setting of this resource is implementation specific but should be updated based on, either a Read request of the Latest Eventlog Payload from the LwM2M server or via a confirmed delivery of Notify operation of the Latest Eventlog Payload resource. This resource is writable to allow the server to adjust the Last Delivered Event Time value if the server and client is out of sync.]]>
+          <![CDATA[Latest Delivered Event Time is a readable and writable resource to represent the last recorded time that an event was delivered for this event code to the LwM2M server. The setting of this resource is implementation specific but should be updated based on, either a Read request of the Latest Eventlog Payload from the LwM2M server or via a confirmed delivery of Notify operation of the Latest Eventlog Payload resource. This resource is writable to allow the server to adjust the Last Delivered Event Time value if the server and client is out of sync.]]>
 
-</Description>
+        </Description>
 
-</Item>
+      </Item>
 
-<Item ID="6021">
+      <Item ID="6021">
 
-<Name>Latest Recorded Event Time</Name>
+        <Name>Latest Recorded Event Time</Name>
 
-<Operations>R</Operations>
+        <Operations>R</Operations>
 
-<MultipleInstances>Single</MultipleInstances>
+        <MultipleInstances>Single</MultipleInstances>
 
-<Mandatory>Mandatory</Mandatory>
+        <Mandatory>Mandatory</Mandatory>
 
-<Type>Time</Type>
+        <Type>Time</Type>
 
-<RangeEnumeration/>
+        <RangeEnumeration/>
 
-<Units/>
+        <Units/>
 
-<Description>
+        <Description>
 
-<![CDATA[Latest Recorded Event Time is a readonly resource used to represent the last recorded event time for this object instance on the device]]>
+          <![CDATA[Latest Recorded Event Time is a readonly resource used to represent the last recorded event time for this object instance on the device]]>
 
-</Description>
+        </Description>
 
-</Item>
+      </Item>
 
-<Item ID="6022">
+      <Item ID="6022">
 
-<Name>Alarm Clear</Name>
+        <Name>Alarm Clear</Name>
 
-<Operations>E</Operations>
+        <Operations>E</Operations>
 
-<MultipleInstances>Single</MultipleInstances>
+        <MultipleInstances>Single</MultipleInstances>
 
-<Mandatory>Optional</Mandatory>
+        <Mandatory>Optional</Mandatory>
 
-<Type/>
+        <Type/>
 
-<RangeEnumeration/>
+        <RangeEnumeration/>
 
-<Units/>
+        <Units/>
 
-<Description>
+        <Description>
 
-<![CDATA[Clear Alarm is an executable resource used to allow the LwM2M server to clear alarms when they need to be manually acknowledged.]]>
+          <![CDATA[Clear Alarm is an executable resource used to allow the LwM2M server to clear alarms when they need to be manually acknowledged.]]>
 
-</Description>
+        </Description>
 
-</Item>
+      </Item>
 
-<Item ID="6023">
+      <Item ID="6023">
 
-<Name>Alarm Auto Clear</Name>
+        <Name>Alarm Auto Clear</Name>
 
-<Operations>RW</Operations>
+        <Operations>RW</Operations>
 
-<MultipleInstances>Single</MultipleInstances>
+        <MultipleInstances>Single</MultipleInstances>
 
-<Mandatory>Optional</Mandatory>
+        <Mandatory>Optional</Mandatory>
 
-<Type>Boolean</Type>
+        <Type>Boolean</Type>
 
-<RangeEnumeration/>
+        <RangeEnumeration/>
 
-<Units/>
+        <Units/>
 
-<Description>
+        <Description>
 
-<![CDATA[Auto Clear Alarm is a readable and writable resource used to indicate if an alarm is automatically cleared once the delivery of the event data payload is complete ]]>
+          <![CDATA[Auto Clear Alarm is a readable and writable resource used to indicate if an alarm is automatically cleared once the delivery of the event data payload is complete ]]>
 
-</Description>
+        </Description>
 
-</Item>
+      </Item>
 
-<Item ID="6024">
+      <Item ID="6024">
 
-<Name>Event Code</Name>
+        <Name>Event Code</Name>
 
-<Operations>R</Operations>
+        <Operations>R</Operations>
 
-<MultipleInstances>Single</MultipleInstances>
+        <MultipleInstances>Single</MultipleInstances>
 
-<Mandatory>Mandatory</Mandatory>
+        <Mandatory>Mandatory</Mandatory>
 
-<Type>Integer</Type>
+        <Type>Integer</Type>
 
-<RangeEnumeration>100-255</RangeEnumeration>
+        <RangeEnumeration>100-255</RangeEnumeration>
 
-<Units/>
+        <Units/>
 
-<Description>
+        <Description>
 
-<![CDATA[Event Code is a read-only resource used as an identifier to represent this class of event. The allocation of event codes is implementation specific but ideally be unique across the implementation. Event Codes use vendor specific LogClass value 100...255]]>
+          <![CDATA[Event Code is a read-only resource used as an identifier to represent this class of event. The allocation of event codes is implementation specific but ideally be unique across the implementation. Event Codes use vendor specific LogClass value 100...255]]>
 
-</Description>
+        </Description>
 
-</Item>
+      </Item>
 
-<Item ID="6025">
+      <Item ID="6025">
 
-<Name>Latest Payload</Name>
+        <Name>Latest Payload</Name>
 
-<Operations>R</Operations>
+        <Operations>R</Operations>
 
-<MultipleInstances>Single</MultipleInstances>
+        <MultipleInstances>Single</MultipleInstances>
 
-<Mandatory>Mandatory</Mandatory>
+        <Mandatory>Mandatory</Mandatory>
 
-<Type>Opaque</Type>
+        <Type>Opaque</Type>
 
-<RangeEnumeration/>
+        <RangeEnumeration/>
 
-<Units/>
+        <Units/>
 
-<Description>
+        <Description>
 
-<![CDATA[The Latest Eventlog Payload resource is a read-only serialised Opaque (Binary) representation of all the Event Data between the Last Delivered Event Time and the Latest Recorded Event Time. When this payload is delivered to the LwM2M server, via either a read request or a confirmed observation on this Object, Object Instance or Resource, the Latest Delivered Interval should be updated. When no new data exists, an empty Opaque value should be provided. The payload data can be provided in an implementation specific serialisation, but by default for fixed length values should use the OMA-LwM2M CBOR format encoded with one of these schemes:- Event Type = Alarm Current State (1) In this mode, only the current alarm state should be reported 1. 8-bit integer, value 2 representing OMA-LwM2M CBOR format. 2. Event Code [16-bit integer] 3. Event Type [8-bit Integer] - Alarm Current State (1) 4. Alarm Timestamp [32-bit unsigned integer] representing the number of seconds since Jan 1st, 1970 in the UTC time zone. 5. Alarm State [8-bit Integer] ]]>
+          <![CDATA[The Latest Eventlog Payload resource is a read-only serialised Opaque (Binary) representation of all the Event Data between the Last Delivered Event Time and the Latest Recorded Event Time. When this payload is delivered to the LwM2M server, via either a read request or a confirmed observation on this Object, Object Instance or Resource, the Latest Delivered Interval should be updated. When no new data exists, an empty Opaque value should be provided. The payload data can be provided in an implementation specific serialisation, but by default for fixed length values should use the OMA-LwM2M CBOR format encoded with one of these schemes:- Event Type = Alarm Current State (1) In this mode, only the current alarm state should be reported 1. 8-bit integer, value 2 representing OMA-LwM2M CBOR format. 2. Event Code [16-bit integer] 3. Event Type [8-bit Integer] - Alarm Current State (1) 4. Alarm Timestamp [32-bit unsigned integer] representing the number of seconds since Jan 1st, 1970 in the UTC time zone. 5. Alarm State [8-bit Integer] ]]>
 
-</Description>
+        </Description>
 
-</Item>
+      </Item>
 
-<Item ID="6026">
+      <Item ID="6026">
 
-<Name>Start</Name>
+        <Name>Start</Name>
 
-<Operations>E</Operations>
+        <Operations>E</Operations>
 
-<MultipleInstances>Single</MultipleInstances>
+        <MultipleInstances>Single</MultipleInstances>
 
-<Mandatory>Optional</Mandatory>
+        <Mandatory>Optional</Mandatory>
 
-<Type/>
+        <Type/>
 
-<RangeEnumeration/>
+        <RangeEnumeration/>
 
-<Units/>
+        <Units/>
 
-<Description>
+        <Description>
 
-<![CDATA[Start is an executable resource that enables the recording of interval data. The first interval recorded will have a timestamp based on the Interval Start Offset resource. This executable resource takes no arguments. Refer to re-usable resource LogStart for further details.]]>
+          <![CDATA[Start is an executable resource that enables the recording of interval data. The first interval recorded will have a timestamp based on the Interval Start Offset resource. This executable resource takes no arguments. Refer to re-usable resource LogStart for further details.]]>
 
-</Description>
+        </Description>
 
-</Item>
+      </Item>
 
-<Item ID="6027">
+      <Item ID="6027">
 
-<Name>Stop</Name>
+        <Name>Stop</Name>
 
-<Operations>E</Operations>
+        <Operations>E</Operations>
 
-<MultipleInstances>Single</MultipleInstances>
+        <MultipleInstances>Single</MultipleInstances>
 
-<Mandatory>Optional</Mandatory>
+        <Mandatory>Optional</Mandatory>
 
-<Type/>
+        <Type/>
 
-<RangeEnumeration/>
+        <RangeEnumeration/>
 
-<Units/>
+        <Units/>
 
-<Description>
+        <Description>
 
-<![CDATA[Stop (LogStop) is an executable resource that disables the recording of interval data for this object instance. This executable resource takes no arguments. Refer to re-usable resource LogStop for further details.]]>
+          <![CDATA[Stop (LogStop) is an executable resource that disables the recording of interval data for this object instance. This executable resource takes no arguments. Refer to re-usable resource LogStop for further details.]]>
 
-</Description>
+        </Description>
 
-</Item>
+      </Item>
 
-<Item ID="6028">
+      <Item ID="6028">
 
-<Name>Status</Name>
+        <Name>Status</Name>
 
-<Operations>R</Operations>
+        <Operations>R</Operations>
 
-<MultipleInstances>Single</MultipleInstances>
+        <MultipleInstances>Single</MultipleInstances>
 
-<Mandatory>Optional</Mandatory>
+        <Mandatory>Optional</Mandatory>
 
-<Type>Integer</Type>
+        <Type>Integer</Type>
 
-<RangeEnumeration/>
+        <RangeEnumeration/>
 
-<Units/>
+        <Units/>
 
-<Description>
+        <Description>
 
-<![CDATA[Recording Enabled is a read-only resource providing an indication of if interval data is currently being recorded for this object instance. Refer to re-usable resource LogStatus for further details.]]>
+          <![CDATA[Recording Enabled is a read-only resource providing an indication of if interval data is currently being recorded for this object instance. Refer to re-usable resource LogStatus for further details.]]>
 
-</Description>
+        </Description>
 
-</Item>
+      </Item>
 
-<Item ID="6029">
+      <Item ID="6029">
 
-<Name>Latest Payload</Name>
+        <Name>Latest Payload</Name>
 
-<Operations>R</Operations>
+        <Operations>R</Operations>
 
-<MultipleInstances>Single</MultipleInstances>
+        <MultipleInstances>Single</MultipleInstances>
 
-<Mandatory>Mandatory</Mandatory>
+        <Mandatory>Mandatory</Mandatory>
 
-<Type>Opaque</Type>
+        <Type>Opaque</Type>
 
-<RangeEnumeration/>
+        <RangeEnumeration/>
 
-<Units/>
+        <Units/>
 
-<Description>
+        <Description>
 
-<![CDATA[The Latest Payload resource is a read-only serialised Opaque (Binary) representation of all the Interval Data between the Last Delivered Interval and the Latest Recorded Interval, accounting for the Delivery Midnight Aligned resource. When this payload is delivered to the LwM2M server, via either a read request or a confirmed observation on this Object, Object Instance or Resource, the Latest Delivered Interval should be updated. When no new data exists, an empty Opaque value should be provided. The payload data can be provided in an implementation specific serialisation, but by default for fixed length values should use the OMA-LwM2M CBOR format encoded as follows: 1. 8-bit integer, value 2 representing OMA-LwM2M CBOR format. 2. Interval Data Instance ID/ Class [16-bit integer] 3. Timestamp of first Interval [32-bit integer] representing the number of seconds since Jan 1st, 1970 in the UTC time zone. 4. Interval Period in seconds [32-bit integer] 5. Number of intervals in Payload [16-bit integer] 6. Number of Values Per Interval [8-bit integer] 7. Size of Value 1 in bits [8-bit integer] 8. Size of Value 2 in bits [8-bit integer] ... 9. Size of Value N in bits [8-bit integer] 10. Interval 1 Value 1 [x bits] 11. Interval 1 Value 2 [x bits] ... 12. Interval 1 Value N [x bits] ... 13. Interval N Value N [x bits] If for some implementation specific reason, there are missing intervals in the sequence, the payload may consist of multiple blocks of the above serialised data (appended into a single binary opaque value), each block representing a continuous series of interval data. ]]>
+          <![CDATA[The Latest Payload resource is a read-only serialised Opaque (Binary) representation of all the Interval Data between the Last Delivered Interval and the Latest Recorded Interval, accounting for the Delivery Midnight Aligned resource. When this payload is delivered to the LwM2M server, via either a read request or a confirmed observation on this Object, Object Instance or Resource, the Latest Delivered Interval should be updated. When no new data exists, an empty Opaque value should be provided. The payload data can be provided in an implementation specific serialisation, but by default for fixed length values should use the OMA-LwM2M CBOR format encoded as follows: 1. 8-bit integer, value 2 representing OMA-LwM2M CBOR format. 2. Interval Data Instance ID/ Class [16-bit integer] 3. Timestamp of first Interval [32-bit integer] representing the number of seconds since Jan 1st, 1970 in the UTC time zone. 4. Interval Period in seconds [32-bit integer] 5. Number of intervals in Payload [16-bit integer] 6. Number of Values Per Interval [8-bit integer] 7. Size of Value 1 in bits [8-bit integer] 8. Size of Value 2 in bits [8-bit integer] ... 9. Size of Value N in bits [8-bit integer] 10. Interval 1 Value 1 [x bits] 11. Interval 1 Value 2 [x bits] ... 12. Interval 1 Value N [x bits] ... 13. Interval N Value N [x bits] If for some implementation specific reason, there are missing intervals in the sequence, the payload may consist of multiple blocks of the above serialised data (appended into a single binary opaque value), each block representing a continuous series of interval data. ]]>
 
-</Description>
+        </Description>
 
-</Item>
-      
-<Item ID="6030">
+      </Item>
 
-<Name>Reserved</Name>
+      <Item ID="6030">
 
-<Operations></Operations>
+        <Name>Pending</Name>
 
-<MultipleInstances></MultipleInstances>
+        <Operations></Operations>
 
-<Mandatory></Mandatory>
+        <MultipleInstances></MultipleInstances>
 
-<Type></Type>
+        <Mandatory></Mandatory>
 
-<RangeEnumeration/>
+        <Type></Type>
 
-<Units/>
+        <RangeEnumeration/>
 
-<Description></Description>
+        <Units/>
 
-</Item>
-      
+        <Description></Description>
+
+      </Item>
+
       <Item ID="6031">
 
-<Name>Reserved</Name>
+        <Name>Pending</Name>
 
-<Operations></Operations>
+        <Operations></Operations>
 
-<MultipleInstances></MultipleInstances>
+        <MultipleInstances></MultipleInstances>
 
-<Mandatory></Mandatory>
+        <Mandatory></Mandatory>
 
-<Type></Type>
+        <Type></Type>
 
-<RangeEnumeration/>
+        <RangeEnumeration/>
 
-<Units/>
+        <Units/>
 
-<Description></Description>
+        <Description></Description>
 
-</Item>
-      
+      </Item>
+
       <Item ID="6032">
 
-<Name>Reserved</Name>
+        <Name>Pending</Name>
 
-<Operations></Operations>
+        <Operations></Operations>
 
-<MultipleInstances></MultipleInstances>
+        <MultipleInstances></MultipleInstances>
 
-<Mandatory></Mandatory>
+        <Mandatory></Mandatory>
 
-<Type></Type>
+        <Type></Type>
 
-<RangeEnumeration/>
+        <RangeEnumeration/>
 
-<Units/>
+        <Units/>
 
-<Description></Description>
+        <Description></Description>
 
-</Item>
-      
+      </Item>
+
       <Item ID="6033">
 
-<Name>Reserved</Name>
+        <Name>Pending</Name>
 
-<Operations></Operations>
+        <Operations></Operations>
 
-<MultipleInstances></MultipleInstances>
+        <MultipleInstances></MultipleInstances>
 
-<Mandatory></Mandatory>
+        <Mandatory></Mandatory>
 
-<Type></Type>
+        <Type></Type>
 
-<RangeEnumeration/>
+        <RangeEnumeration/>
 
-<Units/>
+        <Units/>
 
-<Description></Description>
+        <Description></Description>
 
-</Item>
+      </Item>
       <Item ID="6034">
 
-<Name>Reserved</Name>
+        <Name>Pending</Name>
 
-<Operations></Operations>
+        <Operations></Operations>
 
-<MultipleInstances></MultipleInstances>
+        <MultipleInstances></MultipleInstances>
 
-<Mandatory></Mandatory>
+        <Mandatory></Mandatory>
 
-<Type></Type>
+        <Type></Type>
 
-<RangeEnumeration/>
+        <RangeEnumeration/>
 
-<Units/>
+        <Units/>
 
-<Description></Description>
+        <Description></Description>
 
-</Item>
+      </Item>
       <Item ID="6035">
 
-<Name>Reserved</Name>
+        <Name>Pending</Name>
 
-<Operations></Operations>
+        <Operations></Operations>
 
-<MultipleInstances></MultipleInstances>
+        <MultipleInstances></MultipleInstances>
 
-<Mandatory></Mandatory>
+        <Mandatory></Mandatory>
 
-<Type></Type>
+        <Type></Type>
 
-<RangeEnumeration/>
+        <RangeEnumeration/>
 
-<Units/>
+        <Units/>
 
-<Description></Description>
+        <Description></Description>
 
-</Item>
+      </Item>
       <Item ID="6036">
 
-<Name>Reserved</Name>
+        <Name>Pending</Name>
 
-<Operations></Operations>
+        <Operations></Operations>
 
-<MultipleInstances></MultipleInstances>
+        <MultipleInstances></MultipleInstances>
 
-<Mandatory></Mandatory>
+        <Mandatory></Mandatory>
 
-<Type></Type>
+        <Type></Type>
 
-<RangeEnumeration/>
+        <RangeEnumeration/>
 
-<Units/>
+        <Units/>
 
-<Description></Description>
+        <Description></Description>
 
-</Item>
+      </Item>
       <Item ID="6037">
 
-<Name>Reserved</Name>
+        <Name>Pending</Name>
 
-<Operations></Operations>
+        <Operations></Operations>
 
-<MultipleInstances></MultipleInstances>
+        <MultipleInstances></MultipleInstances>
 
-<Mandatory></Mandatory>
+        <Mandatory></Mandatory>
 
-<Type></Type>
+        <Type></Type>
 
-<RangeEnumeration/>
+        <RangeEnumeration/>
 
-<Units/>
+        <Units/>
 
-<Description></Description>
+        <Description></Description>
 
-</Item>
+      </Item>
       <Item ID="6038">
 
-<Name>Reserved</Name>
+        <Name>Pending</Name>
 
-<Operations></Operations>
+        <Operations></Operations>
 
-<MultipleInstances></MultipleInstances>
+        <MultipleInstances></MultipleInstances>
 
-<Mandatory></Mandatory>
+        <Mandatory></Mandatory>
 
-<Type></Type>
+        <Type></Type>
 
-<RangeEnumeration/>
+        <RangeEnumeration/>
 
-<Units/>
+        <Units/>
 
-<Description></Description>
+        <Description></Description>
 
-</Item>
+      </Item>
 
     </Resources>
 
