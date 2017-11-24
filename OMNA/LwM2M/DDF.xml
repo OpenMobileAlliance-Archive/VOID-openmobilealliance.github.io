@@ -527,13 +527,13 @@
 
     <Ver>1.0</Ver>
 
-    <DDF>0</DDF>
+    <DDF></DDF>
 
     <LWM2M></LWM2M>
 
     <Vorto>http://vorto.eclipse.org/resolve/lwm2m/Object/ObjectID/16</Vorto>
 
-    <DDFLink></DDFLink>
+    <DDFLink>0</DDFLink>
 
     <TS>http://www.openmobilealliance.org/release/LWM2M_PortfolioObj/V1_0-20160906-C/OMA-TS-LWM2M_PortfolioObj-V1_0-20160906-C.pdf</TS>
 
@@ -600,22 +600,22 @@
     <TSLink>0</TSLink>
 
   </Item>
-  
-   -<Item>
+
+  -<Item>
 
     <ObjectID>19</ObjectID>
 
     <URN>urn:oma:lwm2m:oma:19</URN>
 
-    <Name>Reserved</Name>
+    <Name>Pending</Name>
 
-    <Description>.</Description>
+    <Description></Description>
 
     <Owner>OMA</Owner>
 
     <Source>0</Source>
 
-    <Ver></Ver>
+    <Ver>1.0</Ver>
 
     <DDF></DDF>
 
@@ -630,14 +630,15 @@
     <TSLink>0</TSLink>
 
   </Item>
-  
-   -<Item>
+
+  -<Item>
+
 
     <ObjectID>20</ObjectID>
 
     <URN>urn:oma:lwm2m:oma:20</URN>
 
-    <Name>Reserved</Name>
+    <Name>Pending</Name>
 
     <Description></Description>
 
@@ -2553,15 +2554,15 @@
 
   </Item>
 
- -<Item>
+  -<Item>
 
     <ObjectID>3349</ObjectID>
 
     <URN>urn:oma:lwm2m:ext:3349</URN>
 
-    <Name>Reserved</Name>
+    <Name>Bitmap</Name>
 
-    <Description>-</Description>
+    <Description>Summarize several digital inputs to one value by mapping each bit to a digital input.</Description>
 
     <Owner>IPSO Alliance</Owner>
 
@@ -2569,29 +2570,29 @@
 
     <Ver/>
 
-    <DDF>-</DDF>
+    <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/3349.xml</DDF>
 
-    <LWM2M>-</LWM2M>
+    <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3349.xml</LWM2M>
 
-    <Vorto>-</Vorto>
+    <Vorto>http://vorto.eclipse.org/resolve/lwm2m/Object/ObjectID/3349</Vorto>
 
-    <DDFLink>-</DDFLink>
+    <DDFLink>1</DDFLink>
 
-    <TS>-</TS>
+    <TS>https://github.com/IPSO-Alliance/pub/blob/master/README.md</TS>
 
-    <TSLink>-</TSLink>
+    <TSLink>1</TSLink>
 
   </Item>
-  
-   -<Item>
+
+  -<Item>
 
     <ObjectID>3350</ObjectID>
 
     <URN>urn:oma:lwm2m:ext:3350</URN>
 
-    <Name>Reserved</Name>
+    <Name>Stopwatch</Name>
 
-    <Description>-</Description>
+    <Description>An ascending timer that counts how long time has passed since the timer was started after reset.</Description>
 
     <Owner>IPSO Alliance</Owner>
 
@@ -2599,17 +2600,1037 @@
 
     <Ver/>
 
-    <DDF>-</DDF>
+    <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/3350.xml</DDF>
 
-    <LWM2M>-</LWM2M>
+    <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3350.xml</LWM2M>
 
-    <Vorto>-</Vorto>
+    <Vorto>http://vorto.eclipse.org/resolve/lwm2m/Object/ObjectID/3350</Vorto>
 
-    <DDFLink>-</DDFLink>
+    <DDFLink>1</DDFLink>
 
-    <TS>-</TS>
+    <TS>https://github.com/IPSO-Alliance/pub/blob/master/README.md</TS>
 
-    <TSLink>-</TSLink>
+    <TSLink>1</TSLink>
+
+  </Item>
+
+  <Item>
+
+    <ObjectID>3351</ObjectID>
+
+    <URN>urn:oma:lwm2m:ext:3351</URN>
+
+    <Name>Pending</Name>
+
+    <Description></Description>
+
+    <Owner>GSMA</Owner>
+
+    <Source>1</Source>
+
+    <Ver/>
+
+    <DDF></DDF>
+
+    <LWM2M></LWM2M>
+
+    <Vorto></Vorto>
+
+    <DDFLink></DDFLink>
+
+    <TS></TS>
+
+    <TSLink></TSLink>
+
+  </Item>
+
+  <Item>
+
+    <ObjectID>3352</ObjectID>
+
+    <URN>urn:oma:lwm2m:ext:3351</URN>
+
+    <Name>Pending</Name>
+
+    <Description></Description>
+
+    <Owner>GSMA</Owner>
+
+    <Source>1</Source>
+
+    <Ver/>
+
+    <DDF></DDF>
+
+    <LWM2M></LWM2M>
+
+    <Vorto></Vorto>
+
+    <DDFLink></DDFLink>
+
+    <TS></TS>
+
+    <TSLink></TSLink>
+
+  </Item>
+
+  <Item>
+
+    <ObjectID>3353</ObjectID>
+
+    <URN>urn:oma:lwm2m:ext:3354</URN>
+
+    <Name>Pending</Name>
+
+    <Description></Description>
+
+    <Owner>GSMA</Owner>
+
+    <Source>1</Source>
+
+    <Ver/>
+
+    <DDF></DDF>
+
+    <LWM2M></LWM2M>
+
+    <Vorto></Vorto>
+
+    <DDFLink></DDFLink>
+
+    <TS></TS>
+
+    <TSLink></TSLink>
+
+  </Item>
+
+  <Item>
+
+    <ObjectID>3355</ObjectID>
+
+    <URN>urn:oma:lwm2m:ext:3355</URN>
+
+    <Name>Pending</Name>
+
+    <Description></Description>
+
+    <Owner>GSMA</Owner>
+
+    <Source>1</Source>
+
+    <Ver/>
+
+    <DDF></DDF>
+
+    <LWM2M></LWM2M>
+
+    <Vorto></Vorto>
+
+    <DDFLink></DDFLink>
+
+    <TS></TS>
+
+    <TSLink></TSLink>
+
+  </Item>
+
+  <Item>
+
+    <ObjectID>3356</ObjectID>
+
+    <URN>urn:oma:lwm2m:ext:3356</URN>
+
+    <Name>Pending</Name>
+
+    <Description></Description>
+
+    <Owner>GSMA</Owner>
+
+    <Source>1</Source>
+
+    <Ver/>
+
+    <DDF></DDF>
+
+    <LWM2M></LWM2M>
+
+    <Vorto></Vorto>
+
+    <DDFLink></DDFLink>
+
+    <TS></TS>
+
+    <TSLink></TSLink>
+
+  </Item>
+
+  <Item>
+
+    <ObjectID>3357</ObjectID>
+
+    <URN>urn:oma:lwm2m:ext:3357</URN>
+
+    <Name>Pending</Name>
+
+    <Description></Description>
+
+    <Owner>GSMA</Owner>
+
+    <Source>1</Source>
+
+    <Ver/>
+
+    <DDF></DDF>
+
+    <LWM2M></LWM2M>
+
+    <Vorto></Vorto>
+
+    <DDFLink></DDFLink>
+
+    <TS></TS>
+
+    <TSLink></TSLink>
+
+  </Item>
+
+  <Item>
+
+    <ObjectID>3358</ObjectID>
+
+    <URN>urn:oma:lwm2m:ext:3358</URN>
+
+    <Name>Pending</Name>
+
+    <Description></Description>
+
+    <Owner>GSMA</Owner>
+
+    <Source>1</Source>
+
+    <Ver/>
+
+    <DDF></DDF>
+
+    <LWM2M></LWM2M>
+
+    <Vorto></Vorto>
+
+    <DDFLink></DDFLink>
+
+    <TS></TS>
+
+    <TSLink></TSLink>
+
+  </Item>
+
+  <Item>
+
+    <ObjectID>3359</ObjectID>
+
+    <URN>urn:oma:lwm2m:ext:3359</URN>
+
+    <Name>Pending</Name>
+
+    <Description></Description>
+
+    <Owner>GSMA</Owner>
+
+    <Source>1</Source>
+
+    <Ver/>
+
+    <DDF></DDF>
+
+    <LWM2M></LWM2M>
+
+    <Vorto></Vorto>
+
+    <DDFLink></DDFLink>
+
+    <TS></TS>
+
+    <TSLink></TSLink>
+
+  </Item>
+
+  <Item>
+
+    <ObjectID>3360</ObjectID>
+
+    <URN>urn:oma:lwm2m:ext:3360</URN>
+
+    <Name>Pending</Name>
+
+    <Description></Description>
+
+    <Owner>GSMA</Owner>
+
+    <Source>1</Source>
+
+    <Ver/>
+
+    <DDF></DDF>
+
+    <LWM2M></LWM2M>
+
+    <Vorto></Vorto>
+
+    <DDFLink></DDFLink>
+
+    <TS></TS>
+
+    <TSLink></TSLink>
+
+  </Item>
+
+  <Item>
+
+    <ObjectID>3361</ObjectID>
+
+    <URN>urn:oma:lwm2m:ext:3362</URN>
+
+    <Name>Pending</Name>
+
+    <Description></Description>
+
+    <Owner>GSMA</Owner>
+
+    <Source>1</Source>
+
+    <Ver/>
+
+    <DDF></DDF>
+
+    <LWM2M></LWM2M>
+
+    <Vorto></Vorto>
+
+    <DDFLink></DDFLink>
+
+    <TS></TS>
+
+    <TSLink></TSLink>
+
+  </Item>
+
+  <Item>
+
+    <ObjectID>3363</ObjectID>
+
+    <URN>urn:oma:lwm2m:ext:3363</URN>
+
+    <Name>Pending</Name>
+
+    <Description></Description>
+
+    <Owner>GSMA</Owner>
+
+    <Source>1</Source>
+
+    <Ver/>
+
+    <DDF></DDF>
+
+    <LWM2M></LWM2M>
+
+    <Vorto></Vorto>
+
+    <DDFLink></DDFLink>
+
+    <TS></TS>
+
+    <TSLink></TSLink>
+
+  </Item>
+
+  <Item>
+
+    <ObjectID>3364</ObjectID>
+
+    <URN>urn:oma:lwm2m:ext:3364</URN>
+
+    <Name>Pending</Name>
+
+    <Description></Description>
+
+    <Owner>GSMA</Owner>
+
+    <Source>1</Source>
+
+    <Ver/>
+
+    <DDF></DDF>
+
+    <LWM2M></LWM2M>
+
+    <Vorto></Vorto>
+
+    <DDFLink></DDFLink>
+
+    <TS></TS>
+
+    <TSLink></TSLink>
+
+  </Item>
+
+  <Item>
+
+    <ObjectID>3365</ObjectID>
+
+    <URN>urn:oma:lwm2m:ext:3365</URN>
+
+    <Name>Pending</Name>
+
+    <Description></Description>
+
+    <Owner>GSMA</Owner>
+
+    <Source>1</Source>
+
+    <Ver/>
+
+    <DDF></DDF>
+
+    <LWM2M></LWM2M>
+
+    <Vorto></Vorto>
+
+    <DDFLink></DDFLink>
+
+    <TS></TS>
+
+    <TSLink></TSLink>
+
+  </Item>
+
+  <Item>
+
+    <ObjectID>3366</ObjectID>
+
+    <URN>urn:oma:lwm2m:ext:3366</URN>
+
+    <Name>Pending</Name>
+
+    <Description></Description>
+
+    <Owner>GSMA</Owner>
+
+    <Source>1</Source>
+
+    <Ver/>
+
+    <DDF></DDF>
+
+    <LWM2M></LWM2M>
+
+    <Vorto></Vorto>
+
+    <DDFLink></DDFLink>
+
+    <TS></TS>
+
+    <TSLink></TSLink>
+
+  </Item>
+
+  <Item>
+
+    <ObjectID>3367</ObjectID>
+
+    <URN>urn:oma:lwm2m:ext:3367</URN>
+
+    <Name>Pending</Name>
+
+    <Description></Description>
+
+    <Owner>GSMA</Owner>
+
+    <Source>1</Source>
+
+    <Ver/>
+
+    <DDF></DDF>
+
+    <LWM2M></LWM2M>
+
+    <Vorto></Vorto>
+
+    <DDFLink></DDFLink>
+
+    <TS></TS>
+
+    <TSLink></TSLink>
+
+  </Item>
+
+  <Item>
+
+    <ObjectID>3368</ObjectID>
+
+    <URN>urn:oma:lwm2m:ext:3368</URN>
+
+    <Name>Pending</Name>
+
+    <Description></Description>
+
+    <Owner>GSMA</Owner>
+
+    <Source>1</Source>
+
+    <Ver/>
+
+    <DDF></DDF>
+
+    <LWM2M></LWM2M>
+
+    <Vorto></Vorto>
+
+    <DDFLink></DDFLink>
+
+    <TS></TS>
+
+    <TSLink></TSLink>
+
+  </Item>
+
+  <Item>
+
+    <ObjectID>3369</ObjectID>
+
+    <URN>urn:oma:lwm2m:ext:3369</URN>
+
+    <Name>Pending</Name>
+
+    <Description></Description>
+
+    <Owner>GSMA</Owner>
+
+    <Source>1</Source>
+
+    <Ver/>
+
+    <DDF></DDF>
+
+    <LWM2M></LWM2M>
+
+    <Vorto></Vorto>
+
+    <DDFLink></DDFLink>
+
+    <TS></TS>
+
+    <TSLink></TSLink>
+
+  </Item>
+
+  <Item>
+
+    <ObjectID>3370</ObjectID>
+
+    <URN>urn:oma:lwm2m:ext:3370</URN>
+
+    <Name>Pending</Name>
+
+    <Description></Description>
+
+    <Owner>GSMA</Owner>
+
+    <Source>1</Source>
+
+    <Ver/>
+
+    <DDF></DDF>
+
+    <LWM2M></LWM2M>
+
+    <Vorto></Vorto>
+
+    <DDFLink></DDFLink>
+
+    <TS></TS>
+
+    <TSLink></TSLink>
+
+  </Item>
+
+  <Item>
+
+    <ObjectID>3371</ObjectID>
+
+    <URN>urn:oma:lwm2m:ext:3371</URN>
+
+    <Name>Pending</Name>
+
+    <Description></Description>
+
+    <Owner>GSMA</Owner>
+
+    <Source>1</Source>
+
+    <Ver/>
+
+    <DDF></DDF>
+
+    <LWM2M></LWM2M>
+
+    <Vorto></Vorto>
+
+    <DDFLink></DDFLink>
+
+    <TS></TS>
+
+    <TSLink></TSLink>
+
+  </Item>
+
+  <Item>
+
+    <ObjectID>3372</ObjectID>
+
+    <URN>urn:oma:lwm2m:ext:3372</URN>
+
+    <Name>Pending</Name>
+
+    <Description></Description>
+
+    <Owner>GSMA</Owner>
+
+    <Source>1</Source>
+
+    <Ver/>
+
+    <DDF></DDF>
+
+    <LWM2M></LWM2M>
+
+    <Vorto></Vorto>
+
+    <DDFLink></DDFLink>
+
+    <TS></TS>
+
+    <TSLink></TSLink>
+
+  </Item>
+
+  <Item>
+
+    <ObjectID>3373</ObjectID>
+
+    <URN>urn:oma:lwm2m:ext:3373</URN>
+
+    <Name>Pending</Name>
+
+    <Description></Description>
+
+    <Owner>GSMA</Owner>
+
+    <Source>1</Source>
+
+    <Ver/>
+
+    <DDF></DDF>
+
+    <LWM2M></LWM2M>
+
+    <Vorto></Vorto>
+
+    <DDFLink></DDFLink>
+
+    <TS></TS>
+
+    <TSLink></TSLink>
+
+  </Item>
+
+  <Item>
+
+    <ObjectID>3374</ObjectID>
+
+    <URN>urn:oma:lwm2m:ext:3374</URN>
+
+    <Name>Pending</Name>
+
+    <Description></Description>
+
+    <Owner>GSMA</Owner>
+
+    <Source>1</Source>
+
+    <Ver/>
+
+    <DDF></DDF>
+
+    <LWM2M></LWM2M>
+
+    <Vorto></Vorto>
+
+    <DDFLink></DDFLink>
+
+    <TS></TS>
+
+    <TSLink></TSLink>
+
+  </Item>
+
+  <Item>
+
+    <ObjectID>3375</ObjectID>
+
+    <URN>urn:oma:lwm2m:ext:3375</URN>
+
+    <Name>Pending</Name>
+
+    <Description></Description>
+
+    <Owner>GSMA</Owner>
+
+    <Source>1</Source>
+
+    <Ver/>
+
+    <DDF></DDF>
+
+    <LWM2M></LWM2M>
+
+    <Vorto></Vorto>
+
+    <DDFLink></DDFLink>
+
+    <TS></TS>
+
+    <TSLink></TSLink>
+
+  </Item>
+
+  <Item>
+
+    <ObjectID>3376</ObjectID>
+
+    <URN>urn:oma:lwm2m:ext:3376</URN>
+
+    <Name>Pending</Name>
+
+    <Description></Description>
+
+    <Owner>GSMA</Owner>
+
+    <Source>1</Source>
+
+    <Ver/>
+
+    <DDF></DDF>
+
+    <LWM2M></LWM2M>
+
+    <Vorto></Vorto>
+
+    <DDFLink></DDFLink>
+
+    <TS></TS>
+
+    <TSLink></TSLink>
+
+  </Item>
+
+  <Item>
+
+    <ObjectID>3377</ObjectID>
+
+    <URN>urn:oma:lwm2m:ext:3377</URN>
+
+    <Name>Pending</Name>
+
+    <Description></Description>
+
+    <Owner>GSMA</Owner>
+
+    <Source>1</Source>
+
+    <Ver/>
+
+    <DDF></DDF>
+
+    <LWM2M></LWM2M>
+
+    <Vorto></Vorto>
+
+    <DDFLink></DDFLink>
+
+    <TS></TS>
+
+    <TSLink></TSLink>
+
+  </Item>
+
+  <Item>
+
+    <ObjectID>3378</ObjectID>
+
+    <URN>urn:oma:lwm2m:ext:3378</URN>
+
+    <Name>Pending</Name>
+
+    <Description></Description>
+
+    <Owner>GSMA</Owner>
+
+    <Source>1</Source>
+
+    <Ver/>
+
+    <DDF></DDF>
+
+    <LWM2M></LWM2M>
+
+    <Vorto></Vorto>
+
+    <DDFLink></DDFLink>
+
+    <TS></TS>
+
+    <TSLink></TSLink>
+
+  </Item>
+
+  <Item>
+
+    <ObjectID>3379</ObjectID>
+
+    <URN>urn:oma:lwm2m:ext:3379</URN>
+
+    <Name>Pending</Name>
+
+    <Description></Description>
+
+    <Owner>GSMA</Owner>
+
+    <Source>1</Source>
+
+    <Ver/>
+
+    <DDF></DDF>
+
+    <LWM2M></LWM2M>
+
+    <Vorto></Vorto>
+
+    <DDFLink></DDFLink>
+
+    <TS></TS>
+
+    <TSLink></TSLink>
+
+  </Item>
+
+  <Item>
+
+    <ObjectID>3380</ObjectID>
+
+    <URN>urn:oma:lwm2m:ext:3380</URN>
+
+    <Name>Pending</Name>
+
+    <Description></Description>
+
+    <Owner>GSMA</Owner>
+
+    <Source>1</Source>
+
+    <Ver/>
+
+    <DDF></DDF>
+
+    <LWM2M></LWM2M>
+
+    <Vorto></Vorto>
+
+    <DDFLink></DDFLink>
+
+    <TS></TS>
+
+    <TSLink></TSLink>
+
+  </Item>
+
+  <Item>
+
+    <ObjectID>3381</ObjectID>
+
+    <URN>urn:oma:lwm2m:ext:3381</URN>
+
+    <Name>Pending</Name>
+
+    <Description></Description>
+
+    <Owner>GSMA</Owner>
+
+    <Source>1</Source>
+
+    <Ver/>
+
+    <DDF></DDF>
+
+    <LWM2M></LWM2M>
+
+    <Vorto></Vorto>
+
+    <DDFLink></DDFLink>
+
+    <TS></TS>
+
+    <TSLink></TSLink>
+
+  </Item>
+
+  <Item>
+
+    <ObjectID>3382</ObjectID>
+
+    <URN>urn:oma:lwm2m:ext:3382</URN>
+
+    <Name>Pending</Name>
+
+    <Description></Description>
+
+    <Owner>GSMA</Owner>
+
+    <Source>1</Source>
+
+    <Ver/>
+
+    <DDF></DDF>
+
+    <LWM2M></LWM2M>
+
+    <Vorto></Vorto>
+
+    <DDFLink></DDFLink>
+
+    <TS></TS>
+
+    <TSLink></TSLink>
+
+  </Item>
+
+  <Item>
+
+    <ObjectID>3383</ObjectID>
+
+    <URN>urn:oma:lwm2m:ext:3383</URN>
+
+    <Name>Pending</Name>
+
+    <Description></Description>
+
+    <Owner>GSMA</Owner>
+
+    <Source>1</Source>
+
+    <Ver/>
+
+    <DDF></DDF>
+
+    <LWM2M></LWM2M>
+
+    <Vorto></Vorto>
+
+    <DDFLink></DDFLink>
+
+    <TS></TS>
+
+    <TSLink></TSLink>
+
+  </Item>
+
+  <Item>
+
+    <ObjectID>3384</ObjectID>
+
+    <URN>urn:oma:lwm2m:ext:3384</URN>
+
+    <Name>Pending</Name>
+
+    <Description></Description>
+
+    <Owner>GSMA</Owner>
+
+    <Source>1</Source>
+
+    <Ver/>
+
+    <DDF></DDF>
+
+    <LWM2M></LWM2M>
+
+    <Vorto></Vorto>
+
+    <DDFLink></DDFLink>
+
+    <TS></TS>
+
+    <TSLink></TSLink>
+
+  </Item>
+
+  <Item>
+
+    <ObjectID>3385</ObjectID>
+
+    <URN>urn:oma:lwm2m:ext:3385</URN>
+
+    <Name>Pending</Name>
+
+    <Description></Description>
+
+    <Owner>GSMA</Owner>
+
+    <Source>1</Source>
+
+    <Ver/>
+
+    <DDF></DDF>
+
+    <LWM2M></LWM2M>
+
+    <Vorto></Vorto>
+
+    <DDFLink></DDFLink>
+
+    <TS></TS>
+
+    <TSLink></TSLink>
+
+  </Item>
+
+  <Item>
+
+    <ObjectID>3386</ObjectID>
+
+    <URN>urn:oma:lwm2m:ext:3386</URN>
+
+    <Name>Pending</Name>
+
+    <Description></Description>
+
+    <Owner>GSMA</Owner>
+
+    <Source>1</Source>
+
+    <Ver/>
+
+    <DDF></DDF>
+
+    <LWM2M></LWM2M>
+
+    <Vorto></Vorto>
+
+    <DDFLink></DDFLink>
+
+    <TS></TS>
+
+    <TSLink></TSLink>
 
   </Item>
   -<Item>
@@ -3066,16 +4087,16 @@
 
   </Item>
 
-  
-   <Item>
+
+  <Item>
 
     <ObjectID>10256</ObjectID>
 
     <URN>urn:oma:lwm2m:x:10256</URN>
 
-    <Name>Reserved</Name>
+    <Name>ECID-Signal Measurement Information</Name>
 
-    <Description></Description>
+    <Description>This LWM2M Object provides ECID signal measurements of a device.</Description>
 
     <Owner>Huawei Technologies</Owner>
 
@@ -3083,9 +4104,9 @@
 
     <Ver/>
 
-    <DDF>-</DDF>
+    <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/10256.xml</DDF>
 
-    <LWM2M>-</LWM2M>
+    <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F10256.xml</LWM2M>
 
     <Vorto></Vorto>
 
@@ -3096,16 +4117,16 @@
     <TSLink></TSLink>
 
   </Item>
-  
-    <Item>
+
+  <Item>
 
     <ObjectID>10257</ObjectID>
 
     <URN>urn:oma:lwm2m:x:10257</URN>
 
-    <Name>Reserved</Name>
+    <Name>Heat/Cooling meter</Name>
 
-    <Description></Description>
+    <Description>This Object provides the information to represent a generic (district) heat or cooling meter</Description>
 
     <Owner>Comsel System Ltd</Owner>
 
@@ -3113,9 +4134,9 @@
 
     <Ver/>
 
-    <DDF>-</DDF>
+    <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/10257.xml</DDF>
 
-    <LWM2M>-</LWM2M>
+    <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F10257.xml</LWM2M>
 
     <Vorto></Vorto>
 
@@ -3126,8 +4147,8 @@
     <TSLink></TSLink>
 
   </Item>
-  
-   <Item>
+
+  <Item>
 
     <ObjectID>10258</ObjectID>
 
@@ -3156,15 +4177,15 @@
     <TSLink></TSLink>
 
   </Item>
-     <Item>
+  <Item>
 
     <ObjectID>10259</ObjectID>
 
     <URN>urn:oma:lwm2m:x:10259</URN>
 
-    <Name>Reserved</Name>
+    <Name>System Log</Name>
 
-    <Description></Description>
+    <Description>This object provides read access to log buffers as well as limited configuration of logging services.</Description>
 
     <Owner>NetComm Wireless Limited</Owner>
 
@@ -3172,9 +4193,9 @@
 
     <Ver/>
 
-    <DDF>-</DDF>
+    <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/10259.xml</DDF>
 
-    <LWM2M>-</LWM2M>
+    <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F10259.xml</LWM2M>
 
     <Vorto></Vorto>
 
@@ -3185,16 +4206,16 @@
     <TSLink></TSLink>
 
   </Item>
-  
-       <Item>
+
+  <Item>
 
     <ObjectID>10260</ObjectID>
 
     <URN>urn:oma:lwm2m:x:10260</URN>
 
-    <Name>Reserved</Name>
+    <Name>Runtime Database</Name>
 
-    <Description></Description>
+    <Description>This object allows manipulation of Runtime Database variables.</Description>
 
     <Owner>NetComm Wireless Limited</Owner>
 
@@ -3202,13 +4223,805 @@
 
     <Ver/>
 
-    <DDF>-</DDF>
+    <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/10260.xml</DDF>
 
-    <LWM2M>-</LWM2M>
+    <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F10260.xml</LWM2M>
 
     <Vorto></Vorto>
 
     <DDFLink>1</DDFLink>
+
+    <TS></TS>
+
+    <TSLink></TSLink>
+
+  </Item>
+
+  <Item>
+
+    <ObjectID>10261</ObjectID>
+
+    <URN>urn:oma:lwm2m:x:10261</URN>
+
+    <Name></Name>
+
+    <Description></Description>
+
+    <Owner></Owner>
+
+    <Source>2</Source>
+
+    <Ver/>
+
+    <DDF></DDF>
+
+    <LWM2M></LWM2M>
+
+    <Vorto></Vorto>
+
+    <DDFLink></DDFLink>
+
+    <TS></TS>
+
+    <TSLink></TSLink>
+
+  </Item>
+
+  <Item>
+
+    <ObjectID>10262</ObjectID>
+
+    <URN>urn:oma:lwm2m:x:10262</URN>
+
+    <Name>Interval Data Delivery</Name>
+
+    <Description>The Interval Data Delivery object provides an optimised means for managing the delivery of interval data from multiple Interval Data Object instances. </Description>
+
+    <Owner>South East Water Corporation</Owner>
+
+    <Source>2</Source>
+
+    <Ver/>
+
+    <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/10262.xml</DDF>
+
+    <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F10262.xml</LWM2M>
+
+    <Vorto></Vorto>
+
+    <DDFLink>1</DDFLink>
+
+    <TS></TS>
+
+    <TSLink></TSLink>
+
+  </Item>
+
+  <Item>
+
+    <ObjectID>10263</ObjectID>
+
+    <URN>urn:oma:lwm2m:x:10263</URN>
+
+    <Name>Event Data Delivery</Name>
+
+    <Description>The Event Data Delivery object provides a simple means for managing the delivery of event data from multiple Event Data Object instances.</Description>
+
+    <Owner>South East Water Corporation</Owner>
+
+    <Source>2</Source>
+
+    <Ver/>
+
+    <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/10263.xml</DDF>
+
+    <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F10263.xml</LWM2M>
+
+    <Vorto></Vorto>
+
+    <DDFLink>1</DDFLink>
+
+    <TS></TS>
+
+    <TSLink></TSLink>
+
+  </Item>
+
+  <Item>
+
+    <ObjectID>10264</ObjectID>
+
+    <URN>urn:oma:lwm2m:x:10264</URN>
+
+    <Name>Delivery Schedule</Name>
+
+    <Description>The Delivery Schedule object provides a means for controlling the periodic delivery of interval and event data to the LwM2M server.</Description>
+
+    <Owner>South East Water Corporation</Owner>
+
+    <Source>2</Source>
+
+    <Ver/>
+
+    <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/10264.xml</DDF>
+
+    <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F10264.xml</LWM2M>
+
+    <Vorto></Vorto>
+
+    <DDFLink>1</DDFLink>
+
+    <TS></TS>
+
+    <TSLink></TSLink>
+
+  </Item>
+
+  <Item>
+
+    <ObjectID>10265</ObjectID>
+
+    <URN>urn:oma:lwm2m:x:10265</URN>
+
+    <Name>Leakage Detection Configuration</Name>
+
+    <Description>The leakage detection configuration object provides a means for configuring the timing and sampling frequency of a vibration based network leak detector</Description>
+
+    <Owner>South East Water Corporation</Owner>
+
+    <Source>2</Source>
+
+    <Ver/>
+
+    <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/10265.xml</DDF>
+
+    <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F10265.xml</LWM2M>
+
+    <Vorto></Vorto>
+
+    <DDFLink>1</DDFLink>
+
+    <TS></TS>
+
+    <TSLink></TSLink>
+
+  </Item>
+
+  <Item>
+
+    <ObjectID>10266</ObjectID>
+
+    <URN>urn:oma:lwm2m:x:10266</URN>
+
+    <Name>Water Flow Readings</Name>
+
+    <Description>Measures the flow of water in regular intervals</Description>
+
+    <Owner>South East Water Corporation</Owner>
+
+    <Source>2</Source>
+
+    <Ver/>
+
+    <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/10266.xml</DDF>
+
+    <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F10266.xml</LWM2M>
+
+    <Vorto></Vorto>
+
+    <DDFLink>1</DDFLink>
+
+    <TS></TS>
+
+    <TSLink></TSLink>
+
+  </Item>
+
+  <Item>
+
+    <ObjectID>10267</ObjectID>
+
+    <URN>urn:oma:lwm2m:x:10267</URN>
+
+    <Name>Daily Maximum Flow Rate Readings</Name>
+
+    <Description>Measures the maximum flow rate and its time stamp for specified period</Description>
+
+    <Owner>South East Water Corporation</Owner>
+
+    <Source>2</Source>
+
+    <Ver/>
+
+    <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/10267.xml</DDF>
+
+    <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F10267.xml-</LWM2M>
+
+    <Vorto></Vorto>
+
+    <DDFLink>1</DDFLink>
+
+    <TS></TS>
+
+    <TSLink></TSLink>
+
+  </Item>
+
+  <Item>
+
+    <ObjectID>10268</ObjectID>
+
+    <URN>urn:oma:lwm2m:x:10268</URN>
+
+    <Name>Temperature Readings</Name>
+
+    <Description>Periodic temperature measurements</Description>
+
+    <Owner>South East Water Corporation</Owner>
+
+    <Source>2</Source>
+
+    <Ver/>
+
+    <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/10268.xml</DDF>
+
+    <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F10268.xml</LWM2M>
+
+    <Vorto></Vorto>
+
+    <DDFLink>1</DDFLink>
+
+    <TS></TS>
+
+    <TSLink></TSLink>
+
+  </Item>
+
+  <Item>
+
+    <ObjectID>10269</ObjectID>
+
+    <URN>urn:oma:lwm2m:x:10269</URN>
+
+    <Name>Pressure Readings</Name>
+
+    <Description>Periodic pressure measurements</Description>
+
+    <Owner>South East Water Corporation</Owner>
+
+    <Source>2</Source>
+
+    <Ver/>
+
+    <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/10269.xml</DDF>
+
+    <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F10269.xml</LWM2M>
+
+    <Vorto></Vorto>
+
+    <DDFLink>1</DDFLink>
+
+    <TS></TS>
+
+    <TSLink></TSLink>
+
+  </Item>
+
+  <Item>
+
+    <ObjectID>10270</ObjectID>
+
+    <URN>urn:oma:lwm2m:x:10270</URN>
+
+    <Name>Battery Level Readings</Name>
+
+    <Description>Periodic battery level measurements</Description>
+
+    <Owner>South East Water Corporation</Owner>
+
+    <Source>2</Source>
+
+    <Ver/>
+
+    <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/10270.xml</DDF>
+
+    <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F10270.xml</LWM2M>
+
+    <Vorto></Vorto>
+
+    <DDFLink>1</DDFLink>
+
+    <TS></TS>
+
+    <TSLink></TSLink>
+
+  </Item>
+
+  <Item>
+
+    <ObjectID>10271</ObjectID>
+
+    <URN>urn:oma:lwm2m:x:10271</URN>
+
+    <Name>Communications Activity Time Readings</Name>
+
+    <Description>Measures the total duration that the meter was activating its radio for packet transmission or receipt for the period. Used to monitor for excess poower usage over time.</Description>
+
+    <Owner>South East Water Corporation</Owner>
+
+    <Source>2</Source>
+
+    <Ver/>
+
+    <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/10271.xml</DDF>
+
+    <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F10271.xml</LWM2M>
+
+    <Vorto></Vorto>
+
+    <DDFLink>1</DDFLink>
+
+    <TS></TS>
+
+    <TSLink></TSLink>
+
+  </Item>
+
+  <Item>
+
+    <ObjectID>10272</ObjectID>
+
+    <URN>urn:oma:lwm2m:x:10272</URN>
+
+    <Name>Water Meter Customer Leakage Alarm</Name>
+
+    <Description>A binary flag indicating continual usage (e.g. greater than 5 L/h for 24 hours and the flow never returning to zero at any time).</Description>
+
+    <Owner>South East Water Corporation</Owner>
+
+    <Source>2</Source>
+
+    <Ver/>
+
+    <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/10272.xml</DDF>
+
+    <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F10272.xml</LWM2M>
+
+    <Vorto></Vorto>
+
+    <DDFLink>1</DDFLink>
+
+    <TS></TS>
+
+    <TSLink></TSLink>
+
+  </Item>
+
+  <Item>
+
+    <ObjectID>10273</ObjectID>
+
+    <URN>urn:oma:lwm2m:x:10273</URN>
+
+    <Name>Water Meter Reverse Flow Alarm</Name>
+
+    <Description>An alarm indicating reverse flow through the pipe. Also supports delivery of the approximate volume of water flowing in the reverse direction in the preceding period.</Description>
+
+    <Owner>South East Water Corporation</Owner>
+
+    <Source>2</Source>
+
+    <Ver/>
+
+    <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/10273.xml</DDF>
+
+    <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F10273.xml</LWM2M>
+
+    <Vorto></Vorto>
+
+    <DDFLink>1</DDFLink>
+
+    <TS></TS>
+
+    <TSLink></TSLink>
+
+  </Item>
+
+  <Item>
+
+    <ObjectID>10274</ObjectID>
+
+    <URN>urn:oma:lwm2m:x:10274</URN>
+
+    <Name>Water Meter Empty Pipe Alarm</Name>
+
+    <Description>An alarm when meter detects there is no liquid in the pipe</Description>
+
+    <Owner>South East Water Corporation</Owner>
+
+    <Source>2</Source>
+
+    <Ver/>
+
+    <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/10274.xml</DDF>
+
+    <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F10274.xml</LWM2M>
+
+    <Vorto></Vorto>
+
+    <DDFLink>1</DDFLink>
+
+    <TS></TS>
+
+    <TSLink></TSLink>
+
+  </Item>
+
+  <Item>
+
+    <ObjectID>10275</ObjectID>
+
+    <URN>urn:oma:lwm2m:x:10275</URN>
+
+    <Name>Water Meter Tamper Alarm</Name>
+
+    <Description>
+      Detects interference from strong magnetic field or other electrical sources. If this is not relevant for
+      ultrasonic meters then the tamper alarm may be used to
+      indicate someone attempting to open the physical enclosure or other options the manufacturer may present.
+    </Description>
+
+    <Owner>South East Water Corporation</Owner>
+
+    <Source>2</Source>
+
+    <Ver/>
+
+    <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/10275.xml</DDF>
+
+    <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F10275.xml</LWM2M>
+
+    <Vorto></Vorto>
+
+    <DDFLink>1</DDFLink>
+
+    <TS></TS>
+
+    <TSLink></TSLink>
+
+  </Item>
+
+  <Item>
+
+    <ObjectID>10276</ObjectID>
+
+    <URN>urn:oma:lwm2m:x:10276</URN>
+
+    <Name>Water Meter High Pressure Alarm</Name>
+
+    <Description>Where supported by the meter this is an alarm that should be raised if the meter detects pressure above a pre-configured threshold.</Description>
+
+    <Owner>South East Water Corporation</Owner>
+
+    <Source>2</Source>
+
+    <Ver/>
+
+    <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/10276.xml</DDF>
+
+    <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F10276.xml</LWM2M>
+
+    <Vorto></Vorto>
+
+    <DDFLink>1</DDFLink>
+
+    <TS></TS>
+
+    <TSLink></TSLink>
+
+  </Item>
+
+  <Item>
+
+    <ObjectID>10277</ObjectID>
+
+    <URN>urn:oma:lwm2m:x:10277</URN>
+
+    <Name>Water Meter Low Pressure Alarm</Name>
+
+    <Description>Where supported by the meter this is an alarm that should be raised if the meter detects pressure below a pre-configured threshold.</Description>
+
+    <Owner>South East Water Corporation</Owner>
+
+    <Source>2</Source>
+
+    <Ver/>
+
+    <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/10277.xml</DDF>
+
+    <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F10277.xml</LWM2M>
+
+    <Vorto></Vorto>
+
+    <DDFLink>1</DDFLink>
+
+    <TS></TS>
+
+    <TSLink></TSLink>
+
+  </Item>
+
+  <Item>
+
+    <ObjectID>10278</ObjectID>
+
+    <URN>urn:oma:lwm2m:x:10278</URN>
+
+    <Name>High Temperature Alarm</Name>
+
+    <Description>
+      Where supported by the meter this is an alarm that should be raised if the meter detects temperature above a pre-configured threshold.
+      When the temperature drops below the clear threshold, the alarm should be cleared.
+    </Description>
+
+    <Owner>South East Water Corporation</Owner>
+
+    <Source>2</Source>
+
+    <Ver/>
+
+    <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/10278.xml</DDF>
+
+    <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F10278.xml</LWM2M>
+
+    <Vorto></Vorto>
+
+    <DDFLink>1</DDFLink>
+
+    <TS></TS>
+
+    <TSLink></TSLink>
+
+  </Item>
+
+  <Item>
+
+    <ObjectID>10279</ObjectID>
+
+    <URN>urn:oma:lwm2m:x:10279</URN>
+
+    <Name>Low Temperature Alarm</Name>
+
+    <Description>
+      Where supported by the meter this is an alarm that should be raised if the meter detects temperature below a pre-configured threshold.
+      When the temperature rises above the clear threshold, the alarm should be cleared
+    </Description>
+
+    <Owner>South East Water Corporation</Owner>
+
+    <Source>2</Source>
+
+    <Ver/>
+
+    <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/10279.xml</DDF>
+
+    <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F10279.xml</LWM2M>
+
+    <Vorto></Vorto>
+
+    <DDFLink>1</DDFLink>
+
+    <TS></TS>
+
+    <TSLink></TSLink>
+
+  </Item>
+
+  <Item>
+
+    <ObjectID>10280</ObjectID>
+
+    <URN>urn:oma:lwm2m:x:10280</URN>
+
+    <Name>Low Battery Alarm</Name>
+
+    <Description>This Alarm is raised when the battery voltage drops below a defined level</Description>
+
+    <Owner>South East Water Corporation</Owner>
+
+    <Source>2</Source>
+
+    <Ver/>
+
+    <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/10280.xml</DDF>
+
+    <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F10280.xml</LWM2M>
+
+    <Vorto></Vorto>
+
+    <DDFLink>1</DDFLink>
+
+    <TS></TS>
+
+    <TSLink></TSLink>
+
+  </Item>
+
+  <Item>
+
+    <ObjectID>10281</ObjectID>
+
+    <URN>urn:oma:lwm2m:x:10281</URN>
+
+    <Name>Pending</Name>
+
+    <Description></Description>
+
+    <Owner>South East Water Corporation</Owner>
+
+    <Source>2</Source>
+
+    <Ver/>
+
+    <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/10281.xml</DDF>
+
+    <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F10281.xml</LWM2M>
+
+    <Vorto></Vorto>
+
+    <DDFLink>1</DDFLink>
+
+    <TS></TS>
+
+    <TSLink></TSLink>
+
+  </Item>
+
+  <Item>
+
+    <ObjectID>10282</ObjectID>
+
+    <URN>urn:oma:lwm2m:x:10282</URN>
+
+    <Name>Daughter Board Failure Alarm</Name>
+
+    <Description>This binary status should indicate that the meter MCU can no longer communicate with a daughter board</Description>
+
+    <Owner>South East Water Corporation</Owner>
+
+    <Source>2</Source>
+
+    <Ver/>
+
+    <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/10282.xml</DDF>
+
+    <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F10282.xml</LWM2M>
+
+    <Vorto></Vorto>
+
+    <DDFLink>1</DDFLink>
+
+    <TS></TS>
+
+    <TSLink></TSLink>
+
+  </Item>
+
+  <Item>
+
+    <ObjectID>10283</ObjectID>
+
+    <URN>urn:oma:lwm2m:x:10283</URN>
+
+    <Name>Device Reboot Event</Name>
+
+    <Description>This binary status should indicate that the meter MCU can no longer communicate with a daughter board</Description>
+
+    <Owner>South East Water Corporation</Owner>
+
+    <Source>2</Source>
+
+    <Ver/>
+
+    <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/10283.xml</DDF>
+
+    <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F10283.xml</LWM2M>
+
+    <Vorto></Vorto>
+
+    <DDFLink>1</DDFLink>
+
+    <TS></TS>
+
+    <TSLink></TSLink>
+
+  </Item>
+
+  <Item>
+
+    <ObjectID>10284</ObjectID>
+
+    <URN>urn:oma:lwm2m:x:10284</URN>
+
+    <Name>Time Synchronisation Event</Name>
+
+    <Description>This event records the fact that the device has rebooted</Description>
+
+    <Owner>South East Water Corporation</Owner>
+
+    <Source>2</Source>
+
+    <Ver/>
+
+    <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/10284.xml</DDF>
+
+    <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F10284.xml</LWM2M>
+
+    <Vorto></Vorto>
+
+    <DDFLink>1</DDFLink>
+
+    <TS></TS>
+
+    <TSLink></TSLink>
+
+  </Item>
+
+
+
+  <Item>
+
+    <ObjectID>10286</ObjectID>
+
+    <URN>urn:oma:lwm2m:x:10286</URN>
+
+    <Name>App Fota Container</Name>
+
+    <Description>This LWM2M Object is used to download the firmware package of a device's application.</Description>
+
+    <Owner>Huawei</Owner>
+
+    <Source>2</Source>
+
+    <Ver/>
+
+    <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/10286.xml</DDF>
+
+    <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F10286.xml</LWM2M>
+
+    <Vorto></Vorto>
+
+    <DDFLink>1</DDFLink>
+
+    <TS></TS>
+
+    <TSLink></TSLink>
+
+  </Item>
+
+  <Item>
+
+    <ObjectID>10299</ObjectID>
+
+    <URN>urn:oma:lwm2m:x:10299</URN>
+
+    <Name>Pending</Name>
+
+    <Description></Description>
+
+    <Owner>GSMA</Owner>
+
+    <Source>2</Source>
+
+    <Ver/>
+
+    <DDF></DDF>
+
+    <LWM2M></LWM2M>
+
+    <Vorto></Vorto>
+
+    <DDFLink></DDFLink>
 
     <TS></TS>
 

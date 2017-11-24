@@ -3,2660 +3,3655 @@
 <LWM2M>
 
 
-<Object ObjectType="MODefinition">
+  <Object ObjectType="MODefinition">
 
-<Name>IPSO Alliance Common Resources</Name>
+    <Name>IPSO Alliance Common Resources</Name>
 
-<Description1/>
+    <Description1/>
 
-<ObjectID>0</ObjectID>
+    <ObjectID>0</ObjectID>
 
-<ObjectURN/>
+    <ObjectURN/>
 
-<MultipleInstances>Multiple</MultipleInstances>
+    <MultipleInstances>Multiple</MultipleInstances>
 
-<Mandatory>Optional</Mandatory>
+    <Mandatory>Optional</Mandatory>
 
 
-<Resources>
+    <Resources>
 
 
-<Item ID="4000">
+      <Item ID="4000">
 
-<Name>ObjectInstanceHandle</Name>
+        <Name>ObjectInstanceHandle</Name>
 
-<Operations>R</Operations>
+        <Operations>R</Operations>
 
-<MultipleInstances></MultipleInstances>
+        <MultipleInstances></MultipleInstances>
 
-<Mandatory></Mandatory>
+        <Mandatory></Mandatory>
 
-<Type>Objlnk</Type>
+        <Type>Objlnk</Type>
 
-<RangeEnumeration></RangeEnumeration>
+        <RangeEnumeration></RangeEnumeration>
 
-<Units></Units>
+        <Units></Units>
 
-<Submitter>OMA</Submitter>
+        <Submitter>OMA</Submitter>
 
-<Description>
+        <Description>
 
-<![CDATA[The object link is used to refer an Instance of a given Object. An Object link value is composed of two concatenated 16-bits unsigned integers following the Network Byte Order convention. The Most Significant Halfword is an ObjectID, the Least Significant Hafword is an ObjectInstance ID.An Object Link referencing no Object Instance will contain the concatenation of 2 MAX-ID values (null link.]]>
+          <![CDATA[The object link is used to refer an Instance of a given Object. An Object link value is composed of two concatenated 16-bits unsigned integers following the Network Byte Order convention. The Most Significant Halfword is an ObjectID, the Least Significant Hafword is an ObjectInstance ID.An Object Link referencing no Object Instance will contain the concatenation of 2 MAX-ID values (null link.]]>
 
-</Description>
+        </Description>
 
-</Item>
+      </Item>
 
 
-<Item ID="4001">
+      <Item ID="4001">
 
-<Name>ObjectVersion</Name>
+        <Name>ObjectVersion</Name>
 
-<Operations>R</Operations>
+        <Operations>R</Operations>
 
-<MultipleInstances>Single</MultipleInstances>
+        <MultipleInstances>Single</MultipleInstances>
 
-<Mandatory>Optional</Mandatory>
+        <Mandatory>Optional</Mandatory>
 
-<Type>String</Type>
+        <Type>String</Type>
 
-<RangeEnumeration></RangeEnumeration>
-<Submitter>OMA</Submitter>
+        <RangeEnumeration></RangeEnumeration>
+        <Submitter>OMA</Submitter>
 
-<Description>
+        <Description>
 
-<![CDATA[LWM2M Object versioning label.]]>
+          <![CDATA[LWM2M Object versioning label.]]>
 
-</Description>
+        </Description>
 
-</Item>
+      </Item>
 
 
-<Item ID="4010">
+      <Item ID="4010">
 
-<Name>LogClass</Name>
+        <Name>LogClass</Name>
 
-<Operations>RW</Operations>
+        <Operations>RW</Operations>
 
-<MultipleInstances>Single</MultipleInstances>
+        <MultipleInstances>Single</MultipleInstances>
 
-<Mandatory>Optional</Mandatory>
+        <Mandatory>Optional</Mandatory>
 
-<Type>Integer</Type>
+        <Type>Integer</Type>
 
-<RangeEnumeration>0-255</RangeEnumeration>
+        <RangeEnumeration>0-255</RangeEnumeration>
 
-<RangeEnumeration></RangeEnumeration>
+        <RangeEnumeration></RangeEnumeration>
 
-<Submitter>OMA</Submitter>
+        <Submitter>OMA</Submitter>
 
-<Description>
+        <Description>
 
-<![CDATA[Part of the Logging Event Set: 1/5 (Must be a Single-Instance Resource) Define the Log Event Class: 0: generic (default) 1: system 2: security 3: event 4: trace 5: panic 6: charging [7-99]: reserved [100-255]: vendor specific ]]>
+          <![CDATA[Part of the Logging Event Set: 1/5 (Must be a Single-Instance Resource) Define the Log Event Class: 0: generic (default) 1: system 2: security 3: event 4: trace 5: panic 6: charging [7-99]: reserved [100-255]: vendor specific ]]>
 
-</Description>
+        </Description>
 
-</Item>
+      </Item>
 
 
-<Item ID="4011">
+      <Item ID="4011">
 
-<Name>LogStart</Name>
+        <Name>LogStart</Name>
 
-<Operations>E</Operations>
+        <Operations>E</Operations>
 
-<MultipleInstances>Single</MultipleInstances>
+        <MultipleInstances>Single</MultipleInstances>
 
-<Mandatory>Optional</Mandatory>
+        <Mandatory>Optional</Mandatory>
 
-<Type></Type>
+        <Type></Type>
 
-<RangeEnumeration></RangeEnumeration>
-<Submitter>OMA</Submitter>
+        <RangeEnumeration></RangeEnumeration>
+        <Submitter>OMA</Submitter>
 
-<Description>
+        <Description>
 
-<![CDATA[Part of the Logging Event Set: 2/5 Actions: a) Start data collection(DC) b) LogStatus is set to 0 (running) c) DC is emptied(default) or extended according to arg'0' value d) DC Period is set according to arg'1' value Arguments '0': DC emptied(=0[default] or extended(=1) '1': set the DC Period (in sec): if=0 or absent[default] DC is stopped by LogStop action only. ]]>
+          <![CDATA[Part of the Logging Event Set: 2/5 Actions: a) Start data collection(DC) b) LogStatus is set to 0 (running) c) DC is emptied(default) or extended according to arg'0' value d) DC Period is set according to arg'1' value Arguments '0': DC emptied(=0[default] or extended(=1) '1': set the DC Period (in sec): if=0 or absent[default] DC is stopped by LogStop action only. ]]>
 
-</Description>
+        </Description>
 
-</Item>
+      </Item>
 
 
-<Item ID="4012">
+      <Item ID="4012">
 
-<Name>LogStop</Name>
+        <Name>LogStop</Name>
 
-<Operations>E</Operations>
+        <Operations>E</Operations>
 
-<MultipleInstances>Single</MultipleInstances>
+        <MultipleInstances>Single</MultipleInstances>
 
-<Mandatory>Optional</Mandatory>
+        <Mandatory>Optional</Mandatory>
 
-<Type></Type>
+        <Type></Type>
 
-<RangeEnumeration></RangeEnumeration>
-<Submitter>OMA</Submitter>
+        <RangeEnumeration></RangeEnumeration>
+        <Submitter>OMA</Submitter>
 
-<Description>
+        <Description>
 
-<![CDATA[Log Event Set Interface 3/5 Actions: a) Stop data collection(DC) b) 1st LSB of LogStatus is set to 1 (stopped) c) DC is kept (default) or emptied according arg'0' value Argument:'0': DC kept(=0)[default]or emptied(=1)]]>
+          <![CDATA[Log Event Set Interface 3/5 Actions: a) Stop data collection(DC) b) 1st LSB of LogStatus is set to 1 (stopped) c) DC is kept (default) or emptied according arg'0' value Argument:'0': DC kept(=0)[default]or emptied(=1)]]>
 
-</Description>
+        </Description>
 
-</Item>
+      </Item>
 
 
-<Item ID="4013">
+      <Item ID="4013">
 
-<Name>LogStatus</Name>
+        <Name>LogStatus</Name>
 
-<Operations>R</Operations>
+        <Operations>R</Operations>
 
-<MultipleInstances>Single</MultipleInstances>
+        <MultipleInstances>Single</MultipleInstances>
 
-<Mandatory>Optional</Mandatory>
+        <Mandatory>Optional</Mandatory>
 
-<Type>Integer</Type>
+        <Type>Integer</Type>
 
-<RangeEnumeration>8-Bits</RangeEnumeration>
+        <RangeEnumeration>8-Bits</RangeEnumeration>
 
-<RangeEnumeration></RangeEnumeration>
+        <RangeEnumeration></RangeEnumeration>
 
-<Submitter>OMA</Submitter>
+        <Submitter>OMA</Submitter>
 
-<Description>
+        <Description>
 
-<![CDATA[Log Event Set Interface 4/5 (Must be a Single-Instance Resource)Data Collection process status: Each bit of this Resource Instance value defines a specific status: 1st LSB  0=running, 1=stopped 2nd LSB 1=LogData contains Valid Data 0=LogData doesn’t contain Valid 
+          <![CDATA[Log Event Set Interface 4/5 (Must be a Single-Instance Resource)Data Collection process status: Each bit of this Resource Instance value defines a specific status: 1st LSB  0=running, 1=stopped 2nd LSB 1=LogData contains Valid Data 0=LogData doesn’t contain Valid 
  Data 3rd LSB  1=Error occurred during Data Collection Collection 0=no Error [4th -7th ] LSB : reserved 8th LSB : vendor specific.]]>
 
-</Description>
+        </Description>
 
-</Item>
+      </Item>
 
 
-<Item ID="4014">
+      <Item ID="4014">
 
-<Name>LogData</Name>
+        <Name>LogData</Name>
 
-<Operations>R</Operations>
+        <Operations>R</Operations>
 
-<MultipleInstances>Multiple</MultipleInstances>
+        <MultipleInstances>Multiple</MultipleInstances>
 
-<Mandatory>Optional</Mandatory>
+        <Mandatory>Optional</Mandatory>
 
-<Type>Opaque</Type>
+        <Type>Opaque</Type>
 
-<RangeEnumeration></RangeEnumeration>
-<Submitter>OMA</Submitter>
+        <RangeEnumeration></RangeEnumeration>
+        <Submitter>OMA</Submitter>
 
-<Description>
+        <Description>
 
-<![CDATA[Log Event Set Interface 5/5 (May be a Multiple-Instance Resource) Read Access on that Resource returns the Data Collection associated to the current Object Instance. Data format followed by this Opaque Resource is given by the 1st byte of the opaque sequence: 0 : OMA-LwM2M TLV format 1 : OMA-LwM2M JSON format 2 : OMA-LwM2M CBOR format [3..99] reserved [100..255] vendor specific ]]>
+          <![CDATA[Log Event Set Interface 5/5 (May be a Multiple-Instance Resource) Read Access on that Resource returns the Data Collection associated to the current Object Instance. Data format followed by this Opaque Resource is given by the 1st byte of the opaque sequence: 0 : OMA-LwM2M TLV format 1 : OMA-LwM2M JSON format 2 : OMA-LwM2M CBOR format [3..99] reserved [100..255] vendor specific ]]>
 
-</Description>
+        </Description>
 
-</Item>
+      </Item>
 
+      <Item ID="4015">
 
-<Item ID="5500">
+        <Name>Reserved</Name>
 
-<Name>Digital Input State</Name>
+        <Operations></Operations>
 
-<Operations>R</Operations>
+        <MultipleInstances></MultipleInstances>
 
-<MultipleInstances></MultipleInstances>
+        <Mandatory></Mandatory>
 
-<Mandatory></Mandatory>
+        <Type></Type>
 
-<Type>Boolean</Type>
+        <RangeEnumeration></RangeEnumeration>
+        <Submitter></Submitter>
 
-<RangeEnumeration></RangeEnumeration>
-<Submitter>IPSO</Submitter>
+        <Description></Description>
 
-<Description>
+      </Item>
 
-<![CDATA[The current state of a digital input.]]>
 
-</Description>
+      <Item ID="5500">
 
-</Item>
+        <Name>Digital Input State</Name>
 
+        <Operations>R</Operations>
 
-<Item ID="5501">
+        <MultipleInstances></MultipleInstances>
 
-<Name>Digital Input Counter</Name>
+        <Mandatory></Mandatory>
 
-<Operations>R</Operations>
+        <Type>Boolean</Type>
 
-<MultipleInstances></MultipleInstances>
+        <RangeEnumeration></RangeEnumeration>
+        <Submitter>IPSO</Submitter>
 
-<Mandatory></Mandatory>
+        <Description>
 
-<Type>Integer</Type>
+          <![CDATA[The current state of a digital input.]]>
 
-<RangeEnumeration></RangeEnumeration>
-<Submitter>IPSO</Submitter>
+        </Description>
 
-<Description>
+      </Item>
 
-<![CDATA[The cumulative value of active state detected.]]>
 
-</Description>
+      <Item ID="5501">
 
-</Item>
+        <Name>Digital Input Counter</Name>
 
+        <Operations>R</Operations>
 
-<Item ID="5502">
+        <MultipleInstances></MultipleInstances>
 
-<Name>Digital Input Polarity</Name>
+        <Mandatory></Mandatory>
 
-<Operations>RW</Operations>
+        <Type>Integer</Type>
 
-<MultipleInstances></MultipleInstances>
+        <RangeEnumeration></RangeEnumeration>
+        <Submitter>IPSO</Submitter>
 
-<Mandatory></Mandatory>
+        <Description>
 
-<Type>Boolean</Type>
+          <![CDATA[The cumulative value of active state detected.]]>
 
-<RangeEnumeration></RangeEnumeration>
-<Submitter>IPSO</Submitter>
+        </Description>
 
-<Description>
+      </Item>
 
-<![CDATA[The polarity of a digital input as a Boolean (0 = Normal, 1= Reversed)]]>
 
-</Description>
+      <Item ID="5502">
 
-</Item>
+        <Name>Digital Input Polarity</Name>
 
+        <Operations>RW</Operations>
 
-<Item ID="5503">
+        <MultipleInstances></MultipleInstances>
 
-<Name>Digital Input Debounce</Name>
+        <Mandatory></Mandatory>
 
-<Operations>RW</Operations>
+        <Type>Boolean</Type>
 
-<MultipleInstances></MultipleInstances>
+        <RangeEnumeration></RangeEnumeration>
+        <Submitter>IPSO</Submitter>
 
-<Mandatory></Mandatory>
+        <Description>
 
-<Type>Integer</Type>
+          <![CDATA[The polarity of a digital input as a Boolean (0 = Normal, 1= Reversed)]]>
 
-<RangeEnumeration>1-3</RangeEnumeration>
+        </Description>
 
-<Units>ms</Units>
+      </Item>
 
-<Submitter>IPSO</Submitter>
 
-<Description>
+      <Item ID="5503">
 
-<![CDATA[The debounce period in ms.]]>
+        <Name>Digital Input Debounce</Name>
 
-</Description>
+        <Operations>RW</Operations>
 
-</Item>
+        <MultipleInstances></MultipleInstances>
 
+        <Mandatory></Mandatory>
 
-<Item ID="5504">
+        <Type>Integer</Type>
 
-<Name>Digital Input Edge Selection</Name>
+        <RangeEnumeration>1-3</RangeEnumeration>
 
-<Operations>RW</Operations>
+        <Units>ms</Units>
 
-<MultipleInstances></MultipleInstances>
+        <Submitter>IPSO</Submitter>
 
-<Mandatory></Mandatory>
+        <Description>
 
-<Type>Integer</Type>
+          <![CDATA[The debounce period in ms.]]>
 
-<RangeEnumeration></RangeEnumeration>
+        </Description>
 
+      </Item>
 
-<Submitter>IPSO</Submitter>
 
-<Description>
+      <Item ID="5504">
 
-<![CDATA[The edge selection as an integer (1 = Falling edge, 2 = Rising edge, 3 = Both Rising and Falling edge)]]>
+        <Name>Digital Input Edge Selection</Name>
 
-</Description>
+        <Operations>RW</Operations>
 
-</Item>
+        <MultipleInstances></MultipleInstances>
 
+        <Mandatory></Mandatory>
 
-<Item ID="5505">
+        <Type>Integer</Type>
 
-<Name>Digital Input Counter Reset</Name>
+        <RangeEnumeration></RangeEnumeration>
 
-<Operations>E</Operations>
 
-<MultipleInstances></MultipleInstances>
+        <Submitter>IPSO</Submitter>
 
-<Mandatory></Mandatory>
+        <Description>
 
-<Type>Opaque</Type>
+          <![CDATA[The edge selection as an integer (1 = Falling edge, 2 = Rising edge, 3 = Both Rising and Falling edge)]]>
 
-<RangeEnumeration></RangeEnumeration>
+        </Description>
 
-<Submitter>IPSO</Submitter>
+      </Item>
 
-<Description>
 
-<![CDATA[Reset the Counter value]]>
+      <Item ID="5505">
 
-</Description>
+        <Name>Digital Input Counter Reset</Name>
 
-</Item>
+        <Operations>E</Operations>
 
+        <MultipleInstances></MultipleInstances>
 
-<Item ID="5506">
+        <Mandatory></Mandatory>
 
-<Name>Current Time</Name>
+        <Type>Opaque</Type>
 
-<Operations>RW</Operations>
+        <RangeEnumeration></RangeEnumeration>
 
-<MultipleInstances></MultipleInstances>
+        <Submitter>IPSO</Submitter>
 
-<Mandatory></Mandatory>
+        <Description>
 
-<Type>Time</Type>
+          <![CDATA[Reset the Counter value]]>
 
-<RangeEnumeration></RangeEnumeration>
+        </Description>
 
-<Submitter>IPSO</Submitter>
+      </Item>
 
-<Description>
 
-<![CDATA[Unix Time. A signed integer representing the number of seconds since Jan 1st, 1970 in the UTC time zone.]]>
+      <Item ID="5506">
 
-</Description>
+        <Name>Current Time</Name>
 
-</Item>
+        <Operations>RW</Operations>
 
-<Item ID="5507">
+        <MultipleInstances></MultipleInstances>
 
-<Name>Fractional Time</Name>
+        <Mandatory></Mandatory>
 
-<Operations>RW</Operations>
+        <Type>Time</Type>
 
-<MultipleInstances>Single</MultipleInstances>
+        <RangeEnumeration></RangeEnumeration>
 
-<Mandatory>Optional</Mandatory>
+        <Submitter>IPSO</Submitter>
 
-<Type>Float</Type>
+        <Description>
 
-<RangeEnumeration>0-1</RangeEnumeration>
+          <![CDATA[Unix Time. A signed integer representing the number of seconds since Jan 1st, 1970 in the UTC time zone.]]>
 
-<Units>seconds</Units>
+        </Description>
 
-<Submitter>IPSO</Submitter>
+      </Item>
 
-<Description>
+      <Item ID="5507">
 
-<![CDATA[For shorter times of a fraction of a second (i.e. 0.23).]]>
+        <Name>Fractional Time</Name>
 
-</Description>
+        <Operations>RW</Operations>
 
-</Item>
+        <MultipleInstances>Single</MultipleInstances>
 
+        <Mandatory>Optional</Mandatory>
 
-<Item ID="5508">
+        <Type>Float</Type>
 
-<Name>Min X Value</Name>
+        <RangeEnumeration>0-1</RangeEnumeration>
 
-<Operations>R</Operations>
+        <Units>seconds</Units>
 
-<MultipleInstances>Single</MultipleInstances>
+        <Submitter>IPSO</Submitter>
 
-<Mandatory>Optional</Mandatory>
+        <Description>
 
-<Type>Float</Type>
+          <![CDATA[For shorter times of a fraction of a second (i.e. 0.23).]]>
 
-<RangeEnumeration></RangeEnumeration>
+        </Description>
 
-<Units>Defined by “Units” resource.</Units>
+      </Item>
 
-<Submitter>IPSO</Submitter>
 
-<Description>
+      <Item ID="5508">
 
-<![CDATA[The minimum measured value along the X axis]]>
+        <Name>Min X Value</Name>
 
-</Description>
+        <Operations>R</Operations>
 
-</Item>
+        <MultipleInstances>Single</MultipleInstances>
 
+        <Mandatory>Optional</Mandatory>
 
-<Item ID="5509">
+        <Type>Float</Type>
 
-<Name>Max X Value</Name>
+        <RangeEnumeration></RangeEnumeration>
 
-<Operations>R</Operations>
+        <Units>Defined by “Units” resource.</Units>
 
-<MultipleInstances>Single</MultipleInstances>
+        <Submitter>IPSO</Submitter>
 
-<Mandatory>Optional</Mandatory>
+        <Description>
 
-<Type>Float</Type>
+          <![CDATA[The minimum measured value along the X axis]]>
 
-<RangeEnumeration></RangeEnumeration>
+        </Description>
 
-<Units>Defined by “Units” resource.</Units>
+      </Item>
 
-<Submitter>IPSO</Submitter>
 
-<Description>
+      <Item ID="5509">
 
-<![CDATA[The maximum measured value along the X axis]]>
+        <Name>Max X Value</Name>
 
-</Description>
+        <Operations>R</Operations>
 
-</Item>
+        <MultipleInstances>Single</MultipleInstances>
 
+        <Mandatory>Optional</Mandatory>
 
-<Item ID="5510">
+        <Type>Float</Type>
 
-<Name>Min Y Value</Name>
+        <RangeEnumeration></RangeEnumeration>
 
-<Operations>R</Operations>
+        <Units>Defined by “Units” resource.</Units>
 
-<MultipleInstances>Single</MultipleInstances>
+        <Submitter>IPSO</Submitter>
 
-<Mandatory>Optional</Mandatory>
+        <Description>
 
-<Type>Float</Type>
+          <![CDATA[The maximum measured value along the X axis]]>
 
-<RangeEnumeration></RangeEnumeration>
+        </Description>
 
-<Units>Defined by “Units” resource.</Units>
+      </Item>
 
-<Submitter>IPSO</Submitter>
 
-<Description>
+      <Item ID="5510">
 
-<![CDATA[The minimum measured value along the Y axis]]>
+        <Name>Min Y Value</Name>
 
-</Description>
+        <Operations>R</Operations>
 
-</Item>
+        <MultipleInstances>Single</MultipleInstances>
 
+        <Mandatory>Optional</Mandatory>
 
-<Item ID="5511">
+        <Type>Float</Type>
 
-<Name>Max Y Value</Name>
+        <RangeEnumeration></RangeEnumeration>
 
-<Operations>R</Operations>
+        <Units>Defined by “Units” resource.</Units>
 
-<MultipleInstances>Single</MultipleInstances>
+        <Submitter>IPSO</Submitter>
 
-<Mandatory>Optional</Mandatory>
+        <Description>
 
-<Type>Float</Type>
+          <![CDATA[The minimum measured value along the Y axis]]>
 
-<RangeEnumeration></RangeEnumeration>
+        </Description>
 
-<Units>Defined by “Units” resource.</Units>
+      </Item>
 
-<Submitter>IPSO</Submitter>
 
-<Description>
+      <Item ID="5511">
 
-<![CDATA[The maximum measured value along the Y axis]]>
+        <Name>Max Y Value</Name>
 
-</Description>
+        <Operations>R</Operations>
 
-</Item>
+        <MultipleInstances>Single</MultipleInstances>
 
+        <Mandatory>Optional</Mandatory>
 
-<Item ID="5512">
+        <Type>Float</Type>
 
-<Name>Min Z Value</Name>
+        <RangeEnumeration></RangeEnumeration>
 
-<Operations>R</Operations>
+        <Units>Defined by “Units” resource.</Units>
 
-<MultipleInstances>Single</MultipleInstances>
+        <Submitter>IPSO</Submitter>
 
-<Mandatory>Optional</Mandatory>
+        <Description>
 
-<Type>Float</Type>
+          <![CDATA[The maximum measured value along the Y axis]]>
 
-<RangeEnumeration></RangeEnumeration>
+        </Description>
 
-<Units>Defined by “Units” resource.</Units>
+      </Item>
 
-<Submitter>IPSO</Submitter>
 
-<Description>
+      <Item ID="5512">
 
-<![CDATA[The minimum measured value along the Z axis]]>
+        <Name>Min Z Value</Name>
 
-</Description>
+        <Operations>R</Operations>
 
-</Item>
+        <MultipleInstances>Single</MultipleInstances>
 
+        <Mandatory>Optional</Mandatory>
 
-<Item ID="5513">
+        <Type>Float</Type>
 
-<Name>Max Z Value</Name>
+        <RangeEnumeration></RangeEnumeration>
 
-<Operations>R</Operations>
+        <Units>Defined by “Units” resource.</Units>
 
-<MultipleInstances>Single</MultipleInstances>
+        <Submitter>IPSO</Submitter>
 
-<Mandatory>Optional</Mandatory>
+        <Description>
 
-<Type>Float</Type>
+          <![CDATA[The minimum measured value along the Z axis]]>
 
-<RangeEnumeration></RangeEnumeration>
+        </Description>
 
-<Units>Defined by “Units” resource.</Units>
+      </Item>
 
-<Submitter>IPSO</Submitter>
 
-<Description>
+      <Item ID="5513">
 
-<![CDATA[The maximum measured value along the Z axis]]>
+        <Name>Max Z Value</Name>
 
-</Description>
+        <Operations>R</Operations>
 
-</Item>
+        <MultipleInstances>Single</MultipleInstances>
 
+        <Mandatory>Optional</Mandatory>
 
+        <Type>Float</Type>
 
-<Item ID="5514">
+        <RangeEnumeration></RangeEnumeration>
 
-<Name>Latitude</Name>
+        <Units>Defined by “Units” resource.</Units>
 
-<Operations>R</Operations>
+        <Submitter>IPSO</Submitter>
 
-<MultipleInstances>Single</MultipleInstances>
+        <Description>
 
-<Mandatory>Mandatory</Mandatory>
+          <![CDATA[The maximum measured value along the Z axis]]>
 
-<Type>String</Type>
+        </Description>
 
-<RangeEnumeration></RangeEnumeration>
+      </Item>
 
-<Submitter>IPSO</Submitter>
 
-<Description>
 
-<![CDATA[The decimal notation of latitude, e.g. -43.5723 (World Geodetic System 1984).]]>
+      <Item ID="5514">
 
-</Description>
+        <Name>Latitude</Name>
 
-</Item>
+        <Operations>R</Operations>
 
+        <MultipleInstances>Single</MultipleInstances>
 
-<Item ID="5515">
+        <Mandatory>Mandatory</Mandatory>
 
-<Name>Longitude</Name>
+        <Type>String</Type>
 
-<Operations>R</Operations>
+        <RangeEnumeration></RangeEnumeration>
 
-<MultipleInstances>Single</MultipleInstances>
+        <Submitter>IPSO</Submitter>
 
-<Mandatory>Mandatory</Mandatory>
+        <Description>
 
-<Type>String</Type>
+          <![CDATA[The decimal notation of latitude, e.g. -43.5723 (World Geodetic System 1984).]]>
 
-<RangeEnumeration></RangeEnumeration>
+        </Description>
 
-<Submitter>IPSO</Submitter>
+      </Item>
 
-<Description>
 
-<![CDATA[The decimal notation of longitude, e.g. 153.21760 (World Geodetic System 1984).]]>
+      <Item ID="5515">
 
-</Description>
+        <Name>Longitude</Name>
 
-</Item>
+        <Operations>R</Operations>
 
+        <MultipleInstances>Single</MultipleInstances>
 
-<Item ID="5516">
+        <Mandatory>Mandatory</Mandatory>
 
-<Name>Uncertainty</Name>
+        <Type>String</Type>
 
-<Operations>R</Operations>
+        <RangeEnumeration></RangeEnumeration>
 
-<MultipleInstances>Single</MultipleInstances>
+        <Submitter>IPSO</Submitter>
 
-<Mandatory>Optional</Mandatory>
+        <Description>
 
-<Type>String</Type>
+          <![CDATA[The decimal notation of longitude, e.g. 153.21760 (World Geodetic System 1984).]]>
 
-<RangeEnumeration></RangeEnumeration>
+        </Description>
 
-<Submitter>IPSO</Submitter>
+      </Item>
 
-<Description>
 
-<![CDATA[The accuracy of the position in meters.]]>
+      <Item ID="5516">
 
-</Description>
+        <Name>Uncertainty</Name>
 
-</Item>
+        <Operations>R</Operations>
 
+        <MultipleInstances>Single</MultipleInstances>
 
-<Item ID="5517">
+        <Mandatory>Optional</Mandatory>
 
-<Name>Volocity</Name>
+        <Type>String</Type>
 
-<Operations>R</Operations>
+        <RangeEnumeration></RangeEnumeration>
 
-<MultipleInstances>Single</MultipleInstances>
+        <Submitter>IPSO</Submitter>
 
-<Mandatory>Optional</Mandatory>
+        <Description>
 
-<Type>Opaque</Type>
+          <![CDATA[The accuracy of the position in meters.]]>
 
-<RangeEnumeration></RangeEnumeration>
+        </Description>
 
-<Submitter>IPSO</Submitter>
+      </Item>
 
-<Description>
 
-<![CDATA[The velocity of the device as defined in 3GPP 23.032 GAD specification. This set of values may not be available if the device is static.]]>
+      <Item ID="5517">
 
-</Description>
+        <Name>Volocity</Name>
 
-</Item>
+        <Operations>R</Operations>
 
+        <MultipleInstances>Single</MultipleInstances>
 
-<Item ID="5518">
+        <Mandatory>Optional</Mandatory>
 
-<Name>Timestamp</Name>
+        <Type>Opaque</Type>
 
-<Operations>R</Operations>
+        <RangeEnumeration></RangeEnumeration>
 
-<MultipleInstances>Single</MultipleInstances>
+        <Submitter>IPSO</Submitter>
 
-<Mandatory>Optional</Mandatory>
+        <Description>
 
-<Type>Time</Type>
+          <![CDATA[The velocity of the device as defined in 3GPP 23.032 GAD specification. This set of values may not be available if the device is static.]]>
 
-<RangeEnumeration></RangeEnumeration>
+        </Description>
 
-<Submitter>IPSO</Submitter>
+      </Item>
 
-<Description>
 
-<![CDATA[The timestamp of when the location measurement was performed.]]>
+      <Item ID="5518">
 
-</Description>
+        <Name>Timestamp</Name>
 
-</Item>
+        <Operations>R</Operations>
 
+        <MultipleInstances>Single</MultipleInstances>
 
-<Item ID="5519">
+        <Mandatory>Optional</Mandatory>
 
-<Name>Min Limit</Name>
+        <Type>Time</Type>
 
-<Operations>R</Operations>
+        <RangeEnumeration></RangeEnumeration>
 
-<MultipleInstances>Single</MultipleInstances>
+        <Submitter>IPSO</Submitter>
 
-<Mandatory>Optional</Mandatory>
+        <Description>
 
-<Type>Float</Type>
+          <![CDATA[The timestamp of when the location measurement was performed.]]>
 
-<RangeEnumeration>Same as Measured Value</RangeEnumeration>
+        </Description>
 
-<Units>Same as Measured Value</Units>
+      </Item>
 
-<Submitter>IPSO</Submitter>
 
-<Description>
+      <Item ID="5519">
 
-<![CDATA[The minimum value that can be measured by the sensor.]]>
+        <Name>Min Limit</Name>
 
-</Description>
+        <Operations>R</Operations>
 
-</Item>
+        <MultipleInstances>Single</MultipleInstances>
 
+        <Mandatory>Optional</Mandatory>
 
+        <Type>Float</Type>
 
-<Item ID="5520">
+        <RangeEnumeration>Same as Measured Value</RangeEnumeration>
 
-<Name>Max Limit</Name>
+        <Units>Same as Measured Value</Units>
 
-<Operations>R</Operations>
+        <Submitter>IPSO</Submitter>
 
-<MultipleInstances>Single</MultipleInstances>
+        <Description>
 
-<Mandatory>Optional</Mandatory>
+          <![CDATA[The minimum value that can be measured by the sensor.]]>
 
-<Type>Float</Type>
+        </Description>
 
-<RangeEnumeration>Same as Measured Value</RangeEnumeration>
+      </Item>
 
-<Units>Same as Measured Value</Units>
 
-<Submitter>IPSO</Submitter>
 
-<Description>
+      <Item ID="5520">
 
-<![CDATA[The maximum value that can be measured by the sensor.]]>
+        <Name>Max Limit</Name>
 
-</Description>
+        <Operations>R</Operations>
 
-</Item>
+        <MultipleInstances>Single</MultipleInstances>
 
-<Item ID="5521">
+        <Mandatory>Optional</Mandatory>
 
-<Name>Delay Duration</Name>
+        <Type>Float</Type>
 
-<Operations>RW</Operations>
+        <RangeEnumeration>Same as Measured Value</RangeEnumeration>
 
-<MultipleInstances>Single</MultipleInstances>
+        <Units>Same as Measured Value</Units>
 
-<Mandatory>Optional</Mandatory>
+        <Submitter>IPSO</Submitter>
 
-<Type>Float</Type>
+        <Description>
 
-<RangeEnumeration></RangeEnumeration>
+          <![CDATA[The maximum value that can be measured by the sensor.]]>
 
-<Units>s</Units>
+        </Description>
 
-<Submitter>IPSO</Submitter>
+      </Item>
 
-<Description>
+      <Item ID="5521">
 
-<![CDATA[The duration of the time delay.]]>
+        <Name>Delay Duration</Name>
 
-</Description>
+        <Operations>RW</Operations>
 
-</Item>
+        <MultipleInstances>Single</MultipleInstances>
 
-<Item ID="5522">
+        <Mandatory>Optional</Mandatory>
 
-<Name>Clip</Name>
+        <Type>Float</Type>
 
-<Operations>RW</Operations>
+        <RangeEnumeration></RangeEnumeration>
 
-<MultipleInstances>Single</MultipleInstances>
+        <Units>s</Units>
 
-<Mandatory>Mandatory</Mandatory>
+        <Submitter>IPSO</Submitter>
 
-<Type>Opaque</Type>
+        <Description>
 
-<RangeEnumeration></RangeEnumeration>
-<Submitter>IPSO</Submitter>
+          <![CDATA[The duration of the time delay.]]>
 
-<Description>
+        </Description>
 
-<![CDATA[Audio Clip that is playable (i.e. short audio recording indicating the floor in an elevator).]]>
+      </Item>
 
-</Description>
+      <Item ID="5522">
 
-</Item>
+        <Name>Clip</Name>
 
-<Item ID="5523">
+        <Operations>RW</Operations>
 
-<Name>Trigger</Name>
+        <MultipleInstances>Single</MultipleInstances>
 
-<Operations>E</Operations>
+        <Mandatory>Mandatory</Mandatory>
 
-<MultipleInstances>Single</MultipleInstances>
+        <Type>Opaque</Type>
 
-<Mandatory>Optional</Mandatory>
+        <RangeEnumeration></RangeEnumeration>
+        <Submitter>IPSO</Submitter>
 
-<Type>Opaque</Type>
+        <Description>
 
-<RangeEnumeration></RangeEnumeration>
-<Submitter>IPSO</Submitter>
+          <![CDATA[Audio Clip that is playable (i.e. short audio recording indicating the floor in an elevator).]]>
 
-<Description>
+        </Description>
 
-<![CDATA[Trigger initiating actuation.]]>
+      </Item>
 
-</Description>
+      <Item ID="5523">
 
-</Item>
+        <Name>Trigger</Name>
 
-<Item ID="5524">
+        <Operations>E</Operations>
 
-<Name>Duration</Name>
+        <MultipleInstances>Single</MultipleInstances>
 
-<Operations>RW</Operations>
+        <Mandatory>Optional</Mandatory>
 
-<MultipleInstances>Single</MultipleInstances>
+        <Type>Opaque</Type>
 
-<Mandatory>Optional</Mandatory>
+        <RangeEnumeration></RangeEnumeration>
+        <Submitter>IPSO</Submitter>
 
-<Type>Float</Type>
+        <Description>
 
-<RangeEnumeration></RangeEnumeration>
+          <![CDATA[Trigger initiating actuation.]]>
 
-<Units>seconds</Units>
+        </Description>
 
-<Submitter>IPSO</Submitter>
+      </Item>
 
-<Description>
+      <Item ID="5524">
 
-<![CDATA[The duration of the sound once trigger.]]>
+        <Name>Duration</Name>
 
-</Description>
+        <Operations>RW</Operations>
 
-</Item>
+        <MultipleInstances>Single</MultipleInstances>
 
+        <Mandatory>Optional</Mandatory>
 
-<Item ID="5525">
+        <Type>Float</Type>
 
-<Name>Minimum Off-time</Name>
+        <RangeEnumeration></RangeEnumeration>
 
-<Operations>RW</Operations>
+        <Units>seconds</Units>
 
-<MultipleInstances>Single</MultipleInstances>
+        <Submitter>IPSO</Submitter>
 
-<Mandatory>Mandatory</Mandatory>
+        <Description>
 
-<Type>Float</Type>
+          <![CDATA[The duration of the sound once trigger.]]>
 
-<RangeEnumeration></RangeEnumeration>
+        </Description>
 
-<Units>s</Units>
+      </Item>
 
-<Submitter>IPSO</Submitter>
 
-<Description>
+      <Item ID="5525">
 
-<![CDATA[The off time when On/Off control remains on.]]>
+        <Name>Minimum Off-time</Name>
 
-</Description>
+        <Operations>RW</Operations>
 
-</Item>
+        <MultipleInstances>Single</MultipleInstances>
 
+        <Mandatory>Mandatory</Mandatory>
 
-<Item ID="5526">
+        <Type>Float</Type>
 
-<Name>Mode</Name>
+        <RangeEnumeration></RangeEnumeration>
 
-<Operations>RW</Operations>
+        <Units>s</Units>
 
-<MultipleInstances>Single</MultipleInstances>
+        <Submitter>IPSO</Submitter>
 
-<Mandatory>Optional</Mandatory>
+        <Description>
 
-<Type>Integer</Type>
+          <![CDATA[The off time when On/Off control remains on.]]>
 
-<RangeEnumeration>0-4</RangeEnumeration>
+        </Description>
 
-<RangeEnumeration></RangeEnumeration>
+      </Item>
 
-<Submitter>IPSO</Submitter>
 
-<Description>
+      <Item ID="5526">
 
-<![CDATA[Type of timer pattern used by the patterns.]]>
+        <Name>Mode</Name>
 
-</Description>
+        <Operations>RW</Operations>
 
-</Item>
+        <MultipleInstances>Single</MultipleInstances>
 
+        <Mandatory>Optional</Mandatory>
 
-<Item ID="5527">
+        <Type>Integer</Type>
 
-<Name>Text</Name>
+        <RangeEnumeration>0-4</RangeEnumeration>
 
-<Operations>RW</Operations>
+        <RangeEnumeration></RangeEnumeration>
 
-<MultipleInstances>Single</MultipleInstances>
+        <Submitter>IPSO</Submitter>
 
-<Mandatory>Mandatory</Mandatory>
+        <Description>
 
-<Type>String</Type>
+          <![CDATA[Type of timer pattern used by the patterns.]]>
 
-<RangeEnumeration></RangeEnumeration>
-<Submitter>IPSO</Submitter>
+        </Description>
 
-<Description>
+      </Item>
 
-<![CDATA[A string of text.]]>
 
-</Description>
+      <Item ID="5527">
 
-</Item>
+        <Name>Text</Name>
 
+        <Operations>RW</Operations>
 
-<Item ID="5528">
+        <MultipleInstances>Single</MultipleInstances>
 
-<Name>X Coordinate</Name>
+        <Mandatory>Mandatory</Mandatory>
 
-<Operations>RW</Operations>
+        <Type>String</Type>
 
-<MultipleInstances>Single</MultipleInstances>
+        <RangeEnumeration></RangeEnumeration>
+        <Submitter>IPSO</Submitter>
 
-<Mandatory>Optional</Mandatory>
+        <Description>
 
-<Type>Integer</Type>
+          <![CDATA[A string of text.]]>
 
-<RangeEnumeration></RangeEnumeration>
-<Submitter>IPSO</Submitter>
+        </Description>
 
-<Description>
+      </Item>
 
-<![CDATA[X Coordinate.]]>
 
-</Description>
+      <Item ID="5528">
 
-</Item>
+        <Name>X Coordinate</Name>
 
+        <Operations>RW</Operations>
 
+        <MultipleInstances>Single</MultipleInstances>
 
-<Item ID="5529">
+        <Mandatory>Optional</Mandatory>
 
-<Name>Y Coordinate</Name>
+        <Type>Integer</Type>
 
-<Operations>RW</Operations>
+        <RangeEnumeration></RangeEnumeration>
+        <Submitter>IPSO</Submitter>
 
-<MultipleInstances>Single</MultipleInstances>
+        <Description>
 
-<Mandatory>Optional</Mandatory>
+          <![CDATA[X Coordinate.]]>
 
-<Type>Integer</Type>
+        </Description>
 
-<RangeEnumeration></RangeEnumeration>
-<Submitter>IPSO</Submitter>
+      </Item>
 
-<Description>
 
-<![CDATA[Y Coordinate.]]>
 
-</Description>
+      <Item ID="5529">
 
-</Item>
+        <Name>Y Coordinate</Name>
 
+        <Operations>RW</Operations>
 
-<Item ID="5530">
+        <MultipleInstances>Single</MultipleInstances>
 
-<Name>Clear Display</Name>
+        <Mandatory>Optional</Mandatory>
 
-<Operations>E</Operations>
+        <Type>Integer</Type>
 
-<MultipleInstances>Single</MultipleInstances>
+        <RangeEnumeration></RangeEnumeration>
+        <Submitter>IPSO</Submitter>
 
-<Mandatory>Optional</Mandatory>
+        <Description>
 
-<Type/>
+          <![CDATA[Y Coordinate.]]>
 
-<RangeEnumeration></RangeEnumeration>
-<Submitter>IPSO</Submitter>
+        </Description>
 
-<Description>
+      </Item>
 
-<![CDATA[Command to clear the display.]]>
 
-</Description>
+      <Item ID="5530">
 
-</Item>
+        <Name>Clear Display</Name>
 
-<Item ID="5531">
+        <Operations>E</Operations>
 
-<Name>Contrast</Name>
+        <MultipleInstances>Single</MultipleInstances>
 
-<Operations>RW</Operations>
+        <Mandatory>Optional</Mandatory>
 
-<MultipleInstances>Single</MultipleInstances>
+        <Type/>
 
-<Mandatory>Optional</Mandatory>
+        <RangeEnumeration></RangeEnumeration>
+        <Submitter>IPSO</Submitter>
 
-<Type>Float</Type>
+        <Description>
 
-<RangeEnumeration>0-100</RangeEnumeration>
+          <![CDATA[Command to clear the display.]]>
 
-<Units>%</Units>
+        </Description>
 
-<Submitter>IPSO</Submitter>
+      </Item>
 
-<Description>
+      <Item ID="5531">
 
-<![CDATA[Proportional control, integer value between 0 and 100 as a percentage.]]>
+        <Name>Contrast</Name>
 
-</Description>
+        <Operations>RW</Operations>
 
-</Item>
+        <MultipleInstances>Single</MultipleInstances>
 
-<Item ID="5532">
+        <Mandatory>Optional</Mandatory>
 
-<Name>Increase Input State</Name>
+        <Type>Float</Type>
 
-<Operations>R</Operations>
+        <RangeEnumeration>0-100</RangeEnumeration>
 
-<MultipleInstances>Single</MultipleInstances>
+        <Units>%</Units>
 
-<Mandatory>Mandatory</Mandatory>
+        <Submitter>IPSO</Submitter>
 
-<Type>Boolean</Type>
+        <Description>
 
-<RangeEnumeration></RangeEnumeration>
-<Submitter>IPSO</Submitter>
+          <![CDATA[Proportional control, integer value between 0 and 100 as a percentage.]]>
 
-<Description>
+        </Description>
 
-<![CDATA[Indicates an increase control action.]]>
+      </Item>
 
-</Description>
+      <Item ID="5532">
 
-</Item>
+        <Name>Increase Input State</Name>
 
+        <Operations>R</Operations>
 
-<Item ID="5533">
+        <MultipleInstances>Single</MultipleInstances>
 
-<Name>Decrease Input State</Name>
+        <Mandatory>Mandatory</Mandatory>
 
-<Operations>R</Operations>
+        <Type>Boolean</Type>
 
-<MultipleInstances>Single</MultipleInstances>
+        <RangeEnumeration></RangeEnumeration>
+        <Submitter>IPSO</Submitter>
 
-<Mandatory>Mandatory</Mandatory>
+        <Description>
 
-<Type>Boolean</Type>
+          <![CDATA[Indicates an increase control action.]]>
 
-<RangeEnumeration></RangeEnumeration>
-<Submitter>IPSO</Submitter>
+        </Description>
 
-<Description>
+      </Item>
 
-<![CDATA[Indicates a decrease control action.]]>
 
-</Description>
+      <Item ID="5533">
 
-</Item>
+        <Name>Decrease Input State</Name>
 
+        <Operations>R</Operations>
 
-<Item ID="5534">
+        <MultipleInstances>Single</MultipleInstances>
 
-<Name>Counter</Name>
+        <Mandatory>Mandatory</Mandatory>
 
-<Operations>RW</Operations>
+        <Type>Boolean</Type>
 
-<MultipleInstances>Single</MultipleInstances>
+        <RangeEnumeration></RangeEnumeration>
+        <Submitter>IPSO</Submitter>
 
-<Mandatory>Optional</Mandatory>
+        <Description>
 
-<Type>Integer</Type>
+          <![CDATA[Indicates a decrease control action.]]>
 
-<RangeEnumeration></RangeEnumeration>
-<Submitter>IPSO</Submitter>
+        </Description>
 
-<Description>
+      </Item>
 
-<![CDATA[Counts the number of times the timer output transitions from 0 to 1.]]>
 
-</Description>
+      <Item ID="5534">
 
-</Item>
+        <Name>Counter</Name>
 
-<Item ID="5536">
+        <Operations>RW</Operations>
 
-<Name>Current Position</Name>
+        <MultipleInstances>Single</MultipleInstances>
 
-<Operations>RW</Operations>
+        <Mandatory>Optional</Mandatory>
 
-<MultipleInstances>Single</MultipleInstances>
+        <Type>Integer</Type>
 
-<Mandatory>Mandatory</Mandatory>
+        <RangeEnumeration></RangeEnumeration>
+        <Submitter>IPSO</Submitter>
 
-<Type>Float</Type>
+        <Description>
 
-<RangeEnumeration>0-100</RangeEnumeration>
+          <![CDATA[Counts the number of times the timer output transitions from 0 to 1.]]>
 
-<Units>%</Units>
+        </Description>
 
-<Submitter>IPSO</Submitter>
+      </Item>
 
-<Description>
+      <Item ID="5536">
 
-<![CDATA[Current position or desired position of a positioner actuator.]]>
+        <Name>Current Position</Name>
 
-</Description>
+        <Operations>RW</Operations>
 
-</Item>
+        <MultipleInstances>Single</MultipleInstances>
 
+        <Mandatory>Mandatory</Mandatory>
 
-<Item ID="5537">
+        <Type>Float</Type>
 
-<Name>Transition Time</Name>
+        <RangeEnumeration>0-100</RangeEnumeration>
 
-<Operations>RW</Operations>
+        <Units>%</Units>
 
-<MultipleInstances>Single</MultipleInstances>
+        <Submitter>IPSO</Submitter>
 
-<Mandatory>Optional</Mandatory>
+        <Description>
 
-<Type>Float</Type>
+          <![CDATA[Current position or desired position of a positioner actuator.]]>
 
-<RangeEnumeration></RangeEnumeration>
+        </Description>
 
-<Units>s</Units>
+      </Item>
 
-<Submitter>IPSO</Submitter>
 
-<Description>
+      <Item ID="5537">
 
-<![CDATA[The time expected to move the actuator to the new position.]]>
+        <Name>Transition Time</Name>
 
-</Description>
+        <Operations>RW</Operations>
 
-</Item>
+        <MultipleInstances>Single</MultipleInstances>
 
+        <Mandatory>Optional</Mandatory>
 
-<Item ID="5538">
+        <Type>Float</Type>
 
-<Name>Remaining Time</Name>
+        <RangeEnumeration></RangeEnumeration>
 
-<Operations>R</Operations>
+        <Units>s</Units>
 
-<MultipleInstances>Single</MultipleInstances>
+        <Submitter>IPSO</Submitter>
 
-<Mandatory>Optional</Mandatory>
+        <Description>
 
-<Type>Float</Type>
+          <![CDATA[The time expected to move the actuator to the new position.]]>
 
-<RangeEnumeration></RangeEnumeration>
+        </Description>
 
-<Units>s</Units>
+      </Item>
 
-<Submitter>IPSO</Submitter>
 
-<Description>
+      <Item ID="5538">
 
-<![CDATA[The time remaining in an operation.]]>
+        <Name>Remaining Time</Name>
 
-</Description>
+        <Operations>R</Operations>
 
-</Item>
+        <MultipleInstances>Single</MultipleInstances>
 
+        <Mandatory>Optional</Mandatory>
 
-<Item ID="5541">
+        <Type>Float</Type>
 
-<Name>Up Counter</Name>
+        <RangeEnumeration></RangeEnumeration>
 
-<Operations>RW</Operations>
+        <Units>s</Units>
 
-<MultipleInstances>Single</MultipleInstances>
+        <Submitter>IPSO</Submitter>
 
-<Mandatory>Optional</Mandatory>
+        <Description>
 
-<Type>Integer</Type>
+          <![CDATA[The time remaining in an operation.]]>
 
-<RangeEnumeration></RangeEnumeration>
-<Submitter>IPSO</Submitter>
+        </Description>
 
-<Description>
+      </Item>
 
-<![CDATA[Counts the number of times the increase control has been operated. Writing a 0 resets the counter.]]>
 
-</Description>
+      <Item ID="5541">
 
-</Item>
+        <Name>Up Counter</Name>
 
+        <Operations>RW</Operations>
 
-<Item ID="5542">
+        <MultipleInstances>Single</MultipleInstances>
 
-<Name>Down Counter</Name>
+        <Mandatory>Optional</Mandatory>
 
-<Operations>RW</Operations>
+        <Type>Integer</Type>
 
-<MultipleInstances>Single</MultipleInstances>
+        <RangeEnumeration></RangeEnumeration>
+        <Submitter>IPSO</Submitter>
 
-<Mandatory>Optional</Mandatory>
+        <Description>
 
-<Type>Integer</Type>
+          <![CDATA[Counts the number of times the increase control has been operated. Writing a 0 resets the counter.]]>
 
-<RangeEnumeration></RangeEnumeration>
-<Submitter>IPSO</Submitter>
+        </Description>
 
-<Description>
+      </Item>
 
-<![CDATA[Counts the times the decrease control has been operated. Writing a 0 resets the counter.]]>
 
-</Description>
+      <Item ID="5542">
 
-</Item>
+        <Name>Down Counter</Name>
 
+        <Operations>RW</Operations>
 
-<Item ID="5543">
+        <MultipleInstances>Single</MultipleInstances>
 
-<Name>Digital State</Name>
+        <Mandatory>Optional</Mandatory>
 
-<Operations>R</Operations>
+        <Type>Integer</Type>
 
-<MultipleInstances>Single</MultipleInstances>
+        <RangeEnumeration></RangeEnumeration>
+        <Submitter>IPSO</Submitter>
 
-<Mandatory>Optional</Mandatory>
+        <Description>
 
-<Type>Boolean</Type>
+          <![CDATA[Counts the times the decrease control has been operated. Writing a 0 resets the counter.]]>
 
-<RangeEnumeration></RangeEnumeration>
-<Submitter>IPSO</Submitter>
+        </Description>
 
-<Description>
+      </Item>
 
-<![CDATA[The current state of the timer output.]]>
 
-</Description>
+      <Item ID="5543">
 
-</Item>
+        <Name>Digital State</Name>
 
+        <Operations>R</Operations>
 
-<Item ID="5544">
+        <MultipleInstances>Single</MultipleInstances>
 
-<Name>Cumulative Time</Name>
+        <Mandatory>Optional</Mandatory>
 
-<Operations>RW</Operations>
+        <Type>Boolean</Type>
 
-<MultipleInstances>Single</MultipleInstances>
+        <RangeEnumeration></RangeEnumeration>
+        <Submitter>IPSO</Submitter>
 
-<Mandatory>Optional</Mandatory>
+        <Description>
 
-<Type>Float</Type>
+          <![CDATA[The current state of the timer output.]]>
 
-<RangeEnumeration></RangeEnumeration>
+        </Description>
 
-<Units>s</Units>
+      </Item>
 
-<Submitter>IPSO</Submitter>
 
-<Description>
+      <Item ID="5544">
 
-<![CDATA[The total time in seconds that the timer input is true. Writing a 0 resets the time.]]>
+        <Name>Cumulative Time</Name>
 
-</Description>
+        <Operations>RW</Operations>
 
-</Item>
+        <MultipleInstances>Single</MultipleInstances>
 
+        <Mandatory>Optional</Mandatory>
 
+        <Type>Float</Type>
 
-<Item ID="5545">
+        <RangeEnumeration></RangeEnumeration>
 
-<Name>Max X Coordinate</Name>
+        <Units>s</Units>
 
-<Operations>R</Operations>
+        <Submitter>IPSO</Submitter>
 
-<MultipleInstances>Single</MultipleInstances>
+        <Description>
 
-<Mandatory>Optional</Mandatory>
+          <![CDATA[The total time in seconds that the timer input is true. Writing a 0 resets the time.]]>
 
-<Type>Integer</Type>
+        </Description>
 
-<RangeEnumeration></RangeEnumeration>
-<Submitter>IPSO</Submitter>
+      </Item>
 
-<Description>
 
-<![CDATA[The highest X coordinate the display supports before wrapping to the next line.]]>
 
-</Description>
+      <Item ID="5545">
 
-</Item>
+        <Name>Max X Coordinate</Name>
 
+        <Operations>R</Operations>
 
+        <MultipleInstances>Single</MultipleInstances>
 
-<Item ID="5546">
+        <Mandatory>Optional</Mandatory>
 
-<Name>Max Y Coordinate</Name>
+        <Type>Integer</Type>
 
-<Operations>R</Operations>
+        <RangeEnumeration></RangeEnumeration>
+        <Submitter>IPSO</Submitter>
 
-<MultipleInstances>Single</MultipleInstances>
+        <Description>
 
-<Mandatory>Optional</Mandatory>
+          <![CDATA[The highest X coordinate the display supports before wrapping to the next line.]]>
 
-<Type>Integer</Type>
+        </Description>
 
-<RangeEnumeration></RangeEnumeration>
-<Submitter>IPSO</Submitter>
+      </Item>
 
-<Description>
 
-<![CDATA[The highest Y coordinate the display supports before wrapping to the next line.]]>
 
-</Description>
+      <Item ID="5546">
 
-</Item>
+        <Name>Max Y Coordinate</Name>
 
+        <Operations>R</Operations>
 
-<Item ID="5547">
+        <MultipleInstances>Single</MultipleInstances>
 
-<Name>Multi-state Input</Name>
+        <Mandatory>Optional</Mandatory>
 
-<Operations>R</Operations>
+        <Type>Integer</Type>
 
-<MultipleInstances>Single</MultipleInstances>
+        <RangeEnumeration></RangeEnumeration>
+        <Submitter>IPSO</Submitter>
 
-<Mandatory>Mandatory</Mandatory>
+        <Description>
 
-<Type>Integer</Type>
+          <![CDATA[The highest Y coordinate the display supports before wrapping to the next line.]]>
 
-<RangeEnumeration></RangeEnumeration>
-<Submitter>IPSO</Submitter>
+        </Description>
 
-<Description>
+      </Item>
 
-<![CDATA[The current state of a Multi-state input or selector.]]>
 
-</Description>
+      <Item ID="5547">
 
-</Item>
+        <Name>Multi-state Input</Name>
 
+        <Operations>R</Operations>
 
-<Item ID="5550">
+        <MultipleInstances>Single</MultipleInstances>
 
-<Name>Digital Output State</Name>
+        <Mandatory>Mandatory</Mandatory>
 
-<Operations>RW</Operations>
+        <Type>Integer</Type>
 
-<MultipleInstances></MultipleInstances>
+        <RangeEnumeration></RangeEnumeration>
+        <Submitter>IPSO</Submitter>
 
-<Mandatory></Mandatory>
+        <Description>
 
-<Type>Boolean</Type>
+          <![CDATA[The current state of a Multi-state input or selector.]]>
 
-<RangeEnumeration></RangeEnumeration>
-<Submitter>IPSO</Submitter>
+        </Description>
 
-<Description>
+      </Item>
 
-<![CDATA[The current state of a digital output]]>
 
-</Description>
+      <Item ID="5550">
 
-</Item>
+        <Name>Digital Output State</Name>
 
+        <Operations>RW</Operations>
 
-<Item ID="5551">
+        <MultipleInstances></MultipleInstances>
 
-<Name>Digital Output Polarity</Name>
+        <Mandatory></Mandatory>
 
-<Operations>RW</Operations>
+        <Type>Boolean</Type>
 
-<MultipleInstances></MultipleInstances>
+        <RangeEnumeration></RangeEnumeration>
+        <Submitter>IPSO</Submitter>
 
-<Mandatory></Mandatory>
+        <Description>
 
-<Type>Boolean</Type>
+          <![CDATA[The current state of a digital output]]>
 
-<RangeEnumeration></RangeEnumeration>
-<Submitter>IPSO</Submitter>
+        </Description>
 
-<Description>
+      </Item>
 
-<![CDATA[The polarity of a digital input as a Boolean (0 = Normal, 1= Reversed)]]>
 
-</Description>
+      <Item ID="5551">
 
-</Item>
+        <Name>Digital Output Polarity</Name>
 
+        <Operations>RW</Operations>
 
-<Item ID="5600">
+        <MultipleInstances></MultipleInstances>
 
-<Name>Analog Input Current Value</Name>
+        <Mandatory></Mandatory>
 
-<Operations>R</Operations>
+        <Type>Boolean</Type>
 
-<MultipleInstances></MultipleInstances>
+        <RangeEnumeration></RangeEnumeration>
+        <Submitter>IPSO</Submitter>
 
-<Mandatory></Mandatory>
+        <Description>
 
-<Type>Float</Type>
+          <![CDATA[The polarity of a digital input as a Boolean (0 = Normal, 1= Reversed)]]>
 
-<RangeEnumeration>0-1</RangeEnumeration>
+        </Description>
 
-<Units>V</Units>
+      </Item>
 
-<Submitter>IPSO</Submitter>
 
-<Description>
+      <Item ID="5600">
 
-<![CDATA[The current state of the analogue input.]]>
+        <Name>Analog Input Current Value</Name>
 
-</Description>
+        <Operations>R</Operations>
 
-</Item>
+        <MultipleInstances></MultipleInstances>
 
+        <Mandatory></Mandatory>
 
-<Item ID="5601">
+        <Type>Float</Type>
 
-<Name>Min Measured Value</Name>
+        <RangeEnumeration>0-1</RangeEnumeration>
 
-<Operations>R</Operations>
+        <Units>V</Units>
 
-<MultipleInstances></MultipleInstances>
+        <Submitter>IPSO</Submitter>
 
-<Mandatory></Mandatory>
+        <Description>
 
-<Type>Float</Type>
+          <![CDATA[The current state of the analogue input.]]>
 
-<RangeEnumeration></RangeEnumeration>
+        </Description>
 
-<Units>Defined by “Units” resource.</Units>
+      </Item>
 
-<Submitter>IPSO</Submitter>
 
-<Description>
+      <Item ID="5601">
 
-<![CDATA[The minimum value measured by the sensor since it is ON or Reset.]]>
+        <Name>Min Measured Value</Name>
 
-</Description>
+        <Operations>R</Operations>
 
-</Item>
+        <MultipleInstances></MultipleInstances>
 
+        <Mandatory></Mandatory>
 
-<Item ID="5602">
+        <Type>Float</Type>
 
-<Name>Max Measured Value</Name>
+        <RangeEnumeration></RangeEnumeration>
 
-<Operations>R</Operations>
+        <Units>Defined by “Units” resource.</Units>
 
-<MultipleInstances></MultipleInstances>
+        <Submitter>IPSO</Submitter>
 
-<Mandatory></Mandatory>
+        <Description>
 
-<Type>Float</Type>
+          <![CDATA[The minimum value measured by the sensor since it is ON or Reset.]]>
 
-<RangeEnumeration></RangeEnumeration>
+        </Description>
 
-<Units>Defined by “Units” resource.</Units>
+      </Item>
 
-<Submitter>IPSO</Submitter>
 
-<Description>
+      <Item ID="5602">
 
-<![CDATA[The maximum value measured by the sensor since it is ON or Reset]]>
+        <Name>Max Measured Value</Name>
 
-</Description>
+        <Operations>R</Operations>
 
-</Item>
+        <MultipleInstances></MultipleInstances>
 
+        <Mandatory></Mandatory>
 
-<Item ID="5603">
+        <Type>Float</Type>
 
-<Name>Min Range Value</Name>
+        <RangeEnumeration></RangeEnumeration>
 
-<Operations>R</Operations>
+        <Units>Defined by “Units” resource.</Units>
 
-<MultipleInstances></MultipleInstances>
+        <Submitter>IPSO</Submitter>
 
-<Mandatory></Mandatory>
+        <Description>
 
-<Type>Float</Type>
+          <![CDATA[The maximum value measured by the sensor since it is ON or Reset]]>
 
-<RangeEnumeration></RangeEnumeration>
+        </Description>
 
-<Units>Defined by “Units” resource.</Units>
+      </Item>
 
-<Submitter>IPSO</Submitter>
 
-<Description>
+      <Item ID="5603">
 
-<![CDATA[The minimum value that can be measured by the sensor]]>
+        <Name>Min Range Value</Name>
 
-</Description>
+        <Operations>R</Operations>
 
-</Item>
+        <MultipleInstances></MultipleInstances>
 
+        <Mandatory></Mandatory>
 
-<Item ID="5604">
+        <Type>Float</Type>
 
-<Name>Max Range Value</Name>
+        <RangeEnumeration></RangeEnumeration>
 
-<Operations>R</Operations>
+        <Units>Defined by “Units” resource.</Units>
 
-<MultipleInstances></MultipleInstances>
+        <Submitter>IPSO</Submitter>
 
-<Mandatory></Mandatory>
+        <Description>
 
-<Type>Float</Type>
+          <![CDATA[The minimum value that can be measured by the sensor]]>
 
-<RangeEnumeration></RangeEnumeration>
+        </Description>
 
-<Units>Defined by “Units” resource.</Units>
+      </Item>
 
-<Submitter>IPSO</Submitter>
 
-<Description>
+      <Item ID="5604">
 
-<![CDATA[The maximum value that can be measured by the sensor]]>
+        <Name>Max Range Value</Name>
 
-</Description>
+        <Operations>R</Operations>
 
-</Item>
+        <MultipleInstances></MultipleInstances>
 
+        <Mandatory></Mandatory>
 
-<Item ID="5605">
+        <Type>Float</Type>
 
-<Name>Reset Min and Max Measured Values</Name>
+        <RangeEnumeration></RangeEnumeration>
 
-<Operations>E</Operations>
+        <Units>Defined by “Units” resource.</Units>
 
-<MultipleInstances></MultipleInstances>
+        <Submitter>IPSO</Submitter>
 
-<Mandatory></Mandatory>
+        <Description>
 
-<Type>Opaque</Type>
+          <![CDATA[The maximum value that can be measured by the sensor]]>
 
-<RangeEnumeration></RangeEnumeration>
-<Submitter>IPSO</Submitter>
+        </Description>
 
-<Description>
+      </Item>
 
-<![CDATA[Reset the Min and Max Measured Values to Current Value]]>
 
-</Description>
+      <Item ID="5605">
 
-</Item>
+        <Name>Reset Min and Max Measured Values</Name>
 
+        <Operations>E</Operations>
 
-<Item ID="5650">
+        <MultipleInstances></MultipleInstances>
 
-<Name>Analog Output Current Value</Name>
+        <Mandatory></Mandatory>
 
-<Operations>RW</Operations>
+        <Type>Opaque</Type>
 
-<MultipleInstances></MultipleInstances>
+        <RangeEnumeration></RangeEnumeration>
+        <Submitter>IPSO</Submitter>
 
-<Mandatory></Mandatory>
+        <Description>
 
-<Type>Float</Type>
+          <![CDATA[Reset the Min and Max Measured Values to Current Value]]>
 
-<RangeEnumeration>0-1</RangeEnumeration>
+        </Description>
 
-<Units>-</Units>
+      </Item>
 
-<Submitter>IPSO</Submitter>
 
-<Description>
+      <Item ID="5650">
 
-<![CDATA[The current state of the analogue output.]]>
+        <Name>Analog Output Current Value</Name>
 
-</Description>
+        <Operations>RW</Operations>
 
-</Item>
+        <MultipleInstances></MultipleInstances>
 
+        <Mandatory></Mandatory>
 
-<Item ID="5700">
+        <Type>Float</Type>
 
-<Name>Sensor Value</Name>
+        <RangeEnumeration>0-1</RangeEnumeration>
 
-<Operations>R</Operations>
+        <Units>-</Units>
 
-<MultipleInstances></MultipleInstances>
+        <Submitter>IPSO</Submitter>
 
-<Mandatory></Mandatory>
+        <Description>
 
-<Type>Float</Type>
+          <![CDATA[The current state of the analogue output.]]>
 
-<RangeEnumeration></RangeEnumeration>
+        </Description>
 
-<Units>Defined by “Units” resource.</Units>
+      </Item>
 
-<Submitter>IPSO</Submitter>
 
-<Description>
+      <Item ID="5700">
 
-<![CDATA[Last or Current Measured Value from the Sensor.]]>
+        <Name>Sensor Value</Name>
 
-</Description>
+        <Operations>R</Operations>
 
-</Item>
+        <MultipleInstances></MultipleInstances>
 
+        <Mandatory></Mandatory>
 
-<Item ID="5701">
+        <Type>Float</Type>
 
-<Name>Sensor Units</Name>
+        <RangeEnumeration></RangeEnumeration>
 
-<Operations>R</Operations>
+        <Units>Defined by “Units” resource.</Units>
 
-<MultipleInstances></MultipleInstances>
+        <Submitter>IPSO</Submitter>
 
-<Mandatory></Mandatory>
+        <Description>
 
-<Type>String</Type>
+          <![CDATA[Last or Current Measured Value from the Sensor.]]>
 
-<RangeEnumeration></RangeEnumeration>
-<Submitter>IPSO</Submitter>
+        </Description>
 
-<Description>
+      </Item>
 
-<![CDATA[Measurement Units Definition e.g. “Cel” for Temperature in Celsius.]]>
 
-</Description>
+      <Item ID="5701">
 
-</Item>
+        <Name>Sensor Units</Name>
 
+        <Operations>R</Operations>
 
-<Item ID="5702">
+        <MultipleInstances></MultipleInstances>
 
-<Name>X Value</Name>
+        <Mandatory></Mandatory>
 
-<Operations>R</Operations>
+        <Type>String</Type>
 
-<MultipleInstances></MultipleInstances>
+        <RangeEnumeration></RangeEnumeration>
+        <Submitter>IPSO</Submitter>
 
-<Mandatory></Mandatory>
+        <Description>
 
-<Type>Float</Type>
+          <![CDATA[Measurement Units Definition e.g. “Cel” for Temperature in Celsius.]]>
 
-<RangeEnumeration></RangeEnumeration>
+        </Description>
 
-<Units>Defined by “Units” resource.</Units>
+      </Item>
 
-<Submitter>IPSO</Submitter>
 
-<Description>
+      <Item ID="5702">
 
-<![CDATA[The measured value along the X axis.]]>
+        <Name>X Value</Name>
 
-</Description>
+        <Operations>R</Operations>
 
-</Item>
+        <MultipleInstances></MultipleInstances>
 
+        <Mandatory></Mandatory>
 
-<Item ID="5703">
+        <Type>Float</Type>
 
-<Name>Y Value</Name>
+        <RangeEnumeration></RangeEnumeration>
 
-<Operations>R</Operations>
+        <Units>Defined by “Units” resource.</Units>
 
-<MultipleInstances></MultipleInstances>
+        <Submitter>IPSO</Submitter>
 
-<Mandatory></Mandatory>
+        <Description>
 
-<Type>Float</Type>
+          <![CDATA[The measured value along the X axis.]]>
 
-<RangeEnumeration></RangeEnumeration>
+        </Description>
 
-<Units>Defined by “Units” resource.</Units>
+      </Item>
 
-<Submitter>IPSO</Submitter>
 
-<Description>
+      <Item ID="5703">
 
-<![CDATA[The measured value along the Y axis.]]>
+        <Name>Y Value</Name>
 
-</Description>
+        <Operations>R</Operations>
 
-</Item>
+        <MultipleInstances></MultipleInstances>
 
+        <Mandatory></Mandatory>
 
-<Item ID="5704">
+        <Type>Float</Type>
 
-<Name>Z Value</Name>
+        <RangeEnumeration></RangeEnumeration>
 
-<Operations>R</Operations>
+        <Units>Defined by “Units” resource.</Units>
 
-<MultipleInstances></MultipleInstances>
+        <Submitter>IPSO</Submitter>
 
-<Mandatory></Mandatory>
+        <Description>
 
-<Type>Float</Type>
+          <![CDATA[The measured value along the Y axis.]]>
 
-<RangeEnumeration></RangeEnumeration>
+        </Description>
 
-<Units>Defined by “Units” resource.</Units>
+      </Item>
 
-<Submitter>IPSO</Submitter>
 
-<Description>
+      <Item ID="5704">
 
-<![CDATA[The measured value along the Z axis.]]>
+        <Name>Z Value</Name>
 
-</Description>
+        <Operations>R</Operations>
 
-</Item>
+        <MultipleInstances></MultipleInstances>
 
+        <Mandatory></Mandatory>
 
-<Item ID="5705">
+        <Type>Float</Type>
 
-<Name>Compass Direction</Name>
+        <RangeEnumeration></RangeEnumeration>
 
-<Operations>R</Operations>
+        <Units>Defined by “Units” resource.</Units>
 
-<MultipleInstances></MultipleInstances>
+        <Submitter>IPSO</Submitter>
 
-<Mandatory></Mandatory>
+        <Description>
 
-<Type>Float</Type>
+          <![CDATA[The measured value along the Z axis.]]>
 
-<RangeEnumeration>0-360</RangeEnumeration>
+        </Description>
 
-<Units>deg.</Units>
+      </Item>
 
-<Submitter>IPSO</Submitter>
 
-<Description>
+      <Item ID="5705">
 
-<![CDATA[The compass direction.]]>
+        <Name>Compass Direction</Name>
 
-</Description>
+        <Operations>R</Operations>
 
-</Item>
+        <MultipleInstances></MultipleInstances>
 
+        <Mandatory></Mandatory>
 
-<Item ID="5706">
+        <Type>Float</Type>
 
-<Name>Colour</Name>
+        <RangeEnumeration>0-360</RangeEnumeration>
 
-<Operations>RW</Operations>
+        <Units>deg.</Units>
 
-<MultipleInstances></MultipleInstances>
+        <Submitter>IPSO</Submitter>
 
-<Mandatory></Mandatory>
+        <Description>
 
-<Type>String</Type>
+          <![CDATA[The compass direction.]]>
 
-<RangeEnumeration></RangeEnumeration>
+        </Description>
 
-<Units>s</Units>
+      </Item>
 
-<Submitter>IPSO</Submitter>
 
-<Description>
+      <Item ID="5706">
 
-<![CDATA[A string representing a value in some color space]]>
+        <Name>Colour</Name>
 
-</Description>
+        <Operations>RW</Operations>
 
-</Item>
+        <MultipleInstances></MultipleInstances>
 
+        <Mandatory></Mandatory>
 
+        <Type>String</Type>
 
-<Item ID="5750">
+        <RangeEnumeration></RangeEnumeration>
 
-<Name>Application Type</Name>
+        <Units>s</Units>
 
-<Operations>RW</Operations>
+        <Submitter>IPSO</Submitter>
 
-<MultipleInstances></MultipleInstances>
+        <Description>
 
-<Mandatory></Mandatory>
+          <![CDATA[A string representing a value in some color space]]>
 
-<Type>String</Type>
+        </Description>
 
-<RangeEnumeration></RangeEnumeration>
-<Submitter>IPSO</Submitter>
+      </Item>
 
-<Description>
 
-<![CDATA[The application type of the sensor or actuator as a string, for instance, “Air Pressure”.]]>
 
-</Description>
+      <Item ID="5750">
 
-</Item>
+        <Name>Application Type</Name>
 
+        <Operations>RW</Operations>
 
+        <MultipleInstances></MultipleInstances>
 
-<Item ID="5751">
+        <Mandatory></Mandatory>
 
-<Name>Sensor Type</Name>
+        <Type>String</Type>
 
-<Operations>R</Operations>
+        <RangeEnumeration></RangeEnumeration>
+        <Submitter>IPSO</Submitter>
 
-<MultipleInstances></MultipleInstances>
+        <Description>
 
-<Mandatory></Mandatory>
+          <![CDATA[The application type of the sensor or actuator as a string, for instance, “Air Pressure”.]]>
 
-<Type>String</Type>
+        </Description>
 
-<RangeEnumeration></RangeEnumeration>
-<Submitter>IPSO</Submitter>
+      </Item>
 
-<Description>
 
-<![CDATA[The type of the sensor (for instance PIR type)]]>
 
-</Description>
+      <Item ID="5751">
 
-</Item>
+        <Name>Sensor Type</Name>
 
+        <Operations>R</Operations>
 
-<Item ID="5800">
+        <MultipleInstances></MultipleInstances>
 
-<Name>Instantaneous active power</Name>
+        <Mandatory></Mandatory>
 
-<Operations>R</Operations>
+        <Type>String</Type>
 
-<MultipleInstances></MultipleInstances>
+        <RangeEnumeration></RangeEnumeration>
+        <Submitter>IPSO</Submitter>
 
-<Mandatory></Mandatory>
+        <Description>
 
-<Type>Float</Type>
+          <![CDATA[The type of the sensor (for instance PIR type)]]>
 
-<RangeEnumeration></RangeEnumeration>
+        </Description>
 
-<Units>W</Units>
+      </Item>
 
-<Submitter>IPSO</Submitter>
 
-<Description>
+      <Item ID="5800">
 
-<![CDATA[The current active power]]>
+        <Name>Instantaneous active power</Name>
 
-</Description>
+        <Operations>R</Operations>
 
-</Item>
+        <MultipleInstances></MultipleInstances>
 
+        <Mandatory></Mandatory>
 
-<Item ID="5801">
+        <Type>Float</Type>
 
-<Name>Min Measured active power</Name>
+        <RangeEnumeration></RangeEnumeration>
 
-<Operations>R</Operations>
+        <Units>W</Units>
 
-<MultipleInstances></MultipleInstances>
+        <Submitter>IPSO</Submitter>
 
-<Mandatory></Mandatory>
+        <Description>
 
-<Type>Float</Type>
+          <![CDATA[The current active power]]>
 
-<RangeEnumeration></RangeEnumeration>
+        </Description>
 
-<Units>W</Units>
+      </Item>
 
-<Submitter>IPSO</Submitter>
 
-<Description>
+      <Item ID="5801">
 
-<![CDATA[The minimum active power measured by the sensor since it is ON]]>
+        <Name>Min Measured active power</Name>
 
-</Description>
+        <Operations>R</Operations>
 
-</Item>
+        <MultipleInstances></MultipleInstances>
 
+        <Mandatory></Mandatory>
 
-<Item ID="5802">
+        <Type>Float</Type>
 
-<Name>Max Measured active power</Name>
+        <RangeEnumeration></RangeEnumeration>
 
-<Operations>R</Operations>
+        <Units>W</Units>
 
-<MultipleInstances></MultipleInstances>
+        <Submitter>IPSO</Submitter>
 
-<Mandatory></Mandatory>
+        <Description>
 
-<Type>Float</Type>
+          <![CDATA[The minimum active power measured by the sensor since it is ON]]>
 
-<RangeEnumeration></RangeEnumeration>
+        </Description>
 
-<Units>W</Units>
+      </Item>
 
-<Submitter>IPSO</Submitter>
 
-<Description>
+      <Item ID="5802">
 
-<![CDATA[The maximum active power measured by the sensor since it is ON]]>
+        <Name>Max Measured active power</Name>
 
-</Description>
+        <Operations>R</Operations>
 
-</Item>
+        <MultipleInstances></MultipleInstances>
 
+        <Mandatory></Mandatory>
 
-<Item ID="5803">
+        <Type>Float</Type>
 
-<Name>Min Range active power</Name>
+        <RangeEnumeration></RangeEnumeration>
 
-<Operations>R</Operations>
+        <Units>W</Units>
 
-<MultipleInstances></MultipleInstances>
+        <Submitter>IPSO</Submitter>
 
-<Mandatory></Mandatory>
+        <Description>
 
-<Type>Float</Type>
+          <![CDATA[The maximum active power measured by the sensor since it is ON]]>
 
-<RangeEnumeration></RangeEnumeration>
+        </Description>
 
-<Units>W</Units>
+      </Item>
 
-<Submitter>IPSO</Submitter>
 
-<Description>
+      <Item ID="5803">
 
-<![CDATA[The minimum active power that can be measured by the sensor]]>
+        <Name>Min Range active power</Name>
 
-</Description>
+        <Operations>R</Operations>
 
-</Item>
+        <MultipleInstances></MultipleInstances>
 
+        <Mandatory></Mandatory>
 
-<Item ID="5804">
+        <Type>Float</Type>
 
-<Name>Max Range active power</Name>
+        <RangeEnumeration></RangeEnumeration>
 
-<Operations>R</Operations>
+        <Units>W</Units>
 
-<MultipleInstances></MultipleInstances>
+        <Submitter>IPSO</Submitter>
 
-<Mandatory></Mandatory>
+        <Description>
 
-<Type>Float</Type>
+          <![CDATA[The minimum active power that can be measured by the sensor]]>
 
-<RangeEnumeration></RangeEnumeration>
+        </Description>
 
-<Units>W</Units>
+      </Item>
 
-<Submitter>IPSO</Submitter>
 
-<Description>
+      <Item ID="5804">
 
-<![CDATA[The maximum active power that can be measured by the sensor]]>
+        <Name>Max Range active power</Name>
 
-</Description>
+        <Operations>R</Operations>
 
-</Item>
+        <MultipleInstances></MultipleInstances>
 
+        <Mandatory></Mandatory>
 
-<Item ID="5805">
+        <Type>Float</Type>
 
-<Name>Cumulative active power</Name>
+        <RangeEnumeration></RangeEnumeration>
 
-<Operations>R</Operations>
+        <Units>W</Units>
 
-<MultipleInstances></MultipleInstances>
+        <Submitter>IPSO</Submitter>
 
-<Mandatory></Mandatory>
+        <Description>
 
-<Type>Float</Type>
+          <![CDATA[The maximum active power that can be measured by the sensor]]>
 
-<RangeEnumeration></RangeEnumeration>
+        </Description>
 
-<Units>Wh</Units>
+      </Item>
 
-<Submitter>IPSO</Submitter>
 
-<Description>
+      <Item ID="5805">
 
-<![CDATA[The cumulative active power since the last cumulative energy reset or device start]]>
+        <Name>Cumulative active power</Name>
 
-</Description>
+        <Operations>R</Operations>
 
-</Item>
+        <MultipleInstances></MultipleInstances>
 
+        <Mandatory></Mandatory>
 
-<Item ID="5806">
+        <Type>Float</Type>
 
-<Name>Active Power Calibration</Name>
+        <RangeEnumeration></RangeEnumeration>
 
-<Operations>W</Operations>
+        <Units>Wh</Units>
 
-<MultipleInstances></MultipleInstances>
+        <Submitter>IPSO</Submitter>
 
-<Mandatory></Mandatory>
+        <Description>
 
-<Type>Float</Type>
+          <![CDATA[The cumulative active power since the last cumulative energy reset or device start]]>
 
-<RangeEnumeration></RangeEnumeration>
+        </Description>
 
-<Units>W</Units>
+      </Item>
 
-<Submitter>IPSO</Submitter>
 
-<Description>
+      <Item ID="5806">
 
-<![CDATA[Request an active power calibration by writing the value of a calibrated load.]]>
+        <Name>Active Power Calibration</Name>
 
-</Description>
+        <Operations>W</Operations>
 
-</Item>
+        <MultipleInstances></MultipleInstances>
 
+        <Mandatory></Mandatory>
 
-<Item ID="5810">
+        <Type>Float</Type>
 
-<Name>Instantaneous reactive power</Name>
+        <RangeEnumeration></RangeEnumeration>
 
-<Operations>R</Operations>
+        <Units>W</Units>
 
-<MultipleInstances></MultipleInstances>
+        <Submitter>IPSO</Submitter>
 
-<Mandatory></Mandatory>
+        <Description>
 
-<Type>Float</Type>
+          <![CDATA[Request an active power calibration by writing the value of a calibrated load.]]>
 
-<RangeEnumeration></RangeEnumeration>
+        </Description>
 
-<Units>var</Units>
+      </Item>
 
-<Submitter>IPSO</Submitter>
 
-<Description>
+      <Item ID="5810">
 
-<![CDATA[The current reactive power]]>
+        <Name>Instantaneous reactive power</Name>
 
-</Description>
+        <Operations>R</Operations>
 
-</Item>
+        <MultipleInstances></MultipleInstances>
 
+        <Mandatory></Mandatory>
 
-<Item ID="5811">
+        <Type>Float</Type>
 
-<Name>Min Measured reactive power</Name>
+        <RangeEnumeration></RangeEnumeration>
 
-<Operations>R</Operations>
+        <Units>var</Units>
 
-<MultipleInstances></MultipleInstances>
+        <Submitter>IPSO</Submitter>
 
-<Mandatory></Mandatory>
+        <Description>
 
-<Type>Float</Type>
+          <![CDATA[The current reactive power]]>
 
-<RangeEnumeration></RangeEnumeration>
+        </Description>
 
-<Units>var</Units>
+      </Item>
 
-<Submitter>IPSO</Submitter>
 
-<Description>
+      <Item ID="5811">
 
-<![CDATA[The minimum reactive power measured by the sensor since it is ON]]>
+        <Name>Min Measured reactive power</Name>
 
-</Description>
+        <Operations>R</Operations>
 
-</Item>
+        <MultipleInstances></MultipleInstances>
 
+        <Mandatory></Mandatory>
 
-<Submitter>IPSO</Submitter>
+        <Type>Float</Type>
 
-<Item ID="5812">
+        <RangeEnumeration></RangeEnumeration>
 
-<Name>Max Measured reactive power</Name>
+        <Units>var</Units>
 
-<Operations>R</Operations>
+        <Submitter>IPSO</Submitter>
 
-<MultipleInstances></MultipleInstances>
+        <Description>
 
-<Mandatory></Mandatory>
+          <![CDATA[The minimum reactive power measured by the sensor since it is ON]]>
 
-<Type>Float</Type>
+        </Description>
 
-<RangeEnumeration></RangeEnumeration>
+      </Item>
 
-<Units>var</Units>
 
-<Submitter>IPSO</Submitter>
+      <Submitter>IPSO</Submitter>
 
-<Description>
+      <Item ID="5812">
 
-<![CDATA[The maximum reactive power measured by the sensor since it is ON]]>
+        <Name>Max Measured reactive power</Name>
 
-</Description>
+        <Operations>R</Operations>
 
-</Item>
+        <MultipleInstances></MultipleInstances>
 
+        <Mandatory></Mandatory>
 
-<Item ID="5813">
+        <Type>Float</Type>
 
-<Name>Min Range reactive power</Name>
+        <RangeEnumeration></RangeEnumeration>
 
-<Operations>R</Operations>
+        <Units>var</Units>
 
-<MultipleInstances></MultipleInstances>
+        <Submitter>IPSO</Submitter>
 
-<Mandatory></Mandatory>
+        <Description>
 
-<Type>Float</Type>
+          <![CDATA[The maximum reactive power measured by the sensor since it is ON]]>
 
-<RangeEnumeration></RangeEnumeration>
+        </Description>
 
-<Units>var</Units>
+      </Item>
 
-<Submitter>IPSO</Submitter>
 
-<Description>
+      <Item ID="5813">
 
-<![CDATA[The minimum active power that can be measured by the sensor]]>
+        <Name>Min Range reactive power</Name>
 
-</Description>
+        <Operations>R</Operations>
 
-</Item>
+        <MultipleInstances></MultipleInstances>
 
+        <Mandatory></Mandatory>
 
-<Item ID="5814">
+        <Type>Float</Type>
 
-<Name>Max Range reactive power</Name>
+        <RangeEnumeration></RangeEnumeration>
 
-<Operations>R</Operations>
+        <Units>var</Units>
 
-<MultipleInstances></MultipleInstances>
+        <Submitter>IPSO</Submitter>
 
-<Mandatory></Mandatory>
+        <Description>
 
-<Type>Float</Type>
+          <![CDATA[The minimum active power that can be measured by the sensor]]>
 
-<RangeEnumeration></RangeEnumeration>
+        </Description>
 
-<Units>var</Units>
+      </Item>
 
-<Submitter>IPSO</Submitter>
 
-<Description>
+      <Item ID="5814">
 
-<![CDATA[The maximum reactive power that can be measured by the sensor]]>
+        <Name>Max Range reactive power</Name>
 
-</Description>
+        <Operations>R</Operations>
 
-</Item>
+        <MultipleInstances></MultipleInstances>
 
+        <Mandatory></Mandatory>
 
-<Item ID="5815">
+        <Type>Float</Type>
 
-<Name>Cumulative reactive power</Name>
+        <RangeEnumeration></RangeEnumeration>
 
-<Operations>R</Operations>
+        <Units>var</Units>
 
-<MultipleInstances></MultipleInstances>
+        <Submitter>IPSO</Submitter>
 
-<Mandatory></Mandatory>
+        <Description>
 
-<Type>Float</Type>
+          <![CDATA[The maximum reactive power that can be measured by the sensor]]>
 
-<RangeEnumeration></RangeEnumeration>
+        </Description>
 
-<Units>varh</Units>
+      </Item>
 
-<Submitter>IPSO</Submitter>
 
-<Description>
+      <Item ID="5815">
 
-<![CDATA[The cumulative reactive power since the last cumulative energy reset or device start]]>
+        <Name>Cumulative reactive power</Name>
 
-</Description>
+        <Operations>R</Operations>
 
-</Item>
+        <MultipleInstances></MultipleInstances>
 
+        <Mandatory></Mandatory>
 
-<Item ID="5816">
+        <Type>Float</Type>
 
-<Name>Reactive Power Calibration</Name>
+        <RangeEnumeration></RangeEnumeration>
 
-<Operations>W</Operations>
+        <Units>varh</Units>
 
-<MultipleInstances></MultipleInstances>
+        <Submitter>IPSO</Submitter>
 
-<Mandatory></Mandatory>
+        <Description>
 
-<Type>Float</Type>
+          <![CDATA[The cumulative reactive power since the last cumulative energy reset or device start]]>
 
-<RangeEnumeration></RangeEnumeration>
+        </Description>
 
-<Units>var</Units>
+      </Item>
 
-<Submitter>IPSO</Submitter>
 
-<Description>
+      <Item ID="5816">
 
-<![CDATA[Request a reactive power calibration by writing the value of a calibrated load.]]>
+        <Name>Reactive Power Calibration</Name>
 
-</Description>
+        <Operations>W</Operations>
 
-</Item>
+        <MultipleInstances></MultipleInstances>
 
+        <Mandatory></Mandatory>
 
-<Item ID="5820">
+        <Type>Float</Type>
 
-<Name>Power factor</Name>
+        <RangeEnumeration></RangeEnumeration>
 
-<Operations>R</Operations>
+        <Units>var</Units>
 
-<MultipleInstances></MultipleInstances>
+        <Submitter>IPSO</Submitter>
 
-<Mandatory></Mandatory>
+        <Description>
 
-<Type>Float</Type>
+          <![CDATA[Request a reactive power calibration by writing the value of a calibrated load.]]>
 
-<RangeEnumeration></RangeEnumeration>
+        </Description>
 
-<Units></Units>
+      </Item>
 
-<Submitter>IPSO</Submitter>
 
-<Description>
+      <Item ID="5820">
 
-<![CDATA[If applicable, the power factor of the current consumption.]]>
+        <Name>Power factor</Name>
 
-</Description>
+        <Operations>R</Operations>
 
-</Item>
+        <MultipleInstances></MultipleInstances>
 
+        <Mandatory></Mandatory>
 
-<Item ID="5821">
+        <Type>Float</Type>
 
-<Name>Current Calibration</Name>
+        <RangeEnumeration></RangeEnumeration>
 
-<Operations>RW</Operations>
+        <Units></Units>
 
-<MultipleInstances></MultipleInstances>
+        <Submitter>IPSO</Submitter>
 
-<Mandatory></Mandatory>
+        <Description>
 
-<Type>Float</Type>
+          <![CDATA[If applicable, the power factor of the current consumption.]]>
 
-<RangeEnumeration></RangeEnumeration>
+        </Description>
 
-<Units></Units>
+      </Item>
 
-<Submitter>IPSO</Submitter>
 
-<Description>
+      <Item ID="5821">
 
-<![CDATA[Read or Write the current calibration coefficient]]>
+        <Name>Current Calibration</Name>
 
-</Description>
+        <Operations>RW</Operations>
 
-</Item>
+        <MultipleInstances></MultipleInstances>
 
+        <Mandatory></Mandatory>
 
-<Item ID="5822">
+        <Type>Float</Type>
 
-<Name>Reset Cumulative energy</Name>
+        <RangeEnumeration></RangeEnumeration>
 
-<Operations>E</Operations>
+        <Units></Units>
 
-<MultipleInstances></MultipleInstances>
+        <Submitter>IPSO</Submitter>
 
-<Mandatory></Mandatory>
+        <Description>
 
-<Type>Opaque</Type>
+          <![CDATA[Read or Write the current calibration coefficient]]>
 
-<RangeEnumeration></RangeEnumeration>
+        </Description>
 
-<Units></Units>
+      </Item>
 
-<Submitter>IPSO</Submitter>
 
-<Description>
+      <Item ID="5822">
 
-<![CDATA[Reset both cumulative active/reactive power]]>
+        <Name>Reset Cumulative energy</Name>
 
-</Description>
+        <Operations>E</Operations>
 
-</Item>
+        <MultipleInstances></MultipleInstances>
 
+        <Mandatory></Mandatory>
 
-<Item ID="5823">
+        <Type>Opaque</Type>
 
-<Name>Event Identifier</Name>
+        <RangeEnumeration></RangeEnumeration>
 
-<Operations>RW</Operations>
+        <Units></Units>
 
-<MultipleInstances></MultipleInstances>
+        <Submitter>IPSO</Submitter>
 
-<Mandatory></Mandatory>
+        <Description>
 
-<Type>String</Type>
+          <![CDATA[Reset both cumulative active/reactive power]]>
 
-<RangeEnumeration></RangeEnumeration>
+        </Description>
 
-<Units></Units>
+      </Item>
 
-<Submitter>IPSO</Submitter>
 
-<Description>
+      <Item ID="5823">
 
-<![CDATA[The event identifier as a string.]]>
+        <Name>Event Identifier</Name>
 
-</Description>
+        <Operations>RW</Operations>
 
-</Item>
+        <MultipleInstances></MultipleInstances>
 
+        <Mandatory></Mandatory>
 
-<Item ID="5824">
+        <Type>String</Type>
 
-<Name>Start Time</Name>
+        <RangeEnumeration></RangeEnumeration>
 
-<Operations>RW</Operations>
+        <Units></Units>
 
-<MultipleInstances></MultipleInstances>
+        <Submitter>IPSO</Submitter>
 
-<Mandatory></Mandatory>
+        <Description>
 
-<Type>String</Type>
+          <![CDATA[The event identifier as a string.]]>
 
-<RangeEnumeration></RangeEnumeration>
+        </Description>
 
-<Units></Units>
+      </Item>
 
-<Submitter>IPSO</Submitter>
 
-<Description>
+      <Item ID="5824">
 
-<![CDATA[Time when the load control event will start started.]]>
+        <Name>Start Time</Name>
 
-</Description>
+        <Operations>RW</Operations>
 
-</Item>
+        <MultipleInstances></MultipleInstances>
 
+        <Mandatory></Mandatory>
 
-<Item ID="5825">
+        <Type>String</Type>
 
-<Name>Duration In Min</Name>
+        <RangeEnumeration></RangeEnumeration>
 
-<Operations>RW</Operations>
+        <Units></Units>
 
-<MultipleInstances></MultipleInstances>
+        <Submitter>IPSO</Submitter>
 
-<Mandatory></Mandatory>
+        <Description>
 
-<Type>String</Type>
+          <![CDATA[Time when the load control event will start started.]]>
 
-<RangeEnumeration></RangeEnumeration>
+        </Description>
 
-<Units>min</Units>
+      </Item>
 
-<Submitter>IPSO</Submitter>
 
-<Description>
+      <Item ID="5825">
 
-<![CDATA[The duration of the load control event.]]>
+        <Name>Duration In Min</Name>
 
-</Description>
+        <Operations>RW</Operations>
 
-</Item>
+        <MultipleInstances></MultipleInstances>
 
+        <Mandatory></Mandatory>
 
-<Item ID="5826">
+        <Type>String</Type>
 
-<Name>Critical Level</Name>
+        <RangeEnumeration></RangeEnumeration>
 
-<Operations>RW</Operations>
+        <Units>min</Units>
 
-<MultipleInstances></MultipleInstances>
+        <Submitter>IPSO</Submitter>
 
-<Mandatory></Mandatory>
+        <Description>
 
-<Type>String</Type>
+          <![CDATA[The duration of the load control event.]]>
 
-<RangeEnumeration></RangeEnumeration>
+        </Description>
 
-<Units></Units>
+      </Item>
 
-<Submitter>IPSO</Submitter>
 
-<Description>
+      <Item ID="5826">
 
-<![CDATA[The criticality of the event. The device receiving the event will react in an appropriate fashion for the device.]]>
+        <Name>Critical Level</Name>
 
-</Description>
+        <Operations>RW</Operations>
 
-</Item>
+        <MultipleInstances></MultipleInstances>
 
+        <Mandatory></Mandatory>
 
-<Item ID="5827">
+        <Type>String</Type>
 
-<Name>Avg Load AdjPct</Name>
+        <RangeEnumeration></RangeEnumeration>
 
-<Operations>RW</Operations>
+        <Units></Units>
 
-<MultipleInstances></MultipleInstances>
+        <Submitter>IPSO</Submitter>
 
-<Mandatory></Mandatory>
+        <Description>
 
-<Type>String</Type>
+          <![CDATA[The criticality of the event. The device receiving the event will react in an appropriate fashion for the device.]]>
 
-<RangeEnumeration>0-100</RangeEnumeration>
+        </Description>
 
-<Units>%</Units>
+      </Item>
 
-<Submitter>IPSO</Submitter>
 
-<Description>
+      <Item ID="5827">
 
-<![CDATA[Defines the maximum energy usage of the receiving device, as a percentage of the device's normal maximum energy usage.]]>
+        <Name>Avg Load AdjPct</Name>
 
-</Description>
+        <Operations>RW</Operations>
 
-</Item>
+        <MultipleInstances></MultipleInstances>
 
+        <Mandatory></Mandatory>
 
-<Item ID="5828">
+        <Type>String</Type>
 
-<Name>Duty Cycle</Name>
+        <RangeEnumeration>0-100</RangeEnumeration>
 
-<Operations>RW</Operations>
+        <Units>%</Units>
 
-<MultipleInstances></MultipleInstances>
+        <Submitter>IPSO</Submitter>
 
-<Mandatory></Mandatory>
+        <Description>
 
-<Type>String</Type>
+          <![CDATA[Defines the maximum energy usage of the receiving device, as a percentage of the device's normal maximum energy usage.]]>
 
-<RangeEnumeration>0-100</RangeEnumeration>
+        </Description>
 
-<Units>%</Units>
+      </Item>
 
-<Submitter>IPSO</Submitter>
 
-<Description>
+      <Item ID="5828">
 
-<![CDATA[Defines the duty cycle for the load control event, i.e, what percentage of time the receiving device is allowed to be on.]]>
+        <Name>Duty Cycle</Name>
 
-</Description>
+        <Operations>RW</Operations>
 
-</Item>
+        <MultipleInstances></MultipleInstances>
 
+        <Mandatory></Mandatory>
 
+        <Type>String</Type>
 
-<Item ID="5850">
+        <RangeEnumeration>0-100</RangeEnumeration>
 
-<Name>On/Off</Name>
+        <Units>%</Units>
 
-<Operations>RW</Operations>
+        <Submitter>IPSO</Submitter>
 
-<MultipleInstances></MultipleInstances>
+        <Description>
 
-<Mandatory></Mandatory>
+          <![CDATA[Defines the duty cycle for the load control event, i.e, what percentage of time the receiving device is allowed to be on.]]>
 
-<Type>Boolean</Type>
+        </Description>
 
-<RangeEnumeration></RangeEnumeration>
+      </Item>
 
-<Units></Units>
 
-<Submitter>IPSO</Submitter>
 
-<Description>
+      <Item ID="5850">
 
-<![CDATA[On/Off]]>
+        <Name>On/Off</Name>
 
-</Description>
+        <Operations>RW</Operations>
 
-</Item>
+        <MultipleInstances></MultipleInstances>
 
+        <Mandatory></Mandatory>
 
-<Item ID="5851">
+        <Type>Boolean</Type>
 
-<Name>Dimmer</Name>
+        <RangeEnumeration></RangeEnumeration>
 
-<Operations>RW</Operations>
+        <Units></Units>
 
-<MultipleInstances></MultipleInstances>
+        <Submitter>IPSO</Submitter>
 
-<Mandatory></Mandatory>
+        <Description>
 
-<Type>Integer</Type>
+          <![CDATA[On/Off]]>
 
-<RangeEnumeration>0-100</RangeEnumeration>
+        </Description>
 
-<Units>%</Units>
+      </Item>
 
-<Submitter>IPSO</Submitter>
 
-<Description>
+      <Item ID="5851">
 
-<![CDATA[This resource represents a light dimmer setting, which has an Integer value between 0 and 100 as a percentage.]]>
+        <Name>Dimmer</Name>
 
-</Description>
- 
-</Item>
+        <Operations>RW</Operations>
 
+        <MultipleInstances></MultipleInstances>
 
-<Item ID="5852">
+        <Mandatory></Mandatory>
 
-<Name>On time</Name>
+        <Type>Integer</Type>
 
-<Operations>RW</Operations>
+        <RangeEnumeration>0-100</RangeEnumeration>
 
-<MultipleInstances></MultipleInstances>
+        <Units>%</Units>
 
-<Mandatory></Mandatory>
+        <Submitter>IPSO</Submitter>
 
-<Type>Integer</Type>
+        <Description>
 
-<RangeEnumeration></RangeEnumeration>
+          <![CDATA[This resource represents a light dimmer setting, which has an Integer value between 0 and 100 as a percentage.]]>
 
-<Units>sec</Units>
+        </Description>
 
-<Submitter>IPSO</Submitter>
+      </Item>
 
-<Description>
 
-<![CDATA[The time in seconds that the device has been turned on. Writing a value of 0 resets the counter.]]>
+      <Item ID="5852">
 
-</Description>
+        <Name>On time</Name>
 
-</Item>
+        <Operations>RW</Operations>
 
+        <MultipleInstances></MultipleInstances>
 
-<Item ID="5853">
+        <Mandatory></Mandatory>
 
-<Name>Muti-state Output</Name>
+        <Type>Integer</Type>
 
-<Operations>RW</Operations>
+        <RangeEnumeration></RangeEnumeration>
 
-<MultipleInstances></MultipleInstances>
+        <Units>sec</Units>
 
-<Mandatory></Mandatory>
+        <Submitter>IPSO</Submitter>
 
-<Type>String</Type>
+        <Description>
 
-<RangeEnumeration></RangeEnumeration>
+          <![CDATA[The time in seconds that the device has been turned on. Writing a value of 0 resets the counter.]]>
 
-<Units></Units>
+        </Description>
 
-<Submitter>IPSO</Submitter>
+      </Item>
 
-<Description>
 
-<![CDATA[A string describing a state for multiple level output such as Pilot Wire]]>
+      <Item ID="5853">
 
-</Description>
+        <Name>Muti-state Output</Name>
 
-</Item>
+        <Operations>RW</Operations>
 
+        <MultipleInstances></MultipleInstances>
 
-<Item ID="5854">
+        <Mandatory></Mandatory>
 
-<Name>Off Time</Name>
+        <Type>String</Type>
 
-<Operations>RW</Operations>
+        <RangeEnumeration></RangeEnumeration>
 
-<MultipleInstances>Single</MultipleInstances>
+        <Units></Units>
 
-<Mandatory>Optional</Mandatory>
+        <Submitter>IPSO</Submitter>
 
-<Type>Integer</Type>
+        <Description>
 
-<RangeEnumeration></RangeEnumeration>
+          <![CDATA[A string describing a state for multiple level output such as Pilot Wire]]>
 
-<Units>s</Units>
+        </Description>
 
-<Submitter>IPSO</Submitter>
+      </Item>
 
-<Description>
 
-<![CDATA[The time in seconds since the Off command was sent. Writing a value of 0 resets the counter.]]>
+      <Item ID="5854">
 
-</Description>
+        <Name>Off Time</Name>
 
+        <Operations>RW</Operations>
 
-</Item>
+        <MultipleInstances>Single</MultipleInstances>
 
+        <Mandatory>Optional</Mandatory>
 
+        <Type>Integer</Type>
 
-<Item ID="5900">
+        <RangeEnumeration></RangeEnumeration>
 
-<Name>Set Point Value</Name>
+        <Units>s</Units>
 
-<Operations>RW</Operations>
+        <Submitter>IPSO</Submitter>
 
-<MultipleInstances></MultipleInstances>
+        <Description>
 
-<Mandatory></Mandatory>
+          <![CDATA[The time in seconds since the Off command was sent. Writing a value of 0 resets the counter.]]>
 
-<Type>Float</Type>
+        </Description>
 
-<RangeEnumeration></RangeEnumeration>
 
-<Units>Defined by “Units” resource.</Units>
+      </Item>
 
-<Submitter>IPSO</Submitter>
 
-<Description>
 
-<![CDATA[The setpoint value.]]>
+      <Item ID="5900">
 
-</Description>
+        <Name>Set Point Value</Name>
 
-</Item>
+        <Operations>RW</Operations>
 
+        <MultipleInstances></MultipleInstances>
 
-<Item ID="5903">
+        <Mandatory></Mandatory>
 
-<Name>Busy to Clear delay</Name>
+        <Type>Float</Type>
 
-<Operations>RW</Operations>
+        <RangeEnumeration></RangeEnumeration>
 
-<MultipleInstances></MultipleInstances>
+        <Units>Defined by “Units” resource.</Units>
 
-<Mandatory></Mandatory>
+        <Submitter>IPSO</Submitter>
 
-<Type>Integer</Type>
+        <Description>
 
-<RangeEnumeration></RangeEnumeration>
+          <![CDATA[The setpoint value.]]>
 
-<Units>ms</Units>
+        </Description>
 
-<Submitter>IPSO</Submitter>
+      </Item>
 
-<Description>
 
-<![CDATA[Delay from the detection state to the clear state in ms]]>
+      <Item ID="5903">
 
-</Description>
+        <Name>Busy to Clear delay</Name>
 
-</Item>
+        <Operations>RW</Operations>
 
+        <MultipleInstances></MultipleInstances>
 
-<Item ID="5904">
+        <Mandatory></Mandatory>
 
-<Name>Clear to Busy delay</Name>
+        <Type>Integer</Type>
 
-<Operations>RW</Operations>
+        <RangeEnumeration></RangeEnumeration>
 
-<MultipleInstances></MultipleInstances>
+        <Units>ms</Units>
 
-<Mandatory></Mandatory>
+        <Submitter>IPSO</Submitter>
 
-<Type>Integer</Type>
+        <Description>
 
-<RangeEnumeration></RangeEnumeration>
+          <![CDATA[Delay from the detection state to the clear state in ms]]>
 
-<Units>ms</Units>
+        </Description>
 
-<Submitter>IPSO</Submitter>
+      </Item>
 
-<Description>
 
-<![CDATA[Delay from the clear state to the busy state in ms.]]>
+      <Item ID="5904">
 
-</Description>
+        <Name>Clear to Busy delay</Name>
 
-</Item>
+        <Operations>RW</Operations>
 
-</Resources>
+        <MultipleInstances></MultipleInstances>
 
-<Description2/>
+        <Mandatory></Mandatory>
 
-</Object>
+        <Type>Integer</Type>
+
+        <RangeEnumeration></RangeEnumeration>
+
+        <Units>ms</Units>
+
+        <Submitter>IPSO</Submitter>
+
+        <Description>
+
+          <![CDATA[Delay from the clear state to the busy state in ms.]]>
+
+        </Description>
+
+      </Item>
+
+      <Item ID="5910">
+
+        <Name>Bitmap Input</Name>
+
+        <Operations>R</Operations>
+
+        <MultipleInstances></MultipleInstances>
+
+        <Mandatory></Mandatory>
+
+        <Type>Integer</Type>
+
+        <RangeEnumeration></RangeEnumeration>
+
+        <Units></Units>
+
+        <Submitter>IPSO</Submitter>
+
+        <Description>
+
+          <![CDATA[Integer in which each of the bits are associated with specific digital input value. 
+Represented as a binary signed integer in network byte order, and in two's complement representation. 
+Using values in range 0-127 is recommended to avoid ambiguities with byte order and negative values.]]>
+
+        </Description>
+
+      </Item>
+
+      <Item ID="5911">
+
+        <Name>Bitmap Input Reset</Name>
+
+        <Operations>E</Operations>
+
+        <MultipleInstances></MultipleInstances>
+
+        <Mandatory></Mandatory>
+
+        <Type>Opaque</Type>
+
+        <RangeEnumeration></RangeEnumeration>
+
+        <Units></Units>
+
+        <Submitter>IPSO</Submitter>
+
+        <Description>
+
+          <![CDATA[Reset the Bitmap Input value]]>
+
+        </Description>
+
+      </Item>
+
+      <Item ID="5912">
+
+        <Name>Element Description</Name>
+
+        <Operations>RW</Operations>
+
+        <MultipleInstances></MultipleInstances>
+
+        <Mandatory></Mandatory>
+
+        <Type>String</Type>
+
+        <RangeEnumeration></RangeEnumeration>
+
+        <Units></Units>
+
+        <Submitter>IPSO</Submitter>
+
+        <Description>
+
+          <![CDATA[The semantics / description of each bit as a string. 
+First instance describes the least significant bit, second instance the second least significant bit, etc]]>
+
+        </Description>
+
+      </Item>
+
+      <Item ID="6000">
+
+        <Name>Interval Period</Name>
+
+        <Operations>R</Operations>
+
+        <MultipleInstances>Single</MultipleInstances>
+
+        <Mandatory>Mandatory</Mandatory>
+
+        <Type>Integer</Type>
+
+        <RangeEnumeration>1-864000</RangeEnumeration>
+
+        <Units>Seconds</Units>
+
+        <Description>
+
+          <![CDATA[The Interval Period resource is an Integer value representing the width in seconds of the intervals being managed by this interval data object. This resource is read only and can only be changed by resource 11 (Change Interval Configuration). It is recommended that the Interval Period be set to a devisor of 24 hours (86400 seconds) to provide a consistent interval period. Examples of Interval Period include:- 30 = Every 30 seconds 600 = Every 10 minutes 1800 = Every 30 minutes 3600 = Hourly 7200 = Every 2 hours 14400 = Every 4 hours 43200 = Every 12 hours 86400 = Every Day 172600 = Every Second Day]]>
+
+        </Description>
+
+      </Item>
+
+      <Item ID="6001">
+
+        <Name>Interval Start Offset</Name>
+
+        <Operations>R</Operations>
+
+        <MultipleInstances>Single</MultipleInstances>
+
+        <Mandatory>Optional</Mandatory>
+
+        <Type>Integer</Type>
+
+        <RangeEnumeration>0-86399</RangeEnumeration>
+
+        <Units>Seconds</Units>
+
+        <Description>
+
+          <![CDATA[The Interval Start Offset resource is a read only resource representing the number of seconds past midnight for which the first interval is recorded. If this resource is empty, it is assumed that the intervals are midnight aligned. This can be used to adjust interval boundaries. As an example, an Interval Period of 3600 seconds and an Interval Start time of 300 represents hourly interval data, starting at 00:05.]]>
+
+        </Description>
+
+      </Item>
+
+      <Item ID="6002">
+
+        <Name>Interval UTC Offset</Name>
+
+        <Operations>R</Operations>
+
+        <MultipleInstances>Single</MultipleInstances>
+
+        <Mandatory>Optional</Mandatory>
+
+        <Type>String</Type>
+
+        <RangeEnumeration/>
+
+        <Units/>
+
+        <Description>
+
+          <![CDATA[The Interval UTC Offset resource is a read only resource representing the time zone offset for this Interval Data instance. If this resource is empty, the application should use the UTC offset provided in the Device [/3/0/14] object instance resource or UTC if not provided. UTC+X [ISO 8601].]]>
+
+        </Description>
+
+      </Item>
+
+      <Item ID="6003">
+
+        <Name>Interval Collection Start Time</Name>
+
+        <Operations>R</Operations>
+
+        <MultipleInstances>Single</MultipleInstances>
+
+        <Mandatory>Mandatory</Mandatory>
+
+        <Type>Time</Type>
+
+        <RangeEnumeration/>
+
+        <Units/>
+
+        <Description>
+
+          <![CDATA[The Collection Start Time resource is a read only resource representing the time when the first interval was recorded on the device. Interval times represent the end of the interval, not the beginning. As an example, the first four hourly interval past midnight will have a timestamp of 04:00 (adjusting for UTC offset). ]]>
+
+        </Description>
+
+      </Item>
+
+      <Item ID="6004">
+
+        <Name>Oldest Recorded Interval</Name>
+
+        <Operations>R</Operations>
+
+        <MultipleInstances>Single</MultipleInstances>
+
+        <Mandatory>Mandatory</Mandatory>
+
+        <Type>Time</Type>
+
+        <RangeEnumeration/>
+
+        <Units/>
+
+        <Description>
+
+          <![CDATA[The Oldest Recorded Interval resource is a read-only resource representing the oldest available interval on the device. Interval times represent the end of the interval, not the beginning.]]>
+
+        </Description>
+
+      </Item>
+
+      <Item ID="6005">
+
+        <Name>Last Delivered Interval</Name>
+
+        <Operations>RW</Operations>
+
+        <MultipleInstances>Single</MultipleInstances>
+
+        <Mandatory>Optional</Mandatory>
+
+        <Type>Time</Type>
+
+        <RangeEnumeration/>
+
+        <Units/>
+
+        <Description>
+
+          <![CDATA[The Last Delivered Interval is a readable and writable resource used to represent the last interval delivered to the LwM2M server. Interval times represent the end of the interval, not the beginning. The setting of this resource is implementation specific but should be updated based on, either a Read request of the Latest Payload from the LwM2M server or via a confirmed delivery of Notify operation of the Latest Payload resource. This resource is writable to allow the server to adjust the Last Delivered Interval value if the server and client is out of sync.]]>
+
+        </Description>
+
+      </Item>
+
+      <Item ID="6006">
+
+        <Name>Latest Recorded Interval</Name>
+
+        <Operations>R</Operations>
+
+        <MultipleInstances>Single</MultipleInstances>
+
+        <Mandatory>Mandatory</Mandatory>
+
+        <Type>Time</Type>
+
+        <RangeEnumeration/>
+
+        <Units/>
+
+        <Description>
+
+          <![CDATA[The Latest Recorded Interval is a readable resource representing the currently highest recorded interval on the device. Interval times represent the end of the interval, not the beginning.]]>
+
+        </Description>
+
+      </Item>
+
+      <Item ID="6007">
+
+        <Name>Interval Delivery Midnight Aligned</Name>
+
+        <Operations>RW</Operations>
+
+        <MultipleInstances>Single</MultipleInstances>
+
+        <Mandatory>Mandatory</Mandatory>
+
+        <Type>Boolean</Type>
+
+        <RangeEnumeration/>
+
+        <Units/>
+
+        <Description>
+
+          <![CDATA[The Delivery Midnight Aligned is a readable and writable resource used to indicate if data is delivered only to the previous midnight (1) or if part-day data can be delivered (0). Calculating Midnight should consider the Interval UTC Offset resource, or if empty, the Device [/3/0/14] object instance resource.]]>
+
+        </Description>
+
+      </Item>
+
+      <Item ID="6008">
+
+        <Name>Interval Historical Read</Name>
+
+        <Operations>E</Operations>
+
+        <MultipleInstances>Single</MultipleInstances>
+
+        <Mandatory>Optional</Mandatory>
+
+        <Type/>
+
+        <RangeEnumeration/>
+
+        <Units/>
+
+        <Description>
+
+          <![CDATA[Historical Interval Read is an executable resource designed to retrieve ad-hoc interval read data. The resource takes two arguments:- Argument 0: First Interval time to Retrieve represented as number of seconds since Jan 1st, 1970 in the UTC time zone. Argument 1: Last interval time to Retrieve represented as number of seconds since Jan 1st, 1970 in the UTC time zone. The dates should be inclusive based on the end time of the interval. The data retrieved from this resource will be readable (or observable) from the Historical Read Payload Resource. As an example, the Argument List to retrieve data from Midnight 2nd March (UTC+10) to Midnight 6rd March (UTC+10) for a specific instance of the interval data object, would be constructed as follows:- 0='1488463200',1='1488808800']]>
+
+        </Description>
+
+      </Item>
+
+      <Item ID="6009">
+
+        <Name>Interval Historical Read Payload</Name>
+
+        <Operations>R</Operations>
+
+        <MultipleInstances>Single</MultipleInstances>
+
+        <Mandatory>Optional</Mandatory>
+
+        <Type>Opaque</Type>
+
+        <RangeEnumeration/>
+
+        <Units/>
+
+        <Description>
+
+          <![CDATA[The Historical Read Payload resource is the representation of the data requested by the Historical Interval Read executable resource. The format of this Opaque value should be identical to the Latest Payload resource. If no Historical Interval Read has been executed, this resource should return and empty Opaque value. This resource can either be Read from the Server or set up as an observation and Notified to the server as soon as the historical data is available. When this payload is delivered to the LwM2M server, via either a read request or a confirmed observation on this Object, Object Instance or Resource, the Historical Read Payload should be set to an empty Opaque value.]]>
+
+        </Description>
+
+      </Item>
+
+      <Item ID="6010">
+
+        <Name>Interval Change Configuration</Name>
+
+        <Operations>E</Operations>
+
+        <MultipleInstances>Single</MultipleInstances>
+
+        <Mandatory>Optional</Mandatory>
+
+        <Type/>
+
+        <RangeEnumeration/>
+
+        <Units/>
+
+        <Description>
+
+          <![CDATA[Change Interval Configuration is an executable resource designed to allow the Interval Period, Interval Start Offset and Interval UTC Offset to be reconfigured. The resource takes three arguments:- Argument 0: [Mandatory] Interval Period represented as an integer as defined in the Interval Period Resource. Argument 1: [Optional] Interval start offset represented as an integer as defined in the Interval Start Offset Resource. If not provided, leave the value as per the current configuration Argument 2: [Optional] Interval UTC offset represented as a String as defined in the Interval UTC Offset Resource. If not provided, leave the value as per the current configuration. Depending on the specifics of the implementation of this object, reconfiguring the Interval data object may result in the removal of all historical data for this Interval Data Object Instance. Please consult with your device vendor as to the implications of reconfiguring an Interval Data Object Instance. As an example, the Argument List to change an interval data object instance from its existing values to one hour intervals, midnight aligned in UTC+10 time zone:- 0='3600',1='0',1='UTC+10']]>
+
+        </Description>
+
+      </Item>
+
+      <Item ID="6011">
+
+        <Name>Event Type</Name>
+
+        <Operations>RW</Operations>
+
+        <MultipleInstances>Single</MultipleInstances>
+
+        <Mandatory>Mandatory</Mandatory>
+
+        <Type>Integer</Type>
+
+        <RangeEnumeration/>
+
+        <Units/>
+
+        <Description>
+
+          <![CDATA[Event Type is a readable and writable resource used to represent how this event will behave. Event Type should be one of the following values:- 0. Disabled 1. Alarm Current State 2. Alarm State Change Log 3. Event Log When the Event Type is set to Disabled (0), this event will not be recorded by the device. No Latest Eventlog payload should be delivered for events that are Disabled. When the Event Type is set to Alarm Current State (1), this Event is treated as an alarm state manager and the Latest Eventlog Payload will only contain the current state of this alarm. When the Event Type is set to Alarm State Change Log (2), the Event is treated as an alarm that reports whenever the Alarm is either set or cleared. The Latest Eventlog Payload will contain all alarm transitions since the previous delivery in this mode. When the Event Type is set to Event Log (3), this object instance is treated as a raw event log. It is used to manage and deliver events. The Latest Eventlog Payload will contain all events since the previous delivery in this mode. See the Event Log Payload for examples of each of these modes. ]]>
+
+        </Description>
+
+      </Item>
+
+      <Item ID="6012">
+
+        <Name>Alarm Realtime</Name>
+
+        <Operations>RW</Operations>
+
+        <MultipleInstances>Single</MultipleInstances>
+
+        <Mandatory>Mandatory</Mandatory>
+
+        <Type>Boolean</Type>
+
+        <RangeEnumeration/>
+
+        <Units/>
+
+        <Description>
+
+          <![CDATA[Realtime is a readable and writable resource used to indicate if an event should report immediately (1) at the point of occurrence, or delivered periodically as part of the Latest Eventlog Payload.]]>
+
+        </Description>
+
+      </Item>
+
+      <Item ID="6013">
+
+        <Name>Alarm State</Name>
+
+        <Operations>R</Operations>
+
+        <MultipleInstances>Single</MultipleInstances>
+
+        <Mandatory>Optional</Mandatory>
+
+        <Type>Boolean</Type>
+
+        <RangeEnumeration/>
+
+        <Units/>
+
+        <Description>
+
+          <![CDATA[Alarm State is a read-only resource used to indicate the current alarm state for this Event configuration. This is only applicable if the Event Type is Alarm Current State (1) or Alarm State Change (2). ]]>
+
+        </Description>
+
+      </Item>
+
+      <Item ID="6014">
+
+        <Name>Alarm Set Threshold</Name>
+
+        <Operations>RW</Operations>
+
+        <MultipleInstances>Single</MultipleInstances>
+
+        <Mandatory>Optional</Mandatory>
+
+        <Type>Float</Type>
+
+        <RangeEnumeration/>
+
+        <Units/>
+
+        <Description>
+
+          <![CDATA[Set Threshold is a readable and writable resource used to represent the threshold for when an alarm is triggered. This resource is used in conjunction with the Set Operator resource. ]]>
+
+        </Description>
+
+      </Item>
+
+      <Item ID="6015">
+
+        <Name>Alarm Set Operator</Name>
+
+        <Operations>RW</Operations>
+
+        <MultipleInstances>Single</MultipleInstances>
+
+        <Mandatory>Optional</Mandatory>
+
+        <Type>Integer</Type>
+
+        <RangeEnumeration/>
+
+        <Units/>
+
+        <Description>
+
+          <![CDATA[Set Operator is a readable and writable resource used in conjunction with the Set Threshold to represent when an alarm is triggered. This resource should be set to one of the following values:- 0. Greater Than or Equal to 1. Less Than or Equal to By setting the Set Operator to Greater Than (0), when the measured value for this event exceeds the Set Threshold resource, the event is considered to be in an Alarm State of 1 By setting the Set Operator to Less Than (1), when the measured value for this event falls below the Set Threshold resource, the event is considered to be in an Alarm State of 1]]>
+
+        </Description>
+
+      </Item>
+
+      <Item ID="6016">
+
+        <Name>Alarm Clear Threshold</Name>
+
+        <Operations>RW</Operations>
+
+        <MultipleInstances>Single</MultipleInstances>
+
+        <Mandatory>Optional</Mandatory>
+
+        <Type>Float</Type>
+
+        <RangeEnumeration/>
+
+        <Units/>
+
+        <Description>
+
+          <![CDATA[Clear Threshold is a readable and writable resource used to represent the threshold for when an alarm is cleared. This resource is used in conjunction with the Clear Operator resource. ]]>
+
+        </Description>
+
+      </Item>
+
+      <Item ID="6017">
+
+        <Name>Alarm Clear Operator</Name>
+
+        <Operations>RW</Operations>
+
+        <MultipleInstances>Single</MultipleInstances>
+
+        <Mandatory>Optional</Mandatory>
+
+        <Type>Integer</Type>
+
+        <RangeEnumeration/>
+
+        <Units/>
+
+        <Description>
+
+          <![CDATA[Clear Operator is a readable and writable resource used in conjunction with the Clear Threshold to represent when an alarm is Cleared. This resource should be set to one of the following values:- 0. Greater Than or Equal to 1. Less Than or Equal to By setting the Clear Operator to Greater Than (0), when the measured value for this event exceeds the Clear Threshold resource, the event is considered to be in an Alarm State of 0 By setting the Clear Operator to Less Than (1), when the measured value for this event falls below the Clear Threshold resource, the event is considered to be in an Alarm State of 0]]>
+
+        </Description>
+
+      </Item>
+
+      <Item ID="6018">
+
+        <Name>Alarm Maximum Event Count</Name>
+
+        <Operations>RW</Operations>
+
+        <MultipleInstances>Single</MultipleInstances>
+
+        <Mandatory>Optional</Mandatory>
+
+        <Type>Integer</Type>
+
+        <RangeEnumeration/>
+
+        <Units/>
+
+        <Description>
+
+          <![CDATA[Maximum Event Count is a readable and writable resource used provide a ceiling on the number of events that can be raised within the time period defined in Maximum Event Period resource. If no Maximum Event Count is set, the number of events recorded is unconstrained. The intent of this resource is to control the number of events reported, particularly in the case of a faulty sensor.]]>
+
+        </Description>
+
+      </Item>
+
+      <Item ID="6019">
+
+        <Name>Alarm Maximum Event Period</Name>
+
+        <Operations>RW</Operations>
+
+        <MultipleInstances>Single</MultipleInstances>
+
+        <Mandatory>Optional</Mandatory>
+
+        <Type>Integer</Type>
+
+        <RangeEnumeration>1-864000</RangeEnumeration>
+
+        <Units>Seconds</Units>
+
+        <Description>
+
+          <![CDATA[Maximum Event Period is a readable and writable resource used in conjunction with the Maximum Event Count resource to control the number of events that can be raised in a given period. Maximum Event Period is an integer value representing the number of seconds for which the Maximum Event Count is measured. If no Maximum Event Period is set, the number of events recorded is unconstrained. The intent of this resource is to control the number of events reported, particularly in the case of a faulty sensor.]]>
+
+        </Description>
+
+      </Item>
+
+      <Item ID="6020">
+
+        <Name>Latest Delivered Event Time</Name>
+
+        <Operations>RW</Operations>
+
+        <MultipleInstances>Single</MultipleInstances>
+
+        <Mandatory>Optional</Mandatory>
+
+        <Type>Time</Type>
+
+        <RangeEnumeration/>
+
+        <Units/>
+
+        <Description>
+
+          <![CDATA[Latest Delivered Event Time is a readable and writable resource to represent the last recorded time that an event was delivered for this event code to the LwM2M server. The setting of this resource is implementation specific but should be updated based on, either a Read request of the Latest Eventlog Payload from the LwM2M server or via a confirmed delivery of Notify operation of the Latest Eventlog Payload resource. This resource is writable to allow the server to adjust the Last Delivered Event Time value if the server and client is out of sync.]]>
+
+        </Description>
+
+      </Item>
+
+      <Item ID="6021">
+
+        <Name>Latest Recorded Event Time</Name>
+
+        <Operations>R</Operations>
+
+        <MultipleInstances>Single</MultipleInstances>
+
+        <Mandatory>Mandatory</Mandatory>
+
+        <Type>Time</Type>
+
+        <RangeEnumeration/>
+
+        <Units/>
+
+        <Description>
+
+          <![CDATA[Latest Recorded Event Time is a readonly resource used to represent the last recorded event time for this object instance on the device]]>
+
+        </Description>
+
+      </Item>
+
+      <Item ID="6022">
+
+        <Name>Alarm Clear</Name>
+
+        <Operations>E</Operations>
+
+        <MultipleInstances>Single</MultipleInstances>
+
+        <Mandatory>Optional</Mandatory>
+
+        <Type/>
+
+        <RangeEnumeration/>
+
+        <Units/>
+
+        <Description>
+
+          <![CDATA[Clear Alarm is an executable resource used to allow the LwM2M server to clear alarms when they need to be manually acknowledged.]]>
+
+        </Description>
+
+      </Item>
+
+      <Item ID="6023">
+
+        <Name>Alarm Auto Clear</Name>
+
+        <Operations>RW</Operations>
+
+        <MultipleInstances>Single</MultipleInstances>
+
+        <Mandatory>Optional</Mandatory>
+
+        <Type>Boolean</Type>
+
+        <RangeEnumeration/>
+
+        <Units/>
+
+        <Description>
+
+          <![CDATA[Auto Clear Alarm is a readable and writable resource used to indicate if an alarm is automatically cleared once the delivery of the event data payload is complete ]]>
+
+        </Description>
+
+      </Item>
+
+      <Item ID="6024">
+
+        <Name>Event Code</Name>
+
+        <Operations>R</Operations>
+
+        <MultipleInstances>Single</MultipleInstances>
+
+        <Mandatory>Mandatory</Mandatory>
+
+        <Type>Integer</Type>
+
+        <RangeEnumeration>100-255</RangeEnumeration>
+
+        <Units/>
+
+        <Description>
+
+          <![CDATA[Event Code is a read-only resource used as an identifier to represent this class of event. The allocation of event codes is implementation specific but ideally be unique across the implementation. Event Codes use vendor specific LogClass value 100...255]]>
+
+        </Description>
+
+      </Item>
+
+      <Item ID="6025">
+
+        <Name>Latest Payload</Name>
+
+        <Operations>R</Operations>
+
+        <MultipleInstances>Single</MultipleInstances>
+
+        <Mandatory>Mandatory</Mandatory>
+
+        <Type>Opaque</Type>
+
+        <RangeEnumeration/>
+
+        <Units/>
+
+        <Description>
+
+          <![CDATA[The Latest Eventlog Payload resource is a read-only serialised Opaque (Binary) representation of all the Event Data between the Last Delivered Event Time and the Latest Recorded Event Time. When this payload is delivered to the LwM2M server, via either a read request or a confirmed observation on this Object, Object Instance or Resource, the Latest Delivered Interval should be updated. When no new data exists, an empty Opaque value should be provided. The payload data can be provided in an implementation specific serialisation, but by default for fixed length values should use the OMA-LwM2M CBOR format encoded with one of these schemes:- Event Type = Alarm Current State (1) In this mode, only the current alarm state should be reported 1. 8-bit integer, value 2 representing OMA-LwM2M CBOR format. 2. Event Code [16-bit integer] 3. Event Type [8-bit Integer] - Alarm Current State (1) 4. Alarm Timestamp [32-bit unsigned integer] representing the number of seconds since Jan 1st, 1970 in the UTC time zone. 5. Alarm State [8-bit Integer] ]]>
+
+        </Description>
+
+      </Item>
+
+      <Item ID="6026">
+
+        <Name>Start</Name>
+
+        <Operations>E</Operations>
+
+        <MultipleInstances>Single</MultipleInstances>
+
+        <Mandatory>Optional</Mandatory>
+
+        <Type/>
+
+        <RangeEnumeration/>
+
+        <Units/>
+
+        <Description>
+
+          <![CDATA[Start is an executable resource that enables the recording of interval data. The first interval recorded will have a timestamp based on the Interval Start Offset resource. This executable resource takes no arguments. Refer to re-usable resource LogStart for further details.]]>
+
+        </Description>
+
+      </Item>
+
+      <Item ID="6027">
+
+        <Name>Stop</Name>
+
+        <Operations>E</Operations>
+
+        <MultipleInstances>Single</MultipleInstances>
+
+        <Mandatory>Optional</Mandatory>
+
+        <Type/>
+
+        <RangeEnumeration/>
+
+        <Units/>
+
+        <Description>
+
+          <![CDATA[Stop (LogStop) is an executable resource that disables the recording of interval data for this object instance. This executable resource takes no arguments. Refer to re-usable resource LogStop for further details.]]>
+
+        </Description>
+
+      </Item>
+
+      <Item ID="6028">
+
+        <Name>Status</Name>
+
+        <Operations>R</Operations>
+
+        <MultipleInstances>Single</MultipleInstances>
+
+        <Mandatory>Optional</Mandatory>
+
+        <Type>Integer</Type>
+
+        <RangeEnumeration/>
+
+        <Units/>
+
+        <Description>
+
+          <![CDATA[Recording Enabled is a read-only resource providing an indication of if interval data is currently being recorded for this object instance. Refer to re-usable resource LogStatus for further details.]]>
+
+        </Description>
+
+      </Item>
+
+      <Item ID="6029">
+
+        <Name>Latest Payload</Name>
+
+        <Operations>R</Operations>
+
+        <MultipleInstances>Single</MultipleInstances>
+
+        <Mandatory>Mandatory</Mandatory>
+
+        <Type>Opaque</Type>
+
+        <RangeEnumeration/>
+
+        <Units/>
+
+        <Description>
+
+          <![CDATA[The Latest Payload resource is a read-only serialised Opaque (Binary) representation of all the Interval Data between the Last Delivered Interval and the Latest Recorded Interval, accounting for the Delivery Midnight Aligned resource. When this payload is delivered to the LwM2M server, via either a read request or a confirmed observation on this Object, Object Instance or Resource, the Latest Delivered Interval should be updated. When no new data exists, an empty Opaque value should be provided. The payload data can be provided in an implementation specific serialisation, but by default for fixed length values should use the OMA-LwM2M CBOR format encoded as follows: 1. 8-bit integer, value 2 representing OMA-LwM2M CBOR format. 2. Interval Data Instance ID/ Class [16-bit integer] 3. Timestamp of first Interval [32-bit integer] representing the number of seconds since Jan 1st, 1970 in the UTC time zone. 4. Interval Period in seconds [32-bit integer] 5. Number of intervals in Payload [16-bit integer] 6. Number of Values Per Interval [8-bit integer] 7. Size of Value 1 in bits [8-bit integer] 8. Size of Value 2 in bits [8-bit integer] ... 9. Size of Value N in bits [8-bit integer] 10. Interval 1 Value 1 [x bits] 11. Interval 1 Value 2 [x bits] ... 12. Interval 1 Value N [x bits] ... 13. Interval N Value N [x bits] If for some implementation specific reason, there are missing intervals in the sequence, the payload may consist of multiple blocks of the above serialised data (appended into a single binary opaque value), each block representing a continuous series of interval data. ]]>
+
+        </Description>
+
+      </Item>
+
+      <Item ID="6030">
+
+        <Name>Pending</Name>
+
+        <Operations></Operations>
+
+        <MultipleInstances></MultipleInstances>
+
+        <Mandatory></Mandatory>
+
+        <Type></Type>
+
+        <RangeEnumeration/>
+
+        <Units/>
+
+        <Description></Description>
+
+      </Item>
+
+      <Item ID="6031">
+
+        <Name>Pending</Name>
+
+        <Operations></Operations>
+
+        <MultipleInstances></MultipleInstances>
+
+        <Mandatory></Mandatory>
+
+        <Type></Type>
+
+        <RangeEnumeration/>
+
+        <Units/>
+
+        <Description></Description>
+
+      </Item>
+
+      <Item ID="6032">
+
+        <Name>Pending</Name>
+
+        <Operations></Operations>
+
+        <MultipleInstances></MultipleInstances>
+
+        <Mandatory></Mandatory>
+
+        <Type></Type>
+
+        <RangeEnumeration/>
+
+        <Units/>
+
+        <Description></Description>
+
+      </Item>
+
+      <Item ID="6033">
+
+        <Name>Pending</Name>
+
+        <Operations></Operations>
+
+        <MultipleInstances></MultipleInstances>
+
+        <Mandatory></Mandatory>
+
+        <Type></Type>
+
+        <RangeEnumeration/>
+
+        <Units/>
+
+        <Description></Description>
+
+      </Item>
+      <Item ID="6034">
+
+        <Name>Pending</Name>
+
+        <Operations></Operations>
+
+        <MultipleInstances></MultipleInstances>
+
+        <Mandatory></Mandatory>
+
+        <Type></Type>
+
+        <RangeEnumeration/>
+
+        <Units/>
+
+        <Description></Description>
+
+      </Item>
+      <Item ID="6035">
+
+        <Name>Pending</Name>
+
+        <Operations></Operations>
+
+        <MultipleInstances></MultipleInstances>
+
+        <Mandatory></Mandatory>
+
+        <Type></Type>
+
+        <RangeEnumeration/>
+
+        <Units/>
+
+        <Description></Description>
+
+      </Item>
+      <Item ID="6036">
+
+        <Name>Pending</Name>
+
+        <Operations></Operations>
+
+        <MultipleInstances></MultipleInstances>
+
+        <Mandatory></Mandatory>
+
+        <Type></Type>
+
+        <RangeEnumeration/>
+
+        <Units/>
+
+        <Description></Description>
+
+      </Item>
+      <Item ID="6037">
+
+        <Name>Pending</Name>
+
+        <Operations></Operations>
+
+        <MultipleInstances></MultipleInstances>
+
+        <Mandatory></Mandatory>
+
+        <Type></Type>
+
+        <RangeEnumeration/>
+
+        <Units/>
+
+        <Description></Description>
+
+      </Item>
+      <Item ID="6038">
+
+        <Name>Pending</Name>
+
+        <Operations></Operations>
+
+        <MultipleInstances></MultipleInstances>
+
+        <Mandatory></Mandatory>
+
+        <Type></Type>
+
+        <RangeEnumeration/>
+
+        <Units/>
+
+        <Description></Description>
+
+      </Item>
+
+    </Resources>
+
+    <Description2/>
+
+  </Object>
 
 </LWM2M>
