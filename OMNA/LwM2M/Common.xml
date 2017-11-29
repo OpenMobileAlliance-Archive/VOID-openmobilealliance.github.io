@@ -3475,176 +3475,178 @@ First instance describes the least significant bit, second instance the second l
 
       <Item ID="6030">
 
-        <Name>Pending</Name>
+        <Name>plmnID</Name>
 
-        <Operations></Operations>
+        <Operations>R</Operations>
 
-        <MultipleInstances></MultipleInstances>
+        <MultipleInstances>Single</MultipleInstances>
 
-        <Mandatory></Mandatory>
+        <Mandatory>Mandatory</Mandatory>
 
-        <Type></Type>
+        <Type>Interger</Type>
 
         <RangeEnumeration/>
 
         <Units/>
 
-        <Description></Description>
+        <Description>Modem time when PLMN search is initiated</Description>
 
       </Item>
 
       <Item ID="6031">
 
-        <Name>Pending</Name>
+        <Name>BandIndicator</Name>
 
-        <Operations></Operations>
+        <Operations>R</Operations>
 
-        <MultipleInstances></MultipleInstances>
+        <MultipleInstances>Single</MultipleInstances>
 
-        <Mandatory></Mandatory>
+        <Mandatory>Mandatory</Mandatory>
 
-        <Type></Type>
+        <Type>Interger</Type>
 
         <RangeEnumeration/>
 
         <Units/>
 
-        <Description></Description>
+        <Description>Band Indicator</Description>
 
       </Item>
 
       <Item ID="6032">
 
-        <Name>Pending</Name>
+        <Name>dlEarfcn</Name>
 
-        <Operations></Operations>
+        <Operations>R</Operations>
 
-        <MultipleInstances></MultipleInstances>
+        <MultipleInstances>Single</MultipleInstances>
 
-        <Mandatory></Mandatory>
+        <Mandatory>Mandatory</Mandatory>
 
-        <Type></Type>
+        <Type>Interger</Type>
 
         <RangeEnumeration/>
 
         <Units/>
 
-        <Description></Description>
+        <Description>EARFCN - frequency</Description>
 
       </Item>
 
       <Item ID="6033">
 
-        <Name>Pending</Name>
+        <Name>CellID</Name>
 
-        <Operations></Operations>
+        <Operations>R</Operations>
 
-        <MultipleInstances></MultipleInstances>
+        <MultipleInstances>Single</MultipleInstances>
 
-        <Mandatory></Mandatory>
+        <Mandatory>Mandatory</Mandatory>
 
-        <Type></Type>
-
+        <Type>Interger</Type>
+        
         <RangeEnumeration/>
 
         <Units/>
 
-        <Description></Description>
+        <Description>Cell Identity</Description>
 
       </Item>
       <Item ID="6034">
 
-        <Name>Pending</Name>
+        <Name>pci</Name>
 
-        <Operations></Operations>
+        <Operations>R</Operations>
 
-        <MultipleInstances></MultipleInstances>
+        <MultipleInstances>Single</MultipleInstances>
 
-        <Mandatory></Mandatory>
+        <Mandatory>Mandatory</Mandatory>
 
-        <Type></Type>
+        <Type>Interger</Type>
 
         <RangeEnumeration/>
 
         <Units/>
 
-        <Description></Description>
+        <Description>PCI (0..504)</Description>
 
       </Item>
+      
       <Item ID="6035">
 
-        <Name>Pending</Name>
+        <Name>rsrp</Name>
 
-        <Operations></Operations>
+         <Operations>R</Operations>
 
-        <MultipleInstances></MultipleInstances>
+        <MultipleInstances>Single</MultipleInstances>
 
-        <Mandatory></Mandatory>
+        <Mandatory>Mandatory</Mandatory>
 
-        <Type></Type>
-
-        <RangeEnumeration/>
+        <Type>Interger</Type>
 
         <Units/>
 
-        <Description></Description>
+        <Description>RSRP Value in dBm (-180..-30)</Description>
 
       </Item>
+      
       <Item ID="6036">
 
-        <Name>Pending</Name>
+        <Name>rsrp</Name>
 
-        <Operations></Operations>
+         <Operations>R</Operations>
 
-        <MultipleInstances></MultipleInstances>
+        <MultipleInstances>Single</MultipleInstances>
 
-        <Mandatory></Mandatory>
+        <Mandatory>Mandatory</Mandatory>
 
-        <Type></Type>
-
+        <Type>Interger</Type>
+        
         <RangeEnumeration/>
 
         <Units/>
 
-        <Description></Description>
+        <Description>RSRQ Value in dB (-30..10)</Description>
 
       </Item>
+      
       <Item ID="6037">
 
-        <Name>Pending</Name>
+        <Name>sysFrameNumber</Name>
 
-        <Operations></Operations>
+        <Operations>R</Operations>
 
-        <MultipleInstances></MultipleInstances>
+        <MultipleInstances>Single</MultipleInstances>
 
-        <Mandatory></Mandatory>
+        <Mandatory>Mandatory</Mandatory>
 
-        <Type></Type>
-
+        <Type>Interger</Type>
+        
         <RangeEnumeration/>
 
         <Units/>
 
-        <Description></Description>
+        <Description>System Frame Number</Description>
 
       </Item>
+      
       <Item ID="6038">
 
-        <Name>Pending</Name>
+        <Name>subFrameNumber</Name>
 
-        <Operations></Operations>
+        <Operations>R</Operations>
 
-        <MultipleInstances></MultipleInstances>
+        <MultipleInstances>Single</MultipleInstances>
 
-        <Mandatory></Mandatory>
+        <Mandatory>Mandatory</Mandatory>
 
-        <Type></Type>
-
+        <Type>Interger</Type>
+        
         <RangeEnumeration/>
 
         <Units/>
 
-        <Description></Description>
+        <Description>Sub Frame Number</Description>
 
       </Item>
 
