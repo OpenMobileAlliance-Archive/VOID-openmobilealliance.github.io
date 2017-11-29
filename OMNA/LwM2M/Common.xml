@@ -117,7 +117,11 @@
 
         <Description>
 
-          <![CDATA[Actions: a) Start data collection(DC) ) LogStatus is set to 0 (running) c) DC is emptied (default) or extended according arg'0' value Arguments definitions are described in the table below.  ]]>
+          <![CDATA[Actions:<br/> 
+a) Start data collection(DC)<br/>
+b) LogStatus is set to 0 (running)<br/>
+c) DC is emptied (default) or extended according arg'0' value<br/> 
+Arguments definitions are described in the table below.]]>
 
         </Description>
 
@@ -141,7 +145,7 @@
 
         <Description>
 
-          <![CDATA[Actions: a) Stop data collection(DC) b)  1st LSB of LogStatus is set to "1"(stopped) c) DC is kept (default) or emptied according arg'0' value Arguments definitions are described in the table below.  ]]>
+          <![CDATA[Actions: a) Stop data collection(DC)<br/> b)  1st LSB of LogStatus is set to "1"(stopped)<br/> c) DC is kept (default) or emptied according arg'0' value<br/> Arguments definitions are described in the table below.  ]]>
 
         </Description>
 
