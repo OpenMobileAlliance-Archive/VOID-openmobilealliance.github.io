@@ -92,7 +92,7 @@
 
         <Description>
 
-          <![CDATA[ Define the Log Event Class:<br/> 0: generic (default)<br/>  1: system <br/>  2: security <br/>  3: event <br/>  4: trace <br/>  5: panic <br/>  6: charging <br/>  [7-99]: reserved [100-255]: vendor specific ]]>
+          <![CDATA[ Define the Log Event Class: 0: generic (default)  1: system   2: security  3: event   4: trace   5: panic   6: charging [7-99]: reserved [100-255]: vendor specific ]]>
 
         </Description>
 
@@ -117,10 +117,10 @@
 
         <Description>
 
-          <![CDATA[Actions:<br/> 
-a) Start data collection(DC)<br/>
-b) LogStatus is set to 0 (running)<br/>
-c) DC is emptied (default) or extended according arg'0' value<br/> 
+          <![CDATA[Actions:
+a) Start data collection(DC)
+b) LogStatus is set to 0 (running)
+c) DC is emptied (default) or extended according arg'0' value 
 Arguments definitions are described in the table below.]]>
 
         </Description>
@@ -145,7 +145,7 @@ Arguments definitions are described in the table below.]]>
 
         <Description>
 
-          <![CDATA[Actions:<br/> a) Stop data collection(DC)<br/> b)  1st LSB of LogStatus is set to "1"(stopped)<br/> c) DC is kept (default) or emptied according arg'0' value<br/> Arguments definitions are described in the table below.  ]]>
+          <![CDATA[Actions: a) Stop data collection(DC) b)  1st LSB of LogStatus is set to "1"(stopped) c) DC is kept (default) or emptied according arg'0' value Arguments definitions are described in the table below.  ]]>
 
         </Description>
 
@@ -170,7 +170,7 @@ Arguments definitions are described in the table below.]]>
 
         <Description>
 
-          <![CDATA[Data Collection process status:<br/> Each bit of this Resource Instance value defines specific status:<br/> 1st LSB 0=running, 1=stopped <br/> 2nd LSB 1=LogData contains Valid Data 0=LogData doesn’t contain Valid Data<br/> 3rd LSB 1=Error occurred during Data Collection 0=No error <br/> [4th -7th ] LSB:reserved <br/> 8th LSB: vendor specific.]]>
+          <![CDATA[Data Collection process status: Each bit of this Resource Instance value defines specific status: 1st LSB 0=running, 1=stopped 2nd LSB 1=LogData contains Valid Data 0=LogData doesn’t contain Valid Data 3rd LSB 1=Error occurred during Data Collection 0=No error [4th -7th ] LSB:reserved 8th LSB: vendor specific.]]>
 
         </Description>
 
@@ -219,11 +219,11 @@ Arguments definitions are described in the table below.]]>
         <Description> 
         <![CDATA[ when set by the Server, this Resource indicates to the Client, what is the Server preferred data format to use when the LogData Resource is returned<br/>
 . when retrieved by the Server, this Resource indicates which specific data format is used when the LogData Resource is returned to the Server 
-0  or Resource not present : no specific data format (sequence of bytes)<br/>
-1 : OMA-LwM2M TLV format<br/>
-2 : OMA-LwM2M JSON format<br/>
-3:  OMA-LwM2M CBOR format<br/>
-[4..99] reserved <br/>
+0  or Resource not present : no specific data format (sequence of bytes)
+1 : OMA-LwM2M TLV format
+2 : OMA-LwM2M JSON format
+3:  OMA-LwM2M CBOR format
+[4..99] reserved
 [100..255] vendor specific data format
  ]]>
         </Description>
