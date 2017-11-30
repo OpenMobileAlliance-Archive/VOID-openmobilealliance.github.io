@@ -5009,7 +5009,37 @@
 
     <Description></Description>
 
-    <Owner>GSMA</Owner>
+    <Owner>Verizon Wireless</Owner>
+
+    <Source>2</Source>
+
+    <Ver/>
+
+    <DDF></DDF>
+
+    <LWM2M></LWM2M>
+
+    <Vorto></Vorto>
+
+    <DDFLink></DDFLink>
+
+    <TS></TS>
+
+    <TSLink></TSLink>
+
+  </Item>
+  
+    <Item>
+
+    <ObjectID>10300</ObjectID>
+
+    <URN>urn:oma:lwm2m:x:10300</URN>
+
+    <Name>Pending</Name>
+
+    <Description></Description>
+
+    <Owner>Huawei</Owner>
 
     <Source>2</Source>
 
