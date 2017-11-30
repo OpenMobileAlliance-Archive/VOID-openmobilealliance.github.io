@@ -92,7 +92,7 @@
 
         <Description>
 
-          <![CDATA[ Define the Log Event Class: 0: generic (default)<br/>  1: system <br/>  2: security <br/>  3: event <br/>  4: trace <br/>  5: panic <br/>  6: charging <br/>  [7-99]: reserved [100-255]: vendor specific ]]>
+          <![CDATA[ Define the Log Event Class:<br/> 0: generic (default)<br/>  1: system <br/>  2: security <br/>  3: event <br/>  4: trace <br/>  5: panic <br/>  6: charging <br/>  [7-99]: reserved [100-255]: vendor specific ]]>
 
         </Description>
 
