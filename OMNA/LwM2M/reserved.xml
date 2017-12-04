@@ -9,4 +9,9 @@
         <ObjectIDEndRange>32818</ObjectIDEndRange>
         <Company>Nokia</Company>
     </Item>
+        <Item>
+        <ObjectIDStartRange>32819</ObjectIDStartRange>
+        <ObjectIDEndRange>32868</ObjectIDEndRange>
+        <Company>Pending</Company>
+    </Item>
 </ReservedObjects>
