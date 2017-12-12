@@ -519,7 +519,7 @@
 
     <Name>Porfolio</Name>
 
-    <Description>Extends data storage of other LWM2M Object Instances in M2M devices, as well as to provide security services for applications associated with this data extension.</Description>
+    <Description>The Portfolio Object allows to extend the data storage capability of other Object Instances in the LwM2M system, as well as the services which may be used to authenticate and to protect privacy of data contained in those extensions. In addition, a service of data encryption is also defined</Description>
 
     <Owner>OMA</Owner>
 
@@ -527,15 +527,15 @@
 
     <Ver>1.0</Ver>
 
-    <DDF></DDF>
+    <DDF>http://www.openmobilealliance.org/tech/profiles/LWM2M_Portfolio-v1_0.xml</DDF>
 
-    <LWM2M></LWM2M>
+    <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3a%2f%2fwww.openmobilealliance.org%2ftech%2fprofiles%2fLWM2M_Portfolio-v1_0.xml</LWM2M>
 
     <Vorto>http://vorto.eclipse.org/resolve/lwm2m/Object/ObjectID/16</Vorto>
 
-    <DDFLink>0</DDFLink>
+    <DDFLink>1</DDFLink>
 
-    <TS>http://www.openmobilealliance.org/release/LWM2M_PortfolioObj/V1_0-20160906-C/OMA-TS-LWM2M_PortfolioObj-V1_0-20160906-C.pdf</TS>
+    <TS>http://www.openmobilealliance.org/release/LWM2M_PortfolioObj/V1_0-20171114-A/OMA-TS-LWM2M_PortfolioObj-V1_0-20171114-A</TS>
 
     <TSLink>1</TSLink>
 
@@ -607,9 +607,9 @@
 
     <URN>urn:oma:lwm2m:oma:19</URN>
 
-    <Name>Pending</Name>
+    <Name>LwM2M APPDATA</Name>
 
-    <Description></Description>
+    <Description>This LwM2M object provides the application service data related to a LwM2M Server, eg. Water meter data.</Description>
 
     <Owner>OMA</Owner>
 
