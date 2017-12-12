@@ -519,7 +519,7 @@
 
     <Name>Porfolio</Name>
 
-    <Description>Extends data storage of other LWM2M Object Instances in M2M devices, as well as to provide security services for applications associated with this data extension.</Description>
+    <Description>The Portfolio Object allows to extend the data storage capability of other Object Instances in the LwM2M system, as well as the services which may be used to authenticate and to protect privacy of data contained in those extensions. In addition, a service of data encryption is also defined</Description>
 
     <Owner>OMA</Owner>
 
