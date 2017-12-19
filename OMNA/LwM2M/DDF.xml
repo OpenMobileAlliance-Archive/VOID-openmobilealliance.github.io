@@ -4239,36 +4239,6 @@
 
   <Item>
 
-    <ObjectID>10261</ObjectID>
-
-    <URN>urn:oma:lwm2m:x:10261</URN>
-
-    <Name></Name>
-
-    <Description></Description>
-
-    <Owner></Owner>
-
-    <Source>2</Source>
-
-    <Ver/>
-
-    <DDF></DDF>
-
-    <LWM2M></LWM2M>
-
-    <Vorto></Vorto>
-
-    <DDFLink></DDFLink>
-
-    <TS></TS>
-
-    <TSLink></TSLink>
-
-  </Item>
-
-  <Item>
-
     <ObjectID>10262</ObjectID>
 
     <URN>urn:oma:lwm2m:x:10262</URN>
