@@ -2648,7 +2648,7 @@
 
     <ObjectID>3352</ObjectID>
 
-    <URN>urn:oma:lwm2m:ext:3351</URN>
+    <URN>urn:oma:lwm2m:ext:3352</URN>
 
     <Name>Pending</Name>
 
@@ -2678,7 +2678,7 @@
 
     <ObjectID>3353</ObjectID>
 
-    <URN>urn:oma:lwm2m:ext:3354</URN>
+    <URN>urn:oma:lwm2m:ext:3353</URN>
 
     <Name>Pending</Name>
 
@@ -2917,6 +2917,36 @@
   <Item>
 
     <ObjectID>3361</ObjectID>
+
+    <URN>urn:oma:lwm2m:ext:3361</URN>
+
+    <Name>Pending</Name>
+
+    <Description></Description>
+
+    <Owner>GSMA</Owner>
+
+    <Source>1</Source>
+
+    <Ver/>
+
+    <DDF></DDF>
+
+    <LWM2M></LWM2M>
+
+    <Vorto></Vorto>
+
+    <DDFLink></DDFLink>
+
+    <TS></TS>
+
+    <TSLink></TSLink>
+
+  </Item>
+  
+    <Item>
+
+    <ObjectID>3362</ObjectID>
 
     <URN>urn:oma:lwm2m:ext:3362</URN>
 
