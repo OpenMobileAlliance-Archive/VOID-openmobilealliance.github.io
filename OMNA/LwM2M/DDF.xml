@@ -2703,6 +2703,36 @@
     <TSLink></TSLink>
 
   </Item>
+  
+    <Item>
+
+    <ObjectID>3354</ObjectID>
+
+    <URN>urn:oma:lwm2m:ext:3354</URN>
+
+    <Name>Pending</Name>
+
+    <Description></Description>
+
+    <Owner>GSMA</Owner>
+
+    <Source>1</Source>
+
+    <Ver/>
+
+    <DDF></DDF>
+
+    <LWM2M></LWM2M>
+
+    <Vorto></Vorto>
+
+    <DDFLink></DDFLink>
+
+    <TS></TS>
+
+    <TSLink></TSLink>
+
+  </Item>
 
   <Item>
 
