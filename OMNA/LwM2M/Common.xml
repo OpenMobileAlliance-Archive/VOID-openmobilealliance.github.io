@@ -3502,7 +3502,7 @@ First instance describes the least significant bit, second instance the second l
 
         <Units/>
 
-        <Description>Modem time when PLMN search is initiated</Description>
+        <Description>PLMN - mcc/mnc</Description>
 
       </Item>
 
