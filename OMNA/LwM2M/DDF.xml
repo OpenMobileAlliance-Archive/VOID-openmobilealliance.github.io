@@ -2620,9 +2620,9 @@
 
     <URN>urn:oma:lwm2m:ext:3351</URN>
 
-    <Name>Pending</Name>
+    <Name>powerupLog</Name>
 
-    <Description></Description>
+    <Description>One time event sent by the device at power up.</Description>
 
     <Owner>GSMA</Owner>
 
@@ -2630,13 +2630,13 @@
 
     <Ver/>
 
-    <DDF></DDF>
+    <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/3351.xml</DDF>
 
-    <LWM2M></LWM2M>
+    <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3351.xml</LWM2M>
 
     <Vorto></Vorto>
 
-    <DDFLink></DDFLink>
+    <DDFLink>1</DDFLink>
 
     <TS></TS>
 
@@ -2650,9 +2650,9 @@
 
     <URN>urn:oma:lwm2m:ext:3352</URN>
 
-    <Name>Pending</Name>
+    <Name>plmnSearchEvent</Name>
 
-    <Description></Description>
+    <Description>List of all PLMNs found during the initial search/scan</Description>
 
     <Owner>GSMA</Owner>
 
@@ -2662,11 +2662,11 @@
 
     <DDF></DDF>
 
-    <LWM2M></LWM2M>
+    <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3352.xml</LWM2M>
 
     <Vorto></Vorto>
 
-    <DDFLink></DDFLink>
+    <DDFLink>1</DDFLink>
 
     <TS></TS>
 
@@ -2680,9 +2680,9 @@
 
     <URN>urn:oma:lwm2m:ext:3353</URN>
 
-    <Name>Pending</Name>
+    <Name>scellID</Name>
 
-    <Description></Description>
+    <Description>serving cell information that the RRC decides to camp on</Description>
 
     <Owner>GSMA</Owner>
 
@@ -2690,13 +2690,13 @@
 
     <Ver/>
 
-    <DDF></DDF>
+    <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/3353.xml</DDF>
 
-    <LWM2M></LWM2M>
+    <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3353.xml</LWM2M>
 
     <Vorto></Vorto>
 
-    <DDFLink></DDFLink>
+    <DDFLink>1</DDFLink>
 
     <TS></TS>
 
@@ -2710,9 +2710,9 @@
 
     <URN>urn:oma:lwm2m:ext:3354</URN>
 
-    <Name>Pending</Name>
+    <Name>cellReselectionEvent</Name>
 
-    <Description></Description>
+    <Description>cell reselection event information</Description>
 
     <Owner>GSMA</Owner>
 
@@ -2720,13 +2720,13 @@
 
     <Ver/>
 
-    <DDF></DDF>
+    <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/3354.xml</DDF>
 
-    <LWM2M></LWM2M>
+    <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3354.xml</LWM2M>
 
     <Vorto></Vorto>
 
-    <DDFLink></DDFLink>
+    <DDFLink>1</DDFLink>
 
     <TS></TS>
 
@@ -2740,9 +2740,9 @@
 
     <URN>urn:oma:lwm2m:ext:3355</URN>
 
-    <Name>Pending</Name>
+    <Name>handoverEvent</Name>
 
-    <Description></Description>
+    <Description>handover event information</Description>
 
     <Owner>GSMA</Owner>
 
@@ -2750,13 +2750,13 @@
 
     <Ver/>
 
-    <DDF></DDF>
+    <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/3355.xml</DDF>
 
-    <LWM2M></LWM2M>
+    <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3355.xml</LWM2M>
 
     <Vorto></Vorto>
 
-    <DDFLink></DDFLink>
+    <DDFLink>1</DDFLink>
 
     <TS></TS>
 
@@ -2770,9 +2770,9 @@
 
     <URN>urn:oma:lwm2m:ext:3356</URN>
 
-    <Name>Pending</Name>
+    <Name>radioLinkFailureEvent</Name>
 
-    <Description></Description>
+    <Description>Radio Link Failure Event</Description>
 
     <Owner>GSMA</Owner>
 
@@ -2780,13 +2780,13 @@
 
     <Ver/>
 
-    <DDF></DDF>
+    <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/3356.xml</DDF>
 
-    <LWM2M></LWM2M>
+    <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3356.xml</LWM2M>
 
     <Vorto></Vorto>
 
-    <DDFLink></DDFLink>
+    <DDFLink>1</DDFLink>
 
     <TS></TS>
 
@@ -2800,9 +2800,9 @@
 
     <URN>urn:oma:lwm2m:ext:3357</URN>
 
-    <Name>Pending</Name>
+    <Name>rrcStateChangeEvent</Name>
 
-    <Description></Description>
+    <Description>Current RRC state change information, including the event that triggered the state change</Description>
 
     <Owner>GSMA</Owner>
 
@@ -2810,13 +2810,13 @@
 
     <Ver/>
 
-    <DDF></DDF>
+    <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/3357.xml</DDF>
 
-    <LWM2M></LWM2M>
+    <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3357.xml</LWM2M>
 
     <Vorto></Vorto>
 
-    <DDFLink></DDFLink>
+    <DDFLink>1</DDFLink>
 
     <TS></TS>
 
@@ -2830,9 +2830,9 @@
 
     <URN>urn:oma:lwm2m:ext:3358</URN>
 
-    <Name>Pending</Name>
+    <Name>rrcTimerExpiryEvent</Name>
 
-    <Description></Description>
+    <Description>RRC timer expiry event information</Description>
 
     <Owner>GSMA</Owner>
 
@@ -2840,13 +2840,13 @@
 
     <Ver/>
 
-    <DDF></DDF>
+    <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/3358.xml</DDF>
 
-    <LWM2M></LWM2M>
+    <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3358.xml</LWM2M>
 
     <Vorto></Vorto>
 
-    <DDFLink></DDFLink>
+    <DDFLink>1</DDFLink>
 
     <TS></TS>
 
@@ -2860,9 +2860,9 @@
 
     <URN>urn:oma:lwm2m:ext:3359</URN>
 
-    <Name>Pending</Name>
+    <Name>cellBlacklistEvent</Name>
 
-    <Description></Description>
+    <Description>Cell blacklist information</Description>
 
     <Owner>GSMA</Owner>
 
@@ -2870,13 +2870,13 @@
 
     <Ver/>
 
-    <DDF></DDF>
+    <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/3359.xml</DDF>
 
-    <LWM2M></LWM2M>
+    <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3359.xml</LWM2M>
 
     <Vorto></Vorto>
 
-    <DDFLink></DDFLink>
+    <DDFLink>1</DDFLink>
 
     <TS></TS>
 
@@ -2890,9 +2890,9 @@
 
     <URN>urn:oma:lwm2m:ext:3360</URN>
 
-    <Name>Pending</Name>
+    <Name>esmContextInfo</Name>
 
-    <Description></Description>
+    <Description>ESM context information</Description>
 
     <Owner>GSMA</Owner>
 
@@ -2900,13 +2900,13 @@
 
     <Ver/>
 
-    <DDF></DDF>
+    <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/3360.xml</DDF>
 
-    <LWM2M></LWM2M>
+    <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3360.xml</LWM2M>
 
     <Vorto></Vorto>
 
-    <DDFLink></DDFLink>
+    <DDFLink>1</DDFLink>
 
     <TS></TS>
 
@@ -2920,9 +2920,9 @@
 
     <URN>urn:oma:lwm2m:ext:3361</URN>
 
-    <Name>Pending</Name>
+    <Name>emmStateValue</Name>
 
-    <Description></Description>
+    <Description>EMM context information</Description>
 
     <Owner>GSMA</Owner>
 
@@ -2930,13 +2930,13 @@
 
     <Ver/>
 
-    <DDF></DDF>
+    <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/3361.xml</DDF>
 
-    <LWM2M></LWM2M>
+    <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3361.xml</LWM2M>
 
     <Vorto></Vorto>
 
-    <DDFLink></DDFLink>
+    <DDFLink>1</DDFLink>
 
     <TS></TS>
 
@@ -2950,9 +2950,9 @@
 
     <URN>urn:oma:lwm2m:ext:3362</URN>
 
-    <Name>Pending</Name>
+    <Name>nasEmmTimerExpiryEvent</Name>
 
-    <Description></Description>
+    <Description>NAS EMM timer expiry information</Description>
 
     <Owner>GSMA</Owner>
 
@@ -2960,13 +2960,13 @@
 
     <Ver/>
 
-    <DDF></DDF>
+    <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/3362.xml</DDF>
 
-    <LWM2M></LWM2M>
+    <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3362.xml</LWM2M>
 
     <Vorto></Vorto>
 
-    <DDFLink></DDFLink>
+    <DDFLink>1</DDFLink>
 
     <TS></TS>
 
@@ -2980,9 +2980,9 @@
 
     <URN>urn:oma:lwm2m:ext:3363</URN>
 
-    <Name>Pending</Name>
+    <Name>nasEsmExpiryEvent</Name>
 
-    <Description></Description>
+    <Description>NAS ESM timer expiry information</Description>
 
     <Owner>GSMA</Owner>
 
@@ -2990,13 +2990,13 @@
 
     <Ver/>
 
-    <DDF></DDF>
+    <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/3363.xml</DDF>
 
-    <LWM2M></LWM2M>
+    <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3363.xml</LWM2M>
 
     <Vorto></Vorto>
 
-    <DDFLink></DDFLink>
+    <DDFLink>1</DDFLink>
 
     <TS></TS>
 
@@ -3010,9 +3010,9 @@
 
     <URN>urn:oma:lwm2m:ext:3364</URN>
 
-    <Name>Pending</Name>
+    <Name>emmFailureCauseEvent</Name>
 
-    <Description></Description>
+    <Description>Triggered at EMM failure - failure cause is logged</Description>
 
     <Owner>GSMA</Owner>
 
@@ -3020,13 +3020,13 @@
 
     <Ver/>
 
-    <DDF></DDF>
+    <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/3364.xml</DDF>
 
-    <LWM2M></LWM2M>
+    <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3364.xml</LWM2M>
 
     <Vorto></Vorto>
 
-    <DDFLink></DDFLink>
+    <DDF>1</DDFLink>
 
     <TS></TS>
 
@@ -3040,9 +3040,9 @@
 
     <URN>urn:oma:lwm2m:ext:3365</URN>
 
-    <Name>Pending</Name>
+    <Name>rachLatency_delay</Name>
 
-    <Description></Description>
+    <Description>RACH Latency & delay information</Description>
 
     <Owner>GSMA</Owner>
 
@@ -3050,13 +3050,13 @@
 
     <Ver/>
 
-    <DDF></DDF>
+    <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/3365.xml</DDF>
 
-    <LWM2M></LWM2M>
+    <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3365.xml</LWM2M>
 
     <Vorto></Vorto>
 
-    <DDFLink></DDFLink>
+    <DDFLink>1</DDFLink>
 
     <TS></TS>
 
@@ -3070,9 +3070,9 @@
 
     <URN>urn:oma:lwm2m:ext:3366</URN>
 
-    <Name>Pending</Name>
+    <Name>macRachAttemptEvent</Name>
 
-    <Description></Description>
+    <Description>RACH information. Logged at RACH TX</Description>
 
     <Owner>GSMA</Owner>
 
@@ -3080,13 +3080,13 @@
 
     <Ver/>
 
-    <DDF></DDF>
+    <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/3366.xml</DDF>
 
-    <LWM2M></LWM2M>
+    <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3366.xml</LWM2M>
 
     <Vorto></Vorto>
 
-    <DDFLink></DDFLink>
+    <DDFLink>1</DDFLink>
 
     <TS></TS>
 
@@ -3100,9 +3100,9 @@
 
     <URN>urn:oma:lwm2m:ext:3367</URN>
 
-    <Name>Pending</Name>
+    <Name>macRachAttemptReasonEvent</Name>
 
-    <Description></Description>
+    <Description>RACH Information - reason for initiating RACH</Description>
 
     <Owner>GSMA</Owner>
 
@@ -3110,13 +3110,13 @@
 
     <Ver/>
 
-    <DDF></DDF>
+    <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/3367.xml</DDF>
 
-    <LWM2M></LWM2M>
+    <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3367.xml</LWM2M>
 
     <Vorto></Vorto>
 
-    <DDFLink></DDFLink>
+    <DDFLink>1</DDFLink>
 
     <TS></TS>
 
@@ -3130,7 +3130,7 @@
 
     <URN>urn:oma:lwm2m:ext:3368</URN>
 
-    <Name>Pending</Name>
+    <Name>macTimerStatusEvent</Name>
 
     <Description></Description>
 
@@ -3140,9 +3140,9 @@
 
     <Ver/>
 
-    <DDF></DDF>
+    <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/3368.xml</DDF>
 
-    <LWM2M></LWM2M>
+    <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3368.xml</LWM2M>
 
     <Vorto></Vorto>
 
@@ -3160,9 +3160,9 @@
 
     <URN>urn:oma:lwm2m:ext:3369</URN>
 
-    <Name>Pending</Name>
+    <Name>macTimingAdvanceEvent</Name>
 
-    <Description></Description>
+    <Description>Timing advance information</Description>
 
     <Owner>GSMA</Owner>
 
@@ -3170,13 +3170,13 @@
 
     <Ver/>
 
-    <DDF></DDF>
+    <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/3369.xml</DDF>
 
-    <LWM2M></LWM2M>
+    <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3369.xml</LWM2M>
 
     <Vorto></Vorto>
 
-    <DDFLink></DDFLink>
+    <DDFLink>1</DDFLink>
 
     <TS></TS>
 
@@ -3190,9 +3190,9 @@
 
     <URN>urn:oma:lwm2m:ext:3370</URN>
 
-    <Name>Pending</Name>
+    <Name>ServingCellMeasurement</Name>
 
-    <Description></Description>
+    <Description>Serving Cell Measurement</Description>
 
     <Owner>GSMA</Owner>
 
@@ -3200,13 +3200,13 @@
 
     <Ver/>
 
-    <DDF></DDF>
+    <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/3370.xml</DDF>
 
-    <LWM2M></LWM2M>
+    <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3370.xml</LWM2M>
 
     <Vorto></Vorto>
 
-    <DDFLink></DDFLink>
+    <DDFLink>1</DDFLink>
 
     <TS></TS>
 
@@ -3220,9 +3220,9 @@
 
     <URN>urn:oma:lwm2m:ext:3371</URN>
 
-    <Name>Pending</Name>
+    <Name>NeighborCellMeasurements</Name>
 
-    <Description></Description>
+    <Description>Neighbor Cell Measurements</Description>
 
     <Owner>GSMA</Owner>
 
@@ -3230,13 +3230,13 @@
 
     <Ver/>
 
-    <DDF></DDF>
+    <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/3371.xml</DDF>
 
-    <LWM2M></LWM2M>
+    <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3371.xml</LWM2M>
 
     <Vorto></Vorto>
 
-    <DDFLink></DDFLink>
+    <DDFLink>1</DDFLink>
 
     <TS></TS>
 
@@ -3250,9 +3250,9 @@
 
     <URN>urn:oma:lwm2m:ext:3372</URN>
 
-    <Name>Pending</Name>
+    <Name>Timing Advance Information</Name>
 
-    <Description></Description>
+    <Description>Neighbor Cell Measurements</Description>
 
     <Owner>GSMA</Owner>
 
@@ -3260,17 +3260,17 @@
 
     <Ver/>
 
-    <DDF></DDF>
+    <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/3372.xml</DDF>
 
-    <LWM2M></LWM2M>
+    <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3372.xml</LWM2M>
 
     <Vorto></Vorto>
 
-    <DDFLink></DDFLink>
+    <DDFLink>1</DDFLink>
 
     <TS></TS>
 
-    <TSLink></TSLink>
+    <TSLink>1</TSLink>
 
   </Item>
 
@@ -3280,9 +3280,9 @@
 
     <URN>urn:oma:lwm2m:ext:3373</URN>
 
-    <Name>Pending</Name>
+    <Name>txPowerHeadroomEvent</Name>
 
-    <Description></Description>
+    <Description>TX power headroom information</Description>
 
     <Owner>GSMA</Owner>
 
@@ -3290,13 +3290,13 @@
 
     <Ver/>
 
-    <DDF></DDF>
+    <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/3373.xml</DDF>
 
-    <LWM2M></LWM2M>
+    <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3373.xml</LWM2M>
 
     <Vorto></Vorto>
 
-    <DDFLink></DDFLink>
+    <DDFLink>1</DDFLink>
 
     <TS></TS>
 
@@ -3310,9 +3310,9 @@
 
     <URN>urn:oma:lwm2m:ext:3374</URN>
 
-    <Name>Pending</Name>
+    <Name>radioLinkMonitoring</Name>
 
-    <Description></Description>
+    <Description>Radio Link monitoring information maintained by RRC</Description>
 
     <Owner>GSMA</Owner>
 
@@ -3320,13 +3320,13 @@
 
     <Ver/>
 
-    <DDF></DDF>
+    <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/3374.xml</DDF>
 
-    <LWM2M></LWM2M>
+    <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3374.xml</LWM2M>
 
     <Vorto></Vorto>
 
-    <DDFLink></DDFLink>
+    <DDFLink>1</DDFLink>
 
     <TS></TS>
 
@@ -3340,9 +3340,9 @@
 
     <URN>urn:oma:lwm2m:ext:3375</URN>
 
-    <Name>Pending</Name>
+    <Name>PagingDRX</Name>
 
-    <Description></Description>
+    <Description>Paging DRX information</Description>
 
     <Owner>GSMA</Owner>
 
@@ -3350,13 +3350,13 @@
 
     <Ver/>
 
-    <DDF></DDF>
+    <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/3375.xml</DDF>
 
-    <LWM2M></LWM2M>
+    <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3375.xml</LWM2M>
 
     <Vorto></Vorto>
 
-    <DDFLink></DDFLink>
+    <DDFLink>1</DDFLink>
 
     <TS></TS>
 
@@ -3370,9 +3370,9 @@
 
     <URN>urn:oma:lwm2m:ext:3376</URN>
 
-    <Name>Pending</Name>
+    <Name>txPowerBackOffEvent</Name>
 
-    <Description></Description>
+    <Description>TX Power backoff information</Description>
 
     <Owner>GSMA</Owner>
 
@@ -3380,13 +3380,13 @@
 
     <Ver/>
 
-    <DDF></DDF>
+    <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/3376.xml</DDF>
 
-    <LWM2M></LWM2M>
+    <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3376.xml</LWM2M>
 
     <Vorto></Vorto>
 
-    <DDFLink></DDFLink>
+    <DDFLink>1</DDFLink>
 
     <TS></TS>
 
@@ -3400,9 +3400,9 @@
 
     <URN>urn:oma:lwm2m:ext:3377</URN>
 
-    <Name>Pending</Name>
+    <Name>Message3Report</Name>
 
-    <Description></Description>
+    <Description>RACH message 3 report information</Description>
 
     <Owner>GSMA</Owner>
 
@@ -3410,13 +3410,13 @@
 
     <Ver/>
 
-    <DDF></DDF>
+    <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/3377.xml</DDF>
 
-    <LWM2M></LWM2M>
+    <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3377.xml</LWM2M>
 
     <Vorto></Vorto>
 
-    <DDFLink></DDFLink>
+    <DDFLink>1</DDFLink>
 
     <TS></TS>
 
@@ -3430,9 +3430,9 @@
 
     <URN>urn:oma:lwm2m:ext:3378</URN>
 
-    <Name>Pending</Name>
+    <Name>PbchDecodingResults</Name>
 
-    <Description></Description>
+    <Description>Serving cell PBCH decoding information</Description>
 
     <Owner>GSMA</Owner>
 
@@ -3440,13 +3440,13 @@
 
     <Ver/>
 
-    <DDF></DDF>
+    <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/3378.xml</DDF>
 
-    <LWM2M></LWM2M>
+    <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3378.xml</LWM2M>
 
     <Vorto></Vorto>
 
-    <DDFLink></DDFLink>
+    <DDFLink>1</DDFLink>
 
     <TS></TS>
 
@@ -3460,9 +3460,9 @@
 
     <URN>urn:oma:lwm2m:ext:3379</URN>
 
-    <Name>Pending</Name>
+    <Name>pucchPowerControl</Name>
 
-    <Description></Description>
+    <Description>PUCCH TX power control information</Description>
 
     <Owner>GSMA</Owner>
 
@@ -3470,13 +3470,13 @@
 
     <Ver/>
 
-    <DDF></DDF>
+    <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/3379.xml</DDF>
 
-    <LWM2M></LWM2M>
+    <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3379.xml</LWM2M>
 
     <Vorto></Vorto>
 
-    <DDFLink></DDFLink>
+    <DDFLink>1</DDFLink>
 
     <TS></TS>
 
@@ -3490,9 +3490,9 @@
 
     <URN>urn:oma:lwm2m:ext:3380</URN>
 
-    <Name>Pending</Name>
+    <Name>PrachReport</Name>
 
-    <Description></Description>
+    <Description>PRACH report information</Description>
 
     <Owner>GSMA</Owner>
 
@@ -3500,13 +3500,13 @@
 
     <Ver/>
 
-    <DDF></DDF>
+    <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/3380.xml</DDF>
 
-    <LWM2M></LWM2M>
+    <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3380.xml</LWM2M>
 
     <Vorto></Vorto>
 
-    <DDFLink></DDFLink>
+    <DDFLink>1</DDFLink>
 
     <TS></TS>
 
@@ -3520,9 +3520,9 @@
 
     <URN>urn:oma:lwm2m:ext:3381</URN>
 
-    <Name>Pending</Name>
+    <Name>VolteCallEvent</Name>
 
-    <Description></Description>
+    <Description>VoLTE call status</Description>
 
     <Owner>GSMA</Owner>
 
@@ -3530,13 +3530,13 @@
 
     <Ver/>
 
-    <DDF></DDF>
+    <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/3381.xml</DDF>
 
-    <LWM2M></LWM2M>
+    <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3381.xml</LWM2M>
 
     <Vorto></Vorto>
 
-    <DDFLink></DDFLink>
+    <DDFLink>1</DDFLink>
 
     <TS></TS>
 
@@ -3550,9 +3550,9 @@
 
     <URN>urn:oma:lwm2m:ext:3382</URN>
 
-    <Name>Pending</Name>
+    <Name>SipRegistrationEvent</Name>
 
-    <Description></Description>
+    <Description>SIP Registration status</Description>
 
     <Owner>GSMA</Owner>
 
@@ -3560,13 +3560,13 @@
 
     <Ver/>
 
-    <DDF></DDF>
+    <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/3382.xml</DDF>
 
-    <LWM2M></LWM2M>
+    <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3382.xml</LWM2M>
 
     <Vorto></Vorto>
 
-    <DDFLink></DDFLink>
+    <DDFLink>1</DDFLink>
 
     <TS></TS>
 
@@ -3580,9 +3580,9 @@
 
     <URN>urn:oma:lwm2m:ext:3383</URN>
 
-    <Name>Pending</Name>
+    <Name>sipPublishEvent</Name>
 
-    <Description></Description>
+    <Description>SIP Publish status</Description>
 
     <Owner>GSMA</Owner>
 
@@ -3590,13 +3590,13 @@
 
     <Ver/>
 
-    <DDF></DDF>
+    <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/3383.xml</DDF>
 
-    <LWM2M></LWM2M>
+    <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3383.xml</LWM2M>
 
     <Vorto></Vorto>
 
-    <DDFLink></DDFLink>
+    <DDFLink>1</DDFLink>
 
     <TS></TS>
 
@@ -3610,9 +3610,9 @@
 
     <URN>urn:oma:lwm2m:ext:3384</URN>
 
-    <Name>Pending</Name>
+    <Name>sipSubscriptionEvent</Name>
 
-    <Description></Description>
+    <Description>SIP Subscription status</Description>
 
     <Owner>GSMA</Owner>
 
@@ -3620,13 +3620,13 @@
 
     <Ver/>
 
-    <DDF></DDF>
+    <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/3384.xml</DDF>
 
-    <LWM2M></LWM2M>
+    <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3384.xml</LWM2M>
 
     <Vorto></Vorto>
 
-    <DDFLink></DDFLink>
+    <DDFLink>1</DDFLink>
 
     <TS></TS>
 
@@ -3640,9 +3640,9 @@
 
     <URN>urn:oma:lwm2m:ext:3385</URN>
 
-    <Name>Pending</Name>
+    <Name>volteCallStateChangeEvent</Name>
 
-    <Description></Description>
+    <Description>VoLTE call status change</Description>
 
     <Owner>GSMA</Owner>
 
@@ -3650,13 +3650,13 @@
 
     <Ver/>
 
-    <DDF></DDF>
+    <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/3385.xml</DDF>
 
-    <LWM2M></LWM2M>
+    <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3385.xml</LWM2M>
 
     <Vorto></Vorto>
 
-    <DDFLink></DDFLink>
+    <DDFLink>1</DDFLink>
 
     <TS></TS>
 
@@ -3670,9 +3670,9 @@
 
     <URN>urn:oma:lwm2m:ext:3386</URN>
 
-    <Name>Pending</Name>
+    <Name>VoLTErtpPacketLoss</Name>
 
-    <Description></Description>
+    <Description>Log is generated at the receiving end of RTP flow when newReceivedSequenceNumber - lastReceivedSequenceNumber > 1</Description>
 
     <Owner>GSMA</Owner>
 
@@ -3680,13 +3680,13 @@
 
     <Ver/>
 
-    <DDF></DDF>
+    <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/3386.xml</DDF>
 
-    <LWM2M></LWM2M>
+    <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3386.xml</LWM2M>
 
     <Vorto></Vorto>
 
-    <DDFLink></DDFLink>
+    <DDFLink>1</DDFLink>
 
     <TS></TS>
 
