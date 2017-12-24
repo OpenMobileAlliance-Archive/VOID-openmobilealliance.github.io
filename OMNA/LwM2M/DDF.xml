@@ -1664,7 +1664,7 @@
         <ObjectID>3365</ObjectID>
         <URN>urn:oma:lwm2m:ext:3365</URN>
         <Name>rachLatency_delay</Name>
-        <Description>RACH Latency & delay information</Description>
+        <Description>RACH Latency and delay information</Description>
         <Owner>GSMA</Owner>
         <Source>1</Source>
 
