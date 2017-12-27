@@ -1459,7 +1459,7 @@
         <Source>1</Source>
 
         <Ver />
-        <DDF></DDF>
+        <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/3352.xml</DDF>
         <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3352.xml</LWM2M>
         <Vorto></Vorto>
         <DDFLink>1</DDFLink>
@@ -1720,7 +1720,7 @@
         <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/3368.xml</DDF>
         <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3368.xml</LWM2M>
         <Vorto></Vorto>
-        <DDFLink></DDFLink>
+        <DDFLink>1</DDFLink>
         <TS></TS>
         <TSLink></TSLink>
     </Item>
