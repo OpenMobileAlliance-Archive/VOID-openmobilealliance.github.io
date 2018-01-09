@@ -14,4 +14,14 @@
         <ObjectIDEndRange>32868</ObjectIDEndRange>
         <Company>VAISALA</Company>
     </Item>
+        <Item>
+        <ObjectIDStartRange>32869</ObjectIDStartRange>
+        <ObjectIDEndRange>32918</ObjectIDEndRange>
+        <Company>Eaton</Company>
+    </Item>
+        <Item>
+        <ObjectIDStartRange>32919</ObjectIDStartRange>
+        <ObjectIDEndRange>32968</ObjectIDEndRange>
+        <Company>Eaton</Company>
+    </Item>
 </ReservedObjects>
