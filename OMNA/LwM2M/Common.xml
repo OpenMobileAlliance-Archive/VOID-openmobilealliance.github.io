@@ -2779,6 +2779,10 @@ First instance describes the least significant bit, second instance the second l
         <Type>Integer</Type>
 
         <RangeEnumeration>1-864000</RangeEnumeration>
+        
+        <Submitter>South East Water Corporation</Submitter>
+        
+        <Submitter></Submitter>
 
         <Units>Seconds</Units>
 
@@ -2803,6 +2807,8 @@ First instance describes the least significant bit, second instance the second l
         <Type>Integer</Type>
 
         <RangeEnumeration>0-86399</RangeEnumeration>
+        
+        <Submitter>South East Water Corporation</Submitter>
 
         <Units>Seconds</Units>
 
@@ -2827,6 +2833,8 @@ First instance describes the least significant bit, second instance the second l
         <Type>String</Type>
 
         <RangeEnumeration/>
+        
+        <Submitter>South East Water Corporation</Submitter>
 
         <Units/>
 
@@ -2851,6 +2859,8 @@ First instance describes the least significant bit, second instance the second l
         <Type>Time</Type>
 
         <RangeEnumeration/>
+        
+        <Submitter>South East Water Corporation</Submitter>
 
         <Units/>
 
@@ -2875,6 +2885,8 @@ First instance describes the least significant bit, second instance the second l
         <Type>Time</Type>
 
         <RangeEnumeration/>
+        
+        <Submitter>South East Water Corporation</Submitter>
 
         <Units/>
 
@@ -2899,6 +2911,8 @@ First instance describes the least significant bit, second instance the second l
         <Type>Time</Type>
 
         <RangeEnumeration/>
+        
+        <Submitter>South East Water Corporation</Submitter>
 
         <Units/>
 
@@ -2923,6 +2937,8 @@ First instance describes the least significant bit, second instance the second l
         <Type>Time</Type>
 
         <RangeEnumeration/>
+        
+        <Submitter>South East Water Corporation</Submitter>
 
         <Units/>
 
@@ -2947,6 +2963,8 @@ First instance describes the least significant bit, second instance the second l
         <Type>Boolean</Type>
 
         <RangeEnumeration/>
+        
+        <Submitter>South East Water Corporation</Submitter>
 
         <Units/>
 
@@ -2971,6 +2989,8 @@ First instance describes the least significant bit, second instance the second l
         <Type/>
 
         <RangeEnumeration/>
+        
+        <Submitter>South East Water Corporation</Submitter>
 
         <Units/>
 
@@ -2995,6 +3015,8 @@ First instance describes the least significant bit, second instance the second l
         <Type>Opaque</Type>
 
         <RangeEnumeration/>
+        
+        <Submitter>South East Water Corporation</Submitter>
 
         <Units/>
 
@@ -3019,6 +3041,8 @@ First instance describes the least significant bit, second instance the second l
         <Type/>
 
         <RangeEnumeration/>
+        
+        <Submitter>South East Water Corporation</Submitter>
 
         <Units/>
 
@@ -3043,6 +3067,8 @@ First instance describes the least significant bit, second instance the second l
         <Type>Integer</Type>
 
         <RangeEnumeration/>
+        
+        <Submitter>South East Water Corporation</Submitter>
 
         <Units/>
 
@@ -3067,6 +3093,8 @@ First instance describes the least significant bit, second instance the second l
         <Type>Boolean</Type>
 
         <RangeEnumeration/>
+        
+        <Submitter>South East Water Corporation</Submitter>
 
         <Units/>
 
@@ -3091,6 +3119,8 @@ First instance describes the least significant bit, second instance the second l
         <Type>Boolean</Type>
 
         <RangeEnumeration/>
+        
+        <Submitter>South East Water Corporation</Submitter>
 
         <Units/>
 
@@ -3115,6 +3145,8 @@ First instance describes the least significant bit, second instance the second l
         <Type>Float</Type>
 
         <RangeEnumeration/>
+        
+        <Submitter>South East Water Corporation</Submitter>
 
         <Units/>
 
@@ -3139,6 +3171,8 @@ First instance describes the least significant bit, second instance the second l
         <Type>Integer</Type>
 
         <RangeEnumeration/>
+        
+        <Submitter>South East Water Corporation</Submitter>
 
         <Units/>
 
@@ -3163,6 +3197,8 @@ First instance describes the least significant bit, second instance the second l
         <Type>Float</Type>
 
         <RangeEnumeration/>
+        
+        <Submitter>South East Water Corporation</Submitter>
 
         <Units/>
 
@@ -3187,6 +3223,8 @@ First instance describes the least significant bit, second instance the second l
         <Type>Integer</Type>
 
         <RangeEnumeration/>
+        
+        <Submitter>South East Water Corporation</Submitter>
 
         <Units/>
 
@@ -3211,6 +3249,8 @@ First instance describes the least significant bit, second instance the second l
         <Type>Integer</Type>
 
         <RangeEnumeration/>
+        
+        <Submitter>South East Water Corporation</Submitter>
 
         <Units/>
 
@@ -3235,6 +3275,8 @@ First instance describes the least significant bit, second instance the second l
         <Type>Integer</Type>
 
         <RangeEnumeration>1-864000</RangeEnumeration>
+        
+        <Submitter>South East Water Corporation</Submitter>
 
         <Units>Seconds</Units>
 
@@ -3259,6 +3301,8 @@ First instance describes the least significant bit, second instance the second l
         <Type>Time</Type>
 
         <RangeEnumeration/>
+        
+        <Submitter>South East Water Corporation</Submitter>
 
         <Units/>
 
@@ -3283,6 +3327,8 @@ First instance describes the least significant bit, second instance the second l
         <Type>Time</Type>
 
         <RangeEnumeration/>
+        
+        <Submitter>South East Water Corporation</Submitter>
 
         <Units/>
 
@@ -3307,6 +3353,8 @@ First instance describes the least significant bit, second instance the second l
         <Type/>
 
         <RangeEnumeration/>
+        
+        <Submitter>South East Water Corporation</Submitter>
 
         <Units/>
 
@@ -3331,6 +3379,8 @@ First instance describes the least significant bit, second instance the second l
         <Type>Boolean</Type>
 
         <RangeEnumeration/>
+        
+        <Submitter>South East Water Corporation</Submitter>
 
         <Units/>
 
@@ -3355,6 +3405,8 @@ First instance describes the least significant bit, second instance the second l
         <Type>Integer</Type>
 
         <RangeEnumeration>100-255</RangeEnumeration>
+        
+        <Submitter>South East Water Corporation</Submitter>
 
         <Units/>
 
@@ -3379,6 +3431,8 @@ First instance describes the least significant bit, second instance the second l
         <Type>Opaque</Type>
 
         <RangeEnumeration/>
+        
+        <Submitter>South East Water Corporation</Submitter>
 
         <Units/>
 
@@ -3403,6 +3457,8 @@ First instance describes the least significant bit, second instance the second l
         <Type/>
 
         <RangeEnumeration/>
+        
+        <Submitter>South East Water Corporation</Submitter>
 
         <Units/>
 
@@ -3427,6 +3483,8 @@ First instance describes the least significant bit, second instance the second l
         <Type/>
 
         <RangeEnumeration/>
+        
+        <Submitter>South East Water Corporation</Submitter>
 
         <Units/>
 
@@ -3451,6 +3509,8 @@ First instance describes the least significant bit, second instance the second l
         <Type>Integer</Type>
 
         <RangeEnumeration/>
+        
+        <Submitter>South East Water Corporation</Submitter>
 
         <Units/>
 
@@ -3475,6 +3535,8 @@ First instance describes the least significant bit, second instance the second l
         <Type>Opaque</Type>
 
         <RangeEnumeration/>
+        
+        <Submitter>South East Water Corporation</Submitter>
 
         <Units/>
 
@@ -3496,13 +3558,15 @@ First instance describes the least significant bit, second instance the second l
 
         <Mandatory>Mandatory</Mandatory>
 
-        <Type>Interger</Type>
+        <Type>Integer</Type>
 
         <RangeEnumeration/>
+        
+        <Submitter>GSMA</Submitter>
 
         <Units/>
 
-        <Description>Modem time when PLMN search is initiated</Description>
+        <Description>PLMN - mcc/mnc</Description>
 
       </Item>
 
@@ -3516,9 +3580,11 @@ First instance describes the least significant bit, second instance the second l
 
         <Mandatory>Mandatory</Mandatory>
 
-        <Type>Interger</Type>
+        <Type>Integer</Type>
 
         <RangeEnumeration/>
+        
+        <Submitter>GSMA</Submitter>
 
         <Units/>
 
@@ -3536,9 +3602,11 @@ First instance describes the least significant bit, second instance the second l
 
         <Mandatory>Mandatory</Mandatory>
 
-        <Type>Interger</Type>
+        <Type>Integer</Type>
 
         <RangeEnumeration/>
+        
+        <Submitter>GSMA</Submitter>
 
         <Units/>
 
@@ -3556,9 +3624,11 @@ First instance describes the least significant bit, second instance the second l
 
         <Mandatory>Mandatory</Mandatory>
 
-        <Type>Interger</Type>
+        <Type>Integer</Type>
         
         <RangeEnumeration/>
+        
+        <Submitter>GSMA</Submitter>
 
         <Units/>
 
@@ -3575,9 +3645,11 @@ First instance describes the least significant bit, second instance the second l
 
         <Mandatory>Mandatory</Mandatory>
 
-        <Type>Interger</Type>
+        <Type>Integer</Type>
 
         <RangeEnumeration/>
+        
+        <Submitter>GSMA</Submitter>
 
         <Units/>
 
@@ -3595,7 +3667,11 @@ First instance describes the least significant bit, second instance the second l
 
         <Mandatory>Mandatory</Mandatory>
 
-        <Type>Interger</Type>
+        <Type>Integer</Type>
+        
+          <RangeEnumeration/>
+        
+        <Submitter>GSMA</Submitter>
 
         <Units/>
 
@@ -3613,9 +3689,10 @@ First instance describes the least significant bit, second instance the second l
 
         <Mandatory>Mandatory</Mandatory>
 
-        <Type>Interger</Type>
+        <Type>Integer</Type>
         
         <RangeEnumeration/>
+        <Submitter>GSMA</Submitter>
 
         <Units/>
 
@@ -3633,9 +3710,10 @@ First instance describes the least significant bit, second instance the second l
 
         <Mandatory>Mandatory</Mandatory>
 
-        <Type>Interger</Type>
+        <Type>Integer</Type>
         
         <RangeEnumeration/>
+        <Submitter>GSMA</Submitter>
 
         <Units/>
 
@@ -3653,9 +3731,11 @@ First instance describes the least significant bit, second instance the second l
 
         <Mandatory>Mandatory</Mandatory>
 
-        <Type>Interger</Type>
+        <Type>Integer</Type>
         
         <RangeEnumeration/>
+        
+        <Submitter>GSMA</Submitter>
 
         <Units/>
 
