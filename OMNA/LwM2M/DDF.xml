@@ -2638,8 +2638,8 @@
     <Item>
         <ObjectID>10280</ObjectID>
         <URN>urn:oma:lwm2m:x:10280</URN>
-        <Name>Low Battery Alarm</Name>
-        <Description>This Alarm is raised when the battery voltage drops below a defined level</Description>
+        <Name>Water Network Leak Alarm</Name>
+        <Description>All meters must support the following default configuration. This alarm will be based on the frequency output of the vibration sensor/accelerometer on the SEW Daughter board. When a frequency is identified that has the characteristics of an upstream network leak, and its amplitude is above the defined threshold, the meter will report this as a network leak alarm.</Description>
         <Owner>South East Water Corporation</Owner>
         <Source>2</Source>
 
@@ -2654,8 +2654,8 @@
     <Item>
         <ObjectID>10281</ObjectID>
         <URN>urn:oma:lwm2m:x:10281</URN>
-        <Name>Pending</Name>
-        <Description></Description>
+        <Name>Low Battery Alarm </Name>
+        <Description>This Alarm is raised when the battery voltage drops below a defined level</Description>
         <Owner>South East Water Corporation</Owner>
         <Source>2</Source>
 
@@ -2663,7 +2663,7 @@
         <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/10281.xml</DDF>
         <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F10281.xml</LWM2M>
         <Vorto></Vorto>
-        <DDFLink>1</DDFLink>
+        <DDFLink>2</DDFLink>
         <TS></TS>
         <TSLink></TSLink>
     </Item>
