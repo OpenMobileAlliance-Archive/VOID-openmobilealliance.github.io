@@ -15,7 +15,6 @@
         <Company>VAISALA</Company>
     </Item>
     <Item>
-
         <ObjectIDStartRange>32869</ObjectIDStartRange>
         <ObjectIDEndRange>32918</ObjectIDEndRange>
         <Company>Eaton</Company>
@@ -24,5 +23,10 @@
         <ObjectIDStartRange>32919</ObjectIDStartRange>
         <ObjectIDEndRange>32968</ObjectIDEndRange>
         <Company>Eaton</Company>
+    </Item>
+        <Item>
+        <ObjectIDStartRange>32969</ObjectIDStartRange>
+        <ObjectIDEndRange>33009</ObjectIDEndRange>
+        <Company>HOP Ubiquitous</Company>
     </Item>
 </ReservedObjects>
