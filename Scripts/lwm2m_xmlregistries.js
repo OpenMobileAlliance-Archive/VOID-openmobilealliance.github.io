@@ -127,10 +127,10 @@
                 $tableselected.find('tbody').append(
                     '<tr>' +
                         '<td>' +
-                            '<a>' + resourceID + '</a>' +
+                            resourceID +
                         '</td>' +
                         '<td>' +
-                            '<a>' + resourceName + '</a>' +
+                            resourceName +
                         '</td>' +
                         '<td>' +
                              accessType +
