@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <DDFList>
-    -<Item>
+    <Item>
         <!-- Integer -->
         <!-- ObjectID -->
         <ObjectID>0</ObjectID>
@@ -31,7 +31,7 @@
         <TSLink>1</TSLink>
     </Item>
 
-    -<Item>
+    <Item>
         <ObjectID>1</ObjectID>
         <URN>urn:oma:lwm2m:oma:1</URN>
         <Name>LWM2M Server</Name>
@@ -48,7 +48,7 @@
         <TSLink>1</TSLink>
     </Item>
 
-    -<Item>
+    <Item>
         <ObjectID>2</ObjectID>
         <URN>urn:oma:lwm2m:oma:2</URN>
         <Name>Access Control</Name>
@@ -65,7 +65,7 @@
         <TSLink>1</TSLink>
     </Item>
 
-    -<Item>
+    <Item>
         <ObjectID>3</ObjectID>
         <URN>urn:oma:lwm2m:oma:3</URN>
         <Name>Device</Name>
@@ -82,7 +82,7 @@
         <TSLink>1</TSLink>
     </Item>
 
-    -<Item>
+    <Item>
         <ObjectID>4</ObjectID>
         <URN>urn:oma:lwm2m:oma:4</URN>
         <Name>Connectivity Monitoring</Name>
@@ -99,7 +99,7 @@
         <TSLink>1</TSLink>
     </Item>
 
-    -<Item>
+    <Item>
         <ObjectID>5</ObjectID>
         <URN>urn:oma:lwm2m:oma:5</URN>
         <Name>Firmware</Name>
@@ -116,7 +116,7 @@
         <TSLink>1</TSLink>
     </Item>
 
-    -<Item>
+    <Item>
         <ObjectID>6</ObjectID>
         <URN>urn:oma:lwm2m:oma:6</URN>
         <Name>Location</Name>
@@ -133,7 +133,7 @@
         <TSLink>1</TSLink>
     </Item>
 
-    -<Item>
+    <Item>
         <ObjectID>7</ObjectID>
         <URN>urn:oma:lwm2m:oma:7</URN>
         <Name>Connectivity Statistics</Name>
@@ -150,7 +150,7 @@
         <TSLink>1</TSLink>
     </Item>
 
-    -<Item>
+    <Item>
         <ObjectID>8</ObjectID>
         <URN>urn:oma:lwm2m:oma:8</URN>
         <Name>Lock and Wipe</Name>
@@ -166,7 +166,7 @@
         <TS>http://www.openmobilealliance.org/release/LWM2M_LOCKWIPE/V1_0-20151123-C/OMA-TS-LWM2M_LockWipe-V1_0-20151123-C.pdf</TS>
         <TSLink>1</TSLink>
     </Item>
-    -<Item>
+    <Item>
         <ObjectID>9</ObjectID>
         <URN>urn:oma:lwm2m:oma:9</URN>
         <Name>Sofware Management</Name>
@@ -183,7 +183,7 @@
         <TSLink>1</TSLink>
     </Item>
 
-    -<Item>
+    <Item>
         <ObjectID>10</ObjectID>
         <URN>urn:oma:lwm2m:oma:10</URN>
         <Name>Cellular connectivity</Name>
@@ -200,7 +200,7 @@
         <TSLink>1</TSLink>
     </Item>
 
-    -<Item>
+    <Item>
         <ObjectID>11</ObjectID>
         <URN>urn:oma:lwm2m:oma:11</URN>
         <Name>APN connection profile</Name>
@@ -217,7 +217,7 @@
         <TSLink>1</TSLink>
     </Item>
 
-    -<Item>
+    <Item>
         <ObjectID>12</ObjectID>
         <URN>urn:oma:lwm2m:oma:12</URN>
         <Name>WLAN connectivity</Name>
@@ -234,7 +234,7 @@
         <TSLink>1</TSLink>
     </Item>
 
-    -<Item>
+    <Item>
         <ObjectID>13</ObjectID>
         <URN>urn:oma:lwm2m:oma:13</URN>
         <Name>Bearer selection</Name>
@@ -251,7 +251,7 @@
         <TSLink>1</TSLink>
     </Item>
 
-    -<Item>
+    <Item>
         <ObjectID>14</ObjectID>
         <URN>urn:oma:lwm2m:oma:14</URN>
         <Name>Software Component</Name>
@@ -268,7 +268,7 @@
         <TSLink>1</TSLink>
     </Item>
 
-    -<Item>
+    <Item>
         <ObjectID>15</ObjectID>
         <URN>urn:oma:lwm2m:oma:15</URN>
         <Name>DevCapMgmt</Name>
@@ -285,7 +285,7 @@
         <TSLink>1</TSLink>
     </Item>
 
-    -<Item>
+    <Item>
         <ObjectID>16</ObjectID>
         <URN>urn:oma:lwm2m:oma:16</URN>
         <Name>Porfolio</Name>
@@ -301,7 +301,7 @@
         <TS>http://openmobilealliance.org/release/LWM2M_PortfolioObj/V1_0-20171114-A/OMA-TS-LWM2M_PortfolioObj-V1_0-20171114-A.pdf</TS>
         <TSLink>1</TSLink>
     </Item>
-    -<Item>
+    <Item>
         <ObjectID>17</ObjectID>
         <URN>urn:oma:lwm2m:oma:17</URN>
         <Name>Communications Characteristics</Name>
@@ -317,7 +317,7 @@
         <TS>x</TS>
         <TSLink>0</TSLink>
     </Item>
-    -<Item>
+    <Item>
         <ObjectID>18</ObjectID>
         <URN>urn:oma:lwm2m:oma:18</URN>
         <Name>Non-Access Stratum (NAS) Configuration</Name>
@@ -333,7 +333,7 @@
         <TS>x</TS>
         <TSLink>0</TSLink>
     </Item>
-    -<Item>
+    <Item>
         <ObjectID>19</ObjectID>
         <URN>urn:oma:lwm2m:oma:19</URN>
         <Name>LwM2M APPDATA</Name>
@@ -349,7 +349,7 @@
         <TS>x</TS>
         <TSLink>0</TSLink>
     </Item>
-    -<Item>
+    <Item>
 
         <ObjectID>20</ObjectID>
         <URN>urn:oma:lwm2m:oma:20</URN>
@@ -366,7 +366,7 @@
         <TS>x</TS>
         <TSLink>0</TSLink>
     </Item>
-    -<Item>
+    <Item>
         <ObjectID>2048</ObjectID>
         <URN>urn:oma:lwm2m:ext:2048</URN>
         <Name>CmdhPolicy</Name>
@@ -383,7 +383,7 @@
         <TSLink>1</TSLink>
     </Item>
 
-    -<Item>
+    <Item>
         <ObjectID>2049</ObjectID>
         <URN>urn:oma:lwm2m:ext:2049</URN>
         <Name>ActiveCmdhPolicy</Name>
@@ -400,7 +400,7 @@
         <TSLink>1</TSLink>
     </Item>
 
-    -<Item>
+    <Item>
         <ObjectID>2050</ObjectID>
         <URN>urn:oma:lwm2m:ext:2050</URN>
         <Name>CmdhDefaults</Name>
@@ -418,7 +418,7 @@
         <TSLink>1</TSLink>
     </Item>
 
-    -<Item>
+    <Item>
         <ObjectID>2051</ObjectID>
         <URN>urn:oma:lwm2m:ext:2051</URN>
         <Name>CmdhDefEcValues</Name>
@@ -435,7 +435,7 @@
         <TSLink>1</TSLink>
     </Item>
 
-    -<Item>
+    <Item>
         <ObjectID>2052</ObjectID>
         <URN>urn:oma:lwm2m:ext:2052</URN>
         <Name>CmdhEcDefParamValues</Name>
@@ -452,7 +452,7 @@
         <TSLink>1</TSLink>
     </Item>
 
-    -<Item>
+    <Item>
         <ObjectID>2053</ObjectID>
         <URN>urn:oma:lwm2m:ext:2053</URN>
         <Name>CmdhLimits</Name>
@@ -469,7 +469,7 @@
         <TSLink>1</TSLink>
     </Item>
 
-    -<Item>
+    <Item>
         <ObjectID>2054</ObjectID>
         <URN>urn:oma:lwm2m:ext:2054</URN>
         <Name>CmdhNetworkAccessRules</Name>
@@ -486,7 +486,7 @@
         <TSLink>1</TSLink>
     </Item>
 
-    -<Item>
+    <Item>
         <ObjectID>2055</ObjectID>
         <URN>urn:oma:lwm2m:ext:2055</URN>
         <Name>CmdhNwAccessRule</Name>
@@ -504,7 +504,7 @@
         <TSLink>1</TSLink>
     </Item>
 
-    -<Item>
+    <Item>
         <ObjectID>2056</ObjectID>
         <URN>urn:oma:lwm2m:ext:2056</URN>
         <Name>CmdhBuffer</Name>
@@ -536,7 +536,7 @@
         <TS>http://www.onem2m.org/images/files/deliverables/TS-0005-Management_Enablement_(OMA)-V1_0_1.pdf</TS>
         <TSLink>1</TSLink>
     </Item>
-    -<Item>
+    <Item>
         <ObjectID>3200</ObjectID>
         <URN>urn:oma:lwm2m:ext:3200</URN>
         <Name>Digital Input</Name>
@@ -553,7 +553,7 @@
         <TSLink>1</TSLink>
     </Item>
 
-    -<Item>
+    <Item>
         <ObjectID>3201</ObjectID>
         <URN>urn:oma:lwm2m:ext:3201</URN>
         <Name>Digital Output</Name>
@@ -570,7 +570,7 @@
         <TSLink>1</TSLink>
     </Item>
 
-    -<Item>
+    <Item>
         <ObjectID>3202</ObjectID>
         <URN>urn:oma:lwm2m:ext:3202</URN>
         <Name>Analogue Input</Name>
@@ -587,7 +587,7 @@
         <TSLink>1</TSLink>
     </Item>
 
-    -<Item>
+    <Item>
         <ObjectID>3203</ObjectID>
         <URN>urn:oma:lwm2m:ext:3203</URN>
         <Name>Analogue Output</Name>
@@ -604,7 +604,7 @@
         <TSLink>1</TSLink>
     </Item>
 
-    -<Item>
+    <Item>
         <ObjectID>3300</ObjectID>
         <URN>urn:oma:lwm2m:ext:3300</URN>
         <Name>Generic Sensor</Name>
@@ -621,7 +621,7 @@
         <TSLink>1</TSLink>
     </Item>
 
-    -<Item>
+    <Item>
         <ObjectID>3301</ObjectID>
         <URN>urn:oma:lwm2m:ext:3301</URN>
         <Name>Illuminance Sensor</Name>
@@ -638,7 +638,7 @@
         <TSLink>1</TSLink>
     </Item>
 
-    -<Item>
+    <Item>
         <ObjectID>3302</ObjectID>
         <URN>urn:oma:lwm2m:ext:3302</URN>
         <Name>Presence Sensor</Name>
@@ -655,7 +655,7 @@
         <TSLink>1</TSLink>
     </Item>
 
-    -<Item>
+    <Item>
         <ObjectID>3303</ObjectID>
         <URN>urn:oma:lwm2m:ext:3303</URN>
         <Name>Temperature Sensor</Name>
@@ -672,7 +672,7 @@
         <TSLink>1</TSLink>
     </Item>
 
-    -<Item>
+    <Item>
         <ObjectID>3304</ObjectID>
         <URN>urn:oma:lwm2m:ext:3304</URN>
         <Name>Humidity Sensor</Name>
@@ -689,7 +689,7 @@
         <TSLink>1</TSLink>
     </Item>
 
-    -<Item>
+    <Item>
         <ObjectID>3305</ObjectID>
         <URN>urn:oma:lwm2m:ext:3305</URN>
         <Name>Power Measurement</Name>
@@ -706,7 +706,7 @@
         <TSLink>1</TSLink>
     </Item>
 
-    -<Item>
+    <Item>
         <ObjectID>3306</ObjectID>
         <URN>urn:oma:lwm2m:ext:3306</URN>
         <Name>Actuation</Name>
@@ -723,7 +723,7 @@
         <TSLink>1</TSLink>
     </Item>
 
-    -<Item>
+    <Item>
         <ObjectID>3308</ObjectID>
         <URN>urn:oma:lwm2m:ext:3308</URN>
         <Name>Set Point</Name>
@@ -740,7 +740,7 @@
         <TSLink>1</TSLink>
     </Item>
 
-    -<Item>
+    <Item>
         <ObjectID>3310</ObjectID>
         <URN>urn:oma:lwm2m:ext:3310</URN>
         <Name>Load Control</Name>
@@ -757,7 +757,7 @@
         <TSLink>1</TSLink>
     </Item>
 
-    -<Item>
+    <Item>
         <ObjectID>3311</ObjectID>
         <URN>urn:oma:lwm2m:ext:3311</URN>
         <Name>Light Control</Name>
@@ -774,7 +774,7 @@
         <TSLink>1</TSLink>
     </Item>
 
-    -<Item>
+    <Item>
         <ObjectID>3312</ObjectID>
         <URN>urn:oma:lwm2m:ext:3312</URN>
         <Name>Power Control</Name>
@@ -791,7 +791,7 @@
         <TSLink>1</TSLink>
     </Item>
 
-    -<Item>
+    <Item>
         <ObjectID>3313</ObjectID>
         <URN>urn:oma:lwm2m:ext:3313</URN>
         <Name>Accelerometer</Name>
@@ -808,7 +808,7 @@
         <TSLink>1</TSLink>
     </Item>
 
-    -<Item>
+    <Item>
         <ObjectID>3314</ObjectID>
         <URN>urn:oma:lwm2m:ext:3314</URN>
         <Name>Magnetometer</Name>
@@ -825,7 +825,7 @@
         <TSLink>1</TSLink>
     </Item>
 
-    -<Item>
+    <Item>
         <ObjectID>3315</ObjectID>
         <URN>urn:oma:lwm2m:ext:3315</URN>
         <Name>Barometer</Name>
@@ -842,7 +842,7 @@
         <TSLink>1</TSLink>
     </Item>
 
-    -<Item>
+    <Item>
         <ObjectID>3316</ObjectID>
         <URN>urn:oma:lwm2m:ext:3316</URN>
         <Name>Voltage</Name>
@@ -859,7 +859,7 @@
         <TSLink>1</TSLink>
     </Item>
 
-    -<Item>
+    <Item>
         <ObjectID>3317</ObjectID>
         <URN>urn:oma:lwm2m:ext:3317</URN>
         <Name>Current</Name>
@@ -876,7 +876,7 @@
         <TSLink>1</TSLink>
     </Item>
 
-    -<Item>
+    <Item>
         <ObjectID>3318</ObjectID>
         <URN>urn:oma:lwm2m:ext:3318</URN>
         <Name>Frequency</Name>
@@ -893,7 +893,7 @@
         <TSLink>1</TSLink>
     </Item>
 
-    -<Item>
+    <Item>
         <ObjectID>3319</ObjectID>
         <URN>urn:oma:lwm2m:ext:3319</URN>
         <Name>Depth</Name>
@@ -910,7 +910,7 @@
         <TSLink>1</TSLink>
     </Item>
 
-    -<Item>
+    <Item>
         <ObjectID>3320</ObjectID>
         <URN>urn:oma:lwm2m:ext:3320</URN>
         <Name>Percentage</Name>
@@ -927,7 +927,7 @@
         <TSLink>1</TSLink>
     </Item>
 
-    -<Item>
+    <Item>
         <ObjectID>3321</ObjectID>
         <URN>urn:oma:lwm2m:ext:3321</URN>
         <Name>Altitude</Name>
@@ -944,7 +944,7 @@
         <TSLink>1</TSLink>
     </Item>
 
-    -<Item>
+    <Item>
         <ObjectID>3322</ObjectID>
         <URN>urn:oma:lwm2m:ext:3322</URN>
         <Name>Load</Name>
@@ -961,7 +961,7 @@
         <TSLink>1</TSLink>
     </Item>
 
-    -<Item>
+    <Item>
         <ObjectID>3323</ObjectID>
         <URN>urn:oma:lwm2m:ext:3323</URN>
         <Name>Pressure</Name>
@@ -978,7 +978,7 @@
         <TSLink>1</TSLink>
     </Item>
 
-    -<Item>
+    <Item>
         <ObjectID>3324</ObjectID>
         <URN>urn:oma:lwm2m:ext:3324</URN>
         <Name>Loudness</Name>
@@ -995,7 +995,7 @@
         <TSLink>1</TSLink>
     </Item>
 
-    -<Item>
+    <Item>
         <ObjectID>3325</ObjectID>
         <URN>urn:oma:lwm2m:ext:3325</URN>
         <Name>Concentration</Name>
@@ -1012,7 +1012,7 @@
         <TSLink>1</TSLink>
     </Item>
 
-    -<Item>
+    <Item>
         <ObjectID>3326</ObjectID>
         <URN>urn:oma:lwm2m:ext:3326</URN>
         <Name>Acidity</Name>
@@ -1029,7 +1029,7 @@
         <TSLink>1</TSLink>
     </Item>
 
-    -<Item>
+    <Item>
         <ObjectID>3327</ObjectID>
         <URN>urn:oma:lwm2m:ext:3327</URN>
         <Name>Conductivity</Name>
@@ -1046,7 +1046,7 @@
         <TSLink>1</TSLink>
     </Item>
 
-    -<Item>
+    <Item>
         <ObjectID>3328</ObjectID>
         <URN>urn:oma:lwm2m:ext:3328</URN>
         <Name>Power</Name>
@@ -1063,7 +1063,7 @@
         <TSLink>1</TSLink>
     </Item>
 
-    -<Item>
+    <Item>
         <ObjectID>3329</ObjectID>
         <URN>urn:oma:lwm2m:ext:3329</URN>
         <Name>Power Factor</Name>
@@ -1080,7 +1080,7 @@
         <TSLink>1</TSLink>
     </Item>
 
-    -<Item>
+    <Item>
         <ObjectID>3330</ObjectID>
         <URN>urn:oma:lwm2m:ext:3330</URN>
         <Name>Distance</Name>
@@ -1097,7 +1097,7 @@
         <TSLink>1</TSLink>
     </Item>
 
-    -<Item>
+    <Item>
         <ObjectID>3331</ObjectID>
         <URN>urn:oma:lwm2m:ext:3331</URN>
         <Name>Energy</Name>
@@ -1114,7 +1114,7 @@
         <TSLink>1</TSLink>
     </Item>
 
-    -<Item>
+    <Item>
         <ObjectID>3332</ObjectID>
         <URN>urn:oma:lwm2m:ext:3332</URN>
         <Name>Direction</Name>
@@ -1131,7 +1131,7 @@
         <TSLink>1</TSLink>
     </Item>
 
-    -<Item>
+    <Item>
         <ObjectID>3333</ObjectID>
         <URN>urn:oma:lwm2m:ext:3333</URN>
         <Name>Time</Name>
@@ -1148,7 +1148,7 @@
         <TSLink>1</TSLink>
     </Item>
 
-    -<Item>
+    <Item>
         <ObjectID>3334</ObjectID>
         <URN>urn:oma:lwm2m:ext:3334</URN>
         <Name>Gyrometer</Name>
@@ -1165,7 +1165,7 @@
         <TSLink>1</TSLink>
     </Item>
 
-    -<Item>
+    <Item>
         <ObjectID>3335</ObjectID>
         <URN>urn:oma:lwm2m:ext:3335</URN>
         <Name>Color</Name>
@@ -1182,7 +1182,7 @@
         <TSLink>1</TSLink>
     </Item>
 
-    -<Item>
+    <Item>
         <ObjectID>3336</ObjectID>
         <URN>urn:oma:lwm2m:ext:3336</URN>
         <Name>GPS Location</Name>
@@ -1199,7 +1199,7 @@
         <TSLink>1</TSLink>
     </Item>
 
-    -<Item>
+    <Item>
         <ObjectID>3337</ObjectID>
         <URN>urn:oma:lwm2m:ext:3337</URN>
         <Name>Positioner</Name>
@@ -1216,7 +1216,7 @@
         <TSLink>1</TSLink>
     </Item>
 
-    -<Item>
+    <Item>
         <ObjectID>3338</ObjectID>
         <URN>urn:oma:lwm2m:ext:3338</URN>
         <Name>Buzzer</Name>
@@ -1233,7 +1233,7 @@
         <TSLink>1</TSLink>
     </Item>
 
-    -<Item>
+    <Item>
         <ObjectID>3339</ObjectID>
         <URN>urn:oma:lwm2m:ext:3339</URN>
         <Name>Audio Clip</Name>
@@ -1250,7 +1250,7 @@
         <TSLink>1</TSLink>
     </Item>
 
-    -<Item>
+    <Item>
         <ObjectID>3340</ObjectID>
         <URN>urn:oma:lwm2m:ext:3340</URN>
         <Name>Timer</Name>
@@ -1267,7 +1267,7 @@
         <TSLink>1</TSLink>
     </Item>
 
-    -<Item>
+    <Item>
         <ObjectID>3341</ObjectID>
         <URN>urn:oma:lwm2m:ext:3341</URN>
         <Name>Addressable Text Display</Name>
@@ -1284,7 +1284,7 @@
         <TSLink>1</TSLink>
     </Item>
 
-    -<Item>
+    <Item>
         <ObjectID>3342</ObjectID>
         <URN>urn:oma:lwm2m:ext:3342</URN>
         <Name>On/Off Switch</Name>
@@ -1301,7 +1301,7 @@
         <TSLink>1</TSLink>
     </Item>
 
-    -<Item>
+    <Item>
         <ObjectID>3343</ObjectID>
         <URN>urn:oma:lwm2m:ext:3343</URN>
         <Name>Lever Control</Name>
@@ -1318,7 +1318,7 @@
         <TSLink>1</TSLink>
     </Item>
 
-    -<Item>
+    <Item>
         <ObjectID>3344</ObjectID>
         <URN>urn:oma:lwm2m:ext:3344</URN>
         <Name>Up/Down Control</Name>
@@ -1335,7 +1335,7 @@
         <TSLink>1</TSLink>
     </Item>
 
-    -<Item>
+    <Item>
         <ObjectID>3345</ObjectID>
         <URN>urn:oma:lwm2m:ext:3345</URN>
         <Name>Multiple Axis Joystick</Name>
@@ -1352,7 +1352,7 @@
         <TSLink>1</TSLink>
     </Item>
 
-    -<Item>
+    <Item>
         <ObjectID>3346</ObjectID>
         <URN>urn:oma:lwm2m:ext:3346</URN>
         <Name>Rate</Name>
@@ -1369,7 +1369,7 @@
         <TSLink>1</TSLink>
     </Item>
 
-    -<Item>
+    <Item>
         <ObjectID>3347</ObjectID>
         <URN>urn:oma:lwm2m:ext:3347</URN>
         <Name>Push Button</Name>
@@ -1386,7 +1386,7 @@
         <TSLink>1</TSLink>
     </Item>
 
-    -<Item>
+    <Item>
         <ObjectID>3348</ObjectID>
         <URN>urn:oma:lwm2m:ext:3348</URN>
         <Name>Multistate Selector</Name>
@@ -1402,7 +1402,7 @@
         <TS>https://github.com/IPSO-Alliance/pub/blob/master/README.md</TS>
         <TSLink>1</TSLink>
     </Item>
-    -<Item>
+    <Item>
         <ObjectID>3349</ObjectID>
         <URN>urn:oma:lwm2m:ext:3349</URN>
         <Name>Bitmap</Name>
@@ -1418,7 +1418,7 @@
         <TS>https://github.com/IPSO-Alliance/pub/blob/master/README.md</TS>
         <TSLink>1</TSLink>
     </Item>
-    -<Item>
+    <Item>
         <ObjectID>3350</ObjectID>
         <URN>urn:oma:lwm2m:ext:3350</URN>
         <Name>Stopwatch</Name>
@@ -2012,7 +2012,7 @@
         <TS></TS>
         <TSLink></TSLink>
     </Item>
-    -<Item>
+    <Item>
         <ObjectID>10241</ObjectID>
         <URN>urn:oma:lwm2m:x:10241</URN>
         <Name>HostDeviceInfo</Name>
@@ -2029,7 +2029,7 @@
         <TSLink>0</TSLink>
     </Item>
 
-    -<Item>
+    <Item>
         <ObjectID>10242</ObjectID>
         <URN>urn:oma:lwm2m:x:10242</URN>
         <Name>3-PhasePM</Name>
