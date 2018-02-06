@@ -73,7 +73,7 @@
         <Owner>OMA</Owner>
         <Source>0</Source>
 
-        <Ver>1.0</Ver>
+        <Ver>1.0.1</Ver>
         <DDF>http://www.openmobilealliance.org/tech/profiles/LWM2M_Device-v1_0_1.xml</DDF>
         <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3a%2f%2fwww.openmobilealliance.org%2ftech%2fprofiles%2fLWM2M_Device-v1_0_1.xml</LWM2M>
         <Vorto>http://vorto.eclipse.org/resolve/lwm2m/Object/ObjectID/3</Vorto>
@@ -850,7 +850,7 @@
         <Owner>IPSO Alliance</Owner>
         <Source>1</Source>
 
-        <Ver />
+        <Ver>1.0</Ver>
         <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/3316.xml</DDF>
         <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3316.xml</LWM2M>
         <Vorto>http://vorto.eclipse.org/resolve/lwm2m/Object/ObjectID/3316</Vorto>
@@ -867,7 +867,7 @@
         <Owner>IPSO Alliance</Owner>
         <Source>1</Source>
 
-        <Ver />
+        <Ver>1.0</Ver>
         <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/3317.xml</DDF>
         <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3317.xml</LWM2M>
         <Vorto>http://vorto.eclipse.org/resolve/lwm2m/Object/ObjectID/3317</Vorto>
@@ -1442,7 +1442,7 @@
         <Owner>GSMA</Owner>
         <Source>1</Source>
 
-        <Ver />
+        <Ver>1.0</Ver>
         <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/3351.xml</DDF>
         <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3351.xml</LWM2M>
         <Vorto></Vorto>
@@ -1458,7 +1458,7 @@
         <Owner>GSMA</Owner>
         <Source>1</Source>
 
-        <Ver />
+        <Ver>1.0</Ver>
         <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/3352.xml</DDF>
         <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3352.xml</LWM2M>
         <Vorto></Vorto>
@@ -1491,7 +1491,7 @@
         <Owner>GSMA</Owner>
         <Source>1</Source>
 
-        <Ver />
+        <Ver>1.0</Ver>
         <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/3354.xml</DDF>
         <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3354.xml</LWM2M>
         <Vorto></Vorto>
@@ -1507,7 +1507,7 @@
         <Owner>GSMA</Owner>
         <Source>1</Source>
 
-        <Ver />
+        <Ver>1.0</Ver>
         <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/3355.xml</DDF>
         <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3355.xml</LWM2M>
         <Vorto></Vorto>
@@ -1523,7 +1523,7 @@
         <Owner>GSMA</Owner>
         <Source>1</Source>
 
-        <Ver />
+        <Ver>1.0</Ver>
         <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/3356.xml</DDF>
         <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3356.xml</LWM2M>
         <Vorto></Vorto>
@@ -1539,7 +1539,7 @@
         <Owner>GSMA</Owner>
         <Source>1</Source>
 
-        <Ver />
+        <Ver>1.0</Ver>
         <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/3357.xml</DDF>
         <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3357.xml</LWM2M>
         <Vorto></Vorto>
@@ -1555,7 +1555,7 @@
         <Owner>GSMA</Owner>
         <Source>1</Source>
 
-        <Ver />
+        <Ver>1.0</Ver>
         <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/3358.xml</DDF>
         <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3358.xml</LWM2M>
         <Vorto></Vorto>
@@ -1571,7 +1571,7 @@
         <Owner>GSMA</Owner>
         <Source>1</Source>
 
-        <Ver />
+        <Ver>1.0</Ver>
         <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/3359.xml</DDF>
         <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3359.xml</LWM2M>
         <Vorto></Vorto>
@@ -1587,7 +1587,7 @@
         <Owner>GSMA</Owner>
         <Source>1</Source>
 
-        <Ver />
+        <Ver>1.0</Ver>
         <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/3360.xml</DDF>
         <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3360.xml</LWM2M>
         <Vorto></Vorto>
@@ -1603,7 +1603,7 @@
         <Owner>GSMA</Owner>
         <Source>1</Source>
 
-        <Ver />
+        <Ver>1.0</Ver>
         <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/3361.xml</DDF>
         <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3361.xml</LWM2M>
         <Vorto></Vorto>
@@ -1620,7 +1620,7 @@
         <Owner>GSMA</Owner>
         <Source>1</Source>
 
-        <Ver />
+        <Ver>1.0</Ver>
         <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/3362.xml</DDF>
         <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3362.xml</LWM2M>
         <Vorto></Vorto>
@@ -1636,7 +1636,7 @@
         <Owner>GSMA</Owner>
         <Source>1</Source>
 
-        <Ver />
+        <Ver>1.0</Ver>
         <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/3363.xml</DDF>
         <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3363.xml</LWM2M>
         <Vorto></Vorto>
@@ -1652,7 +1652,7 @@
         <Owner>GSMA</Owner>
         <Source>1</Source>
 
-        <Ver />
+        <Ver>1.0</Ver>
         <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/3364.xml</DDF>
         <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3364.xml</LWM2M>
         <Vorto></Vorto>
@@ -1668,7 +1668,7 @@
         <Owner>GSMA</Owner>
         <Source>1</Source>
 
-        <Ver />
+        <Ver>1.0</Ver>
         <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/3365.xml</DDF>
         <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3365.xml</LWM2M>
         <Vorto></Vorto>
@@ -1684,7 +1684,7 @@
         <Owner>GSMA</Owner>
         <Source>1</Source>
 
-        <Ver />
+        <Ver>1.0</Ver>
         <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/3366.xml</DDF>
         <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3366.xml</LWM2M>
         <Vorto></Vorto>
@@ -1700,7 +1700,7 @@
         <Owner>GSMA</Owner>
         <Source>1</Source>
 
-        <Ver />
+        <Ver>1.0</Ver>
         <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/3367.xml</DDF>
         <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3367.xml</LWM2M>
         <Vorto></Vorto>
@@ -1716,7 +1716,7 @@
         <Owner>GSMA</Owner>
         <Source>1</Source>
 
-        <Ver />
+        <Ver>1.0</Ver>
         <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/3368.xml</DDF>
         <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3368.xml</LWM2M>
         <Vorto></Vorto>
@@ -1732,7 +1732,7 @@
         <Owner>GSMA</Owner>
         <Source>1</Source>
 
-        <Ver />
+        <Ver>1.0</Ver>
         <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/3369.xml</DDF>
         <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3369.xml</LWM2M>
         <Vorto></Vorto>
@@ -1748,7 +1748,7 @@
         <Owner>GSMA</Owner>
         <Source>1</Source>
 
-        <Ver />
+        <Ver>1.0</Ver>
         <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/3370.xml</DDF>
         <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3370.xml</LWM2M>
         <Vorto></Vorto>
@@ -1764,7 +1764,7 @@
         <Owner>GSMA</Owner>
         <Source>1</Source>
 
-        <Ver />
+        <Ver>1.0</Ver>
         <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/3371.xml</DDF>
         <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3371.xml</LWM2M>
         <Vorto></Vorto>
@@ -1780,7 +1780,7 @@
         <Owner>GSMA</Owner>
         <Source>1</Source>
 
-        <Ver />
+        <Ver>1.0</Ver>
         <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/3372.xml</DDF>
         <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3372.xml</LWM2M>
         <Vorto></Vorto>
@@ -1796,7 +1796,7 @@
         <Owner>GSMA</Owner>
         <Source>1</Source>
 
-        <Ver />
+        <Ver>1.0</Ver>
         <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/3373.xml</DDF>
         <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3373.xml</LWM2M>
         <Vorto></Vorto>
@@ -1812,7 +1812,7 @@
         <Owner>GSMA</Owner>
         <Source>1</Source>
 
-        <Ver />
+        <Ver>1.0</Ver>
         <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/3374.xml</DDF>
         <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3374.xml</LWM2M>
         <Vorto></Vorto>
@@ -1828,7 +1828,7 @@
         <Owner>GSMA</Owner>
         <Source>1</Source>
 
-        <Ver />
+        <Ver>1.0</Ver>
         <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/3375.xml</DDF>
         <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3375.xml</LWM2M>
         <Vorto></Vorto>
@@ -1844,7 +1844,7 @@
         <Owner>GSMA</Owner>
         <Source>1</Source>
 
-        <Ver />
+        <Ver>1.0</Ver>
         <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/3376.xml</DDF>
         <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3376.xml</LWM2M>
         <Vorto></Vorto>
@@ -1860,7 +1860,7 @@
         <Owner>GSMA</Owner>
         <Source>1</Source>
 
-        <Ver />
+        <Ver>1.0</Ver>
         <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/3377.xml</DDF>
         <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3377.xml</LWM2M>
         <Vorto></Vorto>
@@ -1876,7 +1876,7 @@
         <Owner>GSMA</Owner>
         <Source>1</Source>
 
-        <Ver />
+        <Ver>1.0</Ver>
         <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/3378.xml</DDF>
         <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3378.xml</LWM2M>
         <Vorto></Vorto>
@@ -1892,7 +1892,7 @@
         <Owner>GSMA</Owner>
         <Source>1</Source>
 
-        <Ver />
+        <Ver>1.0</Ver>
         <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/3379.xml</DDF>
         <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3379.xml</LWM2M>
         <Vorto></Vorto>
@@ -1908,7 +1908,7 @@
         <Owner>GSMA</Owner>
         <Source>1</Source>
 
-        <Ver />
+        <Ver>1.0</Ver>
         <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/3380.xml</DDF>
         <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3380.xml</LWM2M>
         <Vorto></Vorto>
@@ -1924,7 +1924,7 @@
         <Owner>GSMA</Owner>
         <Source>1</Source>
 
-        <Ver />
+        <Ver>1.0</Ver>
         <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/3381.xml</DDF>
         <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3381.xml</LWM2M>
         <Vorto></Vorto>
@@ -1940,7 +1940,7 @@
         <Owner>GSMA</Owner>
         <Source>1</Source>
 
-        <Ver />
+        <Ver>1.0</Ver>
         <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/3382.xml</DDF>
         <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3382.xml</LWM2M>
         <Vorto></Vorto>
@@ -1956,7 +1956,7 @@
         <Owner>GSMA</Owner>
         <Source>1</Source>
 
-        <Ver />
+        <Ver>1.0</Ver>
         <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/3383.xml</DDF>
         <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3383.xml</LWM2M>
         <Vorto></Vorto>
@@ -1972,7 +1972,7 @@
         <Owner>GSMA</Owner>
         <Source>1</Source>
 
-        <Ver />
+        <Ver>1.0</Ver>
         <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/3384.xml</DDF>
         <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3384.xml</LWM2M>
         <Vorto></Vorto>
@@ -1988,7 +1988,7 @@
         <Owner>GSMA</Owner>
         <Source>1</Source>
 
-        <Ver />
+        <Ver>1.0</Ver>
         <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/3385.xml</DDF>
         <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3385.xml</LWM2M>
         <Vorto></Vorto>
@@ -2004,7 +2004,7 @@
         <Owner>GSMA</Owner>
         <Source>1</Source>
 
-        <Ver />
+        <Ver>1.0</Ver>
         <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/3386.xml</DDF>
         <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3386.xml</LWM2M>
         <Vorto></Vorto>
