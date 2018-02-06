@@ -1,52 +1,30 @@
-<?xml version="1.0" encoding="UTF-8"?>
-
-<LWM2M>
-
-
-  <Object ObjectType="MODefinition">
-
-    <Name>IPSO Alliance Common Resources</Name>
-
-    <Description1/>
-
-    <ObjectID>0</ObjectID>
-
-    <ObjectURN/>
-
-    <MultipleInstances>Multiple</MultipleInstances>
-
-    <Mandatory>Optional</Mandatory>
-
-
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LWM2M xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.openmobilealliance.org/tech/profiles/reusable_resources_v1_0.xsd">
+  <Object ObjectType="CommonResources">
     <Resources>
-
-
+      <!-- Resource ID of the reusable resource -->
       <Item ID="4000">
-
+        <!-- Name of the reusable resource -->
         <Name>ObjectInstanceHandle</Name>
-
+        <!-- Allowed Operation on the reusable resource-->
         <Operations>R</Operations>
-
-        <MultipleInstances></MultipleInstances>
-
-        <Mandatory></Mandatory>
-
+        <!-- Type of the reusable resource -->
         <Type>Objlnk</Type>
-
+        <!-- Range/Enumeration of the reusable resource -->
         <RangeEnumeration></RangeEnumeration>
-
+        <!-- Unit of the reusable resource -->
         <Units></Units>
-
+        <!-- Name of the organization that has registered the object -->
         <Submitter>OMA</Submitter>
-
+        <!-- Description of the reusable resource -->
         <Description>
-
-          <![CDATA[The object link is used to refer an Instance of a given Object. An Object link value is composed of two concatenated 16-bits unsigned integers following the Network Byte Order convention. The Most Significant Halfword is an ObjectID, the Least Significant Hafword is an ObjectInstance ID.An Object Link referencing no Object Instance will contain the concatenation of 2 MAX-ID values (null link.]]>
-
+          <![CDATA[The object link is used to refer an Instance of a given Object. An Object link value is composed of two concatenated 16-bits unsigned integers following the Network Byte Order convention. The Most Significant Halfword is an ObjectID, the Least Significant Hafword is an ObjectInstance ID.An Object Link referencing no Object Instance will contain the concatenation of 2 MAX-ID values (null link. Test 5]]>
         </Description>
-
+        <!-- Link to the technical specification (word, pdf etc.) -->
+        <TS></TS>
+        <!--    0 => if link to TS should not be visible, 1 => if link to TS should be visible (default) -->
+        <TSLink>0</TSLink>
       </Item>
-
 
       <Item ID="4001">
 
@@ -54,20 +32,19 @@
 
         <Operations>R</Operations>
 
-        <MultipleInstances>Single</MultipleInstances>
-
-        <Mandatory>Optional</Mandatory>
-
         <Type>String</Type>
 
         <RangeEnumeration></RangeEnumeration>
+        
+        <Units></Units>
+        
         <Submitter>OMA</Submitter>
 
-        <Description>
-
-          <![CDATA[LWM2M Object versioning label.]]>
-
-        </Description>
+        <Description><![CDATA[LWM2M Object versioning label.]]></Description>
+        
+        <TS></TS>
+        
+        <TSLink>0</TSLink>
 
       </Item>
 
@@ -78,23 +55,19 @@
 
         <Operations>RW</Operations>
 
-        <MultipleInstances>Single</MultipleInstances>
-
-        <Mandatory>Optional</Mandatory>
-
         <Type>Integer</Type>
 
         <RangeEnumeration>255</RangeEnumeration>
-
-        <RangeEnumeration></RangeEnumeration>
+        
+        <Units></Units>
 
         <Submitter>OMA</Submitter>
 
-        <Description>
-
-          <![CDATA[ Define the Log Event Class: 0: generic (default)  1: system   2: security  3: event   4: trace   5: panic   6: charging [7-99]: reserved [100-255]: vendor specific ]]>
-
-        </Description>
+        <Description><![CDATA[ Define the Log Event Class: 0: generic (default)  1: system   2: security  3: event   4: trace   5: panic   6: charging [7-99]: reserved [100-255]: vendor specific ]]></Description>
+        
+        <TS>http://www.openmobilealliance.org/documents/whitepapers/OMA-ORG-LightweightM2M_Guidelines_Logging_Reusable_Resources-V1_0-20171129-A.pdf</TS>
+        
+        <TSLink>1</TSLink>
 
       </Item>
 
@@ -105,25 +78,19 @@
 
         <Operations>E</Operations>
 
-        <MultipleInstances>Single</MultipleInstances>
-
-        <Mandatory>Optional</Mandatory>
-
         <Type></Type>
 
         <RangeEnumeration></RangeEnumeration>
         
+        <Units></Units>
+        
         <Submitter>OMA</Submitter>
 
-        <Description>
-
-          <![CDATA[Actions:
-a) Start data collection(DC)
-b) LogStatus is set to 0 (running)
-c) DC is emptied (default) or extended according arg'0' value 
-Arguments definitions are described in the table below.]]>
-
-        </Description>
+        <Description><![CDATA[Actions:a) Start data collection(DC)b) LogStatus is set to 0 (running)c) DC is emptied (default) or extended according arg'0' value Arguments definitions are described in the table below.]]></Description>
+        
+         <TS>http://www.openmobilealliance.org/documents/whitepapers/OMA-ORG-LightweightM2M_Guidelines_Logging_Reusable_Resources-V1_0-20171129-A.pdf</TS>
+        
+        <TSLink>1</TSLink>
 
       </Item>
 
@@ -134,22 +101,21 @@ Arguments definitions are described in the table below.]]>
 
         <Operations>E</Operations>
 
-        <MultipleInstances>Single</MultipleInstances>
-
-        <Mandatory>Optional</Mandatory>
-
         <Type></Type>
 
         <RangeEnumeration></RangeEnumeration>
+        
+        <Units></Units>
+        
         <Submitter>OMA</Submitter>
 
-        <Description>
+        <Description><![CDATA[Actions: a) Stop data collection(DC) b)  1st LSB of LogStatus is set to "1"(stopped) c) DC is kept (default) or emptied according arg'0' value Arguments definitions are described in the table below.  ]]></Description>
+        
+        <TS>http://www.openmobilealliance.org/documents/whitepapers/OMA-ORG-LightweightM2M_Guidelines_Logging_Reusable_Resources-V1_0-20171129-A.pdf</TS>
+        
+        <TSLink>1</TSLink>
 
-          <![CDATA[Actions: a) Stop data collection(DC) b)  1st LSB of LogStatus is set to "1"(stopped) c) DC is kept (default) or emptied according arg'0' value Arguments definitions are described in the table below.  ]]>
-
-        </Description>
-
-      </Item>
+         </Item>
 
 
       <Item ID="4013">
@@ -158,21 +124,19 @@ Arguments definitions are described in the table below.]]>
 
         <Operations>R</Operations>
 
-        <MultipleInstances>Single</MultipleInstances>
-
-        <Mandatory>Optional</Mandatory>
-
         <Type>Integer</Type>
 
         <RangeEnumeration>8-Bits</RangeEnumeration>
+        
+        <Units></Units>
 
         <Submitter>OMA</Submitter>
 
-        <Description>
-
-          <![CDATA[Data Collection process status: Each bit of this Resource Instance value defines specific status: 1st LSB 0=running, 1=stopped 2nd LSB 1=LogData contains Valid Data 0=LogData doesn’t contain Valid Data 3rd LSB 1=Error occurred during Data Collection 0=No error [4th -7th ] LSB:reserved 8th LSB: vendor specific.]]>
-
-        </Description>
+        <Description><![CDATA[Data Collection process status: Each bit of this Resource Instance value defines specific status: 1st LSB 0=running, 1=stopped 2nd LSB 1=LogData contains Valid Data 0=LogData doesn’t contain Valid Data 3rd LSB 1=Error occurred during Data Collection 0=No error [4th -7th ] LSB:reserved 8th LSB: vendor specific.]]></Description>
+        
+         <TS>http://www.openmobilealliance.org/documents/whitepapers/OMA-ORG-LightweightM2M_Guidelines_Logging_Reusable_Resources-V1_0-20171129-A.pdf</TS>
+        
+        <TSLink>1</TSLink>
 
       </Item>
 
@@ -183,22 +147,22 @@ Arguments definitions are described in the table below.]]>
 
         <Operations>R</Operations>
 
-        <MultipleInstances>Multiple</MultipleInstances>
-
-        <Mandatory>Optional</Mandatory>
-
         <Type>Opaque</Type>
 
         <RangeEnumeration></RangeEnumeration>
+        
+        <Units></Units>
+        
         <Submitter>OMA</Submitter>
 
-        <Description>
-
-          <![CDATA[Read Access on that Resource returns the Data Collection associated to the current Object Instance.  ]]>
-
-        </Description>
+        <Description><![CDATA[Read Access on that Resource returns the Data Collection associated to the current Object Instance.  ]]></Description>
+        
+        <TS>http://www.openmobilealliance.org/documents/whitepapers/OMA-ORG-LightweightM2M_Guidelines_Logging_Reusable_Resources-V1_0-20171129-A.pdf</TS>
+        
+        <TSLink>1</TSLink>
 
       </Item>
+      
 
       <Item ID="4015">
 
@@ -206,53 +170,45 @@ Arguments definitions are described in the table below.]]>
 
         <Operations>RW</Operations>
 
-        <MultipleInstances></MultipleInstances>
-
-        <Mandatory></Mandatory>
-
         <Type>Integer</Type>
 
         <RangeEnumeration>255</RangeEnumeration>
         
+        <Units></Units>
+        
         <Submitter>OMA</Submitter>
 
-        <Description> 
-        <![CDATA[ when set by the Server, this Resource indicates to the Client, what is the Server preferred data format to use when the LogData Resource is returned
-. when retrieved by the Server, this Resource indicates which specific data format is used when the LogData Resource is returned to the Server 
-0  or Resource not present : no specific data format (sequence of bytes)
-1 : OMA-LwM2M TLV format
-2 : OMA-LwM2M JSON format
-3:  OMA-LwM2M CBOR format
-[4..99] reserved
-[100..255] vendor specific data format
- ]]>
-        </Description>
+        <Description> <![CDATA[ when set by the Server, this Resource indicates to the Client, what is the Server preferred data format to use when the LogData Resource is returned. when retrieved by the Server, this Resource indicates which specific data format is used when the LogData Resource is returned to the Server 
+0  or Resource not present : no specific data format (sequence of bytes)1 : OMA-LwM2M TLV format2 : OMA-LwM2M JSON format3:  OMA-LwM2M CBOR format[4..99] reserved [100..255] vendor specific data format]]></Description>
+        
+        <TS>http://www.openmobilealliance.org/documents/whitepapers/OMA-ORG-LightweightM2M_Guidelines_Logging_Reusable_Resources-V1_0-20171129-A.pdf</TS>
+        
+        <TSLink>1</TSLink>
 
-      </Item>
+       </Item>
 
 
-      <Item ID="5500">
+       <Item ID="5500">
 
         <Name>Digital Input State</Name>
 
         <Operations>R</Operations>
 
-        <MultipleInstances></MultipleInstances>
-
-        <Mandatory></Mandatory>
-
         <Type>Boolean</Type>
 
         <RangeEnumeration></RangeEnumeration>
+        
+        <Units></Units>
+        
         <Submitter>IPSO</Submitter>
 
-        <Description>
+        <Description><![CDATA[The current state of a digital input.]]> </Description>
+        
+         <TS></TS>
+        
+        <TSLink>0</TSLink>
 
-          <![CDATA[The current state of a digital input.]]>
-
-        </Description>
-
-      </Item>
+        </Item>
 
 
       <Item ID="5501">
@@ -261,20 +217,17 @@ Arguments definitions are described in the table below.]]>
 
         <Operations>R</Operations>
 
-        <MultipleInstances></MultipleInstances>
-
-        <Mandatory></Mandatory>
-
         <Type>Integer</Type>
 
         <RangeEnumeration></RangeEnumeration>
+        
         <Submitter>IPSO</Submitter>
 
-        <Description>
-
-          <![CDATA[The cumulative value of active state detected.]]>
-
-        </Description>
+        <Description><![CDATA[The cumulative value of active state detected.]]></Description>
+        
+        <TS></TS>
+        
+        <TSLink>0</TSLink>
 
       </Item>
 
@@ -285,20 +238,19 @@ Arguments definitions are described in the table below.]]>
 
         <Operations>RW</Operations>
 
-        <MultipleInstances></MultipleInstances>
-
-        <Mandatory></Mandatory>
-
         <Type>Boolean</Type>
 
         <RangeEnumeration></RangeEnumeration>
+        
+        <Units></Units>
+        
         <Submitter>IPSO</Submitter>
 
-        <Description>
-
-          <![CDATA[The polarity of a digital input as a Boolean (0 = Normal, 1= Reversed)]]>
-
-        </Description>
+        <Description><![CDATA[The polarity of a digital input as a Boolean (0 = Normal, 1= Reversed)]]></Description>
+        
+        <TS></TS>
+        
+        <TSLink>0</TSLink>
 
       </Item>
 
@@ -309,10 +261,6 @@ Arguments definitions are described in the table below.]]>
 
         <Operations>RW</Operations>
 
-        <MultipleInstances></MultipleInstances>
-
-        <Mandatory></Mandatory>
-
         <Type>Integer</Type>
 
         <RangeEnumeration>1-3</RangeEnumeration>
@@ -321,11 +269,11 @@ Arguments definitions are described in the table below.]]>
 
         <Submitter>IPSO</Submitter>
 
-        <Description>
-
-          <![CDATA[The debounce period in ms.]]>
-
-        </Description>
+        <Description><![CDATA[The debounce period in ms.]]></Description>
+        
+        <TS></TS>
+        
+        <TSLink>0</TSLink>
 
       </Item>
 
@@ -336,22 +284,19 @@ Arguments definitions are described in the table below.]]>
 
         <Operations>RW</Operations>
 
-        <MultipleInstances></MultipleInstances>
-
-        <Mandatory></Mandatory>
-
         <Type>Integer</Type>
 
         <RangeEnumeration></RangeEnumeration>
-
+        
+        <Units></Units>
 
         <Submitter>IPSO</Submitter>
 
-        <Description>
-
-          <![CDATA[The edge selection as an integer (1 = Falling edge, 2 = Rising edge, 3 = Both Rising and Falling edge)]]>
-
-        </Description>
+        <Description><![CDATA[The edge selection as an integer (1 = Falling edge, 2 = Rising edge, 3 = Both Rising and Falling edge)]]></Description>
+        
+        <TS></TS>
+        
+        <TSLink>0</TSLink>
 
       </Item>
 
@@ -362,21 +307,19 @@ Arguments definitions are described in the table below.]]>
 
         <Operations>E</Operations>
 
-        <MultipleInstances></MultipleInstances>
-
-        <Mandatory></Mandatory>
-
         <Type>Opaque</Type>
 
         <RangeEnumeration></RangeEnumeration>
+        
+        <Units></Units>
 
         <Submitter>IPSO</Submitter>
 
-        <Description>
-
-          <![CDATA[Reset the Counter value]]>
-
-        </Description>
+        <Description><![CDATA[Reset the Counter value]]></Description>
+        
+         <TS></TS>
+        
+        <TSLink>0</TSLink>
 
       </Item>
 
@@ -387,21 +330,19 @@ Arguments definitions are described in the table below.]]>
 
         <Operations>RW</Operations>
 
-        <MultipleInstances></MultipleInstances>
-
-        <Mandatory></Mandatory>
-
         <Type>Time</Type>
 
         <RangeEnumeration></RangeEnumeration>
+        
+        <Units></Units>
 
         <Submitter>IPSO</Submitter>
 
-        <Description>
-
-          <![CDATA[Unix Time. A signed integer representing the number of seconds since Jan 1st, 1970 in the UTC time zone.]]>
-
-        </Description>
+        <Description><![CDATA[Unix Time. A signed integer representing the number of seconds since Jan 1st, 1970 in the UTC time zone.]]></Description>
+        
+         <TS></TS>
+        
+        <TSLink>0</TSLink>
 
       </Item>
 
@@ -411,10 +352,6 @@ Arguments definitions are described in the table below.]]>
 
         <Operations>RW</Operations>
 
-        <MultipleInstances>Single</MultipleInstances>
-
-        <Mandatory>Optional</Mandatory>
-
         <Type>Float</Type>
 
         <RangeEnumeration>0-1</RangeEnumeration>
@@ -423,11 +360,11 @@ Arguments definitions are described in the table below.]]>
 
         <Submitter>IPSO</Submitter>
 
-        <Description>
-
-          <![CDATA[For shorter times of a fraction of a second (i.e. 0.23).]]>
-
-        </Description>
+        <Description><![CDATA[For shorter times of a fraction of a second (i.e. 0.23).]]></Description>
+        
+        <TS></TS>
+        
+        <TSLink>0</TSLink>
 
       </Item>
 
@@ -438,10 +375,6 @@ Arguments definitions are described in the table below.]]>
 
         <Operations>R</Operations>
 
-        <MultipleInstances>Single</MultipleInstances>
-
-        <Mandatory>Optional</Mandatory>
-
         <Type>Float</Type>
 
         <RangeEnumeration></RangeEnumeration>
@@ -450,14 +383,13 @@ Arguments definitions are described in the table below.]]>
 
         <Submitter>IPSO</Submitter>
 
-        <Description>
-
-          <![CDATA[The minimum measured value along the X axis]]>
-
-        </Description>
+        <Description><![CDATA[The minimum measured value along the X axis]]></Description>
+        
+         <TS></TS>
+        
+        <TSLink>0</TSLink>
 
       </Item>
-
 
       <Item ID="5509">
 
@@ -465,10 +397,6 @@ Arguments definitions are described in the table below.]]>
 
         <Operations>R</Operations>
 
-        <MultipleInstances>Single</MultipleInstances>
-
-        <Mandatory>Optional</Mandatory>
-
         <Type>Float</Type>
 
         <RangeEnumeration></RangeEnumeration>
@@ -477,14 +405,13 @@ Arguments definitions are described in the table below.]]>
 
         <Submitter>IPSO</Submitter>
 
-        <Description>
-
-          <![CDATA[The maximum measured value along the X axis]]>
-
-        </Description>
+        <Description><![CDATA[The maximum measured value along the X axis]]></Description>
+        
+        <TS></TS>
+        
+        <TSLink>0</TSLink>
 
       </Item>
-
 
       <Item ID="5510">
 
@@ -492,10 +419,6 @@ Arguments definitions are described in the table below.]]>
 
         <Operations>R</Operations>
 
-        <MultipleInstances>Single</MultipleInstances>
-
-        <Mandatory>Optional</Mandatory>
-
         <Type>Float</Type>
 
         <RangeEnumeration></RangeEnumeration>
@@ -504,14 +427,13 @@ Arguments definitions are described in the table below.]]>
 
         <Submitter>IPSO</Submitter>
 
-        <Description>
-
-          <![CDATA[The minimum measured value along the Y axis]]>
-
-        </Description>
+        <Description><![CDATA[The minimum measured value along the Y axis]]></Description>
+        
+        <TS></TS>
+        
+        <TSLink>0</TSLink>
 
       </Item>
-
 
       <Item ID="5511">
 
@@ -519,10 +441,6 @@ Arguments definitions are described in the table below.]]>
 
         <Operations>R</Operations>
 
-        <MultipleInstances>Single</MultipleInstances>
-
-        <Mandatory>Optional</Mandatory>
-
         <Type>Float</Type>
 
         <RangeEnumeration></RangeEnumeration>
@@ -531,14 +449,13 @@ Arguments definitions are described in the table below.]]>
 
         <Submitter>IPSO</Submitter>
 
-        <Description>
-
-          <![CDATA[The maximum measured value along the Y axis]]>
-
-        </Description>
+        <Description><![CDATA[The maximum measured value along the Y axis]]></Description>
+        
+        <TS></TS>
+        
+        <TSLink>0</TSLink>
 
       </Item>
-
 
       <Item ID="5512">
 
@@ -546,10 +463,6 @@ Arguments definitions are described in the table below.]]>
 
         <Operations>R</Operations>
 
-        <MultipleInstances>Single</MultipleInstances>
-
-        <Mandatory>Optional</Mandatory>
-
         <Type>Float</Type>
 
         <RangeEnumeration></RangeEnumeration>
@@ -558,14 +471,13 @@ Arguments definitions are described in the table below.]]>
 
         <Submitter>IPSO</Submitter>
 
-        <Description>
-
-          <![CDATA[The minimum measured value along the Z axis]]>
-
-        </Description>
+        <Description><![CDATA[The minimum measured value along the Z axis]]></Description>
+        
+        <TS></TS>
+        
+        <TSLink>0</TSLink>
 
       </Item>
-
 
       <Item ID="5513">
 
@@ -573,10 +485,6 @@ Arguments definitions are described in the table below.]]>
 
         <Operations>R</Operations>
 
-        <MultipleInstances>Single</MultipleInstances>
-
-        <Mandatory>Optional</Mandatory>
-
         <Type>Float</Type>
 
         <RangeEnumeration></RangeEnumeration>
@@ -585,40 +493,35 @@ Arguments definitions are described in the table below.]]>
 
         <Submitter>IPSO</Submitter>
 
-        <Description>
-
-          <![CDATA[The maximum measured value along the Z axis]]>
-
-        </Description>
+        <Description><![CDATA[The maximum measured value along the Z axis]]></Description>
+        
+         <TS></TS>
+        
+        <TSLink>0</TSLink>
 
       </Item>
-
-
 
       <Item ID="5514">
 
         <Name>Latitude</Name>
 
         <Operations>R</Operations>
-
-        <MultipleInstances>Single</MultipleInstances>
-
-        <Mandatory>Mandatory</Mandatory>
-
+        
         <Type>String</Type>
 
         <RangeEnumeration></RangeEnumeration>
+        
+        <Units></Units>
 
         <Submitter>IPSO</Submitter>
 
-        <Description>
-
-          <![CDATA[The decimal notation of latitude, e.g. -43.5723 (World Geodetic System 1984).]]>
-
-        </Description>
+        <Description><![CDATA[The decimal notation of latitude, e.g. -43.5723 (World Geodetic System 1984).]]></Description>
+        
+        <TS></TS>
+        
+        <TSLink>0</TSLink>
 
       </Item>
-
 
       <Item ID="5515">
 
@@ -626,24 +529,21 @@ Arguments definitions are described in the table below.]]>
 
         <Operations>R</Operations>
 
-        <MultipleInstances>Single</MultipleInstances>
-
-        <Mandatory>Mandatory</Mandatory>
-
         <Type>String</Type>
 
         <RangeEnumeration></RangeEnumeration>
+        
+        <Units></Units>
 
         <Submitter>IPSO</Submitter>
 
-        <Description>
-
-          <![CDATA[The decimal notation of longitude, e.g. 153.21760 (World Geodetic System 1984).]]>
-
-        </Description>
+        <Description><![CDATA[The decimal notation of longitude, e.g. 153.21760 (World Geodetic System 1984).]]></Description>
+        
+         <TS></TS>
+        
+        <TSLink>0</TSLink>
 
       </Item>
-
 
       <Item ID="5516">
 
@@ -651,24 +551,21 @@ Arguments definitions are described in the table below.]]>
 
         <Operations>R</Operations>
 
-        <MultipleInstances>Single</MultipleInstances>
-
-        <Mandatory>Optional</Mandatory>
-
         <Type>String</Type>
 
         <RangeEnumeration></RangeEnumeration>
+        
+        <Units></Units>
 
         <Submitter>IPSO</Submitter>
 
-        <Description>
-
-          <![CDATA[The accuracy of the position in meters.]]>
-
-        </Description>
+        <Description><![CDATA[The accuracy of the position in meters.]]></Description>
+        
+        <TS></TS>
+        
+        <TSLink>0</TSLink>
 
       </Item>
-
 
       <Item ID="5517">
 
@@ -676,21 +573,19 @@ Arguments definitions are described in the table below.]]>
 
         <Operations>R</Operations>
 
-        <MultipleInstances>Single</MultipleInstances>
-
-        <Mandatory>Optional</Mandatory>
-
         <Type>Opaque</Type>
 
         <RangeEnumeration></RangeEnumeration>
+        
+        <Units></Units>
 
         <Submitter>IPSO</Submitter>
 
-        <Description>
-
-          <![CDATA[The velocity of the device as defined in 3GPP 23.032 GAD specification. This set of values may not be available if the device is static.]]>
-
-        </Description>
+        <Description><![CDATA[The velocity of the device as defined in 3GPP 23.032 GAD specification. This set of values may not be available if the device is static.]]></Description>
+        
+        <TS></TS>
+        
+        <TSLink>0</TSLink>
 
       </Item>
 
@@ -701,13 +596,11 @@ Arguments definitions are described in the table below.]]>
 
         <Operations>R</Operations>
 
-        <MultipleInstances>Single</MultipleInstances>
-
-        <Mandatory>Optional</Mandatory>
-
         <Type>Time</Type>
 
         <RangeEnumeration></RangeEnumeration>
+        
+        <Units></Units>
 
         <Submitter>IPSO</Submitter>
 
@@ -716,8 +609,12 @@ Arguments definitions are described in the table below.]]>
           <![CDATA[The timestamp of when the location measurement was performed.]]>
 
         </Description>
+        
+        <TS></TS>
+        
+        <TSLink>0</TSLink>
 
-      </Item>
+       </Item>
 
 
       <Item ID="5519">
@@ -726,10 +623,7 @@ Arguments definitions are described in the table below.]]>
 
         <Operations>R</Operations>
 
-        <MultipleInstances>Single</MultipleInstances>
-
-        <Mandatory>Optional</Mandatory>
-
+ 
         <Type>Float</Type>
 
         <RangeEnumeration>Same as Measured Value</RangeEnumeration>
@@ -738,14 +632,13 @@ Arguments definitions are described in the table below.]]>
 
         <Submitter>IPSO</Submitter>
 
-        <Description>
-
-          <![CDATA[The minimum value that can be measured by the sensor.]]>
-
-        </Description>
+        <Description><![CDATA[The minimum value that can be measured by the sensor.]]></Description>
+        
+        <TS></TS>
+        
+        <TSLink>0</TSLink>
 
       </Item>
-
 
 
       <Item ID="5520">
@@ -753,11 +646,7 @@ Arguments definitions are described in the table below.]]>
         <Name>Max Limit</Name>
 
         <Operations>R</Operations>
-
-        <MultipleInstances>Single</MultipleInstances>
-
-        <Mandatory>Optional</Mandatory>
-
+ 
         <Type>Float</Type>
 
         <RangeEnumeration>Same as Measured Value</RangeEnumeration>
@@ -766,11 +655,11 @@ Arguments definitions are described in the table below.]]>
 
         <Submitter>IPSO</Submitter>
 
-        <Description>
-
-          <![CDATA[The maximum value that can be measured by the sensor.]]>
-
-        </Description>
+        <Description><![CDATA[The maximum value that can be measured by the sensor.]]></Description>
+        
+        <TS></TS>
+        
+        <TSLink>0</TSLink>
 
       </Item>
 
@@ -779,11 +668,7 @@ Arguments definitions are described in the table below.]]>
         <Name>Delay Duration</Name>
 
         <Operations>RW</Operations>
-
-        <MultipleInstances>Single</MultipleInstances>
-
-        <Mandatory>Optional</Mandatory>
-
+ 
         <Type>Float</Type>
 
         <RangeEnumeration></RangeEnumeration>
@@ -792,11 +677,11 @@ Arguments definitions are described in the table below.]]>
 
         <Submitter>IPSO</Submitter>
 
-        <Description>
-
-          <![CDATA[The duration of the time delay.]]>
-
-        </Description>
+        <Description><![CDATA[The duration of the time delay.]]></Description>
+        
+        <TS></TS>
+        
+        <TSLink>0</TSLink>
 
       </Item>
 
@@ -806,20 +691,19 @@ Arguments definitions are described in the table below.]]>
 
         <Operations>RW</Operations>
 
-        <MultipleInstances>Single</MultipleInstances>
-
-        <Mandatory>Mandatory</Mandatory>
-
         <Type>Opaque</Type>
 
         <RangeEnumeration></RangeEnumeration>
+        
+        <Units></Units>
+        
         <Submitter>IPSO</Submitter>
 
-        <Description>
-
-          <![CDATA[Audio Clip that is playable (i.e. short audio recording indicating the floor in an elevator).]]>
-
-        </Description>
+        <Description><![CDATA[Audio Clip that is playable (i.e. short audio recording indicating the floor in an elevator).]]></Description>
+        
+        <TS></TS>
+        
+        <TSLink>0</TSLink>
 
       </Item>
 
@@ -829,20 +713,19 @@ Arguments definitions are described in the table below.]]>
 
         <Operations>E</Operations>
 
-        <MultipleInstances>Single</MultipleInstances>
-
-        <Mandatory>Optional</Mandatory>
-
         <Type>Opaque</Type>
 
         <RangeEnumeration></RangeEnumeration>
+        
+        <Units></Units>
+        
         <Submitter>IPSO</Submitter>
 
-        <Description>
-
-          <![CDATA[Trigger initiating actuation.]]>
-
-        </Description>
+        <Description><![CDATA[Trigger initiating actuation.]]></Description>
+        
+         <TS></TS>
+        
+        <TSLink>0</TSLink>
 
       </Item>
 
@@ -852,10 +735,6 @@ Arguments definitions are described in the table below.]]>
 
         <Operations>RW</Operations>
 
-        <MultipleInstances>Single</MultipleInstances>
-
-        <Mandatory>Optional</Mandatory>
-
         <Type>Float</Type>
 
         <RangeEnumeration></RangeEnumeration>
@@ -864,24 +743,19 @@ Arguments definitions are described in the table below.]]>
 
         <Submitter>IPSO</Submitter>
 
-        <Description>
-
-          <![CDATA[The duration of the sound once trigger.]]>
-
-        </Description>
+        <Description><![CDATA[The duration of the sound once trigger.]]></Description>
+        
+        <TS></TS>
+        
+        <TSLink>0</TSLink>
 
       </Item>
-
 
       <Item ID="5525">
 
         <Name>Minimum Off-time</Name>
 
         <Operations>RW</Operations>
-
-        <MultipleInstances>Single</MultipleInstances>
-
-        <Mandatory>Mandatory</Mandatory>
 
         <Type>Float</Type>
 
@@ -891,14 +765,13 @@ Arguments definitions are described in the table below.]]>
 
         <Submitter>IPSO</Submitter>
 
-        <Description>
-
-          <![CDATA[The off time when On/Off control remains on.]]>
-
-        </Description>
+        <Description><![CDATA[The off time when On/Off control remains on.]]></Description>
+        
+         <TS></TS>
+        
+        <TSLink>0</TSLink>
 
       </Item>
-
 
       <Item ID="5526">
 
@@ -906,26 +779,21 @@ Arguments definitions are described in the table below.]]>
 
         <Operations>RW</Operations>
 
-        <MultipleInstances>Single</MultipleInstances>
-
-        <Mandatory>Optional</Mandatory>
-
         <Type>Integer</Type>
 
         <RangeEnumeration>0-4</RangeEnumeration>
 
-        <RangeEnumeration></RangeEnumeration>
+        <Units></Units>
 
         <Submitter>IPSO</Submitter>
 
-        <Description>
-
-          <![CDATA[Type of timer pattern used by the patterns.]]>
-
-        </Description>
+        <Description><![CDATA[Type of timer pattern used by the patterns.]]></Description>
+        
+        <TS></TS>
+        
+        <TSLink>0</TSLink>
 
       </Item>
-
 
       <Item ID="5527">
 
@@ -933,20 +801,19 @@ Arguments definitions are described in the table below.]]>
 
         <Operations>RW</Operations>
 
-        <MultipleInstances>Single</MultipleInstances>
-
-        <Mandatory>Mandatory</Mandatory>
-
         <Type>String</Type>
 
         <RangeEnumeration></RangeEnumeration>
+        
+        <Units></Units>
+        
         <Submitter>IPSO</Submitter>
 
-        <Description>
-
-          <![CDATA[A string of text.]]>
-
-        </Description>
+        <Description><![CDATA[A string of text.]]></Description>
+        
+        <TS></TS>
+        
+        <TSLink>0</TSLink>
 
       </Item>
 
@@ -956,25 +823,22 @@ Arguments definitions are described in the table below.]]>
         <Name>X Coordinate</Name>
 
         <Operations>RW</Operations>
-
-        <MultipleInstances>Single</MultipleInstances>
-
-        <Mandatory>Optional</Mandatory>
-
+ 
         <Type>Integer</Type>
 
         <RangeEnumeration></RangeEnumeration>
+        
+        <Units></Units>
+        
         <Submitter>IPSO</Submitter>
 
-        <Description>
-
-          <![CDATA[X Coordinate.]]>
-
-        </Description>
+        <Description><![CDATA[X Coordinate.]]></Description>
+        
+        <TS></TS>
+        
+        <TSLink>0</TSLink>
 
       </Item>
-
-
 
       <Item ID="5529">
 
@@ -982,23 +846,21 @@ Arguments definitions are described in the table below.]]>
 
         <Operations>RW</Operations>
 
-        <MultipleInstances>Single</MultipleInstances>
-
-        <Mandatory>Optional</Mandatory>
-
         <Type>Integer</Type>
 
         <RangeEnumeration></RangeEnumeration>
+        
+        <Units></Units>
+        
         <Submitter>IPSO</Submitter>
 
-        <Description>
-
-          <![CDATA[Y Coordinate.]]>
-
-        </Description>
+        <Description><![CDATA[Y Coordinate.]]></Description>
+        
+         <TS></TS>
+        
+        <TSLink>0</TSLink>
 
       </Item>
-
 
       <Item ID="5530">
 
@@ -1006,13 +868,12 @@ Arguments definitions are described in the table below.]]>
 
         <Operations>E</Operations>
 
-        <MultipleInstances>Single</MultipleInstances>
-
-        <Mandatory>Optional</Mandatory>
-
-        <Type/>
+        <Type></Type>
 
         <RangeEnumeration></RangeEnumeration>
+        
+        <Units></Units>
+        
         <Submitter>IPSO</Submitter>
 
         <Description>
@@ -1020,6 +881,11 @@ Arguments definitions are described in the table below.]]>
           <![CDATA[Command to clear the display.]]>
 
         </Description>
+        
+        <TS></TS>
+        
+        <TSLink>0</TSLink>
+
 
       </Item>
 
@@ -1028,11 +894,7 @@ Arguments definitions are described in the table below.]]>
         <Name>Contrast</Name>
 
         <Operations>RW</Operations>
-
-        <MultipleInstances>Single</MultipleInstances>
-
-        <Mandatory>Optional</Mandatory>
-
+ 
         <Type>Float</Type>
 
         <RangeEnumeration>0-100</RangeEnumeration>
@@ -1041,11 +903,11 @@ Arguments definitions are described in the table below.]]>
 
         <Submitter>IPSO</Submitter>
 
-        <Description>
-
-          <![CDATA[Proportional control, integer value between 0 and 100 as a percentage.]]>
-
-        </Description>
+        <Description><![CDATA[Proportional control, integer value between 0 and 100 as a percentage.]]></Description>
+        
+        <TS></TS>
+        
+        <TSLink>0</TSLink>
 
       </Item>
 
@@ -1055,20 +917,19 @@ Arguments definitions are described in the table below.]]>
 
         <Operations>R</Operations>
 
-        <MultipleInstances>Single</MultipleInstances>
-
-        <Mandatory>Mandatory</Mandatory>
-
         <Type>Boolean</Type>
 
         <RangeEnumeration></RangeEnumeration>
+        
+        <Units></Units>
+        
         <Submitter>IPSO</Submitter>
 
-        <Description>
-
-          <![CDATA[Indicates an increase control action.]]>
-
-        </Description>
+        <Description><![CDATA[Indicates an increase control action.]]></Description>
+        
+        <TS></TS>
+        
+        <TSLink>0</TSLink>
 
       </Item>
 
@@ -1079,20 +940,20 @@ Arguments definitions are described in the table below.]]>
 
         <Operations>R</Operations>
 
-        <MultipleInstances>Single</MultipleInstances>
-
-        <Mandatory>Mandatory</Mandatory>
 
         <Type>Boolean</Type>
 
         <RangeEnumeration></RangeEnumeration>
+        
+        <Units></Units>
+        
         <Submitter>IPSO</Submitter>
 
-        <Description>
-
-          <![CDATA[Indicates a decrease control action.]]>
-
-        </Description>
+        <Description><![CDATA[Indicates a decrease control action.]]></Description>
+        
+       <TS></TS>
+        
+        <TSLink>0</TSLink>
 
       </Item>
 
@@ -1103,20 +964,19 @@ Arguments definitions are described in the table below.]]>
 
         <Operations>RW</Operations>
 
-        <MultipleInstances>Single</MultipleInstances>
-
-        <Mandatory>Optional</Mandatory>
-
         <Type>Integer</Type>
 
         <RangeEnumeration></RangeEnumeration>
+        
+        <Units></Units>
+        
         <Submitter>IPSO</Submitter>
 
-        <Description>
-
-          <![CDATA[Counts the number of times the timer output transitions from 0 to 1.]]>
-
-        </Description>
+        <Description><![CDATA[Counts the number of times the timer output transitions from 0 to 1.]]></Description>
+        
+         <TS></TS>
+        
+        <TSLink>0</TSLink>
 
       </Item>
 
@@ -1126,23 +986,19 @@ Arguments definitions are described in the table below.]]>
 
         <Operations>RW</Operations>
 
-        <MultipleInstances>Single</MultipleInstances>
-
-        <Mandatory>Mandatory</Mandatory>
-
         <Type>Float</Type>
 
         <RangeEnumeration>0-100</RangeEnumeration>
-
+        
         <Units>%</Units>
 
         <Submitter>IPSO</Submitter>
 
-        <Description>
-
-          <![CDATA[Current position or desired position of a positioner actuator.]]>
-
-        </Description>
+        <Description><![CDATA[Current position or desired position of a positioner actuator.]]></Description>
+        
+       <TS></TS>
+        
+        <TSLink>0</TSLink>
 
       </Item>
 
@@ -1153,10 +1009,6 @@ Arguments definitions are described in the table below.]]>
 
         <Operations>RW</Operations>
 
-        <MultipleInstances>Single</MultipleInstances>
-
-        <Mandatory>Optional</Mandatory>
-
         <Type>Float</Type>
 
         <RangeEnumeration></RangeEnumeration>
@@ -1165,11 +1017,11 @@ Arguments definitions are described in the table below.]]>
 
         <Submitter>IPSO</Submitter>
 
-        <Description>
-
-          <![CDATA[The time expected to move the actuator to the new position.]]>
-
-        </Description>
+        <Description><![CDATA[The time expected to move the actuator to the new position.]]></Description>
+        
+        <TS></TS>
+        
+        <TSLink>0</TSLink>
 
       </Item>
 
@@ -1179,11 +1031,7 @@ Arguments definitions are described in the table below.]]>
         <Name>Remaining Time</Name>
 
         <Operations>R</Operations>
-
-        <MultipleInstances>Single</MultipleInstances>
-
-        <Mandatory>Optional</Mandatory>
-
+ 
         <Type>Float</Type>
 
         <RangeEnumeration></RangeEnumeration>
@@ -1192,11 +1040,11 @@ Arguments definitions are described in the table below.]]>
 
         <Submitter>IPSO</Submitter>
 
-        <Description>
-
-          <![CDATA[The time remaining in an operation.]]>
-
-        </Description>
+        <Description><![CDATA[The time remaining in an operation.]]></Description>
+        
+        <TS></TS>
+        
+        <TSLink>0</TSLink>
 
       </Item>
 
@@ -1207,20 +1055,19 @@ Arguments definitions are described in the table below.]]>
 
         <Operations>RW</Operations>
 
-        <MultipleInstances>Single</MultipleInstances>
-
-        <Mandatory>Optional</Mandatory>
-
         <Type>Integer</Type>
 
         <RangeEnumeration></RangeEnumeration>
+        
+        <Units></Units>
+        
         <Submitter>IPSO</Submitter>
 
-        <Description>
-
-          <![CDATA[Counts the number of times the increase control has been operated. Writing a 0 resets the counter.]]>
-
-        </Description>
+        <Description><![CDATA[Counts the number of times the increase control has been operated. Writing a 0 resets the counter.]]></Description>
+        
+       <TS></TS>
+        
+        <TSLink>0</TSLink>
 
       </Item>
 
@@ -1231,23 +1078,21 @@ Arguments definitions are described in the table below.]]>
 
         <Operations>RW</Operations>
 
-        <MultipleInstances>Single</MultipleInstances>
-
-        <Mandatory>Optional</Mandatory>
-
         <Type>Integer</Type>
 
         <RangeEnumeration></RangeEnumeration>
+        
+        <Units></Units>
+        
         <Submitter>IPSO</Submitter>
 
-        <Description>
-
-          <![CDATA[Counts the times the decrease control has been operated. Writing a 0 resets the counter.]]>
-
-        </Description>
+        <Description><![CDATA[Counts the times the decrease control has been operated. Writing a 0 resets the counter.]]></Description>
+        
+        <TS></TS>
+        
+        <TSLink>0</TSLink>
 
       </Item>
-
 
       <Item ID="5543">
 
@@ -1255,20 +1100,19 @@ Arguments definitions are described in the table below.]]>
 
         <Operations>R</Operations>
 
-        <MultipleInstances>Single</MultipleInstances>
-
-        <Mandatory>Optional</Mandatory>
-
         <Type>Boolean</Type>
 
         <RangeEnumeration></RangeEnumeration>
+        
+        <Units></Units>
+        
         <Submitter>IPSO</Submitter>
 
-        <Description>
-
-          <![CDATA[The current state of the timer output.]]>
-
-        </Description>
+        <Description><![CDATA[The current state of the timer output.]]></Description>
+        
+        <TS></TS>
+        
+        <TSLink>0</TSLink>
 
       </Item>
 
@@ -1278,11 +1122,7 @@ Arguments definitions are described in the table below.]]>
         <Name>Cumulative Time</Name>
 
         <Operations>RW</Operations>
-
-        <MultipleInstances>Single</MultipleInstances>
-
-        <Mandatory>Optional</Mandatory>
-
+ 
         <Type>Float</Type>
 
         <RangeEnumeration></RangeEnumeration>
@@ -1291,14 +1131,13 @@ Arguments definitions are described in the table below.]]>
 
         <Submitter>IPSO</Submitter>
 
-        <Description>
-
-          <![CDATA[The total time in seconds that the timer input is true. Writing a 0 resets the time.]]>
-
-        </Description>
+        <Description><![CDATA[The total time in seconds that the timer input is true. Writing a 0 resets the time.]]></Description>
+        
+        <TS></TS>
+        
+        <TSLink>0</TSLink>
 
       </Item>
-
 
 
       <Item ID="5545">
@@ -1306,24 +1145,22 @@ Arguments definitions are described in the table below.]]>
         <Name>Max X Coordinate</Name>
 
         <Operations>R</Operations>
-
-        <MultipleInstances>Single</MultipleInstances>
-
-        <Mandatory>Optional</Mandatory>
-
+ 
         <Type>Integer</Type>
 
         <RangeEnumeration></RangeEnumeration>
+        
+        <Units></Units>
+        
         <Submitter>IPSO</Submitter>
 
-        <Description>
-
-          <![CDATA[The highest X coordinate the display supports before wrapping to the next line.]]>
-
-        </Description>
+        <Description><![CDATA[The highest X coordinate the display supports before wrapping to the next line.]]></Description>
+        
+        <TS></TS>
+        
+        <TSLink>0</TSLink>
 
       </Item>
-
 
 
       <Item ID="5546">
@@ -1331,22 +1168,21 @@ Arguments definitions are described in the table below.]]>
         <Name>Max Y Coordinate</Name>
 
         <Operations>R</Operations>
-
-        <MultipleInstances>Single</MultipleInstances>
-
-        <Mandatory>Optional</Mandatory>
-
+ 
         <Type>Integer</Type>
 
         <RangeEnumeration></RangeEnumeration>
+        
+        <Units></Units>
+        
         <Submitter>IPSO</Submitter>
 
-        <Description>
-
-          <![CDATA[The highest Y coordinate the display supports before wrapping to the next line.]]>
-
-        </Description>
-
+        <Description><![CDATA[The highest Y coordinate the display supports before wrapping to the next line.]]></Description>
+        
+         <TS></TS>
+        
+        <TSLink>0</TSLink>
+        
       </Item>
 
 
@@ -1356,20 +1192,19 @@ Arguments definitions are described in the table below.]]>
 
         <Operations>R</Operations>
 
-        <MultipleInstances>Single</MultipleInstances>
-
-        <Mandatory>Mandatory</Mandatory>
-
         <Type>Integer</Type>
 
         <RangeEnumeration></RangeEnumeration>
+        
+        <Units></Units>
+        
         <Submitter>IPSO</Submitter>
 
-        <Description>
-
-          <![CDATA[The current state of a Multi-state input or selector.]]>
-
-        </Description>
+        <Description><![CDATA[The current state of a Multi-state input or selector.]]></Description>
+        
+        <TS></TS>
+        
+        <TSLink>0</TSLink>
 
       </Item>
 
@@ -1380,20 +1215,19 @@ Arguments definitions are described in the table below.]]>
 
         <Operations>RW</Operations>
 
-        <MultipleInstances></MultipleInstances>
-
-        <Mandatory></Mandatory>
-
         <Type>Boolean</Type>
 
         <RangeEnumeration></RangeEnumeration>
+        
+        <Units></Units>
+        
         <Submitter>IPSO</Submitter>
 
-        <Description>
-
-          <![CDATA[The current state of a digital output]]>
-
-        </Description>
+        <Description><![CDATA[The current state of a digital output]]></Description>
+        
+         <TS></TS>
+        
+        <TSLink>0</TSLink>
 
       </Item>
 
@@ -1404,33 +1238,27 @@ Arguments definitions are described in the table below.]]>
 
         <Operations>RW</Operations>
 
-        <MultipleInstances></MultipleInstances>
-
-        <Mandatory></Mandatory>
-
         <Type>Boolean</Type>
 
         <RangeEnumeration></RangeEnumeration>
+        
+        <Units></Units>
+        
         <Submitter>IPSO</Submitter>
 
-        <Description>
-
-          <![CDATA[The polarity of a digital input as a Boolean (0 = Normal, 1= Reversed)]]>
-
-        </Description>
+        <Description><![CDATA[The polarity of a digital input as a Boolean (0 = Normal, 1= Reversed)]]></Description>
+        
+        <TS></TS>
+        
+        <TSLink>0</TSLink>
 
       </Item>
-
 
       <Item ID="5600">
 
         <Name>Analog Input Current Value</Name>
 
         <Operations>R</Operations>
-
-        <MultipleInstances></MultipleInstances>
-
-        <Mandatory></Mandatory>
 
         <Type>Float</Type>
 
@@ -1440,11 +1268,11 @@ Arguments definitions are described in the table below.]]>
 
         <Submitter>IPSO</Submitter>
 
-        <Description>
-
-          <![CDATA[The current state of the analogue input.]]>
-
-        </Description>
+        <Description><![CDATA[The current state of the analogue input.]]></Description>
+        
+        <TS></TS>
+        
+        <TSLink>0</TSLink>
 
       </Item>
 
@@ -1455,10 +1283,6 @@ Arguments definitions are described in the table below.]]>
 
         <Operations>R</Operations>
 
-        <MultipleInstances></MultipleInstances>
-
-        <Mandatory></Mandatory>
-
         <Type>Float</Type>
 
         <RangeEnumeration></RangeEnumeration>
@@ -1467,11 +1291,11 @@ Arguments definitions are described in the table below.]]>
 
         <Submitter>IPSO</Submitter>
 
-        <Description>
-
-          <![CDATA[The minimum value measured by the sensor since it is ON or Reset.]]>
-
-        </Description>
+        <Description><![CDATA[The minimum value measured by the sensor since it is ON or Reset.]]></Description>
+        
+        <TS></TS>
+        
+        <TSLink>0</TSLink>
 
       </Item>
 
@@ -1482,10 +1306,6 @@ Arguments definitions are described in the table below.]]>
 
         <Operations>R</Operations>
 
-        <MultipleInstances></MultipleInstances>
-
-        <Mandatory></Mandatory>
-
         <Type>Float</Type>
 
         <RangeEnumeration></RangeEnumeration>
@@ -1494,11 +1314,11 @@ Arguments definitions are described in the table below.]]>
 
         <Submitter>IPSO</Submitter>
 
-        <Description>
-
-          <![CDATA[The maximum value measured by the sensor since it is ON or Reset]]>
-
-        </Description>
+        <Description><![CDATA[The maximum value measured by the sensor since it is ON or Reset]]></Description>
+        
+        <TS></TS>
+        
+        <TSLink>0</TSLink>
 
       </Item>
 
@@ -1509,10 +1329,6 @@ Arguments definitions are described in the table below.]]>
 
         <Operations>R</Operations>
 
-        <MultipleInstances></MultipleInstances>
-
-        <Mandatory></Mandatory>
-
         <Type>Float</Type>
 
         <RangeEnumeration></RangeEnumeration>
@@ -1521,11 +1337,11 @@ Arguments definitions are described in the table below.]]>
 
         <Submitter>IPSO</Submitter>
 
-        <Description>
-
-          <![CDATA[The minimum value that can be measured by the sensor]]>
-
-        </Description>
+        <Description><![CDATA[The minimum value that can be measured by the sensor]]></Description>
+        
+       <TS></TS>
+        
+        <TSLink>0</TSLink>
 
       </Item>
 
@@ -1536,10 +1352,6 @@ Arguments definitions are described in the table below.]]>
 
         <Operations>R</Operations>
 
-        <MultipleInstances></MultipleInstances>
-
-        <Mandatory></Mandatory>
-
         <Type>Float</Type>
 
         <RangeEnumeration></RangeEnumeration>
@@ -1548,11 +1360,11 @@ Arguments definitions are described in the table below.]]>
 
         <Submitter>IPSO</Submitter>
 
-        <Description>
-
-          <![CDATA[The maximum value that can be measured by the sensor]]>
-
-        </Description>
+        <Description><![CDATA[The maximum value that can be measured by the sensor]]></Description>
+        
+        <TS></TS>
+        
+        <TSLink>0</TSLink>
 
       </Item>
 
@@ -1563,20 +1375,19 @@ Arguments definitions are described in the table below.]]>
 
         <Operations>E</Operations>
 
-        <MultipleInstances></MultipleInstances>
-
-        <Mandatory></Mandatory>
-
         <Type>Opaque</Type>
 
         <RangeEnumeration></RangeEnumeration>
+        
+        <Units></Units>
+        
         <Submitter>IPSO</Submitter>
 
-        <Description>
-
-          <![CDATA[Reset the Min and Max Measured Values to Current Value]]>
-
-        </Description>
+        <Description><![CDATA[Reset the Min and Max Measured Values to Current Value]]></Description>
+        
+        <TS></TS>
+        
+        <TSLink>0</TSLink>
 
       </Item>
 
@@ -1587,23 +1398,19 @@ Arguments definitions are described in the table below.]]>
 
         <Operations>RW</Operations>
 
-        <MultipleInstances></MultipleInstances>
-
-        <Mandatory></Mandatory>
-
         <Type>Float</Type>
 
         <RangeEnumeration>0-1</RangeEnumeration>
 
-        <Units>-</Units>
+        <Units></Units>
 
         <Submitter>IPSO</Submitter>
 
-        <Description>
-
-          <![CDATA[The current state of the analogue output.]]>
-
-        </Description>
+        <Description><![CDATA[The current state of the analogue output.]]></Description>
+        
+         <TS></TS>
+        
+        <TSLink>0</TSLink>
 
       </Item>
 
@@ -1614,10 +1421,6 @@ Arguments definitions are described in the table below.]]>
 
         <Operations>R</Operations>
 
-        <MultipleInstances></MultipleInstances>
-
-        <Mandatory></Mandatory>
-
         <Type>Float</Type>
 
         <RangeEnumeration></RangeEnumeration>
@@ -1626,14 +1429,13 @@ Arguments definitions are described in the table below.]]>
 
         <Submitter>IPSO</Submitter>
 
-        <Description>
-
-          <![CDATA[Last or Current Measured Value from the Sensor.]]>
-
-        </Description>
+        <Description><![CDATA[Last or Current Measured Value from the Sensor.]]></Description>
+        
+        <TS></TS>
+        
+        <TSLink>0</TSLink>
 
       </Item>
-
 
       <Item ID="5701">
 
@@ -1641,33 +1443,27 @@ Arguments definitions are described in the table below.]]>
 
         <Operations>R</Operations>
 
-        <MultipleInstances></MultipleInstances>
-
-        <Mandatory></Mandatory>
-
         <Type>String</Type>
 
         <RangeEnumeration></RangeEnumeration>
+        
+        <Units></Units>
+        
         <Submitter>IPSO</Submitter>
 
-        <Description>
-
-          <![CDATA[Measurement Units Definition e.g. “Cel” for Temperature in Celsius.]]>
-
-        </Description>
+        <Description><![CDATA[Measurement Units Definition e.g. “Cel” for Temperature in Celsius.]]></Description>
+        
+         <TS></TS>
+        
+        <TSLink>0</TSLink>
 
       </Item>
-
 
       <Item ID="5702">
 
         <Name>X Value</Name>
 
         <Operations>R</Operations>
-
-        <MultipleInstances></MultipleInstances>
-
-        <Mandatory></Mandatory>
 
         <Type>Float</Type>
 
@@ -1677,11 +1473,11 @@ Arguments definitions are described in the table below.]]>
 
         <Submitter>IPSO</Submitter>
 
-        <Description>
-
-          <![CDATA[The measured value along the X axis.]]>
-
-        </Description>
+        <Description><![CDATA[The measured value along the X axis.]]></Description>
+        
+        <TS></TS>
+        
+        <TSLink>0</TSLink>
 
       </Item>
 
@@ -1692,10 +1488,6 @@ Arguments definitions are described in the table below.]]>
 
         <Operations>R</Operations>
 
-        <MultipleInstances></MultipleInstances>
-
-        <Mandatory></Mandatory>
-
         <Type>Float</Type>
 
         <RangeEnumeration></RangeEnumeration>
@@ -1704,11 +1496,11 @@ Arguments definitions are described in the table below.]]>
 
         <Submitter>IPSO</Submitter>
 
-        <Description>
-
-          <![CDATA[The measured value along the Y axis.]]>
-
-        </Description>
+        <Description><![CDATA[The measured value along the Y axis.]]></Description>
+        
+         <TS></TS>
+        
+        <TSLink>0</TSLink>
 
       </Item>
 
@@ -1719,10 +1511,6 @@ Arguments definitions are described in the table below.]]>
 
         <Operations>R</Operations>
 
-        <MultipleInstances></MultipleInstances>
-
-        <Mandatory></Mandatory>
-
         <Type>Float</Type>
 
         <RangeEnumeration></RangeEnumeration>
@@ -1731,11 +1519,11 @@ Arguments definitions are described in the table below.]]>
 
         <Submitter>IPSO</Submitter>
 
-        <Description>
-
-          <![CDATA[The measured value along the Z axis.]]>
-
-        </Description>
+        <Description><![CDATA[The measured value along the Z axis.]]></Description>
+        
+        <TS></TS>
+        
+        <TSLink>0</TSLink>
 
       </Item>
 
@@ -1746,10 +1534,6 @@ Arguments definitions are described in the table below.]]>
 
         <Operations>R</Operations>
 
-        <MultipleInstances></MultipleInstances>
-
-        <Mandatory></Mandatory>
-
         <Type>Float</Type>
 
         <RangeEnumeration>0-360</RangeEnumeration>
@@ -1758,13 +1542,13 @@ Arguments definitions are described in the table below.]]>
 
         <Submitter>IPSO</Submitter>
 
-        <Description>
-
-          <![CDATA[The compass direction.]]>
-
-        </Description>
-
-      </Item>
+        <Description><![CDATA[The compass direction.]]></Description>
+        
+        <TS></TS>
+        
+        <TSLink>0</TSLink>
+        
+       </Item>
 
 
       <Item ID="5706">
@@ -1772,10 +1556,6 @@ Arguments definitions are described in the table below.]]>
         <Name>Colour</Name>
 
         <Operations>RW</Operations>
-
-        <MultipleInstances></MultipleInstances>
-
-        <Mandatory></Mandatory>
 
         <Type>String</Type>
 
@@ -1785,14 +1565,13 @@ Arguments definitions are described in the table below.]]>
 
         <Submitter>IPSO</Submitter>
 
-        <Description>
+        <Description><![CDATA[A string representing a value in some color space]]></Description>
+        
+         <TS></TS>
+        
+        <TSLink>0</TSLink>
 
-          <![CDATA[A string representing a value in some color space]]>
-
-        </Description>
-
-      </Item>
-
+         </Item>
 
 
       <Item ID="5750">
@@ -1801,23 +1580,21 @@ Arguments definitions are described in the table below.]]>
 
         <Operations>RW</Operations>
 
-        <MultipleInstances></MultipleInstances>
-
-        <Mandatory></Mandatory>
-
         <Type>String</Type>
 
         <RangeEnumeration></RangeEnumeration>
+        
+        <Units></Units>
+        
         <Submitter>IPSO</Submitter>
 
-        <Description>
-
-          <![CDATA[The application type of the sensor or actuator as a string, for instance, “Air Pressure”.]]>
-
-        </Description>
+        <Description><![CDATA[The application type of the sensor or actuator as a string, for instance, “Air Pressure”.]]></Description>
+        
+        <TS></TS>
+        
+        <TSLink>0</TSLink>
 
       </Item>
-
 
 
       <Item ID="5751">
@@ -1826,20 +1603,19 @@ Arguments definitions are described in the table below.]]>
 
         <Operations>R</Operations>
 
-        <MultipleInstances></MultipleInstances>
-
-        <Mandatory></Mandatory>
-
         <Type>String</Type>
 
         <RangeEnumeration></RangeEnumeration>
+        
+        <Units></Units>
+        
         <Submitter>IPSO</Submitter>
 
-        <Description>
-
-          <![CDATA[The type of the sensor (for instance PIR type)]]>
-
-        </Description>
+        <Description><![CDATA[The type of the sensor (for instance PIR type)]]></Description>
+        
+        <TS></TS>
+        
+        <TSLink>0</TSLink>
 
       </Item>
 
@@ -1850,10 +1626,6 @@ Arguments definitions are described in the table below.]]>
 
         <Operations>R</Operations>
 
-        <MultipleInstances></MultipleInstances>
-
-        <Mandatory></Mandatory>
-
         <Type>Float</Type>
 
         <RangeEnumeration></RangeEnumeration>
@@ -1862,13 +1634,13 @@ Arguments definitions are described in the table below.]]>
 
         <Submitter>IPSO</Submitter>
 
-        <Description>
+        <Description><![CDATA[The current active power]]></Description>
+        
+        <TS></TS>
+        
+        <TSLink>0</TSLink>
 
-          <![CDATA[The current active power]]>
-
-        </Description>
-
-      </Item>
+        </Item>
 
 
       <Item ID="5801">
@@ -1877,10 +1649,6 @@ Arguments definitions are described in the table below.]]>
 
         <Operations>R</Operations>
 
-        <MultipleInstances></MultipleInstances>
-
-        <Mandatory></Mandatory>
-
         <Type>Float</Type>
 
         <RangeEnumeration></RangeEnumeration>
@@ -1889,13 +1657,13 @@ Arguments definitions are described in the table below.]]>
 
         <Submitter>IPSO</Submitter>
 
-        <Description>
-
-          <![CDATA[The minimum active power measured by the sensor since it is ON]]>
-
-        </Description>
-
-      </Item>
+        <Description><![CDATA[The minimum active power measured by the sensor since it is ON]]></Description>
+        
+        <TS></TS>
+        
+        <TSLink>0</TSLink>
+ 
+       </Item>
 
 
       <Item ID="5802">
@@ -1904,10 +1672,6 @@ Arguments definitions are described in the table below.]]>
 
         <Operations>R</Operations>
 
-        <MultipleInstances></MultipleInstances>
-
-        <Mandatory></Mandatory>
-
         <Type>Float</Type>
 
         <RangeEnumeration></RangeEnumeration>
@@ -1916,13 +1680,13 @@ Arguments definitions are described in the table below.]]>
 
         <Submitter>IPSO</Submitter>
 
-        <Description>
+        <Description><![CDATA[The maximum active power measured by the sensor since it is ON]]></Description>
+        
+        <TS></TS>
+        
+        <TSLink>0</TSLink>
 
-          <![CDATA[The maximum active power measured by the sensor since it is ON]]>
-
-        </Description>
-
-      </Item>
+       </Item>
 
 
       <Item ID="5803">
@@ -1931,10 +1695,6 @@ Arguments definitions are described in the table below.]]>
 
         <Operations>R</Operations>
 
-        <MultipleInstances></MultipleInstances>
-
-        <Mandatory></Mandatory>
-
         <Type>Float</Type>
 
         <RangeEnumeration></RangeEnumeration>
@@ -1943,25 +1703,21 @@ Arguments definitions are described in the table below.]]>
 
         <Submitter>IPSO</Submitter>
 
-        <Description>
+        <Description><![CDATA[The minimum active power that can be measured by the sensor]]></Description>
+        
+        <TS></TS>
+        
+        <TSLink>0</TSLink>
 
-          <![CDATA[The minimum active power that can be measured by the sensor]]>
-
-        </Description>
-
-      </Item>
+        </Item>
 
 
-      <Item ID="5804">
+        <Item ID="5804">
 
         <Name>Max Range active power</Name>
 
         <Operations>R</Operations>
 
-        <MultipleInstances></MultipleInstances>
-
-        <Mandatory></Mandatory>
-
         <Type>Float</Type>
 
         <RangeEnumeration></RangeEnumeration>
@@ -1970,24 +1726,20 @@ Arguments definitions are described in the table below.]]>
 
         <Submitter>IPSO</Submitter>
 
-        <Description>
+        <Description><![CDATA[The maximum active power that can be measured by the sensor]]></Description>
+        
+        <TS></TS>
+        
+        <TSLink>0</TSLink>
 
-          <![CDATA[The maximum active power that can be measured by the sensor]]>
-
-        </Description>
-
-      </Item>
+        </Item>
 
 
-      <Item ID="5805">
+        <Item ID="5805">
 
         <Name>Cumulative active power</Name>
 
         <Operations>R</Operations>
-
-        <MultipleInstances></MultipleInstances>
-
-        <Mandatory></Mandatory>
 
         <Type>Float</Type>
 
@@ -1997,24 +1749,20 @@ Arguments definitions are described in the table below.]]>
 
         <Submitter>IPSO</Submitter>
 
-        <Description>
+        <Description><![CDATA[The cumulative active power since the last cumulative energy reset or device start]]></Description>
+        
+        <TS></TS>
+        
+        <TSLink>0</TSLink>
 
-          <![CDATA[The cumulative active power since the last cumulative energy reset or device start]]>
-
-        </Description>
-
-      </Item>
+       </Item>
 
 
-      <Item ID="5806">
+        <Item ID="5806">
 
         <Name>Active Power Calibration</Name>
 
         <Operations>W</Operations>
-
-        <MultipleInstances></MultipleInstances>
-
-        <Mandatory></Mandatory>
 
         <Type>Float</Type>
 
@@ -2024,25 +1772,21 @@ Arguments definitions are described in the table below.]]>
 
         <Submitter>IPSO</Submitter>
 
-        <Description>
+        <Description><![CDATA[Request an active power calibration by writing the value of a calibrated load.]]></Description>
+        
+        <TS></TS>
+        
+        <TSLink>0</TSLink>
 
-          <![CDATA[Request an active power calibration by writing the value of a calibrated load.]]>
+       </Item>
+ 
 
-        </Description>
-
-      </Item>
-
-
-      <Item ID="5810">
+       <Item ID="5810">
 
         <Name>Instantaneous reactive power</Name>
 
         <Operations>R</Operations>
 
-        <MultipleInstances></MultipleInstances>
-
-        <Mandatory></Mandatory>
-
         <Type>Float</Type>
 
         <RangeEnumeration></RangeEnumeration>
@@ -2051,25 +1795,21 @@ Arguments definitions are described in the table below.]]>
 
         <Submitter>IPSO</Submitter>
 
-        <Description>
+        <Description><![CDATA[The current reactive power]]></Description>
+        
+         <TS></TS>
+        
+        <TSLink>0</TSLink>
+ 
+        </Item>
+ 
 
-          <![CDATA[The current reactive power]]>
-
-        </Description>
-
-      </Item>
-
-
-      <Item ID="5811">
+        <Item ID="5811">
 
         <Name>Min Measured reactive power</Name>
 
         <Operations>R</Operations>
 
-        <MultipleInstances></MultipleInstances>
-
-        <Mandatory></Mandatory>
-
         <Type>Float</Type>
 
         <RangeEnumeration></RangeEnumeration>
@@ -2078,16 +1818,14 @@ Arguments definitions are described in the table below.]]>
 
         <Submitter>IPSO</Submitter>
 
-        <Description>
-
-          <![CDATA[The minimum reactive power measured by the sensor since it is ON]]>
-
-        </Description>
+        <Description><![CDATA[The minimum reactive power measured by the sensor since it is ON]]></Description>
+        
+        <TS></TS>
+        
+        <TSLink>0</TSLink>
 
       </Item>
 
-
-      <Submitter>IPSO</Submitter>
 
       <Item ID="5812">
 
@@ -2095,10 +1833,6 @@ Arguments definitions are described in the table below.]]>
 
         <Operations>R</Operations>
 
-        <MultipleInstances></MultipleInstances>
-
-        <Mandatory></Mandatory>
-
         <Type>Float</Type>
 
         <RangeEnumeration></RangeEnumeration>
@@ -2107,11 +1841,11 @@ Arguments definitions are described in the table below.]]>
 
         <Submitter>IPSO</Submitter>
 
-        <Description>
-
-          <![CDATA[The maximum reactive power measured by the sensor since it is ON]]>
-
-        </Description>
+        <Description><![CDATA[The maximum reactive power measured by the sensor since it is ON]]></Description>
+        
+       <TS></TS>
+        
+        <TSLink>0</TSLink>
 
       </Item>
 
@@ -2122,10 +1856,6 @@ Arguments definitions are described in the table below.]]>
 
         <Operations>R</Operations>
 
-        <MultipleInstances></MultipleInstances>
-
-        <Mandatory></Mandatory>
-
         <Type>Float</Type>
 
         <RangeEnumeration></RangeEnumeration>
@@ -2134,11 +1864,11 @@ Arguments definitions are described in the table below.]]>
 
         <Submitter>IPSO</Submitter>
 
-        <Description>
-
-          <![CDATA[The minimum active power that can be measured by the sensor]]>
-
-        </Description>
+        <Description><![CDATA[The minimum active power that can be measured by the sensor]]></Description>
+        
+        <TS></TS>
+        
+        <TSLink>0</TSLink>
 
       </Item>
 
@@ -2149,10 +1879,6 @@ Arguments definitions are described in the table below.]]>
 
         <Operations>R</Operations>
 
-        <MultipleInstances></MultipleInstances>
-
-        <Mandatory></Mandatory>
-
         <Type>Float</Type>
 
         <RangeEnumeration></RangeEnumeration>
@@ -2161,11 +1887,11 @@ Arguments definitions are described in the table below.]]>
 
         <Submitter>IPSO</Submitter>
 
-        <Description>
-
-          <![CDATA[The maximum reactive power that can be measured by the sensor]]>
-
-        </Description>
+        <Description><![CDATA[The maximum reactive power that can be measured by the sensor]]></Description>
+        
+         <TS></TS>
+        
+        <TSLink>0</TSLink>
 
       </Item>
 
@@ -2176,10 +1902,6 @@ Arguments definitions are described in the table below.]]>
 
         <Operations>R</Operations>
 
-        <MultipleInstances></MultipleInstances>
-
-        <Mandatory></Mandatory>
-
         <Type>Float</Type>
 
         <RangeEnumeration></RangeEnumeration>
@@ -2188,13 +1910,13 @@ Arguments definitions are described in the table below.]]>
 
         <Submitter>IPSO</Submitter>
 
-        <Description>
+        <Description><![CDATA[The cumulative reactive power since the last cumulative energy reset or device start]]></Description>
+        
+         <TS></TS>
+        
+        <TSLink>0</TSLink>
 
-          <![CDATA[The cumulative reactive power since the last cumulative energy reset or device start]]>
-
-        </Description>
-
-      </Item>
+       </Item>
 
 
       <Item ID="5816">
@@ -2202,10 +1924,6 @@ Arguments definitions are described in the table below.]]>
         <Name>Reactive Power Calibration</Name>
 
         <Operations>W</Operations>
-
-        <MultipleInstances></MultipleInstances>
-
-        <Mandatory></Mandatory>
 
         <Type>Float</Type>
 
@@ -2215,13 +1933,13 @@ Arguments definitions are described in the table below.]]>
 
         <Submitter>IPSO</Submitter>
 
-        <Description>
+        <Description><![CDATA[Request a reactive power calibration by writing the value of a calibrated load.]]></Description>
+        
+       <TS></TS>
+        
+        <TSLink>0</TSLink>
 
-          <![CDATA[Request a reactive power calibration by writing the value of a calibrated load.]]>
-
-        </Description>
-
-      </Item>
+        </Item>
 
 
       <Item ID="5820">
@@ -2229,10 +1947,6 @@ Arguments definitions are described in the table below.]]>
         <Name>Power factor</Name>
 
         <Operations>R</Operations>
-
-        <MultipleInstances></MultipleInstances>
-
-        <Mandatory></Mandatory>
 
         <Type>Float</Type>
 
@@ -2242,11 +1956,11 @@ Arguments definitions are described in the table below.]]>
 
         <Submitter>IPSO</Submitter>
 
-        <Description>
-
-          <![CDATA[If applicable, the power factor of the current consumption.]]>
-
-        </Description>
+        <Description><![CDATA[If applicable, the power factor of the current consumption.]]></Description>
+        
+        <TS></TS>
+        
+        <TSLink>0</TSLink>
 
       </Item>
 
@@ -2257,10 +1971,6 @@ Arguments definitions are described in the table below.]]>
 
         <Operations>RW</Operations>
 
-        <MultipleInstances></MultipleInstances>
-
-        <Mandatory></Mandatory>
-
         <Type>Float</Type>
 
         <RangeEnumeration></RangeEnumeration>
@@ -2269,11 +1979,11 @@ Arguments definitions are described in the table below.]]>
 
         <Submitter>IPSO</Submitter>
 
-        <Description>
-
-          <![CDATA[Read or Write the current calibration coefficient]]>
-
-        </Description>
+        <Description><![CDATA[Read or Write the current calibration coefficient]]></Description>
+        
+        <TS></TS>
+        
+        <TSLink>0</TSLink>
 
       </Item>
 
@@ -2284,10 +1994,6 @@ Arguments definitions are described in the table below.]]>
 
         <Operations>E</Operations>
 
-        <MultipleInstances></MultipleInstances>
-
-        <Mandatory></Mandatory>
-
         <Type>Opaque</Type>
 
         <RangeEnumeration></RangeEnumeration>
@@ -2296,13 +2002,13 @@ Arguments definitions are described in the table below.]]>
 
         <Submitter>IPSO</Submitter>
 
-        <Description>
+        <Description><![CDATA[Reset both cumulative active/reactive power]]></Description>
+        
+        <TS></TS>
+        
+        <TSLink>0</TSLink>
 
-          <![CDATA[Reset both cumulative active/reactive power]]>
-
-        </Description>
-
-      </Item>
+       </Item>
 
 
       <Item ID="5823">
@@ -2310,10 +2016,6 @@ Arguments definitions are described in the table below.]]>
         <Name>Event Identifier</Name>
 
         <Operations>RW</Operations>
-
-        <MultipleInstances></MultipleInstances>
-
-        <Mandatory></Mandatory>
 
         <Type>String</Type>
 
@@ -2323,11 +2025,11 @@ Arguments definitions are described in the table below.]]>
 
         <Submitter>IPSO</Submitter>
 
-        <Description>
-
-          <![CDATA[The event identifier as a string.]]>
-
-        </Description>
+        <Description><![CDATA[The event identifier as a string.]]></Description>
+        
+       <TS></TS>
+        
+        <TSLink>0</TSLink>
 
       </Item>
 
@@ -2338,10 +2040,6 @@ Arguments definitions are described in the table below.]]>
 
         <Operations>RW</Operations>
 
-        <MultipleInstances></MultipleInstances>
-
-        <Mandatory></Mandatory>
-
         <Type>String</Type>
 
         <RangeEnumeration></RangeEnumeration>
@@ -2350,24 +2048,20 @@ Arguments definitions are described in the table below.]]>
 
         <Submitter>IPSO</Submitter>
 
-        <Description>
+        <Description><![CDATA[Time when the load control event will start started.]]></Description>
+        
+        <TS></TS>
+        
+        <TSLink>0</TSLink>
 
-          <![CDATA[Time when the load control event will start started.]]>
-
-        </Description>
-
-      </Item>
+        </Item>
 
 
-      <Item ID="5825">
+        <Item ID="5825">
 
         <Name>Duration In Min</Name>
 
         <Operations>RW</Operations>
-
-        <MultipleInstances></MultipleInstances>
-
-        <Mandatory></Mandatory>
 
         <Type>String</Type>
 
@@ -2377,24 +2071,20 @@ Arguments definitions are described in the table below.]]>
 
         <Submitter>IPSO</Submitter>
 
-        <Description>
+        <Description><![CDATA[The duration of the load control event.]]></Description>
+        
+         <TS></TS>
+        
+        <TSLink>0</TSLink>
 
-          <![CDATA[The duration of the load control event.]]>
-
-        </Description>
-
-      </Item>
+        </Item>
 
 
-      <Item ID="5826">
+        <Item ID="5826">
 
         <Name>Critical Level</Name>
 
         <Operations>RW</Operations>
-
-        <MultipleInstances></MultipleInstances>
-
-        <Mandatory></Mandatory>
 
         <Type>String</Type>
 
@@ -2404,25 +2094,21 @@ Arguments definitions are described in the table below.]]>
 
         <Submitter>IPSO</Submitter>
 
-        <Description>
+        <Description><![CDATA[The criticality of the event. The device receiving the event will react in an appropriate fashion for the device.]]></Description>
+        
+        <TS></TS>
+        
+        <TSLink>0</TSLink>
+ 
+       </Item>
 
-          <![CDATA[The criticality of the event. The device receiving the event will react in an appropriate fashion for the device.]]>
 
-        </Description>
-
-      </Item>
-
-
-      <Item ID="5827">
+        <Item ID="5827">
 
         <Name>Avg Load AdjPct</Name>
 
         <Operations>RW</Operations>
 
-        <MultipleInstances></MultipleInstances>
-
-        <Mandatory></Mandatory>
-
         <Type>String</Type>
 
         <RangeEnumeration>0-100</RangeEnumeration>
@@ -2431,25 +2117,21 @@ Arguments definitions are described in the table below.]]>
 
         <Submitter>IPSO</Submitter>
 
-        <Description>
+        <Description><![CDATA[Defines the maximum energy usage of the receiving device, as a percentage of the device's normal maximum energy usage.]]></Description>
+        
+         <TS></TS>
+        
+        <TSLink>0</TSLink>
 
-          <![CDATA[Defines the maximum energy usage of the receiving device, as a percentage of the device's normal maximum energy usage.]]>
-
-        </Description>
-
-      </Item>
+        </Item>
 
 
-      <Item ID="5828">
+        <Item ID="5828">
 
         <Name>Duty Cycle</Name>
 
         <Operations>RW</Operations>
 
-        <MultipleInstances></MultipleInstances>
-
-        <Mandatory></Mandatory>
-
         <Type>String</Type>
 
         <RangeEnumeration>0-100</RangeEnumeration>
@@ -2458,25 +2140,20 @@ Arguments definitions are described in the table below.]]>
 
         <Submitter>IPSO</Submitter>
 
-        <Description>
+        <Description><![CDATA[Defines the duty cycle for the load control event, i.e, what percentage of time the receiving device is allowed to be on.]]></Description>
+        
+        <TS></TS>
+        
+        <TSLink>0</TSLink>
 
-          <![CDATA[Defines the duty cycle for the load control event, i.e, what percentage of time the receiving device is allowed to be on.]]>
-
-        </Description>
-
-      </Item>
+        </Item>
 
 
-
-      <Item ID="5850">
+        <Item ID="5850">
 
         <Name>On/Off</Name>
 
         <Operations>RW</Operations>
-
-        <MultipleInstances></MultipleInstances>
-
-        <Mandatory></Mandatory>
 
         <Type>Boolean</Type>
 
@@ -2486,24 +2163,20 @@ Arguments definitions are described in the table below.]]>
 
         <Submitter>IPSO</Submitter>
 
-        <Description>
+        <Description><![CDATA[On/Off]]></Description>
+        
+        <TS></TS>
+        
+        <TSLink>0</TSLink>
+ 
+        </Item>
 
-          <![CDATA[On/Off]]>
 
-        </Description>
-
-      </Item>
-
-
-      <Item ID="5851">
+        <Item ID="5851">
 
         <Name>Dimmer</Name>
 
         <Operations>RW</Operations>
-
-        <MultipleInstances></MultipleInstances>
-
-        <Mandatory></Mandatory>
 
         <Type>Integer</Type>
 
@@ -2513,24 +2186,20 @@ Arguments definitions are described in the table below.]]>
 
         <Submitter>IPSO</Submitter>
 
-        <Description>
+        <Description><![CDATA[This resource represents a light dimmer setting, which has an Integer value between 0 and 100 as a percentage.]]></Description>
+        
+        <TS></TS>
+        
+        <TSLink>0</TSLink>
 
-          <![CDATA[This resource represents a light dimmer setting, which has an Integer value between 0 and 100 as a percentage.]]>
-
-        </Description>
-
-      </Item>
+        </Item>
 
 
-      <Item ID="5852">
+        <Item ID="5852">
 
         <Name>On time</Name>
 
         <Operations>RW</Operations>
-
-        <MultipleInstances></MultipleInstances>
-
-        <Mandatory></Mandatory>
 
         <Type>Integer</Type>
 
@@ -2540,24 +2209,20 @@ Arguments definitions are described in the table below.]]>
 
         <Submitter>IPSO</Submitter>
 
-        <Description>
+        <Description><![CDATA[The time in seconds that the device has been turned on. Writing a value of 0 resets the counter.]]></Description>
+        
+         <TS></TS>
+        
+        <TSLink>0</TSLink>
 
-          <![CDATA[The time in seconds that the device has been turned on. Writing a value of 0 resets the counter.]]>
-
-        </Description>
-
-      </Item>
+        </Item>
 
 
-      <Item ID="5853">
+        <Item ID="5853">
 
         <Name>Muti-state Output</Name>
 
         <Operations>RW</Operations>
-
-        <MultipleInstances></MultipleInstances>
-
-        <Mandatory></Mandatory>
 
         <Type>String</Type>
 
@@ -2567,25 +2232,21 @@ Arguments definitions are described in the table below.]]>
 
         <Submitter>IPSO</Submitter>
 
-        <Description>
+        <Description><![CDATA[A string describing a state for multiple level output such as Pilot Wire]]></Description>
+        
+         <TS></TS>
+        
+        <TSLink>0</TSLink>
 
-          <![CDATA[A string describing a state for multiple level output such as Pilot Wire]]>
-
-        </Description>
-
-      </Item>
+        </Item>
 
 
-      <Item ID="5854">
+        <Item ID="5854">
 
         <Name>Off Time</Name>
 
         <Operations>RW</Operations>
-
-        <MultipleInstances>Single</MultipleInstances>
-
-        <Mandatory>Optional</Mandatory>
-
+ 
         <Type>Integer</Type>
 
         <RangeEnumeration></RangeEnumeration>
@@ -2594,26 +2255,20 @@ Arguments definitions are described in the table below.]]>
 
         <Submitter>IPSO</Submitter>
 
-        <Description>
+        <Description><![CDATA[The time in seconds since the Off command was sent. Writing a value of 0 resets the counter.]]></Description>
+        
+         <TS></TS>
+        
+        <TSLink>0</TSLink>
 
-          <![CDATA[The time in seconds since the Off command was sent. Writing a value of 0 resets the counter.]]>
-
-        </Description>
-
-
-      </Item>
-
+        </Item>
 
 
-      <Item ID="5900">
+        <Item ID="5900">
 
         <Name>Set Point Value</Name>
 
         <Operations>RW</Operations>
-
-        <MultipleInstances></MultipleInstances>
-
-        <Mandatory></Mandatory>
 
         <Type>Float</Type>
 
@@ -2623,25 +2278,21 @@ Arguments definitions are described in the table below.]]>
 
         <Submitter>IPSO</Submitter>
 
-        <Description>
+        <Description><![CDATA[The setpoint value.]]></Description>
+        
+         <TS></TS>
+        
+        <TSLink>0</TSLink>
 
-          <![CDATA[The setpoint value.]]>
+        </Item>
 
-        </Description>
-
-      </Item>
-
-
-      <Item ID="5903">
+ 
+        <Item ID="5903">
 
         <Name>Busy to Clear delay</Name>
 
         <Operations>RW</Operations>
 
-        <MultipleInstances></MultipleInstances>
-
-        <Mandatory></Mandatory>
-
         <Type>Integer</Type>
 
         <RangeEnumeration></RangeEnumeration>
@@ -2650,25 +2301,21 @@ Arguments definitions are described in the table below.]]>
 
         <Submitter>IPSO</Submitter>
 
-        <Description>
+        <Description><![CDATA[Delay from the detection state to the clear state in ms]]></Description>
+        
+        <TS></TS>
+        
+        <TSLink>0</TSLink>
 
-          <![CDATA[Delay from the detection state to the clear state in ms]]>
-
-        </Description>
-
-      </Item>
+        </Item>
 
 
-      <Item ID="5904">
+        <Item ID="5904">
 
         <Name>Clear to Busy delay</Name>
 
         <Operations>RW</Operations>
 
-        <MultipleInstances></MultipleInstances>
-
-        <Mandatory></Mandatory>
-
         <Type>Integer</Type>
 
         <RangeEnumeration></RangeEnumeration>
@@ -2677,23 +2324,20 @@ Arguments definitions are described in the table below.]]>
 
         <Submitter>IPSO</Submitter>
 
-        <Description>
+        <Description><![CDATA[Delay from the clear state to the busy state in ms.]]></Description>
+        
+        <TS></TS>
+        
+        <TSLink>0</TSLink>
 
-          <![CDATA[Delay from the clear state to the busy state in ms.]]>
 
-        </Description>
+        </Item>
 
-      </Item>
-
-      <Item ID="5910">
+        <Item ID="5910">
 
         <Name>Bitmap Input</Name>
 
         <Operations>R</Operations>
-
-        <MultipleInstances></MultipleInstances>
-
-        <Mandatory></Mandatory>
 
         <Type>Integer</Type>
 
@@ -2703,25 +2347,17 @@ Arguments definitions are described in the table below.]]>
 
         <Submitter>IPSO</Submitter>
 
-        <Description>
-
-          <![CDATA[Integer in which each of the bits are associated with specific digital input value. 
+        <Description><![CDATA[Integer in which each of the bits are associated with specific digital input value. 
 Represented as a binary signed integer in network byte order, and in two's complement representation. 
-Using values in range 0-127 is recommended to avoid ambiguities with byte order and negative values.]]>
+Using values in range 0-127 is recommended to avoid ambiguities with byte order and negative values.]]></Description>
 
-        </Description>
+        </Item>
 
-      </Item>
-
-      <Item ID="5911">
+        <Item ID="5911">
 
         <Name>Bitmap Input Reset</Name>
 
         <Operations>E</Operations>
-
-        <MultipleInstances></MultipleInstances>
-
-        <Mandatory></Mandatory>
 
         <Type>Opaque</Type>
 
@@ -2731,23 +2367,20 @@ Using values in range 0-127 is recommended to avoid ambiguities with byte order 
 
         <Submitter>IPSO</Submitter>
 
-        <Description>
+        <Description><![CDATA[Reset the Bitmap Input value]]></Description>
+        
+        <TS></TS>
+        
+        <TSLink>0</TSLink>
 
-          <![CDATA[Reset the Bitmap Input value]]>
+        </Item>
+        
 
-        </Description>
-
-      </Item>
-
-      <Item ID="5912">
+        <Item ID="5912">
 
         <Name>Element Description</Name>
 
         <Operations>RW</Operations>
-
-        <MultipleInstances></MultipleInstances>
-
-        <Mandatory></Mandatory>
 
         <Type>String</Type>
 
@@ -2757,40 +2390,34 @@ Using values in range 0-127 is recommended to avoid ambiguities with byte order 
 
         <Submitter>IPSO</Submitter>
 
-        <Description>
+        <Description><![CDATA[The semantics / description of each bit as a string. First instance describes the least significant bit, second instance the second least significant bit, etc]]></Description>
+        
+         <TS></TS>
+        
+        <TSLink>0</TSLink>
 
-          <![CDATA[The semantics / description of each bit as a string. 
-First instance describes the least significant bit, second instance the second least significant bit, etc]]>
+        </Item>
+        
 
-        </Description>
-
-      </Item>
-
-      <Item ID="6000">
+        <Item ID="6000">
 
         <Name>Interval Period</Name>
 
         <Operations>R</Operations>
 
-        <MultipleInstances>Single</MultipleInstances>
-
-        <Mandatory>Mandatory</Mandatory>
-
         <Type>Integer</Type>
 
         <RangeEnumeration>1-864000</RangeEnumeration>
         
-        <Submitter>South East Water Corporation</Submitter>
-        
-        <Submitter></Submitter>
-
         <Units>Seconds</Units>
+        
+        <Submitter>South East Water Corporation</Submitter>
 
-        <Description>
-
-          <![CDATA[The Interval Period resource is an Integer value representing the width in seconds of the intervals being managed by this interval data object. This resource is read only and can only be changed by resource 11 (Change Interval Configuration). It is recommended that the Interval Period be set to a devisor of 24 hours (86400 seconds) to provide a consistent interval period. Examples of Interval Period include:- 30 = Every 30 seconds 600 = Every 10 minutes 1800 = Every 30 minutes 3600 = Hourly 7200 = Every 2 hours 14400 = Every 4 hours 43200 = Every 12 hours 86400 = Every Day 172600 = Every Second Day]]>
-
-        </Description>
+        <Description><![CDATA[The Interval Period resource is an Integer value representing the width in seconds of the intervals being managed by this interval data object. This resource is read only and can only be changed by resource 11 (Change Interval Configuration). It is recommended that the Interval Period be set to a devisor of 24 hours (86400 seconds) to provide a consistent interval period. Examples of Interval Period include:- 30 = Every 30 seconds 600 = Every 10 minutes 1800 = Every 30 minutes 3600 = Hourly 7200 = Every 2 hours 14400 = Every 4 hours 43200 = Every 12 hours 86400 = Every Day 172600 = Every Second Day]]></Description>
+        
+        <TS></TS>
+        
+        <TSLink>0</TSLink>
 
       </Item>
 
@@ -2800,181 +2427,159 @@ First instance describes the least significant bit, second instance the second l
 
         <Operations>R</Operations>
 
-        <MultipleInstances>Single</MultipleInstances>
-
-        <Mandatory>Optional</Mandatory>
-
         <Type>Integer</Type>
 
         <RangeEnumeration>0-86399</RangeEnumeration>
         
+         <Units>Seconds</Units>
+        
         <Submitter>South East Water Corporation</Submitter>
 
-        <Units>Seconds</Units>
+        <Description><![CDATA[The Interval Start Offset resource is a read only resource representing the number of seconds past midnight for which the first interval is recorded. If this resource is empty, it is assumed that the intervals are midnight aligned. This can be used to adjust interval boundaries. As an example, an Interval Period of 3600 seconds and an Interval Start time of 300 represents hourly interval data, starting at 00:05.]]></Description>
+        
+         <TS></TS>
+        
+        <TSLink>0</TSLink>
 
-        <Description>
+        </Item>
+        
 
-          <![CDATA[The Interval Start Offset resource is a read only resource representing the number of seconds past midnight for which the first interval is recorded. If this resource is empty, it is assumed that the intervals are midnight aligned. This can be used to adjust interval boundaries. As an example, an Interval Period of 3600 seconds and an Interval Start time of 300 represents hourly interval data, starting at 00:05.]]>
-
-        </Description>
-
-      </Item>
-
-      <Item ID="6002">
+        <Item ID="6002">
 
         <Name>Interval UTC Offset</Name>
 
         <Operations>R</Operations>
 
-        <MultipleInstances>Single</MultipleInstances>
-
-        <Mandatory>Optional</Mandatory>
-
         <Type>String</Type>
 
-        <RangeEnumeration/>
+        <RangeEnumeration></RangeEnumeration>
+        
+        <Units></Units>
         
         <Submitter>South East Water Corporation</Submitter>
 
-        <Units/>
+        <Description><![CDATA[The Interval UTC Offset resource is a read only resource representing the time zone offset for this Interval Data instance. If this resource is empty, the application should use the UTC offset provided in the Device [/3/0/14] object instance resource or UTC if not provided. UTC+X [ISO 8601].]]></Description>
+        
+        <TS></TS>
+        
+        <TSLink>0</TSLink>
 
-        <Description>
+        </Item>
+        
 
-          <![CDATA[The Interval UTC Offset resource is a read only resource representing the time zone offset for this Interval Data instance. If this resource is empty, the application should use the UTC offset provided in the Device [/3/0/14] object instance resource or UTC if not provided. UTC+X [ISO 8601].]]>
-
-        </Description>
-
-      </Item>
-
-      <Item ID="6003">
+        <Item ID="6003">
 
         <Name>Interval Collection Start Time</Name>
 
         <Operations>R</Operations>
 
-        <MultipleInstances>Single</MultipleInstances>
-
-        <Mandatory>Mandatory</Mandatory>
-
         <Type>Time</Type>
 
-        <RangeEnumeration/>
+        <RangeEnumeration></RangeEnumeration>
+        
+         <Units></Units>
         
         <Submitter>South East Water Corporation</Submitter>
 
-        <Units/>
+        <Description><![CDATA[The Collection Start Time resource is a read only resource representing the time when the first interval was recorded on the device. Interval times represent the end of the interval, not the beginning. As an example, the first four hourly interval past midnight will have a timestamp of 04:00 (adjusting for UTC offset). ]]></Description>
+        
+        <TS></TS>
+        
+        <TSLink>0</TSLink>
 
-        <Description>
+        </Item>
+        
 
-          <![CDATA[The Collection Start Time resource is a read only resource representing the time when the first interval was recorded on the device. Interval times represent the end of the interval, not the beginning. As an example, the first four hourly interval past midnight will have a timestamp of 04:00 (adjusting for UTC offset). ]]>
-
-        </Description>
-
-      </Item>
-
-      <Item ID="6004">
+        <Item ID="6004">
 
         <Name>Oldest Recorded Interval</Name>
 
         <Operations>R</Operations>
 
-        <MultipleInstances>Single</MultipleInstances>
-
-        <Mandatory>Mandatory</Mandatory>
-
         <Type>Time</Type>
 
-        <RangeEnumeration/>
+        <RangeEnumeration></RangeEnumeration>
+        
+        <Units></Units>
         
         <Submitter>South East Water Corporation</Submitter>
 
-        <Units/>
+        <Description><![CDATA[The Oldest Recorded Interval resource is a read-only resource representing the oldest available interval on the device. Interval times represent the end of the interval, not the beginning.]]></Description>
+        
+        <TS></TS>
+        
+        <TSLink>0</TSLink>
 
-        <Description>
+        </Item>
+        
 
-          <![CDATA[The Oldest Recorded Interval resource is a read-only resource representing the oldest available interval on the device. Interval times represent the end of the interval, not the beginning.]]>
-
-        </Description>
-
-      </Item>
-
-      <Item ID="6005">
+        <Item ID="6005">
 
         <Name>Last Delivered Interval</Name>
 
         <Operations>RW</Operations>
 
-        <MultipleInstances>Single</MultipleInstances>
-
-        <Mandatory>Optional</Mandatory>
-
         <Type>Time</Type>
 
-        <RangeEnumeration/>
+        <RangeEnumeration></RangeEnumeration>
+        
+        <Units></Units>
         
         <Submitter>South East Water Corporation</Submitter>
 
-        <Units/>
+        <Description><![CDATA[The Last Delivered Interval is a readable and writable resource used to represent the last interval delivered to the LwM2M server. Interval times represent the end of the interval, not the beginning. The setting of this resource is implementation specific but should be updated based on, either a Read request of the Latest Payload from the LwM2M server or via a confirmed delivery of Notify operation of the Latest Payload resource. This resource is writable to allow the server to adjust the Last Delivered Interval value if the server and client is out of sync.]]></Description>
+        
+        <TS></TS>
+        
+        <TSLink>0</TSLink>
 
-        <Description>
+        </Item>
+        
 
-          <![CDATA[The Last Delivered Interval is a readable and writable resource used to represent the last interval delivered to the LwM2M server. Interval times represent the end of the interval, not the beginning. The setting of this resource is implementation specific but should be updated based on, either a Read request of the Latest Payload from the LwM2M server or via a confirmed delivery of Notify operation of the Latest Payload resource. This resource is writable to allow the server to adjust the Last Delivered Interval value if the server and client is out of sync.]]>
-
-        </Description>
-
-      </Item>
-
-      <Item ID="6006">
+        <Item ID="6006">
 
         <Name>Latest Recorded Interval</Name>
 
         <Operations>R</Operations>
 
-        <MultipleInstances>Single</MultipleInstances>
-
-        <Mandatory>Mandatory</Mandatory>
-
         <Type>Time</Type>
 
-        <RangeEnumeration/>
+        <RangeEnumeration></RangeEnumeration>
+        
+         <Units></Units>
         
         <Submitter>South East Water Corporation</Submitter>
 
-        <Units/>
+        <Description><![CDATA[The Latest Recorded Interval is a readable resource representing the currently highest recorded interval on the device. Interval times represent the end of the interval, not the beginning.]]></Description>
+        
+         <TS></TS>
+        
+        <TSLink>0</TSLink>
 
-        <Description>
-
-          <![CDATA[The Latest Recorded Interval is a readable resource representing the currently highest recorded interval on the device. Interval times represent the end of the interval, not the beginning.]]>
-
-        </Description>
-
-      </Item>
-
-      <Item ID="6007">
+        </Item>
+  
+       <Item ID="6007">
 
         <Name>Interval Delivery Midnight Aligned</Name>
 
         <Operations>RW</Operations>
 
-        <MultipleInstances>Single</MultipleInstances>
-
-        <Mandatory>Mandatory</Mandatory>
-
         <Type>Boolean</Type>
 
-        <RangeEnumeration/>
+        <RangeEnumeration></RangeEnumeration>
+        
+        <Units></Units>
         
         <Submitter>South East Water Corporation</Submitter>
-
-        <Units/>
-
-        <Description>
-
-          <![CDATA[The Delivery Midnight Aligned is a readable and writable resource used to indicate if data is delivered only to the previous midnight (1) or if part-day data can be delivered (0). Calculating Midnight should consider the Interval UTC Offset resource, or if empty, the Device [/3/0/14] object instance resource.]]>
-
-        </Description>
+        
+        <Description><![CDATA[The Delivery Midnight Aligned is a readable and writable resource used to indicate if data is delivered only to the previous midnight (1) or if part-day data can be delivered (0). Calculating Midnight should consider the Interval UTC Offset resource, or if empty, the Device [/3/0/14] object instance resource.]]></Description>
+        
+         <TS></TS>
+        
+        <TSLink>0</TSLink>
 
       </Item>
+      
 
       <Item ID="6008">
 
@@ -2982,23 +2587,19 @@ First instance describes the least significant bit, second instance the second l
 
         <Operations>E</Operations>
 
-        <MultipleInstances>Single</MultipleInstances>
-
-        <Mandatory>Optional</Mandatory>
-
         <Type/>
 
-        <RangeEnumeration/>
+        <RangeEnumeration></RangeEnumeration>
+        
+        <Units></Units>
         
         <Submitter>South East Water Corporation</Submitter>
-
-        <Units/>
-
-        <Description>
-
-          <![CDATA[Historical Interval Read is an executable resource designed to retrieve ad-hoc interval read data. The resource takes two arguments:- Argument 0: First Interval time to Retrieve represented as number of seconds since Jan 1st, 1970 in the UTC time zone. Argument 1: Last interval time to Retrieve represented as number of seconds since Jan 1st, 1970 in the UTC time zone. The dates should be inclusive based on the end time of the interval. The data retrieved from this resource will be readable (or observable) from the Historical Read Payload Resource. As an example, the Argument List to retrieve data from Midnight 2nd March (UTC+10) to Midnight 6rd March (UTC+10) for a specific instance of the interval data object, would be constructed as follows:- 0='1488463200',1='1488808800']]>
-
-        </Description>
+        
+        <Description><![CDATA[Historical Interval Read is an executable resource designed to retrieve ad-hoc interval read data. The resource takes two arguments:- Argument 0: First Interval time to Retrieve represented as number of seconds since Jan 1st, 1970 in the UTC time zone. Argument 1: Last interval time to Retrieve represented as number of seconds since Jan 1st, 1970 in the UTC time zone. The dates should be inclusive based on the end time of the interval. The data retrieved from this resource will be readable (or observable) from the Historical Read Payload Resource. As an example, the Argument List to retrieve data from Midnight 2nd March (UTC+10) to Midnight 6rd March (UTC+10) for a specific instance of the interval data object, would be constructed as follows:- 0='1488463200',1='1488808800']]></Description>
+        
+       <TS></TS>
+        
+        <TSLink>0</TSLink>
 
       </Item>
 
@@ -3008,23 +2609,19 @@ First instance describes the least significant bit, second instance the second l
 
         <Operations>R</Operations>
 
-        <MultipleInstances>Single</MultipleInstances>
-
-        <Mandatory>Optional</Mandatory>
-
         <Type>Opaque</Type>
 
-        <RangeEnumeration/>
+        <RangeEnumeration></RangeEnumeration>
+        
+        <Units></Units>
         
         <Submitter>South East Water Corporation</Submitter>
 
-        <Units/>
-
-        <Description>
-
-          <![CDATA[The Historical Read Payload resource is the representation of the data requested by the Historical Interval Read executable resource. The format of this Opaque value should be identical to the Latest Payload resource. If no Historical Interval Read has been executed, this resource should return and empty Opaque value. This resource can either be Read from the Server or set up as an observation and Notified to the server as soon as the historical data is available. When this payload is delivered to the LwM2M server, via either a read request or a confirmed observation on this Object, Object Instance or Resource, the Historical Read Payload should be set to an empty Opaque value.]]>
-
-        </Description>
+        <Description><![CDATA[The Historical Read Payload resource is the representation of the data requested by the Historical Interval Read executable resource. The format of this Opaque value should be identical to the Latest Payload resource. If no Historical Interval Read has been executed, this resource should return and empty Opaque value. This resource can either be Read from the Server or set up as an observation and Notified to the server as soon as the historical data is available. When this payload is delivered to the LwM2M server, via either a read request or a confirmed observation on this Object, Object Instance or Resource, the Historical Read Payload should be set to an empty Opaque value.]]></Description>
+        
+       <TS></TS>
+        
+        <TSLink>0</TSLink>
 
       </Item>
 
@@ -3033,24 +2630,20 @@ First instance describes the least significant bit, second instance the second l
         <Name>Interval Change Configuration</Name>
 
         <Operations>E</Operations>
+ 
+        <Type></Type>
 
-        <MultipleInstances>Single</MultipleInstances>
+        <RangeEnumeration></RangeEnumeration>
 
-        <Mandatory>Optional</Mandatory>
-
-        <Type/>
-
-        <RangeEnumeration/>
+        <Units></Units>
         
         <Submitter>South East Water Corporation</Submitter>
 
-        <Units/>
-
-        <Description>
-
-          <![CDATA[Change Interval Configuration is an executable resource designed to allow the Interval Period, Interval Start Offset and Interval UTC Offset to be reconfigured. The resource takes three arguments:- Argument 0: [Mandatory] Interval Period represented as an integer as defined in the Interval Period Resource. Argument 1: [Optional] Interval start offset represented as an integer as defined in the Interval Start Offset Resource. If not provided, leave the value as per the current configuration Argument 2: [Optional] Interval UTC offset represented as a String as defined in the Interval UTC Offset Resource. If not provided, leave the value as per the current configuration. Depending on the specifics of the implementation of this object, reconfiguring the Interval data object may result in the removal of all historical data for this Interval Data Object Instance. Please consult with your device vendor as to the implications of reconfiguring an Interval Data Object Instance. As an example, the Argument List to change an interval data object instance from its existing values to one hour intervals, midnight aligned in UTC+10 time zone:- 0='3600',1='0',1='UTC+10']]>
-
-        </Description>
+        <Description><![CDATA[Change Interval Configuration is an executable resource designed to allow the Interval Period, Interval Start Offset and Interval UTC Offset to be reconfigured. The resource takes three arguments:- Argument 0: [Mandatory] Interval Period represented as an integer as defined in the Interval Period Resource. Argument 1: [Optional] Interval start offset represented as an integer as defined in the Interval Start Offset Resource. If not provided, leave the value as per the current configuration Argument 2: [Optional] Interval UTC offset represented as a String as defined in the Interval UTC Offset Resource. If not provided, leave the value as per the current configuration. Depending on the specifics of the implementation of this object, reconfiguring the Interval data object may result in the removal of all historical data for this Interval Data Object Instance. Please consult with your device vendor as to the implications of reconfiguring an Interval Data Object Instance. As an example, the Argument List to change an interval data object instance from its existing values to one hour intervals, midnight aligned in UTC+10 time zone:- 0='3600',1='0',1='UTC+10']]></Description>
+        
+         <TS></TS>
+        
+        <TSLink>0</TSLink>
 
       </Item>
 
@@ -3060,23 +2653,17 @@ First instance describes the least significant bit, second instance the second l
 
         <Operations>RW</Operations>
 
-        <MultipleInstances>Single</MultipleInstances>
-
-        <Mandatory>Mandatory</Mandatory>
-
         <Type>Integer</Type>
-
-        <RangeEnumeration/>
+        
+        <Units></Units>
         
         <Submitter>South East Water Corporation</Submitter>
 
-        <Units/>
-
-        <Description>
-
-          <![CDATA[Event Type is a readable and writable resource used to represent how this event will behave. Event Type should be one of the following values:- 0. Disabled 1. Alarm Current State 2. Alarm State Change Log 3. Event Log When the Event Type is set to Disabled (0), this event will not be recorded by the device. No Latest Eventlog payload should be delivered for events that are Disabled. When the Event Type is set to Alarm Current State (1), this Event is treated as an alarm state manager and the Latest Eventlog Payload will only contain the current state of this alarm. When the Event Type is set to Alarm State Change Log (2), the Event is treated as an alarm that reports whenever the Alarm is either set or cleared. The Latest Eventlog Payload will contain all alarm transitions since the previous delivery in this mode. When the Event Type is set to Event Log (3), this object instance is treated as a raw event log. It is used to manage and deliver events. The Latest Eventlog Payload will contain all events since the previous delivery in this mode. See the Event Log Payload for examples of each of these modes. ]]>
-
-        </Description>
+        <Description><![CDATA[Event Type is a readable and writable resource used to represent how this event will behave. Event Type should be one of the following values:- 0. Disabled 1. Alarm Current State 2. Alarm State Change Log 3. Event Log When the Event Type is set to Disabled (0), this event will not be recorded by the device. No Latest Eventlog payload should be delivered for events that are Disabled. When the Event Type is set to Alarm Current State (1), this Event is treated as an alarm state manager and the Latest Eventlog Payload will only contain the current state of this alarm. When the Event Type is set to Alarm State Change Log (2), the Event is treated as an alarm that reports whenever the Alarm is either set or cleared. The Latest Eventlog Payload will contain all alarm transitions since the previous delivery in this mode. When the Event Type is set to Event Log (3), this object instance is treated as a raw event log. It is used to manage and deliver events. The Latest Eventlog Payload will contain all events since the previous delivery in this mode. See the Event Log Payload for examples of each of these modes. ]]></Description>
+        
+         <TS></TS>
+        
+        <TSLink>0</TSLink>
 
       </Item>
 
@@ -3086,23 +2673,19 @@ First instance describes the least significant bit, second instance the second l
 
         <Operations>RW</Operations>
 
-        <MultipleInstances>Single</MultipleInstances>
-
-        <Mandatory>Mandatory</Mandatory>
-
         <Type>Boolean</Type>
 
-        <RangeEnumeration/>
+        <RangeEnumeration></RangeEnumeration>     
+
+        <Units></Units>
         
         <Submitter>South East Water Corporation</Submitter>
 
-        <Units/>
-
-        <Description>
-
-          <![CDATA[Realtime is a readable and writable resource used to indicate if an event should report immediately (1) at the point of occurrence, or delivered periodically as part of the Latest Eventlog Payload.]]>
-
-        </Description>
+        <Description><![CDATA[Realtime is a readable and writable resource used to indicate if an event should report immediately (1) at the point of occurrence, or delivered periodically as part of the Latest Eventlog Payload.]]></Description>
+        
+         <TS></TS>
+        
+        <TSLink>0</TSLink>
 
       </Item>
 
@@ -3111,24 +2694,20 @@ First instance describes the least significant bit, second instance the second l
         <Name>Alarm State</Name>
 
         <Operations>R</Operations>
-
-        <MultipleInstances>Single</MultipleInstances>
-
-        <Mandatory>Optional</Mandatory>
-
+ 
         <Type>Boolean</Type>
 
-        <RangeEnumeration/>
+        <RangeEnumeration></RangeEnumeration>
+        
+         <Units></Units>
         
         <Submitter>South East Water Corporation</Submitter>
 
-        <Units/>
-
-        <Description>
-
-          <![CDATA[Alarm State is a read-only resource used to indicate the current alarm state for this Event configuration. This is only applicable if the Event Type is Alarm Current State (1) or Alarm State Change (2). ]]>
-
-        </Description>
+        <Description><![CDATA[Alarm State is a read-only resource used to indicate the current alarm state for this Event configuration. This is only applicable if the Event Type is Alarm Current State (1) or Alarm State Change (2). ]]></Description>
+        
+        <TS></TS>
+        
+        <TSLink>0</TSLink>
 
       </Item>
 
@@ -3138,23 +2717,19 @@ First instance describes the least significant bit, second instance the second l
 
         <Operations>RW</Operations>
 
-        <MultipleInstances>Single</MultipleInstances>
-
-        <Mandatory>Optional</Mandatory>
-
         <Type>Float</Type>
 
-        <RangeEnumeration/>
+        <RangeEnumeration></RangeEnumeration>
+        
+        <Units></Units>
         
         <Submitter>South East Water Corporation</Submitter>
 
-        <Units/>
-
-        <Description>
-
-          <![CDATA[Set Threshold is a readable and writable resource used to represent the threshold for when an alarm is triggered. This resource is used in conjunction with the Set Operator resource. ]]>
-
-        </Description>
+        <Description><![CDATA[Set Threshold is a readable and writable resource used to represent the threshold for when an alarm is triggered. This resource is used in conjunction with the Set Operator resource. ]]></Description>
+        
+        <TS></TS>
+        
+        <TSLink>0</TSLink>
 
       </Item>
 
@@ -3164,23 +2739,19 @@ First instance describes the least significant bit, second instance the second l
 
         <Operations>RW</Operations>
 
-        <MultipleInstances>Single</MultipleInstances>
-
-        <Mandatory>Optional</Mandatory>
-
         <Type>Integer</Type>
 
-        <RangeEnumeration/>
+        <RangeEnumeration></RangeEnumeration>
+        
+        <Units></Units>
         
         <Submitter>South East Water Corporation</Submitter>
 
-        <Units/>
-
-        <Description>
-
-          <![CDATA[Set Operator is a readable and writable resource used in conjunction with the Set Threshold to represent when an alarm is triggered. This resource should be set to one of the following values:- 0. Greater Than or Equal to 1. Less Than or Equal to By setting the Set Operator to Greater Than (0), when the measured value for this event exceeds the Set Threshold resource, the event is considered to be in an Alarm State of 1 By setting the Set Operator to Less Than (1), when the measured value for this event falls below the Set Threshold resource, the event is considered to be in an Alarm State of 1]]>
-
-        </Description>
+        <Description><![CDATA[Set Operator is a readable and writable resource used in conjunction with the Set Threshold to represent when an alarm is triggered. This resource should be set to one of the following values:- 0. Greater Than or Equal to 1. Less Than or Equal to By setting the Set Operator to Greater Than (0), when the measured value for this event exceeds the Set Threshold resource, the event is considered to be in an Alarm State of 1 By setting the Set Operator to Less Than (1), when the measured value for this event falls below the Set Threshold resource, the event is considered to be in an Alarm State of 1]]></Description>
+        
+        <TS></TS>
+        
+        <TSLink>0</TSLink>
 
       </Item>
 
@@ -3190,23 +2761,19 @@ First instance describes the least significant bit, second instance the second l
 
         <Operations>RW</Operations>
 
-        <MultipleInstances>Single</MultipleInstances>
-
-        <Mandatory>Optional</Mandatory>
-
         <Type>Float</Type>
 
-        <RangeEnumeration/>
+        <RangeEnumeration></RangeEnumeration>
+        
+        <Units></Units>
         
         <Submitter>South East Water Corporation</Submitter>
 
-        <Units/>
-
-        <Description>
-
-          <![CDATA[Clear Threshold is a readable and writable resource used to represent the threshold for when an alarm is cleared. This resource is used in conjunction with the Clear Operator resource. ]]>
-
-        </Description>
+        <Description><![CDATA[Clear Threshold is a readable and writable resource used to represent the threshold for when an alarm is cleared. This resource is used in conjunction with the Clear Operator resource. ]]></Description>
+        
+        <TS></TS>
+        
+        <TSLink>0</TSLink>
 
       </Item>
 
@@ -3215,24 +2782,20 @@ First instance describes the least significant bit, second instance the second l
         <Name>Alarm Clear Operator</Name>
 
         <Operations>RW</Operations>
-
-        <MultipleInstances>Single</MultipleInstances>
-
-        <Mandatory>Optional</Mandatory>
-
+ 
         <Type>Integer</Type>
 
-        <RangeEnumeration/>
+        <RangeEnumeration></RangeEnumeration>
+        
+        <Units></Units>
         
         <Submitter>South East Water Corporation</Submitter>
 
-        <Units/>
-
-        <Description>
-
-          <![CDATA[Clear Operator is a readable and writable resource used in conjunction with the Clear Threshold to represent when an alarm is Cleared. This resource should be set to one of the following values:- 0. Greater Than or Equal to 1. Less Than or Equal to By setting the Clear Operator to Greater Than (0), when the measured value for this event exceeds the Clear Threshold resource, the event is considered to be in an Alarm State of 0 By setting the Clear Operator to Less Than (1), when the measured value for this event falls below the Clear Threshold resource, the event is considered to be in an Alarm State of 0]]>
-
-        </Description>
+        <Description><![CDATA[Clear Operator is a readable and writable resource used in conjunction with the Clear Threshold to represent when an alarm is Cleared. This resource should be set to one of the following values:- 0. Greater Than or Equal to 1. Less Than or Equal to By setting the Clear Operator to Greater Than (0), when the measured value for this event exceeds the Clear Threshold resource, the event is considered to be in an Alarm State of 0 By setting the Clear Operator to Less Than (1), when the measured value for this event falls below the Clear Threshold resource, the event is considered to be in an Alarm State of 0]]></Description>
+        
+         <TS></TS>
+        
+        <TSLink>0</TSLink>
 
       </Item>
 
@@ -3242,23 +2805,19 @@ First instance describes the least significant bit, second instance the second l
 
         <Operations>RW</Operations>
 
-        <MultipleInstances>Single</MultipleInstances>
-
-        <Mandatory>Optional</Mandatory>
-
         <Type>Integer</Type>
 
-        <RangeEnumeration/>
+        <RangeEnumeration></RangeEnumeration>
+        
+        <Units></Units>
         
         <Submitter>South East Water Corporation</Submitter>
 
-        <Units/>
-
-        <Description>
-
-          <![CDATA[Maximum Event Count is a readable and writable resource used provide a ceiling on the number of events that can be raised within the time period defined in Maximum Event Period resource. If no Maximum Event Count is set, the number of events recorded is unconstrained. The intent of this resource is to control the number of events reported, particularly in the case of a faulty sensor.]]>
-
-        </Description>
+        <Description><![CDATA[Maximum Event Count is a readable and writable resource used provide a ceiling on the number of events that can be raised within the time period defined in Maximum Event Period resource. If no Maximum Event Count is set, the number of events recorded is unconstrained. The intent of this resource is to control the number of events reported, particularly in the case of a faulty sensor.]]></Description>
+        
+         <TS></TS>
+        
+        <TSLink>0</TSLink>
 
       </Item>
 
@@ -3267,24 +2826,20 @@ First instance describes the least significant bit, second instance the second l
         <Name>Alarm Maximum Event Period</Name>
 
         <Operations>RW</Operations>
-
-        <MultipleInstances>Single</MultipleInstances>
-
-        <Mandatory>Optional</Mandatory>
-
+ 
         <Type>Integer</Type>
 
         <RangeEnumeration>1-864000</RangeEnumeration>
         
+        <Units>Seconds</Units>
+        
         <Submitter>South East Water Corporation</Submitter>
 
-        <Units>Seconds</Units>
-
-        <Description>
-
-          <![CDATA[Maximum Event Period is a readable and writable resource used in conjunction with the Maximum Event Count resource to control the number of events that can be raised in a given period. Maximum Event Period is an integer value representing the number of seconds for which the Maximum Event Count is measured. If no Maximum Event Period is set, the number of events recorded is unconstrained. The intent of this resource is to control the number of events reported, particularly in the case of a faulty sensor.]]>
-
-        </Description>
+        <Description><![CDATA[Maximum Event Period is a readable and writable resource used in conjunction with the Maximum Event Count resource to control the number of events that can be raised in a given period. Maximum Event Period is an integer value representing the number of seconds for which the Maximum Event Count is measured. If no Maximum Event Period is set, the number of events recorded is unconstrained. The intent of this resource is to control the number of events reported, particularly in the case of a faulty sensor.]]></Description>
+        
+         <TS></TS>
+        
+        <TSLink>0</TSLink>
 
       </Item>
 
@@ -3294,23 +2849,19 @@ First instance describes the least significant bit, second instance the second l
 
         <Operations>RW</Operations>
 
-        <MultipleInstances>Single</MultipleInstances>
-
-        <Mandatory>Optional</Mandatory>
-
         <Type>Time</Type>
 
-        <RangeEnumeration/>
+        <RangeEnumeration></RangeEnumeration>
+        
+        <Units></Units>
         
         <Submitter>South East Water Corporation</Submitter>
 
-        <Units/>
-
-        <Description>
-
-          <![CDATA[Latest Delivered Event Time is a readable and writable resource to represent the last recorded time that an event was delivered for this event code to the LwM2M server. The setting of this resource is implementation specific but should be updated based on, either a Read request of the Latest Eventlog Payload from the LwM2M server or via a confirmed delivery of Notify operation of the Latest Eventlog Payload resource. This resource is writable to allow the server to adjust the Last Delivered Event Time value if the server and client is out of sync.]]>
-
-        </Description>
+        <Description><![CDATA[Latest Delivered Event Time is a readable and writable resource to represent the last recorded time that an event was delivered for this event code to the LwM2M server. The setting of this resource is implementation specific but should be updated based on, either a Read request of the Latest Eventlog Payload from the LwM2M server or via a confirmed delivery of Notify operation of the Latest Eventlog Payload resource. This resource is writable to allow the server to adjust the Last Delivered Event Time value if the server and client is out of sync.]]></Description>
+        
+         <TS></TS>
+        
+        <TSLink>0</TSLink>
 
       </Item>
 
@@ -3320,49 +2871,41 @@ First instance describes the least significant bit, second instance the second l
 
         <Operations>R</Operations>
 
-        <MultipleInstances>Single</MultipleInstances>
-
-        <Mandatory>Mandatory</Mandatory>
-
         <Type>Time</Type>
 
-        <RangeEnumeration/>
+        <RangeEnumeration></RangeEnumeration>
+        
+        <Units></Units>
         
         <Submitter>South East Water Corporation</Submitter>
 
-        <Units/>
+        <Description><![CDATA[Latest Recorded Event Time is a readonly resource used to represent the last recorded event time for this object instance on the device]]></Description>
+        
+        <TS></TS>
+        
+        <TSLink>0</TSLink>
 
-        <Description>
+       </Item>
 
-          <![CDATA[Latest Recorded Event Time is a readonly resource used to represent the last recorded event time for this object instance on the device]]>
-
-        </Description>
-
-      </Item>
-
-      <Item ID="6022">
-
+       <Item ID="6022">
+ 
         <Name>Alarm Clear</Name>
 
         <Operations>E</Operations>
 
-        <MultipleInstances>Single</MultipleInstances>
-
-        <Mandatory>Optional</Mandatory>
-
         <Type/>
 
-        <RangeEnumeration/>
+        <RangeEnumeration></RangeEnumeration>
+        
+         <Units></Units>
         
         <Submitter>South East Water Corporation</Submitter>
 
-        <Units/>
-
-        <Description>
-
-          <![CDATA[Clear Alarm is an executable resource used to allow the LwM2M server to clear alarms when they need to be manually acknowledged.]]>
-
-        </Description>
+        <Description><![CDATA[Clear Alarm is an executable resource used to allow the LwM2M server to clear alarms when they need to be manually acknowledged.]]></Description>
+        
+         <TS></TS>
+        
+        <TSLink>0</TSLink>
 
       </Item>
 
@@ -3371,24 +2914,20 @@ First instance describes the least significant bit, second instance the second l
         <Name>Alarm Auto Clear</Name>
 
         <Operations>RW</Operations>
-
-        <MultipleInstances>Single</MultipleInstances>
-
-        <Mandatory>Optional</Mandatory>
-
+ 
         <Type>Boolean</Type>
 
-        <RangeEnumeration/>
+        <RangeEnumeration></RangeEnumeration>
+        
+        <Units></Units>
         
         <Submitter>South East Water Corporation</Submitter>
 
-        <Units/>
-
-        <Description>
-
-          <![CDATA[Auto Clear Alarm is a readable and writable resource used to indicate if an alarm is automatically cleared once the delivery of the event data payload is complete ]]>
-
-        </Description>
+        <Description><![CDATA[Auto Clear Alarm is a readable and writable resource used to indicate if an alarm is automatically cleared once the delivery of the event data payload is complete ]]></Description>
+        
+         <TS></TS>
+        
+        <TSLink>0</TSLink>
 
       </Item>
 
@@ -3398,23 +2937,19 @@ First instance describes the least significant bit, second instance the second l
 
         <Operations>R</Operations>
 
-        <MultipleInstances>Single</MultipleInstances>
-
-        <Mandatory>Mandatory</Mandatory>
-
         <Type>Integer</Type>
 
         <RangeEnumeration>100-255</RangeEnumeration>
         
+        <Units></Units>
+        
         <Submitter>South East Water Corporation</Submitter>
 
-        <Units/>
-
-        <Description>
-
-          <![CDATA[Event Code is a read-only resource used as an identifier to represent this class of event. The allocation of event codes is implementation specific but ideally be unique across the implementation. Event Codes use vendor specific LogClass value 100...255]]>
-
-        </Description>
+        <Description><![CDATA[Event Code is a read-only resource used as an identifier to represent this class of event. The allocation of event codes is implementation specific but ideally be unique across the implementation. Event Codes use vendor specific LogClass value 100...255]]></Description>
+        
+         <TS></TS>
+        
+        <TSLink>0</TSLink>
 
       </Item>
 
@@ -3424,23 +2959,19 @@ First instance describes the least significant bit, second instance the second l
 
         <Operations>R</Operations>
 
-        <MultipleInstances>Single</MultipleInstances>
-
-        <Mandatory>Mandatory</Mandatory>
-
         <Type>Opaque</Type>
 
-        <RangeEnumeration/>
+        <RangeEnumeration></RangeEnumeration>
+        
+        <Units></Units>
         
         <Submitter>South East Water Corporation</Submitter>
 
-        <Units/>
-
-        <Description>
-
-          <![CDATA[The Latest Eventlog Payload resource is a read-only serialised Opaque (Binary) representation of all the Event Data between the Last Delivered Event Time and the Latest Recorded Event Time. When this payload is delivered to the LwM2M server, via either a read request or a confirmed observation on this Object, Object Instance or Resource, the Latest Delivered Interval should be updated. When no new data exists, an empty Opaque value should be provided. The payload data can be provided in an implementation specific serialisation, but by default for fixed length values should use the OMA-LwM2M CBOR format encoded with one of these schemes:- Event Type = Alarm Current State (1) In this mode, only the current alarm state should be reported 1. 8-bit integer, value 2 representing OMA-LwM2M CBOR format. 2. Event Code [16-bit integer] 3. Event Type [8-bit Integer] - Alarm Current State (1) 4. Alarm Timestamp [32-bit unsigned integer] representing the number of seconds since Jan 1st, 1970 in the UTC time zone. 5. Alarm State [8-bit Integer] ]]>
-
-        </Description>
+        <Description><![CDATA[The Latest Eventlog Payload resource is a read-only serialised Opaque (Binary) representation of all the Event Data between the Last Delivered Event Time and the Latest Recorded Event Time. When this payload is delivered to the LwM2M server, via either a read request or a confirmed observation on this Object, Object Instance or Resource, the Latest Delivered Interval should be updated. When no new data exists, an empty Opaque value should be provided. The payload data can be provided in an implementation specific serialisation, but by default for fixed length values should use the OMA-LwM2M CBOR format encoded with one of these schemes:- Event Type = Alarm Current State (1) In this mode, only the current alarm state should be reported 1. 8-bit integer, value 2 representing OMA-LwM2M CBOR format. 2. Event Code [16-bit integer] 3. Event Type [8-bit Integer] - Alarm Current State (1) 4. Alarm Timestamp [32-bit unsigned integer] representing the number of seconds since Jan 1st, 1970 in the UTC time zone. 5. Alarm State [8-bit Integer] ]]></Description>
+        
+        <TS></TS>
+        
+        <TSLink>0</TSLink>
 
       </Item>
 
@@ -3450,23 +2981,19 @@ First instance describes the least significant bit, second instance the second l
 
         <Operations>E</Operations>
 
-        <MultipleInstances>Single</MultipleInstances>
-
-        <Mandatory>Optional</Mandatory>
-
         <Type/>
 
-        <RangeEnumeration/>
+        <RangeEnumeration></RangeEnumeration>
+        
+        <Units></Units>
         
         <Submitter>South East Water Corporation</Submitter>
 
-        <Units/>
-
-        <Description>
-
-          <![CDATA[Start is an executable resource that enables the recording of interval data. The first interval recorded will have a timestamp based on the Interval Start Offset resource. This executable resource takes no arguments. Refer to re-usable resource LogStart for further details.]]>
-
-        </Description>
+        <Description><![CDATA[Start is an executable resource that enables the recording of interval data. The first interval recorded will have a timestamp based on the Interval Start Offset resource. This executable resource takes no arguments. Refer to re-usable resource LogStart for further details.]]></Description>
+        
+        <TS></TS>
+        
+        <TSLink>0</TSLink>
 
       </Item>
 
@@ -3476,23 +3003,19 @@ First instance describes the least significant bit, second instance the second l
 
         <Operations>E</Operations>
 
-        <MultipleInstances>Single</MultipleInstances>
-
-        <Mandatory>Optional</Mandatory>
-
         <Type/>
 
-        <RangeEnumeration/>
+        <RangeEnumeration></RangeEnumeration>
+        
+        <Units></Units>
         
         <Submitter>South East Water Corporation</Submitter>
 
-        <Units/>
-
-        <Description>
-
-          <![CDATA[Stop (LogStop) is an executable resource that disables the recording of interval data for this object instance. This executable resource takes no arguments. Refer to re-usable resource LogStop for further details.]]>
-
-        </Description>
+        <Description><![CDATA[Stop (LogStop) is an executable resource that disables the recording of interval data for this object instance. This executable resource takes no arguments. Refer to re-usable resource LogStop for further details.]]></Description>
+        
+         <TS></TS>
+        
+        <TSLink>0</TSLink>
 
       </Item>
 
@@ -3502,23 +3025,19 @@ First instance describes the least significant bit, second instance the second l
 
         <Operations>R</Operations>
 
-        <MultipleInstances>Single</MultipleInstances>
-
-        <Mandatory>Optional</Mandatory>
-
         <Type>Integer</Type>
 
-        <RangeEnumeration/>
+        <RangeEnumeration></RangeEnumeration>
+        
+        <Units></Units>
         
         <Submitter>South East Water Corporation</Submitter>
 
-        <Units/>
-
-        <Description>
-
-          <![CDATA[Recording Enabled is a read-only resource providing an indication of if interval data is currently being recorded for this object instance. Refer to re-usable resource LogStatus for further details.]]>
-
-        </Description>
+        <Description><![CDATA[Recording Enabled is a read-only resource providing an indication of if interval data is currently being recorded for this object instance. Refer to re-usable resource LogStatus for further details.]]></Description>
+        
+         <TS></TS>
+        
+        <TSLink>0</TSLink>
 
       </Item>
 
@@ -3528,23 +3047,19 @@ First instance describes the least significant bit, second instance the second l
 
         <Operations>R</Operations>
 
-        <MultipleInstances>Single</MultipleInstances>
-
-        <Mandatory>Mandatory</Mandatory>
-
         <Type>Opaque</Type>
 
-        <RangeEnumeration/>
+        <RangeEnumeration></RangeEnumeration>
+        
+        <Units></Units>
         
         <Submitter>South East Water Corporation</Submitter>
 
-        <Units/>
-
-        <Description>
-
-          <![CDATA[The Latest Payload resource is a read-only serialised Opaque (Binary) representation of all the Interval Data between the Last Delivered Interval and the Latest Recorded Interval, accounting for the Delivery Midnight Aligned resource. When this payload is delivered to the LwM2M server, via either a read request or a confirmed observation on this Object, Object Instance or Resource, the Latest Delivered Interval should be updated. When no new data exists, an empty Opaque value should be provided. The payload data can be provided in an implementation specific serialisation, but by default for fixed length values should use the OMA-LwM2M CBOR format encoded as follows: 1. 8-bit integer, value 2 representing OMA-LwM2M CBOR format. 2. Interval Data Instance ID/ Class [16-bit integer] 3. Timestamp of first Interval [32-bit integer] representing the number of seconds since Jan 1st, 1970 in the UTC time zone. 4. Interval Period in seconds [32-bit integer] 5. Number of intervals in Payload [16-bit integer] 6. Number of Values Per Interval [8-bit integer] 7. Size of Value 1 in bits [8-bit integer] 8. Size of Value 2 in bits [8-bit integer] ... 9. Size of Value N in bits [8-bit integer] 10. Interval 1 Value 1 [x bits] 11. Interval 1 Value 2 [x bits] ... 12. Interval 1 Value N [x bits] ... 13. Interval N Value N [x bits] If for some implementation specific reason, there are missing intervals in the sequence, the payload may consist of multiple blocks of the above serialised data (appended into a single binary opaque value), each block representing a continuous series of interval data. ]]>
-
-        </Description>
+        <Description><![CDATA[The Latest Payload resource is a read-only serialised Opaque (Binary) representation of all the Interval Data between the Last Delivered Interval and the Latest Recorded Interval, accounting for the Delivery Midnight Aligned resource. When this payload is delivered to the LwM2M server, via either a read request or a confirmed observation on this Object, Object Instance or Resource, the Latest Delivered Interval should be updated. When no new data exists, an empty Opaque value should be provided. The payload data can be provided in an implementation specific serialisation, but by default for fixed length values should use the OMA-LwM2M CBOR format encoded as follows: 1. 8-bit integer, value 2 representing OMA-LwM2M CBOR format. 2. Interval Data Instance ID/ Class [16-bit integer] 3. Timestamp of first Interval [32-bit integer] representing the number of seconds since Jan 1st, 1970 in the UTC time zone. 4. Interval Period in seconds [32-bit integer] 5. Number of intervals in Payload [16-bit integer] 6. Number of Values Per Interval [8-bit integer] 7. Size of Value 1 in bits [8-bit integer] 8. Size of Value 2 in bits [8-bit integer] ... 9. Size of Value N in bits [8-bit integer] 10. Interval 1 Value 1 [x bits] 11. Interval 1 Value 2 [x bits] ... 12. Interval 1 Value N [x bits] ... 13. Interval N Value N [x bits] If for some implementation specific reason, there are missing intervals in the sequence, the payload may consist of multiple blocks of the above serialised data (appended into a single binary opaque value), each block representing a continuous series of interval data. ]]></Description>
+        
+        <TS></TS>
+        
+        <TSLink>0</TSLink>
 
       </Item>
 
@@ -3554,19 +3069,19 @@ First instance describes the least significant bit, second instance the second l
 
         <Operations>R</Operations>
 
-        <MultipleInstances>Single</MultipleInstances>
-
-        <Mandatory>Mandatory</Mandatory>
-
         <Type>Integer</Type>
 
-        <RangeEnumeration/>
+        <RangeEnumeration></RangeEnumeration>
+        
+        <Units></Units>
         
         <Submitter>GSMA</Submitter>
 
-        <Units/>
-
         <Description>PLMN - mcc/mnc</Description>
+        
+       <TS></TS>
+        
+        <TSLink>0</TSLink>
 
       </Item>
 
@@ -3576,19 +3091,19 @@ First instance describes the least significant bit, second instance the second l
 
         <Operations>R</Operations>
 
-        <MultipleInstances>Single</MultipleInstances>
-
-        <Mandatory>Mandatory</Mandatory>
-
         <Type>Integer</Type>
 
-        <RangeEnumeration/>
+        <RangeEnumeration></RangeEnumeration>
+        
+        <Units></Units>
         
         <Submitter>GSMA</Submitter>
 
-        <Units/>
-
         <Description>Band Indicator</Description>
+        
+         <TS></TS>
+        
+        <TSLink>0</TSLink>
 
       </Item>
 
@@ -3598,19 +3113,19 @@ First instance describes the least significant bit, second instance the second l
 
         <Operations>R</Operations>
 
-        <MultipleInstances>Single</MultipleInstances>
-
-        <Mandatory>Mandatory</Mandatory>
-
         <Type>Integer</Type>
 
-        <RangeEnumeration/>
+        <RangeEnumeration></RangeEnumeration>
+        
+         <Units></Units>
         
         <Submitter>GSMA</Submitter>
 
-        <Units/>
-
         <Description>EARFCN - frequency</Description>
+        
+        <TS></TS>
+        
+        <TSLink>0</TSLink>
 
       </Item>
 
@@ -3620,40 +3135,41 @@ First instance describes the least significant bit, second instance the second l
 
         <Operations>R</Operations>
 
-        <MultipleInstances>Single</MultipleInstances>
-
-        <Mandatory>Mandatory</Mandatory>
-
         <Type>Integer</Type>
         
-        <RangeEnumeration/>
+        <RangeEnumeration></RangeEnumeration>
+        
+         <Units></Units>
         
         <Submitter>GSMA</Submitter>
 
-        <Units/>
-
         <Description>Cell Identity</Description>
+        
+        <TS></TS>
+        
+        <TSLink>0</TSLink>
 
       </Item>
+      
       <Item ID="6034">
 
         <Name>pci</Name>
 
         <Operations>R</Operations>
 
-        <MultipleInstances>Single</MultipleInstances>
-
-        <Mandatory>Mandatory</Mandatory>
-
         <Type>Integer</Type>
 
-        <RangeEnumeration/>
+        <RangeEnumeration></RangeEnumeration>
+        
+        <Units></Units>
         
         <Submitter>GSMA</Submitter>
 
-        <Units/>
-
         <Description>PCI (0..504)</Description>
+        
+        <TS></TS>
+        
+        <TSLink>0</TSLink>
 
       </Item>
       
@@ -3663,19 +3179,19 @@ First instance describes the least significant bit, second instance the second l
 
          <Operations>R</Operations>
 
-        <MultipleInstances>Single</MultipleInstances>
-
-        <Mandatory>Mandatory</Mandatory>
-
         <Type>Integer</Type>
         
-          <RangeEnumeration/>
+        <RangeEnumeration></RangeEnumeration>
+        
+        <Units></Units>
         
         <Submitter>GSMA</Submitter>
 
-        <Units/>
-
         <Description>RSRP Value in dBm (-180..-30)</Description>
+        
+        <TS></TS>
+        
+        <TSLink>0</TSLink>
 
       </Item>
       
@@ -3685,18 +3201,19 @@ First instance describes the least significant bit, second instance the second l
 
          <Operations>R</Operations>
 
-        <MultipleInstances>Single</MultipleInstances>
-
-        <Mandatory>Mandatory</Mandatory>
-
         <Type>Integer</Type>
         
-        <RangeEnumeration/>
+        <RangeEnumeration></RangeEnumeration>
+        
+        <Units></Units>
+        
         <Submitter>GSMA</Submitter>
 
-        <Units/>
-
         <Description>RSRQ Value in dB (-30..10)</Description>
+        
+       <TS></TS>
+        
+        <TSLink>0</TSLink>
 
       </Item>
       
@@ -3706,18 +3223,19 @@ First instance describes the least significant bit, second instance the second l
 
         <Operations>R</Operations>
 
-        <MultipleInstances>Single</MultipleInstances>
-
-        <Mandatory>Mandatory</Mandatory>
-
         <Type>Integer</Type>
         
-        <RangeEnumeration/>
+        <RangeEnumeration></RangeEnumeration>
+        
+         <Units></Units>
+        
         <Submitter>GSMA</Submitter>
 
-        <Units/>
-
         <Description>System Frame Number</Description>
+        
+       <TS></TS>
+        
+        <TSLink>0</TSLink>
 
       </Item>
       
@@ -3727,25 +3245,23 @@ First instance describes the least significant bit, second instance the second l
 
         <Operations>R</Operations>
 
-        <MultipleInstances>Single</MultipleInstances>
-
-        <Mandatory>Mandatory</Mandatory>
-
         <Type>Integer</Type>
         
-        <RangeEnumeration/>
+        <RangeEnumeration></RangeEnumeration>
+        
+        <Units></Units>
         
         <Submitter>GSMA</Submitter>
 
-        <Units/>
-
         <Description>Sub Frame Number</Description>
+        
+         <TS></TS>
+        
+        <TSLink>0</TSLink>
 
       </Item>
 
     </Resources>
-
-    <Description2/>
 
   </Object>
 

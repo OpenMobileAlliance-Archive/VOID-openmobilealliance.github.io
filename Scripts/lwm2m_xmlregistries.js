@@ -121,16 +121,18 @@
                 var units = $(this).find('Units').text();
                 var submitter = $(this).find('Submitter').text();
                 var description = $(this).find('Description').text();
+                var tsURL = $(this).find('TS').text();
+                var tsLink = $(this).find('TSLink').text();
 
                 var $tableselected = $('#commonobjects_tbl');
 
                 $tableselected.find('tbody').append(
                     '<tr>' +
                         '<td>' +
-                            '<a>' + resourceID + '</a>' +
+                            resourceID +
                         '</td>' +
                         '<td>' +
-                            '<a>' + resourceName + '</a>' +
+                            ((tsLink > 0) ? '<a href="' + tsURL + '">' + resourceName + '</a>' : resourceName) +
                         '</td>' +
                         '<td>' +
                              accessType +
