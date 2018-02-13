@@ -884,7 +884,7 @@
         <Owner>IPSO Alliance</Owner>
         <Source>1</Source>
 
-        <Ver />
+        <Ver>1.0</Ver>
         <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/3318.xml</DDF>
         <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3318.xml</LWM2M>
         <Vorto>http://vorto.eclipse.org/resolve/lwm2m/Object/ObjectID/3318</Vorto>
@@ -901,7 +901,7 @@
         <Owner>IPSO Alliance</Owner>
         <Source>1</Source>
 
-        <Ver />
+        <Ver>1.0</Ver>
         <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/3319.xml</DDF>
         <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3319.xml</LWM2M>
         <Vorto>http://vorto.eclipse.org/resolve/lwm2m/Object/ObjectID/3319</Vorto>
@@ -918,7 +918,7 @@
         <Owner>IPSO Alliance</Owner>
         <Source>1</Source>
 
-        <Ver />
+        <Ver>1.0</Ver>
         <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/3320.xml</DDF>
         <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3320.xml</LWM2M>
         <Vorto>http://vorto.eclipse.org/resolve/lwm2m/Object/ObjectID/3320</Vorto>
@@ -935,7 +935,7 @@
         <Owner>IPSO Alliance</Owner>
         <Source>1</Source>
 
-        <Ver />
+        <Ver>1.0</Ver>
         <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/3321.xml</DDF>
         <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3321.xml</LWM2M>
         <Vorto>http://vorto.eclipse.org/resolve/lwm2m/Object/ObjectID/3321</Vorto>
@@ -952,7 +952,7 @@
         <Owner>IPSO Alliance</Owner>
         <Source>1</Source>
 
-        <Ver />
+        <Ver>1.0</Ver>
         <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/3322.xml</DDF>
         <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3322.xml</LWM2M>
         <Vorto>http://vorto.eclipse.org/resolve/lwm2m/Object/ObjectID/3322</Vorto>
@@ -969,7 +969,7 @@
         <Owner>IPSO Alliance</Owner>
         <Source>1</Source>
 
-        <Ver />
+        <Ver>1.0</Ver>
         <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/3323.xml</DDF>
         <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3323.xml</LWM2M>
         <Vorto>http://vorto.eclipse.org/resolve/lwm2m/Object/ObjectID/3323</Vorto>
@@ -986,7 +986,7 @@
         <Owner>IPSO Alliance</Owner>
         <Source>1</Source>
 
-        <Ver />
+        <Ver>1.0</Ver>
         <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/3324.xml</DDF>
         <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3324.xml</LWM2M>
         <Vorto>http://vorto.eclipse.org/resolve/lwm2m/Object/ObjectID/3324</Vorto>
@@ -1003,7 +1003,7 @@
         <Owner>IPSO Alliance</Owner>
         <Source>1</Source>
 
-        <Ver />
+        <Ver>1.0</Ver>
         <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/3325.xml</DDF>
         <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3325.xml</LWM2M>
         <Vorto>http://vorto.eclipse.org/resolve/lwm2m/Object/ObjectID/3325</Vorto>
@@ -1020,7 +1020,7 @@
         <Owner>IPSO Alliance</Owner>
         <Source>1</Source>
 
-        <Ver />
+        <Ver>1.0</Ver>
         <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/3326.xml</DDF>
         <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3326.xml</LWM2M>
         <Vorto>http://vorto.eclipse.org/resolve/lwm2m/Object/ObjectID/3326</Vorto>
@@ -1037,7 +1037,7 @@
         <Owner>IPSO Alliance</Owner>
         <Source>1</Source>
 
-        <Ver />
+        <Ver>1.0</Ver>
         <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/3327.xml</DDF>
         <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3327.xml</LWM2M>
         <Vorto>http://vorto.eclipse.org/resolve/lwm2m/Object/ObjectID/3327</Vorto>
@@ -1054,7 +1054,7 @@
         <Owner>IPSO Alliance</Owner>
         <Source>1</Source>
 
-        <Ver />
+        <Ver>1.0</Ver>
         <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/3328.xml</DDF>
         <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3328.xml</LWM2M>
         <Vorto>http://vorto.eclipse.org/resolve/lwm2m/Object/ObjectID/3328</Vorto>
@@ -1071,7 +1071,7 @@
         <Owner>IPSO Alliance</Owner>
         <Source>1</Source>
 
-        <Ver />
+        <Ver>1.0</Ver>
         <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/3329.xml</DDF>
         <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3329.xml</LWM2M>
         <Vorto>http://vorto.eclipse.org/resolve/lwm2m/Object/ObjectID/3329</Vorto>
@@ -1088,7 +1088,7 @@
         <Owner>IPSO Alliance</Owner>
         <Source>1</Source>
 
-        <Ver />
+        <Ver>1.0</Ver>
         <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/3330.xml</DDF>
         <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3330.xml</LWM2M>
         <Vorto>http://vorto.eclipse.org/resolve/lwm2m/Object/ObjectID/3330</Vorto>
@@ -1105,7 +1105,7 @@
         <Owner>IPSO Alliance</Owner>
         <Source>1</Source>
 
-        <Ver />
+        <Ver>1.0</Ver>
         <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/3331.xml</DDF>
         <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3331.xml</LWM2M>
         <Vorto>http://vorto.eclipse.org/resolve/lwm2m/Object/ObjectID/3331</Vorto>
@@ -1122,7 +1122,7 @@
         <Owner>IPSO Alliance</Owner>
         <Source>1</Source>
 
-        <Ver />
+        <Ver>1.0</Ver>
         <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/3332.xml</DDF>
         <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3332.xml</LWM2M>
         <Vorto>http://vorto.eclipse.org/resolve/lwm2m/Object/ObjectID/3332</Vorto>
@@ -1139,7 +1139,7 @@
         <Owner>IPSO Alliance</Owner>
         <Source>1</Source>
 
-        <Ver />
+        <Ver>1.0</Ver>
         <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/3333.xml</DDF>
         <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3333.xml</LWM2M>
         <Vorto>http://vorto.eclipse.org/resolve/lwm2m/Object/ObjectID/3333</Vorto>
@@ -1156,7 +1156,7 @@
         <Owner>IPSO Alliance</Owner>
         <Source>1</Source>
 
-        <Ver />
+        <Ver>1.0</Ver>
         <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/3334.xml</DDF>
         <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3334.xml</LWM2M>
         <Vorto>http://vorto.eclipse.org/resolve/lwm2m/Object/ObjectID/3334</Vorto>
@@ -1173,7 +1173,7 @@
         <Owner>IPSO Alliance</Owner>
         <Source>1</Source>
 
-        <Ver />
+        <Ver>1.0</Ver>
         <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/3335.xml</DDF>
         <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3335.xml</LWM2M>
         <Vorto>http://vorto.eclipse.org/resolve/lwm2m/Object/ObjectID/3335</Vorto>
@@ -1190,7 +1190,7 @@
         <Owner>IPSO Alliance</Owner>
         <Source>1</Source>
 
-        <Ver />
+        <Ver>1.0</Ver>
         <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/3336.xml</DDF>
         <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3336.xml</LWM2M>
         <Vorto>http://vorto.eclipse.org/resolve/lwm2m/Object/ObjectID/3336</Vorto>
@@ -1207,7 +1207,7 @@
         <Owner>IPSO Alliance</Owner>
         <Source>1</Source>
 
-        <Ver />
+        <Ver>1.0</Ver>
         <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/3337.xml</DDF>
         <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3337.xml</LWM2M>
         <Vorto>http://vorto.eclipse.org/resolve/lwm2m/Object/ObjectID/3337</Vorto>
@@ -1224,7 +1224,7 @@
         <Owner>IPSO Alliance</Owner>
         <Source>1</Source>
 
-        <Ver />
+        <Ver>1.0</Ver>
         <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/3338.xml</DDF>
         <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3338.xml</LWM2M>
         <Vorto>http://vorto.eclipse.org/resolve/lwm2m/Object/ObjectID/3338</Vorto>
@@ -1241,7 +1241,7 @@
         <Owner>IPSO Alliance</Owner>
         <Source>1</Source>
 
-        <Ver />
+        <Ver>1.0</Ver>
         <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/3339.xml</DDF>
         <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3339.xml</LWM2M>
         <Vorto>http://vorto.eclipse.org/resolve/lwm2m/Object/ObjectID/3339</Vorto>
@@ -1258,7 +1258,7 @@
         <Owner>IPSO Alliance</Owner>
         <Source>1</Source>
 
-        <Ver />
+        <Ver>1.0</Ver>
         <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/3340.xml</DDF>
         <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3340.xml</LWM2M>
         <Vorto>http://vorto.eclipse.org/resolve/lwm2m/Object/ObjectID/3340</Vorto>
@@ -1275,7 +1275,7 @@
         <Owner>IPSO Alliance</Owner>
         <Source>1</Source>
 
-        <Ver />
+        <Ver>1.0</Ver>
         <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/3341.xml</DDF>
         <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3341.xml</LWM2M>
         <Vorto>http://vorto.eclipse.org/resolve/lwm2m/Object/ObjectID/3341</Vorto>
@@ -1292,7 +1292,7 @@
         <Owner>IPSO Alliance</Owner>
         <Source>1</Source>
 
-        <Ver />
+        <Ver>1.0</Ver>
         <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/3342.xml</DDF>
         <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3342.xml</LWM2M>
         <Vorto>http://vorto.eclipse.org/resolve/lwm2m/Object/ObjectID/3342</Vorto>
@@ -1309,7 +1309,7 @@
         <Owner>IPSO Alliance</Owner>
         <Source>1</Source>
 
-        <Ver />
+        <Ver>1.0</Ver>
         <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/3343.xml</DDF>
         <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3343.xml</LWM2M>
         <Vorto>http://vorto.eclipse.org/resolve/lwm2m/Object/ObjectID/3343</Vorto>
@@ -1326,7 +1326,7 @@
         <Owner>IPSO Alliance</Owner>
         <Source>1</Source>
 
-        <Ver />
+        <Ver>1.0</Ver>
         <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/3344.xml</DDF>
         <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3344.xml</LWM2M>
         <Vorto>http://vorto.eclipse.org/resolve/lwm2m/Object/ObjectID/3344</Vorto>
@@ -1343,7 +1343,7 @@
         <Owner>IPSO Alliance</Owner>
         <Source>1</Source>
 
-        <Ver />
+        <Ver>1.0</Ver>
         <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/3345.xml</DDF>
         <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3345.xml</LWM2M>
         <Vorto>http://vorto.eclipse.org/resolve/lwm2m/Object/ObjectID/3345</Vorto>
@@ -1360,7 +1360,7 @@
         <Owner>IPSO Alliance</Owner>
         <Source>1</Source>
 
-        <Ver />
+        <Ver>1.0</Ver>
         <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/3346.xml</DDF>
         <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3346.xml</LWM2M>
         <Vorto>http://vorto.eclipse.org/resolve/lwm2m/Object/ObjectID/3346</Vorto>
@@ -1377,7 +1377,7 @@
         <Owner>IPSO Alliance</Owner>
         <Source>1</Source>
 
-        <Ver />
+        <Ver>1.0</Ver>
         <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/3347.xml</DDF>
         <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3347.xml</LWM2M>
         <Vorto>http://vorto.eclipse.org/resolve/lwm2m/Object/ObjectID/3347</Vorto>
@@ -1394,7 +1394,7 @@
         <Owner>IPSO Alliance</Owner>
         <Source>1</Source>
 
-        <Ver />
+        <Ver>1.0</Ver>
         <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/3348.xml</DDF>
         <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3348.xml</LWM2M>
         <Vorto>http://vorto.eclipse.org/resolve/lwm2m/Object/ObjectID/3348</Vorto>
@@ -1410,7 +1410,7 @@
         <Owner>IPSO Alliance</Owner>
         <Source>1</Source>
 
-        <Ver />
+        <Ver>1.0</Ver>
         <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/3349.xml</DDF>
         <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3349.xml</LWM2M>
         <Vorto>http://vorto.eclipse.org/resolve/lwm2m/Object/ObjectID/3349</Vorto>
@@ -1426,7 +1426,7 @@
         <Owner>IPSO Alliance</Owner>
         <Source>1</Source>
 
-        <Ver />
+        <Ver>1.0</Ver>
         <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/3350.xml</DDF>
         <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3350.xml</LWM2M>
         <Vorto>http://vorto.eclipse.org/resolve/lwm2m/Object/ObjectID/3350</Vorto>
@@ -2020,7 +2020,7 @@
         <Owner>AT&amp;T</Owner>
         <Source>2</Source>
 
-        <Ver />
+        <Ver>1.0</Ver>
         <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/10241.xml</DDF>
         <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F10241.xml</LWM2M>
         <Vorto></Vorto>
@@ -2037,7 +2037,7 @@
         <Owner>Odins</Owner>
         <Source>2</Source>
 
-        <Ver />
+        <Ver>1.0</Ver>
         <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/10242.xml</DDF>
         <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F10242.xml</LWM2M>
         <Vorto></Vorto>
@@ -2054,7 +2054,7 @@
         <Owner>Odins</Owner>
         <Source>2</Source>
 
-        <Ver />
+        <Ver>1.0</Ver>
         <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/10243.xml</DDF>
         <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F10243.xml</LWM2M>
         <Vorto></Vorto>
@@ -2071,7 +2071,7 @@
         <Owner>Works System</Owner>
         <Source>2</Source>
 
-        <Ver />
+        <Ver>1.0</Ver>
         <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/10244.xml</DDF>
         <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F10244.xml</LWM2M>
         <Vorto></Vorto>
@@ -2087,7 +2087,7 @@
         <Owner>Vodafone Group Services Ltd</Owner>
         <Source>2</Source>
 
-        <Ver />
+        <Ver>1.0</Ver>
         <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/10245.xml</DDF>
         <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F10245.xml</LWM2M>
         <Vorto></Vorto>
@@ -2103,7 +2103,7 @@
         <Owner>Vodafone Group Services Ltd</Owner>
         <Source>2</Source>
 
-        <Ver />
+        <Ver>1.0</Ver>
         <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/10246.xml</DDF>
         <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F10246.xml</LWM2M>
         <Vorto></Vorto>
@@ -2119,7 +2119,7 @@
         <Owner>Vodafone Group Services Ltd</Owner>
         <Source>2</Source>
 
-        <Ver />
+        <Ver>1.0</Ver>
         <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/10247.xml</DDF>
         <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F10247.xml</LWM2M>
         <Vorto></Vorto>
@@ -2135,7 +2135,7 @@
         <Owner>Vodafone Group Services Ltd</Owner>
         <Source>2</Source>
 
-        <Ver />
+        <Ver>1.0</Ver>
         <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/10248.xml</DDF>
         <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F10248.xml</LWM2M>
         <Vorto></Vorto>
@@ -2151,7 +2151,7 @@
         <Owner>Vodafone Group Services Ltd</Owner>
         <Source>2</Source>
 
-        <Ver />
+        <Ver>1.0</Ver>
         <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/10249.xml</DDF>
         <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F10249.xml</LWM2M>
         <Vorto></Vorto>
@@ -2167,7 +2167,7 @@
         <Owner>Huawei Technologies Co., Ltd.</Owner>
         <Source>2</Source>
 
-        <Ver />
+        <Ver>1.0</Ver>
         <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/10250.xml</DDF>
         <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F10250.xml</LWM2M>
         <Vorto></Vorto>
@@ -2183,7 +2183,7 @@
         <Owner>Cisco</Owner>
         <Source>2</Source>
 
-        <Ver />
+        <Ver>1.0</Ver>
         <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/10251.xml</DDF>
         <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F10251.xml</LWM2M>
         <Vorto></Vorto>
@@ -2199,7 +2199,7 @@
         <Owner>ARM Limited</Owner>
         <Source>2</Source>
 
-        <Ver />
+        <Ver>1.0</Ver>
         <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/10252.xml</DDF>
         <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F10252.xml</LWM2M>
         <Vorto></Vorto>
@@ -2216,7 +2216,7 @@
         <Owner>Lab R&amp;D Atos Pessac</Owner>
         <Source>2</Source>
 
-        <Ver />
+        <Ver>1.0</Ver>
         <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/10253.xml</DDF>
         <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F10253.xml</LWM2M>
         <Vorto></Vorto>
@@ -2232,7 +2232,7 @@
         <Owner>World-Direct eBusiness</Owner>
         <Source>2</Source>
 
-        <Ver />
+        <Ver>1.0</Ver>
         <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/10254.xml</DDF>
         <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F10254.xml</LWM2M>
         <Vorto></Vorto>
@@ -2265,7 +2265,7 @@
         <Owner>Huawei Technologies</Owner>
         <Source>2</Source>
 
-        <Ver />
+        <Ver>1.0</Ver>
         <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/10256.xml</DDF>
         <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F10256.xml</LWM2M>
         <Vorto></Vorto>
@@ -2281,7 +2281,7 @@
         <Owner>Comsel System Ltd</Owner>
         <Source>2</Source>
 
-        <Ver />
+        <Ver>1.0</Ver>
         <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/10257.xml</DDF>
         <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F10257.xml</LWM2M>
         <Vorto></Vorto>
@@ -2297,7 +2297,7 @@
         <Owner>World-Direct eBusiness</Owner>
         <Source>2</Source>
 
-        <Ver />
+        <Ver>1.0</Ver>
         <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/10258.xml</DDF>
         <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F10258.xml</LWM2M>
         <Vorto></Vorto>
@@ -2313,7 +2313,7 @@
         <Owner>NetComm Wireless Limited</Owner>
         <Source>2</Source>
 
-        <Ver />
+        <Ver>1.0</Ver>
         <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/10259.xml</DDF>
         <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F10259.xml</LWM2M>
         <Vorto></Vorto>
@@ -2329,7 +2329,7 @@
         <Owner>NetComm Wireless Limited</Owner>
         <Source>2</Source>
 
-        <Ver />
+        <Ver>1.0</Ver>
         <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/10260.xml</DDF>
         <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F10260.xml</LWM2M>
         <Vorto></Vorto>
@@ -2345,7 +2345,7 @@
         <Owner>South East Water Corporation</Owner>
         <Source>2</Source>
 
-        <Ver />
+        <Ver>1.0</Ver>
         <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/10262.xml</DDF>
         <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F10262.xml</LWM2M>
         <Vorto></Vorto>
@@ -2361,7 +2361,7 @@
         <Owner>South East Water Corporation</Owner>
         <Source>2</Source>
 
-        <Ver />
+        <Ver>1.0</Ver>
         <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/10263.xml</DDF>
         <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F10263.xml</LWM2M>
         <Vorto></Vorto>
@@ -2377,7 +2377,7 @@
         <Owner>South East Water Corporation</Owner>
         <Source>2</Source>
 
-        <Ver />
+        <Ver>1.0</Ver>
         <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/10264.xml</DDF>
         <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F10264.xml</LWM2M>
         <Vorto></Vorto>
@@ -2393,7 +2393,7 @@
         <Owner>South East Water Corporation</Owner>
         <Source>2</Source>
 
-        <Ver />
+        <Ver>1.0</Ver>
         <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/10265.xml</DDF>
         <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F10265.xml</LWM2M>
         <Vorto></Vorto>
@@ -2409,7 +2409,7 @@
         <Owner>South East Water Corporation</Owner>
         <Source>2</Source>
 
-        <Ver />
+        <Ver>1.0</Ver>
         <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/10266.xml</DDF>
         <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F10266.xml</LWM2M>
         <Vorto></Vorto>
@@ -2425,7 +2425,7 @@
         <Owner>South East Water Corporation</Owner>
         <Source>2</Source>
 
-        <Ver />
+        <Ver>1.0</Ver>
         <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/10267.xml</DDF>
         <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F10267.xml-</LWM2M>
         <Vorto></Vorto>
@@ -2441,7 +2441,7 @@
         <Owner>South East Water Corporation</Owner>
         <Source>2</Source>
 
-        <Ver />
+        <Ver>1.0</Ver>
         <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/10268.xml</DDF>
         <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F10268.xml</LWM2M>
         <Vorto></Vorto>
@@ -2457,7 +2457,7 @@
         <Owner>South East Water Corporation</Owner>
         <Source>2</Source>
 
-        <Ver />
+        <Ver>1.0</Ver>
         <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/10269.xml</DDF>
         <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F10269.xml</LWM2M>
         <Vorto></Vorto>
@@ -2473,7 +2473,7 @@
         <Owner>South East Water Corporation</Owner>
         <Source>2</Source>
 
-        <Ver />
+        <Ver>1.0</Ver>
         <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/10270.xml</DDF>
         <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F10270.xml</LWM2M>
         <Vorto></Vorto>
@@ -2489,7 +2489,7 @@
         <Owner>South East Water Corporation</Owner>
         <Source>2</Source>
 
-        <Ver />
+        <Ver>1.0</Ver>
         <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/10271.xml</DDF>
         <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F10271.xml</LWM2M>
         <Vorto></Vorto>
@@ -2505,7 +2505,7 @@
         <Owner>South East Water Corporation</Owner>
         <Source>2</Source>
 
-        <Ver />
+        <Ver>1.0</Ver>
         <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/10272.xml</DDF>
         <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F10272.xml</LWM2M>
         <Vorto></Vorto>
@@ -2521,7 +2521,7 @@
         <Owner>South East Water Corporation</Owner>
         <Source>2</Source>
 
-        <Ver />
+        <Ver>1.0</Ver>
         <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/10273.xml</DDF>
         <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F10273.xml</LWM2M>
         <Vorto></Vorto>
@@ -2537,7 +2537,7 @@
         <Owner>South East Water Corporation</Owner>
         <Source>2</Source>
 
-        <Ver />
+        <Ver>1.0</Ver>
         <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/10274.xml</DDF>
         <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F10274.xml</LWM2M>
         <Vorto></Vorto>
@@ -2557,7 +2557,7 @@
         <Owner>South East Water Corporation</Owner>
         <Source>2</Source>
 
-        <Ver />
+        <Ver>1.0</Ver>
         <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/10275.xml</DDF>
         <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F10275.xml</LWM2M>
         <Vorto></Vorto>
@@ -2573,7 +2573,7 @@
         <Owner>South East Water Corporation</Owner>
         <Source>2</Source>
 
-        <Ver />
+        <Ver>1.0</Ver>
         <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/10276.xml</DDF>
         <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F10276.xml</LWM2M>
         <Vorto></Vorto>
@@ -2589,7 +2589,7 @@
         <Owner>South East Water Corporation</Owner>
         <Source>2</Source>
 
-        <Ver />
+        <Ver>1.0</Ver>
         <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/10277.xml</DDF>
         <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F10277.xml</LWM2M>
         <Vorto></Vorto>
@@ -2608,7 +2608,7 @@
         <Owner>South East Water Corporation</Owner>
         <Source>2</Source>
 
-        <Ver />
+        <Ver>1.0</Ver>
         <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/10278.xml</DDF>
         <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F10278.xml</LWM2M>
         <Vorto></Vorto>
@@ -2627,7 +2627,7 @@
         <Owner>South East Water Corporation</Owner>
         <Source>2</Source>
 
-        <Ver />
+        <Ver>1.0</Ver>
         <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/10279.xml</DDF>
         <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F10279.xml</LWM2M>
         <Vorto></Vorto>
@@ -2643,7 +2643,7 @@
         <Owner>South East Water Corporation</Owner>
         <Source>2</Source>
 
-        <Ver />
+        <Ver>1.0</Ver>
         <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/10280.xml</DDF>
         <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F10280.xml</LWM2M>
         <Vorto></Vorto>
@@ -2659,7 +2659,7 @@
         <Owner>South East Water Corporation</Owner>
         <Source>2</Source>
 
-        <Ver />
+        <Ver>1.0</Ver>
         <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/10281.xml</DDF>
         <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F10281.xml</LWM2M>
         <Vorto></Vorto>
@@ -2675,7 +2675,7 @@
         <Owner>South East Water Corporation</Owner>
         <Source>2</Source>
 
-        <Ver />
+        <Ver>1.0</Ver>
         <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/10282.xml</DDF>
         <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F10282.xml</LWM2M>
         <Vorto></Vorto>
@@ -2691,7 +2691,7 @@
         <Owner>South East Water Corporation</Owner>
         <Source>2</Source>
 
-        <Ver />
+        <Ver>1.0</Ver>
         <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/10283.xml</DDF>
         <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F10283.xml</LWM2M>
         <Vorto></Vorto>
@@ -2707,7 +2707,7 @@
         <Owner>South East Water Corporation</Owner>
         <Source>2</Source>
 
-        <Ver />
+        <Ver>1.0</Ver>
         <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/10284.xml</DDF>
         <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F10284.xml</LWM2M>
         <Vorto></Vorto>
@@ -2724,7 +2724,7 @@
         <Owner>Huawei</Owner>
         <Source>2</Source>
 
-        <Ver />
+        <Ver>1.0</Ver>
         <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/10286.xml</DDF>
         <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F10286.xml</LWM2M>
         <Vorto></Vorto>
@@ -2740,7 +2740,7 @@
         <Owner>Verizon Wireless</Owner>
         <Source>2</Source>
 
-        <Ver />
+        <Ver>1.0</Ver>
         <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/10299.xml</DDF>
         <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F10299.xml</LWM2M>
         <Vorto></Vorto>
@@ -2757,7 +2757,7 @@
         <Owner>Huawei</Owner>
         <Source>2</Source>
 
-        <Ver />
+        <Ver>1.0</Ver>
         <DDF></DDF>
         <LWM2M></LWM2M>
         <Vorto></Vorto>
