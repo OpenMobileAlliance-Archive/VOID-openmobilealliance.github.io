@@ -56,7 +56,7 @@
         <Owner>OMA</Owner>
         <Source>0</Source>
 
-        <Ver>1.0.1</Ver>
+        <Ver>1.0</Ver>
         <DDF>http://www.openmobilealliance.org/tech/profiles/LWM2M_Access_Control-v1_0_1.xml</DDF>
         <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3a%2f%2fwww.openmobilealliance.org%2ftech%2fprofiles%2fLWM2M_Access_Control-v1_0_1.xml</LWM2M>
         <Vorto>http://vorto.eclipse.org/resolve/lwm2m/Object/ObjectID/2</Vorto>
@@ -73,7 +73,7 @@
         <Owner>OMA</Owner>
         <Source>0</Source>
 
-        <Ver>1.0.1</Ver>
+        <Ver>1.0</Ver>
         <DDF>http://www.openmobilealliance.org/tech/profiles/LWM2M_Device-v1_0_1.xml</DDF>
         <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3a%2f%2fwww.openmobilealliance.org%2ftech%2fprofiles%2fLWM2M_Device-v1_0_1.xml</LWM2M>
         <Vorto>http://vorto.eclipse.org/resolve/lwm2m/Object/ObjectID/3</Vorto>
@@ -90,7 +90,7 @@
         <Owner>OMA</Owner>
         <Source>0</Source>
 
-        <Ver>1.0.1</Ver>
+        <Ver>1.0</Ver>
         <DDF>http://www.openmobilealliance.org/tech/profiles/LWM2M_Connectivity_Monitoring-v1_0_1.xml</DDF>
         <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3a%2f%2fwww.openmobilealliance.org%2ftech%2fprofiles%2fLWM2M_Connectivity_Monitoring-v1_0_1.xml</LWM2M>
         <Vorto>http://vorto.eclipse.org/resolve/lwm2m/Object/ObjectID/4</Vorto>
@@ -107,7 +107,7 @@
         <Owner>OMA</Owner>
         <Source>0</Source>
 
-        <Ver>1.0.1</Ver>
+        <Ver>1.0</Ver>
         <DDF>http://www.openmobilealliance.org/tech/profiles/LWM2M_Firmware_Update-v1_0_1.xml</DDF>
         <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3a%2f%2fwww.openmobilealliance.org%2ftech%2fprofiles%2fLWM2M_Firmware_Update-v1_0_1.xml</LWM2M>
         <Vorto>http://vorto.eclipse.org/resolve/lwm2m/Object/ObjectID/5</Vorto>
@@ -141,7 +141,7 @@
         <Owner>OMA</Owner>
         <Source>0</Source>
 
-        <Ver>1.0.1</Ver>
+        <Ver>1.0</Ver>
         <DDF>http://www.openmobilealliance.org/tech/profiles/LWM2M_Connectivity_Statistics-v1_0_1.xml</DDF>
         <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3a%2f%2fwww.openmobilealliance.org%2ftech%2fprofiles%2fLWM2M_Connectivity_Statistics-v1_0_1.xml</LWM2M>
         <Vorto>http://vorto.eclipse.org/resolve/lwm2m/Object/ObjectID/7</Vorto>
@@ -354,7 +354,7 @@
         <ObjectID>20</ObjectID>
         <URN>urn:oma:lwm2m:oma:20</URN>
         <Name>Pending</Name>
-        <Description></Description>
+        <Description>Pending</Description>
         <Owner>OMA</Owner>
         <Source>0</Source>
 
@@ -2753,7 +2753,7 @@
         <ObjectID>10300</ObjectID>
         <URN>urn:oma:lwm2m:x:10300</URN>
         <Name>Pending</Name>
-        <Description></Description>
+        <Description>Pending</Description>
         <Owner>Huawei</Owner>
         <Source>2</Source>
 
