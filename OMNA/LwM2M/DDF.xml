@@ -14,7 +14,6 @@
         <Owner>Test WG</Owner>
         <!-- Type of Object: 0 = defined by OMA, 1 = defined by external Standards Development Organizations, 2 = private or individual -->
         <Source>0</Source>
-
         <!-- Ver of the object, not visible, not used -->
         <Ver>1.0</Ver>
         <!-- URL to the xml file describing the object -->
@@ -38,7 +37,6 @@
         <Description>It provides the data related to a LWM2M Server. A Bootstrap Server has no such an Object Instance associated to it.</Description>
         <Owner>OMA</Owner>
         <Source>0</Source>
-
         <Ver>1.0</Ver>
         <DDF>http://www.openmobilealliance.org/tech/profiles/LWM2M_Server-v1_0.xml</DDF>
         <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3a%2f%2fwww.openmobilealliance.org%2ftech%2fprofiles%2fLWM2M_Server-v1_0.xml</LWM2M>
@@ -55,8 +53,7 @@
         <Description>It is used to check whether the LWM2M Server has access right for performing a operation.</Description>
         <Owner>OMA</Owner>
         <Source>0</Source>
-
-        <Ver>1.0.1</Ver>
+        <Ver>1.0</Ver>
         <DDF>http://www.openmobilealliance.org/tech/profiles/LWM2M_Access_Control-v1_0_1.xml</DDF>
         <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3a%2f%2fwww.openmobilealliance.org%2ftech%2fprofiles%2fLWM2M_Access_Control-v1_0_1.xml</LWM2M>
         <Vorto>http://vorto.eclipse.org/resolve/lwm2m/Object/ObjectID/2</Vorto>
@@ -72,8 +69,7 @@
         <Description>It provides a range of device related information which can be queried by the LWM2M Server, and a device reboot and factory reset function.</Description>
         <Owner>OMA</Owner>
         <Source>0</Source>
-
-        <Ver>1.0.1</Ver>
+        <Ver>1.0</Ver>
         <DDF>http://www.openmobilealliance.org/tech/profiles/LWM2M_Device-v1_0_1.xml</DDF>
         <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3a%2f%2fwww.openmobilealliance.org%2ftech%2fprofiles%2fLWM2M_Device-v1_0_1.xml</LWM2M>
         <Vorto>http://vorto.eclipse.org/resolve/lwm2m/Object/ObjectID/3</Vorto>
@@ -89,8 +85,7 @@
         <Description>It enables monitoring of parameters related to network connectivity. In this general connectivity Object, the Resources are limited to the most general cases common to most network bearers. It is recommended to read the description, which refers to relevant standard development organizations (e.g. 3GPP, IEEE). The goal of the Connectivity Monitoring Object is to carry information reflecting the more up to date values of the current connection for monitoring purposes. Resources such as Link Quality, Radio Signal Strenght, Cell ID are retrieved during connected mode at least for cellular networks.</Description>
         <Owner>OMA</Owner>
         <Source>0</Source>
-
-        <Ver>1.0.1</Ver>
+        <Ver>1.0</Ver>
         <DDF>http://www.openmobilealliance.org/tech/profiles/LWM2M_Connectivity_Monitoring-v1_0_1.xml</DDF>
         <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3a%2f%2fwww.openmobilealliance.org%2ftech%2fprofiles%2fLWM2M_Connectivity_Monitoring-v1_0_1.xml</LWM2M>
         <Vorto>http://vorto.eclipse.org/resolve/lwm2m/Object/ObjectID/4</Vorto>
@@ -106,8 +101,7 @@
         <Description>It enables management of firmware which is to be updated. This Object includes installing firmware package, updating firmware, and performing actions after updating firmware</Description>
         <Owner>OMA</Owner>
         <Source>0</Source>
-
-        <Ver>1.0.1</Ver>
+        <Ver>1.0</Ver>
         <DDF>http://www.openmobilealliance.org/tech/profiles/LWM2M_Firmware_Update-v1_0_1.xml</DDF>
         <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3a%2f%2fwww.openmobilealliance.org%2ftech%2fprofiles%2fLWM2M_Firmware_Update-v1_0_1.xml</LWM2M>
         <Vorto>http://vorto.eclipse.org/resolve/lwm2m/Object/ObjectID/5</Vorto>
@@ -123,7 +117,6 @@
         <Description>It provides a range of device related information which can be queried by the LWM2M Server, and a device reboot and factory reset function.</Description>
         <Owner>OMA</Owner>
         <Source>0</Source>
-
         <Ver>1.0</Ver>
         <DDF>http://www.openmobilealliance.org/tech/profiles/LWM2M_Location-v1_0.xml</DDF>
         <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3a%2f%2fwww.openmobilealliance.org%2ftech%2fprofiles%2fLWM2M_Location-v1_0.xml</LWM2M>
@@ -140,8 +133,7 @@
         <Description>This LWM2M Objects enables client to collect statistical information and enables the LWM2M Server to retrieve these information, set the collection duration and reset the statistical parameters.</Description>
         <Owner>OMA</Owner>
         <Source>0</Source>
-
-        <Ver>1.0.1</Ver>
+        <Ver>1.0</Ver>
         <DDF>http://www.openmobilealliance.org/tech/profiles/LWM2M_Connectivity_Statistics-v1_0_1.xml</DDF>
         <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3a%2f%2fwww.openmobilealliance.org%2ftech%2fprofiles%2fLWM2M_Connectivity_Statistics-v1_0_1.xml</LWM2M>
         <Vorto>http://vorto.eclipse.org/resolve/lwm2m/Object/ObjectID/7</Vorto>
@@ -157,13 +149,12 @@
         <Description>This LWM2M objects provides the resources needed to perform the lock and wipe operations</Description>
         <Owner>OMA</Owner>
         <Source>0</Source>
-
         <Ver>1.0</Ver>
-        <DDF>http://www.openmobilealliance.org/tech/profiles/LWM2M_Lock_and_Wipe-V1_0.xml</DDF>
-        <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3a%2f%2fwww.openmobilealliance.org%2ftech%2fprofiles%2fLWM2M_Lock_and_Wipe-V1_0.xml</LWM2M>
+        <DDF>http://www.openmobilealliance.org/tech/profiles/LWM2M_LOCKWIPE-v1_0.xml</DDF>
+        <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3a%2f%2fwww.openmobilealliance.org%2ftech%2fprofiles%2fLWM2M_LOCKWIPE-v1_0.xml</LWM2M>
         <Vorto>http://vorto.eclipse.org/resolve/lwm2m/Object/ObjectID/8</Vorto>
         <DDFLink>1</DDFLink>
-        <TS>http://www.openmobilealliance.org/release/LWM2M_LOCKWIPE/V1_0-20151123-C/OMA-TS-LWM2M_LockWipe-V1_0-20151123-C.pdf</TS>
+        <TS>http://www.openmobilealliance.org/release/LWM2M_LOCKWIPE/V1_0-20180301-C/OMA-TS-LWM2M_LockWipe-V1_0-20151123-C.pdf</TS>
         <TSLink>1</TSLink>
     </Item>
     <Item>
@@ -173,13 +164,12 @@
         <Description>This LWM2M objects provides the resources needed to perform software management on the device. Each software component is managed via a dedicated Software Management Object instance</Description>
         <Owner>OMA</Owner>
         <Source>0</Source>
-
         <Ver>1.0</Ver>
         <DDF>http://www.openmobilealliance.org/tech/profiles/LWM2M_Software_Management-v1_0.xml</DDF>
         <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3a%2f%2fwww.openmobilealliance.org%2ftech%2fprofiles%2fLWM2M_Software_Management-v1_0.xml</LWM2M>
         <Vorto>http://vorto.eclipse.org/resolve/lwm2m/Object/ObjectID/9</Vorto>
         <DDFLink>1</DDFLink>
-        <TS>http://www.openmobilealliance.org/release/LWM2M_SWMGMT/V1_0-20170314-C/OMA-TS-LWM2M_SwMgmt-V1_0-20151201-C.pdf</TS>
+        <TS>http://www.openmobilealliance.org/release/LWM2M_SWMGMT/V1_0-20180301-A/OMA-TS-LWM2M_SwMgmt-V1_0-20180301-A.pdf</TS>
         <TSLink>1</TSLink>
     </Item>
 
@@ -190,7 +180,6 @@
         <Description>It specifies resources to enable a device to connect to a 3GPP or 3GPP2 bearer, including GPRS/EDGE, UMTS, LTE, SMS. For cellular connectivity, this object focuses on Packet Switched (PS) connectivity and doesn't aim to provide comprehensive Circuit Switched (CS) connectivity management.</Description>
         <Owner>OMA</Owner>
         <Source>0</Source>
-
         <Ver>1.0</Ver>
         <DDF>http://www.openmobilealliance.org/tech/profiles/LWM2M_Cellular_connectivity-v1_0.xml</DDF>
         <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3a%2f%2fwww.openmobilealliance.org%2ftech%2fprofiles%2fLWM2M_Cellular_connectivity-v1_0.xml</LWM2M>
@@ -207,7 +196,6 @@
         <Description>It specifies resources to enable a device to connect to an APN.</Description>
         <Owner>OMA</Owner>
         <Source>0</Source>
-
         <Ver>1.0</Ver>
         <DDF>http://www.openmobilealliance.org/tech/profiles/LWM2M_APN_connection_profile-v1_0.xml</DDF>
         <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3a%2f%2fwww.openmobilealliance.org%2ftech%2fprofiles%2flLWM2M_APN_connection_profile-v1_0.xml</LWM2M>
@@ -224,7 +212,6 @@
         <Description>It specifies resources to enable a device to connect to a WLAN bearer.</Description>
         <Owner>OMA</Owner>
         <Source>0</Source>
-
         <Ver>1.0</Ver>
         <DDF>http://www.openmobilealliance.org/tech/profiles/LWM2M_WLAN_connectivity4-v1_0.xml</DDF>
         <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2FLWM2M_WLAN_connectivity4-v1_0.xml</LWM2M>
@@ -241,7 +228,6 @@
         <Description>It specifies resources to enable a device to choose a communications bearer on which to connect.</Description>
         <Owner>OMA</Owner>
         <Source>0</Source>
-
         <Ver>1.0</Ver>
         <DDF>http://www.openmobilealliance.org/tech/profiles/LWM2M_Bearer_selection-v1_0.xml</DDF>
         <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3a%2f%2fwww.openmobilealliance.org%2ftech%2fprofiles%2fLWM2M_Bearer_selection-v1_0.xml</LWM2M>
@@ -258,13 +244,12 @@
         <Description>The LWM2M software management object enables remote software management in M2M devices</Description>
         <Owner>OMA</Owner>
         <Source>0</Source>
-
         <Ver>1.0</Ver>
         <DDF>http://www.openmobilealliance.org/tech/profiles/LWM2M_Software_Component-v1_0.xml</DDF>
         <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3a%2f%2fwww.openmobilealliance.org%2ftech%2fprofiles%2fLWM2M_Software_Component-v1_0.xml</LWM2M>
         <Vorto>http://vorto.eclipse.org/resolve/lwm2m/Object/ObjectID/14</Vorto>
         <DDFLink>1</DDFLink>
-        <TS>http://www.openmobilealliance.org/release/LWM2M_SWMGMT/V1_0-20170314-C/OMA-TS-LWM2M_SwMgmt-V1_0-20151201-C.pdf</TS>
+        <TS>http://www.openmobilealliance.org/release/LWM2M_SWMGMT/V1_0-20180301-A/OMA-TS-LWM2M_SwMgmt-V1_0-20180301-A.pdf</TS>
         <TSLink>1</TSLink>
     </Item>
 
@@ -275,7 +260,6 @@
         <Description>It manages the device capabilities of a device e.g. sensors, communication, etc.</Description>
         <Owner>OMA</Owner>
         <Source>0</Source>
-
         <Ver>1.0</Ver>
         <DDF>http://www.openmobilealliance.org/tech/profiles/LWM2M_DevCapMgmt-v1_0.xml</DDF>
         <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3a%2f%2fwww.openmobilealliance.org%2ftech%2fprofiles%2fLWM2M_DevCapMgmt-v1_0.xml</LWM2M>
@@ -292,7 +276,6 @@
         <Description>The Portfolio Object allows to extend the data storage capability of other Object Instances in the LwM2M system, as well as the services which may be used to authenticate and to protect privacy of data contained in those extensions. In addition, a service of data encryption is also defined</Description>
         <Owner>OMA</Owner>
         <Source>0</Source>
-
         <Ver>1.0</Ver>
         <DDF>http://www.openmobilealliance.org/tech/profiles/LWM2M_Portfolio-v1_0.xml</DDF>
         <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3a%2f%2fwww.openmobilealliance.org%2ftech%2fprofiles%2fLWM2M_Portfolio-v1_0.xml</LWM2M>
@@ -308,7 +291,6 @@
         <Description>This object enables configuration of various generic communications parameters.</Description>
         <Owner>OMA</Owner>
         <Source>0</Source>
-
         <Ver>1.0</Ver>
         <DDF>http://www.openmobilealliance.org/tech/profiles/Communication_Characteristics-V1_0.xml</DDF>
         <LWM2M></LWM2M>
@@ -324,7 +306,6 @@
         <Description>This object provides Non-Access Stratum (NAS) configuration and is derived from 3GPP TS 24.368.</Description>
         <Owner>OMA</Owner>
         <Source>0</Source>
-
         <Ver>1.0</Ver>
         <DDF>http://www.openmobilealliance.org/tech/profiles/Non-Access_Stratum_NAS_configuration-V1_0.xml</DDF>
         <LWM2M></LWM2M>
@@ -340,7 +321,6 @@
         <Description>This LwM2M object provides the application service data related to a LwM2M Server, eg. Water meter data.</Description>
         <Owner>OMA</Owner>
         <Source>0</Source>
-
         <Ver>1.0</Ver>
         <DDF></DDF>
         <LWM2M></LWM2M>
@@ -353,11 +333,11 @@
 
         <ObjectID>20</ObjectID>
         <URN>urn:oma:lwm2m:oma:20</URN>
-        <Name>Pending</Name>
-        <Description></Description>
+        <Name>EventLog</Name>
+        <Description>The Event Log Object is a single Instance Object defined for logging data in a straightforward 
+        and generic way. The Resources of that Object are based on the OMA LwM2M set of reusable Resources dedicated to logging event activity.</Description>
         <Owner>OMA</Owner>
         <Source>0</Source>
-
         <Ver>1.0</Ver>
         <DDF></DDF>
         <LWM2M></LWM2M>
@@ -366,14 +346,31 @@
         <TS>x</TS>
         <TSLink>0</TSLink>
     </Item>
+    
+        <Item>
+        <ObjectID>21</ObjectID>
+        <URN>urn:oma:lwm2m:oma:21</URN>
+        <Name>Pending</Name>
+        <Description>Pending</Description>
+        <Owner>OMA</Owner>
+        <Source>0</Source>
+        <Ver>1.0</Ver>
+        <DDF></DDF>
+        <LWM2M></LWM2M>
+        <Vorto></Vorto>
+        <DDFLink>0</DDFLink>
+        <TS>x</TS>
+        <TSLink>0</TSLink>
+    </Item>
+    
     <Item>
         <ObjectID>2048</ObjectID>
         <URN>urn:oma:lwm2m:ext:2048</URN>
         <Name>CmdhPolicy</Name>
-        <Description>This Object provides links to a set of rules associated with a specific CSE that governs the behavior of that CSE regarding rejecting, buffering and sending request or response messages via the Mcc reference point.</Description>
+        <Description>This Object provides links to a set of rules associated with a specific CSE that governs the behavior 
+            of that CSE regarding rejecting, buffering and sending request or response messages via the Mcc reference point.</Description>
         <Owner>OneM2M</Owner>
         <Source>1</Source>
-
         <Ver>1.0</Ver>
         <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/2048.xml</DDF>
         <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3a%2f%2fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F2048.xml</LWM2M>
@@ -2753,7 +2750,7 @@
         <ObjectID>10300</ObjectID>
         <URN>urn:oma:lwm2m:x:10300</URN>
         <Name>Pending</Name>
-        <Description></Description>
+        <Description>Pending</Description>
         <Owner>Huawei</Owner>
         <Source>2</Source>
 
