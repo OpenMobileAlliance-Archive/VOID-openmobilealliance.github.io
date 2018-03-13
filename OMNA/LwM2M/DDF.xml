@@ -349,7 +349,7 @@
     
         <Item>
         <ObjectID>21</ObjectID>
-        <URN>urn:oma:lwm2m:oma:20</URN>
+        <URN>urn:oma:lwm2m:oma:21</URN>
         <Name>Pending</Name>
         <Description>Pending</Description>
         <Owner>OMA</Owner>
