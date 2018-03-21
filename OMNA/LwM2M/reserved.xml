@@ -29,4 +29,9 @@
         <ObjectIDEndRange>33009</ObjectIDEndRange>
         <Company>HOP Ubiquitous</Company>
     </Item>
+      <Item>
+        <ObjectIDStartRange>33010</ObjectIDStartRange>
+        <ObjectIDEndRange>33039</ObjectIDEndRange>
+        <Company>UnSeen Technologies</Company>
+    </Item>
 </ReservedObjects>
