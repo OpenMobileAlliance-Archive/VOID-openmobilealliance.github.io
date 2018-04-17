@@ -34,4 +34,9 @@
         <ObjectIDEndRange>33039</ObjectIDEndRange>
         <Company>UnSeen Technologies</Company>
     </Item>
+          <Item>
+        <ObjectIDStartRange>33040</ObjectIDStartRange>
+        <ObjectIDEndRange>33049</ObjectIDEndRange>
+        <Company>NetComm Wireless</Company>
+    </Item>
 </ReservedObjects>
