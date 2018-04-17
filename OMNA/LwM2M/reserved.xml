@@ -39,4 +39,9 @@
         <ObjectIDEndRange>33049</ObjectIDEndRange>
         <Company>NetComm Wireless</Company>
     </Item>
+     <Item>
+        <ObjectIDStartRange>33050</ObjectIDStartRange>
+        <ObjectIDEndRange>33089</ObjectIDEndRange>
+        <Company>U-Blox</Company>
+    </Item>
 </ReservedObjects>
