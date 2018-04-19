@@ -44,4 +44,10 @@
         <ObjectIDEndRange>33089</ObjectIDEndRange>
         <Company>U-Blox</Company>
     </Item>
+         <Item>
+        <ObjectIDStartRange>33090</ObjectIDStartRange>
+        <ObjectIDEndRange>33139</ObjectIDEndRange>
+        <Company>Gemalto</Company>
+    </Item>
+    
 </ReservedObjects>
