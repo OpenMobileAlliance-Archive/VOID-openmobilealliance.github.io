@@ -2334,6 +2334,22 @@
         <TS></TS>
         <TSLink></TSLink>
     </Item>
+        <Item>
+        <ObjectID>10260</ObjectID>
+        <URN>urn:oma:lwm2m:x:10260:2.0</URN>
+        <Name>Runtime Database</Name>
+        <Description>This object allows manipulation of Runtime Database variables.</Description>
+        <Owner>NetComm Wireless Limited</Owner>
+        <Source>2</Source>
+
+        <Ver>2.0</Ver>
+        <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/10260-2_0.xml.xml</DDF>
+        <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F10260-2_0.xml</LWM2M>
+        <Vorto></Vorto>
+        <DDFLink>1</DDFLink>
+        <TS></TS>
+        <TSLink></TSLink>
+    </Item>
     <Item>
         <ObjectID>10262</ObjectID>
         <URN>urn:oma:lwm2m:x:10262</URN>
