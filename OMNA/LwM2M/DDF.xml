@@ -2335,7 +2335,7 @@
         <TSLink></TSLink>
     </Item>
         <Item>
-        <ObjectID>10260-2_0</ObjectID>
+        <ObjectID>10260</ObjectID>
         <URN>urn:oma:lwm2m:x:10260:2.0</URN>
         <Name>Runtime Database</Name>
         <Description>This object allows manipulation of Runtime Database variables.</Description>
