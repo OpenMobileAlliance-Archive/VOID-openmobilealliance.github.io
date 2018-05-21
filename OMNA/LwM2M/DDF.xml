@@ -1373,7 +1373,6 @@
         <Description>This IPSO object is used to report the state of a momentary action push button control and to count the number of times the control has been operated since the last observation.</Description>
         <Owner>IPSO Alliance</Owner>
         <Source>1</Source>
-
         <Ver>1.0</Ver>
         <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/3347.xml</DDF>
         <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3347.xml</LWM2M>
@@ -1390,7 +1389,6 @@
         <Description>This IPSO object is used to represent the state of a multistate selector switch with a number of fixed positions.</Description>
         <Owner>IPSO Alliance</Owner>
         <Source>1</Source>
-
         <Ver>1.0</Ver>
         <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/3348.xml</DDF>
         <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3348.xml</LWM2M>
@@ -1406,7 +1404,6 @@
         <Description>Summarize several digital inputs to one value by mapping each bit to a digital input.</Description>
         <Owner>IPSO Alliance</Owner>
         <Source>1</Source>
-
         <Ver>1.0</Ver>
         <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/3349.xml</DDF>
         <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3349.xml</LWM2M>
@@ -1422,7 +1419,6 @@
         <Description>An ascending timer that counts how long time has passed since the timer was started after reset.</Description>
         <Owner>IPSO Alliance</Owner>
         <Source>1</Source>
-
         <Ver>1.0</Ver>
         <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/3350.xml</DDF>
         <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3350.xml</LWM2M>
@@ -1438,14 +1434,13 @@
         <Description>One time event sent by the device at power up.</Description>
         <Owner>GSMA</Owner>
         <Source>1</Source>
-
         <Ver>1.0</Ver>
         <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/3351.xml</DDF>
         <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3351.xml</LWM2M>
         <Vorto></Vorto>
         <DDFLink>1</DDFLink>
         <TS></TS>
-        <TSLink></TSLink>
+        <TSLink>0</TSLink>
     </Item>
     <Item>
         <ObjectID>3352</ObjectID>
@@ -1461,7 +1456,7 @@
         <Vorto></Vorto>
         <DDFLink>1</DDFLink>
         <TS></TS>
-        <TSLink></TSLink>
+        <TSLink>0</TSLink>
     </Item>
     <Item>
         <ObjectID>3353</ObjectID>
@@ -1477,7 +1472,7 @@
         <Vorto></Vorto>
         <DDFLink>1</DDFLink>
         <TS></TS>
-        <TSLink></TSLink>
+        <TSLink>0</TSLink>
     </Item>
 
     <Item>
@@ -1494,7 +1489,7 @@
         <Vorto></Vorto>
         <DDFLink>1</DDFLink>
         <TS></TS>
-        <TSLink></TSLink>
+        <TSLink>0</TSLink>
     </Item>
     <Item>
         <ObjectID>3355</ObjectID>
@@ -1510,7 +1505,7 @@
         <Vorto></Vorto>
         <DDFLink>1</DDFLink>
         <TS></TS>
-        <TSLink></TSLink>
+        <TSLink>0</TSLink>
     </Item>
     <Item>
         <ObjectID>3356</ObjectID>
@@ -1526,7 +1521,7 @@
         <Vorto></Vorto>
         <DDFLink>1</DDFLink>
         <TS></TS>
-        <TSLink></TSLink>
+        <TSLink>0</TSLink>
     </Item>
     <Item>
         <ObjectID>3357</ObjectID>
@@ -1542,7 +1537,7 @@
         <Vorto></Vorto>
         <DDFLink>1</DDFLink>
         <TS></TS>
-        <TSLink></TSLink>
+        <TSLink>0</TSLink>
     </Item>
     <Item>
         <ObjectID>3358</ObjectID>
@@ -1558,7 +1553,7 @@
         <Vorto></Vorto>
         <DDFLink>1</DDFLink>
         <TS></TS>
-        <TSLink></TSLink>
+        <TSLink>0</TSLink>
     </Item>
     <Item>
         <ObjectID>3359</ObjectID>
@@ -1574,7 +1569,7 @@
         <Vorto></Vorto>
         <DDFLink>1</DDFLink>
         <TS></TS>
-        <TSLink></TSLink>
+        <TSLink>0</TSLink>
     </Item>
     <Item>
         <ObjectID>3360</ObjectID>
@@ -1590,7 +1585,7 @@
         <Vorto></Vorto>
         <DDFLink>1</DDFLink>
         <TS></TS>
-        <TSLink></TSLink>
+        <TSLink>0</TSLink>
     </Item>
     <Item>
         <ObjectID>3361</ObjectID>
@@ -1606,7 +1601,7 @@
         <Vorto></Vorto>
         <DDFLink>1</DDFLink>
         <TS></TS>
-        <TSLink></TSLink>
+        <TSLink>0</TSLink>
     </Item>
 
     <Item>
@@ -1623,7 +1618,7 @@
         <Vorto></Vorto>
         <DDFLink>1</DDFLink>
         <TS></TS>
-        <TSLink></TSLink>
+        <TSLink>0</TSLink>
     </Item>
     <Item>
         <ObjectID>3363</ObjectID>
@@ -1639,7 +1634,7 @@
         <Vorto></Vorto>
         <DDFLink>1</DDFLink>
         <TS></TS>
-        <TSLink></TSLink>
+        <TSLink>0</TSLink>
     </Item>
     <Item>
         <ObjectID>3364</ObjectID>
@@ -1655,7 +1650,7 @@
         <Vorto></Vorto>
         <DDFLink> 1</DDFLink>
         <TS></TS>
-        <TSLink></TSLink>
+        <TSLink>0</TSLink>
     </Item>
     <Item>
         <ObjectID>3365</ObjectID>
@@ -1671,7 +1666,7 @@
         <Vorto></Vorto>
         <DDFLink>1</DDFLink>
         <TS></TS>
-        <TSLink></TSLink>
+        <TSLink>0</TSLink>
     </Item>
     <Item>
         <ObjectID>3366</ObjectID>
@@ -1687,7 +1682,7 @@
         <Vorto></Vorto>
         <DDFLink>1</DDFLink>
         <TS></TS>
-        <TSLink></TSLink>
+        <TSLink>0</TSLink>
     </Item>
     <Item>
         <ObjectID>3367</ObjectID>
@@ -1703,7 +1698,7 @@
         <Vorto></Vorto>
         <DDFLink>1</DDFLink>
         <TS></TS>
-        <TSLink></TSLink>
+        <TSLink>0</TSLink>
     </Item>
     <Item>
         <ObjectID>3368</ObjectID>
@@ -1719,7 +1714,7 @@
         <Vorto></Vorto>
         <DDFLink>1</DDFLink>
         <TS></TS>
-        <TSLink></TSLink>
+        <TSLink>0</TSLink>
     </Item>
     <Item>
         <ObjectID>3369</ObjectID>
@@ -1735,7 +1730,7 @@
         <Vorto></Vorto>
         <DDFLink>1</DDFLink>
         <TS></TS>
-        <TSLink></TSLink>
+        <TSLink>0</TSLink>
     </Item>
     <Item>
         <ObjectID>3370</ObjectID>
@@ -1751,7 +1746,7 @@
         <Vorto></Vorto>
         <DDFLink>1</DDFLink>
         <TS></TS>
-        <TSLink></TSLink>
+        <TSLink>0</TSLink>
     </Item>
     <Item>
         <ObjectID>3371</ObjectID>
@@ -1767,7 +1762,7 @@
         <Vorto></Vorto>
         <DDFLink>1</DDFLink>
         <TS></TS>
-        <TSLink></TSLink>
+        <TSLink>0</TSLink>
     </Item>
     <Item>
         <ObjectID>3372</ObjectID>
@@ -1783,7 +1778,7 @@
         <Vorto></Vorto>
         <DDFLink>1</DDFLink>
         <TS></TS>
-        <TSLink></TSLink>
+        <TSLink>0</TSLink>
     </Item>
     <Item>
         <ObjectID>3373</ObjectID>
@@ -1799,7 +1794,7 @@
         <Vorto></Vorto>
         <DDFLink>1</DDFLink>
         <TS></TS>
-        <TSLink></TSLink>
+        <TSLink>0</TSLink>
     </Item>
     <Item>
         <ObjectID>3374</ObjectID>
@@ -1815,7 +1810,7 @@
         <Vorto></Vorto>
         <DDFLink>1</DDFLink>
         <TS></TS>
-        <TSLink></TSLink>
+        <TSLink>0</TSLink>
     </Item>
     <Item>
         <ObjectID>3375</ObjectID>
@@ -1831,7 +1826,7 @@
         <Vorto></Vorto>
         <DDFLink>1</DDFLink>
         <TS></TS>
-        <TSLink></TSLink>
+        <TSLink>0</TSLink>
     </Item>
     <Item>
         <ObjectID>3376</ObjectID>
@@ -1847,7 +1842,7 @@
         <Vorto></Vorto>
         <DDFLink>1</DDFLink>
         <TS></TS>
-        <TSLink></TSLink>
+        <TSLink>0</TSLink>
     </Item>
     <Item>
         <ObjectID>3377</ObjectID>
@@ -1863,7 +1858,7 @@
         <Vorto></Vorto>
         <DDFLink>1</DDFLink>
         <TS></TS>
-        <TSLink></TSLink>
+        <TSLink>0</TSLink>
     </Item>
     <Item>
         <ObjectID>3378</ObjectID>
@@ -1879,7 +1874,7 @@
         <Vorto></Vorto>
         <DDFLink>1</DDFLink>
         <TS></TS>
-        <TSLink></TSLink>
+        <TSLink>0</TSLink>
     </Item>
     <Item>
         <ObjectID>3379</ObjectID>
@@ -1895,7 +1890,7 @@
         <Vorto></Vorto>
         <DDFLink>1</DDFLink>
         <TS></TS>
-        <TSLink></TSLink>
+        <TSLink>0</TSLink>
     </Item>
     <Item>
         <ObjectID>3380</ObjectID>
@@ -1911,7 +1906,7 @@
         <Vorto></Vorto>
         <DDFLink>1</DDFLink>
         <TS></TS>
-        <TSLink></TSLink>
+        <TSLink>0</TSLink>
     </Item>
     <Item>
         <ObjectID>3381</ObjectID>
@@ -1927,7 +1922,7 @@
         <Vorto></Vorto>
         <DDFLink>1</DDFLink>
         <TS></TS>
-        <TSLink></TSLink>
+        <TSLink>0</TSLink>
     </Item>
     <Item>
         <ObjectID>3382</ObjectID>
@@ -1943,7 +1938,7 @@
         <Vorto></Vorto>
         <DDFLink>1</DDFLink>
         <TS></TS>
-        <TSLink></TSLink>
+        <TSLink>0</TSLink>
     </Item>
     <Item>
         <ObjectID>3383</ObjectID>
@@ -1959,7 +1954,7 @@
         <Vorto></Vorto>
         <DDFLink>1</DDFLink>
         <TS></TS>
-        <TSLink></TSLink>
+        <TSLink>0</TSLink>
     </Item>
     <Item>
         <ObjectID>3384</ObjectID>
@@ -1975,7 +1970,7 @@
         <Vorto></Vorto>
         <DDFLink>1</DDFLink>
         <TS></TS>
-        <TSLink></TSLink>
+        <TSLink>0</TSLink>
     </Item>
     <Item>
         <ObjectID>3385</ObjectID>
@@ -1991,7 +1986,7 @@
         <Vorto></Vorto>
         <DDFLink>1</DDFLink>
         <TS></TS>
-        <TSLink></TSLink>
+        <TSLink>0</TSLink>
     </Item>
     <Item>
         <ObjectID>3386</ObjectID>
@@ -2007,7 +2002,7 @@
         <Vorto></Vorto>
         <DDFLink>1</DDFLink>
         <TS></TS>
-        <TSLink></TSLink>
+        <TSLink>0</TSLink>
     </Item>
     <Item>
         <ObjectID>10241</ObjectID>
