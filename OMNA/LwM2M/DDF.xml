@@ -292,7 +292,7 @@
         <Owner>OMA</Owner>
         <Source>0</Source>
         <Ver>1.0</Ver>
-        <DDF>http://www.openmobilealliance.org/tech/profiles/Communication_Characteristics-V1_0.xml</DDF>
+        <DDF></DDF>
         <LWM2M></LWM2M>
         <Vorto></Vorto>
         <DDFLink>0</DDFLink>
@@ -307,7 +307,7 @@
         <Owner>OMA</Owner>
         <Source>0</Source>
         <Ver>1.0</Ver>
-        <DDF>http://www.openmobilealliance.org/tech/profiles/Non-Access_Stratum_NAS_configuration-V1_0.xml</DDF>
+        <DDF></DDF>
         <LWM2M></LWM2M>
         <Vorto></Vorto>
         <DDFLink>0</DDFLink>
@@ -570,7 +570,7 @@
     <Item>
         <ObjectID>3202</ObjectID>
         <URN>urn:oma:lwm2m:ext:3202</URN>
-        <Name>Analogue Input</Name>
+        <Name>Analog Input</Name>
         <Description>This IPSO object is a generic object that can be used with any kind of analogue input interface. Specific object for a given range of sensors is described later in the document, enabling to identify the type of sensors directly from its Object ID. This object may be used as a generic object if a dedicated one does not exist.</Description>
         <Owner>IPSO Alliance</Owner>
         <Source>1</Source>
@@ -587,7 +587,7 @@
     <Item>
         <ObjectID>3203</ObjectID>
         <URN>urn:oma:lwm2m:ext:3203</URN>
-        <Name>Analogue Output</Name>
+        <Name>Analog Output</Name>
         <Description>This IPSO object is a generic object that can be used with any kind of analogue input interface. Specific object for a given range of sensors is described later in the document, enabling to identify the type of sensors directly from its Object ID. This object may be used as a generic object if a dedicated one does not exist.</Description>
         <Owner>IPSO Alliance</Owner>
         <Source>1</Source>
@@ -621,7 +621,7 @@
     <Item>
         <ObjectID>3301</ObjectID>
         <URN>urn:oma:lwm2m:ext:3301</URN>
-        <Name>Illuminance Sensor</Name>
+        <Name>Illuminance</Name>
         <Description>This IPSO object should be used over a luminosity sensor to report a remote luminosity measurement. It also provides resources for minimum/maximum measured values and the minimum/maximum range that can be measured by the luminosity sensor. The unit used here is Lux (ucum:lx).</Description>
         <Owner>IPSO Alliance</Owner>
         <Source>1</Source>
@@ -638,7 +638,7 @@
     <Item>
         <ObjectID>3302</ObjectID>
         <URN>urn:oma:lwm2m:ext:3302</URN>
-        <Name>Presence Sensor</Name>
+        <Name>Presence</Name>
         <Description>This IPSO object should be used over a presence sensor to report a remote presence detection. It also provides resources to manage a counter, the type of sensor used (e.g the technology of the probe), and configuration for the delay between busy and clear detection state.</Description>
         <Owner>IPSO Alliance</Owner>
         <Source>1</Source>
@@ -655,7 +655,7 @@
     <Item>
         <ObjectID>3303</ObjectID>
         <URN>urn:oma:lwm2m:ext:3303</URN>
-        <Name>Temperature Sensor</Name>
+        <Name>Temperature</Name>
         <Description>This IPSO object should be used over a temperature sensor to report a remote temperature measurement. It also provides resources for minimum/maximum measured values and the minimum/maximum range that can be measured by the temperature sensor. The unit used here is degree Celsius (ucum:Cel).</Description>
         <Owner>IPSO Alliance</Owner>
         <Source>1</Source>
@@ -672,7 +672,7 @@
     <Item>
         <ObjectID>3304</ObjectID>
         <URN>urn:oma:lwm2m:ext:3304</URN>
-        <Name>Humidity Sensor</Name>
+        <Name>Humidity</Name>
         <Description>This IPSO object should be used over a humidity sensor to report a remote humidity measurement. It also provides resources for minimum/maximum measured values and the minimum/maximum range that can be measured by the humidity sensor. The unit used here is relative humidity as a percentage (ucum:%).</Description>
         <Owner>IPSO Alliance</Owner>
         <Source>1</Source>
@@ -1165,7 +1165,7 @@
     <Item>
         <ObjectID>3335</ObjectID>
         <URN>urn:oma:lwm2m:ext:3335</URN>
-        <Name>Color</Name>
+        <Name>Colour</Name>
         <Description>This IPSO object should be used to report the measured value of a colour sensor in some colour space described by the units resource.</Description>
         <Owner>IPSO Alliance</Owner>
         <Source>1</Source>
@@ -1182,7 +1182,7 @@
     <Item>
         <ObjectID>3336</ObjectID>
         <URN>urn:oma:lwm2m:ext:3336</URN>
-        <Name>GPS Location</Name>
+        <Name>Location</Name>
         <Description>This IPSO object represents GPS coordinates. This object is compatible with the LWM2M management object for location, but uses reusable resources.</Description>
         <Owner>IPSO Alliance</Owner>
         <Source>1</Source>
@@ -1284,7 +1284,7 @@
     <Item>
         <ObjectID>3342</ObjectID>
         <URN>urn:oma:lwm2m:ext:3342</URN>
-        <Name>On/Off Switch</Name>
+        <Name>On/Off switch</Name>
         <Description>This IPSO object should be used with an On/Off switch to report the state of the switch.</Description>
         <Owner>IPSO Alliance</Owner>
         <Source>1</Source>
@@ -1301,7 +1301,7 @@
     <Item>
         <ObjectID>3343</ObjectID>
         <URN>urn:oma:lwm2m:ext:3343</URN>
-        <Name>Lever Control</Name>
+        <Name>Dimmer</Name>
         <Description>This IPSO object should be used with a dimmer or level control to report the state of the control.</Description>
         <Owner>IPSO Alliance</Owner>
         <Source>1</Source>
@@ -1369,7 +1369,7 @@
     <Item>
         <ObjectID>3347</ObjectID>
         <URN>urn:oma:lwm2m:ext:3347</URN>
-        <Name>Push Button</Name>
+        <Name>Push button</Name>
         <Description>This IPSO object is used to report the state of a momentary action push button control and to count the number of times the control has been operated since the last observation.</Description>
         <Owner>IPSO Alliance</Owner>
         <Source>1</Source>
@@ -1386,7 +1386,7 @@
     <Item>
         <ObjectID>3348</ObjectID>
         <URN>urn:oma:lwm2m:ext:3348</URN>
-        <Name>Multistate Selector</Name>
+        <Name>Multi-state Selector</Name>
         <Description>This IPSO object is used to represent the state of a multistate selector switch with a number of fixed positions.</Description>
         <Owner>IPSO Alliance</Owner>
         <Source>1</Source>
