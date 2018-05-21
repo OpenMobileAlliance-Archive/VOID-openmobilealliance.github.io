@@ -2768,13 +2768,12 @@
         <Description>Pending</Description>
         <Owner>Huawei</Owner>
         <Source>2</Source>
-
         <Ver>1.0</Ver>
-        <DDF></DDF>
-        <LWM2M></LWM2M>
+        <DDF>-</DDF>
+        <LWM2M>-</LWM2M>
         <Vorto></Vorto>
-        <DDFLink></DDFLink>
+        <DDFLink>-</DDFLink>
         <TS></TS>
-        <TSLink></TSLink>
+        <TSLink>-</TSLink>
     </Item>
 </DDFList>
