@@ -829,7 +829,6 @@
         <Description>This IPSO object should be used with an air pressure sensor to report a remote barometer measurement. It also provides resources for minimum/maximum measured values and the minimum/maximum range that can be measured by the barometer sensor.</Description>
         <Owner>IPSO Alliance</Owner>
         <Source>1</Source>
-
         <Ver>1.0</Ver>
         <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/3315.xml</DDF>
         <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3315.xml</LWM2M>
@@ -846,7 +845,6 @@
         <Description>This IPSO object should be used with voltmeter sensor to report measured voltage between two points. It also provides resources for minimum and maximum measured values, as well as the minimum and maximum range that can be measured by the sensor. An example measurement unit is volts (ucum: V).</Description>
         <Owner>IPSO Alliance</Owner>
         <Source>1</Source>
-
         <Ver>1.0</Ver>
         <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/3316.xml</DDF>
         <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3316.xml</LWM2M>
@@ -863,7 +861,6 @@
         <Description>This IPSO object should be used with an ammeter to report measured electric current in amperes. It also provides resources for minimum and maximum measured values, as well as the minimum and maximum range that can be measured by the sensor. An example measurement unit is volts (ucum: A).</Description>
         <Owner>IPSO Alliance</Owner>
         <Source>1</Source>
-
         <Ver>1.0</Ver>
         <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/3317.xml</DDF>
         <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3317.xml</LWM2M>
@@ -880,7 +877,6 @@
         <Description>This IPSO object should be used to report frequency measurements. It also provides resources for minimum and maximum measured values, as well as the minimum and maximum range that can be measured by the sensor. An example measurement unit is volts (ucum: Hz).</Description>
         <Owner>IPSO Alliance</Owner>
         <Source>1</Source>
-
         <Ver>1.0</Ver>
         <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/3318.xml</DDF>
         <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3318.xml</LWM2M>
@@ -897,7 +893,6 @@
         <Description>This IPSO object should be used to report depth measurements. It can, for example, be used to describe a generic rain gauge that measures the accumulated rainfall in millimetres (mm) or in fathoms (fth).</Description>
         <Owner>IPSO Alliance</Owner>
         <Source>1</Source>
-
         <Ver>1.0</Ver>
         <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/3319.xml</DDF>
         <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3319.xml</LWM2M>
@@ -914,7 +909,6 @@
         <Description>This IPSO object should can be used to report measurements relative to a 0-100% scale. For example it could be used to measure the level of a liquid in a vessel or container in units of %.</Description>
         <Owner>IPSO Alliance</Owner>
         <Source>1</Source>
-
         <Ver>1.0</Ver>
         <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/3320.xml</DDF>
         <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3320.xml</LWM2M>
@@ -931,7 +925,6 @@
         <Description>This IPSO object should be used with an altitude sensor to report altitude above sea level in meters. Note that Altitude can be calculated from the measured pressure given the local sea level pressure. It also provides resources for minimum and maximum measured values, as well as the minimum and maximum range that can be measured by the sensor. An example measurement unit is meters (ucum: m).</Description>
         <Owner>IPSO Alliance</Owner>
         <Source>1</Source>
-
         <Ver>1.0</Ver>
         <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/3321.xml</DDF>
         <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3321.xml</LWM2M>
@@ -948,7 +941,6 @@
         <Description>This IPSO object should be used with a load sensor (as in a scale) to report the applied weight or force. It also provides resources for minimum and maximum measured values, as well as the minimum and maximum range that can be measured by the sensor.</Description>
         <Owner>IPSO Alliance</Owner>
         <Source>1</Source>
-
         <Ver>1.0</Ver>
         <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/3322.xml</DDF>
         <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3322.xml</LWM2M>
@@ -965,7 +957,6 @@
         <Description>This IPSO object should be used to report pressure measurements. It also provides resources for minimum and maximum measured values, as well as the minimum and maximum range that can be measured by the sensor.</Description>
         <Owner>IPSO Alliance</Owner>
         <Source>1</Source>
-
         <Ver>1.0</Ver>
         <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/3323.xml</DDF>
         <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3323.xml</LWM2M>
@@ -982,7 +973,6 @@
         <Description>This IPSO object should be used to report loudness or noise level measurements. It also provides resources for minimum and maximum measured values, as well as the minimum and maximum range that can be measured by the sensor.</Description>
         <Owner>IPSO Alliance</Owner>
         <Source>1</Source>
-
         <Ver>1.0</Ver>
         <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/3324.xml</DDF>
         <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3324.xml</LWM2M>
@@ -999,7 +989,6 @@
         <Description>This IPSO object should be used to the particle concentration measurement of a medium. It also provides resources for minimum and maximum measured values, as well as the minimum and maximum range that can be measured by the sensor.</Description>
         <Owner>IPSO Alliance</Owner>
         <Source>1</Source>
-
         <Ver>1.0</Ver>
         <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/3325.xml</DDF>
         <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3325.xml</LWM2M>
@@ -1016,7 +1005,6 @@
         <Description>This IPSO object should be used to report an acidity measurement of a liquid. It also provides resources for minimum and maximum measured values, as well as the minimum and maximum range that can be measured by the sensor.</Description>
         <Owner>IPSO Alliance</Owner>
         <Source>1</Source>
-
         <Ver>1.0</Ver>
         <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/3326.xml</DDF>
         <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3326.xml</LWM2M>
@@ -1033,7 +1021,6 @@
         <Description>This IPSO object should be used to report a measurement of the electric conductivity of a medium or sample. It also provides resources for minimum and maximum measured values, as well as the minimum and maximum range that can be measured by the sensor.</Description>
         <Owner>IPSO Alliance</Owner>
         <Source>1</Source>
-
         <Ver>1.0</Ver>
         <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/3327.xml</DDF>
         <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3327.xml</LWM2M>
@@ -1050,7 +1037,6 @@
         <Description>This IPSO object should be used to report power measurements. It also provides resources for minimum and maximum measured values, as well as the minimum and maximum range that can be measured by the sensor.</Description>
         <Owner>IPSO Alliance</Owner>
         <Source>1</Source>
-
         <Ver>1.0</Ver>
         <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/3328.xml</DDF>
         <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3328.xml</LWM2M>
@@ -1067,7 +1053,6 @@
         <Description>This IPSO object should be used to report a measurement or calculation of the power factor of a reactive electrical load.</Description>
         <Owner>IPSO Alliance</Owner>
         <Source>1</Source>
-
         <Ver>1.0</Ver>
         <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/3329.xml</DDF>
         <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3329.xml</LWM2M>
@@ -1084,7 +1069,6 @@
         <Description>This IPSO object should be used to report a distance measurement. It also provides resources for minimum and maximum measured values, as well as the minimum and maximum range that can be measured by the sensor.</Description>
         <Owner>IPSO Alliance</Owner>
         <Source>1</Source>
-
         <Ver>1.0</Ver>
         <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/3330.xml</DDF>
         <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3330.xml</LWM2M>
@@ -1101,7 +1085,6 @@
         <Description>This IPSO object should be used to report energy consumption (Cumulative Power) of an electrical load.</Description>
         <Owner>IPSO Alliance</Owner>
         <Source>1</Source>
-
         <Ver>1.0</Ver>
         <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/3331.xml</DDF>
         <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3331.xml</LWM2M>
@@ -1118,7 +1101,6 @@
         <Description>This IPSO object is used to report the direction indicated by a compass, wind vane, or other directional indicator. The units of measure is plane angle degrees (ucum:deg).</Description>
         <Owner>IPSO Alliance</Owner>
         <Source>1</Source>
-
         <Ver>1.0</Ver>
         <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/3332.xml</DDF>
         <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3332.xml</LWM2M>
@@ -1135,7 +1117,6 @@
         <Description>This IPSO object is used to report the current time in seconds since January 1, 1970 UTC. There is also a fractional time counter that has a range of less than one second.</Description>
         <Owner>IPSO Alliance</Owner>
         <Source>1</Source>
-
         <Ver>1.0</Ver>
         <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/3333.xml</DDF>
         <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3333.xml</LWM2M>
@@ -1152,7 +1133,6 @@
         <Description>This IPSO Object is used to report the current reading of a gyrometer sensor in 3 axes. It provides tracking of the minimum and maximum angular rate in all 3 axes.</Description>
         <Owner>IPSO Alliance</Owner>
         <Source>1</Source>
-
         <Ver>1.0</Ver>
         <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/3334.xml</DDF>
         <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3334.xml</LWM2M>
@@ -1169,7 +1149,6 @@
         <Description>This IPSO object should be used to report the measured value of a colour sensor in some colour space described by the units resource.</Description>
         <Owner>IPSO Alliance</Owner>
         <Source>1</Source>
-
         <Ver>1.0</Ver>
         <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/3335.xml</DDF>
         <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3335.xml</LWM2M>
@@ -1203,7 +1182,6 @@
         <Description>This IPSO object should be used with a generic position actuator from 0 to 100%.</Description>
         <Owner>IPSO Alliance</Owner>
         <Source>1</Source>
-
         <Ver>1.0</Ver>
         <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/3337.xml</DDF>
         <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3337.xml</LWM2M>
@@ -1220,7 +1198,6 @@
         <Description>This IPSO object should be used to actuate an audible alarm such as a buzzer, beeper, or vibration alarm.</Description>
         <Owner>IPSO Alliance</Owner>
         <Source>1</Source>
-
         <Ver>1.0</Ver>
         <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/3338.xml</DDF>
         <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3338.xml</LWM2M>
@@ -1237,7 +1214,6 @@
         <Description>This IPSO object should be used for a speaker that plays a pre-recorded audio clip or an audio output that is sent elsewhere.</Description>
         <Owner>IPSO Alliance</Owner>
         <Source>1</Source>
-
         <Ver>1.0</Ver>
         <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/3339.xml</DDF>
         <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3339.xml</LWM2M>
@@ -1254,7 +1230,6 @@
         <Description>This IPSO object is used to time events and actions, using patterns common to industrial timers. A POST to the trigger resource or On/Off input state change starts the timing operation, and the timer remaining time shows zero when the operation is complete.</Description>
         <Owner>IPSO Alliance</Owner>
         <Source>1</Source>
-
         <Ver>1.0</Ver>
         <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/3340.xml</DDF>
         <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3340.xml</LWM2M>
@@ -1271,7 +1246,6 @@
         <Description>This IPSO object is used to send text to a text-only or text mode graphics display.</Description>
         <Owner>IPSO Alliance</Owner>
         <Source>1</Source>
-
         <Ver>1.0</Ver>
         <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/3341.xml</DDF>
         <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3341.xml</LWM2M>
@@ -1288,7 +1262,6 @@
         <Description>This IPSO object should be used with an On/Off switch to report the state of the switch.</Description>
         <Owner>IPSO Alliance</Owner>
         <Source>1</Source>
-
         <Ver>1.0</Ver>
         <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/3342.xml</DDF>
         <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3342.xml</LWM2M>
@@ -1305,7 +1278,6 @@
         <Description>This IPSO object should be used with a dimmer or level control to report the state of the control.</Description>
         <Owner>IPSO Alliance</Owner>
         <Source>1</Source>
-
         <Ver>1.0</Ver>
         <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/3343.xml</DDF>
         <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3343.xml</LWM2M>
@@ -1322,7 +1294,6 @@
         <Description>This IPSO object is used to report the state of an up/down control element like a pair of push buttons or a rotary encoder.</Description>
         <Owner>IPSO Alliance</Owner>
         <Source>1</Source>
-
         <Ver>1.0</Ver>
         <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/3344.xml</DDF>
         <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3344.xml</LWM2M>
@@ -1339,7 +1310,6 @@
         <Description>This IPSO object can be used to report the position of a shuttle or joystick control. A digital input is provided to report the state of an associated push button.</Description>
         <Owner>IPSO Alliance</Owner>
         <Source>1</Source>
-
         <Ver>1.0</Ver>
         <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/3345.xml</DDF>
         <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3345.xml</LWM2M>
@@ -1356,7 +1326,6 @@
         <Description>This object type should be used to report a rate measurement,</Description>
         <Owner>IPSO Alliance</Owner>
         <Source>1</Source>
-
         <Ver>1.0</Ver>
         <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/3346.xml</DDF>
         <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3346.xml</LWM2M>
@@ -1373,7 +1342,6 @@
         <Description>This IPSO object is used to report the state of a momentary action push button control and to count the number of times the control has been operated since the last observation.</Description>
         <Owner>IPSO Alliance</Owner>
         <Source>1</Source>
-
         <Ver>1.0</Ver>
         <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/3347.xml</DDF>
         <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3347.xml</LWM2M>
@@ -1390,7 +1358,6 @@
         <Description>This IPSO object is used to represent the state of a multistate selector switch with a number of fixed positions.</Description>
         <Owner>IPSO Alliance</Owner>
         <Source>1</Source>
-
         <Ver>1.0</Ver>
         <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/3348.xml</DDF>
         <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3348.xml</LWM2M>
@@ -1406,7 +1373,6 @@
         <Description>Summarize several digital inputs to one value by mapping each bit to a digital input.</Description>
         <Owner>IPSO Alliance</Owner>
         <Source>1</Source>
-
         <Ver>1.0</Ver>
         <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/3349.xml</DDF>
         <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3349.xml</LWM2M>
@@ -1422,7 +1388,6 @@
         <Description>An ascending timer that counts how long time has passed since the timer was started after reset.</Description>
         <Owner>IPSO Alliance</Owner>
         <Source>1</Source>
-
         <Ver>1.0</Ver>
         <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/3350.xml</DDF>
         <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3350.xml</LWM2M>
@@ -1438,14 +1403,13 @@
         <Description>One time event sent by the device at power up.</Description>
         <Owner>GSMA</Owner>
         <Source>1</Source>
-
         <Ver>1.0</Ver>
         <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/3351.xml</DDF>
         <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3351.xml</LWM2M>
         <Vorto></Vorto>
         <DDFLink>1</DDFLink>
         <TS></TS>
-        <TSLink></TSLink>
+        <TSLink>0</TSLink>
     </Item>
     <Item>
         <ObjectID>3352</ObjectID>
@@ -1454,14 +1418,13 @@
         <Description>List of all PLMNs found during the initial search/scan</Description>
         <Owner>GSMA</Owner>
         <Source>1</Source>
-
         <Ver>1.0</Ver>
         <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/3352.xml</DDF>
         <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3352.xml</LWM2M>
         <Vorto></Vorto>
         <DDFLink>1</DDFLink>
         <TS></TS>
-        <TSLink></TSLink>
+        <TSLink>0</TSLink>
     </Item>
     <Item>
         <ObjectID>3353</ObjectID>
@@ -1470,14 +1433,13 @@
         <Description>serving cell information that the RRC decides to camp on</Description>
         <Owner>GSMA</Owner>
         <Source>1</Source>
-
         <Ver />
         <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/3353.xml</DDF>
         <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3353.xml</LWM2M>
         <Vorto></Vorto>
         <DDFLink>1</DDFLink>
         <TS></TS>
-        <TSLink></TSLink>
+        <TSLink>0</TSLink>
     </Item>
 
     <Item>
@@ -1487,14 +1449,13 @@
         <Description>cell reselection event information</Description>
         <Owner>GSMA</Owner>
         <Source>1</Source>
-
         <Ver>1.0</Ver>
         <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/3354.xml</DDF>
         <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3354.xml</LWM2M>
         <Vorto></Vorto>
         <DDFLink>1</DDFLink>
         <TS></TS>
-        <TSLink></TSLink>
+        <TSLink>0</TSLink>
     </Item>
     <Item>
         <ObjectID>3355</ObjectID>
@@ -1503,14 +1464,13 @@
         <Description>handover event information</Description>
         <Owner>GSMA</Owner>
         <Source>1</Source>
-
         <Ver>1.0</Ver>
         <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/3355.xml</DDF>
         <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3355.xml</LWM2M>
         <Vorto></Vorto>
         <DDFLink>1</DDFLink>
         <TS></TS>
-        <TSLink></TSLink>
+        <TSLink>0</TSLink>
     </Item>
     <Item>
         <ObjectID>3356</ObjectID>
@@ -1519,14 +1479,13 @@
         <Description>Radio Link Failure Event</Description>
         <Owner>GSMA</Owner>
         <Source>1</Source>
-
         <Ver>1.0</Ver>
         <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/3356.xml</DDF>
         <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3356.xml</LWM2M>
         <Vorto></Vorto>
         <DDFLink>1</DDFLink>
         <TS></TS>
-        <TSLink></TSLink>
+        <TSLink>0</TSLink>
     </Item>
     <Item>
         <ObjectID>3357</ObjectID>
@@ -1535,7 +1494,6 @@
         <Description>Current RRC state change information, including the event that triggered the state change</Description>
         <Owner>GSMA</Owner>
         <Source>1</Source>
-
         <Ver>1.0</Ver>
         <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/3357.xml</DDF>
         <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3357.xml</LWM2M>
@@ -1551,14 +1509,13 @@
         <Description>RRC timer expiry event information</Description>
         <Owner>GSMA</Owner>
         <Source>1</Source>
-
         <Ver>1.0</Ver>
         <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/3358.xml</DDF>
         <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3358.xml</LWM2M>
         <Vorto></Vorto>
         <DDFLink>1</DDFLink>
         <TS></TS>
-        <TSLink></TSLink>
+        <TSLink>0</TSLink>
     </Item>
     <Item>
         <ObjectID>3359</ObjectID>
@@ -1567,14 +1524,13 @@
         <Description>Cell blacklist information</Description>
         <Owner>GSMA</Owner>
         <Source>1</Source>
-
         <Ver>1.0</Ver>
         <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/3359.xml</DDF>
         <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3359.xml</LWM2M>
         <Vorto></Vorto>
         <DDFLink>1</DDFLink>
         <TS></TS>
-        <TSLink></TSLink>
+        <TSLink>0</TSLink>
     </Item>
     <Item>
         <ObjectID>3360</ObjectID>
@@ -1583,14 +1539,13 @@
         <Description>ESM context information</Description>
         <Owner>GSMA</Owner>
         <Source>1</Source>
-
         <Ver>1.0</Ver>
         <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/3360.xml</DDF>
         <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3360.xml</LWM2M>
         <Vorto></Vorto>
         <DDFLink>1</DDFLink>
         <TS></TS>
-        <TSLink></TSLink>
+        <TSLink>0</TSLink>
     </Item>
     <Item>
         <ObjectID>3361</ObjectID>
@@ -1599,14 +1554,13 @@
         <Description>EMM context information</Description>
         <Owner>GSMA</Owner>
         <Source>1</Source>
-
         <Ver>1.0</Ver>
         <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/3361.xml</DDF>
         <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3361.xml</LWM2M>
         <Vorto></Vorto>
         <DDFLink>1</DDFLink>
         <TS></TS>
-        <TSLink></TSLink>
+        <TSLink>0</TSLink>
     </Item>
 
     <Item>
@@ -1616,14 +1570,13 @@
         <Description>NAS EMM timer expiry information</Description>
         <Owner>GSMA</Owner>
         <Source>1</Source>
-
         <Ver>1.0</Ver>
         <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/3362.xml</DDF>
         <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3362.xml</LWM2M>
         <Vorto></Vorto>
         <DDFLink>1</DDFLink>
         <TS></TS>
-        <TSLink></TSLink>
+        <TSLink>0</TSLink>
     </Item>
     <Item>
         <ObjectID>3363</ObjectID>
@@ -1632,14 +1585,13 @@
         <Description>NAS ESM timer expiry information</Description>
         <Owner>GSMA</Owner>
         <Source>1</Source>
-
         <Ver>1.0</Ver>
         <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/3363.xml</DDF>
         <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3363.xml</LWM2M>
         <Vorto></Vorto>
         <DDFLink>1</DDFLink>
         <TS></TS>
-        <TSLink></TSLink>
+        <TSLink>0</TSLink>
     </Item>
     <Item>
         <ObjectID>3364</ObjectID>
@@ -1648,14 +1600,13 @@
         <Description>Triggered at EMM failure - failure cause is logged</Description>
         <Owner>GSMA</Owner>
         <Source>1</Source>
-
         <Ver>1.0</Ver>
         <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/3364.xml</DDF>
         <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3364.xml</LWM2M>
         <Vorto></Vorto>
         <DDFLink> 1</DDFLink>
         <TS></TS>
-        <TSLink></TSLink>
+        <TSLink>0</TSLink>
     </Item>
     <Item>
         <ObjectID>3365</ObjectID>
@@ -1664,14 +1615,13 @@
         <Description>RACH Latency and delay information</Description>
         <Owner>GSMA</Owner>
         <Source>1</Source>
-
         <Ver>1.0</Ver>
         <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/3365.xml</DDF>
         <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3365.xml</LWM2M>
         <Vorto></Vorto>
         <DDFLink>1</DDFLink>
         <TS></TS>
-        <TSLink></TSLink>
+        <TSLink>0</TSLink>
     </Item>
     <Item>
         <ObjectID>3366</ObjectID>
@@ -1680,14 +1630,13 @@
         <Description>RACH information. Logged at RACH TX</Description>
         <Owner>GSMA</Owner>
         <Source>1</Source>
-
         <Ver>1.0</Ver>
         <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/3366.xml</DDF>
         <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3366.xml</LWM2M>
         <Vorto></Vorto>
         <DDFLink>1</DDFLink>
         <TS></TS>
-        <TSLink></TSLink>
+        <TSLink>0</TSLink>
     </Item>
     <Item>
         <ObjectID>3367</ObjectID>
@@ -1696,14 +1645,13 @@
         <Description>RACH Information - reason for initiating RACH</Description>
         <Owner>GSMA</Owner>
         <Source>1</Source>
-
         <Ver>1.0</Ver>
         <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/3367.xml</DDF>
         <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3367.xml</LWM2M>
         <Vorto></Vorto>
         <DDFLink>1</DDFLink>
         <TS></TS>
-        <TSLink></TSLink>
+        <TSLink>0</TSLink>
     </Item>
     <Item>
         <ObjectID>3368</ObjectID>
@@ -1712,14 +1660,13 @@
         <Description>MAC timer expiry information</Description>
         <Owner>GSMA</Owner>
         <Source>1</Source>
-
         <Ver>1.0</Ver>
         <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/3368.xml</DDF>
         <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3368.xml</LWM2M>
         <Vorto></Vorto>
         <DDFLink>1</DDFLink>
         <TS></TS>
-        <TSLink></TSLink>
+        <TSLink>0</TSLink>
     </Item>
     <Item>
         <ObjectID>3369</ObjectID>
@@ -1728,14 +1675,13 @@
         <Description>Timing advance information</Description>
         <Owner>GSMA</Owner>
         <Source>1</Source>
-
         <Ver>1.0</Ver>
         <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/3369.xml</DDF>
         <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3369.xml</LWM2M>
         <Vorto></Vorto>
         <DDFLink>1</DDFLink>
         <TS></TS>
-        <TSLink></TSLink>
+        <TSLink>0</TSLink>
     </Item>
     <Item>
         <ObjectID>3370</ObjectID>
@@ -1744,14 +1690,13 @@
         <Description>Serving Cell Measurement</Description>
         <Owner>GSMA</Owner>
         <Source>1</Source>
-
         <Ver>1.0</Ver>
         <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/3370.xml</DDF>
         <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3370.xml</LWM2M>
         <Vorto></Vorto>
         <DDFLink>1</DDFLink>
         <TS></TS>
-        <TSLink></TSLink>
+        <TSLink>0</TSLink>
     </Item>
     <Item>
         <ObjectID>3371</ObjectID>
@@ -1760,14 +1705,13 @@
         <Description>Neighbor Cell Measurements</Description>
         <Owner>GSMA</Owner>
         <Source>1</Source>
-
         <Ver>1.0</Ver>
         <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/3371.xml</DDF>
         <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3371.xml</LWM2M>
         <Vorto></Vorto>
         <DDFLink>1</DDFLink>
         <TS></TS>
-        <TSLink></TSLink>
+        <TSLink>0</TSLink>
     </Item>
     <Item>
         <ObjectID>3372</ObjectID>
@@ -1776,14 +1720,13 @@
         <Description>Neighbor Cell Measurements</Description>
         <Owner>GSMA</Owner>
         <Source>1</Source>
-
         <Ver>1.0</Ver>
         <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/3372.xml</DDF>
         <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3372.xml</LWM2M>
         <Vorto></Vorto>
         <DDFLink>1</DDFLink>
         <TS></TS>
-        <TSLink></TSLink>
+        <TSLink>0</TSLink>
     </Item>
     <Item>
         <ObjectID>3373</ObjectID>
@@ -1792,14 +1735,13 @@
         <Description>TX power headroom information</Description>
         <Owner>GSMA</Owner>
         <Source>1</Source>
-
         <Ver>1.0</Ver>
         <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/3373.xml</DDF>
         <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3373.xml</LWM2M>
         <Vorto></Vorto>
         <DDFLink>1</DDFLink>
         <TS></TS>
-        <TSLink></TSLink>
+        <TSLink>0</TSLink>
     </Item>
     <Item>
         <ObjectID>3374</ObjectID>
@@ -1808,14 +1750,13 @@
         <Description>Radio Link monitoring information maintained by RRC</Description>
         <Owner>GSMA</Owner>
         <Source>1</Source>
-
         <Ver>1.0</Ver>
         <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/3374.xml</DDF>
         <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3374.xml</LWM2M>
         <Vorto></Vorto>
         <DDFLink>1</DDFLink>
         <TS></TS>
-        <TSLink></TSLink>
+        <TSLink>0</TSLink>
     </Item>
     <Item>
         <ObjectID>3375</ObjectID>
@@ -1824,14 +1765,13 @@
         <Description>Paging DRX information</Description>
         <Owner>GSMA</Owner>
         <Source>1</Source>
-
         <Ver>1.0</Ver>
         <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/3375.xml</DDF>
         <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3375.xml</LWM2M>
         <Vorto></Vorto>
         <DDFLink>1</DDFLink>
         <TS></TS>
-        <TSLink></TSLink>
+        <TSLink>0</TSLink>
     </Item>
     <Item>
         <ObjectID>3376</ObjectID>
@@ -1840,14 +1780,13 @@
         <Description>TX Power backoff information</Description>
         <Owner>GSMA</Owner>
         <Source>1</Source>
-
         <Ver>1.0</Ver>
         <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/3376.xml</DDF>
         <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3376.xml</LWM2M>
         <Vorto></Vorto>
         <DDFLink>1</DDFLink>
         <TS></TS>
-        <TSLink></TSLink>
+        <TSLink>0</TSLink>
     </Item>
     <Item>
         <ObjectID>3377</ObjectID>
@@ -1856,14 +1795,13 @@
         <Description>RACH message 3 report information</Description>
         <Owner>GSMA</Owner>
         <Source>1</Source>
-
         <Ver>1.0</Ver>
         <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/3377.xml</DDF>
         <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3377.xml</LWM2M>
         <Vorto></Vorto>
         <DDFLink>1</DDFLink>
         <TS></TS>
-        <TSLink></TSLink>
+        <TSLink>0</TSLink>
     </Item>
     <Item>
         <ObjectID>3378</ObjectID>
@@ -1872,14 +1810,13 @@
         <Description>Serving cell PBCH decoding information</Description>
         <Owner>GSMA</Owner>
         <Source>1</Source>
-
         <Ver>1.0</Ver>
         <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/3378.xml</DDF>
         <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3378.xml</LWM2M>
         <Vorto></Vorto>
         <DDFLink>1</DDFLink>
         <TS></TS>
-        <TSLink></TSLink>
+        <TSLink>0</TSLink>
     </Item>
     <Item>
         <ObjectID>3379</ObjectID>
@@ -1888,14 +1825,13 @@
         <Description>PUCCH TX power control information</Description>
         <Owner>GSMA</Owner>
         <Source>1</Source>
-
         <Ver>1.0</Ver>
         <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/3379.xml</DDF>
         <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3379.xml</LWM2M>
         <Vorto></Vorto>
         <DDFLink>1</DDFLink>
         <TS></TS>
-        <TSLink></TSLink>
+        <TSLink>0</TSLink>
     </Item>
     <Item>
         <ObjectID>3380</ObjectID>
@@ -1904,14 +1840,13 @@
         <Description>PRACH report information</Description>
         <Owner>GSMA</Owner>
         <Source>1</Source>
-
         <Ver>1.0</Ver>
         <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/3380.xml</DDF>
         <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3380.xml</LWM2M>
         <Vorto></Vorto>
         <DDFLink>1</DDFLink>
         <TS></TS>
-        <TSLink></TSLink>
+        <TSLink>0</TSLink>
     </Item>
     <Item>
         <ObjectID>3381</ObjectID>
@@ -1920,14 +1855,13 @@
         <Description>VoLTE call status</Description>
         <Owner>GSMA</Owner>
         <Source>1</Source>
-
         <Ver>1.0</Ver>
         <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/3381.xml</DDF>
         <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3381.xml</LWM2M>
         <Vorto></Vorto>
         <DDFLink>1</DDFLink>
         <TS></TS>
-        <TSLink></TSLink>
+        <TSLink>0</TSLink>
     </Item>
     <Item>
         <ObjectID>3382</ObjectID>
@@ -1936,14 +1870,13 @@
         <Description>SIP Registration status</Description>
         <Owner>GSMA</Owner>
         <Source>1</Source>
-
         <Ver>1.0</Ver>
         <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/3382.xml</DDF>
         <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3382.xml</LWM2M>
         <Vorto></Vorto>
         <DDFLink>1</DDFLink>
         <TS></TS>
-        <TSLink></TSLink>
+        <TSLink>0</TSLink>
     </Item>
     <Item>
         <ObjectID>3383</ObjectID>
@@ -1952,14 +1885,13 @@
         <Description>SIP Publish status</Description>
         <Owner>GSMA</Owner>
         <Source>1</Source>
-
         <Ver>1.0</Ver>
         <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/3383.xml</DDF>
         <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3383.xml</LWM2M>
         <Vorto></Vorto>
         <DDFLink>1</DDFLink>
         <TS></TS>
-        <TSLink></TSLink>
+        <TSLink>0</TSLink>
     </Item>
     <Item>
         <ObjectID>3384</ObjectID>
@@ -1968,14 +1900,13 @@
         <Description>SIP Subscription status</Description>
         <Owner>GSMA</Owner>
         <Source>1</Source>
-
         <Ver>1.0</Ver>
         <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/3384.xml</DDF>
         <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3384.xml</LWM2M>
         <Vorto></Vorto>
         <DDFLink>1</DDFLink>
         <TS></TS>
-        <TSLink></TSLink>
+        <TSLink>0</TSLink>
     </Item>
     <Item>
         <ObjectID>3385</ObjectID>
@@ -1984,14 +1915,13 @@
         <Description>VoLTE call status change</Description>
         <Owner>GSMA</Owner>
         <Source>1</Source>
-
         <Ver>1.0</Ver>
         <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/3385.xml</DDF>
         <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3385.xml</LWM2M>
         <Vorto></Vorto>
         <DDFLink>1</DDFLink>
         <TS></TS>
-        <TSLink></TSLink>
+        <TSLink>0</TSLink>
     </Item>
     <Item>
         <ObjectID>3386</ObjectID>
@@ -2000,14 +1930,13 @@
         <Description>Log is generated at the receiving end of RTP flow when newReceivedSequenceNumber - lastReceivedSequenceNumber > 1</Description>
         <Owner>GSMA</Owner>
         <Source>1</Source>
-
         <Ver>1.0</Ver>
         <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/3386.xml</DDF>
         <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3386.xml</LWM2M>
         <Vorto></Vorto>
         <DDFLink>1</DDFLink>
         <TS></TS>
-        <TSLink></TSLink>
+        <TSLink>0</TSLink>
     </Item>
     <Item>
         <ObjectID>10241</ObjectID>
@@ -2016,7 +1945,6 @@
         <Description>This LWM2M Object provides a range of host device related information which can be queried by the LWM2M Server. The host device is any integrated device with an embedded cellular radio module.</Description>
         <Owner>AT&amp;T</Owner>
         <Source>2</Source>
-
         <Ver>1.0</Ver>
         <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/10241.xml</DDF>
         <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F10241.xml</LWM2M>
@@ -2033,7 +1961,6 @@
         <Description>This Object provides the information to represent a generic 3-Phase Power Meter</Description>
         <Owner>Odins</Owner>
         <Source>2</Source>
-
         <Ver>1.0</Ver>
         <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/10242.xml</DDF>
         <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F10242.xml</LWM2M>
@@ -2050,7 +1977,6 @@
         <Description>This Object provides the information to represent a generic Single-Phase Power Meter</Description>
         <Owner>Odins</Owner>
         <Source>2</Source>
-
         <Ver>1.0</Ver>
         <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/10243.xml</DDF>
         <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F10243.xml</LWM2M>
@@ -2067,7 +1993,6 @@
         <Description>This Object provides the information to represent a generic VCU (vehicle control unit)</Description>
         <Owner>Works System</Owner>
         <Source>2</Source>
-
         <Ver>1.0</Ver>
         <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/10244.xml</DDF>
         <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F10244.xml</LWM2M>
@@ -2083,7 +2008,6 @@
         <Description>This LWM2M Object provides a range of eNB related measurements and parameters of which several are changeable. Furthermore, it includes Resources to enable/disable the eNB</Description>
         <Owner>Vodafone Group Services Ltd</Owner>
         <Source>2</Source>
-
         <Ver>1.0</Ver>
         <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/10245.xml</DDF>
         <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F10245.xml</LWM2M>
@@ -2099,7 +2023,6 @@
         <Description>This LWM2M Object provides CrowdBox-related measurements such as serving cell parameters, backhaul timing advance, and neighbour cell reports.</Description>
         <Owner>Vodafone Group Services Ltd</Owner>
         <Source>2</Source>
-
         <Ver>1.0</Ver>
         <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/10246.xml</DDF>
         <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F10246.xml</LWM2M>
@@ -2115,7 +2038,6 @@
         <Description>This LWM2M Object provides the neighbour cell report. The CrowdBox Measurements Object and the Connected UE Report Object have both Objlnk Resources pointing to this Object</Description>
         <Owner>Vodafone Group Services Ltd</Owner>
         <Source>2</Source>
-
         <Ver>1.0</Ver>
         <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/10247.xml</DDF>
         <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F10247.xml</LWM2M>
@@ -2131,7 +2053,6 @@
         <Description>This LWM2M Object provides a range of measurements of connected UEs and provides an Object link to the Connected UE report.</Description>
         <Owner>Vodafone Group Services Ltd</Owner>
         <Source>2</Source>
-
         <Ver>1.0</Ver>
         <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/10248.xml</DDF>
         <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F10248.xml</LWM2M>
@@ -2147,7 +2068,6 @@
         <Description>This LWM2M Object provides a range of information related to the connected UEs.</Description>
         <Owner>Vodafone Group Services Ltd</Owner>
         <Source>2</Source>
-
         <Ver>1.0</Ver>
         <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/10249.xml</DDF>
         <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F10249.xml</LWM2M>
@@ -2163,7 +2083,6 @@
         <Description>This LWM2M Object is used for reporting application data of a device.</Description>
         <Owner>Huawei Technologies Co., Ltd.</Owner>
         <Source>2</Source>
-
         <Ver>1.0</Ver>
         <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/10250.xml</DDF>
         <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F10250.xml</LWM2M>
@@ -2179,14 +2098,13 @@
         <Description>Used to execute an AT command on a cellular modem</Description>
         <Owner>Cisco</Owner>
         <Source>2</Source>
-
         <Ver>1.0</Ver>
         <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/10251.xml</DDF>
         <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F10251.xml</LWM2M>
         <Vorto></Vorto>
         <DDFLink>1</DDFLink>
         <TS></TS>
-        <TSLink></TSLink>
+        <TSLink>0</TSLink>
     </Item>
     <Item>
         <ObjectID>10252</ObjectID>
@@ -2195,7 +2113,6 @@
         <Description><![CDATA[This object provides a range of information related to updating packages on a device]]></Description>
         <Owner>ARM Limited</Owner>
         <Source>2</Source>
-
         <Ver>1.0</Ver>
         <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/10252.xml</DDF>
         <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F10252.xml</LWM2M>
@@ -2212,7 +2129,6 @@
         <Description>This LWM2M Object is used for reporting data, but in a confidential way</Description>
         <Owner>Lab R&amp;D Atos Pessac</Owner>
         <Source>2</Source>
-
         <Ver>1.0</Ver>
         <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/10253.xml</DDF>
         <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F10253.xml</LWM2M>
@@ -2228,7 +2144,6 @@
         <Description>This LwM2M Object provides a representation of a current loop sensor, which indicates the value emitted by a current source.</Description>
         <Owner>World-Direct eBusiness</Owner>
         <Source>2</Source>
-
         <Ver>1.0</Ver>
         <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/10254.xml</DDF>
         <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F10254.xml</LWM2M>
@@ -2244,7 +2159,6 @@
         <Description><![CDATA[This object provides a range of information related to device metadata]]></Description>
         <Owner>ARM Limited</Owner>
         <Source>2</Source>
-
         <Ver />
         <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/10255.xml</DDF>
         <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F10255.xml</LWM2M>
@@ -2261,14 +2175,13 @@
         <Description>This LWM2M Object provides ECID signal measurements of a device.</Description>
         <Owner>Huawei Technologies</Owner>
         <Source>2</Source>
-
         <Ver>1.0</Ver>
         <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/10256.xml</DDF>
         <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F10256.xml</LWM2M>
         <Vorto></Vorto>
         <DDFLink>1</DDFLink>
         <TS></TS>
-        <TSLink></TSLink>
+        <TSLink>0</TSLink>
     </Item>
     <Item>
         <ObjectID>10257</ObjectID>
@@ -2277,14 +2190,13 @@
         <Description>This Object provides the information to represent a generic (district) heat or cooling meter</Description>
         <Owner>Comsel System Ltd</Owner>
         <Source>2</Source>
-
         <Ver>1.0</Ver>
         <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/10257.xml</DDF>
         <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F10257.xml</LWM2M>
         <Vorto></Vorto>
         <DDFLink>1</DDFLink>
         <TS></TS>
-        <TSLink></TSLink>
+        <TSLink>0</TSLink>
     </Item>
     <Item>
         <ObjectID>10258</ObjectID>
@@ -2293,14 +2205,13 @@
         <Description>This LWM2M Object provides a representation of a current loop source, which may be used to carry control signals.</Description>
         <Owner>World-Direct eBusiness</Owner>
         <Source>2</Source>
-
         <Ver>1.0</Ver>
         <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/10258.xml</DDF>
         <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F10258.xml</LWM2M>
         <Vorto></Vorto>
         <DDFLink>1</DDFLink>
         <TS></TS>
-        <TSLink></TSLink>
+        <TSLink>0</TSLink>
     </Item>
     <Item>
         <ObjectID>10259</ObjectID>
@@ -2309,14 +2220,13 @@
         <Description>This object provides read access to log buffers as well as limited configuration of logging services.</Description>
         <Owner>NetComm Wireless Limited</Owner>
         <Source>2</Source>
-
         <Ver>1.0</Ver>
         <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/10259.xml</DDF>
         <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F10259.xml</LWM2M>
         <Vorto></Vorto>
         <DDFLink>1</DDFLink>
         <TS></TS>
-        <TSLink></TSLink>
+        <TSLink>0</TSLink>
     </Item>
     <Item>
         <ObjectID>10260</ObjectID>
@@ -2325,14 +2235,13 @@
         <Description>This object allows manipulation of Runtime Database variables.</Description>
         <Owner>NetComm Wireless Limited</Owner>
         <Source>2</Source>
-
         <Ver>1.0</Ver>
         <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/10260.xml</DDF>
         <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F10260.xml</LWM2M>
         <Vorto></Vorto>
         <DDFLink>1</DDFLink>
         <TS></TS>
-        <TSLink></TSLink>
+        <TSLink>0</TSLink>
     </Item>
         <Item>
         <ObjectID>10260</ObjectID>
@@ -2347,7 +2256,7 @@
         <Vorto></Vorto>
         <DDFLink>1</DDFLink>
         <TS></TS>
-        <TSLink></TSLink>
+        <TSLink>0</TSLink>
     </Item>
     <Item>
         <ObjectID>10262</ObjectID>
@@ -2356,14 +2265,13 @@
         <Description>The Interval Data Delivery object provides an optimised means for managing the delivery of interval data from multiple Interval Data Object instances. </Description>
         <Owner>South East Water Corporation</Owner>
         <Source>2</Source>
-
         <Ver>1.0</Ver>
         <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/10262.xml</DDF>
         <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F10262.xml</LWM2M>
         <Vorto></Vorto>
         <DDFLink>1</DDFLink>
         <TS></TS>
-        <TSLink></TSLink>
+        <TSLink>0</TSLink>
     </Item>
     <Item>
         <ObjectID>10263</ObjectID>
@@ -2372,14 +2280,13 @@
         <Description>The Event Data Delivery object provides a simple means for managing the delivery of event data from multiple Event Data Object instances.</Description>
         <Owner>South East Water Corporation</Owner>
         <Source>2</Source>
-
         <Ver>1.0</Ver>
         <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/10263.xml</DDF>
         <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F10263.xml</LWM2M>
         <Vorto></Vorto>
         <DDFLink>1</DDFLink>
         <TS></TS>
-        <TSLink></TSLink>
+        <TSLink>0</TSLink>
     </Item>
     <Item>
         <ObjectID>10264</ObjectID>
@@ -2388,14 +2295,13 @@
         <Description>The Delivery Schedule object provides a means for controlling the periodic delivery of interval and event data to the LwM2M server.</Description>
         <Owner>South East Water Corporation</Owner>
         <Source>2</Source>
-
         <Ver>1.0</Ver>
         <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/10264.xml</DDF>
         <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F10264.xml</LWM2M>
         <Vorto></Vorto>
         <DDFLink>1</DDFLink>
         <TS></TS>
-        <TSLink></TSLink>
+        <TSLink>0</TSLink>
     </Item>
     <Item>
         <ObjectID>10265</ObjectID>
@@ -2404,14 +2310,13 @@
         <Description>The leakage detection configuration object provides a means for configuring the timing and sampling frequency of a vibration based network leak detector</Description>
         <Owner>South East Water Corporation</Owner>
         <Source>2</Source>
-
         <Ver>1.0</Ver>
         <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/10265.xml</DDF>
         <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F10265.xml</LWM2M>
         <Vorto></Vorto>
         <DDFLink>1</DDFLink>
         <TS></TS>
-        <TSLink></TSLink>
+        <TSLink>0</TSLink>
     </Item>
     <Item>
         <ObjectID>10266</ObjectID>
@@ -2420,14 +2325,13 @@
         <Description>Measures the flow of water in regular intervals</Description>
         <Owner>South East Water Corporation</Owner>
         <Source>2</Source>
-
         <Ver>1.0</Ver>
         <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/10266.xml</DDF>
         <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F10266.xml</LWM2M>
         <Vorto></Vorto>
         <DDFLink>1</DDFLink>
         <TS></TS>
-        <TSLink></TSLink>
+        <TSLink>0</TSLink>
     </Item>
     <Item>
         <ObjectID>10267</ObjectID>
@@ -2436,14 +2340,13 @@
         <Description>Measures the maximum flow rate and its time stamp for specified period</Description>
         <Owner>South East Water Corporation</Owner>
         <Source>2</Source>
-
         <Ver>1.0</Ver>
         <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/10267.xml</DDF>
         <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F10267.xml-</LWM2M>
         <Vorto></Vorto>
         <DDFLink>1</DDFLink>
         <TS></TS>
-        <TSLink></TSLink>
+        <TSLink>0</TSLink>
     </Item>
     <Item>
         <ObjectID>10268</ObjectID>
@@ -2452,14 +2355,13 @@
         <Description>Periodic temperature measurements</Description>
         <Owner>South East Water Corporation</Owner>
         <Source>2</Source>
-
         <Ver>1.0</Ver>
         <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/10268.xml</DDF>
         <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F10268.xml</LWM2M>
         <Vorto></Vorto>
         <DDFLink>1</DDFLink>
         <TS></TS>
-        <TSLink></TSLink>
+        <TSLink>0</TSLink>
     </Item>
     <Item>
         <ObjectID>10269</ObjectID>
@@ -2468,14 +2370,13 @@
         <Description>Periodic pressure measurements</Description>
         <Owner>South East Water Corporation</Owner>
         <Source>2</Source>
-
         <Ver>1.0</Ver>
         <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/10269.xml</DDF>
         <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F10269.xml</LWM2M>
         <Vorto></Vorto>
         <DDFLink>1</DDFLink>
         <TS></TS>
-        <TSLink></TSLink>
+        <TSLink>0</TSLink>
     </Item>
     <Item>
         <ObjectID>10270</ObjectID>
@@ -2484,14 +2385,13 @@
         <Description>Periodic battery level measurements</Description>
         <Owner>South East Water Corporation</Owner>
         <Source>2</Source>
-
         <Ver>1.0</Ver>
         <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/10270.xml</DDF>
         <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F10270.xml</LWM2M>
         <Vorto></Vorto>
         <DDFLink>1</DDFLink>
         <TS></TS>
-        <TSLink></TSLink>
+        <TSLink>0</TSLink>
     </Item>
     <Item>
         <ObjectID>10271</ObjectID>
@@ -2500,14 +2400,13 @@
         <Description>Measures the total duration that the meter was activating its radio for packet transmission or receipt for the period. Used to monitor for excess poower usage over time.</Description>
         <Owner>South East Water Corporation</Owner>
         <Source>2</Source>
-
         <Ver>1.0</Ver>
         <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/10271.xml</DDF>
         <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F10271.xml</LWM2M>
         <Vorto></Vorto>
         <DDFLink>1</DDFLink>
         <TS></TS>
-        <TSLink></TSLink>
+        <TSLink>0</TSLink>
     </Item>
     <Item>
         <ObjectID>10272</ObjectID>
@@ -2516,14 +2415,13 @@
         <Description>A binary flag indicating continual usage (e.g. greater than 5 L/h for 24 hours and the flow never returning to zero at any time).</Description>
         <Owner>South East Water Corporation</Owner>
         <Source>2</Source>
-
         <Ver>1.0</Ver>
         <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/10272.xml</DDF>
         <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F10272.xml</LWM2M>
         <Vorto></Vorto>
         <DDFLink>1</DDFLink>
         <TS></TS>
-        <TSLink></TSLink>
+        <TSLink>-</TSLink>
     </Item>
     <Item>
         <ObjectID>10273</ObjectID>
@@ -2532,14 +2430,13 @@
         <Description>An alarm indicating reverse flow through the pipe. Also supports delivery of the approximate volume of water flowing in the reverse direction in the preceding period.</Description>
         <Owner>South East Water Corporation</Owner>
         <Source>2</Source>
-
         <Ver>1.0</Ver>
         <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/10273.xml</DDF>
         <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F10273.xml</LWM2M>
         <Vorto></Vorto>
         <DDFLink>1</DDFLink>
         <TS></TS>
-        <TSLink></TSLink>
+        <TSLink>0</TSLink>
     </Item>
     <Item>
         <ObjectID>10274</ObjectID>
@@ -2548,14 +2445,13 @@
         <Description>An alarm when meter detects there is no liquid in the pipe</Description>
         <Owner>South East Water Corporation</Owner>
         <Source>2</Source>
-
         <Ver>1.0</Ver>
         <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/10274.xml</DDF>
         <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F10274.xml</LWM2M>
         <Vorto></Vorto>
         <DDFLink>1</DDFLink>
         <TS></TS>
-        <TSLink></TSLink>
+        <TSLink>0</TSLink>
     </Item>
     <Item>
         <ObjectID>10275</ObjectID>
@@ -2568,14 +2464,13 @@
         </Description>
         <Owner>South East Water Corporation</Owner>
         <Source>2</Source>
-
         <Ver>1.0</Ver>
         <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/10275.xml</DDF>
         <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F10275.xml</LWM2M>
         <Vorto></Vorto>
         <DDFLink>1</DDFLink>
         <TS></TS>
-        <TSLink></TSLink>
+        <TSLink>0</TSLink>
     </Item>
     <Item>
         <ObjectID>10276</ObjectID>
@@ -2584,14 +2479,13 @@
         <Description>Where supported by the meter this is an alarm that should be raised if the meter detects pressure above a pre-configured threshold.</Description>
         <Owner>South East Water Corporation</Owner>
         <Source>2</Source>
-
         <Ver>1.0</Ver>
         <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/10276.xml</DDF>
         <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F10276.xml</LWM2M>
         <Vorto></Vorto>
         <DDFLink>1</DDFLink>
         <TS></TS>
-        <TSLink></TSLink>
+        <TSLink>0</TSLink>
     </Item>
     <Item>
         <ObjectID>10277</ObjectID>
@@ -2600,14 +2494,13 @@
         <Description>Where supported by the meter this is an alarm that should be raised if the meter detects pressure below a pre-configured threshold.</Description>
         <Owner>South East Water Corporation</Owner>
         <Source>2</Source>
-
         <Ver>1.0</Ver>
         <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/10277.xml</DDF>
         <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F10277.xml</LWM2M>
         <Vorto></Vorto>
         <DDFLink>1</DDFLink>
         <TS></TS>
-        <TSLink></TSLink>
+        <TSLink>0</TSLink>
     </Item>
     <Item>
         <ObjectID>10278</ObjectID>
@@ -2619,14 +2512,13 @@
         </Description>
         <Owner>South East Water Corporation</Owner>
         <Source>2</Source>
-
         <Ver>1.0</Ver>
         <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/10278.xml</DDF>
         <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F10278.xml</LWM2M>
         <Vorto></Vorto>
         <DDFLink>1</DDFLink>
         <TS></TS>
-        <TSLink></TSLink>
+        <TSLink>0</TSLink>
     </Item>
     <Item>
         <ObjectID>10279</ObjectID>
@@ -2638,14 +2530,13 @@
         </Description>
         <Owner>South East Water Corporation</Owner>
         <Source>2</Source>
-
         <Ver>1.0</Ver>
         <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/10279.xml</DDF>
         <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F10279.xml</LWM2M>
         <Vorto></Vorto>
         <DDFLink>1</DDFLink>
         <TS></TS>
-        <TSLink></TSLink>
+        <TSLink>0</TSLink>
     </Item>
     <Item>
         <ObjectID>10280</ObjectID>
@@ -2654,14 +2545,13 @@
         <Description>All meters must support the following default configuration. This alarm will be based on the frequency output of the vibration sensor/accelerometer on the SEW Daughter board. When a frequency is identified that has the characteristics of an upstream network leak, and its amplitude is above the defined threshold, the meter will report this as a network leak alarm.</Description>
         <Owner>South East Water Corporation</Owner>
         <Source>2</Source>
-
         <Ver>1.0</Ver>
         <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/10280.xml</DDF>
         <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F10280.xml</LWM2M>
         <Vorto></Vorto>
         <DDFLink>1</DDFLink>
         <TS></TS>
-        <TSLink></TSLink>
+        <TSLink>0</TSLink>
     </Item>
     <Item>
         <ObjectID>10281</ObjectID>
@@ -2670,14 +2560,13 @@
         <Description>This Alarm is raised when the battery voltage drops below a defined level</Description>
         <Owner>South East Water Corporation</Owner>
         <Source>2</Source>
-
         <Ver>1.0</Ver>
         <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/10281.xml</DDF>
         <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F10281.xml</LWM2M>
         <Vorto></Vorto>
         <DDFLink>2</DDFLink>
         <TS></TS>
-        <TSLink></TSLink>
+        <TSLink>0</TSLink>
     </Item>
     <Item>
         <ObjectID>10282</ObjectID>
@@ -2686,14 +2575,13 @@
         <Description>This binary status should indicate that the meter MCU can no longer communicate with a daughter board</Description>
         <Owner>South East Water Corporation</Owner>
         <Source>2</Source>
-
         <Ver>1.0</Ver>
         <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/10282.xml</DDF>
         <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F10282.xml</LWM2M>
         <Vorto></Vorto>
         <DDFLink>1</DDFLink>
         <TS></TS>
-        <TSLink></TSLink>
+        <TSLink>0</TSLink>
     </Item>
     <Item>
         <ObjectID>10283</ObjectID>
@@ -2702,14 +2590,13 @@
         <Description>This binary status should indicate that the meter MCU can no longer communicate with a daughter board</Description>
         <Owner>South East Water Corporation</Owner>
         <Source>2</Source>
-
         <Ver>1.0</Ver>
         <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/10283.xml</DDF>
         <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F10283.xml</LWM2M>
         <Vorto></Vorto>
         <DDFLink>1</DDFLink>
         <TS></TS>
-        <TSLink></TSLink>
+        <TSLink>0</TSLink>
     </Item>
     <Item>
         <ObjectID>10284</ObjectID>
@@ -2718,14 +2605,13 @@
         <Description>This event records the fact that the device has rebooted</Description>
         <Owner>South East Water Corporation</Owner>
         <Source>2</Source>
-
         <Ver>1.0</Ver>
         <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/10284.xml</DDF>
         <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F10284.xml</LWM2M>
         <Vorto></Vorto>
         <DDFLink>1</DDFLink>
         <TS></TS>
-        <TSLink></TSLink>
+        <TSLink>0</TSLink>
     </Item>
 
     <Item>
@@ -2742,7 +2628,7 @@
         <Vorto></Vorto>
         <DDFLink>1</DDFLink>
         <TS></TS>
-        <TSLink></TSLink>
+        <TSLink>0</TSLink>
     </Item>
     <Item>
         <ObjectID>10299</ObjectID>
@@ -2751,14 +2637,13 @@
         <Description>This LWM2M Object provides a range of host device related information which can be queried by the LWM2M Server. The host device is any integrated device with an embedded cellular radio module.</Description>
         <Owner>Verizon Wireless</Owner>
         <Source>2</Source>
-
         <Ver>1.0</Ver>
         <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/10299.xml</DDF>
         <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F10299.xml</LWM2M>
         <Vorto></Vorto>
         <DDFLink>1</DDFLink>
         <TS></TS>
-        <TSLink></TSLink>
+        <TSLink>0</TSLink>
     </Item>
 
     <Item>
@@ -2770,10 +2655,10 @@
         <Source>2</Source>
         <Ver>1.0</Ver>
         <DDF>-</DDF>
-        <LWM2M>-</LWM2M>
+        <LWM2M></LWM2M>
         <Vorto></Vorto>
         <DDFLink>-</DDFLink>
         <TS></TS>
-        <TSLink>-</TSLink>
+        <TSLink>0</TSLink>
     </Item>
 </DDFList>
