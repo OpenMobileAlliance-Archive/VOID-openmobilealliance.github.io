@@ -2029,7 +2029,7 @@
     <Item>
         <ObjectID>10242</ObjectID>
         <URN>urn:oma:lwm2m:x:10242</URN>
-        <Name>3-PhasePM</Name>
+        <Name>3-Phase Power Meter</Name>
         <Description>This Object provides the information to represent a generic 3-Phase Power Meter</Description>
         <Owner>Odins</Owner>
         <Source>2</Source>
@@ -2046,7 +2046,7 @@
     <Item>
         <ObjectID>10243</ObjectID>
         <URN>urn:oma:lwm2m:x:10243</URN>
-        <Name>singlePhasePM</Name>
+        <Name>Single-Phase Power Meter</Name>
         <Description>This Object provides the information to represent a generic Single-Phase Power Meter</Description>
         <Owner>Odins</Owner>
         <Source>2</Source>
