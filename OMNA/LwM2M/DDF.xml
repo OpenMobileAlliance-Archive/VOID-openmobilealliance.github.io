@@ -292,7 +292,7 @@
         <Owner>OMA</Owner>
         <Source>0</Source>
         <Ver>1.0</Ver>
-        <DDF>http://www.openmobilealliance.org/tech/profiles/Communication_Characteristics-V1_0.xml</DDF>
+        <DDF></DDF>
         <LWM2M></LWM2M>
         <Vorto></Vorto>
         <DDFLink>0</DDFLink>
@@ -307,7 +307,7 @@
         <Owner>OMA</Owner>
         <Source>0</Source>
         <Ver>1.0</Ver>
-        <DDF>http://www.openmobilealliance.org/tech/profiles/Non-Access_Stratum_NAS_configuration-V1_0.xml</DDF>
+        <DDF></DDF>
         <LWM2M></LWM2M>
         <Vorto></Vorto>
         <DDFLink>0</DDFLink>
@@ -1500,7 +1500,7 @@
         <Vorto></Vorto>
         <DDFLink>1</DDFLink>
         <TS></TS>
-        <TSLink></TSLink>
+        <TSLink>0</TSLink>
     </Item>
     <Item>
         <ObjectID>3358</ObjectID>
