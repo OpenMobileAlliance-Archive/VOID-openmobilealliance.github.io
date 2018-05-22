@@ -2227,7 +2227,7 @@
     <Item>
         <ObjectID>10260</ObjectID>
         <URN>urn:oma:lwm2m:x:10260</URN>
-        <Name>Runtime Database</Name>
+        <Name>RDB</Name>
         <Description>This object allows manipulation of Runtime Database variables.</Description>
         <Owner>NetComm Wireless Limited</Owner>
         <Source>2</Source>
