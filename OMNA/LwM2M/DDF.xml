@@ -33,7 +33,7 @@
     <Item>
         <ObjectID>1</ObjectID>
         <URN>urn:oma:lwm2m:oma:1</URN>
-        <Name>LWM2M Server</Name>
+        <Name>LwM2M Server</Name>
         <Description>It provides the data related to a LWM2M Server. A Bootstrap Server has no such an Object Instance associated to it.</Description>
         <Owner>OMA</Owner>
         <Source>0</Source>
