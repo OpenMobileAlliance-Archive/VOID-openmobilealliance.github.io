@@ -49,7 +49,7 @@
     <Item>
         <ObjectID>2</ObjectID>
         <URN>urn:oma:lwm2m:oma:2</URN>
-        <Name>Access Control</Name>
+        <Name>LwM2M Access Control</Name>
         <Description>It is used to check whether the LWM2M Server has access right for performing a operation.</Description>
         <Owner>OMA</Owner>
         <Source>0</Source>
@@ -97,7 +97,7 @@
     <Item>
         <ObjectID>5</ObjectID>
         <URN>urn:oma:lwm2m:oma:5</URN>
-        <Name>Firmware</Name>
+        <Name>Firmware Update</Name>
         <Description>It enables management of firmware which is to be updated. This Object includes installing firmware package, updating firmware, and performing actions after updating firmware</Description>
         <Owner>OMA</Owner>
         <Source>0</Source>
@@ -160,7 +160,7 @@
     <Item>
         <ObjectID>9</ObjectID>
         <URN>urn:oma:lwm2m:oma:9</URN>
-        <Name>Sofware Management</Name>
+        <Name>LWM2M Software Management</Name>
         <Description>This LWM2M objects provides the resources needed to perform software management on the device. Each software component is managed via a dedicated Software Management Object instance</Description>
         <Owner>OMA</Owner>
         <Source>0</Source>
@@ -240,7 +240,7 @@
     <Item>
         <ObjectID>14</ObjectID>
         <URN>urn:oma:lwm2m:oma:14</URN>
-        <Name>Software Component</Name>
+        <Name>LWM2M Software Component</Name>
         <Description>The LWM2M software management object enables remote software management in M2M devices</Description>
         <Owner>OMA</Owner>
         <Source>0</Source>
@@ -272,7 +272,7 @@
     <Item>
         <ObjectID>16</ObjectID>
         <URN>urn:oma:lwm2m:oma:16</URN>
-        <Name>Porfolio</Name>
+        <Name>Portfolio</Name>
         <Description>The Portfolio Object allows to extend the data storage capability of other Object Instances in the LwM2M system, as well as the services which may be used to authenticate and to protect privacy of data contained in those extensions. In addition, a service of data encryption is also defined</Description>
         <Owner>OMA</Owner>
         <Source>0</Source>
@@ -287,7 +287,7 @@
     <Item>
         <ObjectID>17</ObjectID>
         <URN>urn:oma:lwm2m:oma:17</URN>
-        <Name>Communications Characteristics</Name>
+        <Name>Communication Characteristics</Name>
         <Description>This object enables configuration of various generic communications parameters.</Description>
         <Owner>OMA</Owner>
         <Source>0</Source>
@@ -302,7 +302,7 @@
     <Item>
         <ObjectID>18</ObjectID>
         <URN>urn:oma:lwm2m:oma:18</URN>
-        <Name>Non-Access Stratum (NAS) Configuration</Name>
+        <Name>Non-Access Stratum (NAS) configuration </Name>
         <Description>This object provides Non-Access Stratum (NAS) configuration and is derived from 3GPP TS 24.368.</Description>
         <Owner>OMA</Owner>
         <Source>0</Source>
@@ -2417,7 +2417,7 @@
         <Vorto></Vorto>
         <DDFLink>1</DDFLink>
         <TS></TS>
-        <TSLink>-</TSLink>
+        <TSLink>0</TSLink>
     </Item>
     <Item>
         <ObjectID>10273</ObjectID>
@@ -2650,10 +2650,10 @@
         <Owner>Huawei</Owner>
         <Source>2</Source>
         <Ver>1.0</Ver>
-        <DDF>-</DDF>
+        <DDF></DDF>
         <LWM2M></LWM2M>
         <Vorto></Vorto>
-        <DDFLink>-</DDFLink>
+        <DDFLink></DDFLink>
         <TS></TS>
         <TSLink>0</TSLink>
     </Item>
