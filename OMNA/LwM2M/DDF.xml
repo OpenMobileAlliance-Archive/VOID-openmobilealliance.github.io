@@ -710,7 +710,6 @@
         <Description>This IPSO object is dedicated to remote actuation such as ON/OFF action or dimming. A multistate output can also be described as a string. This is useful to send pilot wire orders for instance. It also provides a resource to reflect the time that the device has been switched on.</Description>
         <Owner>IPSO Alliance</Owner>
         <Source>1</Source>
-
         <Ver>1.0</Ver>
         <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/3306.xml</DDF>
         <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3306.xml</LWM2M>
@@ -727,7 +726,6 @@
         <Description>This IPSO object should be used to set a desired value to a controller, such as a thermostat. This object enables a setpoint to be expressed units defined in the UCUM specification, to match an associated sensor or measurement value. A special resource is added to set the colour of an object.</Description>
         <Owner>IPSO Alliance</Owner>
         <Source>1</Source>
-
         <Ver>1.0</Ver>
         <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/3308.xml</DDF>
         <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3308.xml</LWM2M>
@@ -744,7 +742,6 @@
         <Description>This Object is used for demand-response load control and other load control in automation application (not limited to power).</Description>
         <Owner>IPSO Alliance</Owner>
         <Source>1</Source>
-
         <Ver>1.0</Ver>
         <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/3310.xml</DDF>
         <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3310.xml</LWM2M>
@@ -761,7 +758,6 @@
         <Description>This Object is used to control a light source, such as a LED or other light. It allows a light to be turned on or off and its dimmer setting to be control as a % between 0 and 100.</Description>
         <Owner>IPSO Alliance</Owner>
         <Source>1</Source>
-
         <Ver>1.0</Ver>
         <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/3311.xml</DDF>
         <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3311.xml</LWM2M>
@@ -1998,7 +1994,7 @@
         <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F10244.xml</LWM2M>
         <Vorto></Vorto>
         <DDFLink>1</DDFLink>
-        <TS>0</TS>
+        <TS></TS>
         <TSLink>0</TSLink>
     </Item>
     <Item>
@@ -2028,7 +2024,7 @@
         <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F10246.xml</LWM2M>
         <Vorto></Vorto>
         <DDFLink>1</DDFLink>
-        <TS>0</TS>
+        <TS></TS>
         <TSLink>0</TSLink>
     </Item>
     <Item>
@@ -2058,7 +2054,7 @@
         <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F10248.xml</LWM2M>
         <Vorto></Vorto>
         <DDFLink>1</DDFLink>
-        <TS>0</TS>
+        <TS></TS>
         <TSLink>0</TSLink>
     </Item>
     <Item>
