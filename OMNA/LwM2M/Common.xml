@@ -263,7 +263,7 @@
 
         <Type>Integer</Type>
 
-        <RangeEnumeration>1-3</RangeEnumeration>
+        <RangeEnumeration></RangeEnumeration>
 
         <Units>ms</Units>
 
@@ -286,7 +286,7 @@
 
         <Type>Integer</Type>
 
-        <RangeEnumeration></RangeEnumeration>
+        <RangeEnumeration>1-3</RangeEnumeration>
         
         <Units></Units>
 
@@ -315,7 +315,7 @@
 
         <Submitter>IPSO</Submitter>
 
-        <Description><![CDATA[Reset the Counter value]]></Description>
+        <Description><![CDATA[Reset the Counter value.]]></Description>
         
          <TS></TS>
         
@@ -1264,7 +1264,7 @@
 
         <RangeEnumeration>0-1</RangeEnumeration>
 
-        <Units>V</Units>
+        <Units></Units>
 
         <Submitter>IPSO</Submitter>
 
@@ -1287,7 +1287,7 @@
 
         <RangeEnumeration></RangeEnumeration>
 
-        <Units>Defined by “Units” resource.</Units>
+        <Units></Units>
 
         <Submitter>IPSO</Submitter>
 
@@ -1310,7 +1310,7 @@
 
         <RangeEnumeration></RangeEnumeration>
 
-        <Units>Defined by “Units” resource.</Units>
+        <Units></Units>
 
         <Submitter>IPSO</Submitter>
 
@@ -1333,7 +1333,7 @@
 
         <RangeEnumeration></RangeEnumeration>
 
-        <Units>Defined by “Units” resource.</Units>
+        <Units/>
 
         <Submitter>IPSO</Submitter>
 
@@ -1356,7 +1356,7 @@
 
         <RangeEnumeration></RangeEnumeration>
 
-        <Units>Defined by “Units” resource.</Units>
+        <Units/>
 
         <Submitter>IPSO</Submitter>
 
@@ -1578,7 +1578,7 @@
 
         <Name>Application Type</Name>
 
-        <Operations>RW</Operations>
+        <Operations>R</Operations>
 
         <Type>String</Type>
 
