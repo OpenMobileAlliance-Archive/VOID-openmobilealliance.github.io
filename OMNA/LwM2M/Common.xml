@@ -334,7 +334,7 @@
 
         <RangeEnumeration></RangeEnumeration>
         
-        <Units></Units>
+        <Units>s</Units>
 
         <Submitter>IPSO</Submitter>
 
@@ -379,7 +379,7 @@
 
         <RangeEnumeration></RangeEnumeration>
 
-        <Units>Defined by “Units” resource.</Units>
+        <Units>Defined by "Units" resource.</Units>
 
         <Submitter>IPSO</Submitter>
 
@@ -401,7 +401,7 @@
 
         <RangeEnumeration></RangeEnumeration>
 
-        <Units>Defined by “Units” resource.</Units>
+        <Units>Defined by "Units" resource.</Units>
 
         <Submitter>IPSO</Submitter>
 
@@ -423,7 +423,7 @@
 
         <RangeEnumeration></RangeEnumeration>
 
-        <Units>Defined by “Units” resource.</Units>
+        <Units>Defined by "Units" resource.</Units>
 
         <Submitter>IPSO</Submitter>
 
@@ -445,7 +445,7 @@
 
         <RangeEnumeration></RangeEnumeration>
 
-        <Units>Defined by “Units” resource.</Units>
+        <Units>Defined by "Units" resource.</Units>
 
         <Submitter>IPSO</Submitter>
 
@@ -467,7 +467,7 @@
 
         <RangeEnumeration></RangeEnumeration>
 
-        <Units>Defined by “Units” resource.</Units>
+        <Units>Defined by "Units" resource.</Units>
 
         <Submitter>IPSO</Submitter>
 
@@ -489,7 +489,7 @@
 
         <RangeEnumeration></RangeEnumeration>
 
-        <Units>Defined by “Units” resource.</Units>
+        <Units>Defined by "Units" resource.</Units>
 
         <Submitter>IPSO</Submitter>
 
@@ -665,7 +665,7 @@
 
       <Item ID="5521">
 
-        <Name>Delay Duration</Name>
+        <Name>Duration</Name>
 
         <Operations>RW</Operations>
  
@@ -1030,7 +1030,7 @@
 
         <Name>Remaining Time</Name>
 
-        <Operations>R</Operations>
+        <Operations>RW</Operations>
  
         <Type>Float</Type>
 
@@ -1285,9 +1285,9 @@
 
         <Type>Float</Type>
 
-        <RangeEnumeration></RangeEnumeration>
+        <RangeEnumeration>Same as Measured Value</RangeEnumeration>
 
-        <Units></Units>
+        <Units>Same as Measured Value</Units>
 
         <Submitter>IPSO</Submitter>
 
@@ -1308,9 +1308,9 @@
 
         <Type>Float</Type>
 
-        <RangeEnumeration></RangeEnumeration>
+        <RangeEnumeration>Same as Measured Value</RangeEnumeration>
 
-        <Units></Units>
+        <Units>Same as Measured Value</Units>
 
         <Submitter>IPSO</Submitter>
 
@@ -1333,7 +1333,7 @@
 
         <RangeEnumeration></RangeEnumeration>
 
-        <Units/>
+        <Units>Defined by "Units" resource.</Units>
 
         <Submitter>IPSO</Submitter>
 
@@ -1356,7 +1356,7 @@
 
         <RangeEnumeration></RangeEnumeration>
 
-        <Units/>
+        <Units>Defined by "Units" resource.</Units>
 
         <Submitter>IPSO</Submitter>
 
@@ -1375,7 +1375,7 @@
 
         <Operations>E</Operations>
 
-        <Type>Opaque</Type>
+        <Type/>
 
         <RangeEnumeration></RangeEnumeration>
         
@@ -1425,7 +1425,7 @@
 
         <RangeEnumeration></RangeEnumeration>
 
-        <Units>Defined by “Units” resource.</Units>
+        <Units>Defined by "Units" resource.</Units>
 
         <Submitter>IPSO</Submitter>
 
@@ -1443,7 +1443,7 @@
 
         <Operations>R</Operations>
 
-        <Type>String</Type>
+        <Type>Float</Type>
 
         <RangeEnumeration></RangeEnumeration>
         
@@ -1469,7 +1469,7 @@
 
         <RangeEnumeration></RangeEnumeration>
 
-        <Units>Defined by “Units” resource.</Units>
+        <Units>Defined by "Units" resource.</Units>
 
         <Submitter>IPSO</Submitter>
 
@@ -1492,7 +1492,7 @@
 
         <RangeEnumeration></RangeEnumeration>
 
-        <Units>Defined by “Units” resource.</Units>
+        <Units>Defined by "Units" resource.</Units>
 
         <Submitter>IPSO</Submitter>
 
@@ -1515,7 +1515,7 @@
 
         <RangeEnumeration></RangeEnumeration>
 
-        <Units>Defined by “Units” resource.</Units>
+        <Units>Defined by "Units" resource.</Units>
 
         <Submitter>IPSO</Submitter>
 
@@ -1538,7 +1538,7 @@
 
         <RangeEnumeration>0-360</RangeEnumeration>
 
-        <Units>deg.</Units>
+        <Units>Degree</Units>
 
         <Submitter>IPSO</Submitter>
 
@@ -1561,7 +1561,7 @@
 
         <RangeEnumeration></RangeEnumeration>
 
-        <Units>s</Units>
+        <Units/>
 
         <Submitter>IPSO</Submitter>
 
@@ -1737,7 +1737,7 @@
 
         <Item ID="5805">
 
-        <Name>Cumulative active power</Name>
+        <Name>Sensor Value</Name>
 
         <Operations>R</Operations>
 
@@ -1745,7 +1745,7 @@
 
         <RangeEnumeration></RangeEnumeration>
 
-        <Units>Wh</Units>
+        <Units>Defined by "Units" resource.</Units>
 
         <Submitter>IPSO</Submitter>
 
@@ -1791,7 +1791,7 @@
 
         <RangeEnumeration></RangeEnumeration>
 
-        <Units>var</Units>
+        <Units>VAR</Units>
 
         <Submitter>IPSO</Submitter>
 
@@ -1814,7 +1814,7 @@
 
         <RangeEnumeration></RangeEnumeration>
 
-        <Units>var</Units>
+        <Units>VAR</Units>
 
         <Submitter>IPSO</Submitter>
 
@@ -1837,7 +1837,7 @@
 
         <RangeEnumeration></RangeEnumeration>
 
-        <Units>var</Units>
+        <Units>VAR</Units>
 
         <Submitter>IPSO</Submitter>
 
@@ -1860,7 +1860,7 @@
 
         <RangeEnumeration></RangeEnumeration>
 
-        <Units>var</Units>
+        <Units>VAR</Units>
 
         <Submitter>IPSO</Submitter>
 
@@ -1883,7 +1883,7 @@
 
         <RangeEnumeration></RangeEnumeration>
 
-        <Units>var</Units>
+        <Units>VAR</Units>
 
         <Submitter>IPSO</Submitter>
 
@@ -1906,7 +1906,7 @@
 
         <RangeEnumeration></RangeEnumeration>
 
-        <Units>varh</Units>
+        <Units>VARh</Units>
 
         <Submitter>IPSO</Submitter>
 
@@ -1929,7 +1929,7 @@
 
         <RangeEnumeration></RangeEnumeration>
 
-        <Units>var</Units>
+        <Units>VAR</Units>
 
         <Submitter>IPSO</Submitter>
 
@@ -1944,7 +1944,7 @@
 
       <Item ID="5820">
 
-        <Name>Power factor</Name>
+        <Name>Power Factor</Name>
 
         <Operations>R</Operations>
 
@@ -1971,7 +1971,7 @@
 
         <Operations>RW</Operations>
 
-        <Type>Float</Type>
+        <Type>String</Type>
 
         <RangeEnumeration></RangeEnumeration>
 
@@ -1990,11 +1990,11 @@
 
       <Item ID="5822">
 
-        <Name>Reset Cumulative energy</Name>
+        <Name>Reset Cumulative Energy</Name>
 
         <Operations>E</Operations>
 
-        <Type>Opaque</Type>
+        <Type></Type>
 
         <RangeEnumeration></RangeEnumeration>
 
@@ -2067,7 +2067,7 @@
 
         <RangeEnumeration></RangeEnumeration>
 
-        <Units>min</Units>
+        <Units>Min</Units>
 
         <Submitter>IPSO</Submitter>
 
@@ -2082,7 +2082,7 @@
 
         <Item ID="5826">
 
-        <Name>Critical Level</Name>
+        <Name>Criticality Level</Name>
 
         <Operations>RW</Operations>
 
@@ -2090,7 +2090,7 @@
 
         <RangeEnumeration></RangeEnumeration>
 
-        <Units></Units>
+        <Units/>
 
         <Submitter>IPSO</Submitter>
 
@@ -2105,7 +2105,7 @@
 
         <Item ID="5827">
 
-        <Name>Avg Load AdjPct</Name>
+        <Name>Avg Load Adj Pct</Name>
 
         <Operations>RW</Operations>
 
@@ -2178,7 +2178,7 @@
 
         <Operations>RW</Operations>
 
-        <Type>Integer</Type>
+        <Type>Float</Type>
 
         <RangeEnumeration>0-100</RangeEnumeration>
 
@@ -2197,7 +2197,7 @@
 
         <Item ID="5852">
 
-        <Name>On time</Name>
+        <Name>On Time</Name>
 
         <Operations>RW</Operations>
 
@@ -2205,7 +2205,7 @@
 
         <RangeEnumeration></RangeEnumeration>
 
-        <Units>sec</Units>
+        <Units>s</Units>
 
         <Submitter>IPSO</Submitter>
 
@@ -3131,7 +3131,7 @@ Using values in range 0-127 is recommended to avoid ambiguities with byte order 
 
       <Item ID="6033">
 
-        <Name>CellID</Name>
+        <Name>cellID</Name>
 
         <Operations>R</Operations>
 
@@ -3197,7 +3197,7 @@ Using values in range 0-127 is recommended to avoid ambiguities with byte order 
       
       <Item ID="6036">
 
-        <Name>rsrp</Name>
+        <Name>rsrq</Name>
 
          <Operations>R</Operations>
 
@@ -3245,7 +3245,7 @@ Using values in range 0-127 is recommended to avoid ambiguities with byte order 
 
         <Operations>R</Operations>
 
-        <Type>Integer</Type>
+        <Type>Boolean</Type>
         
         <RangeEnumeration></RangeEnumeration>
         
