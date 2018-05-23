@@ -305,7 +305,7 @@
 
         <Name>Digital Input Counter Reset</Name>
 
-        <Operations>EW</Operations>
+        <Operations>E</Operations>
 
         <Type>Opaque</Type>
 
