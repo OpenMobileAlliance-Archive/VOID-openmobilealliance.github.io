@@ -305,7 +305,7 @@
 
         <Name>Digital Input Counter Reset</Name>
 
-        <Operations>E</Operations>
+        <Operations>EW</Operations>
 
         <Type>Opaque</Type>
 
@@ -1285,9 +1285,9 @@
 
         <Type>Float</Type>
 
-        <RangeEnumeration>Same as Measured Value</RangeEnumeration>
+        <RangeEnumeration></RangeEnumeration>
 
-        <Units>Same as Measured Value</Units>
+        <Units>Defined by "units" resource.</Units>
 
         <Submitter>IPSO</Submitter>
 
@@ -2274,7 +2274,7 @@
 
         <RangeEnumeration></RangeEnumeration>
 
-        <Units>Defined by “Units” resource.</Units>
+        <Units>Defined by "Units" resource.</Units>
 
         <Submitter>IPSO</Submitter>
 
