@@ -219,7 +219,9 @@
 
         <Type>Integer</Type>
 
-        <RangeEnumeration></RangeEnumeration>
+        <RangeEnumeration> </RangeEnumeration>
+        
+        <Units> </Units>
         
         <Submitter>IPSO</Submitter>
 
@@ -1030,11 +1032,11 @@
 
         <Name>Remaining Time</Name>
 
-        <Operations>RW</Operations>
+        <Operations>R</Operations>
  
         <Type>Float</Type>
 
-        <RangeEnumeration></RangeEnumeration>
+        <RangeEnumeration/>
 
         <Units>s</Units>
 
@@ -1125,7 +1127,7 @@
  
         <Type>Float</Type>
 
-        <RangeEnumeration></RangeEnumeration>
+        <RangeEnumeration> </RangeEnumeration>
 
         <Units>s</Units>
 
@@ -1308,9 +1310,9 @@
 
         <Type>Float</Type>
 
-        <RangeEnumeration></RangeEnumeration>
+        <RangeEnumeration>Same as Measured Value</RangeEnumeration>
 
-        <Units></Units>
+        <Units>Same as Measured Value</Units>
 
         <Submitter>IPSO</Submitter>
 
@@ -1371,11 +1373,11 @@
 
       <Item ID="5605">
 
-        <Name>Reset Min and Max Measured Values</Name>
+        <Name>Reset Min and Max Measured Value</Name>
 
         <Operations>E</Operations>
 
-        <Type/>
+        <Type>Opaque</Type>
 
         <RangeEnumeration></RangeEnumeration>
         
@@ -1582,9 +1584,9 @@
 
         <Type>String</Type>
 
-        <RangeEnumeration></RangeEnumeration>
+        <RangeEnumeration> </RangeEnumeration>
         
-        <Units></Units>
+        <Units> </Units>
         
         <Submitter>IPSO</Submitter>
 
@@ -1737,7 +1739,7 @@
 
         <Item ID="5805">
 
-        <Name>Sensor Value</Name>
+        <Name>Cumulative active power</Name>
 
         <Operations>R</Operations>
 
@@ -1990,7 +1992,7 @@
 
       <Item ID="5822">
 
-        <Name>Reset Cumulative Energy</Name>
+        <Name>Reset Cumulative energy</Name>
 
         <Operations>E</Operations>
 
@@ -2157,9 +2159,9 @@
 
         <Type>Boolean</Type>
 
-        <RangeEnumeration></RangeEnumeration>
+        <RangeEnumeration> </RangeEnumeration>
 
-        <Units></Units>
+        <Units> </Units>
 
         <Submitter>IPSO</Submitter>
 
@@ -2176,9 +2178,9 @@
 
         <Name>Dimmer</Name>
 
-        <Operations>W</Operations>
+        <Operations>RW</Operations>
 
-        <Type>Float</Type>
+        <Type>Integer</Type>
 
         <RangeEnumeration>0-100</RangeEnumeration>
 
@@ -2186,7 +2188,7 @@
 
         <Submitter>IPSO</Submitter>
 
-        <Description><![CDATA[This resource represents a light dimmer setting, which has an Integer value between 0 and 100 as a percentage.]]></Description>
+        <Description><![CDATA[Proportional control, Integer value between 0 and 100 as a percentage.]]></Description>
         
         <TS></TS>
         
@@ -2330,9 +2332,98 @@
         
         <TSLink>0</TSLink>
 
-
         </Item>
+      
+         <Item ID="5905">
 
+        <Name>Host Device Manufacturer</Name>
+
+        <Operations>R</Operations>
+
+        <Type>String</Type>
+
+        <RangeEnumeration></RangeEnumeration>
+
+        <Units></Units>
+
+        <Submitter></Submitter>
+
+        <Description><![CDATA[Human readable host device manufacturer name]]></Description>
+        
+        <TS></TS>
+        
+        <TSLink>0</TSLink>
+
+        </Item>  
+      
+      
+         <Item ID="5906">
+
+        <Name>Host Device Model Number</Name>
+
+        <Operations>R</Operations>
+
+        <Type>String</Type>
+
+        <RangeEnumeration></RangeEnumeration>
+
+        <Units></Units>
+
+        <Submitter></Submitter>
+
+        <Description><![CDATA[A host device model identifier (manufacturer specified string]]></Description>
+        
+        <TS></TS>
+        
+        <TSLink>0</TSLink>
+
+        </Item>  
+      
+       <Item ID="5907">
+
+        <Name>Host Device Unique ID</Name>
+
+        <Operations>R</Operations>
+
+        <Type>String</Type>
+
+        <RangeEnumeration></RangeEnumeration>
+
+        <Units></Units>
+
+        <Submitter></Submitter>
+
+        <Description><![CDATA[The host device unique ID as assigned by an OEM, MNO, or other as the Device ID in the onboarding or manufacturing process]]></Description>
+        
+        <TS></TS>
+        
+        <TSLink>0</TSLink>
+
+        </Item> 
+      
+
+        <Item ID="5908">
+
+        <Name>Host Device Software Version</Name>
+
+        <Operations>R</Operations>
+
+        <Type>String</Type>
+
+        <RangeEnumeration></RangeEnumeration>
+
+        <Units></Units>
+
+        <Submitter></Submitter>
+
+        <Description><![CDATA[Current software version of the host device. (manufacturer specified string).]]></Description>
+        
+        <TS></TS>
+        
+        <TSLink>0</TSLink>
+
+        </Item> 
+      
         <Item ID="5910">
 
         <Name>Bitmap Input</Name>
@@ -2341,9 +2432,9 @@
 
         <Type>Integer</Type>
 
-        <RangeEnumeration></RangeEnumeration>
+        <RangeEnumeration> </RangeEnumeration>
 
-        <Units></Units>
+        <Units> </Units>
 
         <Submitter>IPSO</Submitter>
 
@@ -2361,9 +2452,9 @@ Using values in range 0-127 is recommended to avoid ambiguities with byte order 
 
         <Type>Opaque</Type>
 
-        <RangeEnumeration></RangeEnumeration>
+        <RangeEnumeration> </RangeEnumeration>
 
-        <Units></Units>
+        <Units> </Units>
 
         <Submitter>IPSO</Submitter>
 
@@ -2384,9 +2475,9 @@ Using values in range 0-127 is recommended to avoid ambiguities with byte order 
 
         <Type>String</Type>
 
-        <RangeEnumeration></RangeEnumeration>
+        <RangeEnumeration> </RangeEnumeration>
 
-        <Units></Units>
+        <Units> </Units>
 
         <Submitter>IPSO</Submitter>
 
@@ -3131,7 +3222,7 @@ Using values in range 0-127 is recommended to avoid ambiguities with byte order 
 
       <Item ID="6033">
 
-        <Name>cellID</Name>
+        <Name>CellID</Name>
 
         <Operations>R</Operations>
 
@@ -3245,7 +3336,7 @@ Using values in range 0-127 is recommended to avoid ambiguities with byte order 
 
         <Operations>R</Operations>
 
-        <Type>Boolean</Type>
+        <Type>Integer</Type>
         
         <RangeEnumeration></RangeEnumeration>
         
