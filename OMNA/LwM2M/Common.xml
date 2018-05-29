@@ -2176,7 +2176,7 @@
 
         <Name>Dimmer</Name>
 
-        <Operations>RW</Operations>
+        <Operations>W</Operations>
 
         <Type>Float</Type>
 
