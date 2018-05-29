@@ -1578,7 +1578,7 @@
 
         <Name>Application Type</Name>
 
-        <Operations>R</Operations>
+        <Operations>RW</Operations>
 
         <Type>String</Type>
 
