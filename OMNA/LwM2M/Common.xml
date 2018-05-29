@@ -1287,9 +1287,9 @@
 
         <Type>Float</Type>
 
-        <RangeEnumeration></RangeEnumeration>
+        <RangeEnumeration> </RangeEnumeration>
 
-        <Units></Units>
+        <Units> </Units>
 
         <Submitter>IPSO</Submitter>
 
@@ -1447,9 +1447,9 @@
 
         <Type>Float</Type>
 
-        <RangeEnumeration></RangeEnumeration>
+        <RangeEnumeration> </RangeEnumeration>
         
-        <Units></Units>
+        <Units> </Units>
         
         <Submitter>IPSO</Submitter>
 
@@ -1973,11 +1973,11 @@
 
         <Operations>RW</Operations>
 
-        <Type>String</Type>
+        <Type>Float</Type>
 
-        <RangeEnumeration></RangeEnumeration>
+        <RangeEnumeration> </RangeEnumeration>
 
-        <Units></Units>
+        <Units> </Units>
 
         <Submitter>IPSO</Submitter>
 
