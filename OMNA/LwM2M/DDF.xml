@@ -144,7 +144,7 @@
 
     <Item>
         <ObjectID>8</ObjectID>
-        <URN>urn:oma:lwm2m:oma:8</URN>
+        <URN>urn:oma:lwm2m: oma:8</URN>
         <Name>Lock and Wipe</Name>
         <Description>This LWM2M objects provides the resources needed to perform the lock and wipe operations</Description>
         <Owner>OMA</Owner>
@@ -2242,7 +2242,7 @@
         <Item>
         <ObjectID>10260</ObjectID>
         <URN>urn:oma:lwm2m:x:10260:2.0</URN>
-        <Name>Runtime Database</Name>
+        <Name>RDB</Name>
         <Description>This object allows manipulation of Runtime Database variables.</Description>
         <Owner>NetComm Wireless Limited</Owner>
         <Source>2</Source>    
@@ -2338,7 +2338,7 @@
         <Source>2</Source>
         <Ver>1.0</Ver>
         <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/10267.xml</DDF>
-        <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F10267.xml-</LWM2M>
+        <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F10267.xml</LWM2M>
         <Vorto></Vorto>
         <DDFLink>1</DDFLink>
         <TS></TS>
