@@ -1287,9 +1287,9 @@
 
         <Type>Float</Type>
 
-        <RangeEnumeration> </RangeEnumeration>
+        <RangeEnumeration/> 
 
-        <Units> </Units>
+        <Units>Defined by "Units" resource.</Units>
 
         <Submitter>IPSO</Submitter>
 
@@ -1310,9 +1310,9 @@
 
         <Type>Float</Type>
 
-        <RangeEnumeration>Defined by "Units" resource.</RangeEnumeration>
+        <RangeEnumeration/>
 
-        <Units>Same as Measured Value</Units>
+        <Units>Defined by "Units" resource.</Units>
 
         <Submitter>IPSO</Submitter>
 
@@ -1333,9 +1333,9 @@
 
         <Type>Float</Type>
 
-        <RangeEnumeration></RangeEnumeration>
+        <RangeEnumeration/>
 
-        <Units></Units>
+        <Units>Defined by "Units" resource.</Units>
 
         <Submitter>IPSO</Submitter>
 
@@ -1356,9 +1356,9 @@
 
         <Type>Float</Type>
 
-        <RangeEnumeration></RangeEnumeration>
+        <RangeEnumeration/>
 
-        <Units></Units>
+        <Units>Defined by "Units" resource.</Units>
 
         <Submitter>IPSO</Submitter>
 
@@ -1425,7 +1425,7 @@
 
         <Type>Float</Type>
 
-        <RangeEnumeration></RangeEnumeration>
+        <RangeEnumeration/>
 
         <Units>Defined by “Units” resource.</Units>
 
@@ -1447,9 +1447,9 @@
 
         <Type>String</Type>
 
-        <RangeEnumeration> </RangeEnumeration>
+        <RangeEnumeration/> 
         
-        <Units> </Units>
+        <Units/> 
         
         <Submitter>IPSO</Submitter>
 
@@ -1975,9 +1975,9 @@
 
         <Type>Float</Type>
 
-        <RangeEnumeration> </RangeEnumeration>
+        <RangeEnumeration/>
 
-        <Units> </Units>
+        <Units/> 
 
         <Submitter>IPSO</Submitter>
 
