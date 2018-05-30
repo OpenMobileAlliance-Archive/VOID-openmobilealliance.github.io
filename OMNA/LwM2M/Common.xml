@@ -667,7 +667,7 @@
 
       <Item ID="5521">
 
-        <Name>Duration</Name>
+        <Name>Delay Duration</Name>
 
         <Operations>RW</Operations>
  
