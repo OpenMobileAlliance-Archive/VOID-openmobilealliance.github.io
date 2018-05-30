@@ -213,7 +213,7 @@
 
       <Item ID="5501">
 
-        <Name>Digital Input Counter</Name>
+        <Name>Digital Input State</Name>
 
         <Operations>R</Operations>
 
