@@ -1373,7 +1373,7 @@
 
       <Item ID="5605">
 
-        <Name>Reset Min and Max Measured Value</Name>
+        <Name>Reset Min and Max Measured Values</Name>
 
         <Operations>E</Operations>
 
@@ -2442,6 +2442,8 @@
 Represented as a binary signed integer in network byte order, and in two's complement representation. 
 Using values in range 0-127 is recommended to avoid ambiguities with byte order and negative values.]]></Description>
 
+        <TS></TS>
+          
         </Item>
 
         <Item ID="5911">
