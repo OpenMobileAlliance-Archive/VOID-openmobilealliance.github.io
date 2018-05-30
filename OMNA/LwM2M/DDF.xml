@@ -591,7 +591,6 @@
         <Description>This IPSO object is a generic object that can be used with any kind of analogue input interface. Specific object for a given range of sensors is described later in the document, enabling to identify the type of sensors directly from its Object ID. This object may be used as a generic object if a dedicated one does not exist.</Description>
         <Owner>IPSO Alliance</Owner>
         <Source>1</Source>
-
         <Ver>1.0</Ver>
         <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/3203.xml</DDF>
         <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3203.xml</LWM2M>
@@ -2552,7 +2551,7 @@
     <Item>
         <ObjectID>10281</ObjectID>
         <URN>urn:oma:lwm2m:x:10281</URN>
-        <Name>Low Battery Alarm </Name>
+        <Name>Low Battery Alarm</Name>
         <Description>This Alarm is raised when the battery voltage drops below a defined level</Description>
         <Owner>South East Water Corporation</Owner>
         <Source>2</Source>
@@ -2560,7 +2559,7 @@
         <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/10281.xml</DDF>
         <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F10281.xml</LWM2M>
         <Vorto></Vorto>
-        <DDFLink>2</DDFLink>
+        <DDFLink>1</DDFLink>
         <TS></TS>
         <TSLink>0</TSLink>
     </Item>
