@@ -1445,7 +1445,7 @@
 
         <Operations>R</Operations>
 
-        <Type>Float</Type>
+        <Type>String</Type>
 
         <RangeEnumeration> </RangeEnumeration>
         
