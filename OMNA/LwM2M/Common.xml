@@ -1739,7 +1739,7 @@
 
         <Item ID="5805">
 
-        <Name>Cumulative active power</Name>
+        <Name>Sensor Value</Name>
 
         <Operations>R</Operations>
 
@@ -1992,7 +1992,7 @@
 
       <Item ID="5822">
 
-        <Name>Reset Cumulative energy</Name>
+        <Name>Reset Cumulative Energy</Name>
 
         <Operations>E</Operations>
 
