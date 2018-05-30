@@ -1310,7 +1310,7 @@
 
         <Type>Float</Type>
 
-        <RangeEnumeration>Same as Measured Value</RangeEnumeration>
+        <RangeEnumeration>Defined by "Units" resource.</RangeEnumeration>
 
         <Units>Same as Measured Value</Units>
 
