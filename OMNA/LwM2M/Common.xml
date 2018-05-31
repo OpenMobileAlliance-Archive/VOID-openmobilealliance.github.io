@@ -3224,7 +3224,7 @@ Using values in range 0-127 is recommended to avoid ambiguities with byte order 
 
       <Item ID="6033">
 
-        <Name>CellID</Name>
+        <Name>cellID</Name>
 
         <Operations>R</Operations>
 
