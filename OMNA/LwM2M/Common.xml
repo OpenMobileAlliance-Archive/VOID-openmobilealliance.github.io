@@ -2432,9 +2432,9 @@
 
         <Type>Integer</Type>
 
-        <RangeEnumeration> </RangeEnumeration>
+        <RangeEnumeration></RangeEnumeration>
 
-        <Units> </Units>
+        <Units></Units>
 
         <Submitter>IPSO</Submitter>
 
@@ -2456,9 +2456,9 @@ Using values in range 0-127 is recommended to avoid ambiguities with byte order 
 
         <Type>Opaque</Type>
 
-        <RangeEnumeration> </RangeEnumeration>
+        <RangeEnumeration></RangeEnumeration>
 
-        <Units> </Units>
+        <Units></Units>
 
         <Submitter>IPSO</Submitter>
 
@@ -2479,9 +2479,9 @@ Using values in range 0-127 is recommended to avoid ambiguities with byte order 
 
         <Type>String</Type>
 
-        <RangeEnumeration> </RangeEnumeration>
+        <RangeEnumeration></RangeEnumeration>
 
-        <Units> </Units>
+        <Units></Units>
 
         <Submitter>IPSO</Submitter>
 
