@@ -2652,7 +2652,7 @@
         <DDF></DDF>
         <LWM2M></LWM2M>
         <Vorto></Vorto>
-        <DDFLink></DDFLink>
+        <DDFLink>0</DDFLink>
         <TS></TS>
         <TSLink>0</TSLink>
     </Item>
