@@ -50,4 +50,10 @@
         <Company>Gemalto</Company>
     </Item>
     
+     <Item>
+        <ObjectIDStartRange>33140</ObjectIDStartRange>
+        <ObjectIDEndRange>33189</ObjectIDEndRange>
+        <Company>Qualcomm</Company>
+    </Item>
+    
 </ReservedObjects>
