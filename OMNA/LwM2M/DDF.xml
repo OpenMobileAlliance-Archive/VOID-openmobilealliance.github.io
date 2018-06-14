@@ -1933,6 +1933,355 @@
         <TS></TS>
         <TSLink>0</TSLink>
     </Item>
+    
+     <Item>
+        <ObjectID>3387</ObjectID>
+        <URN>urn:oma:lwm2m:ext:3387</URN>
+        <Name>oA Basic Control</Name>
+        <Description>The 'oA Basic Control' represents a common basic interface for a Control Function. 
+         This allows to have vendor specific (executing) control functions using diverse object numbers to be interfaced for the basic functionality in a common way. 
+         The object provides the basic functionality required for an OpenAIS control object.</Description>
+        <Owner>OpenAIS</Owner>
+        <Source>1</Source>
+        <Ver>1.0</Ver>
+        <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/3387.xml</DDF>
+        <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3387.xml</LWM2M>
+        <Vorto></Vorto>
+        <DDFLink>1</DDFLink>
+        <TS></TS>
+        <TSLink>0</TSLink>
+    </Item>
+    
+    <Item>
+        <ObjectID>3388</ObjectID>
+        <URN>urn:oma:lwm2m:ext:3388</URN>
+        <Name>oA Device</Name>
+        <Description>The 'oA Device' represents the OpenAIS specific parameters of a Device that are necessary in addition to the LWM2M Device.</Description>
+        <Owner>OpenAIS</Owner>
+        <Source>1</Source>
+        <Ver>1.0</Ver>
+        <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/3388.xml</DDF>
+        <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3388.xml</LWM2M>
+        <Vorto></Vorto>
+        <DDFLink>1</DDFLink>
+        <TS></TS>
+        <TSLink>0</TSLink>
+    </Item>
+    
+    <Item>
+        <ObjectID>3389</ObjectID>
+        <URN>urn:oma:lwm2m:ext:3389</URN>
+        <Name>oA Group</Name>
+        <Description>The 'oA Group' represents a group. It contains an application group ID, a security group ID and a list of multicast and unicast IP addresses that are used in the group. \nAdditionally it contains a list of all members of the group.</Description>
+        <Owner>OpenAIS</Owner>
+        <Source>1</Source>
+        <Ver>1.0</Ver>
+        <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/3389.xml</DDF>
+        <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3389.xml</LWM2M>
+        <Vorto></Vorto>
+        <DDFLink>1</DDFLink>
+        <TS></TS>
+        <TSLink>0</TSLink>
+    </Item>
+           
+    <Item>
+        <ObjectID>3390</ObjectID>
+        <URN>urn:oma:lwm2m:ext:3390</URN>
+        <Name>oA Logical Colour Light-Point Actuator</Name>
+        <Description>The 'oA Logical Colour Light Point Actuator' represents the logical part of an actuator model for a colour light point. 
+         The corresponding physical device is a light channel and associated gear (e.g. LED driver).\nThe Object (module) supports several interactions that include absolute and relative colour setting. 
+         Several device configuration parameters are mapped, which relate to behaviour or describe device limitations.</Description>
+        <Owner>OpenAIS</Owner>
+        <Source>1</Source>
+        <Ver>1.0</Ver>
+        <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/3390.xml</DDF>
+        <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3390.xml</LWM2M>
+        <Vorto></Vorto>
+        <DDFLink>1</DDFLink>
+        <TS></TS>
+        <TSLink>0</TSLink>
+    </Item>
+              
+    <Item>
+        <ObjectID>3391</ObjectID>
+        <URN>urn:oma:lwm2m:ext:3391</URN>
+        <Name>oA Logical Colour Temperature Light-Point Actuator</Name>
+        <Description>The 'oA Logical Colour Temperature Light Point Actuator' represents the logical part of an actuator model for a tunable white light point. 
+        The corresponding physical device is a light channel and associated gear (e.g. LED driver).\nThe Object (module) supports several interactions that include absolute and relative colour temperature setting. 
+        Several device configuration parameters are mapped, which relate to behaviour or describe device limitations. Note that the overall intensity is not controlled by this object, it remains controlled by a logical light point object to ease dimming action across tuneable, coloured and non coloured lights. 
+        Please note also, that the corresponding executing object does not need to be restricted to tuneable white operation.</Description>
+        <Owner>OpenAIS</Owner>
+        <Source>1</Source>
+        <Ver>1.0</Ver>
+        <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/3391.xml</DDF>
+        <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3391.xml</LWM2M>
+        <Vorto></Vorto>
+        <DDFLink>1</DDFLink>
+        <TS></TS>
+        <TSLink>0</TSLink>
+    </Item>
+                  
+    <Item>
+        <ObjectID>3392</ObjectID>
+        <URN>urn:oma:lwm2m:ext:3392</URN>
+        <Name>oA Logical Illuminance Sensor</Name>
+        <Description>The 'oA Logical Illuminance Sensor' represents the logical part of an illuminance sensor. 
+         The corresponding physical device is a sensor that detects illuminance in its detection area.</Description>
+        <Owner>OpenAIS</Owner>
+        <Source>1</Source>
+        <Ver>1.0</Ver>
+        <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/3392.xml</DDF>
+        <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3392.xml</LWM2M>
+        <Vorto></Vorto>
+        <DDFLink>1</DDFLink>
+        <TS></TS>
+        <TSLink>0</TSLink>
+    </Item>
+                     
+    <Item>
+        <ObjectID>3393</ObjectID>
+        <URN>urn:oma:lwm2m:ext:3393</URN>
+        <Name>oA Logical Light-Point Actuator</Name>
+        <Description>The 'oA Logical Light Point Actuator' represents the logical part of an actuator model for a dimmable light point. 
+        The corresponding physical device is a light channel and associated gear (e.g. LED driver).\nThe Object (module) supports several interactions that include basic On/Off as well as Up/Down dimming. 
+        Several device configuration parameters are mapped, which relate to behaviour or describe device limitations. 
+        For multi-channel luminaires where the configuration per channel may vary significantly (e.g. different max/min values), multiple instances of this Object should be used.</Description>
+        <Owner>OpenAIS</Owner>
+        <Source>1</Source>
+        <Ver>1.0</Ver>
+        <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/3393.xml</DDF>
+        <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3393.xml</LWM2M>
+        <Vorto></Vorto>
+        <DDFLink>1</DDFLink>
+        <TS></TS>
+        <TSLink>0</TSLink>
+    </Item>
+                      
+    <Item>
+        <ObjectID>3394</ObjectID>
+        <URN>urn:oma:lwm2m:ext:3394</URN>
+        <Name>oA Logical Presence Sensor</Name>
+        <Description>The 'oA Logical Presence Sensor' represents the logical part of a presence sensor. 
+         The corresponding physical device is a sensor that detects presence in its detection area. 
+         \nThe Object supports two states 'presence' and 'absence'.</Description>
+        <Owner>OpenAIS</Owner>
+        <Source>1</Source>
+        <Ver>1.0</Ver>
+        <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/3394.xml</DDF>
+        <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3394.xml</LWM2M>
+        <Vorto></Vorto>
+        <DDFLink>1</DDFLink>
+        <TS></TS>
+        <TSLink>0</TSLink>
+     </Item>
+                       
+    <Item>
+        <ObjectID>3395</ObjectID>
+        <URN>urn:oma:lwm2m:ext:3395</URN>
+        <Name>oA Logical Push-Button Sensor</Name>
+        <Description>The 'oA Logical Push-Button Sensor' represents the logical part of a standard, normally open, push-button input. 
+         The corresponding physical device is a button with a spring that returns the button to the un-pushed state once it is released.
+         \nThe Object supports several events such as 'click', 'hold', 'double-click' and 'release'. It also indicates if the button is 'stuck'. 
+         For physical devices with multiple push-button inputs, an instance of this Object is required to map each input.</Description>
+        <Owner>OpenAIS</Owner>
+        <Source>1</Source>
+        <Ver>1.0</Ver>
+        <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/3395.xml</DDF>
+        <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3395.xml</LWM2M>
+        <Vorto></Vorto>
+        <DDFLink>1</DDFLink>
+        <TS></TS>
+        <TSLink>0</TSLink>
+     </Item>
+                       
+    <Item>
+        <ObjectID>3396</ObjectID>
+        <URN>urn:oma:lwm2m:ext:3396</URN>
+        <Name>oA Physical Colour Light-Point Actuator</Name>
+        <Description>The 'oA Physical Colour Light-Point Actuator' represents a physical colour light-point actuator. 
+        It is necessary to map at least on Logical Light Point Actuator to control the intensity and one Logical Colour Light-Point to control the colour to the Physical Colour Light-Point.</Description>
+        <Owner>OpenAIS</Owner>
+        <Source>1</Source>
+        <Ver>1.0</Ver>
+        <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/3396.xml</DDF>
+        <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3396.xml</LWM2M>
+        <Vorto></Vorto>
+        <DDFLink>1</DDFLink>
+        <TS></TS>
+        <TSLink>0</TSLink>
+     </Item>
+                        
+    <Item>
+        <ObjectID>3397</ObjectID>
+        <URN>urn:oma:lwm2m:ext:3397</URN>
+        <Name>oA Physical Colour Temperature Light-Point Actuator</Name>
+        <Description>The 'oA_Physical Colour Temperature Light-Point Actuator' represents a physical tunable white light-point actuator. 
+        It is necessary to map at least on Logical Light Point Actuator to control the intensity and one Logical Colour Temperature Light-Point to control the colour temperature to the Physical Colour Temperature Light Point.</Description>
+        <Owner>OpenAIS</Owner>
+        <Source>1</Source>
+        <Ver>1.0</Ver>
+        <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/3397.xml</DDF>
+        <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3397.xml</LWM2M>
+        <Vorto></Vorto>
+        <DDFLink>1</DDFLink>
+        <TS></TS>
+        <TSLink>0</TSLink>
+     </Item>
+                            
+    <Item>
+        <ObjectID>3398</ObjectID>
+        <URN>urn:oma:lwm2m:ext:3398</URN>
+        <Name>oA Physical Illuminance Sensor</Name>
+        <Description>The 'oA Physical Light-Point Actuator' represents a physical light-point actuator. 
+        All logical light-point actuators (object instances of 'oA Light-Point Actuator') are mapped to one physical light-point actuator.</Description>
+        <Owner>OpenAIS</Owner>
+        <Source>1</Source>
+        <Ver>1.0</Ver>
+        <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/3398.xml</DDF>
+        <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3398.xml</LWM2M>
+        <Vorto></Vorto>
+        <DDFLink>1</DDFLink>
+        <TS></TS>
+        <TSLink>0</TSLink>
+     </Item>
+                            
+    <Item>
+        <ObjectID>3399</ObjectID>
+        <URN>urn:oma:lwm2m:ext:3399</URN>
+        <Name>oA Physical Light-Point Actuator</Name>
+        <Description>The 'oA Physical Illuminance Sensor' represents the physical part of an illuminance sensor. 
+         All logical illuminance sensors (object instances of 'oA Illuminance Sensor') are mapped to one physical illuminance sensor.</Description>
+        <Owner>OpenAIS</Owner>
+        <Source>1</Source>
+        <Ver>1.0</Ver>
+        <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/3399.xml</DDF>
+        <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3399.xml</LWM2M>
+        <Vorto></Vorto>
+        <DDFLink>1</DDFLink>
+        <TS></TS>
+        <TSLink>0</TSLink>
+     </Item>
+                              
+    <Item>
+        <ObjectID>3400</ObjectID>
+        <URN>urn:oma:lwm2m:ext:3400</URN>
+        <Name>oA Physical Presence Sensor</Name>
+        <Description>The 'oA Physical Presence Sensor' represents the physical part of a presence sensor. 
+        All logical presence sensors (object instances of 'oA Presence Sensor') are mapped to one physical presence sensor</Description>
+        <Owner>OpenAIS</Owner>
+        <Source>1</Source>
+        <Ver>1.0</Ver>
+        <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/3400.xml</DDF>
+        <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3400.xml</LWM2M>
+        <Vorto></Vorto>
+        <DDFLink>1</DDFLink>
+        <TS></TS>
+        <TSLink>0</TSLink>
+     </Item>
+                                
+    <Item>
+        <ObjectID>3401</ObjectID>
+        <URN>urn:oma:lwm2m:ext:3401</URN>
+        <Name>oA Physical Push-Button Sensor</Name>
+        <Description>The 'oA Physical Push-Button Sensor' represents the physical part of a push-button sensor. 
+        All logical push-button sensors (object instances of 'oA Push-Button Sensor') are mapped to one physical push-button sensor.</Description>
+        <Owner>OpenAIS</Owner>
+        <Source>1</Source>
+        <Ver>1.0</Ver>
+        <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/3401.xml</DDF>
+        <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3401.xml</LWM2M>
+        <Vorto></Vorto>
+        <DDFLink>1</DDFLink>
+        <TS></TS>
+        <TSLink>0</TSLink>
+     </Item>
+                                   
+    <Item>
+        <ObjectID>3402</ObjectID>
+        <URN>urn:oma:lwm2m:ext:3402</URN>
+        <Name>oA Receiving Object</Name>
+        <Description>The 'oA Receiving Object' provides a resource for sensors/actuators to report their status message to. 
+         It is used with control objects as logical object that forwards the sensor and status data to the executing object.
+        \nIt is also used to receive the 'go bootstrap' message, using the Struct-ID 255, in OOTB mode.</Description>
+        <Owner>OpenAIS</Owner>
+        <Source>1</Source>
+        <Ver>1.0</Ver>
+        <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/3402.xml</DDF>
+        <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3402.xml</LWM2M>
+        <Vorto></Vorto>
+        <DDFLink>1</DDFLink>
+        <TS></TS>
+        <TSLink>0</TSLink>
+     </Item>
+                                    
+    <Item>
+        <ObjectID>3403</ObjectID>
+        <URN>urn:oma:lwm2m:ext:3403</URN>
+        <Name>oA Reporting Object</Name>
+        <Description>The 'oA Reporting Object' packs several status messages available at the node into a single, size optimized message, 
+        as e.g. used with data collect or BMS interfacing.</Description>
+        <Owner>OpenAIS</Owner>
+        <Source>1</Source>
+        <Ver>1.0</Ver>
+        <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/3403.xml</DDF>
+        <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3403.xml</LWM2M>
+        <Vorto></Vorto>
+        <DDFLink>1</DDFLink>
+        <TS></TS>
+        <TSLink>0</TSLink>
+     </Item>
+                                     
+    <Item>
+        <ObjectID>3404</ObjectID>
+        <URN>urn:oma:lwm2m:ext:3404</URN>
+        <Name>oA Scene</Name>
+        <Description>The 'oA Scene' represents a scene model. The scene holds defined values for each actuator in one group.</Description>
+        <Owner>OpenAIS</Owner>
+        <Source>1</Source>
+        <Ver>1.0</Ver>
+        <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/3404.xml</DDF>
+        <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3404.xml</LWM2M>
+        <Vorto></Vorto>
+        <DDFLink>1</DDFLink>
+        <TS></TS>
+        <TSLink>0</TSLink>
+     </Item>
+                                       
+    <Item>
+        <ObjectID>3405</ObjectID>
+        <URN>urn:oma:lwm2m:ext:3405</URN>
+        <Name>oA Security</Name>
+        <Description>The 'oA Security' provides the keying material of a LWM2M Client appropriate to access a specified LWM2M Server in context of OpenAIS. 
+         One Object Instance SHOULD address a LWM2M Bootstrap Server.
+         \nThese LWM2M Object Resources MUST only be changed by a LWM2M Bootstrap Server or Bootstrap from Smartcardand MUST NOT be accessible by any other LWM2M Server.</Description>
+        <Owner>OpenAIS</Owner>
+        <Source>1</Source>
+        <Ver>1.0</Ver>
+        <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/3405.xml</DDF>
+        <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3405.xml</LWM2M>
+        <Vorto></Vorto>
+        <DDFLink>1</DDFLink>
+        <TS></TS>
+        <TSLink>0</TSLink>
+     </Item>
+                                           
+    <Item>
+        <ObjectID>3406</ObjectID>
+        <URN>urn:oma:lwm2m:ext:3406</URN>
+        <Name>oA Status Report Structure</Name>
+        <Description>The 'oA Status Report Structure' describes the content of the status reports. 
+         Its ID is always the first byte, the following bytes are defined by Keys.</Description>
+        <Owner>OpenAIS</Owner>
+        <Source>1</Source>
+        <Ver>1.0</Ver>
+        <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/3406.xml</DDF>
+        <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3406.xml</LWM2M>
+        <Vorto></Vorto>
+        <DDFLink>1</DDFLink>
+        <TS></TS>
+        <TSLink>0</TSLink>
+     </Item>
+    
     <Item>
         <ObjectID>10241</ObjectID>
         <URN>urn:oma:lwm2m:x:10241</URN>
