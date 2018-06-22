@@ -2330,8 +2330,95 @@
         
         <TSLink>0</TSLink>
 
+        </Item>
+       
+        <Item ID="5905">
+
+        <Name>Host Device Manufacturer</Name>
+
+        <Operations>R</Operations>
+
+        <Type>String</Type>
+
+        <RangeEnumeration></RangeEnumeration>
+
+        <Units></Units>
+
+        <Submitter>ATT</Submitter>
+
+        <Description><![CDATA[Human readable host device manufacturer name.]]></Description>
+        
+        <TS></TS>
+        
+        <TSLink>0</TSLink>
 
         </Item>
+      
+        <Item ID="5906">
+
+        <Name>Host Device Model Number</Name>
+
+        <Operations>R</Operations>
+
+        <Type>String</Type>
+
+        <RangeEnumeration></RangeEnumeration>
+
+        <Units></Units>
+
+        <Submitter>ATT</Submitter>
+
+        <Description><![CDATA[A host device model identifier (manufacturer specified string).]]></Description>
+        
+        <TS></TS>
+        
+        <TSLink>0</TSLink>
+
+        </Item>  
+      
+        <Item ID="5907">
+
+        <Name>Host Device Unique ID</Name>
+
+        <Operations>R</Operations>
+
+        <Type>String</Type>
+
+        <RangeEnumeration></RangeEnumeration>
+
+        <Units></Units>
+
+        <Submitter>ATT</Submitter>
+
+        <Description><![CDATA[The host device unique ID as assigned by an OEM, MNO, or other as the Device ID in the onboarding or manufacturing process.]]></Description>
+        
+        <TS></TS>
+        
+        <TSLink>0</TSLink>
+
+        </Item>
+      
+        <Item ID="5908">
+
+        <Name>Host Device Software Version</Name>
+
+        <Operations>R</Operations>
+
+        <Type>String</Type>
+
+        <RangeEnumeration></RangeEnumeration>
+
+        <Units></Units>
+
+        <Submitter>ATT</Submitter>
+
+        <Description><![CDATA[Current software version of the host device. (manufacturer specified string).]]></Description>
+        
+        <TS></TS>
+        
+        <TSLink>0</TSLink>
+
+        </Item>      
 
         <Item ID="5910">
 
@@ -2350,6 +2437,9 @@
         <Description><![CDATA[Integer in which each of the bits are associated with specific digital input value. 
 Represented as a binary signed integer in network byte order, and in two's complement representation. 
 Using values in range 0-127 is recommended to avoid ambiguities with byte order and negative values.]]></Description>
+        <TS></TS>
+        
+        <TSLink>0</TSLink>
 
         </Item>
 

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<DDFList>
+<DDFList xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.openmobilealliance.org/tech/profiles/DDF.xsd">
     <Item>
         <!-- Integer -->
         <!-- ObjectID -->
@@ -33,7 +33,7 @@
     <Item>
         <ObjectID>1</ObjectID>
         <URN>urn:oma:lwm2m:oma:1</URN>
-        <Name>LWM2M Server</Name>
+        <Name>LwM2M Server</Name>
         <Description>It provides the data related to a LWM2M Server. A Bootstrap Server has no such an Object Instance associated to it.</Description>
         <Owner>OMA</Owner>
         <Source>0</Source>
@@ -49,7 +49,7 @@
     <Item>
         <ObjectID>2</ObjectID>
         <URN>urn:oma:lwm2m:oma:2</URN>
-        <Name>Access Control</Name>
+        <Name>LwM2M Access Control</Name>
         <Description>It is used to check whether the LWM2M Server has access right for performing a operation.</Description>
         <Owner>OMA</Owner>
         <Source>0</Source>
@@ -97,7 +97,7 @@
     <Item>
         <ObjectID>5</ObjectID>
         <URN>urn:oma:lwm2m:oma:5</URN>
-        <Name>Firmware</Name>
+        <Name>Firmware Update</Name>
         <Description>It enables management of firmware which is to be updated. This Object includes installing firmware package, updating firmware, and performing actions after updating firmware</Description>
         <Owner>OMA</Owner>
         <Source>0</Source>
@@ -160,7 +160,7 @@
     <Item>
         <ObjectID>9</ObjectID>
         <URN>urn:oma:lwm2m:oma:9</URN>
-        <Name>Sofware Management</Name>
+        <Name>LWM2M Software Management</Name>
         <Description>This LWM2M objects provides the resources needed to perform software management on the device. Each software component is managed via a dedicated Software Management Object instance</Description>
         <Owner>OMA</Owner>
         <Source>0</Source>
@@ -198,7 +198,7 @@
         <Source>0</Source>
         <Ver>1.0</Ver>
         <DDF>http://www.openmobilealliance.org/tech/profiles/LWM2M_APN_connection_profile-v1_0.xml</DDF>
-        <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3a%2f%2fwww.openmobilealliance.org%2ftech%2fprofiles%2flLWM2M_APN_connection_profile-v1_0.xml</LWM2M>
+        <LWM2M>http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2FLWM2M_APN_connection_profile-v1_0.xml</LWM2M>
         <Vorto>http://vorto.eclipse.org/resolve/lwm2m/Object/ObjectID/11</Vorto>
         <DDFLink>1</DDFLink>
         <TS>http://www.openmobilealliance.org/release/LWM2M_CONNMGMT/V1_0-20170314-A/OMA-TS-LWM2M_ConnMgmt-V1_0-20170314-A.pdf</TS>
@@ -240,7 +240,7 @@
     <Item>
         <ObjectID>14</ObjectID>
         <URN>urn:oma:lwm2m:oma:14</URN>
-        <Name>Software Component</Name>
+        <Name>LWM2M Software Component</Name>
         <Description>The LWM2M software management object enables remote software management in M2M devices</Description>
         <Owner>OMA</Owner>
         <Source>0</Source>
@@ -272,7 +272,7 @@
     <Item>
         <ObjectID>16</ObjectID>
         <URN>urn:oma:lwm2m:oma:16</URN>
-        <Name>Porfolio</Name>
+        <Name>Portfolio</Name>
         <Description>The Portfolio Object allows to extend the data storage capability of other Object Instances in the LwM2M system, as well as the services which may be used to authenticate and to protect privacy of data contained in those extensions. In addition, a service of data encryption is also defined</Description>
         <Owner>OMA</Owner>
         <Source>0</Source>
@@ -292,7 +292,7 @@
         <Owner>OMA</Owner>
         <Source>0</Source>
         <Ver>1.0</Ver>
-        <DDF>http://www.openmobilealliance.org/tech/profiles/Communication_Characteristics-V1_0.xml</DDF>
+        <DDF></DDF>
         <LWM2M></LWM2M>
         <Vorto></Vorto>
         <DDFLink>0</DDFLink>
@@ -307,7 +307,7 @@
         <Owner>OMA</Owner>
         <Source>0</Source>
         <Ver>1.0</Ver>
-        <DDF>http://www.openmobilealliance.org/tech/profiles/Non-Access_Stratum_NAS_configuration-V1_0.xml</DDF>
+        <DDF></DDF>
         <LWM2M></LWM2M>
         <Vorto></Vorto>
         <DDFLink>0</DDFLink>
@@ -570,7 +570,7 @@
     <Item>
         <ObjectID>3202</ObjectID>
         <URN>urn:oma:lwm2m:ext:3202</URN>
-        <Name>Analogue Input</Name>
+        <Name>Analog Input</Name>
         <Description>This IPSO object is a generic object that can be used with any kind of analogue input interface. Specific object for a given range of sensors is described later in the document, enabling to identify the type of sensors directly from its Object ID. This object may be used as a generic object if a dedicated one does not exist.</Description>
         <Owner>IPSO Alliance</Owner>
         <Source>1</Source>
@@ -587,7 +587,7 @@
     <Item>
         <ObjectID>3203</ObjectID>
         <URN>urn:oma:lwm2m:ext:3203</URN>
-        <Name>Analogue Output</Name>
+        <Name>Analog Output</Name>
         <Description>This IPSO object is a generic object that can be used with any kind of analogue input interface. Specific object for a given range of sensors is described later in the document, enabling to identify the type of sensors directly from its Object ID. This object may be used as a generic object if a dedicated one does not exist.</Description>
         <Owner>IPSO Alliance</Owner>
         <Source>1</Source>
@@ -621,7 +621,7 @@
     <Item>
         <ObjectID>3301</ObjectID>
         <URN>urn:oma:lwm2m:ext:3301</URN>
-        <Name>Illuminance Sensor</Name>
+        <Name>Illuminance</Name>
         <Description>This IPSO object should be used over a luminosity sensor to report a remote luminosity measurement. It also provides resources for minimum/maximum measured values and the minimum/maximum range that can be measured by the luminosity sensor. The unit used here is Lux (ucum:lx).</Description>
         <Owner>IPSO Alliance</Owner>
         <Source>1</Source>
@@ -638,7 +638,7 @@
     <Item>
         <ObjectID>3302</ObjectID>
         <URN>urn:oma:lwm2m:ext:3302</URN>
-        <Name>Presence Sensor</Name>
+        <Name>Presence</Name>
         <Description>This IPSO object should be used over a presence sensor to report a remote presence detection. It also provides resources to manage a counter, the type of sensor used (e.g the technology of the probe), and configuration for the delay between busy and clear detection state.</Description>
         <Owner>IPSO Alliance</Owner>
         <Source>1</Source>
@@ -655,7 +655,7 @@
     <Item>
         <ObjectID>3303</ObjectID>
         <URN>urn:oma:lwm2m:ext:3303</URN>
-        <Name>Temperature Sensor</Name>
+        <Name>Temperature</Name>
         <Description>This IPSO object should be used over a temperature sensor to report a remote temperature measurement. It also provides resources for minimum/maximum measured values and the minimum/maximum range that can be measured by the temperature sensor. The unit used here is degree Celsius (ucum:Cel).</Description>
         <Owner>IPSO Alliance</Owner>
         <Source>1</Source>
@@ -672,7 +672,7 @@
     <Item>
         <ObjectID>3304</ObjectID>
         <URN>urn:oma:lwm2m:ext:3304</URN>
-        <Name>Humidity Sensor</Name>
+        <Name>Humidity</Name>
         <Description>This IPSO object should be used over a humidity sensor to report a remote humidity measurement. It also provides resources for minimum/maximum measured values and the minimum/maximum range that can be measured by the humidity sensor. The unit used here is relative humidity as a percentage (ucum:%).</Description>
         <Owner>IPSO Alliance</Owner>
         <Source>1</Source>
@@ -1165,7 +1165,7 @@
     <Item>
         <ObjectID>3335</ObjectID>
         <URN>urn:oma:lwm2m:ext:3335</URN>
-        <Name>Color</Name>
+        <Name>Colour</Name>
         <Description>This IPSO object should be used to report the measured value of a colour sensor in some colour space described by the units resource.</Description>
         <Owner>IPSO Alliance</Owner>
         <Source>1</Source>
@@ -1182,7 +1182,7 @@
     <Item>
         <ObjectID>3336</ObjectID>
         <URN>urn:oma:lwm2m:ext:3336</URN>
-        <Name>GPS Location</Name>
+        <Name>Location</Name>
         <Description>This IPSO object represents GPS coordinates. This object is compatible with the LWM2M management object for location, but uses reusable resources.</Description>
         <Owner>IPSO Alliance</Owner>
         <Source>1</Source>
@@ -1284,7 +1284,7 @@
     <Item>
         <ObjectID>3342</ObjectID>
         <URN>urn:oma:lwm2m:ext:3342</URN>
-        <Name>On/Off Switch</Name>
+        <Name>On/Off switch</Name>
         <Description>This IPSO object should be used with an On/Off switch to report the state of the switch.</Description>
         <Owner>IPSO Alliance</Owner>
         <Source>1</Source>
@@ -1301,7 +1301,7 @@
     <Item>
         <ObjectID>3343</ObjectID>
         <URN>urn:oma:lwm2m:ext:3343</URN>
-        <Name>Lever Control</Name>
+        <Name>Dimmer</Name>
         <Description>This IPSO object should be used with a dimmer or level control to report the state of the control.</Description>
         <Owner>IPSO Alliance</Owner>
         <Source>1</Source>
@@ -1369,7 +1369,7 @@
     <Item>
         <ObjectID>3347</ObjectID>
         <URN>urn:oma:lwm2m:ext:3347</URN>
-        <Name>Push Button</Name>
+        <Name>Push button</Name>
         <Description>This IPSO object is used to report the state of a momentary action push button control and to count the number of times the control has been operated since the last observation.</Description>
         <Owner>IPSO Alliance</Owner>
         <Source>1</Source>
@@ -1386,7 +1386,7 @@
     <Item>
         <ObjectID>3348</ObjectID>
         <URN>urn:oma:lwm2m:ext:3348</URN>
-        <Name>Multistate Selector</Name>
+        <Name>Multi-state Selector</Name>
         <Description>This IPSO object is used to represent the state of a multistate selector switch with a number of fixed positions.</Description>
         <Owner>IPSO Alliance</Owner>
         <Source>1</Source>
@@ -1438,14 +1438,13 @@
         <Description>One time event sent by the device at power up.</Description>
         <Owner>GSMA</Owner>
         <Source>1</Source>
-
         <Ver>1.0</Ver>
         <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/3351.xml</DDF>
         <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3351.xml</LWM2M>
         <Vorto></Vorto>
         <DDFLink>1</DDFLink>
         <TS></TS>
-        <TSLink></TSLink>
+        <TSLink>0</TSLink>
     </Item>
     <Item>
         <ObjectID>3352</ObjectID>
@@ -1461,7 +1460,7 @@
         <Vorto></Vorto>
         <DDFLink>1</DDFLink>
         <TS></TS>
-        <TSLink></TSLink>
+        <TSLink>0</TSLink>
     </Item>
     <Item>
         <ObjectID>3353</ObjectID>
@@ -1477,7 +1476,7 @@
         <Vorto></Vorto>
         <DDFLink>1</DDFLink>
         <TS></TS>
-        <TSLink></TSLink>
+        <TSLink>0</TSLink>
     </Item>
 
     <Item>
@@ -1494,7 +1493,7 @@
         <Vorto></Vorto>
         <DDFLink>1</DDFLink>
         <TS></TS>
-        <TSLink></TSLink>
+        <TSLink>0</TSLink>
     </Item>
     <Item>
         <ObjectID>3355</ObjectID>
@@ -1510,7 +1509,7 @@
         <Vorto></Vorto>
         <DDFLink>1</DDFLink>
         <TS></TS>
-        <TSLink></TSLink>
+        <TSLink>0</TSLink>
     </Item>
     <Item>
         <ObjectID>3356</ObjectID>
@@ -1526,7 +1525,7 @@
         <Vorto></Vorto>
         <DDFLink>1</DDFLink>
         <TS></TS>
-        <TSLink></TSLink>
+        <TSLink>0</TSLink>
     </Item>
     <Item>
         <ObjectID>3357</ObjectID>
@@ -1542,7 +1541,7 @@
         <Vorto></Vorto>
         <DDFLink>1</DDFLink>
         <TS></TS>
-        <TSLink></TSLink>
+        <TSLink>0</TSLink>
     </Item>
     <Item>
         <ObjectID>3358</ObjectID>
@@ -1558,7 +1557,7 @@
         <Vorto></Vorto>
         <DDFLink>1</DDFLink>
         <TS></TS>
-        <TSLink></TSLink>
+        <TSLink>0</TSLink>
     </Item>
     <Item>
         <ObjectID>3359</ObjectID>
@@ -1574,7 +1573,7 @@
         <Vorto></Vorto>
         <DDFLink>1</DDFLink>
         <TS></TS>
-        <TSLink></TSLink>
+        <TSLink>0</TSLink>
     </Item>
     <Item>
         <ObjectID>3360</ObjectID>
@@ -1590,7 +1589,7 @@
         <Vorto></Vorto>
         <DDFLink>1</DDFLink>
         <TS></TS>
-        <TSLink></TSLink>
+        <TSLink>0</TSLink>
     </Item>
     <Item>
         <ObjectID>3361</ObjectID>
@@ -1606,7 +1605,7 @@
         <Vorto></Vorto>
         <DDFLink>1</DDFLink>
         <TS></TS>
-        <TSLink></TSLink>
+        <TSLink>0</TSLink>
     </Item>
 
     <Item>
@@ -1623,7 +1622,7 @@
         <Vorto></Vorto>
         <DDFLink>1</DDFLink>
         <TS></TS>
-        <TSLink></TSLink>
+        <TSLink>0</TSLink>
     </Item>
     <Item>
         <ObjectID>3363</ObjectID>
@@ -1639,7 +1638,7 @@
         <Vorto></Vorto>
         <DDFLink>1</DDFLink>
         <TS></TS>
-        <TSLink></TSLink>
+        <TSLink>0</TSLink>
     </Item>
     <Item>
         <ObjectID>3364</ObjectID>
@@ -1655,7 +1654,7 @@
         <Vorto></Vorto>
         <DDFLink> 1</DDFLink>
         <TS></TS>
-        <TSLink></TSLink>
+        <TSLink>0</TSLink>
     </Item>
     <Item>
         <ObjectID>3365</ObjectID>
@@ -1671,7 +1670,7 @@
         <Vorto></Vorto>
         <DDFLink>1</DDFLink>
         <TS></TS>
-        <TSLink></TSLink>
+        <TSLink>0</TSLink>
     </Item>
     <Item>
         <ObjectID>3366</ObjectID>
@@ -1687,7 +1686,7 @@
         <Vorto></Vorto>
         <DDFLink>1</DDFLink>
         <TS></TS>
-        <TSLink></TSLink>
+        <TSLink>0</TSLink>
     </Item>
     <Item>
         <ObjectID>3367</ObjectID>
@@ -1703,7 +1702,7 @@
         <Vorto></Vorto>
         <DDFLink>1</DDFLink>
         <TS></TS>
-        <TSLink></TSLink>
+        <TSLink>0</TSLink>
     </Item>
     <Item>
         <ObjectID>3368</ObjectID>
@@ -1719,7 +1718,7 @@
         <Vorto></Vorto>
         <DDFLink>1</DDFLink>
         <TS></TS>
-        <TSLink></TSLink>
+        <TSLink>0</TSLink>
     </Item>
     <Item>
         <ObjectID>3369</ObjectID>
@@ -1735,7 +1734,7 @@
         <Vorto></Vorto>
         <DDFLink>1</DDFLink>
         <TS></TS>
-        <TSLink></TSLink>
+        <TSLink>0</TSLink>
     </Item>
     <Item>
         <ObjectID>3370</ObjectID>
@@ -1751,7 +1750,7 @@
         <Vorto></Vorto>
         <DDFLink>1</DDFLink>
         <TS></TS>
-        <TSLink></TSLink>
+        <TSLink>0</TSLink>
     </Item>
     <Item>
         <ObjectID>3371</ObjectID>
@@ -1767,12 +1766,12 @@
         <Vorto></Vorto>
         <DDFLink>1</DDFLink>
         <TS></TS>
-        <TSLink></TSLink>
+        <TSLink>0</TSLink>
     </Item>
     <Item>
         <ObjectID>3372</ObjectID>
         <URN>urn:oma:lwm2m:ext:3372</URN>
-        <Name>Timing Advance Information</Name>
+        <Name>TimingAdvance</Name>
         <Description>Neighbor Cell Measurements</Description>
         <Owner>GSMA</Owner>
         <Source>1</Source>
@@ -1783,7 +1782,7 @@
         <Vorto></Vorto>
         <DDFLink>1</DDFLink>
         <TS></TS>
-        <TSLink></TSLink>
+        <TSLink>0</TSLink>
     </Item>
     <Item>
         <ObjectID>3373</ObjectID>
@@ -1799,7 +1798,7 @@
         <Vorto></Vorto>
         <DDFLink>1</DDFLink>
         <TS></TS>
-        <TSLink></TSLink>
+        <TSLink>0</TSLink>
     </Item>
     <Item>
         <ObjectID>3374</ObjectID>
@@ -1815,7 +1814,7 @@
         <Vorto></Vorto>
         <DDFLink>1</DDFLink>
         <TS></TS>
-        <TSLink></TSLink>
+        <TSLink>0</TSLink>
     </Item>
     <Item>
         <ObjectID>3375</ObjectID>
@@ -1831,7 +1830,7 @@
         <Vorto></Vorto>
         <DDFLink>1</DDFLink>
         <TS></TS>
-        <TSLink></TSLink>
+        <TSLink>0</TSLink>
     </Item>
     <Item>
         <ObjectID>3376</ObjectID>
@@ -1847,7 +1846,7 @@
         <Vorto></Vorto>
         <DDFLink>1</DDFLink>
         <TS></TS>
-        <TSLink></TSLink>
+        <TSLink>0</TSLink>
     </Item>
     <Item>
         <ObjectID>3377</ObjectID>
@@ -1863,7 +1862,7 @@
         <Vorto></Vorto>
         <DDFLink>1</DDFLink>
         <TS></TS>
-        <TSLink></TSLink>
+        <TSLink>0</TSLink>
     </Item>
     <Item>
         <ObjectID>3378</ObjectID>
@@ -1879,7 +1878,7 @@
         <Vorto></Vorto>
         <DDFLink>1</DDFLink>
         <TS></TS>
-        <TSLink></TSLink>
+        <TSLink>0</TSLink>
     </Item>
     <Item>
         <ObjectID>3379</ObjectID>
@@ -1895,7 +1894,7 @@
         <Vorto></Vorto>
         <DDFLink>1</DDFLink>
         <TS></TS>
-        <TSLink></TSLink>
+        <TSLink>0</TSLink>
     </Item>
     <Item>
         <ObjectID>3380</ObjectID>
@@ -1911,7 +1910,7 @@
         <Vorto></Vorto>
         <DDFLink>1</DDFLink>
         <TS></TS>
-        <TSLink></TSLink>
+        <TSLink>0</TSLink>
     </Item>
     <Item>
         <ObjectID>3381</ObjectID>
@@ -1927,7 +1926,7 @@
         <Vorto></Vorto>
         <DDFLink>1</DDFLink>
         <TS></TS>
-        <TSLink></TSLink>
+        <TSLink>0</TSLink>
     </Item>
     <Item>
         <ObjectID>3382</ObjectID>
@@ -1943,7 +1942,7 @@
         <Vorto></Vorto>
         <DDFLink>1</DDFLink>
         <TS></TS>
-        <TSLink></TSLink>
+        <TSLink>0</TSLink>
     </Item>
     <Item>
         <ObjectID>3383</ObjectID>
@@ -1952,14 +1951,13 @@
         <Description>SIP Publish status</Description>
         <Owner>GSMA</Owner>
         <Source>1</Source>
-
         <Ver>1.0</Ver>
         <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/3383.xml</DDF>
         <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3383.xml</LWM2M>
         <Vorto></Vorto>
         <DDFLink>1</DDFLink>
         <TS></TS>
-        <TSLink></TSLink>
+        <TSLink>0</TSLink>
     </Item>
     <Item>
         <ObjectID>3384</ObjectID>
@@ -1968,14 +1966,13 @@
         <Description>SIP Subscription status</Description>
         <Owner>GSMA</Owner>
         <Source>1</Source>
-
         <Ver>1.0</Ver>
         <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/3384.xml</DDF>
         <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3384.xml</LWM2M>
         <Vorto></Vorto>
         <DDFLink>1</DDFLink>
         <TS></TS>
-        <TSLink></TSLink>
+        <TSLink>0</TSLink>
     </Item>
     <Item>
         <ObjectID>3385</ObjectID>
@@ -1984,14 +1981,13 @@
         <Description>VoLTE call status change</Description>
         <Owner>GSMA</Owner>
         <Source>1</Source>
-
         <Ver>1.0</Ver>
         <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/3385.xml</DDF>
         <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3385.xml</LWM2M>
         <Vorto></Vorto>
         <DDFLink>1</DDFLink>
         <TS></TS>
-        <TSLink></TSLink>
+        <TSLink>0</TSLink>
     </Item>
     <Item>
         <ObjectID>3386</ObjectID>
@@ -2000,15 +1996,362 @@
         <Description>Log is generated at the receiving end of RTP flow when newReceivedSequenceNumber - lastReceivedSequenceNumber > 1</Description>
         <Owner>GSMA</Owner>
         <Source>1</Source>
-
         <Ver>1.0</Ver>
         <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/3386.xml</DDF>
         <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F3386.xml</LWM2M>
         <Vorto></Vorto>
         <DDFLink>1</DDFLink>
         <TS></TS>
-        <TSLink></TSLink>
+        <TSLink>0</TSLink>
     </Item>
+    
+    <Item>
+        <ObjectID>3387</ObjectID>
+        <URN>urn:oma:lwm2m:ext:3387</URN>
+        <Name>oA Basic Control</Name>
+        <Description>The 'oA Basic Control' represents a common basic interface for a Control Function. 
+         This allows to have vendor specific (executing) control functions using diverse object numbers to be interfaced for the basic functionality in a common way. 
+         The object provides the basic functionality required for an OpenAIS control object.</Description>
+        <Owner>OpenAIS</Owner>
+        <Source>1</Source>
+        <Ver>1.0</Ver>
+        <DDF></DDF>
+        <LWM2M></LWM2M>
+        <Vorto></Vorto>
+        <DDFLink>0</DDFLink>
+        <TS></TS>
+        <TSLink>0</TSLink>
+    </Item>
+    
+    <Item>
+        <ObjectID>3388</ObjectID>
+        <URN>urn:oma:lwm2m:ext:3388</URN>
+        <Name>oA Device</Name>
+        <Description>The 'oA Device' represents the OpenAIS specific parameters of a Device that are necessary in addition to the LWM2M Device.</Description>
+        <Owner>OpenAIS</Owner>
+        <Source>1</Source>
+        <Ver>1.0</Ver>
+        <DDF></DDF>
+        <LWM2M></LWM2M>
+        <Vorto></Vorto>
+        <DDFLink>0</DDFLink>
+        <TS></TS>
+        <TSLink>0</TSLink>
+    </Item>
+    
+    <Item>
+        <ObjectID>3389</ObjectID>
+        <URN>urn:oma:lwm2m:ext:3389</URN>
+        <Name>oA Group</Name>
+        <Description>The 'oA Group' represents a group. It contains an application group ID, a security group ID and a list of multicast and unicast IP addresses that are used in the group. \nAdditionally it contains a list of all members of the group.</Description>
+        <Owner>OpenAIS</Owner>
+        <Source>1</Source>
+        <Ver>1.0</Ver>
+        <DDF></DDF>
+        <LWM2M></LWM2M>
+        <Vorto></Vorto>
+        <DDFLink>0</DDFLink>
+        <TS></TS>
+        <TSLink>0</TSLink>
+    </Item>
+           
+    <Item>
+        <ObjectID>3390</ObjectID>
+        <URN>urn:oma:lwm2m:ext:3390</URN>
+        <Name>oA Logical Colour Light-Point Actuator</Name>
+        <Description>The 'oA Logical Colour Light Point Actuator' represents the logical part of an actuator model for a colour light point. 
+         The corresponding physical device is a light channel and associated gear (e.g. LED driver).\nThe Object (module) supports several interactions that include absolute and relative colour setting. 
+         Several device configuration parameters are mapped, which relate to behaviour or describe device limitations.</Description>
+        <Owner>OpenAIS</Owner>
+        <Source>1</Source>
+        <Ver>1.0</Ver>
+        <DDF></DDF>
+        <LWM2M></LWM2M>
+        <Vorto></Vorto>
+        <DDFLink>0</DDFLink>
+        <TS></TS>
+        <TSLink>0</TSLink>
+    </Item>
+              
+    <Item>
+        <ObjectID>3391</ObjectID>
+        <URN>urn:oma:lwm2m:ext:3391</URN>
+        <Name>oA Logical Colour Temperature Light-Point Actuator</Name>
+        <Description>The 'oA Logical Colour Temperature Light Point Actuator' represents the logical part of an actuator model for a tunable white light point. 
+        The corresponding physical device is a light channel and associated gear (e.g. LED driver).\nThe Object (module) supports several interactions that include absolute and relative colour temperature setting. 
+        Several device configuration parameters are mapped, which relate to behaviour or describe device limitations. Note that the overall intensity is not controlled by this object, it remains controlled by a logical light point object to ease dimming action across tuneable, coloured and non coloured lights. 
+        Please note also, that the corresponding executing object does not need to be restricted to tuneable white operation.</Description>
+        <Owner>OpenAIS</Owner>
+        <Source>1</Source>
+        <Ver>1.0</Ver>
+        <DDF></DDF>
+        <LWM2M></LWM2M>
+        <Vorto></Vorto>
+        <DDFLink>0</DDFLink>
+        <TS></TS>
+        <TSLink>0</TSLink>
+    </Item>
+                  
+    <Item>
+        <ObjectID>3392</ObjectID>
+        <URN>urn:oma:lwm2m:ext:3392</URN>
+        <Name>oA Logical Illuminance Sensor</Name>
+        <Description>The 'oA Logical Illuminance Sensor' represents the logical part of an illuminance sensor. 
+         The corresponding physical device is a sensor that detects illuminance in its detection area.</Description>
+        <Owner>OpenAIS</Owner>
+        <Source>1</Source>
+        <Ver>1.0</Ver>
+        <DDF></DDF>
+        <LWM2M></LWM2M>
+        <Vorto></Vorto>
+        <DDFLink>0</DDFLink>
+        <TS></TS>
+        <TSLink>0</TSLink>
+    </Item>
+                     
+    <Item>
+        <ObjectID>3393</ObjectID>
+        <URN>urn:oma:lwm2m:ext:3393</URN>
+        <Name>oA Logical Light-Point Actuator</Name>
+        <Description>The 'oA Logical Light Point Actuator' represents the logical part of an actuator model for a dimmable light point. 
+        The corresponding physical device is a light channel and associated gear (e.g. LED driver).\nThe Object (module) supports several interactions that include basic On/Off as well as Up/Down dimming. 
+        Several device configuration parameters are mapped, which relate to behaviour or describe device limitations. 
+        For multi-channel luminaires where the configuration per channel may vary significantly (e.g. different max/min values), multiple instances of this Object should be used.</Description>
+        <Owner>OpenAIS</Owner>
+        <Source>1</Source>
+        <Ver>1.0</Ver>
+        <DDF></DDF>
+        <LWM2M></LWM2M>
+        <Vorto></Vorto>
+        <DDFLink>0</DDFLink>
+        <TS></TS>
+        <TSLink>0</TSLink>
+    </Item>
+                      
+    <Item>
+        <ObjectID>3394</ObjectID>
+        <URN>urn:oma:lwm2m:ext:3394</URN>
+        <Name>oA Logical Presence Sensor</Name>
+        <Description>The 'oA Logical Presence Sensor' represents the logical part of a presence sensor. 
+         The corresponding physical device is a sensor that detects presence in its detection area. 
+         \nThe Object supports two states 'presence' and 'absence'.</Description>
+        <Owner>OpenAIS</Owner>
+        <Source>1</Source>
+        <Ver>1.0</Ver>
+        <DDF></DDF>
+        <LWM2M></LWM2M>
+        <Vorto></Vorto>
+        <DDFLink>0</DDFLink>
+        <TS></TS>
+        <TSLink>0</TSLink>
+     </Item>
+                       
+    <Item>
+        <ObjectID>3395</ObjectID>
+        <URN>urn:oma:lwm2m:ext:3395</URN>
+        <Name>oA Logical Push-Button Sensor</Name>
+        <Description>The 'oA Logical Push-Button Sensor' represents the logical part of a standard, normally open, push-button input. 
+         The corresponding physical device is a button with a spring that returns the button to the un-pushed state once it is released.
+         \nThe Object supports several events such as 'click', 'hold', 'double-click' and 'release'. It also indicates if the button is 'stuck'. 
+         For physical devices with multiple push-button inputs, an instance of this Object is required to map each input.</Description>
+        <Owner>OpenAIS</Owner>
+        <Source>1</Source>
+        <Ver>1.0</Ver>
+        <DDF></DDF>
+        <LWM2M></LWM2M>
+        <Vorto></Vorto>
+        <DDFLink>0</DDFLink>
+        <TS></TS>
+        <TSLink>0</TSLink>
+     </Item>
+                       
+    <Item>
+        <ObjectID>3396</ObjectID>
+        <URN>urn:oma:lwm2m:ext:3396</URN>
+        <Name>oA Physical Colour Light-Point Actuator</Name>
+        <Description>The 'oA Physical Colour Light-Point Actuator' represents a physical colour light-point actuator. 
+        It is necessary to map at least on Logical Light Point Actuator to control the intensity and one Logical Colour Light-Point to control the colour to the Physical Colour Light-Point.</Description>
+        <Owner>OpenAIS</Owner>
+        <Source>1</Source>
+        <Ver>1.0</Ver>
+        <DDF></DDF>
+        <LWM2M></LWM2M>
+        <Vorto></Vorto>
+        <DDFLink>0</DDFLink>
+        <TS></TS>
+        <TSLink>0</TSLink>
+     </Item>
+                        
+    <Item>
+        <ObjectID>3397</ObjectID>
+        <URN>urn:oma:lwm2m:ext:3397</URN>
+        <Name>oA Physical Colour Temperature Light-Point Actuator</Name>
+        <Description>The 'oA_Physical Colour Temperature Light-Point Actuator' represents a physical tunable white light-point actuator. 
+        It is necessary to map at least on Logical Light Point Actuator to control the intensity and one Logical Colour Temperature Light-Point to control the colour temperature to the Physical Colour Temperature Light Point.</Description>
+        <Owner>OpenAIS</Owner>
+        <Source>1</Source>
+        <Ver>1.0</Ver>
+        <DDF></DDF>
+        <LWM2M></LWM2M>
+        <Vorto></Vorto>
+        <DDFLink>0</DDFLink>
+        <TS></TS>
+        <TSLink>0</TSLink>
+     </Item>
+                            
+    <Item>
+        <ObjectID>3398</ObjectID>
+        <URN>urn:oma:lwm2m:ext:3398</URN>
+        <Name>oA Physical Illuminance Sensor</Name>
+        <Description>The 'oA Physical Light-Point Actuator' represents a physical light-point actuator. 
+        All logical light-point actuators (object instances of 'oA Light-Point Actuator') are mapped to one physical light-point actuator.</Description>
+        <Owner>OpenAIS</Owner>
+        <Source>1</Source>
+        <Ver>1.0</Ver>
+        <DDF></DDF>
+        <LWM2M></LWM2M>
+        <Vorto></Vorto>
+        <DDFLink>0</DDFLink>
+        <TS></TS>
+        <TSLink>0</TSLink>
+     </Item>
+                            
+    <Item>
+        <ObjectID>3399</ObjectID>
+        <URN>urn:oma:lwm2m:ext:3399</URN>
+        <Name>oA Physical Light-Point Actuator</Name>
+        <Description>The 'oA Physical Illuminance Sensor' represents the physical part of an illuminance sensor. 
+         All logical illuminance sensors (object instances of 'oA Illuminance Sensor') are mapped to one physical illuminance sensor.</Description>
+        <Owner>OpenAIS</Owner>
+        <Source>1</Source>
+        <Ver>1.0</Ver>
+        <DDF></DDF>
+        <LWM2M></LWM2M>
+        <Vorto></Vorto>
+        <DDFLink>0</DDFLink>
+        <TS></TS>
+        <TSLink>0</TSLink>
+     </Item>
+                              
+    <Item>
+        <ObjectID>3400</ObjectID>
+        <URN>urn:oma:lwm2m:ext:3400</URN>
+        <Name>oA Physical Presence Sensor</Name>
+        <Description>The 'oA Physical Presence Sensor' represents the physical part of a presence sensor. 
+        All logical presence sensors (object instances of 'oA Presence Sensor') are mapped to one physical presence sensor</Description>
+        <Owner>OpenAIS</Owner>
+        <Source>1</Source>
+        <Ver>1.0</Ver>
+        <DDF></DDF>
+        <LWM2M></LWM2M>
+        <Vorto></Vorto>
+        <DDFLink>0</DDFLink>
+        <TS></TS>
+        <TSLink>0</TSLink>
+     </Item>
+                                
+    <Item>
+        <ObjectID>3401</ObjectID>
+        <URN>urn:oma:lwm2m:ext:3401</URN>
+        <Name>oA Physical Push-Button Sensor</Name>
+        <Description>The 'oA Physical Push-Button Sensor' represents the physical part of a push-button sensor. 
+        All logical push-button sensors (object instances of 'oA Push-Button Sensor') are mapped to one physical push-button sensor.</Description>
+        <Owner>OpenAIS</Owner>
+        <Source>1</Source>
+        <Ver>1.0</Ver>
+        <DDF></DDF>
+        <LWM2M></LWM2M>
+        <Vorto></Vorto>
+        <DDFLink>0</DDFLink>
+        <TS></TS>
+        <TSLink>0</TSLink>
+     </Item>
+                                   
+    <Item>
+        <ObjectID>3402</ObjectID>
+        <URN>urn:oma:lwm2m:ext:3402</URN>
+        <Name>oA Receiving Object</Name>
+        <Description>The 'oA Receiving Object' provides a resource for sensors/actuators to report their status message to. 
+         It is used with control objects as logical object that forwards the sensor and status data to the executing object.
+        \nIt is also used to receive the 'go bootstrap' message, using the Struct-ID 255, in OOTB mode.</Description>
+        <Owner>OpenAIS</Owner>
+        <Source>1</Source>
+        <Ver>1.0</Ver>
+        <DDF></DDF>
+        <LWM2M></LWM2M>
+        <Vorto></Vorto>
+        <DDFLink>0</DDFLink>
+        <TS></TS>
+        <TSLink>0</TSLink>
+     </Item>
+                                    
+    <Item>
+        <ObjectID>3403</ObjectID>
+        <URN>urn:oma:lwm2m:ext:3403</URN>
+        <Name>oA Reporting Object</Name>
+        <Description>The 'oA Reporting Object' packs several status messages available at the node into a single, size optimized message, 
+        as e.g. used with data collect or BMS interfacing.</Description>
+        <Owner>OpenAIS</Owner>
+        <Source>1</Source>
+        <Ver>1.0</Ver>
+        <DDF></DDF>
+        <LWM2M></LWM2M>
+        <Vorto></Vorto>
+        <DDFLink>0</DDFLink>
+        <TS></TS>
+        <TSLink>0</TSLink>
+     </Item>
+                                     
+    <Item>
+        <ObjectID>3404</ObjectID>
+        <URN>urn:oma:lwm2m:ext:3404</URN>
+        <Name>oA Scene</Name>
+        <Description>The 'oA Scene' represents a scene model. The scene holds defined values for each actuator in one group.</Description>
+        <Owner>OpenAIS</Owner>
+        <Source>1</Source>
+        <Ver>1.0</Ver>
+        <DDF></DDF>
+        <LWM2M></LWM2M>
+        <Vorto></Vorto>
+        <DDFLink>0</DDFLink>
+        <TS></TS>
+        <TSLink>0</TSLink>
+     </Item>  
+    
+    <Item>
+        <ObjectID>3405</ObjectID>
+        <URN>urn:oma:lwm2m:ext:3405</URN>
+        <Name>oA OGC-Security</Name>
+        <Description>The 'oA Security' provides the keying material of a LWM2M Client appropriate to access a specified LWM2M Server in context of OpenAIS. 
+         One Object Instance SHOULD address a LWM2M Bootstrap Server.
+         \nThese LWM2M Object Resources MUST only be changed by a LWM2M Bootstrap Server or Bootstrap from Smartcardand MUST NOT be accessible by any other LWM2M Server.</Description>
+        <Owner>OpenAIS</Owner>
+        <Source>1</Source>
+        <Ver>1.0</Ver>
+        <DDF></DDF>
+        <LWM2M></LWM2M>
+        <Vorto></Vorto>
+        <DDFLink>0</DDFLink>
+        <TS></TS>
+        <TSLink>0</TSLink>
+     </Item>
+                                           
+    <Item>
+        <ObjectID>3406</ObjectID>
+        <URN>urn:oma:lwm2m:ext:3406</URN>
+        <Name>oA Status Report Structure</Name>
+        <Description>The 'oA Status Report Structure' describes the content of the status reports. 
+         Its ID is always the first byte, the following bytes are defined by Keys.</Description>
+        <Owner>OpenAIS</Owner>
+        <Source>1</Source>
+        <Ver>1.0</Ver>
+        <DDF></DDF>
+        <LWM2M></LWM2M>
+        <Vorto></Vorto>
+        <DDFLink>0</DDFLink>
+        <TS></TS>
+        <TSLink>0</TSLink>
+     </Item>
     <Item>
         <ObjectID>10241</ObjectID>
         <URN>urn:oma:lwm2m:x:10241</URN>
@@ -2016,7 +2359,6 @@
         <Description>This LWM2M Object provides a range of host device related information which can be queried by the LWM2M Server. The host device is any integrated device with an embedded cellular radio module.</Description>
         <Owner>AT&amp;T</Owner>
         <Source>2</Source>
-
         <Ver>1.0</Ver>
         <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/10241.xml</DDF>
         <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F10241.xml</LWM2M>
@@ -2029,7 +2371,7 @@
     <Item>
         <ObjectID>10242</ObjectID>
         <URN>urn:oma:lwm2m:x:10242</URN>
-        <Name>3-PhasePM</Name>
+        <Name>3-Phase Power Meter</Name>
         <Description>This Object provides the information to represent a generic 3-Phase Power Meter</Description>
         <Owner>Odins</Owner>
         <Source>2</Source>
@@ -2046,7 +2388,7 @@
     <Item>
         <ObjectID>10243</ObjectID>
         <URN>urn:oma:lwm2m:x:10243</URN>
-        <Name>singlePhasePM</Name>
+        <Name>Single-Phase Power Meter</Name>
         <Description>This Object provides the information to represent a generic Single-Phase Power Meter</Description>
         <Owner>Odins</Owner>
         <Source>2</Source>
@@ -2063,7 +2405,7 @@
     <Item>
         <ObjectID>10244</ObjectID>
         <URN>urn:oma:lwm2m:x:10244</URN>
-        <Name>vehicle control unit</Name>
+        <Name>VehicleControlUnit</Name>
         <Description>This Object provides the information to represent a generic VCU (vehicle control unit)</Description>
         <Owner>Works System</Owner>
         <Source>2</Source>
@@ -2186,7 +2528,7 @@
         <Vorto></Vorto>
         <DDFLink>1</DDFLink>
         <TS></TS>
-        <TSLink></TSLink>
+        <TSLink>0</TSLink>
     </Item>
     <Item>
         <ObjectID>10252</ObjectID>
@@ -2223,7 +2565,7 @@
     </Item>
     <Item>
         <ObjectID>10254</ObjectID>
-        <URN>urn:oma:lwm2m:x:10254</URN>
+        <URN>urn:oma:lwm2m:x:10254:1.0</URN>
         <Name>Current Loop Input</Name>
         <Description>This LwM2M Object provides a representation of a current loop sensor, which indicates the value emitted by a current source.</Description>
         <Owner>World-Direct eBusiness</Owner>
@@ -2235,7 +2577,7 @@
         <Vorto></Vorto>
         <DDFLink>1</DDFLink>
         <TS></TS>
-        <TSLink></TSLink>
+        <TSLink>0</TSLink>
     </Item>
     <Item>
         <ObjectID>10255</ObjectID>
@@ -2268,12 +2610,12 @@
         <Vorto></Vorto>
         <DDFLink>1</DDFLink>
         <TS></TS>
-        <TSLink></TSLink>
+        <TSLink>0</TSLink>
     </Item>
     <Item>
         <ObjectID>10257</ObjectID>
         <URN>urn:oma:lwm2m:x:10257</URN>
-        <Name>Heat/Cooling meter</Name>
+        <Name>Heat / Cooling meter</Name>
         <Description>This Object provides the information to represent a generic (district) heat or cooling meter</Description>
         <Owner>Comsel System Ltd</Owner>
         <Source>2</Source>
@@ -2284,7 +2626,7 @@
         <Vorto></Vorto>
         <DDFLink>1</DDFLink>
         <TS></TS>
-        <TSLink></TSLink>
+        <TSLink>0</TSLink>
     </Item>
     <Item>
         <ObjectID>10258</ObjectID>
@@ -2300,7 +2642,7 @@
         <Vorto></Vorto>
         <DDFLink>1</DDFLink>
         <TS></TS>
-        <TSLink></TSLink>
+        <TSLink>0</TSLink>
     </Item>
     <Item>
         <ObjectID>10259</ObjectID>
@@ -2316,7 +2658,7 @@
         <Vorto></Vorto>
         <DDFLink>1</DDFLink>
         <TS></TS>
-        <TSLink></TSLink>
+        <TSLink>0</TSLink>
     </Item>
     <Item>
         <ObjectID>10260</ObjectID>
@@ -2332,12 +2674,12 @@
         <Vorto></Vorto>
         <DDFLink>1</DDFLink>
         <TS></TS>
-        <TSLink></TSLink>
+        <TSLink>0</TSLink>
     </Item>
         <Item>
         <ObjectID>10260</ObjectID>
         <URN>urn:oma:lwm2m:x:10260:2.0</URN>
-        <Name>Runtime Database</Name>
+        <Name>RDB</Name>
         <Description>This object allows manipulation of Runtime Database variables.</Description>
         <Owner>NetComm Wireless Limited</Owner>
         <Source>2</Source>    
@@ -2347,7 +2689,7 @@
         <Vorto></Vorto>
         <DDFLink>1</DDFLink>
         <TS></TS>
-        <TSLink></TSLink>
+        <TSLink>0</TSLink>
     </Item>
     <Item>
         <ObjectID>10262</ObjectID>
@@ -2363,7 +2705,7 @@
         <Vorto></Vorto>
         <DDFLink>1</DDFLink>
         <TS></TS>
-        <TSLink></TSLink>
+        <TSLink>0</TSLink>
     </Item>
     <Item>
         <ObjectID>10263</ObjectID>
@@ -2379,7 +2721,7 @@
         <Vorto></Vorto>
         <DDFLink>1</DDFLink>
         <TS></TS>
-        <TSLink></TSLink>
+        <TSLink>0</TSLink>
     </Item>
     <Item>
         <ObjectID>10264</ObjectID>
@@ -2395,7 +2737,7 @@
         <Vorto></Vorto>
         <DDFLink>1</DDFLink>
         <TS></TS>
-        <TSLink></TSLink>
+        <TSLink>0</TSLink>
     </Item>
     <Item>
         <ObjectID>10265</ObjectID>
@@ -2411,7 +2753,7 @@
         <Vorto></Vorto>
         <DDFLink>1</DDFLink>
         <TS></TS>
-        <TSLink></TSLink>
+        <TSLink>0</TSLink>
     </Item>
     <Item>
         <ObjectID>10266</ObjectID>
@@ -2427,7 +2769,7 @@
         <Vorto></Vorto>
         <DDFLink>1</DDFLink>
         <TS></TS>
-        <TSLink></TSLink>
+        <TSLink>0</TSLink>
     </Item>
     <Item>
         <ObjectID>10267</ObjectID>
@@ -2439,11 +2781,11 @@
 
         <Ver>1.0</Ver>
         <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/10267.xml</DDF>
-        <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F10267.xml-</LWM2M>
+        <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F10267.xml</LWM2M>
         <Vorto></Vorto>
         <DDFLink>1</DDFLink>
         <TS></TS>
-        <TSLink></TSLink>
+        <TSLink>0</TSLink>
     </Item>
     <Item>
         <ObjectID>10268</ObjectID>
@@ -2459,7 +2801,7 @@
         <Vorto></Vorto>
         <DDFLink>1</DDFLink>
         <TS></TS>
-        <TSLink></TSLink>
+        <TSLink>0</TSLink>
     </Item>
     <Item>
         <ObjectID>10269</ObjectID>
@@ -2475,7 +2817,7 @@
         <Vorto></Vorto>
         <DDFLink>1</DDFLink>
         <TS></TS>
-        <TSLink></TSLink>
+        <TSLink>0</TSLink>
     </Item>
     <Item>
         <ObjectID>10270</ObjectID>
@@ -2491,7 +2833,7 @@
         <Vorto></Vorto>
         <DDFLink>1</DDFLink>
         <TS></TS>
-        <TSLink></TSLink>
+        <TSLink>0</TSLink>
     </Item>
     <Item>
         <ObjectID>10271</ObjectID>
@@ -2507,7 +2849,7 @@
         <Vorto></Vorto>
         <DDFLink>1</DDFLink>
         <TS></TS>
-        <TSLink></TSLink>
+        <TSLink>0</TSLink>
     </Item>
     <Item>
         <ObjectID>10272</ObjectID>
@@ -2523,7 +2865,7 @@
         <Vorto></Vorto>
         <DDFLink>1</DDFLink>
         <TS></TS>
-        <TSLink></TSLink>
+        <TSLink>0</TSLink>
     </Item>
     <Item>
         <ObjectID>10273</ObjectID>
@@ -2539,7 +2881,7 @@
         <Vorto></Vorto>
         <DDFLink>1</DDFLink>
         <TS></TS>
-        <TSLink></TSLink>
+        <TSLink>0</TSLink>
     </Item>
     <Item>
         <ObjectID>10274</ObjectID>
@@ -2555,7 +2897,7 @@
         <Vorto></Vorto>
         <DDFLink>1</DDFLink>
         <TS></TS>
-        <TSLink></TSLink>
+        <TSLink>0</TSLink>
     </Item>
     <Item>
         <ObjectID>10275</ObjectID>
@@ -2575,7 +2917,7 @@
         <Vorto></Vorto>
         <DDFLink>1</DDFLink>
         <TS></TS>
-        <TSLink></TSLink>
+        <TSLink>0</TSLink>
     </Item>
     <Item>
         <ObjectID>10276</ObjectID>
@@ -2591,7 +2933,7 @@
         <Vorto></Vorto>
         <DDFLink>1</DDFLink>
         <TS></TS>
-        <TSLink></TSLink>
+        <TSLink>0</TSLink>
     </Item>
     <Item>
         <ObjectID>10277</ObjectID>
@@ -2607,7 +2949,7 @@
         <Vorto></Vorto>
         <DDFLink>1</DDFLink>
         <TS></TS>
-        <TSLink></TSLink>
+        <TSLink>0</TSLink>
     </Item>
     <Item>
         <ObjectID>10278</ObjectID>
@@ -2626,7 +2968,7 @@
         <Vorto></Vorto>
         <DDFLink>1</DDFLink>
         <TS></TS>
-        <TSLink></TSLink>
+        <TSLink>0</TSLink>
     </Item>
     <Item>
         <ObjectID>10279</ObjectID>
@@ -2645,7 +2987,7 @@
         <Vorto></Vorto>
         <DDFLink>1</DDFLink>
         <TS></TS>
-        <TSLink></TSLink>
+        <TSLink>0</TSLink>
     </Item>
     <Item>
         <ObjectID>10280</ObjectID>
@@ -2661,7 +3003,7 @@
         <Vorto></Vorto>
         <DDFLink>1</DDFLink>
         <TS></TS>
-        <TSLink></TSLink>
+        <TSLink>0</TSLink>
     </Item>
     <Item>
         <ObjectID>10281</ObjectID>
@@ -2675,9 +3017,9 @@
         <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/10281.xml</DDF>
         <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F10281.xml</LWM2M>
         <Vorto></Vorto>
-        <DDFLink>2</DDFLink>
+        <DDFLink>1</DDFLink>
         <TS></TS>
-        <TSLink></TSLink>
+        <TSLink>0</TSLink>
     </Item>
     <Item>
         <ObjectID>10282</ObjectID>
@@ -2693,7 +3035,7 @@
         <Vorto></Vorto>
         <DDFLink>1</DDFLink>
         <TS></TS>
-        <TSLink></TSLink>
+        <TSLink>0</TSLink>
     </Item>
     <Item>
         <ObjectID>10283</ObjectID>
@@ -2709,7 +3051,7 @@
         <Vorto></Vorto>
         <DDFLink>1</DDFLink>
         <TS></TS>
-        <TSLink></TSLink>
+        <TSLink>0</TSLink>
     </Item>
     <Item>
         <ObjectID>10284</ObjectID>
@@ -2725,7 +3067,7 @@
         <Vorto></Vorto>
         <DDFLink>1</DDFLink>
         <TS></TS>
-        <TSLink></TSLink>
+        <TSLink>0</TSLink>
     </Item>
 
     <Item>
@@ -2742,7 +3084,7 @@
         <Vorto></Vorto>
         <DDFLink>1</DDFLink>
         <TS></TS>
-        <TSLink></TSLink>
+        <TSLink>0</TSLink>
     </Item>
     <Item>
         <ObjectID>10299</ObjectID>
@@ -2758,7 +3100,7 @@
         <Vorto></Vorto>
         <DDFLink>1</DDFLink>
         <TS></TS>
-        <TSLink></TSLink>
+        <TSLink>0</TSLink>
     </Item>
 
     <Item>
@@ -2773,8 +3115,8 @@
         <DDF></DDF>
         <LWM2M></LWM2M>
         <Vorto></Vorto>
-        <DDFLink></DDFLink>
+        <DDFLink>0</DDFLink>
         <TS></TS>
-        <TSLink></TSLink>
+        <TSLink>0</TSLink>
     </Item>
 </DDFList>
