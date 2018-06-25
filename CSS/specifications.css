@@ -18,6 +18,16 @@
         margin: 0;
     }
 
+        #releases-table > tbody > tr > td:nth-child(1) ul > li {
+            position: relative;
+            text-align: left;
+        }
+
+        #releases-table > tbody > tr > td:nth-child(1) div {
+            float: left;
+            margin: 5px 5px 5px 5px;
+        }
+
         #releases-table > tbody > tr > td ul > li {
             position: relative;
             text-align: center;
