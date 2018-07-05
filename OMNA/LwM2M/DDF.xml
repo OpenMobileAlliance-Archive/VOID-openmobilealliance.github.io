@@ -369,7 +369,7 @@
         <Name>CmdhPolicy</Name>
         <Description>This Object provides links to a set of rules associated with a specific CSE that governs the behavior 
             of that CSE regarding rejecting, buffering and sending request or response messages via the Mcc reference point.</Description>
-        <Owner>OneM2M</Owner>
+        <Owner>oneM2M</Owner>
         <Source>1</Source>
         <Ver>1.0</Ver>
         <DDF>http://www.openmobilealliance.org/tech/profiles/lwm2m/2048.xml</DDF>
@@ -385,7 +385,7 @@
         <URN>urn:oma:lwm2m:ext:2049</URN>
         <Name>ActiveCmdhPolicy</Name>
         <Description>This Object provides a link to the currently active set of CMDH policies</Description>
-        <Owner>OneM2M</Owner>
+        <Owner>oneM2M</Owner>
         <Source>1</Source>
 
         <Ver>1.0</Ver>
@@ -402,7 +402,7 @@
         <URN>urn:oma:lwm2m:ext:2050</URN>
         <Name>CmdhDefaults</Name>
         <Description>Defines which CMDH related parameters will be used by default.</Description>
-        <Owner>OneM2M</Owner>
+        <Owner>oneM2M</Owner>
         <Source>1</Source>
 
         <Ver>1.0</Ver>
@@ -420,7 +420,7 @@
         <URN>urn:oma:lwm2m:ext:2051</URN>
         <Name>CmdhDefEcValues</Name>
         <Description>This Object represents default set of values for the Event Category parameter of an incoming request or response message.</Description>
-        <Owner>OneM2M</Owner>
+        <Owner>oneM2M</Owner>
         <Source>1</Source>
 
         <Ver>1.0</Ver>
@@ -437,7 +437,7 @@
         <URN>urn:oma:lwm2m:ext:2052</URN>
         <Name>CmdhEcDefParamValues</Name>
         <Description>This Object represents a specific set of default values for the CMDH related parameters Request Expiration Timestamp, Result Expiration Timestamp, Operational Execution Time, Result Persistence and Delivery Aggregation that are applicable for a given Event Category if these parameters are not specified in the message.</Description>
-        <Owner>OneM2M</Owner>
+        <Owner>oneM2M</Owner>
         <Source>1</Source>
 
         <Ver>1.0</Ver>
@@ -454,7 +454,7 @@
         <URN>urn:oma:lwm2m:ext:2053</URN>
         <Name>CmdhLimits</Name>
         <Description>This Object represents limits for CMDH related parameter values.</Description>
-        <Owner>OneM2M</Owner>
+        <Owner>oneM2M</Owner>
         <Source>1</Source>
 
         <Ver>1.0</Ver>
@@ -471,7 +471,7 @@
         <URN>urn:oma:lwm2m:ext:2054</URN>
         <Name>CmdhNetworkAccessRules</Name>
         <Description>This Object defines the usage of underlying networks for forwarding information to other CSEs during processing of CMDH-related requests in a CSE.</Description>
-        <Owner>OneM2M</Owner>
+        <Owner>oneM2M</Owner>
         <Source>1</Source>
 
         <Ver>1.0</Ver>
@@ -488,7 +488,7 @@
         <URN>urn:oma:lwm2m:ext:2055</URN>
         <Name>CmdhNwAccessRule</Name>
         <Description>This Object defines limits in usage of specific underlying networks for forwarding information to other CSEs during processing of CMDH-related requests in a CSE.</Description>
-        <Owner>OneM2M</Owner>
+        <Owner>oneM2M</Owner>
         <Source>1</Source>
 
         <Ver>1.0</Ver>
@@ -506,7 +506,7 @@
         <URN>urn:oma:lwm2m:ext:2056</URN>
         <Name>CmdhBuffer</Name>
         <Description>This Object defines limits in usage of buffers for temporarily storing information that needs to be forwarded to other CSEs during processing of CMDH-related requests in a CSE.</Description>
-        <Owner>OneM2M</Owner>
+        <Owner>oneM2M</Owner>
         <Source>1</Source>
 
         <Ver>1.0</Ver>
@@ -522,7 +522,7 @@
         <URN>urn:oma:lwm2m:ext:2057</URN>
         <Name>CmdhBackOffParametersSet</Name>
         <Description>This Object defines set of parameters which can be referenced by a specific Instance of the CmdhNwAccessRule Object (ID: 2055)</Description>
-        <Owner>OneM2M</Owner>
+        <Owner>oneM2M</Owner>
         <Source>1</Source>
 
         <Ver>1.0</Ver>
@@ -3099,23 +3099,6 @@
         <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3A%2F%2Fwww.openmobilealliance.org%2Ftech%2Fprofiles%2flwm2m%2F10299.xml</LWM2M>
         <Vorto></Vorto>
         <DDFLink>1</DDFLink>
-        <TS></TS>
-        <TSLink>0</TSLink>
-    </Item>
-
-    <Item>
-        <ObjectID>10300</ObjectID>
-        <URN>urn:oma:lwm2m:x:10300</URN>
-        <Name>Pending</Name>
-        <Description>Pending</Description>
-        <Owner>Huawei</Owner>
-        <Source>2</Source>
-
-        <Ver>1.0</Ver>
-        <DDF></DDF>
-        <LWM2M></LWM2M>
-        <Vorto></Vorto>
-        <DDFLink>0</DDFLink>
         <TS></TS>
         <TSLink>0</TSLink>
     </Item>
