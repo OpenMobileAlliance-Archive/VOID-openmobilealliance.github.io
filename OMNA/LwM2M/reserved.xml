@@ -55,5 +55,10 @@
         <ObjectIDEndRange>33189</ObjectIDEndRange>
         <Company>Qualcomm</Company>
     </Item>
+         <Item>
+        <ObjectIDStartRange>33190</ObjectIDStartRange>
+        <ObjectIDEndRange>33204</ObjectIDEndRange>
+        <Company>Geoforce</Company>
+    </Item>
     
 </ReservedObjects>
