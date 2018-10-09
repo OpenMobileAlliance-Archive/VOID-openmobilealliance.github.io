@@ -196,17 +196,18 @@ These LwM2M Object Resources MUST only be changed by a LwM2M Bootstrap-Server or
         <ObjectID>8</ObjectID>
         <URN>urn:oma:lwm2m:oma:8</URN>
         <Name>Lock and Wipe</Name>
-        <Description>This LWM2M objects provides the resources needed to perform the lock and wipe operations</Description>
+        <Description>This LWM2M objects provides the resources needed to perform the lock and wipe operations.</Description>
         <Owner>OMA</Owner>
         <Source>0</Source>
         <Ver>1.0</Ver>
-        <DDF>http://www.openmobilealliance.org/tech/profiles/LWM2M_LOCKWIPE-v1_0.xml</DDF>
-        <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3a%2f%2fwww.openmobilealliance.org%2ftech%2fprofiles%2fLWM2M_LOCKWIPE-v1_0.xml</LWM2M>
+        <DDF>http://www.openmobilealliance.org/tech/profiles/LWM2M_LOCKWIPE-v1_0_1.xml</DDF>
+        <LWM2M>http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=http%3a%2f%2fwww.openmobilealliance.org%2ftech%2fprofiles%2fLWM2M_LOCKWIPE-v1_0_1.xml</LWM2M>
         <Vorto>http://vorto.eclipse.org/resolve/lwm2m/Object/ObjectID/8</Vorto>
         <DDFLink>1</DDFLink>
-        <TS>http://www.openmobilealliance.org/release/LWM2M_LOCKWIPE/V1_0-20180615-A/OMA-TS-LWM2M_LockWipe-V1_0-20180615-A.pdf</TS>
+        <TS>http://www.openmobilealliance.org/release/LWM2M_LOCKWIPE/V1_0_1-20181003-A/OMA-TS-LWM2M_LockWipe-V1_0-20180615-A.pdf</TS>
         <TSLink>1</TSLink>
     </Item>
+    
     <Item>
         <ObjectID>9</ObjectID>
         <URN>urn:oma:lwm2m:oma:9</URN>
