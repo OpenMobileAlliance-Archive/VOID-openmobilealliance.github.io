@@ -1608,7 +1608,7 @@
 
         <RangeEnumeration></RangeEnumeration>
 
-        <Units>s</Units>
+        <Units></Units>
 
         <Submitter>IPSO</Submitter>
 
@@ -3334,7 +3334,7 @@ Using values in range 0-127 is recommended to avoid ambiguities with byte order 
       
       <Item ID="6036">
 
-        <Name>rsrp</Name>
+        <Name>rsrq</Name>
 
          <Operations>R</Operations>
 
@@ -3398,16 +3398,28 @@ Using values in range 0-127 is recommended to avoid ambiguities with byte order 
 
       </Item>
       
+      <Item ID="6039">    
+        <Name>Altitude</Name>     
+        <Operations>R</Operations>     
+        <Type>Float</Type>
+        <RangeEnumeration></RangeEnumeration>
+        <Units>m</Units>
+        <Submitter>Vaisala</Submitter>
+        <Description><![CDATA[Altitude above sea level in meters.]]></Description>
+        <TS></TS>
+        <TSLink>0</TSLink>
+      </Item>
+      
       <Item ID="6040">    
-      <Name>Sample Frequency</Name>     
-      <Operations>RW</Operations>     
-      <Type>Float</Type>
-      <RangeEnumeration>0.0-86400.0</RangeEnumeration>
-      <Units>Seconds</Units>
-      <Submitter>South East Water Corporation</Submitter>
-      <Description>How often the inputs are read/sampled.This value can be changed by doing a write command</Description>
-      <TS></TS>
-      <TSLink>0</TSLink>
+        <Name>Sample Frequency</Name>     
+        <Operations>RW</Operations>     
+        <Type>Float</Type>
+        <RangeEnumeration>0.0-86400.0</RangeEnumeration>
+        <Units>Seconds</Units>
+        <Submitter>South East Water Corporation</Submitter>
+        <Description>How often the inputs are read/sampled.This value can be changed by doing a write command</Description>
+        <TS></TS>
+        <TSLink>0</TSLink>
       </Item>
 
     </Resources>
