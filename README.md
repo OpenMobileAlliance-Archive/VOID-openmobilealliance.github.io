@@ -39,7 +39,7 @@ Add additional notes about how to deploy this on a live system
 For running in a development environment just copy the repository to the hosting webserver and run:
 git checkout DEVMaster
 cd lwm2m-registry/
-git checkout DEVMaster
+git checkout dev
 
 
 ## Versioning
