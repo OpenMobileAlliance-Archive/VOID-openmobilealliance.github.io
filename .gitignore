@@ -1,6 +1,7 @@
 *.sublime-project
 *.sublime-workspace
 .vscode/
+.dsstore
 
 # Logs
 logs

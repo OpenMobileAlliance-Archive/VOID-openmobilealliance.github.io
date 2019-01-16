@@ -14,7 +14,7 @@
                 var objectID = $(this).find('ObjectID').text();
                 var ddfLink = $(this).find('DDFLink').text();
                 // var ddfURL = location.protocol + '//' + window.location.href.substring(0, window.location.href.lastIndexOf('/')) + '/lwm2m-registry/' + $(this).find('DDF').text();
-                var ddfURL = '../../lwm2m-registry/' + $(this).find('DDF').text();
+                var ddfURL = $(this).find('DDF').text();
                 var source = $(this).find('Source').text();
                 var tsLink = $(this).find('TSLink').text();
                 var tsURL = $(this).find('TS').text();
@@ -39,11 +39,11 @@
                         '</td>' +
                     // ObjectID / xml
                         '<td>' +
-                            ((ddfLink > 0) ? '<a href="' + ddfURL + '" title="download xml file">' + objectID + '</a>' : objectID) +
+                            ((ddfLink > 0) ? '<a href="' + '../../lwm2m-registry/' + ddfURL + '" title="download xml file">' + objectID + '</a>' : objectID) +
                         '</td>' +
                     // LwM2M Editor
                         '<td>' +
-                            ((ddfLink > 0) ? '<a href="http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=' + encodeURIComponent(ddfURL) + '" title="call the Editor">' + objectID + '</a>' : objectID) +
+                            ((ddfLink > 0) ? '<a href="http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=' + encodeURIComponent('https://www.openmobilealliance.org/wp/' + ddfURL) + '" title="call the Editor">' + objectID + '</a>' : objectID) +
                         '</td>' + 
                         '<td style="width:15%">' +
                             name +
@@ -62,6 +62,42 @@
                     '</tr>'
                 );
             });
+        },
+        error: function(xmlDoc) {
+            var $tableselectedArray = [$("#omaobjects_tbl"), $("#thirdpartyobjects_tbl"), $("#publicobjects_tbl")]
+
+
+            for (i = 0; i < tableselectedArray.length; i++) {
+                $tableselected[i].find('tbody').append(
+                    '<tr>' +
+                    // URN / Version
+                        '<td style="width: 143px">' +
+                            'Error: Unable to load document: ' + ddfXMLFileURL + 
+                        '</td>' +
+                    // ObjectID / xml
+                        '<td>' +
+                            'Error: Unable to load document: ' + ddfXMLFileURL + 
+                        '</td>' +
+                    // LwM2M Editor
+                        '<td>' +
+                            'Error: Unable to load document: ' + ddfXMLFileURL + 
+                        '</td>' + 
+                        '<td style="width:15%">' +
+                            'Error: Unable to load document: ' + ddfXMLFileURL + 
+                        '</td>' +
+                    // TS & Vorto links
+                        '<td style="width:10%; text-align: center">' +
+                            'Error: Unable to load document: ' + ddfXMLFileURL + 
+                        '</td>' + 
+                        '<td style="width:10%; text-align: center">' +
+                            'Error: Unable to load document: ' + ddfXMLFileURL + 
+                        '</td>' +
+                        '<td>' +
+                            'Error: Unable to load document: ' + ddfXMLFileURL + 
+                        '</td>' +
+                    '</tr>'
+                );
+            }
         }
     });
 
@@ -98,6 +134,19 @@
                     '</tr>'
                 );
             });
+        },
+        error: function (xmlDoc) {
+            var $tableselected = $('#reservedobjects_tbl');
+            $tableselected.find('tbody').append(
+                    '<tr>' +
+                        '<td>' +
+                            'Error: Unable to load document: ' + reservedXMLFileUrl + 
+                        '</td>' +
+                        '<td>' +
+                            'Error: Unable to load document: ' + reservedXMLFileUrl + 
+                        '</td>' +                        
+                    '</tr>'
+                );
         }
     });
 
@@ -164,6 +213,45 @@
                     '</tr>'
                 );
             });
+        },
+        Error: function() {
+            var $tableselected = $('#commonobjects_tbl');
+            $tableselected.find('tbody').append(
+                '<tr>' +
+                    '<td>' +
+                        'Error: Unable to load document: ' + commonXMLFileUrl + 
+                    '</td>' +
+                    '<td>' +
+                        'Error: Unable to load document: ' + commonXMLFileUrl + 
+                    '</td>' +
+                    '<td>' +
+                         'Error: Unable to load document: ' + commonXMLFileUrl + 
+                    '</td>' +
+                    // https://helpdesk.openmobilealliance.org/browse/OPEN-1694
+                    // Removed for ticket request
+                    //'<td>' +
+                    //    ((multipleInstance) ? multipleInstance : '-') +
+                    //'</td>' +
+                    //'<td>' +
+                    //    ((mandatory) ? mandatory : '-') +
+                    //'</td>' +
+                    '<td>' +
+                         'Error: Unable to load document: ' + commonXMLFileUrl + 
+                    '</td>' +
+                    '<td>' +
+                         'Error: Unable to load document: ' + commonXMLFileUrl + 
+                    '</td>' +
+                    '<td>' +
+                         'Error: Unable to load document: ' + commonXMLFileUrl + 
+                    '</td>' +
+                    '<td>' +
+                         'Error: Unable to load document: ' + commonXMLFileUrl + 
+                    '</td>' +
+                    '<td>' +
+                        'Error: Unable to load document: ' + commonXMLFileUrl + 
+                    '</td>' +
+                '</tr>'
+            );
         }
     });
 }
