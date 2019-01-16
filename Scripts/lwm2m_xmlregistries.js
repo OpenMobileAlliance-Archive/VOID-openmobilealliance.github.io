@@ -13,7 +13,7 @@
                 var urn = $(this).find('URN').text();
                 var objectID = $(this).find('ObjectID').text();
                 var ddfLink = $(this).find('DDFLink').text();
-                var ddfURL = $(this).find('DDF').text();
+                var ddfURL = '/lwm2m-registry/' + $(this).find('DDF').text();
                 var source = $(this).find('Source').text();
                 var tsLink = $(this).find('TSLink').text();
                 var tsURL = $(this).find('TS').text();
