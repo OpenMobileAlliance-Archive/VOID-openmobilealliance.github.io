@@ -1,0 +1,3 @@
+[submodule "lwm2m-registry"]
+	path = lwm2m-registry
+	url = https://github.com/OpenMobileAlliance/trial.git
