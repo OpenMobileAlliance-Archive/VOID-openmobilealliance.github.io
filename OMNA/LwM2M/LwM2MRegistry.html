@@ -21,7 +21,14 @@
             $('#header').load("../../header.html");
             $('#footer').load("../../footer.html");
             //$('#LwM2MObjects').load("LwM2MObjects.html", function () { SetUpExpandableTDs(); TablesWithRowspanStyleChanges(); });
-            DisplayXML('../../lwm2m-registry/DDF.xml', '../../lwm2m-registry/reserved.xml', '../../lwm2m-registry/Common.xml');
+            // For when using a clone Github repository as a submodule to get the DDF.xml file:
+            // DisplayXML('../../lwm2m-registry/DDF.xml', '../../lwm2m-registry/reserved.xml', '../../lwm2m-registry/Common.xml');
+            // For when using web server rewrite rules to rewrite /tech/profiles/lwm2m/DDF.xml to https://raw.githubusercontent.com/OpenMobileAlliance/trial/dev/DDF.xml
+            var $environmentURL = '';
+            if (window.location.host.startsWith('localhost')) {
+                $environmentURL = 'https://devwww.openmobilealliance.org/tech/profiles/lwm2m/';
+            }
+            DisplayXML($environmentURL + 'DDF.xml', $environmentURL + 'reserved.xml', $environmentURL + 'Common.xml');
             SetUpExpandableTDs();
             TablesWithRowspanStyleChanges();
         });

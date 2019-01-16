@@ -9,37 +9,37 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites
 
-This is an HTML and Javascript based project so can be deployed as such in a typical web server.
+This is an HTML and Javascript based project so can be deployed as such in a typical web server.  
 
 For development, npm and node are recommended
 
 
 ### Installing
 
-First clone the repository and the LwM2M submodule (which can be found here: https://github.com/OpenMobileAlliance/trial.git)
+First clone the repository and the LwM2M submodule (which can be found here: https://github.com/OpenMobileAlliance/trial.git)  
 
-git clone --recursive https://github.com/OpenMobileAlliance/openmobilealliance.github.io.git .
+git clone --recursive https://github.com/OpenMobileAlliance/openmobilealliance.github.io.git .  
 git submodule update --init --recursive
 
 
 ## Development
 
-For development purposes, run using:
+For development purposes, run using:  
 npm start
 
 
 ## Deployment
 
-For running in a production environment just copy the repository to the hosting webserver and run:
-git checkout master
-cd lwm2m-registry/
-git checkout master
-Add additional notes about how to deploy this on a live system
+For running in a production environment just copy the repository to the hosting webserver and run:  
+git checkout master  
+cd lwm2m-registry/  
+git checkout master  
+Add additional notes about how to deploy this on a live system  
 
-For running in a development environment just copy the repository to the hosting webserver and run:
-git checkout DEVMaster
-cd lwm2m-registry/
-git checkout dev
+For running in a development environment just copy the repository to the hosting webserver and run:  
+git checkout DEVMaster  
+cd lwm2m-registry/  
+git checkout dev  
 
 
 ## Versioning
@@ -48,9 +48,9 @@ We use [SemVer](http://semver.org/) for versioning. For the versions available, 
 
 ## Authors
 
-* **Nathan Dixon** - *Initial work* - [OpenMobileAlliance](https://github.com/OpenMobileAlliance)
+* **Nathan Dixon** - *Initial work* - [OpenMobileAlliance](https://github.com/OpenMobileAlliance)  
 
-See also the list of [contributors](https://github.com/OpenMobileAlliance/openmobilealliance.github.io/contributors) who participated in this project.
+See also the list of [contributors](https://github.com/OpenMobileAlliance/openmobilealliance.github.io/contributors) who participated in this project.  
 
 ## License
 

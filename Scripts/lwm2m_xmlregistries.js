@@ -1,5 +1,15 @@
 ﻿function DisplayXML(ddfXMLFileURL, reservedXMLFileUrl, commonXMLFileUrl) {
     // Load the DDF.xml data and fill in the OMA Objects, 3rd Party Objects and Individuals Objects tables
+    
+    // Get the working path of the repository for the relevant DDF
+    //var urlPath = ddfXMLFileURL.substring(0, ddfXMLFileURL.lastIndexOf('/')) + "/";
+    var urlPath = '';
+    var urlPathArray = ddfXMLFileURL.split('/');
+    for (i = 0; i < urlPathArray.length - 2; i++) {
+      urlPath += urlPathArray[i];
+      urlPath += "/";
+    }
+
     $.ajax({
         type: "GET",
         async: false,
@@ -23,12 +33,15 @@
                 var vortoLink = $(this).find('Vorto').text();
                 var description = $(this).find('Description').text();
 
-                if (source.replace(/\s/g,'') === "" || source === "0") {
+                if (source.replace(/\s/g,'') === "" || source === "0") { //OMA Objects
                     var $tableselected = $("#omaobjects_tbl");
+                    ddfURL = urlPath + ddfURL;
                 } else if (source === "1") {
                     var $tableselected = $("#thirdpartyobjects_tbl");
+                    ddfURL = urlPath + 'lwm2m/' + ddfURL;
                 } else if (source === "2") {
                     var $tableselected = $("#publicobjects_tbl");
+                    ddfURL = urlPath + 'lwm2m/' + ddfURL;
                 }
 
                 $tableselected.find('tbody').append(
@@ -39,11 +52,11 @@
                         '</td>' +
                     // ObjectID / xml
                         '<td>' +
-                            ((ddfLink > 0) ? '<a href="' + '../../lwm2m-registry/' + ddfURL + '" title="download xml file">' + objectID + '</a>' : objectID) +
+                            ((ddfLink > 0) ? '<a href="' + ddfURL + '" title="download xml file">' + objectID + '</a>' : objectID) +
                         '</td>' +
                     // LwM2M Editor
                         '<td>' +
-                            ((ddfLink > 0) ? '<a href="http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=' + encodeURIComponent('https://www.openmobilealliance.org/wp/' + ddfURL) + '" title="call the Editor">' + objectID + '</a>' : objectID) +
+                            ((ddfLink > 0) ? '<a href="http://devtoolkit.openmobilealliance.org/OEditor/LWMOView?url=' + encodeURIComponent(ddfURL) + '" title="call the Editor">' + objectID + '</a>' : objectID) +
                         '</td>' + 
                         '<td style="width:15%">' +
                             name +
