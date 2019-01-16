@@ -18,7 +18,7 @@ For development, npm and node are recommended
 
 First clone the repository and the LwM2M submodule (which can be found here: https://github.com/OpenMobileAlliance/trial.git)
 
-git clone --recursive https://github.com/OpenMobileAlliance/openmobilealliance.github.io.git 
+git clone --recursive https://github.com/OpenMobileAlliance/openmobilealliance.github.io.git .
 git submodule update --init --recursive
 
 
