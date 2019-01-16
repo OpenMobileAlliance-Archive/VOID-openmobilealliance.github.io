@@ -67,8 +67,8 @@
             var $tableselectedArray = [$("#omaobjects_tbl"), $("#thirdpartyobjects_tbl"), $("#publicobjects_tbl")]
 
 
-            for (i = 0; i < tableselectedArray.length; i++) {
-                $tableselected[i].find('tbody').append(
+            for (i = 0; i < $tableselectedArray.length; i++) {
+                $tableselectedArray[i].find('tbody').append(
                     '<tr>' +
                     // URN / Version
                         '<td style="width: 143px">' +
