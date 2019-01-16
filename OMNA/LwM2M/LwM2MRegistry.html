@@ -27,6 +27,8 @@
             var $environmentURL = '';
             if (window.location.host.startsWith('localhost')) {
                 $environmentURL = 'https://devwww.openmobilealliance.org/tech/profiles/lwm2m/';
+            } else {
+                $environmentURL = '/tech/profiles/lwm2m/'; // It's running on OMA server setup with URL rewriting to Github repository for DDF.xml, etc
             }
             DisplayXML($environmentURL + 'DDF.xml', $environmentURL + 'reserved.xml', $environmentURL + 'Common.xml');
             SetUpExpandableTDs();

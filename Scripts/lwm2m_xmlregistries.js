@@ -5,10 +5,12 @@
     //var urlPath = ddfXMLFileURL.substring(0, ddfXMLFileURL.lastIndexOf('/')) + "/";
     var urlPath = '';
     var urlPathArray = ddfXMLFileURL.split('/');
-    for (i = 0; i < urlPathArray.length - 2; i++) {
-      urlPath += urlPathArray[i];
-      urlPath += "/";
-    }
+    if (urlPathArray[0].startsWith('http')) {
+        for (i = 0; i < urlPathArray.length - 2; i++) {
+          urlPath += urlPathArray[i];
+          urlPath += "/";
+        }
+    };
 
     $.ajax({
         type: "GET",
