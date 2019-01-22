@@ -18,9 +18,11 @@
     "url": "https://github.com/OpenMobileAlliance/openmobilealliance.github.io/issues"
   },
   "homepage": "https://github.com/OpenMobileAlliance/openmobilealliance.github.io#readme",
+  "dependencies": {
+  },
   "devDependencies": {
-    "jshint": "^2.9.4",
     "concurrently": "^2.0.0",
-    "lite-server": "^2.2.0"
+    "jshint": "^2.9.7",
+    "lite-server": "^2.4.0"
   }
 }
