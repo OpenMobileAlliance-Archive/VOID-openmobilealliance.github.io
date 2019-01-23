@@ -10,8 +10,6 @@
           urlPath += urlPathArray[i];
           urlPath += "/";
         }
-    } else {
-        ddfXMLFileURL = "Path for DDF.xml is wrong. It should be a full web URL beginning with HTTP or HTTPS";
     };
 
     $.ajax({
