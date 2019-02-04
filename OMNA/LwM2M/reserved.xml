@@ -65,5 +65,10 @@
         <ObjectIDEndRange>33254</ObjectIDEndRange>
         <Company>Telit</Company>
     </Item>
+       <Item>
+        <ObjectIDStartRange>33255</ObjectIDStartRange>
+        <ObjectIDEndRange>33304</ObjectIDEndRange>
+        <Company>Altair Semiconductors</Company>
+    </Item>
     
 </ReservedObjects>
