@@ -55,20 +55,25 @@
         <ObjectIDEndRange>33189</ObjectIDEndRange>
         <Company>Qualcomm</Company>
     </Item>
-         <Item>
+    <Item>
         <ObjectIDStartRange>33190</ObjectIDStartRange>
         <ObjectIDEndRange>33204</ObjectIDEndRange>
         <Company>Geoforce</Company>
     </Item>
-        <Item>
+    <Item>
         <ObjectIDStartRange>33205</ObjectIDStartRange>
         <ObjectIDEndRange>33254</ObjectIDEndRange>
         <Company>Telit</Company>
     </Item>
-       <Item>
+    <Item>
         <ObjectIDStartRange>33255</ObjectIDStartRange>
         <ObjectIDEndRange>33304</ObjectIDEndRange>
         <Company>Altair Semiconductors</Company>
+    </Item>
+    <Item>
+        <ObjectIDStartRange>33305</ObjectIDStartRange>
+        <ObjectIDEndRange>33354</ObjectIDEndRange>
+        <Company>Sensus</Company>
     </Item>
     
 </ReservedObjects>
