@@ -1,3 +1,0 @@
-Testing pull task
-reference to PROD: www.openmobilealliance.org/wp
-devtoolkit.openmobilealliance.org
