@@ -26,7 +26,7 @@
             // For when using web server rewrite rules to rewrite /tech/profiles/lwm2m/DDF.xml to https://raw.githubusercontent.com/OpenMobileAlliance/trial/dev/DDF.xml
             var $environmentURL = '';
             if (window.location.host.startsWith('localhost')) {
-                $environmentURL = 'https://devwww.openmobilealliance.org/tech/profiles/lwm2m/';
+                $environmentURL = 'https://testwww.openmobilealliance.org/tech/profiles/lwm2m/';
             } else {
                 $environmentURL = window.location.protocol + "//" + window.location.host + '/tech/profiles/lwm2m/'; // It's running on OMA server setup with URL rewriting to Github repository for DDF.xml, etc
             }

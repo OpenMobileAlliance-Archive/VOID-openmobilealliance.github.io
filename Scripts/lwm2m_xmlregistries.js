@@ -37,14 +37,19 @@
                 var vortoLink = $(this).find('Vorto').text();
                 var description = $(this).find('Description').text();
 
-                if (source.replace(/\s/g,'') === "" || source === "0") { //OMA Objects
-                    var $tableselected = $("#omaobjects_tbl");
+                var splitURN = urn.split(":");
+                var urnSource = splitURN[3];
+
+                var $tableselected
+
+                if (!urnSource || urnSource === "oma") { //OMA Objects
+                    $tableselected = $("#omaobjects_tbl");
                     ddfURL = urlPath + ddfURL;
-                } else if (source === "1") {
-                    var $tableselected = $("#thirdpartyobjects_tbl");
+                } else if (urnSource === "ext") {
+                    $tableselected = $("#thirdpartyobjects_tbl");
                     ddfURL = urlPath + 'lwm2m/' + ddfURL;
-                } else if (source === "2") {
-                    var $tableselected = $("#publicobjects_tbl");
+                } else if (urnSource === "x") {
+                    $tableselected = $("#publicobjects_tbl");
                     ddfURL = urlPath + 'lwm2m/' + ddfURL;
                 }
 
