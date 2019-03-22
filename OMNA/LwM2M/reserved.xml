@@ -65,5 +65,11 @@
         <ObjectIDEndRange>33254</ObjectIDEndRange>
         <Company>Telit</Company>
     </Item>
+        </Item>
+        <Item>
+        <ObjectIDStartRange>33255</ObjectIDStartRange>
+        <ObjectIDEndRange>33304</ObjectIDEndRange>
+        <Company>Neopis co., ltd.</Company>
+    </Item>
     
 </ReservedObjects>
