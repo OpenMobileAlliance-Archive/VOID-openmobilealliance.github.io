@@ -51,9 +51,6 @@
                         '<td style="width:10%; text-align: center">' +
                             ((tsLink > 0) ? '<a href="' + tsURL + '" title="download document">' + '<img src="../../Images/Windows_download.gif" alt="Download TS"></img>' + '</a>' : '-') +
                         '</td>' + 
-                        '<td style="width:10%; text-align: center">' +
-                            ((vortoLink) ? '<a href ="' + vortoLink + '" target="_blank">' + '<img src="http://vorto.eclipse.org/images/favicon.png" alt="Vorto Link"></img>' + '</a>' : '-') +
-                        '</td>' +
                         ((source === "1" || source === "2") ? '<td>' + owner + '</td>' : '') +
                         '<td>' +
                             '<p>' + description + '</p>' +
