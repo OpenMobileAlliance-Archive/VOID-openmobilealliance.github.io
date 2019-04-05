@@ -21,6 +21,20 @@
             $('#header').load("../../header.html");
             $('#footer').load("../../footer.html");
             //$('#LwM2MObjects').load("LwM2MObjects.html", function () { SetUpExpandableTDs(); TablesWithRowspanStyleChanges(); });
+<<<<<<< HEAD
+            DisplayXML('./DDF.xml', './reserved.xml', './Common.xml');
+||||||| merged common ancestors
+            // For when using a clone Github repository as a submodule to get the DDF.xml file:
+            // DisplayXML('../../lwm2m-registry/DDF.xml', '../../lwm2m-registry/reserved.xml', '../../lwm2m-registry/Common.xml');
+            // For when using web server rewrite rules to rewrite /tech/profiles/lwm2m/DDF.xml to https://raw.githubusercontent.com/OpenMobileAlliance/trial/dev/DDF.xml
+            var $environmentURL = '';
+            if (window.location.host.startsWith('localhost')) {
+                $environmentURL = 'https://devwww.openmobilealliance.org/tech/profiles/lwm2m/';
+            } else {
+                $environmentURL = window.location.protocol + "//" + window.location.host + '/tech/profiles/lwm2m/'; // It's running on OMA server setup with URL rewriting to Github repository for DDF.xml, etc
+            }
+            DisplayXML($environmentURL + 'DDF.xml', $environmentURL + 'reserved.xml', $environmentURL + 'Common.xml');
+=======
             // For when using a clone Github repository as a submodule to get the DDF.xml file:
             // DisplayXML('../../lwm2m-registry/DDF.xml', '../../lwm2m-registry/reserved.xml', '../../lwm2m-registry/Common.xml');
             // For when using web server rewrite rules to rewrite /tech/profiles/lwm2m/DDF.xml to https://raw.githubusercontent.com/OpenMobileAlliance/trial/dev/DDF.xml
@@ -31,6 +45,7 @@
                 $environmentURL = window.location.protocol + "//" + window.location.host + '/tech/profiles/lwm2m/'; // It's running on OMA server setup with URL rewriting to Github repository for DDF.xml, etc
             }
             DisplayXML($environmentURL + 'DDF.xml', $environmentURL + 'reserved.xml', $environmentURL + 'Common.xml');
+>>>>>>> 96ddcec3bd1494312c1303cbf5589bf013b4cbee
             SetUpExpandableTDs();
             TablesWithRowspanStyleChanges();
         });
