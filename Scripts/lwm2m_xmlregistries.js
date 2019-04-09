@@ -106,9 +106,6 @@
                         '<td style="width:10%; text-align: center">' +
                             'Error: Unable to load document: ' + ddfXMLFileURL + 
                         '</td>' + 
-                        '<td style="width:10%; text-align: center">' +
-                            'Error: Unable to load document: ' + ddfXMLFileURL + 
-                        '</td>' +
                         '<td>' +
                             'Error: Unable to load document: ' + ddfXMLFileURL + 
                         '</td>' +
