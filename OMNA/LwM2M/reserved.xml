@@ -85,5 +85,10 @@
         <ObjectIDEndRange>33454</ObjectIDEndRange>
         <Company>Sierra Wireless</Company>
     </Item>
+        <Item>
+        <ObjectIDStartRange>33455</ObjectIDStartRange>
+        <ObjectIDEndRange>33504</ObjectIDEndRange>
+        <Company>ARM</Company>
+    </Item>
     
 </ReservedObjects>
