@@ -19,7 +19,6 @@
                 var tsURL = $(this).find('TS').text();
                 var name = $(this).find('Name').text();
                 var owner = $(this).find('Owner').text();
-                var vortoLink = $(this).find('Vorto').text();
                 var description = $(this).find('Description').text();
 
                 if (source.replace(/\s/g,'') === "" || source === "0") {
@@ -51,9 +50,6 @@
                         '<td style="width:10%; text-align: center">' +
                             ((tsLink > 0) ? '<a href="' + tsURL + '" title="download document">' + '<img src="../../Images/Windows_download.gif" alt="Download TS"></img>' + '</a>' : '-') +
                         '</td>' + 
-                        '<td style="width:10%; text-align: center">' +
-                            ((vortoLink) ? '<a href ="' + vortoLink + '" target="_blank">' + '<img src="http://vorto.eclipse.org/favicon.ico" alt="Vorto Link"></img>' + '</a>' : '-') +
-                        '</td>' +
                         ((source === "1" || source === "2") ? '<td>' + owner + '</td>' : '') +
                         '<td>' +
                             '<p>' + description + '</p>' +
