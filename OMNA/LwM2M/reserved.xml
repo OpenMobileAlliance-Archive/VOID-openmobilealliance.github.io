@@ -90,5 +90,10 @@
         <ObjectIDEndRange>33504</ObjectIDEndRange>
         <Company>ARM</Company>
     </Item>
+        <Item>
+        <ObjectIDStartRange>33505</ObjectIDStartRange>
+        <ObjectIDEndRange>33554</ObjectIDEndRange>
+        <Company>Verizon</Company>
+    </Item>
     
 </ReservedObjects>
