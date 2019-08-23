@@ -100,5 +100,10 @@
         <ObjectIDEndRange>33604</ObjectIDEndRange>
         <Company>Treon</Company>
     </Item>
+        <Item>
+        <ObjectIDStartRange>33605</ObjectIDStartRange>
+        <ObjectIDEndRange>33654</ObjectIDEndRange>
+        <Company>AVSystem</Company>
+    </Item>
     
 </ReservedObjects>
