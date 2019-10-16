@@ -105,5 +105,10 @@
         <ObjectIDEndRange>33654</ObjectIDEndRange>
         <Company>AVSystem</Company>
     </Item>
+        <Item>
+        <ObjectIDStartRange>33655</ObjectIDStartRange>
+        <ObjectIDEndRange>33704</ObjectIDEndRange>
+        <Company>U-Blox</Company>
+    </Item>
     
 </ReservedObjects>
