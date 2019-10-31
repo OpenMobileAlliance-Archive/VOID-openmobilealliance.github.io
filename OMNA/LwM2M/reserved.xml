@@ -110,5 +110,10 @@
         <ObjectIDEndRange>33704</ObjectIDEndRange>
         <Company>U-Blox</Company>
     </Item>
+        <Item>
+        <ObjectIDStartRange>33705</ObjectIDStartRange>
+        <ObjectIDEndRange>33754</ObjectIDEndRange>
+        <Company>Airbus</Company>
+    </Item>
     
 </ReservedObjects>
