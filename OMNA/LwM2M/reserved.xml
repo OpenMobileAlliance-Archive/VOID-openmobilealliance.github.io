@@ -115,5 +115,10 @@
         <ObjectIDEndRange>33754</ObjectIDEndRange>
         <Company>Airbus</Company>
     </Item>
+       <Item>
+        <ObjectIDStartRange>33755</ObjectIDStartRange>
+        <ObjectIDEndRange>33804</ObjectIDEndRange>
+        <Company>MikroTik</Company>
+    </Item>
     
 </ReservedObjects>
