@@ -126,5 +126,10 @@
         <ObjectIDEndRange>33854</ObjectIDEndRange>
         <Company>Cree Lighting</Company>
     </Item>
+     <Item>
+        <ObjectIDStartRange>33855</ObjectIDStartRange>
+        <ObjectIDEndRange>33904</ObjectIDEndRange>
+        <Company>Endian Technologies AB</Company>
+    </Item>
     
 </ReservedObjects>
