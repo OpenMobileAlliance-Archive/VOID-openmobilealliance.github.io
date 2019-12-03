@@ -131,5 +131,10 @@
         <ObjectIDEndRange>33904</ObjectIDEndRange>
         <Company>Endian Technologies AB</Company>
     </Item>
+    <Item>
+        <ObjectIDStartRange>33905</ObjectIDStartRange>
+        <ObjectIDEndRange>33954</ObjectIDEndRange>
+        <Company>Elvaco AB</Company>
+    </Item>
     
 </ReservedObjects>
