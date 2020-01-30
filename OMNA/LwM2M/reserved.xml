@@ -136,5 +136,9 @@
         <ObjectIDEndRange>33954</ObjectIDEndRange>
         <Company>Elvaco AB</Company>
     </Item>
-    
+    <Item>
+        <ObjectIDStartRange>33955</ObjectIDStartRange>
+        <ObjectIDEndRange>33969</ObjectIDEndRange>
+        <Company>DGT SP. Z O.O</Company>
+    </Item>
 </ReservedObjects>
