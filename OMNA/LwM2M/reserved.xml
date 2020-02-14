@@ -141,4 +141,9 @@
         <ObjectIDEndRange>33969</ObjectIDEndRange>
         <Company>DGT SP. Z O.O</Company>
     </Item>
+        <Item>
+        <ObjectIDStartRange>33970</ObjectIDStartRange>
+        <ObjectIDEndRange>34019</ObjectIDEndRange>
+        <Company>Storopack</Company>
+    </Item>
 </ReservedObjects>
