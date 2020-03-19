@@ -146,4 +146,9 @@
         <ObjectIDEndRange>34019</ObjectIDEndRange>
         <Company>Storopack</Company>
     </Item>
+    <Item>
+        <ObjectIDStartRange>34020</ObjectIDStartRange>
+        <ObjectIDEndRange>34069</ObjectIDEndRange>
+        <Company>Murata</Company>
+    </Item>
 </ReservedObjects>
