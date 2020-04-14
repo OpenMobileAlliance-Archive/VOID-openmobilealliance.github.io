@@ -151,4 +151,9 @@
         <ObjectIDEndRange>34069</ObjectIDEndRange>
         <Company>Murata</Company>
     </Item>
+        <Item>
+        <ObjectIDStartRange>34070</ObjectIDStartRange>
+        <ObjectIDEndRange>34119</ObjectIDEndRange>
+        <Company>LEHE Information Technology Co.,Ltd</Company>
+    </Item>
 </ReservedObjects>
