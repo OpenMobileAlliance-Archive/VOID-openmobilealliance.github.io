@@ -70,7 +70,9 @@
         Release/Branch:&nbsp;
     </span>
     <span>
-        <select id="branch-selector-dd" onchange="DisplayXML(`${this.value}/DDF.xml`,'./reserved.xml',`${this.value}/Common.xml`)">
+        <select id="branch-selector-dd" onchange="DisplayXML(`${this.value}/DDF.xml`,'./reserved.xml',`${this.value}/Common.xml`); 
+        SetUpExpandableTDs();
+        TablesWithRowspanStyleChanges();">
             <option value="" disabled >Select a branch/tag</option>
         </select>
     </span>

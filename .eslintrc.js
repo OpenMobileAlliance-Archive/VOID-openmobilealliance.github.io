@@ -10,7 +10,7 @@ module.exports = {
     ecmaVersion: 11,
     project: 'tsconfig.json',
   },
-  rules: { 'no-unused-vars': 'off' },
+  rules: { 'no-unused-vars': 'off', 'no-use-before-define': 'off' },
 
   // rules: {},
 };
