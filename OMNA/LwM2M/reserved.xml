@@ -103,5 +103,61 @@
         <ObjectIDEndRange>33654</ObjectIDEndRange>
         <Company>AVSystem</Company>
     </Item>
+    <Item>
+        <ObjectIDStartRange>33655</ObjectIDStartRange>
+        <ObjectIDEndRange>33704</ObjectIDEndRange>
+        <Company>U-Blox</Company>
+    </Item>
+    <Item>
+        <ObjectIDStartRange>33705</ObjectIDStartRange>
+        <ObjectIDEndRange>33754</ObjectIDEndRange>
+        <Company>Airbus</Company>
+    </Item>
+    <Item>
+        <ObjectIDStartRange>33755</ObjectIDStartRange>
+        <ObjectIDEndRange>33804</ObjectIDEndRange>
+        <Company>MikroTik</Company>
+    </Item>
+
+    <Item>
+        <ObjectIDStartRange>33805</ObjectIDStartRange>
+        <ObjectIDEndRange>33854</ObjectIDEndRange>
+        <Company>Cree Lighting</Company>
+    </Item>
+    <Item>
+        <ObjectIDStartRange>33855</ObjectIDStartRange>
+        <ObjectIDEndRange>33904</ObjectIDEndRange>
+        <Company>Endian Technologies AB</Company>
+    </Item>
+    <Item>
+        <ObjectIDStartRange>33905</ObjectIDStartRange>
+        <ObjectIDEndRange>33954</ObjectIDEndRange>
+        <Company>Elvaco AB</Company>
+    </Item>
+    <Item>
+        <ObjectIDStartRange>33955</ObjectIDStartRange>
+        <ObjectIDEndRange>33969</ObjectIDEndRange>
+        <Company>DGT SP. Z O.O</Company>
+    </Item>
+    <Item>
+        <ObjectIDStartRange>33970</ObjectIDStartRange>
+        <ObjectIDEndRange>34019</ObjectIDEndRange>
+        <Company>Storopack</Company>
+    </Item>
+    <Item>
+        <ObjectIDStartRange>34020</ObjectIDStartRange>
+        <ObjectIDEndRange>34069</ObjectIDEndRange>
+        <Company>Murata</Company>
+    </Item>
+    <Item>
+        <ObjectIDStartRange>34070</ObjectIDStartRange>
+        <ObjectIDEndRange>34119</ObjectIDEndRange>
+        <Company>LEHE Information Technology Co.,Ltd</Company>
+    </Item>
+    <Item>
+        <ObjectIDStartRange>34120</ObjectIDStartRange>
+        <ObjectIDEndRange>34129</ObjectIDEndRange>
+        <Company>VOI Technologies AB</Company>
+    </Item>
 
 </ReservedObjects>
