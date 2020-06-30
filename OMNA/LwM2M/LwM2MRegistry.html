@@ -21,8 +21,13 @@
     <script src="../../Scripts/getRepositoryInfo.js"></script>
     <script>
         $(document).ready(function () {
-            var owner = config.owner;
-            var repo = config.repo;
+            const owner = config.owner;
+            const repo = config.repo;
+            const productionBranchName = config.productionBranchName;
+            const testBranchName = config.testBranchName;
+            const devBranchName = config.devBranchName;
+            const testUrlPrefix = config.testUrlPrefix;
+            const devUrlPrefix = config.devUrlPrefix;
 
             $('#header').load("../../header.html");
             $('#footer').load("../../footer.html");
@@ -31,18 +36,18 @@
             // DisplayXML('../../lwm2m-registry/DDF.xml', '../../lwm2m-registry/reserved.xml', '../../lwm2m-registry/Common.xml');
             // For when using web server rewrite rules to rewrite /tech/profiles/lwm2m/DDF.xml to https://raw.githubusercontent.com/OpenMobileAlliance/trial/dev/DDF.xml
             var environmentUrl = '';
-            var branchName = 'prod';
+            var branchName = productionBranchName;
 
-            if (window.location.host.startsWith('localhost')) {
+            if (window.location.host.startsWith(devUrlPrefix)) {
                 // $environmentURL = 'https://testwww.openmobilealliance.org/tech/profiles/lwm2m/';
-                branchName = 'test';
+                branchName = devBranchName;
                 environmentUrl = `https://raw.githubusercontent.com/${owner}/${repo}/${branchName}`;
-            } else if (window.location.host.startsWith('test')) {
+            } else if (window.location.host.startsWith(testUrlPrefix)) {
                 // $environmentURL = window.location.protocol + "//" + window.location.host + '/tech/profiles/lwm2m/'; // It's running on OMA server setup with URL rewriting to Github repository for DDF.xml, etc
-                branchName = 'test';
+                branchName = testBranchName;
                 environmentUrl = `https://raw.githubusercontent.com/${owner}/${repo}/${branchName}`;
             } else {
-                branchName = 'prod';
+                branchName = productionBranchName;
                 environmentUrl = `https://raw.githubusercontent.com/${owner}/${repo}/${branchName}`;
 
                 // If production then remove the branch/tag selector
