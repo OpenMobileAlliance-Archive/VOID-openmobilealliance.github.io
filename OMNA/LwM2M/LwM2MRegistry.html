@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
     <!-- Font awesome for arrows -->
-    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
     <!-- Normalize CSS -->
     <link rel="stylesheet" href="../../CSS/Normalize.css" />
     <!-- Latest compiled and minified CSS -->
@@ -26,11 +26,11 @@
             // For when using web server rewrite rules to rewrite /tech/profiles/lwm2m/DDF.xml to https://raw.githubusercontent.com/OpenMobileAlliance/trial/dev/DDF.xml
             var $environmentURL = '';
             if (window.location.host.startsWith('localhost')) {
-                $environmentURL = 'https://devwww.openmobilealliance.org/tech/profiles/lwm2m/';
+                $environmentURL = 'https://testwww.openmobilealliance.org/tech/profiles/lwm2m/';
             } else {
                 $environmentURL = window.location.protocol + "//" + window.location.host + '/tech/profiles/lwm2m/'; // It's running on OMA server setup with URL rewriting to Github repository for DDF.xml, etc
             }
-            DisplayXML($environmentURL + 'DDF.xml', $environmentURL + 'reserved.xml', $environmentURL + 'Common.xml');
+            DisplayXML($environmentURL + 'DDF.xml', './reserved.xml', $environmentURL + 'Common.xml');
             SetUpExpandableTDs();
             TablesWithRowspanStyleChanges();
         });
@@ -54,13 +54,20 @@
                 <ul>
                     <li>The LwM2M Editor can be accessed here: <a target="_blank" href="http://devtoolkit.openmobilealliance.org/OEditor/">Editor.</a></li>
                     <li>The XML schemas used by the LwM2M Editor can be found here: <a target="_blank" href="http://www.openmobilealliance.org/tech/profiles/LWM2M.xsd">LWM2M.xsd</a> and <a target="_blank" href="http://www.openmobilealliance.org/tech/profiles/LWM2M-v1_1.xsd">LWM2M-v1_1.xsd</a></li>
-                    <li>The OMA Guidelines for the Creation and Registration of LwM2M Objects Resources can be found here: <a target="_blank" href="/documents/whitepapers/OMA-ORG-Guidelines_Creation_Registration_LwM2M_Objects_Resources-V1_0-20180209-A.pdf">Guidelines</a></li>
+                    <li>The OMA Guidelines for the Creation and Registration of LwM2M Objects & Resources can be found here: <a target="_blank" href="https://github.com/OpenMobileAlliance/lwm2m-registry/wiki/Guidelines">Guidelines</a></li>
                     <li>Introduction to LightweightM2M can be found here: <a target="_blank" href="https://wiki.openmobilealliance.org/display/TOOL/Introduction+to+LightweightM2M">Introduction</a></li>
                     <li>Best Practices for LwM2m can be found here: <a target="_blank" href="https://wiki.openmobilealliance.org/display/TOOL/LwM2M+Best+Practice">Best Practice</a></li>
                     <li>LwM2M Registry API: <a target="_blank" href="https://wiki.openmobilealliance.org/display/TOOL/Registry+API">LwM2M Registry API</a></li>
                 </ul>
             </p>
             <p>The official publication of OMA LwM2M Objects and Resources is this page. However, the registration process is done via GitHub at: <a title="GitHub repository" href="https://github.com/OpenMobileAlliance/lwm2m-registry" target="_blank">lwm2m-registry</a>. IPSO Working Group, will review your registration. You can interact with this group via <a title="GitHub Issues" href="https://github.com/OpenMobileAlliance/lwm2m-registry/issues" target="_blank"> lwm2m-registry Issues</a>. </p>
+            <p>The Vorto Project is an Eclipse Foundation open source initiative that aims to help compile and manage abstract device descriptions (information models). The scope includes:</p>
+                <ul>
+                    <li>Vorto Repository - an open platform where information models are shared</li>
+                    <li>Vorto Domain Specific Language and editor - used to describe information models</li>
+                    <li>SDK - helps reduce development time</li>
+                </ul>
+            <p><a target="_blank" href="https://vorto.eclipse.org/#/?s=com.ipso.smartobjects">OMA SpecWorks IPSO Vorto models</a></p>
         </div>
         <div>
             <h2>
@@ -250,7 +257,6 @@
                         <th>LwM2M Editor</th>
                         <th>Object Name</th>
                         <th>Technical Specification</th>
-                        <th><a href="http://vorto.eclipse.org" target="_blank">Eclipse Vorto Link</a></th>
                         <th>Description</th>
                     </tr>
                 </thead>
@@ -271,13 +277,13 @@
                         <th>LwM2M Editor</th>
                         <th>Object Name</th>
                         <th>Technical Specification</th>
-                        <th><a href="http://vorto.eclipse.org" target="_blank">Eclipse Vorto Link</a></th>
                         <th>Owner</th>
                         <th>Description</th>
                     </tr>
                 </thead>
                 <tbody></tbody>
                 <caption>
+                    Note: ext-label Object ID Range 3500 to 3599 reserved<br /> 
                     <a title="click here to register a new (ext-label) Object ID" href="http://devtoolkit.openmobilealliance.org/OEditor/Register">Register a new Object produced by a 3rd party SDO (Standards Development Organization).</a>
                 </caption>
             </table>
@@ -295,7 +301,6 @@
                         <th>LwM2M Editor</th>
                         <th>Object Name</th>
                         <th>Technical Specification</th>
-                        <th><a href="http://vorto.eclipse.org" target="_blank">Eclipse Vorto Link</a></th>
                         <th>Company</th>
                         <th>Description - Objects Produced by Vendors</th>
                     </tr>

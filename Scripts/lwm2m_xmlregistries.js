@@ -29,22 +29,25 @@
                 var ddfLink = $(this).find('DDFLink').text();
                 // var ddfURL = location.protocol + '//' + window.location.href.substring(0, window.location.href.lastIndexOf('/')) + '/lwm2m-registry/' + $(this).find('DDF').text();
                 var ddfURL = $(this).find('DDF').text();
-                var source = $(this).find('Source').text();
                 var tsLink = $(this).find('TSLink').text();
                 var tsURL = $(this).find('TS').text();
                 var name = $(this).find('Name').text();
                 var owner = $(this).find('Owner').text();
-                var vortoLink = $(this).find('Vorto').text();
                 var description = $(this).find('Description').text();
 
-                if (source.replace(/\s/g,'') === "" || source === "0") { //OMA Objects
-                    var $tableselected = $("#omaobjects_tbl");
+                var splitURN = urn.split(":");
+                var urnSource = splitURN[3];
+
+                var $tableselected
+
+                if (!urnSource || urnSource === "oma") { //OMA Objects
+                    $tableselected = $("#omaobjects_tbl");
                     ddfURL = urlPath + ddfURL;
-                } else if (source === "1") {
-                    var $tableselected = $("#thirdpartyobjects_tbl");
+                } else if (urnSource === "ext") {
+                    $tableselected = $("#thirdpartyobjects_tbl");
                     ddfURL = urlPath + 'lwm2m/' + ddfURL;
-                } else if (source === "2") {
-                    var $tableselected = $("#publicobjects_tbl");
+                } else if (urnSource === "x") {
+                    $tableselected = $("#publicobjects_tbl");
                     ddfURL = urlPath + 'lwm2m/' + ddfURL;
                 }
 
@@ -69,10 +72,7 @@
                         '<td style="width:10%; text-align: center">' +
                             ((tsLink > 0) ? '<a href="' + tsURL + '" title="download document">' + '<img src="../../Images/Windows_download.gif" alt="Download TS"></img>' + '</a>' : '-') +
                         '</td>' + 
-                        '<td style="width:10%; text-align: center">' +
-                            ((vortoLink) ? '<a href ="' + vortoLink + '" target="_blank">' + '<img src="http://vorto.eclipse.org/images/favicon.png" alt="Vorto Link"></img>' + '</a>' : '-') +
-                        '</td>' +
-                        ((source === "1" || source === "2") ? '<td>' + owner + '</td>' : '') +
+                        ((urnSource === "ext" || urnSource === "x") ? '<td>' + owner + '</td>' : '') +
                         '<td>' +
                             '<p>' + description + '</p>' +
                         '</td>' +
@@ -106,9 +106,6 @@
                         '<td style="width:10%; text-align: center">' +
                             'Error: Unable to load document: ' + ddfXMLFileURL + 
                         '</td>' + 
-                        '<td style="width:10%; text-align: center">' +
-                            'Error: Unable to load document: ' + ddfXMLFileURL + 
-                        '</td>' +
                         '<td>' +
                             'Error: Unable to load document: ' + ddfXMLFileURL + 
                         '</td>' +
@@ -151,19 +148,6 @@
                     '</tr>'
                 );
             });
-        },
-        error: function (xmlDoc) {
-            var $tableselected = $('#reservedobjects_tbl');
-            $tableselected.find('tbody').append(
-                    '<tr>' +
-                        '<td>' +
-                            'Error: Unable to load document: ' + reservedXMLFileUrl + 
-                        '</td>' +
-                        '<td>' +
-                            'Error: Unable to load document: ' + reservedXMLFileUrl + 
-                        '</td>' +                        
-                    '</tr>'
-                );
         }
     });
 
