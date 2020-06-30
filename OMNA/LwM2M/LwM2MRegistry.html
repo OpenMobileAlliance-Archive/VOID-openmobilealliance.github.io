@@ -15,25 +15,50 @@
     <link rel="stylesheet" href="../../CSS/Site.css">
     <link rel="stylesheet" href="../../CSS/tabledregistries.css">
     <link rel="shortcut icon" href="https://www.omaspecworks.org/wp-content/uploads/2018/01/favicon-1.png" type="image/x-icon">
+    <script src="../../Scripts/config.js"></script>
     <script src="../../Scripts/tabledregistries.js"></script>
     <script src="../../Scripts/lwm2m_xmlregistries.js"></script>
+    <script src="../../Scripts/getRepositoryInfo.js"></script>
     <script>
         $(document).ready(function () {
+            var owner = config.owner;
+            var repo = config.repo;
+
             $('#header').load("../../header.html");
             $('#footer').load("../../footer.html");
             //$('#LwM2MObjects').load("LwM2MObjects.html", function () { SetUpExpandableTDs(); TablesWithRowspanStyleChanges(); });
             // For when using a clone Github repository as a submodule to get the DDF.xml file:
             // DisplayXML('../../lwm2m-registry/DDF.xml', '../../lwm2m-registry/reserved.xml', '../../lwm2m-registry/Common.xml');
             // For when using web server rewrite rules to rewrite /tech/profiles/lwm2m/DDF.xml to https://raw.githubusercontent.com/OpenMobileAlliance/trial/dev/DDF.xml
-            var $environmentURL = '';
+            var environmentUrl = '';
+            var branchName = 'prod';
+
             if (window.location.host.startsWith('localhost')) {
-                $environmentURL = 'https://testwww.openmobilealliance.org/tech/profiles/lwm2m/';
+                // $environmentURL = 'https://testwww.openmobilealliance.org/tech/profiles/lwm2m/';
+                branchName = 'test';
+                environmentUrl = `https://raw.githubusercontent.com/${owner}/${repo}/${branchName}`;
+            } else if (window.location.host.startsWith('test')) {
+                // $environmentURL = window.location.protocol + "//" + window.location.host + '/tech/profiles/lwm2m/'; // It's running on OMA server setup with URL rewriting to Github repository for DDF.xml, etc
+                branchName = 'test';
+                environmentUrl = `https://raw.githubusercontent.com/${owner}/${repo}/${branchName}`;
             } else {
-                $environmentURL = window.location.protocol + "//" + window.location.host + '/tech/profiles/lwm2m/'; // It's running on OMA server setup with URL rewriting to Github repository for DDF.xml, etc
+                branchName = 'prod';
+                environmentUrl = `https://raw.githubusercontent.com/${owner}/${repo}/${branchName}`;
+
+                // If production then remove the branch/tag selector
+                $('#branch-selector-dd').remove();
             }
-            DisplayXML($environmentURL + 'DDF.xml', './reserved.xml', $environmentURL + 'Common.xml');
+
+            
+            // DisplayXML($environmentURL + 'DDF.xml', './reserved.xml', $environmentURL + 'Common.xml');
+            DisplayXML(`${environmentUrl}/DDF.xml`, './reserved.xml', `${environmentUrl}/Common.xml`);
             SetUpExpandableTDs();
             TablesWithRowspanStyleChanges();
+
+            // getRepositoryInfo('https://api.github.com/repos/OpenMobileAlliance/ignore-lwm2m-registry/releases/tags/:tag')
+            getRepositoryInfo(owner,repo, () => {$('#branch-selector-dd').val(environmentUrl)})
+
+            
         });
     </script>
     <script src="../../Scripts/googleanalytics.js"></script>
@@ -41,6 +66,9 @@
 <body>
     <!-- This gets populated with the header.html using Javascript -->
     <div id="header"></div>
+    <select id="branch-selector-dd" onchange="DisplayXML(`${this.value}/DDF.xml`,'./reserved.xml',`${this.value}/Common.xml`)">
+        <option value="" disabled >Select a branch/tag</option>
+    </select>
     <div class="container">
         <div>
             <h1>
@@ -276,7 +304,7 @@
                 <thead>
                     <tr>
                         <th>URN / Version</th>
-                        <th>XML Name<br />
+                        <th>XML Name<br /></th>
                         <th>LwM2M Editor</th>
                         <th>Object Name</th>
                         <th>Technical Specification</th>
