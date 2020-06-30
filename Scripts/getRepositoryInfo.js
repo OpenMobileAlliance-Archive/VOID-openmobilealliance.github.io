@@ -37,7 +37,7 @@ function getRepositoryInfo(owner, repo, setSelectedOption) {
 
         const $branchSelector = $('#branch-selector-dd');
 
-        $branchSelector.append($('<option/>').val(branchUrl).text(branchName));
+        $branchSelector.append($('<option/>').val(branchUrl).text(`Branch - ${branchName}`));
       });
 
       setSelectedOption();

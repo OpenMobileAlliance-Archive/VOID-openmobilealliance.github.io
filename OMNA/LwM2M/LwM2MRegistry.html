@@ -66,9 +66,15 @@
 <body>
     <!-- This gets populated with the header.html using Javascript -->
     <div id="header"></div>
-    <select id="branch-selector-dd" onchange="DisplayXML(`${this.value}/DDF.xml`,'./reserved.xml',`${this.value}/Common.xml`)">
-        <option value="" disabled >Select a branch/tag</option>
-    </select>
+    <span>
+        Release/Branch:&nbsp;
+    </span>
+    <span>
+        <select id="branch-selector-dd" onchange="DisplayXML(`${this.value}/DDF.xml`,'./reserved.xml',`${this.value}/Common.xml`)">
+            <option value="" disabled >Select a branch/tag</option>
+        </select>
+    </span>
+
     <div class="container">
         <div>
             <h1>
