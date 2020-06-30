@@ -5,6 +5,9 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 _vti_*/
+*.sublime-project
+*.sublime-workspace
+*.swp
 
 # Runtime data
 pids

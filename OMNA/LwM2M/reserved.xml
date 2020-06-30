@@ -55,20 +55,55 @@
         <ObjectIDEndRange>33189</ObjectIDEndRange>
         <Company>Qualcomm</Company>
     </Item>
-         <Item>
+    <Item>
         <ObjectIDStartRange>33190</ObjectIDStartRange>
         <ObjectIDEndRange>33204</ObjectIDEndRange>
         <Company>Geoforce</Company>
     </Item>
-        <Item>
+    <Item>
         <ObjectIDStartRange>33205</ObjectIDStartRange>
         <ObjectIDEndRange>33254</ObjectIDEndRange>
         <Company>Telit</Company>
     </Item>
-       <Item>
+    <Item>
         <ObjectIDStartRange>33255</ObjectIDStartRange>
         <ObjectIDEndRange>33304</ObjectIDEndRange>
-        <Company>Altair Semiconductors</Company>
+        <Company>Altair Semiconductor</Company>
+    </Item>
+    <Item>
+        <ObjectIDStartRange>33305</ObjectIDStartRange>
+        <ObjectIDEndRange>33354</ObjectIDEndRange>
+        <Company>Xylem</Company>
+    </Item>
+        <Item>
+        <ObjectIDStartRange>33355</ObjectIDStartRange>
+        <ObjectIDEndRange>33404</ObjectIDEndRange>
+        <Company>Neopis co., ltd.</Company>
+    </Item>
+        <Item>
+        <ObjectIDStartRange>33405</ObjectIDStartRange>
+        <ObjectIDEndRange>33454</ObjectIDEndRange>
+        <Company>Sierra Wireless</Company>
+    </Item>
+        <Item>
+        <ObjectIDStartRange>33455</ObjectIDStartRange>
+        <ObjectIDEndRange>33504</ObjectIDEndRange>
+        <Company>ARM</Company>
+    </Item>
+        <Item>
+        <ObjectIDStartRange>33505</ObjectIDStartRange>
+        <ObjectIDEndRange>33554</ObjectIDEndRange>
+        <Company>Verizon</Company>
+    </Item>
+        <Item>
+        <ObjectIDStartRange>33555</ObjectIDStartRange>
+        <ObjectIDEndRange>33604</ObjectIDEndRange>
+        <Company>Treon</Company>
+    </Item>
+        <Item>
+        <ObjectIDStartRange>33605</ObjectIDStartRange>
+        <ObjectIDEndRange>33654</ObjectIDEndRange>
+        <Company>AVSystem</Company>
     </Item>
     
 </ReservedObjects>
