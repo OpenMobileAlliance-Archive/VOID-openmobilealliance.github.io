@@ -1,5 +1,5 @@
 ﻿/* exported DisplayXML */
-function DisplayXML(ddfXMLFileURL, reservedXMLFileUrl, commonXMLFileUrl) {
+function DisplayXML(branchOrReleaseTagName, ddfXMLFileURL, reservedXMLFileUrl, commonXMLFileUrl) {
   // Load the DDF.xml data and fill in the OMA Objects, 3rd Party Objects and Individuals Objects tables
 
   // Get the working path of the repository for the relevant DDF
@@ -48,16 +48,21 @@ function DisplayXML(ddfXMLFileURL, reservedXMLFileUrl, commonXMLFileUrl) {
 
         let $tableselected;
 
+        const ddfUrlParts = ddfURL.split('/');
+        if (ddfUrlParts.length === 1) {
+          ddfURL = `${branchOrReleaseTagName}/${ddfURL}`;
+        }
+
         if (!urnSource || urnSource === 'oma') {
           // OMA Objects
           $tableselected = $('#omaobjects_tbl');
           ddfURL = urlPath + ddfURL;
         } else if (urnSource === 'ext') {
           $tableselected = $('#thirdpartyobjects_tbl');
-          ddfURL = `${urlPath}lwm2m/${ddfURL}`;
+          ddfURL = urlPath + ddfURL;
         } else if (urnSource === 'x') {
           $tableselected = $('#publicobjects_tbl');
-          ddfURL = `${urlPath}lwm2m/${ddfURL}`;
+          ddfURL = urlPath + ddfURL;
         }
 
         $tableselected.find('tbody').append(
