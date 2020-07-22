@@ -34,6 +34,7 @@
         // }
 
         function handleBranchSelectorChange(selectObject) {
+            console.debug('selectObject',selectObject)
             const selectObjValue = JSON.parse(selectObject.value);
 
             const tagName = selectObjValue.tagName;
@@ -114,8 +115,11 @@
                 for (let i = 0; i < selectObj.options.length; i++) {
                     let selectObjVal;
                     try {selectObjVal = JSON.parse(selectObj.options[i].value)} catch {}
+                    console.debug('urlValueToSet',urlValueToSet);
+                    console.debug('selectObjVal',selectObjVal);
 
                     if (selectObjVal && selectObjVal.url === urlValueToSet) {
+                        console.debug('Found branch to select', selectObjVal)
                         selectObj.options[i].selected = true;
                         break;
                     }
@@ -149,6 +153,9 @@
 
             const environmentUrl = `https://raw.githubusercontent.com/${owner}/${repo}/${branchName}`;
 
+            console.debug('environmentUrl',environmentUrl)
+            console.debug('owner',owner)
+            console.debug('repo',repo)
             // const options = $('#branch-selector-dd')[0].options;
             // let found = false;
             // for (let i=0;i<options.length;i+=1) {

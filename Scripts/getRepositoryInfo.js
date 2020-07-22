@@ -58,7 +58,7 @@ function getRepositoryInfo(owner, repo, setSelectedOption) {
         const tagName = release.tag_name;
         const tagFullName = release.name;
 
-        const branchUrl = `https://raw.githubusercontent.com/OpenMobileAlliance/ignore-lwm2m-registry/${tagName}`;
+        const branchUrl = `https://raw.githubusercontent.com/${owner}/${repo}/${tagName}`;
 
         const $branchSelector = $('#branch-selector-dd');
 
@@ -88,7 +88,7 @@ function getRepositoryInfo(owner, repo, setSelectedOption) {
           branches.forEach((branch) => {
             const branchName = branch.name;
 
-            const branchUrl = `https://raw.githubusercontent.com/OpenMobileAlliance/ignore-lwm2m-registry/${branchName}`;
+            const branchUrl = `https://raw.githubusercontent.com/${owner}/${repo}/${branchName}`;
 
             const $branchSelector = $('#branch-selector-dd');
 

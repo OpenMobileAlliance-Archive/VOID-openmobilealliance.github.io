@@ -1,6 +1,6 @@
 const config = {
   owner: 'OpenMobileAlliance',
-  repo: 'ignore-lwm2m-registry',
+  repo: 'lwm2m-registry',
   productionBranchName: 'prod',
   testBranchName: 'test',
   testUrlPrefix: 'test',
