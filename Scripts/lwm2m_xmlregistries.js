@@ -102,7 +102,8 @@ function DisplayXML(branchOrReleaseTagName, ddfXMLFileURL, reservedXMLFileUrl, c
         );
       });
     },
-    error() {
+    error(err) {
+      $('#errors').append(`Unable to load DDF:\n${JSON.stringify(err)}`);
       for (let i = 0; i < $tableselectedArray.length; i += 1) {
         $tableselectedArray[i].find('tbody').replaceWith('<tbody></tbody>');
         $tableselectedArray[i].find('tbody').append(
@@ -154,6 +155,9 @@ function DisplayXML(branchOrReleaseTagName, ddfXMLFileURL, reservedXMLFileUrl, c
 
         $tableselected.find('tbody').append(`<tr><td>${objectIDRange}</td><td>${company}</td></tr>`);
       });
+    },
+    error(err) {
+      $('#errors').append(`Unable to load reserved XML:\n${JSON.stringify(err)}`);
     },
   });
 
@@ -218,7 +222,9 @@ function DisplayXML(branchOrReleaseTagName, ddfXMLFileURL, reservedXMLFileUrl, c
         );
       });
     },
-    Error() {
+    error(err) {
+      $('#errors').append(`Unable to load common object XML:\n${JSON.stringify(err)}`);
+
       const $tableselected = $('#commonobjects_tbl');
       $tableselected.find('tbody').replaceWith('<tbody></tbody>');
       $tableselected.find('tbody').append(
