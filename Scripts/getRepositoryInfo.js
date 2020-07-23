@@ -47,7 +47,7 @@ function getRepositoryInfo(owner, repo, setSelectedOption) {
     headers,
     dataType: 'json',
     success(releaseData, releaseTextStatus, releaseRequest) {
-      $('#github-info').replaceWith(
+      $('#github-info').html(
         `You have ${releaseRequest.getResponseHeader('X-RateLimit-Remaining')} github API requests remaining. Resets at ${new Date(
           releaseRequest.getResponseHeader('X-RateLimit-Reset') * 1000
         ).toString()}<br/>`
@@ -77,7 +77,7 @@ function getRepositoryInfo(owner, repo, setSelectedOption) {
         headers,
         dataType: 'json',
         success(branchesData, branchesTextStatus, branchesRequest) {
-          $('#github-info').replaceWith(
+          $('#github-info').html(
             `You have ${branchesRequest.getResponseHeader('X-RateLimit-Remaining')} github API requests remaining. Resets at ${new Date(
               branchesRequest.getResponseHeader('X-RateLimit-Reset') * 1000
             ).toString()}<br/>`
