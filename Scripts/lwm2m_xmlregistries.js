@@ -18,8 +18,9 @@ function DisplayXML(branchOrReleaseTagName, ddfXMLFileURL, reservedXMLFileUrl, c
   // Clear the tables
   const $tableselectedArray = [$('#omaobjects_tbl'), $('#thirdpartyobjects_tbl'), $('#publicobjects_tbl')];
 
+  // Clear the tables
   $tableselectedArray.forEach(($table) => {
-    $table.find('tbody').replaceWith('<tbody></tbody>');
+    $table.find('tbody').replaceWith('<tbody><tr><td>...Loading</td></tr></tbody>');
   });
 
   $.ajax({
@@ -30,6 +31,14 @@ function DisplayXML(branchOrReleaseTagName, ddfXMLFileURL, reservedXMLFileUrl, c
     success(xmlDoc) {
       const $xml = $(xmlDoc);
       const $items = $xml.find('Item');
+
+      // Clear the tables
+      let $tableselected = $('#omaobjects_tbl');
+      $tableselected.find('tbody').replaceWith('<tbody></tbody>');
+      $tableselected = $('#thirdpartyobjects_tbl');
+      $tableselected.find('tbody').replaceWith('<tbody></tbody>');
+      $tableselected = $('#publicobjects_tbl');
+      $tableselected.find('tbody').replaceWith('<tbody></tbody>');
 
       $items.each(function () {
         const urn = $(this).find('URN').text();
@@ -45,8 +54,6 @@ function DisplayXML(branchOrReleaseTagName, ddfXMLFileURL, reservedXMLFileUrl, c
 
         const splitURN = urn.split(':');
         const urnSource = splitURN[3];
-
-        let $tableselected;
 
         const ddfUrlParts = ddfURL.split('/');
         if (ddfUrlParts.length === 1) {
@@ -97,6 +104,7 @@ function DisplayXML(branchOrReleaseTagName, ddfXMLFileURL, reservedXMLFileUrl, c
     },
     error() {
       for (let i = 0; i < $tableselectedArray.length; i += 1) {
+        $tableselectedArray[i].find('tbody').replaceWith('<tbody></tbody>');
         $tableselectedArray[i].find('tbody').append(
           `<tr>
             <!-- URN / Version -->
@@ -131,12 +139,13 @@ function DisplayXML(branchOrReleaseTagName, ddfXMLFileURL, reservedXMLFileUrl, c
       const $xml = $(xmlDoc);
       const $items = $xml.find('Item');
 
+      const $tableselected = $('#reservedobjects_tbl');
+      $tableselected.find('tbody').replaceWith('<tbody></tbody>');
+
       $items.each(function () {
         const objectIDStartRange = $(this).find('ObjectIDStartRange').text();
         const objectIDEndRange = $(this).find('ObjectIDEndRange').text();
         const company = $(this).find('Company').text();
-
-        const $tableselected = $('#reservedobjects_tbl');
 
         let objectIDRange = `${objectIDStartRange} - ${objectIDEndRange}`;
         if (objectIDStartRange === objectIDEndRange || !objectIDEndRange) {
@@ -158,6 +167,9 @@ function DisplayXML(branchOrReleaseTagName, ddfXMLFileURL, reservedXMLFileUrl, c
       const $xml = $(xmlDoc);
       const $items = $xml.find('Item');
 
+      const $tableselected = $('#commonobjects_tbl');
+      $tableselected.find('tbody').replaceWith('<tbody></tbody>');
+
       $items.each(function () {
         const resourceID = $(this).attr('ID');
         const resourceName = $(this).find('Name').text();
@@ -171,8 +183,6 @@ function DisplayXML(branchOrReleaseTagName, ddfXMLFileURL, reservedXMLFileUrl, c
         const description = $(this).find('Description').text();
         const tsURL = $(this).find('TS').text();
         const tsLink = $(this).find('TSLink').text();
-
-        const $tableselected = $('#commonobjects_tbl');
 
         $tableselected.find('tbody').append(
           `<tr><td>${resourceID}</td>
@@ -210,6 +220,7 @@ function DisplayXML(branchOrReleaseTagName, ddfXMLFileURL, reservedXMLFileUrl, c
     },
     Error() {
       const $tableselected = $('#commonobjects_tbl');
+      $tableselected.find('tbody').replaceWith('<tbody></tbody>');
       $tableselected.find('tbody').append(
         `<tr><td>Error: Unable to load document: ${commonXMLFileUrl}</td>
           <td>

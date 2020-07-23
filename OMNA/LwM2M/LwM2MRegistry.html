@@ -34,7 +34,6 @@
         // }
 
         function handleBranchSelectorChange(selectObject) {
-            console.debug('selectObject',selectObject)
             const selectObjValue = JSON.parse(selectObject.value);
 
             const tagName = selectObjValue.tagName;
@@ -110,22 +109,30 @@
                 if (selectObj[0])
                     selectObj = selectObj[0];
 
-                        selectObj.options[0].selected = true; 
+                selectObj.options[0].selected = true; 
 
                 for (let i = 0; i < selectObj.options.length; i++) {
                     let selectObjVal;
                     try {selectObjVal = JSON.parse(selectObj.options[i].value)} catch {}
-                    console.debug('urlValueToSet',urlValueToSet);
-                    console.debug('selectObjVal',selectObjVal);
 
                     if (selectObjVal && selectObjVal.url === urlValueToSet) {
-                        console.debug('Found branch to select', selectObjVal)
                         selectObj.options[i].selected = true;
                         break;
                     }
                 }
 
-                selectObj.dispatchEvent(new Event('change'));
+                const selectObjValue = JSON.parse(selectObj.value);
+
+                const tagName = selectObjValue.tagName;
+                const branchName = selectObjValue.branchName;
+                const url = selectObjValue.url;
+
+                DisplayXML(tagName || branchName, `${url}/DDF.xml`,'./reserved.xml',`${url}/Common.xml`); 
+                SetUpExpandableTDs();
+                TablesWithRowspanStyleChanges();
+
+                // Removed this because we don't want to set the query string on the initial load of the page.
+                // selectObj.dispatchEvent(new Event('change'));
             }
 
             //$('#LwM2MObjects').load("LwM2MObjects.html", function () { SetUpExpandableTDs(); TablesWithRowspanStyleChanges(); });
@@ -146,16 +153,14 @@
                 } else {
                     branchName = productionBranchName;
 
-                    // If production then remove the branch/tag selector
-                    $('#branch-selection').remove();
+                    // If production then hide the branch/tag selector
+                    $('#branch-selection').hide();
+                    $('#show-branch-selection').show();
                 }
             }
 
             const environmentUrl = `https://raw.githubusercontent.com/${owner}/${repo}/${branchName}`;
 
-            console.debug('environmentUrl',environmentUrl)
-            console.debug('owner',owner)
-            console.debug('repo',repo)
             // const options = $('#branch-selector-dd')[0].options;
             // let found = false;
             // for (let i=0;i<options.length;i+=1) {
@@ -186,6 +191,9 @@
     <!-- This gets populated with the header.html using Javascript -->
     <div id="header"></div>
     <div id="errors"></div>
+    <div id="show-branch-selection">
+        <button hidden onclick="() => {$('#branch-selection').show(); $('#show-branch-selection').hide();}">Show branch selection</button>
+    </div>
     <div id="branch-selection">
         <div id="github-credentials">
             <form id="github-credentials-form">
