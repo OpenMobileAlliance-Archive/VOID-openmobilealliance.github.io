@@ -102,8 +102,13 @@ function DisplayXML(branchOrReleaseTagName, ddfXMLFileURL, reservedXMLFileUrl, c
         );
       });
     },
-    error(err) {
-      $('#errors').append(`Unable to load DDF:\n${JSON.stringify(err)}`);
+    error(request, textStatus, errorThrown) {
+      console.debug('request', request);
+      console.debug('textStatus', textStatus);
+      console.debug('errorThrown', errorThrown);
+      handleError(request, textStatus, `Unable to load DDF:\n${errorThrown}`);
+      // $('#errors').append(`Unable to load DDF:\n${JSON.stringify(err)}`);
+
       for (let i = 0; i < $tableselectedArray.length; i += 1) {
         $tableselectedArray[i].find('tbody').replaceWith('<tbody></tbody>');
         $tableselectedArray[i].find('tbody').append(
@@ -156,8 +161,9 @@ function DisplayXML(branchOrReleaseTagName, ddfXMLFileURL, reservedXMLFileUrl, c
         $tableselected.find('tbody').append(`<tr><td>${objectIDRange}</td><td>${company}</td></tr>`);
       });
     },
-    error(err) {
-      $('#errors').append(`Unable to load reserved XML:\n${JSON.stringify(err)}`);
+    error(request, textStatus, errorThrown) {
+      handleError(request, textStatus, `Unable to load reserved XML:\n${errorThrown}`);
+      // $('#errors').append(`Unable to load reserved XML:\n${JSON.stringify(err)}`);
     },
   });
 
@@ -222,8 +228,10 @@ function DisplayXML(branchOrReleaseTagName, ddfXMLFileURL, reservedXMLFileUrl, c
         );
       });
     },
-    error(err) {
-      $('#errors').append(`Unable to load common object XML:\n${JSON.stringify(err)}`);
+    error(request, textStatus, errorThrown) {
+      handleError(request, textStatus, `Unable to load common object XML:\n${errorThrown}`);
+
+      // $('#errors').append(`Unable to load common object XML:\n${JSON.stringify(errorThrown)}`);
 
       const $tableselected = $('#commonobjects_tbl');
       $tableselected.find('tbody').replaceWith('<tbody></tbody>');

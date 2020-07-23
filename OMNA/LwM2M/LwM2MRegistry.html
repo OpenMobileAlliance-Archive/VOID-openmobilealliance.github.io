@@ -34,6 +34,11 @@
         // }
 
         function handleBranchSelectorChange(selectObject) {
+            // Clear the errors when selecting a different release/branch
+            $('#show-errors').hide(); 
+            $('#hide-errors').hide()
+            $('#errors').html('');
+
             const selectObjValue = JSON.parse(selectObject.value);
 
             const tagName = selectObjValue.tagName;
@@ -72,6 +77,31 @@
             $('#github-credentials-form').show();
             $('#github-credentials-remove-button').hide();
         }
+
+        function handleError(request, textStatus, errorThrow) {
+            const rateLimit = request.getResponseHeader('X-RateLimit-Limit');
+            const rateLimitRemaining = request.getResponseHeader('X-RateLimit-Remaining');
+            const rateLimitResetTime = request.getResponseHeader('X-RateLimit-Reset');
+
+            const errorMessage = request.responseJSON?.message || errorThrow?.message || errorThrow;
+
+            let rateLimitWillResetAt;
+            if (rateLimitResetTime) rateLimitWillResetAt = new Date(rateLimitResetTime * 1000);
+
+            const $errorSelector = $('#errors');
+            // Clear the errors so only show one at a time
+            $errorSelector.html('');
+            const $branchSelector = $('#branch-selector-dd');
+
+            $branchSelector.append($('<option/>').val('').text('Error retrieving data'));
+
+            $errorSelector.append(`${errorMessage}<br/>`);
+
+            if (rateLimitRemaining === '0' && rateLimitWillResetAt)
+            $errorSelector.append(`Github API Rate Limit Exceeded.<br/>This will reset at ${rateLimitWillResetAt.toString()}<br/>`);
+
+            $('#show-errors').show();
+        };
 
         // On back button
         window.onpopstate = function(e){
@@ -193,7 +223,9 @@
 <body>
     <!-- This gets populated with the header.html using Javascript -->
     <div id="header"></div>
-    <div id="errors"></div>
+    <button id="show-errors" hidden onclick="$('#errors').show(); $('#show-errors').hide(); $('#hide-errors').show()">Show errors</button>
+    <button id="hide-errors" hidden onclick="$('#errors').hide(); $('#show-errors').show(); $('#hide-errors').hide()">Hide errors</button>
+    <div hidden id="errors"></div>
     <div id="show-branch-selection" hidden>
         <button onclick="$('#branch-selection').show(); $('#show-branch-selection').hide();">Show release/branch selection</button>
     </div>

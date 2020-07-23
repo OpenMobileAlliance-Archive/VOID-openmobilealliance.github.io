@@ -35,6 +35,8 @@ function getRepositoryInfo(owner, repo, setSelectedOption) {
 
     if (rateLimitRemaining === '0' && rateLimitWillResetAt)
       $errorSelector.append(`Github API Rate Limit Exceeded.<br/>This will reset at ${rateLimitWillResetAt.toString()}<br/>`);
+
+    $('#show-errors').show();
   };
 
   const headers = auth && { Authorization: `Basic ${auth}` };
