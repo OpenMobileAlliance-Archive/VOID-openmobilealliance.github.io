@@ -73,11 +73,14 @@
             $('#github-credentials-remove-button').hide();
         }
 
+        // On back button
         window.onpopstate = function(e){
             if(e.state){
                 window.location.href = window.location.href;
                 // document.getElementById("content").innerHTML = e.state.html;
                 // document.title = e.state.pageTitle;
+            } else {
+                window.location.href = window.location.href;
             }
         };
 
@@ -147,6 +150,9 @@
                 if (window.location.host.startsWith(devUrlPrefix)) {
                     // $environmentURL = 'https://testwww.openmobilealliance.org/tech/profiles/lwm2m/';
                     branchName = devBranchName;
+                    
+                $('#branch-selection').hide();
+                    $('#show-branch-selection').show();
                 } else if (window.location.host.startsWith(testUrlPrefix)) {
                     // $environmentURL = window.location.protocol + "//" + window.location.host + '/tech/profiles/lwm2m/'; // It's running on OMA server setup with URL rewriting to Github repository for DDF.xml, etc
                     branchName = testBranchName;
@@ -154,8 +160,8 @@
                     branchName = productionBranchName;
 
                     // If production then hide the branch/tag selector
-                    $('#branch-selection').hide();
-                    $('#show-branch-selection').show();
+                    // $('#branch-selection').hide();
+                    // $('#show-branch-selection').show();
                 }
             }
 
