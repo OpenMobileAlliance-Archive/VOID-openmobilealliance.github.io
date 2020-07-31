@@ -15,25 +15,207 @@
     <link rel="stylesheet" href="../../CSS/Site.css">
     <link rel="stylesheet" href="../../CSS/tabledregistries.css">
     <link rel="shortcut icon" href="https://www.omaspecworks.org/wp-content/uploads/2018/01/favicon-1.png" type="image/x-icon">
+    <script src="../../Scripts/config.js"></script>
     <script src="../../Scripts/tabledregistries.js"></script>
     <script src="../../Scripts/lwm2m_xmlregistries.js"></script>
+    <script src="../../Scripts/getRepositoryInfo.js"></script>
+    <script>
+        // function handleLogin() {
+        //     const settings = {
+        //         client_id: '2dc4491401e24cd59f38',
+        //         url: 'https://github.com/login/oauth/authorize'
+        //     }
+            
+        //     // If localhost use redirect_uri
+        //     if (window.location.includes('localhost')){
+        //         settings.redirect_uri = 'http://localhost:3000/callback.html';
+
+        //     $.get(settings);
+        // }
+
+        function handleBranchSelectorChange(selectObject) {
+            // Clear the errors when selecting a different release/branch
+            $('#show-errors').hide(); 
+            $('#hide-errors').hide()
+            $('#errors').html('');
+
+            const selectObjValue = JSON.parse(selectObject.value);
+
+            const tagName = selectObjValue.tagName;
+            const branchName = selectObjValue.branchName;
+            const url = selectObjValue.url;
+
+            if (tagName)
+            history.pushState({'pageTitle':document.title},'',`?releaseTagName=${tagName}`)
+
+            if (branchName)
+            history.pushState({'pageTitle':document.title},'',`?branchName=${branchName}`)
+
+            DisplayXML(tagName || branchName, `${url}/DDF.xml`,'./reserved.xml',`${url}/Common.xml`); 
+            SetUpExpandableTDs();
+            TablesWithRowspanStyleChanges();
+        }
+
+        function handleSaveGithubCrendentials() {
+            // $('#github-credentials-form').serializeArray();
+            const username = $('#username').val();
+            const password = $('#user-access-token').val();
+
+            const formData = {};
+            formData.username = username;
+            formData.userAccessToken = password;
+
+            window.localStorage.githubAuth = JSON.stringify(formData);
+
+            $('#github-credentials-form').hide();
+            $('#github-credentials-remove-button').show();
+        }
+
+        function handleRemoveGithubCredentials() {
+            window.localStorage.removeItem('githubAuth'); 
+
+            $('#github-credentials-form').show();
+            $('#github-credentials-remove-button').hide();
+        }
+
+        function handleError(request, textStatus, errorThrow) {
+            const rateLimit = request.getResponseHeader('X-RateLimit-Limit');
+            const rateLimitRemaining = request.getResponseHeader('X-RateLimit-Remaining');
+            const rateLimitResetTime = request.getResponseHeader('X-RateLimit-Reset');
+
+            const errorMessage = request.responseJSON?.message || errorThrow?.message || errorThrow;
+
+            let rateLimitWillResetAt;
+            if (rateLimitResetTime) rateLimitWillResetAt = new Date(rateLimitResetTime * 1000);
+
+            const $errorSelector = $('#errors');
+            // Clear the errors so only show one at a time
+            $errorSelector.html('');
+            const $branchSelector = $('#branch-selector-dd');
+
+            $branchSelector.append($('<option/>').val('').text('Error retrieving data'));
+
+            $errorSelector.append(`${errorMessage}<br/>`);
+
+            if (rateLimitRemaining === '0' && rateLimitWillResetAt)
+            $errorSelector.append(`Github API Rate Limit Exceeded.<br/>This will reset at ${rateLimitWillResetAt.toString()}<br/>`);
+
+            $('#show-errors').show();
+        };
+
+        // On back button
+        window.onpopstate = function(e){
+            if(e.state){
+                window.location.href = window.location.href;
+                // document.getElementById("content").innerHTML = e.state.html;
+                // document.title = e.state.pageTitle;
+            } else {
+                window.location.href = window.location.href;
+            }
+        };
+
+
+    </script>
     <script>
         $(document).ready(function () {
+            const owner = config.owner;
+            const repo = config.repo;
+            const productionBranchName = config.productionBranchName;
+            const testBranchName = config.testBranchName;
+            const devBranchName = config.devBranchName;
+            const testUrlPrefix = config.testUrlPrefix;
+            const devUrlPrefix = config.devUrlPrefix;
+
             $('#header').load("../../header.html");
             $('#footer').load("../../footer.html");
+
+            const githubAuth = window.localStorage.githubAuth;
+            if (!githubAuth) {
+                $('#github-credentials-form').show();
+                $('#github-credentials-remove-button').hide();
+            } else {
+                $('#github-credentials-form').hide();
+                $('#github-credentials-remove-button').show();
+            }
+
+            function setSelectedValue(selectObj, urlValueToSet) {
+                if (selectObj[0])
+                    selectObj = selectObj[0];
+
+                selectObj.options[0].selected = true; 
+
+                for (let i = 0; i < selectObj.options.length; i++) {
+                    let selectObjVal;
+                    try {selectObjVal = JSON.parse(selectObj.options[i].value)} catch {}
+
+                    if (selectObjVal && selectObjVal.url === urlValueToSet) {
+                        selectObj.options[i].selected = true;
+                        break;
+                    }
+                }
+
+                const selectObjValue = JSON.parse(selectObj.value);
+
+                const tagName = selectObjValue.tagName;
+                const branchName = selectObjValue.branchName;
+                const url = selectObjValue.url;
+
+                DisplayXML(tagName || branchName, `${url}/DDF.xml`,'./reserved.xml',`${url}/Common.xml`); 
+                SetUpExpandableTDs();
+                TablesWithRowspanStyleChanges();
+
+                // Removed this because we don't want to set the query string on the initial load of the page.
+                // selectObj.dispatchEvent(new Event('change'));
+            }
+
             //$('#LwM2MObjects').load("LwM2MObjects.html", function () { SetUpExpandableTDs(); TablesWithRowspanStyleChanges(); });
             // For when using a clone Github repository as a submodule to get the DDF.xml file:
             // DisplayXML('../../lwm2m-registry/DDF.xml', '../../lwm2m-registry/reserved.xml', '../../lwm2m-registry/Common.xml');
             // For when using web server rewrite rules to rewrite /tech/profiles/lwm2m/DDF.xml to https://raw.githubusercontent.com/OpenMobileAlliance/trial/dev/DDF.xml
-            var $environmentURL = '';
-            if (window.location.host.startsWith('localhost')) {
-                $environmentURL = 'https://testwww.openmobilealliance.org/tech/profiles/lwm2m/';
-            } else {
-                $environmentURL = window.location.protocol + "//" + window.location.host + '/tech/profiles/lwm2m/'; // It's running on OMA server setup with URL rewriting to Github repository for DDF.xml, etc
+            const urlParams = new URLSearchParams(window.location.search);
+
+            let branchName = urlParams.get('branchName') || urlParams.get('releaseTagName') || undefined;
+
+            if (!branchName) {
+                if (window.location.host.startsWith(devUrlPrefix)) {
+                    // $environmentURL = 'https://testwww.openmobilealliance.org/tech/profiles/lwm2m/';
+                    branchName = devBranchName;
+                } else if (window.location.host.startsWith(testUrlPrefix)) {
+                    // $environmentURL = window.location.protocol + "//" + window.location.host + '/tech/profiles/lwm2m/'; // It's running on OMA server setup with URL rewriting to Github repository for DDF.xml, etc
+                    branchName = testBranchName;
+                } else {
+                    branchName = productionBranchName;
+
+                    // If production then hide the branch/tag selector
+                    $('#branch-selection').hide();
+                    $('#show-branch-selection').show();
+                }
             }
-            DisplayXML($environmentURL + 'DDF.xml', './reserved.xml', $environmentURL + 'Common.xml');
-            SetUpExpandableTDs();
-            TablesWithRowspanStyleChanges();
+
+            const environmentUrl = `https://raw.githubusercontent.com/${owner}/${repo}/${branchName}`;
+
+            // const options = $('#branch-selector-dd')[0].options;
+            // let found = false;
+            // for (let i=0;i<options.length;i+=1) {
+            //     const option = options[i];
+
+            //     if (environmentUrl === option.value) {
+            //         found = true;
+            //     }
+            // }
+            
+
+            // if (found) {
+            //     $('#branch-selector-dd').val(environmentUrl)
+
+            //     DisplayXML(branchName, `${environmentUrl}/DDF.xml`, './reserved.xml', `${environmentUrl}/Common.xml`);
+            //     SetUpExpandableTDs();
+            //     TablesWithRowspanStyleChanges();
+            // } else {
+            //     $('#branch-selector-dd').val('')
+            // }
+
+            getRepositoryInfo(owner,repo, () => {setSelectedValue($('#branch-selector-dd'), environmentUrl)})
         });
     </script>
     <script src="../../Scripts/googleanalytics.js"></script>
@@ -41,6 +223,33 @@
 <body>
     <!-- This gets populated with the header.html using Javascript -->
     <div id="header"></div>
+    <button id="show-errors" hidden onclick="$('#errors').show(); $('#show-errors').hide(); $('#hide-errors').show()">Show errors</button>
+    <button id="hide-errors" hidden onclick="$('#errors').hide(); $('#show-errors').show(); $('#hide-errors').hide()">Hide errors</button>
+    <div hidden id="errors"></div>
+    <div id="show-branch-selection" hidden>
+        <button onclick="$('#branch-selection').show(); $('#show-branch-selection').hide();">Show release/branch selection</button>
+    </div>
+    <div id="branch-selection">
+        <div id="github-info"></div>
+        <div id="github-credentials">
+            <form id="github-credentials-form">
+                <!-- <div id="github-credentials-form"> -->
+                    <span>Username: <input id="username" name="username" type="text"></span><span>Github Personal Access Token: <input id="user-access-token" name="user-access-token" type="password"></span><span><button onclick="handleSaveGithubCrendentials()">Use Github credentials</button></span><span>You can create a personal access token <a href="https://github.com/settings/tokens" target="_blank">here</a></span>
+                <!-- </div> -->
+            </form>
+            <button id="github-credentials-remove-button" hidden onclick="handleRemoveGithubCredentials()">Remove Github credentials</button>
+        </div>
+        <div>
+            <span>
+                Release/Branch:&nbsp;
+            </span>
+            <span>
+                <select id="branch-selector-dd" onchange="handleBranchSelectorChange(this)">
+                    <option value="" disabled >Select a branch/tag</option>
+                </select>
+            </span>
+        </div>
+    </div>
     <div class="container">
         <div>
             <h1>
@@ -276,7 +485,7 @@
                 <thead>
                     <tr>
                         <th>URN / Version</th>
-                        <th>XML Name<br />
+                        <th>XML Name<br /></th>
                         <th>LwM2M Editor</th>
                         <th>Object Name</th>
                         <th>Technical Specification</th>
