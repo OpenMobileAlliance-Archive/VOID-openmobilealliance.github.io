@@ -58,6 +58,8 @@ function DisplayXML(branchOrReleaseTagName, ddfXMLFileURL, reservedXMLFileUrl, c
         const ddfUrlParts = ddfURL.split('/');
         if (ddfUrlParts.length === 1) {
           ddfURL = `${branchOrReleaseTagName}/${ddfURL}`;
+        } else if (ddfUrlParts[0] === 'snapshots') {
+          ddfURL = `${branchOrReleaseTagName}/${ddfURL}`;
         }
 
         if (!urnSource || urnSource === 'oma') {
