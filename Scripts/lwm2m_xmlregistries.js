@@ -58,7 +58,7 @@ function DisplayXML(branchOrReleaseTagName, ddfXMLFileURL, reservedXMLFileUrl, c
         const ddfUrlParts = ddfURL.split('/');
         if (ddfUrlParts.length === 1) {
           ddfURL = `${branchOrReleaseTagName}/${ddfURL}`;
-        } else if (ddfUrlParts[0] === 'snapshots') {
+        } else if (ddfUrlParts[0] === 'version_history') {
           ddfURL = `${branchOrReleaseTagName}/${ddfURL}`;
         }
 
