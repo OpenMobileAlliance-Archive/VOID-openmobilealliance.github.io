@@ -176,8 +176,10 @@
 
             let branchName = urlParams.get('branchName') || urlParams.get('releaseTagName') || undefined;
 
-            if (!branchName) {
-                if (window.location.host.startsWith(devUrlPrefix) || window.location.host.startsWith(testUrlPrefix)) {
+            console.debug('branchName', branchName)
+
+            if (window.location.host.startsWith(devUrlPrefix) || window.location.host.startsWith(testUrlPrefix)) {
+                if (!branchName) {  
                     if (window.location.host.startsWith(devUrlPrefix)) {
                         // $environmentURL = 'https://testwww.openmobilealliance.org/tech/profiles/lwm2m/';
                         branchName = devBranchName;                    
@@ -185,18 +187,25 @@
                     } else if (window.location.host.startsWith(testUrlPrefix)) {
                         // $environmentURL = window.location.protocol + "//" + window.location.host + '/tech/profiles/lwm2m/'; // It's running on OMA server setup with URL rewriting to Github repository for DDF.xml, etc
                         branchName = testBranchName;
+                        
                     }
-            
-                    const environmentUrl = `https://raw.githubusercontent.com/${owner}/${repo}/${branchName}`; 
-                    getRepositoryInfo(owner,repo, () => {setSelectedValue($('#branch-selector-dd'), environmentUrl)})
-                } else {
-                    branchName = productionBranchName;
-
-                    // If production then hide the branch/tag selector
-                    $('#branch-selection').remove();
-                    $('#show-branch-selection').remove(); // This could be show() if you wanted to give the end user a way to use the branch selector
                 }
+
+                // Once the page has loaded, show the branch selection options
+                $('#branch-selection').show();
+        
+                const environmentUrl = `https://raw.githubusercontent.com/${owner}/${repo}/${branchName}`; 
+                getRepositoryInfo(owner,repo, () => {setSelectedValue($('#branch-selector-dd'), environmentUrl)})
+            } else {
+                if (!branchName) {
+                    branchName = productionBranchName;
+                }
+
+                // If production then hide the branch/tag selector
+                $('#branch-selection').remove();
+                $('#show-branch-selection').remove(); // This could be show() if you wanted to give the end user a way to use the branch selector
             }
+            
 
 
 
@@ -234,7 +243,7 @@
     <div id="show-branch-selection" hidden>
         <button onclick="$('#branch-selection').show(); $('#show-branch-selection').hide();">Show release/branch selection</button>
     </div>
-    <div id="branch-selection">
+    <div id="branch-selection" hidden>
         <div id="github-info"></div>
         <div id="github-credentials">
             <form id="github-credentials-form">
