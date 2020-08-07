@@ -139,26 +139,30 @@
             }
 
             function setSelectedValue(selectObj, urlValueToSet) {
-                if (selectObj[0])
+                if (selectObj && selectObj.length > 0 && selectObj[0]) {
                     selectObj = selectObj[0];
 
-                selectObj.options[0].selected = true; 
+                    selectObj.options[0].selected = true; 
 
-                for (let i = 0; i < selectObj.options.length; i++) {
-                    let selectObjVal;
-                    try {selectObjVal = JSON.parse(selectObj.options[i].value)} catch {}
+                    for (let i = 0; i < selectObj.options.length; i++) {
+                        let selectObjVal;
+                        try {selectObjVal = JSON.parse(selectObj.options[i].value)} catch {}
 
-                    if (selectObjVal && selectObjVal.url === urlValueToSet) {
-                        selectObj.options[i].selected = true;
-                        break;
+                        if (selectObjVal && selectObjVal.url === urlValueToSet) {
+                            selectObj.options[i].selected = true;
+                            break;
+                        }
                     }
+
+                    const selectObjValue = JSON.parse(selectObj.value);
+
+                    const tagName = selectObjValue.tagName;
+                    const branchName = selectObjValue.branchName;
+                    const url = selectObjValue.url;
+                } else {
+                    branchName = productionBranchName;
+                    url = urlValueToSet;
                 }
-
-                const selectObjValue = JSON.parse(selectObj.value);
-
-                const tagName = selectObjValue.tagName;
-                const branchName = selectObjValue.branchName;
-                const url = selectObjValue.url;
 
                 DisplayXML(tagName || branchName, `${url}/DDF.xml`,'./reserved.xml',`${url}/Common.xml`); 
                 SetUpExpandableTDs();
@@ -176,8 +180,6 @@
 
             let branchName = urlParams.get('branchName') || urlParams.get('releaseTagName') || undefined;
 
-            console.debug('branchName', branchName)
-
             if (window.location.host.startsWith(devUrlPrefix) || window.location.host.startsWith(testUrlPrefix)) {
                 if (!branchName) {  
                     if (window.location.host.startsWith(devUrlPrefix)) {
@@ -193,6 +195,9 @@
 
                 // Once the page has loaded, show the branch selection options
                 $('#branch-selection').show();
+
+                const environmentUrl = `https://raw.githubusercontent.com/${owner}/${repo}/${branchName}`; 
+                getRepositoryInfo(owner,repo, () => {setSelectedValue($('#branch-selector-dd'), environmentUrl)}) 
             } else {
                 if (!branchName) {
                     branchName = productionBranchName;
@@ -201,11 +206,9 @@
                 // If production then hide the branch/tag selector
                 $('#branch-selection').remove();
                 $('#show-branch-selection').remove(); // This could be show() if you wanted to give the end user a way to use the branch selector
+
+                setSelectedValue($('#branch-selector-dd'), environmentUrl);
             }
-
-            const environmentUrl = `https://raw.githubusercontent.com/${owner}/${repo}/${branchName}`; 
-            getRepositoryInfo(owner,repo, () => {setSelectedValue($('#branch-selector-dd'), environmentUrl)}) 
-
 
 
             // const options = $('#branch-selector-dd')[0].options;
