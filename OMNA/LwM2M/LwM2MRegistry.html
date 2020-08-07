@@ -139,6 +139,9 @@
             }
 
             function setSelectedValue(selectObj, urlValueToSet) {
+                let tagName;
+                let branchName;
+                let url;
                 if (selectObj && selectObj.length > 0 && selectObj[0]) {
                     selectObj = selectObj[0];
 
@@ -156,9 +159,9 @@
 
                     const selectObjValue = JSON.parse(selectObj.value);
 
-                    const tagName = selectObjValue.tagName;
-                    const branchName = selectObjValue.branchName;
-                    const url = selectObjValue.url;
+                    tagName = selectObjValue.tagName;
+                    branchName = selectObjValue.branchName;
+                    url = selectObjValue.url;
                 } else {
                     branchName = productionBranchName;
                     url = urlValueToSet;
