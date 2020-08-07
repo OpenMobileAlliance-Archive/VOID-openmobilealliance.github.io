@@ -207,6 +207,7 @@
                 $('#branch-selection').remove();
                 $('#show-branch-selection').remove(); // This could be show() if you wanted to give the end user a way to use the branch selector
 
+                const environmentUrl = `https://raw.githubusercontent.com/${owner}/${repo}/${branchName}`; 
                 setSelectedValue($('#branch-selector-dd'), environmentUrl);
             }
 
