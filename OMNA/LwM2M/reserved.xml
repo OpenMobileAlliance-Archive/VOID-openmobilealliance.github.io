@@ -1,15 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ReservedObjects 
-    xmlns="http://www.openmobilealliance.org" 
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-    xsi:schemaLocation="http://www.openmobilealliance.org reserved.xsd">
+<ReservedObjects xmlns="http://www.openmobilealliance.org" 
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openmobilealliance.org reserved.xsd">
 
     <Item>
         <ObjectIDStartRange>32769</ObjectIDStartRange>
         <ObjectIDEndRange>32818</ObjectIDEndRange>
         <Company>Nokia</Company>
     </Item>
-        <Item>
+    <Item>
         <ObjectIDStartRange>32819</ObjectIDStartRange>
         <ObjectIDEndRange>32868</ObjectIDEndRange>
         <Company>VAISALA</Company>
@@ -19,38 +17,38 @@
         <ObjectIDEndRange>32918</ObjectIDEndRange>
         <Company>Eaton</Company>
     </Item>
-        <Item>
+    <Item>
         <ObjectIDStartRange>32919</ObjectIDStartRange>
         <ObjectIDEndRange>32968</ObjectIDEndRange>
         <Company>Eaton</Company>
     </Item>
-        <Item>
+    <Item>
         <ObjectIDStartRange>32969</ObjectIDStartRange>
         <ObjectIDEndRange>33009</ObjectIDEndRange>
         <Company>HOP Ubiquitous</Company>
     </Item>
-      <Item>
+    <Item>
         <ObjectIDStartRange>33010</ObjectIDStartRange>
         <ObjectIDEndRange>33039</ObjectIDEndRange>
         <Company>UnSeen Technologies</Company>
     </Item>
-          <Item>
+    <Item>
         <ObjectIDStartRange>33040</ObjectIDStartRange>
         <ObjectIDEndRange>33049</ObjectIDEndRange>
         <Company>NetComm Wireless</Company>
     </Item>
-     <Item>
+    <Item>
         <ObjectIDStartRange>33050</ObjectIDStartRange>
         <ObjectIDEndRange>33089</ObjectIDEndRange>
         <Company>U-Blox</Company>
     </Item>
-         <Item>
+    <Item>
         <ObjectIDStartRange>33090</ObjectIDStartRange>
         <ObjectIDEndRange>33139</ObjectIDEndRange>
         <Company>Gemalto</Company>
     </Item>
-    
-     <Item>
+
+    <Item>
         <ObjectIDStartRange>33140</ObjectIDStartRange>
         <ObjectIDEndRange>33189</ObjectIDEndRange>
         <Company>Qualcomm</Company>
@@ -75,58 +73,58 @@
         <ObjectIDEndRange>33354</ObjectIDEndRange>
         <Company>Xylem</Company>
     </Item>
-        <Item>
+    <Item>
         <ObjectIDStartRange>33355</ObjectIDStartRange>
         <ObjectIDEndRange>33404</ObjectIDEndRange>
         <Company>Neopis co., ltd.</Company>
     </Item>
-        <Item>
+    <Item>
         <ObjectIDStartRange>33405</ObjectIDStartRange>
         <ObjectIDEndRange>33454</ObjectIDEndRange>
         <Company>Sierra Wireless</Company>
     </Item>
-        <Item>
+    <Item>
         <ObjectIDStartRange>33455</ObjectIDStartRange>
         <ObjectIDEndRange>33504</ObjectIDEndRange>
         <Company>ARM</Company>
     </Item>
-        <Item>
+    <Item>
         <ObjectIDStartRange>33505</ObjectIDStartRange>
         <ObjectIDEndRange>33554</ObjectIDEndRange>
         <Company>Verizon</Company>
     </Item>
-        <Item>
+    <Item>
         <ObjectIDStartRange>33555</ObjectIDStartRange>
         <ObjectIDEndRange>33604</ObjectIDEndRange>
         <Company>Treon</Company>
     </Item>
-        <Item>
+    <Item>
         <ObjectIDStartRange>33605</ObjectIDStartRange>
         <ObjectIDEndRange>33654</ObjectIDEndRange>
         <Company>AVSystem</Company>
     </Item>
-        <Item>
+    <Item>
         <ObjectIDStartRange>33655</ObjectIDStartRange>
         <ObjectIDEndRange>33704</ObjectIDEndRange>
         <Company>U-Blox</Company>
     </Item>
-        <Item>
+    <Item>
         <ObjectIDStartRange>33705</ObjectIDStartRange>
         <ObjectIDEndRange>33754</ObjectIDEndRange>
         <Company>Airbus</Company>
     </Item>
-       <Item>
+    <Item>
         <ObjectIDStartRange>33755</ObjectIDStartRange>
         <ObjectIDEndRange>33804</ObjectIDEndRange>
         <Company>MikroTik</Company>
     </Item>
-    
-       <Item>
+
+    <Item>
         <ObjectIDStartRange>33805</ObjectIDStartRange>
         <ObjectIDEndRange>33854</ObjectIDEndRange>
         <Company>Cree Lighting</Company>
     </Item>
-     <Item>
+    <Item>
         <ObjectIDStartRange>33855</ObjectIDStartRange>
         <ObjectIDEndRange>33904</ObjectIDEndRange>
         <Company>Endian Technologies AB</Company>
@@ -141,7 +139,7 @@
         <ObjectIDEndRange>33969</ObjectIDEndRange>
         <Company>DGT SP. Z O.O</Company>
     </Item>
-        <Item>
+    <Item>
         <ObjectIDStartRange>33970</ObjectIDStartRange>
         <ObjectIDEndRange>34019</ObjectIDEndRange>
         <Company>Storopack</Company>
@@ -151,7 +149,7 @@
         <ObjectIDEndRange>34069</ObjectIDEndRange>
         <Company>Murata</Company>
     </Item>
-        <Item>
+    <Item>
         <ObjectIDStartRange>34070</ObjectIDStartRange>
         <ObjectIDEndRange>34119</ObjectIDEndRange>
         <Company>LEHE Information Technology Co.,Ltd</Company>
@@ -161,5 +159,9 @@
         <ObjectIDEndRange>34129</ObjectIDEndRange>
         <Company>VOI Technologies AB</Company>
     </Item>
-
+     <Item>
+        <ObjectIDStartRange>34130</ObjectIDStartRange>
+        <ObjectIDEndRange>34179</ObjectIDEndRange>
+        <Company>Telecommunication Technology Association</Company>
+    </Item>
 </ReservedObjects>

@@ -19,8 +19,16 @@
   },
   "homepage": "https://github.com/OpenMobileAlliance/openmobilealliance.github.io#readme",
   "devDependencies": {
-    "jshint": "^2.9.4",
-    "concurrently": "^2.0.0",
-    "lite-server": "^2.2.0"
-  }
+    "concurrently": "^5.2.0",
+    "eslint": "^7.5.0",
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-jsx-a11y": "^6.3.1",
+    "eslint-plugin-prettier": "^3.1.4",
+    "jshint": "^2.11.1",
+    "lite-server": "^2.5.4",
+    "prettier": "^2.0.5"
+  },
+  "dependencies": {}
 }

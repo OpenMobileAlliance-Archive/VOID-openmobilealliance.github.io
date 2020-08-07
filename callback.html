@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Open Mobile Alliance - LwM2M Registry</title>
+    <meta charset="utf-8" />
+    <script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
+    <!-- Font awesome for arrows -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css" />
+    <!-- Normalize CSS -->
+    <link rel="stylesheet" href="../../CSS/Normalize.css" />
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css" />
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css" />
+    <link rel="stylesheet" href="../../CSS/Site.css" />
+    <link rel="stylesheet" href="../../CSS/tabledregistries.css" />
+    <link rel="shortcut icon" href="https://www.omaspecworks.org/wp-content/uploads/2018/01/favicon-1.png" type="image/x-icon" />
+    <script src="../../Scripts/config.js"></script>
+    <script src="../../Scripts/tabledregistries.js"></script>
+    <script src="../../Scripts/lwm2m_xmlregistries.js"></script>
+    <script src="../../Scripts/getRepositoryInfo.js"></script>
+    <script>
+      const urlParams = new URLSearchParams(window.location.search);
+      const client_secret = ''; // This is a problem
+      const code = urlParams.get('code');
+
+      const settings = {
+        client_id: '2dc4491401e24cd59f38',
+        client_secret
+        code,
+        url: 'https://github.com/login/oauth/access_token',
+      };
+
+      if (window.location.includes('localhost')) settings.redirect_uri = 'http://localhost:3000/callback.html';
+
+      $.post(settings).success((response) => {window.localStorage.access_token = response.access_token});
+    </script>
+  </head>
+  <body></body>
+</html>
