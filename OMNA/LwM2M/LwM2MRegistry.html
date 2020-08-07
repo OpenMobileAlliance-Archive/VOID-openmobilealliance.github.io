@@ -177,22 +177,28 @@
             let branchName = urlParams.get('branchName') || urlParams.get('releaseTagName') || undefined;
 
             if (!branchName) {
-                if (window.location.host.startsWith(devUrlPrefix)) {
-                    // $environmentURL = 'https://testwww.openmobilealliance.org/tech/profiles/lwm2m/';
-                    branchName = devBranchName;
-                } else if (window.location.host.startsWith(testUrlPrefix)) {
-                    // $environmentURL = window.location.protocol + "//" + window.location.host + '/tech/profiles/lwm2m/'; // It's running on OMA server setup with URL rewriting to Github repository for DDF.xml, etc
-                    branchName = testBranchName;
+                if (window.location.host.startsWith(devUrlPrefix) || window.location.host.startsWith(testUrlPrefix)) {
+                    if (window.location.host.startsWith(devUrlPrefix)) {
+                        // $environmentURL = 'https://testwww.openmobilealliance.org/tech/profiles/lwm2m/';
+                        branchName = devBranchName;                    
+
+                    } else if (window.location.host.startsWith(testUrlPrefix)) {
+                        // $environmentURL = window.location.protocol + "//" + window.location.host + '/tech/profiles/lwm2m/'; // It's running on OMA server setup with URL rewriting to Github repository for DDF.xml, etc
+                        branchName = testBranchName;
+                    }
+            
+                    const environmentUrl = `https://raw.githubusercontent.com/${owner}/${repo}/${branchName}`; 
+                    getRepositoryInfo(owner,repo, () => {setSelectedValue($('#branch-selector-dd'), environmentUrl)})
                 } else {
                     branchName = productionBranchName;
 
                     // If production then hide the branch/tag selector
-                    $('#branch-selection').hide();
-                    $('#show-branch-selection').show();
+                    $('#branch-selection').remove();
+                    $('#show-branch-selection').remove(); // This could be show() if you wanted to give the end user a way to use the branch selector
                 }
             }
 
-            const environmentUrl = `https://raw.githubusercontent.com/${owner}/${repo}/${branchName}`;
+
 
             // const options = $('#branch-selector-dd')[0].options;
             // let found = false;
@@ -215,7 +221,6 @@
             //     $('#branch-selector-dd').val('')
             // }
 
-            getRepositoryInfo(owner,repo, () => {setSelectedValue($('#branch-selector-dd'), environmentUrl)})
         });
     </script>
     <script src="../../Scripts/googleanalytics.js"></script>
