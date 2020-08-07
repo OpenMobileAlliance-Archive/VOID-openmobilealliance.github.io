@@ -185,7 +185,11 @@
                     } else if (window.location.host.startsWith(testUrlPrefix)) {
                         // $environmentURL = window.location.protocol + "//" + window.location.host + '/tech/profiles/lwm2m/'; // It's running on OMA server setup with URL rewriting to Github repository for DDF.xml, etc
                         branchName = testBranchName;
+                        
                     }
+
+                    // Once the page has loaded, show the branch selection options
+                    $('#branch-selection').show();
             
                     const environmentUrl = `https://raw.githubusercontent.com/${owner}/${repo}/${branchName}`; 
                     getRepositoryInfo(owner,repo, () => {setSelectedValue($('#branch-selector-dd'), environmentUrl)})
@@ -234,7 +238,7 @@
     <div id="show-branch-selection" hidden>
         <button onclick="$('#branch-selection').show(); $('#show-branch-selection').hide();">Show release/branch selection</button>
     </div>
-    <div id="branch-selection">
+    <div id="branch-selection" hidden>
         <div id="github-info"></div>
         <div id="github-credentials">
             <form id="github-credentials-form">
