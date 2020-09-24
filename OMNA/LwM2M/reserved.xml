@@ -164,4 +164,9 @@
         <ObjectIDEndRange>34179</ObjectIDEndRange>
         <Company>Telecommunication Technology Association</Company>
     </Item>
+         <Item>
+        <ObjectIDStartRange>34180</ObjectIDStartRange>
+        <ObjectIDEndRange>34229</ObjectIDEndRange>
+        <Company>Kerlink</Company>
+    </Item>
 </ReservedObjects>
