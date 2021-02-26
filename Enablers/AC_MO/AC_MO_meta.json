@@ -1,0 +1,33 @@
+{
+    "id": "",
+    "name": "Application Characteristic Management Object",
+    "abbreviation": "AC_MO",
+    "description": "Application Characteristic Management Object used for provisioning.",
+    "resources": [
+        {
+            "name": "AC_MO Bugs",
+            "resourceType": "Issue",
+            "url": "https://github.com/OpenMobileAlliance/OMA_Enablers_Issues/issues"
+        },
+        {
+            "name": "AC Registry",
+            "resourceType": "Registry",
+            "url": "http://www.openmobilealliance.org/wp/OMNA/dm/dm_ac_registry.html"
+        },
+        {
+            "name": "MO Editor",
+            "resourceType": "Editor",
+            "url": "https://devtoolkit.openmobilealliance.org/OEditor/default.aspx"
+        },
+        {
+            "name": "AC MO Overview",
+            "resourceType": "Overview",
+            "url": "http://www.openmobilealliance.org/release/AC_MO/README.txt"
+        }
+    ],
+    "url": "http://www.openmobilealliance.org/release/AC_MO/",
+    "tags": [
+        "Management Object",
+        "MO"
+    ]
+}
