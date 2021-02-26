@@ -1,0 +1,33 @@
+{
+    "id": "",
+    "name": "Mobile Broadcast Services",
+    "abbreviation": "BCAST",
+    "description": "Mobile Broadcast Services.",
+    "resources": [
+        {
+            "name": "BCAST",
+            "resourceType": "Issue",
+            "url": "https://github.com/OpenMobileAlliance/OMA_Enablers_Issues/issues"
+        },
+        {
+            "name": "BCAST",
+            "resourceType": "Registry",
+            "url": "https://http://www.openmobilealliance.org/wp/OMNA/dm/dm_mo_registry.html"
+        },
+        {
+            "name": "MO Editor",
+            "resourceType": "Editor",
+            "url": "https://devtoolkit.openmobilealliance.org/MOEditor/default.aspx"
+        },
+        {
+            "name": "BCAST",
+            "resourceType": "Overview",
+            "url": "https://www.openmobilealliance.org/release/BCAST/README.txt"
+        }
+    ],
+    "url": "https://www.openmobilealliance.org/release/BCAST/",
+    "tags": [
+        "BCAST",
+        "MO"
+    ]
+}
