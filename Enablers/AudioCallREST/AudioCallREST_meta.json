@@ -1,28 +1,29 @@
 {
     "id": "",
-    "name": "Authorization Framework for Network APIs",
-    "abbreviation": "Autho4API",
-    "description": "Authorization Framework for Network APIs.",
+    "name": "RESTful Network API for Audio Call",
+    "abbreviation": "AudioCallREST",
+    "description": "RESTful Network API for Audio Call.",
     "resources": [
         {
-            "name": "Authorization Framework for Network APIs",
+            "name": "RESTful Network API for Audio Call",
             "resourceType": "Issue",
             "url": "https://github.com/OpenMobileAlliance/OMA_Enablers_Issues/issues"
         },
         {
-            "name": "Authorization Framework for Network APIs",
+            "name": "Audio Call",
             "resourceType": "Registry",
             "url": "https://www.openmobilealliance.org/wp/API_Inventory.html"
         },
         {
-            "name": "Authorization Framework for Network APIs",
+            "name": "RESTful Network API for Audio Call",
             "resourceType": "Overview",
-            "url": "https://www.openmobilealliance.org/release/Autho4API/README.txt"
+            "url": "https://www.openmobilealliance.org/release/AudioCallREST/README.txt"
         }
     ],
-    "url": "https://www.openmobilealliance.org/release/Autho4API/",
+    "url": "https://www.openmobilealliance.org/release/AudioCallREST/",
     "tags": [
         "Audio Call",
-        "REST"
+        "REST",
+        "API"
     ]
 }
