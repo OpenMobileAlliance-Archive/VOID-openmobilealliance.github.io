@@ -12,7 +12,7 @@
         {
             "name": "AC Registry",
             "resourceType": "Registry",
-            "url": "http://www.openmobilealliance.org/wp/OMNA/dm/dm_ac_registry.html"
+            "url": "https://www.openmobilealliance.org/wp/OMNA/dm/dm_ac_registry.html"
         },
         {
             "name": "MO Editor",
@@ -22,10 +22,10 @@
         {
             "name": "AC MO Overview",
             "resourceType": "Overview",
-            "url": "http://www.openmobilealliance.org/release/AC_MO/README.txt"
+            "url": "https://www.openmobilealliance.org/release/AC_MO/README.txt"
         }
     ],
-    "url": "http://www.openmobilealliance.org/release/AC_MO/",
+    "url": "https://www.openmobilealliance.org/release/AC_MO/",
     "tags": [
         "Management Object",
         "MO"
