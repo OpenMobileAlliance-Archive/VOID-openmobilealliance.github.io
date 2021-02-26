@@ -5,12 +5,12 @@
     "description": "Application Characteristic Management Object used for provisioning.",
     "resources": [
         {
-            "name": "AC_MO Bugs",
+            "name": "AC MO Bugs",
             "resourceType": "Issue",
             "url": "https://github.com/OpenMobileAlliance/OMA_Enablers_Issues/issues"
         },
         {
-            "name": "AC Registry",
+            "name": "AC MO Registry",
             "resourceType": "Registry",
             "url": "https://www.openmobilealliance.org/wp/OMNA/dm/dm_ac_registry.html"
         },
@@ -28,6 +28,7 @@
     "url": "https://www.openmobilealliance.org/release/AC_MO/",
     "tags": [
         "Management Object",
+        "AC",
         "MO"
     ]
 }

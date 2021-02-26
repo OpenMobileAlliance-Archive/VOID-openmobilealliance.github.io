@@ -12,7 +12,7 @@
         {
             "name": "BCAST",
             "resourceType": "Registry",
-            "url": "https://http://www.openmobilealliance.org/wp/OMNA/dm/dm_mo_registry.html"
+            "url": "https://www.openmobilealliance.org/wp/OMNA/dm/dm_mo_registry.html"
         },
         {
             "name": "MO Editor",

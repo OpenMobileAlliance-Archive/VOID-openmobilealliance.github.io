@@ -5,17 +5,17 @@
     "description": "Authorization Framework for Network APIs.",
     "resources": [
         {
-            "name": "Authorization Framework for Network APIs",
+            "name": "Autho4API",
             "resourceType": "Issue",
             "url": "https://github.com/OpenMobileAlliance/OMA_Enablers_Issues/issues"
         },
         {
-            "name": "Authorization Framework for Network APIs",
+            "name": "Autho4API",
             "resourceType": "Registry",
             "url": "https://www.openmobilealliance.org/wp/API_Inventory.html"
         },
         {
-            "name": "Authorization Framework for Network APIs",
+            "name": "Autho4API",
             "resourceType": "Overview",
             "url": "https://www.openmobilealliance.org/release/Autho4API/README.txt"
         }

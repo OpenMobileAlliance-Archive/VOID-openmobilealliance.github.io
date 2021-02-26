@@ -5,7 +5,7 @@
     "description": "RESTful Network API for Audio Call.",
     "resources": [
         {
-            "name": "RESTful Network API for Audio Call",
+            "name": "Audio Call",
             "resourceType": "Issue",
             "url": "https://github.com/OpenMobileAlliance/OMA_Enablers_Issues/issues"
         },
@@ -15,7 +15,7 @@
             "url": "https://www.openmobilealliance.org/wp/API_Inventory.html"
         },
         {
-            "name": "RESTful Network API for Audio Call",
+            "name": "Audio Call",
             "resourceType": "Overview",
             "url": "https://www.openmobilealliance.org/release/AudioCallREST/README.txt"
         }

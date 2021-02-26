@@ -5,7 +5,7 @@
     "description": "RESTful Network API for Address Book using an HTTP protocol binding.",
     "resources": [
         {
-            "name": "AddressbookREST Bugs",
+            "name": "Address Book Bugs",
             "resourceType": "Issue",
             "url": "https://github.com/OpenMobileAlliance/OMA_Enablers_Issues/issues"
         },
