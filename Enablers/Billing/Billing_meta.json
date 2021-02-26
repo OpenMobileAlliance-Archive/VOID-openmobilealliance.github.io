@@ -1,0 +1,22 @@
+{
+    "id": "",
+    "name": "Billing",
+    "abbreviation": "Billing",
+    "description": "Billing.",
+    "resources": [
+        {
+            "name": "Billing",
+            "resourceType": "Issue",
+            "url": "https://github.com/OpenMobileAlliance/OMA_Enablers_Issues/issues"
+        },
+        {
+            "name": "Billing",
+            "resourceType": "Overview",
+            "url": "https://www.openmobilealliance.org/release/Billing/README.txt"
+        }
+    ],
+    "url": "https://www.openmobilealliance.org/release/Billing/",
+    "tags": [
+        "Billing"
+    ]
+}
