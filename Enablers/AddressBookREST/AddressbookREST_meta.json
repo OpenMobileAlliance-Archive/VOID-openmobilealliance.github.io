@@ -1,0 +1,28 @@
+{
+    "id": "",
+    "name": "RESTful Network API for Address Book",
+    "abbreviation": "AddressbookREST",
+    "description": "RESTful Network API for Address Book using an HTTP protocol binding.",
+    "resources": [
+        {
+            "name": "AddressbookREST Bugs",
+            "resourceType": "Issue",
+            "url": "https://github.com/OpenMobileAlliance/OMA_Enablers_Issues/issues"
+        },
+        {
+            "name": "Address Book Registry",
+            "resourceType": "Registry",
+            "url": "http://www.openmobilealliance.org/wp/API_Inventory.html"
+        },
+        {
+            "name": "Address Book Overview",
+            "resourceType": "Overview",
+            "url": "http://www.openmobilealliance.org/release/AddressBookREST/README.txt"
+        }
+    ],
+    "url": "http://www.openmobilealliance.org/release/AddressBookREST/",
+    "tags": [
+        "Address Book",
+        "REST"
+    ]
+}
