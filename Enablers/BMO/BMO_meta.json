@@ -1,0 +1,34 @@
+{
+    "id": "",
+    "name": "Browser Management Object",
+    "abbreviation": "BMO",
+    "description": "Browser Management Object.",
+    "resources": [
+        {
+            "name": "BMO Bugs",
+            "resourceType": "Issue",
+            "url": "https://github.com/OpenMobileAlliance/OMA_Enablers_Issues/issues"
+        },
+        {
+            "name": "BMO",
+            "resourceType": "Registry",
+            "url": "https://www.openmobilealliance.org/wp/OMNA/dm/dm_mo_registry.html"
+        },
+        {
+            "name": "MO Editor",
+            "resourceType": "Editor",
+            "url": "https://devtoolkit.openmobilealliance.org/OEditor/default.aspx"
+        },
+        {
+            "name": "BMO Overview",
+            "resourceType": "Overview",
+            "url": "https://www.openmobilealliance.org/release/BMO/README.txt"
+        }
+    ],
+    "url": "https://www.openmobilealliance.org/release/BMO/",
+    "tags": [
+        "Management Object",
+        "MO",
+        "Browser"
+    ]
+}
