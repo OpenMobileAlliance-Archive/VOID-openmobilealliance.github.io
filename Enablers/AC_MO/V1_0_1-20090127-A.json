@@ -1,1 +1,37 @@
-{"input":{"cteatedAt":"2021-02-17T21:20:43.337Z","url":"http://www.openmobilealliance.org/release/AC_MO/V1_0_1-20090127-A/","host":"www.openmobilealliance.org"},"result":{"data":[{"url":"http://www.openmobilealliance.org/release/AC_MO/V1_0_1-20090127-A/OMA-RRELD-AC_MO-V1_0_1-20090127-A.pdf","file":"OMA-RRELD-AC_MO-V1_0_1-20090127-A.pdf","status":"Approved","version":"V1.0.1","date":"2009-01-27","contentMediaType":"application/pdf","description":"The scope of this document is limited to the Reference Release Definition of AC_MO according to OMA Release process and the Reference Release document baseline listed in section 5."},{"url":"http://www.openmobilealliance.org/release/AC_MO/V1_0_1-20090127-A/OMA-RRP-AC_MO-V1_0_1-20090127-A.zip","file":"OMA-RRP-AC_MO-V1_0_1-20090127-A.zip","status":"Approved","version":"V1.0.1","date":"2009-01-27","contentMediaType":"application/zip"},{"url":"http://www.openmobilealliance.org/release/AC_MO/V1_0_1-20090127-A/OMA-WP-AC_MO-2009027-A.pdf","file":"OMA-WP-AC_MO-2009027-A.pdf","status":"","version":"","date":"","contentMediaType":"application/pdf","description":"This whitepaper provides best practices on the creation of Management Objects (MOs) and Application Characteristics (ACs). This whitepaper also provides information on how to work with Open Mobile Alliance (OMA) on the registration of names and identifiers of MOs and ACs."}]}}
+{
+    "input": {
+        "cteatedAt": "2021-02-17T21:20:43.337Z",
+        "url": "http://www.openmobilealliance.org/release/AC_MO/V1_0_1-20090127-A/",
+        "host": "www.openmobilealliance.org"
+    },
+    "result": {
+        "data": [
+            {
+                "url": "http://www.openmobilealliance.org/release/AC_MO/V1_0_1-20090127-A/OMA-RRELD-AC_MO-V1_0_1-20090127-A.pdf",
+                "file": "OMA-RRELD-AC_MO-V1_0_1-20090127-A.pdf",
+                "status": "Approved",
+                "version": "V1.0.1",
+                "date": "2009-01-27",
+                "contentMediaType": "application/pdf",
+                "description": "The scope of this document is limited to the Reference Release Definition of AC_MO according to OMA Release process and the Reference Release document baseline listed in section 5."
+            },
+            {
+                "url": "http://www.openmobilealliance.org/release/AC_MO/V1_0_1-20090127-A/OMA-RRP-AC_MO-V1_0_1-20090127-A.zip",
+                "file": "OMA-RRP-AC_MO-V1_0_1-20090127-A.zip",
+                "status": "Approved",
+                "version": "V1.0.1",
+                "date": "2009-01-27",
+                "contentMediaType": "application/zip"
+            },
+            {
+                "url": "http://www.openmobilealliance.org/release/AC_MO/V1_0_1-20090127-A/OMA-WP-AC_MO-2009027-A.pdf",
+                "file": "OMA-WP-AC_MO-2009027-A.pdf",
+                "status": "Approved",
+                "version": "V1.0.1",
+                "date": "2009-01-27",
+                "contentMediaType": "application/pdf",
+                "description": "This whitepaper provides best practices on the creation of Management Objects (MOs) and Application Characteristics (ACs). This whitepaper also provides information on how to work with Open Mobile Alliance (OMA) on the registration of names and identifiers of MOs and ACs."
+            }
+        ]
+    }
+}
