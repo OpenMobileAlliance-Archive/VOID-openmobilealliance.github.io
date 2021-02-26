@@ -1,0 +1,23 @@
+{
+    "id": "",
+    "name": "Always Online Infrastructure",
+    "abbreviation": "AOI",
+    "description": "Always Online Infrastructure.",
+    "resources": [
+        {
+            "name": "AOI Bugs",
+            "resourceType": "Issue",
+            "url": "https://github.com/OpenMobileAlliance/OMA_Enablers_Issues/issues"
+        },
+        {
+            "name": "Always Online Infrastructure Overview",
+            "resourceType": "Overview",
+            "url": "https://www.openmobilealliance.org/release/AOI/README.txt"
+        }
+    ],
+    "url": "https://www.openmobilealliance.org/release/AOI/",
+    "tags": [
+        "Management Object",
+        "MO"
+    ]
+}
