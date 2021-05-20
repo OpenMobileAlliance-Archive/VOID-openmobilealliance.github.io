@@ -169,4 +169,9 @@
         <ObjectIDEndRange>34229</ObjectIDEndRange>
         <Company>Kerlink</Company>
     </Item>
+        <Item>
+        <ObjectIDStartRange>34230</ObjectIDStartRange>
+        <ObjectIDEndRange>34279</ObjectIDEndRange>
+        <Company>NTT DOCOMO</Company>
+    </Item>
 </ReservedObjects>
