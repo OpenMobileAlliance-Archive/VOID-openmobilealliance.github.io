@@ -174,4 +174,9 @@
         <ObjectIDEndRange>34279</ObjectIDEndRange>
         <Company>NTT DOCOMO</Company>
     </Item>
+        <Item>
+        <ObjectIDStartRange>34280</ObjectIDStartRange>
+        <ObjectIDEndRange>34329</ObjectIDEndRange>
+        <Company>Blackline Safety Corp</Company>
+    </Item>
 </ReservedObjects>
