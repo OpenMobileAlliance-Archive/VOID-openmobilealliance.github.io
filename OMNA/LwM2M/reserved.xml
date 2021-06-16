@@ -179,4 +179,9 @@
         <ObjectIDEndRange>34329</ObjectIDEndRange>
         <Company>Blackline Safety Corp</Company>
     </Item>
+        <Item>
+        <ObjectIDStartRange>34330</ObjectIDStartRange>
+        <ObjectIDEndRange>34379</ObjectIDEndRange>
+        <Company>Itron</Company>
+    </Item>
 </ReservedObjects>
