@@ -184,4 +184,9 @@
         <ObjectIDEndRange>34379</ObjectIDEndRange>
         <Company>Itron</Company>
     </Item>
+    <Item>
+        <ObjectIDStartRange>34380</ObjectIDStartRange>
+        <ObjectIDEndRange>34429</ObjectIDEndRange>
+        <Company>Arad Group</Company>
+    </Item>
 </ReservedObjects>
